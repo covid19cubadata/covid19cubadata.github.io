@@ -1,0 +1,183 @@
+#map-mun, #map-pro {
+	background-color: #ffffff;
+	min-height: 305px;
+}
+
+.rounded {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.border {
+	border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #1C1340;
+}
+
+#map-container {
+	padding: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#gen-info {
+	color:  #ffffff;
+	background-color: #1C1340;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.gen-info-item {
+	margin-bottom: 3px;
+}
+
+#logo-container  {
+	background-color:#D1D2D4;
+	margin-left: 5px;
+}
+
+#first-block {
+	height: 100px;
+	margin-top: 5px;
+}
+
+.erase {
+	padding-right: 0px;
+}
+
+#daily-single-info, #daily-sum-info, #countries-info, #ages-info {
+	height: 180px;
+}
+
+#sex-container, #contagio-container {
+	height: 180px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#daily-container {
+	margin-left: 5px;
+}
+
+#ages-container {
+	margin-right: 10px;
+}
+
+#sex-info, #contagio-info {
+	height: 160px;
+}
+
+.bd {
+	font-weight: bold;
+}
+
+.leaflet-popup-content-wrapper {
+	padding: 0px;
+}
+
+.leaflet-popup-content {
+	margin: 0px;
+}
+
+.small-pname {
+	color: #fff;
+	font-size: 13px;
+	width: 100%;
+	background-color: #461A57;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	padding-top:8px;
+	padding-bottom: 2px;
+}
+
+.small-content {
+	padding-top: 10px;
+}
+
+.small-pname, .small-plink, .small-content {
+	padding-left:10px;
+	padding-right: 15px;
+}
+
+#logo {
+	height: 100px;
+	margin-left: 0px;
+}
+
+.text-block {
+	color: #1C1340;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+#select-daily, #select-map {
+	font-weight: normal;
+}
+
+#map-quote {
+	font-size: 11px;
+}
+
+#info {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#date {
+	text-align: right;
+}
+
+@media screen and (max-width:900px){
+	#first-block {
+		height: 220px;
+		margin-top: 5px;
+	}
+	
+	#gen-info {
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	#map-container{
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	#sex-container, #contagio-container {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	#daily-container {
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 20px;
+	}
+	
+	#countries-container {
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 20px;
+	}
+	
+	#ages-container {
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	#data, #project, #date {
+		text-align: center;
+	}
+}
+

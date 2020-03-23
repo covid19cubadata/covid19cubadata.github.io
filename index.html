@@ -1,1 +1,124 @@
-test
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Covid19 - Dashboard Cuba </title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--
+	<link rel="icon" href="favicon.png">
+-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/leaflet.css" />
+	<link href="css/fontawesome-5.8.2/css/all.css" rel="stylesheet">
+	<link href="css/c3.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="first-block" class="row">
+	<div  class="col-lg-9 col-md-9 erase">
+		<div id="logo-container" class="">
+			<img id="logo" src="images/logo.jpg"> 
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3">
+		<div id="gen-info" class="rounded">
+			<p class="gen-info-item"><span class="bd gen-info-diagn">Diagnosticados:</span> <span id="gen-info-diagn-data"></span></p>
+			<p class="gen-info-item"><span class="bd gen-info-activ">Activos:</span> <span id="gen-info-activ-data"></span></p>
+			<p class="gen-info-item"><span class="bd gen-info-death">Muertes:</span> <span id="gen-info-death-data"></span></p>
+			<p class="gen-info-item"><span class="bd gen-info-gone">Evacuados:</span> <span id="gen-info-gone-data"></span></p>
+		</div>
+	</div>
+</div>	
+<div class="row">
+	<div class="col-lg-9 col-md-9 erase">
+		<div id="map-container" class="">
+			<div id="map-text" class="text-block">
+				Distribución por <select id="select-map">
+					<option select value="map-mun">municipios</option>
+					<option value="map-pro">provincias</option>
+				</select>
+			</div>
+			<div id="map-mun"></div>
+			<div id="map-pro" ></div>
+			<div id="map-quote">
+			* el cuadrado representa aquellos que por distintas razones no tengan localización conocida
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3">
+		<div id="sex-container" class="rounded border">
+			<div id="sex-text" class="text-block">
+				Casos por sexo
+			</div>
+			<div id="sex-info"></div>
+		</div>
+		<div id="contagio-container" class="rounded border">
+			<div id="contagio-text" class="text-block">
+				Casos por modo de contagio
+			</div>
+			<div id="contagio-info"></div>
+		</div>
+	</div>	
+</div>
+<div id="line-charts" class="row">
+	<div class="col-lg-4 col-md-4 erase">
+		<div id="daily-container" class="rounded border">
+			<div id="daily-text" class="text-block">
+				Evolución por 
+				<select id="select-daily">
+					<option select value="daily-single-info">casos diarios</option>
+					<option value="daily-sum-info">casos acumulados</option>
+				</select>
+			</div>
+			<div id="daily-single-info"></div>
+			<div id="daily-sum-info"style="display:none;"></div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-4 erase">
+		<div id="countries-container" class="rounded border">
+			<div id="countries-text" class="text-block">
+				Distribución por países
+			</div>
+			<div id="countries-info"></div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-4">
+		<div id="ages-container" class="rounded border">
+			<div id="ages-text" class="text-block">
+				Distribución por rangos etarios
+			</div>
+			<div id="ages-info"></div>
+		</div>
+	</div>
+</div>	
+
+<div id="info" class="row">
+	<div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a></div>
+	<div class="col-lg-4 col-md-4" id="project"></div>
+	<div class="col-lg-4 col-md-4" id="date">Ultima actualización <span id="update">fecha</span></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/c3.js"></script>
+<script src="js/custom.js"></script>
+
+</html> 
