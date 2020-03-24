@@ -1,4 +1,5 @@
 {
+    "schema-version": 2,
     "centros_aislamiento": {
         "ipk": {
             "id": "ipk",
