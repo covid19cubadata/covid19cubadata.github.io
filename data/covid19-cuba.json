@@ -73,22 +73,28 @@
             "dpacode_provincia": "25"
         },
         "hrf": {
-            "id":"hrf",
+            "id": "hrf",
             "nombre": "Hospital de Rehabilitación 'Faustino Pérez'",
             "provincia": "Sancti Spíritus",
             "dpacode_provincia": "28"
         },
         "hdo": {
-            "id":"hdo",
+            "id": "hdo",
             "nombre": "Hospital Clínico Quirúrgico de Diez de Octubre",
             "provincia": "La Habana",
             "dpacode_provincia": "23"
         },
         "hfv": {
-            "id":"hfv",
+            "id": "hfv",
             "nombre": "Hospital 'Fermín Valdés Domínguez'",
             "provincia": "Holguín",
             "dpacode_provincia": "32"
+        },
+        "cnv": {
+            "id": "cnv",
+            "nombre": "Centro de Aislamiento 'Nguyen Van Troi'",
+            "provincia": "Ciego de Ávila",
+            "dpacode_provincia": "29"
         }
     },
     "centros_diagnostico": {
@@ -926,7 +932,7 @@
                 ]
             },
             "12": {
-                "fecha" : "2020/03/22",
+                "fecha": "2020/03/22",
                 "diagnosticados": [
                     {
                         "id": "ru-1",
@@ -946,7 +952,8 @@
                         "centro_aislamiento": "ipk",
                         "centro_diagnostico": "ipk",
                         "posible_procedencia_contagio": [
-                            "fr","ru"
+                            "fr",
+                            "ru"
                         ]
                     },
                     {
@@ -990,7 +997,8 @@
                         "posible_procedencia_contagio": [
                             "es"
                         ]
-                    },{
+                    },
+                    {
                         "id": "fr-2",
                         "pais": "fr",
                         "edad": 57,
@@ -1034,6 +1042,182 @@
                     }
                 ],
                 "sujetos_riesgo": 1036
+            },
+            "13": {
+                "fecha": "2020/03/23",
+                "diagnosticados": [
+                    {
+                        "id": "cu-24",
+                        "pais": "cu",
+                        "edad": 57,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/15",
+                        "consulta_medico": "2020/03/18",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ]
+                    },
+                    {
+                        "id": "cu-25",
+                        "pais": "cu",
+                        "edad": 42,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/11",
+                        "consulta_medico": "2020/03/20",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "hlc",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "uy"
+                        ]
+                    },
+                    {
+                        "id": "cu-26",
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/15",
+                        "consulta_medico": "2020/03/19",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ]
+                    },
+                    {
+                        "id": "ru-2",
+                        "pais": "ru",
+                        "edad": 60,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/15",
+                        "consulta_medico": "2020/03/19",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "ipk",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "do"
+                        ]
+                    },
+                    {
+                        "id": "cu-27",
+                        "pais": "cu",
+                        "edad": 36,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/21",
+                        "consulta_medico": "2020/03/22",
+                        "municipio_detección": "Palma Soriano",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.07",
+                        "dpacode_provincia_deteccion": "34",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "csa",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-28",
+                        "pais": "cu",
+                        "edad": 42,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/15",
+                        "consulta_medico": "2020/03/19",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "cnv",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-29",
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/17",
+                        "consulta_medico": "2020/03/21",
+                        "municipio_detección": "Taguasco",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.03",
+                        "dpacode_provincia_deteccion": "28",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "hrf",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "do"
+                        ]
+                    },
+                    {
+                        "id": "cu-30",
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/20",
+                        "consulta_medico": "2020/03/22",
+                        "municipio_detección": "Placetas",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.08",
+                        "dpacode_provincia_deteccion": "26",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": null,
+                        "centro_aislamiento": "hmf",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    }
+                ],
+                 "sujetos_riesgo": 1229,
+                "recuperados_numero": 1,
+                "recuperados_id": ["cu-5"]
             }
         }
     }

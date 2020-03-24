@@ -29,7 +29,9 @@ var domains = {
 		'ca': 'Canadá',
 		'es': 'España',
 		'cn': 'China',
-		'ru': 'Rusia'
+		'ru': 'Rusia',
+		'uy': 'Uruguay',
+		'do': 'R.Dominicana'
 	};
 
 var contagio = {
@@ -60,6 +62,7 @@ $.getJSON("data/municipios.geojson",
 			var cases = {};
 			var deaths  = 0;
 			var gone = 0;
+			var recov = 0;
 			var sex_male = 0;
 			var sex_female = 0;
 			var sex_unknown = 0;
@@ -124,6 +127,9 @@ $.getJSON("data/municipios.geojson",
 				}
 				if ('evacuados_numero' in data.casos.dias[day]){
 					gone += data.casos.dias[day].evacuados_numero;
+				}
+				if ('recuperados_numero' in data.casos.dias[day]){
+					recov += data.casos.dias[day].recuperados_numero;
 				}
 			}
 			 
@@ -276,7 +282,7 @@ $.getJSON("data/municipios.geojson",
 					}
 			});
 			
-			return {"cases":cases,"deaths":deaths,"gone":gone,"female":sex_female,"male":sex_male,"unknownsex":sex_unknown};	
+			return {"cases":cases,"deaths":deaths,"gone":gone,"recov":recov,"female":sex_female,"male":sex_male,"unknownsex":sex_unknown};	
 		}
 		
 		
@@ -335,6 +341,7 @@ $.getJSON("data/municipios.geojson",
 			        'total':total,
 			        "deaths":globalInfo.deaths,
 			        "gone":globalInfo.gone,
+			        "recov": globalInfo.recov,
 			        "male":globalInfo.male,
 			        "female":globalInfo.female,
 			        "sexunknown":globalInfo.sex_unknown};
@@ -343,9 +350,10 @@ $.getJSON("data/municipios.geojson",
 		var genInfo = resumeCases();
 		
 		$('#gen-info-diagn-data').html(genInfo.total);
-		$('#gen-info-activ-data').html(genInfo.total -(genInfo.deaths + genInfo.gone));
+		$('#gen-info-activ-data').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
 		$('#gen-info-death-data').html(genInfo.deaths);
 		$('#gen-info-gone-data').html(genInfo.gone);
+		$('#gen-info-recov-data').html(genInfo.recov);
 		
 		
 		
