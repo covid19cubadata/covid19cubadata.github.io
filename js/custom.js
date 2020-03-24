@@ -485,7 +485,6 @@ $.getJSON("data/municipios.geojson",
 		
 		function setBounds(){
 			var val = $('#select-map').val();
-			console.log(val);
 			$('#map-mun').show();
 			$('#map-pro').show();
 			map_pro.fitBounds(geojsonP.getBounds());		

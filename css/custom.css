@@ -129,6 +129,25 @@
 	font-size: 11px;
 }
 
+#team > p {
+	font-weight: bold;
+	color: #1C1340;
+}
+
+#team {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#team-logos{
+	text-align: center;
+	
+}
+
+.team-logo {
+	height: 50px;
+}
+
 #info {
 	padding-top: 10px;
 	padding-left: 10px;
