@@ -45,9 +45,11 @@ $.getJSON("data/covid19-cuba.json", function (data) {
     $.getJSON("https://pomber.github.io/covid19/timeseries.json", function (series) {
         let cases = [];
         let temp = ['Cuba'];
+        let total = 0;
         for (const i in data.casos.dias) {
             const day = data.casos.dias[i];
-            temp.push(day.diagnosticados ? day.diagnosticados.length : 0);
+            total += day.diagnosticados ? day.diagnosticados.length : 0;
+            temp.push(total);
         }
         cases.push(temp);
 
