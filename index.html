@@ -45,9 +45,21 @@
 			</div>
 			<div id="map-mun"></div>
 			<div id="map-pro" ></div>
-			<div id="map-quote">
-			* el cuadrado representa aquellos que por distintas razones no tengan localización conocida
+			<div id="map-legend-container">
+				<div id="map-legend">
+					0 casos 
+					<i id="cases0" class="main-text fa fa-square"></i>
+					<i id="cases1" class="main-text fa fa-square"></i>
+					<i id="cases2" class="main-text fa fa-square"></i>
+					<i id="cases3" class="main-text fa fa-square"></i>
+					<i id="cases4" class="main-text fa fa-square"></i>
+					<i id="cases5" class="main-text fa fa-square"></i>
+					<span id="cases">#</span> casos
+				</div>				
 			</div>
+			<div id="map-quote">
+				* el cuadrado representa aquellos que por distintas razones no tengan localización conocida  <br>
+				</div>
 		</div>
 	</div>
 	<div class="col-lg-3 col-md-3">
@@ -69,14 +81,18 @@
 	<div class="col-lg-4 col-md-4 erase">
 		<div id="daily-container" class="rounded border">
 			<div id="daily-text" class="text-block">
-				Evolución por 
+				Evolución de casos por días 
+<!--
 				<select id="select-daily">
 					<option select value="daily-single-info">casos diarios</option>
 					<option value="daily-sum-info">casos acumulados</option>
 				</select>
+-->
 			</div>
 			<div id="daily-single-info"></div>
+<!--
 			<div id="daily-sum-info"style="display:none;"></div>
+-->
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-4 erase">

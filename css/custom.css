@@ -127,6 +127,7 @@
 
 #map-quote {
 	font-size: 11px;
+	text-align: center;
 }
 
 #team > p {
@@ -156,6 +157,17 @@
 
 #date {
 	text-align: right;
+}
+#map-legend {
+	text-align: center;
+}
+
+#map-legend-containe {
+	margin-top: 20px;
+}
+
+#cases0 {
+    color: #D1D2D4;
 }
 
 @media screen and (max-width:900px){

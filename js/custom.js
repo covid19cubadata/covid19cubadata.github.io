@@ -1,24 +1,24 @@
-$('#select-daily').on('change',function(e){
-		var val  = $('#select-daily').val();
-		if (val=='daily-single-info'){
-			$('#daily-sum-info').hide();	
-			$('#daily-single-info').show();	
-		} else {
-			$('#daily-single-info').hide();	
-			$('#daily-sum-info').show();	
-		}
-});
+//$('#select-daily').on('change',function(e){
+		//var val  = $('#select-daily').val();
+		//if (val=='daily-single-info'){
+			//$('#daily-sum-info').hide();	
+			//$('#daily-single-info').show();	
+		//} else {
+			//$('#daily-single-info').hide();	
+			//$('#daily-sum-info').show();	
+		//}
+//});
 
-$('#select-map').on('change',function(e){
-		var val  = $('#select-map').val();
-		if (val=='map-mun'){
-			$('#map-pro').hide();	
-			$('#map-mun').show();	
-		} else {
-			$('#map-mun').hide();	
-			$('#map-pro').show();	
-		}
-});
+//$('#select-map').on('change',function(e){
+		//var val  = $('#select-map').val();
+		//if (val=='map-mun'){
+			//$('#map-pro').hide();	
+			//$('#map-mun').show();	
+		//} else {
+			//$('#map-mun').hide();	
+			//$('#map-pro').show();	
+		//}
+//});
 
 var domains = {
 		'cu': 'Cuba',
@@ -138,7 +138,12 @@ $.getJSON("data/municipios.geojson",
 				bindto: "#sex-info",
 				data: {
 				  columns: [['Hombres',sex_male],['Mujeres',sex_female],['No reportado',sex_unknown]] ,
-				  type: 'pie'
+				  type: 'pie',
+				  colors: {
+					 'Mujeres': '#B01E22',
+					 'Hombres': '#1C1340',
+					 'No reportado': '#1A8323' 
+				  }
 				}
 			});
 			
@@ -170,7 +175,7 @@ $.getJSON("data/municipios.geojson",
 	                type: 'categorical'
 	              },
 	              y: {
-	                label: 'Casos Diagnosticados en Cuba',
+	                label: 'Casos',
 	                position: 'outer-middle',
 	              }
 	            }
@@ -202,7 +207,7 @@ $.getJSON("data/municipios.geojson",
 	                type: 'categorical'
 	              },
 	              y: {
-	                label: 'Casos Diagnosticados en Cuba',
+	                label: 'Casos',
 	                position: 'outer-middle',
 	              }
 	            }
@@ -213,14 +218,20 @@ $.getJSON("data/municipios.geojson",
 				bindto: "#contagio-info",
 				data: {
 				  columns: [['Importado',contagio.importado],['Introducido',contagio.introducido],['Autóctono',contagio.autoctono],['Desconocido',contagio.desconocido]] ,
-				  type: 'pie'
+				  type: 'pie',
+				  colors: {
+					 'Introducido': '#B01E22',
+					 'Importado': '#1C1340',
+					 'Autóctono': '#1A8323',
+					 'Desconocido': '#CA9F31' 
+				  }
 				}
 			});
 			
 			//Lines for contagio evolution
 			var dates = ['Fecha'];
 			var dailySingle = ['Casos en el día'];
-			var dailySum = ['Casos en total'];
+			var dailySum = ['Casos acumulados'];
 			var total = 0;
 			for(var i=1;i<=Object.keys(data.casos.dias).length;i++){
 				dates.push(data.casos.dias[i].fecha.replace('2020/',''));
@@ -239,35 +250,13 @@ $.getJSON("data/municipios.geojson",
 					  x : dates[0],
 					  columns: [
 						dates,
-						dailySingle
-					  ],
-					  type: 'line',
-		              colors: {
-						 'Casos en el día': '#B01E22' 
-					  }
-					},
-					axis: {
-					  x: {
-						label: 'Fecha',
-						type: 'categorical'
-					  },
-					  y: {
-						label: 'Casos diagnosticados en el día',
-						position: 'outer-middle',
-					  }
-					}
-			});
-			c3.generate({
-			bindto: "#daily-sum-info",
-				data: {
-					  x : dates[0],
-					  columns: [
-						dates,
+						dailySingle,
 						dailySum
 					  ],
 					  type: 'line',
 		              colors: {
-						 'Casos en total': '#B01E22' 
+						 'Casos en el día': '#B01E22',
+						 'Casos acumulados': '#1C1340' 
 					  }
 					},
 					axis: {
@@ -276,11 +265,35 @@ $.getJSON("data/municipios.geojson",
 						type: 'categorical'
 					  },
 					  y: {
-						label: 'Casos diagnosticados hasta ese día',
-						position: 'outer-middle'
+						label: 'Casos',
+						position: 'outer-middle',
 					  }
 					}
 			});
+			//c3.generate({
+			//bindto: "#daily-sum-info",
+				//data: {
+					  //x : dates[0],
+					  //columns: [
+						//dates,
+						//dailySum
+					  //],
+					  //type: 'line',
+		              //colors: {
+						 //'Casos en total': '#B01E22' 
+					  //}
+					//},
+					//axis: {
+					  //x: {
+						//label: 'Fecha',
+						//type: 'categorical'
+					  //},
+					  //y: {
+						//label: 'Casos diagnosticados hasta ese día',
+						//position: 'outer-middle'
+					  //}
+					//}
+			//});
 			
 			return {"cases":cases,"deaths":deaths,"gone":gone,"recov":recov,"female":sex_female,"male":sex_male,"unknownsex":sex_unknown};	
 		}
@@ -430,6 +443,13 @@ $.getJSON("data/municipios.geojson",
 			};
 		}
 		
+		$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
+		$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
+		$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
+		$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
+		$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
+		$('#cases').html(genInfo.max_muns);
+		
 		function getColorM(code){
 			if (code in muns) {
 				var opac = Math.log10(muns[code].total*factor/genInfo.max_muns);
@@ -502,9 +522,21 @@ $.getJSON("data/municipios.geojson",
 		$('#select-map').on('change',function(e){
 		var val  = $('#select-map').val();
 		if (val=='map-mun'){
+			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
+			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
+			$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
+			$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
+			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
+		$('#cases').html(genInfo.max_muns);
 			$('#map-pro').hide();	
 			$('#map-mun').show();	
 		} else {
+			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.2/genInfo.max_pros)+")");
+			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.4/genInfo.max_pros)+")");
+			$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.6/genInfo.max_pros)+")");
+			$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.8/genInfo.max_pros)+")");
+			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor/genInfo.max_pros)+")");
+			$('#cases').html(genInfo.max_pros);
 			$('#map-mun').hide();	
 			$('#map-pro').show();	
 		}
