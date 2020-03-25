@@ -176,6 +176,10 @@ body > div {
     color: #D1D2D4;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 900px) {
     #first-block {
         height: 220px;
