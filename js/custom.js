@@ -55,7 +55,7 @@ $.getJSON("data/covid19-cuba.json", function (data) {
 
         const max_days = Object.keys(data.casos.dias).length;
 
-        let countries = ['Italy', 'Spain', 'Brazil'];
+        let countries = ['Italy', 'Spain', 'Brazil', 'Argentina', 'US', 'Korea, South'];
         for (const i in series) {
             if (countries.includes(i)) {
                 temp = [i];
