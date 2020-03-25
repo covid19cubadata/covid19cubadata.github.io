@@ -204,7 +204,7 @@
                     {
                         "id": "cu-1",
                         "pais": "cu",
-                        "edad": null,
+                        "edad": 25,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": "2020/02/24",
                         "consulta_medico": "2020/03/08",
@@ -1224,7 +1224,7 @@
                 ],
                 "sujetos_riesgo": 1229,
                 "recuperados_numero": 1,
-                "recuperados_id": ["cu-5"]
+                "recuperados_id": ["cu-1"]
             },
             "14": {
                 "fecha": "2020/03/24",
@@ -1276,7 +1276,7 @@
                         "consulta_medico": "2020/03/16",
                         "municipio_detección": "Arroyo Naranjo",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_municipio_deteccion": "23.14",
                         "dpacode_provincia_deteccion": "23",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
