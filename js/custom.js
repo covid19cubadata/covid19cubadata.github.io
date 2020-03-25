@@ -262,7 +262,8 @@ $.getJSON("data/municipios.geojson",
 					axis: {
 					  x: {
 						label: 'Fecha',
-						type: 'categorical'
+						type: 'categorical',
+						show: false
 					  },
 					  y: {
 						label: 'Casos',
