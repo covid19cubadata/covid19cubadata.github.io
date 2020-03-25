@@ -31,7 +31,9 @@ var domains = {
 		'cn': 'China',
 		'ru': 'Rusia',
 		'uy': 'Uruguay',
-		'do': 'R.Dominicana'
+		'do': 'R.Dominicana',
+		'hr': 'Croacia',
+		'co': 'Colombia'
 	};
 
 var contagio = {
