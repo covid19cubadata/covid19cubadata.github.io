@@ -1,3 +1,5 @@
+body > div {max-width:100%}
+
 #map-mun, #map-pro {
 	background-color: #ffffff;
 	min-height: 280px;
