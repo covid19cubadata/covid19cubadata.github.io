@@ -232,6 +232,11 @@
 	padding-right: 5px;
 }
 
+#info-note {
+	color: red;
+	margin-left: 25px;
+}
+
 @media screen and (max-width:900px){
 	#first-block {
 		height: 220px;
