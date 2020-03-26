@@ -1,6 +1,6 @@
 #map-mun, #map-pro {
 	background-color: #ffffff;
-	min-height: 305px;
+	min-height: 280px;
 }
 
 #project {
@@ -27,7 +27,7 @@
 	padding: 10px;
 	margin-left: 5px;
 	margin-top: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 #gen-info {
@@ -54,24 +54,45 @@
 
 .erase {
 	padding-right: 0px;
+	padding-left: 0px;
 }
 
-#daily-single-info, #daily-sum-info, #countries-info, #ages-info {
+#countries-info, #ages-info {
 	height: 180px;
 }
+
 
 #sex-container, #contagio-container {
 	height: 180px;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right: 10px;
 }
 
-#daily-container {
-	margin-left: 5px;
+#line-charts {
+	margin-top: 10px;
 }
+#countries-container {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#daily-container-block {
+	padding-left:15px;
+}
+
+
 
 #ages-container {
 	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.erase-right {
+	padding-right: 0px;
+}
+
+.erase-left {
+	padding-left: 0px;
 }
 
 #sex-info, #contagio-info {
@@ -121,7 +142,7 @@
 	font-weight: bold;
 }
 
-#select-daily, #select-map {
+#select-map {
 	font-weight: normal;
 }
 
@@ -162,12 +183,53 @@
 	text-align: center;
 }
 
-#map-legend-containe {
+#map-legend-container {
 	margin-top: 20px;
 }
 
 #cases0 {
     color: #D1D2D4;
+}
+
+#countries-comparison, #countries-curve {
+	height: 180px;
+}
+
+#countriescurve-info-container {
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+#daily-container {
+	margin-top: 5px;
+	height: 260px;
+}
+
+#daily-single-info, #daily-sum-info {
+	height: 225px;
+}
+
+#countriescurve-info {
+	min-height:260px;
+	margin-left: 5px;
+	text-align: center;
+	margin-right: 20px;
+	text-align: left;
+}
+
+#countrycurve-select {
+	font-weight: normal;
+}
+
+.sub {
+	font-weight: normal;
+	margin-top:5px;
+}
+
+#countriescurve-block-container {
+	margin-top:5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 @media screen and (max-width:900px){
@@ -206,13 +268,29 @@
 	}
 	
 	#ages-container {
-		margin-top: 5px;
-		margin-left: 5px;
+		margin-top: 10px;
+		margin-left: 20px;
 		margin-right: 5px;
 	}
 	
 	#data, #project, #date {
 		text-align: center;
+	}
+	
+	#daily-container {
+		margin-left: 0px;
+	}
+	
+	#countriescurve-block-container {
+		margin-left: 5px;
+	}
+	
+	#countriescurve-block-container {
+		margin-top:10px;
+	}
+	
+	#countriescurve-info {
+		margin-right: 15px;
 	}
 }
 

@@ -1,25 +1,3 @@
-//$('#select-daily').on('change',function(e){
-		//var val  = $('#select-daily').val();
-		//if (val=='daily-single-info'){
-			//$('#daily-sum-info').hide();	
-			//$('#daily-single-info').show();	
-		//} else {
-			//$('#daily-single-info').hide();	
-			//$('#daily-sum-info').show();	
-		//}
-//});
-
-//$('#select-map').on('change',function(e){
-		//var val  = $('#select-map').val();
-		//if (val=='map-mun'){
-			//$('#map-pro').hide();	
-			//$('#map-mun').show();	
-		//} else {
-			//$('#map-mun').hide();	
-			//$('#map-pro').show();	
-		//}
-//});
-
 var domains = {
 		'cu': 'Cuba',
 		'it': 'Italia',
@@ -43,12 +21,17 @@ var contagio = {
 	'desconocido': 0	
 }
 
+$.getJSON("data/paises-info-dias.json",function(countriesdays){
 $.getJSON("data/covid19-cuba.json",function(data){
 $.getJSON("data/provincias.geojson",function(provincias){
 $.getJSON("data/municipios.geojson",
 	function(municipios){
 		
 		var factor = 20;
+		
+		var curves = {};
+		
+		
 		
 		function getCountryFromDomain(dom){
 			if (dom in domains){
@@ -232,10 +215,16 @@ $.getJSON("data/municipios.geojson",
 			
 			//Lines for contagio evolution
 			var dates = ['Fecha'];
+			var dias = ['Días'];
 			var dailySingle = ['Casos en el día'];
 			var dailySum = ['Casos acumulados'];
+			var cuba = ['Cuba'];
 			var total = 0;
+			
+			
+			
 			for(var i=1;i<=Object.keys(data.casos.dias).length;i++){
+				dias.push('Día '+i);
 				dates.push(data.casos.dias[i].fecha.replace('2020/',''));
 				if ('diagnosticados' in data.casos.dias[i]){
 					dailySingle.push(data.casos.dias[i]['diagnosticados'].length);
@@ -244,8 +233,102 @@ $.getJSON("data/municipios.geojson",
 					dailySingle.push(0);
 				}
 				dailySum.push(total);
+				cuba.push(total);
 			}
 			$('#update').html('2020/'+dates[dates.length-1]);
+			
+			var countrysorted= [];
+			for(var c in countriesdays.paises){
+				if ((countriesdays.paises[c].length+1)>=cuba.length){
+					console.log(countriesdays.paises[c].length+1,cuba.length);
+					var c_temp = [c];
+					var d_temp = ['Días'];
+					for(var i=1;i<countriesdays.paises[c].length;i++){
+						c_temp.push(countriesdays.paises[c][i]);
+						d_temp.push('Día '+i);	
+					}
+					curves[c] = {'dias':d_temp, 'data': c_temp};
+					countrysorted.push(c);
+				}	
+			}
+			countrysorted.sort();
+			for(var c=0;c<countrysorted.length;c++){
+				var cc = curves[countrysorted[c]]['data'][0];
+				$('#countrycurve-select').append('<option value="'+cc+'">'+cc+'</option>');
+			}
+			var countryselected = 'Italy';
+			$('#countrycurve-select').val('Italy');
+			$('#countries-date').html(countriesdays['dia-actualizacion']);	
+			
+			$('#countrycurve-select').on('change',function(){
+				var val = $('#countrycurve-select').val();
+				comparison.unload({ids:countryselected});
+				curve.unload({ids:countryselected});
+				countryselected  = val;
+				comparison.load({columns:[ curves[countryselected]['data']]});
+				curve.load({columns:[ curves[countryselected]['data']]});
+				
+				comparison = c3.generate({
+					bindto: "#countries-comparison",
+						data: {
+							  x : dias[0],
+							  columns: [
+								dias,
+								cuba,
+								curves[countryselected]['data']
+							  ],
+							  type: 'line',
+				              colors: {
+								 'Cuba': '#B01E22' 
+							  }
+							},
+							axis: {
+							  x: {
+								label: 'Fecha',
+								type: 'categorical',
+								show: false
+							  },
+							  y: {
+								label: 'Casos',
+								position: 'outer-middle'
+							  }
+							}
+					});
+					
+					curve = c3.generate({
+					bindto: "#countries-curve",
+						data: {
+							  x : 'Días',
+							  columns: [
+								curves[countryselected]['dias'],
+								curves[countryselected]['data'],
+								cuba,
+							  ],
+							  type: 'line',
+				              colors: {
+								 'Cuba': '#B01E22' 
+							  }
+							},
+							axis: {
+							  x: {
+								label: 'Fecha',
+								type: 'categorical',
+								show: false
+							  },
+							  y: {
+								label: 'Casos',
+								position: 'outer-middle'
+							  }
+							},
+							grid: {
+					          x: {
+					            lines: [{'value':dias[dias.length-1],'text':dias[dias.length-1]}]
+					          }
+					        }		
+						});
+					
+			});
+			
 			c3.generate({
 			bindto: "#daily-single-info",
 				data: {
@@ -273,30 +356,65 @@ $.getJSON("data/municipios.geojson",
 					  }
 					}
 			});
-			//c3.generate({
-			//bindto: "#daily-sum-info",
-				//data: {
-					  //x : dates[0],
-					  //columns: [
-						//dates,
-						//dailySum
-					  //],
-					  //type: 'line',
-		              //colors: {
-						 //'Casos en total': '#B01E22' 
-					  //}
-					//},
-					//axis: {
-					  //x: {
-						//label: 'Fecha',
-						//type: 'categorical'
-					  //},
-					  //y: {
-						//label: 'Casos diagnosticados hasta ese día',
-						//position: 'outer-middle'
-					  //}
-					//}
-			//});
+			
+			comparison = c3.generate({
+			bindto: "#countries-comparison",
+				data: {
+					  x : dias[0],
+					  columns: [
+						dias,
+						cuba,
+						curves['Italy']['data'].slice(0,cuba.length)
+					  ],
+					  type: 'line',
+		              colors: {
+						 'Cuba': '#B01E22' 
+					  }
+					},
+					axis: {
+					  x: {
+						label: 'Fecha',
+						type: 'categorical',
+						show: false
+					  },
+					  y: {
+						label: 'Casos',
+						position: 'outer-middle'
+					  }
+					}
+			});
+			
+			curve = c3.generate({
+			bindto: "#countries-curve",
+				data: {
+					  x : 'Días',
+					  columns: [
+						curves['Italy']['dias'],
+						curves['Italy']['data'],
+						cuba,
+					  ],
+					  type: 'line',
+		              colors: {
+						 'Cuba': '#B01E22' 
+					  }
+					},
+					axis: {
+					  x: {
+						label: 'Fecha',
+						type: 'categorical',
+						show: false
+					  },
+					  y: {
+						label: 'Casos',
+						position: 'outer-middle'
+					  }
+					},
+					grid: {
+			          x: {
+			            lines: [{'value':dias[dias.length-1],'text':dias[dias.length-1]}]
+			          }
+			        }		
+				});
 			
 			return {"cases":cases,"deaths":deaths,"gone":gone,"recov":recov,"female":sex_female,"male":sex_male,"unknownsex":sex_unknown};	
 		}
@@ -547,8 +665,11 @@ $.getJSON("data/municipios.geojson",
 });
 
 		
-		$('#map-pro').hide();	
+		$('#map-pro').hide();
 		
+		console.log(curves);	
+		
+});
 });
 });
 }); 

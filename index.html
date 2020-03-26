@@ -78,24 +78,7 @@
 	</div>	
 </div>
 <div id="line-charts" class="row">
-	<div class="col-lg-4 col-md-4 erase">
-		<div id="daily-container" class="rounded border">
-			<div id="daily-text" class="text-block">
-				Evolución de casos por días 
-<!--
-				<select id="select-daily">
-					<option select value="daily-single-info">casos diarios</option>
-					<option value="daily-sum-info">casos acumulados</option>
-				</select>
--->
-			</div>
-			<div id="daily-single-info"></div>
-<!--
-			<div id="daily-sum-info"style="display:none;"></div>
--->
-		</div>
-	</div>
-	<div class="col-lg-4 col-md-4 erase">
+	<div class="col-lg-6 col-md-6 erase-right">
 		<div id="countries-container" class="rounded border">
 			<div id="countries-text" class="text-block">
 				Distribución por nacionalidad de casos en Cuba
@@ -103,7 +86,7 @@
 			<div id="countries-info"></div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4">
+	<div class="col-lg-6 col-md-6 erase-left">
 		<div id="ages-container" class="rounded border">
 			<div id="ages-text" class="text-block">
 				Distribución por rangos etarios
@@ -112,6 +95,44 @@
 		</div>
 	</div>
 </div>	
+
+
+<div id="countriescurve-info-container"  class="row">
+<div id="daily-container-block" class="col-lg-4 col-md-4 erase"  >
+		<div id="daily-container" class="erase rounded border">
+			<div id="daily-text" class="text-block">
+				Evolución de casos por días 
+			</div>
+			<div id="daily-single-info"></div>
+		</div>
+</div>
+
+<div id="countriescurve-block-container" class="col-lg-8 col-md-8 erase">
+<div id="countriescurve-info" class="rounded border" >
+		<div id="countries-text" class="text-block">
+		Comparación de la curva acumulada de Cuba con <select id="countrycurve-select"></select>
+		</div>
+		<div class="row">
+		<div id="countries-curve-container" class="col-lg-6 col-nd-6">
+			<div id="countries-text" class="text-block sub">
+			Comparación en general
+			</div>
+			<div id="countries-curve"></div>
+			
+		</div>
+		<div id="countries-comparison-container"  class="col-lg-6 col-nd-6">
+			<div id="countries-text" class="text-block sub">
+			Comparación en el período de Cuba
+			</div>
+			<div id="countries-comparison"></div>
+		</div>
+		</div>
+		<div id="map-quote">
+				* Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a> y actualizado el <span id="countries-date">#</span><br>
+				</div>
+	</div>
+</div>
+</div>
 
 <div id="info" class="row">
 	<div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a>.<br> Estos se actualizan a partir de la información oficial del MINSAP.</div>
