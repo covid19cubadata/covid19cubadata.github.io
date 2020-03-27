@@ -1,23 +1,34 @@
-body > div {max-width:100%}
+body {
+    font-size: 1rem;
+}
+
+body > div {
+    max-width: 100%;
+    margin: 0 !important;
+}
+
+.common-bg {
+    background-color: #1C1340;
+}
 
 #map-mun, #map-pro {
-	background-color: #ffffff;
-	min-height: 280px;
+    background-color: #ffffff;
+    min-height: 371px;
 }
 
 #project {
-	text-align: center;
+    text-align: center;
 }
 
 .rounded {
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
-	border-bottom-left-radius: 12px;
-	border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .border {
-	border-width: 1px;
+    border-width: 1px;
     border-top-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
@@ -25,168 +36,158 @@ body > div {max-width:100%}
     border-color: #1C1340;
 }
 
-#map-container {
-	padding: 10px;
-	margin-left: 5px;
-	margin-top: 5px;
-	margin-bottom: 0px;
-}
-
 #gen-info {
-	color:  #ffffff;
-	background-color: #1C1340;
-	margin-right: 10px;
-	padding-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.gen-info-item {
-	margin-bottom: 1px;
+    color: #ffffff;
+    background-color: #1C1340;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
 }
 
-#logo-container  {
-	background-color:#D1D2D4;
-	margin-left: 5px;
+.gen-info-item {
+    margin-bottom: 1px;
+    font-size: 0.9rem;
+}
+
+#logo-container {
+    background-color: #D1D2D4;
+    margin-left: 5px;
 }
 
 #first-block {
-	height: 100px;
-	margin-top: 5px;
-}
-
-.erase {
-	padding-right: 0px;
-	padding-left: 0px;
+    min-height: 100px;
+    margin-top: 5px;
 }
 
 #countries-info, #ages-info {
-	height: 180px;
+    height: 180px;
 }
 
 
 #sex-container, #contagio-container {
-	height: 180px;
-	margin-top: 10px;
-	margin-right: 10px;
+    height: 180px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 #line-charts {
-	margin-top: 10px;
+    margin-top: 10px;
 }
+
 #countries-container {
-	margin-left: 5px;
-	margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #daily-container-block {
-	padding-left:15px;
+    padding-left: 15px;
 }
-
 
 
 #ages-container {
-	margin-right: 10px;
-	margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .erase-right {
-	padding-right: 0px;
+    padding-right: 0px;
 }
 
 .erase-left {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 
 #sex-info, #contagio-info {
-	height: 160px;
+    height: 160px;
 }
 
 .bd {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .leaflet-popup-content-wrapper {
-	padding: 0px;
+    padding: 0px;
 }
 
 .leaflet-popup-content {
-	margin: 0px;
+    margin: 0px;
 }
 
 .small-pname {
-	color: #fff;
-	font-size: 13px;
-	width: 100%;
-	background-color: #1C1340;
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
-	padding-top:8px;
-	padding-bottom: 2px;
+    color: #fff;
+    font-size: 13px;
+    width: 100%;
+    background-color: #1C1340;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 8px;
+    padding-bottom: 2px;
 }
 
 .small-content {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 .small-pname, .small-plink, .small-content {
-	padding-left:10px;
-	padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 
 #logo {
-	height: 100px;
-	margin-left: 0px;
+    height: 100px;
+    margin-left: 0px;
 }
 
 .text-block {
-	color: #1C1340;
-	margin-left: 10px;
-	font-weight: bold;
+    color: #1C1340;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 #select-map {
-	font-weight: normal;
+    font-weight: normal;
 }
 
-#map-quote {
-	font-size: 11px;
-	text-align: center;
+.map-quote {
+    font-size: 11px;
+    text-align: center;
 }
 
 #team > p {
-	font-weight: bold;
-	color: #1C1340;
+    font-weight: bold;
+    color: #1C1340;
 }
 
 #team {
-	text-align: center;
-	margin-top: 40px;
+    text-align: center;
+    margin-top: 40px;
 }
 
-#team-logos{
-	text-align: center;
-	
+#team-logos {
+    text-align: center;
+
 }
 
 .team-logo {
-	height: 50px;
+    height: 50px;
 }
 
 #info {
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #date {
-	text-align: right;
+    text-align: right;
 }
+
 #map-legend {
-	text-align: center;
+    text-align: center;
 }
 
 #map-legend-container {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 #cases0 {
@@ -194,120 +195,149 @@ body > div {max-width:100%}
 }
 
 #countries-comparison, #countries-curve {
-	height: 180px;
-}
-
-#countriescurve-info-container {
-	margin-top: 5px;
-	padding-left: 5px;
+    height: 180px;
 }
 
 #daily-container {
-	margin-top: 5px;
-	height: 260px;
+    margin-top: 5px;
+    height: 260px;
 }
 
 #daily-single-info, #daily-sum-info {
-	height: 225px;
+    height: 225px;
 }
 
 #countriescurve-info {
-	min-height:260px;
-	margin-left: 5px;
-	text-align: center;
-	margin-right: 20px;
-	text-align: left;
+    min-height: 260px;
+    margin-left: 5px;
+    text-align: center;
+    margin-right: 20px;
+    text-align: left;
 }
 
 #countrycurve-select {
-	font-weight: normal;
+    font-weight: normal;
 }
 
 .sub {
-	font-weight: normal;
-	margin-top:5px;
+    font-weight: normal;
+    margin-top: 5px;
 }
 
 #countriescurve-block-container {
-	margin-top:5px;
-	padding-left: 5px;
-	padding-right: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-#info-note {
-	color: red;
-	margin-left: 25px;
+.info-note {
+    color: red;
 }
 
 #cusobu {
-	height: 25px;
+    height: 25px;
 }
 
 #replicas {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width:900px){
-	#first-block {
-		height: 220px;
-		margin-top: 5px;
-	}
-	
-	#gen-info {
-		margin-top: 5px;
-		margin-left: 5px;
-		margin-right: 5px;
-	}
-	
-	#map-container{
-		margin-top: 5px;
-		margin-left: 5px;
-		margin-right: 5px;
-	}
-	
-	#sex-container, #contagio-container {
-		margin-left: 5px;
-		margin-right: 5px;
-	}
-	
-	#daily-container {
-		margin-top: 5px;
-		margin-left: 5px;
-		margin-right: 20px;
-	}
-	
-	#countries-container {
-		margin-top: 5px;
-		margin-left: 5px;
-		margin-right: 20px;
-	}
-	
-	#ages-container {
-		margin-top: 10px;
-		margin-left: 20px;
-		margin-right: 5px;
-	}
-	
-	#data, #project, #date {
-		text-align: center;
-	}
-	
-	#daily-container {
-		margin-left: 0px;
-	}
-	
-	#countriescurve-block-container {
-		margin-left: 5px;
-	}
-	
-	#countriescurve-block-container {
-		margin-top:10px;
-	}
-	
-	#countriescurve-info {
-		margin-right: 15px;
-	}
+@media screen and (max-width: 900px) {
+    #first-block {
+        height: 220px;
+        margin-top: 5px;
+    }
+
+    #gen-info {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #map-container {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #sex-container, #contagio-container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #daily-container {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+
+    #countries-container {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+
+    #ages-container {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    #data, #project, #date {
+        text-align: center;
+    }
+
+    #daily-container {
+        margin-left: 0px;
+    }
+
+    #countriescurve-block-container {
+        margin-left: 5px;
+    }
+
+    #countriescurve-block-container {
+        margin-top: 10px;
+    }
+
+    #countriescurve-info {
+        margin-right: 15px;
+    }
 }
 
+.card-header {
+    padding: .25rem 0.85rem;
+}
+
+.card.common-bg .card-header {
+    color: white;
+}
+
+.card.common-bg .card-body {
+    background-color: white;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.card .card-body.common-bg {
+    color: white;
+}
+
+.footer {
+    background-color: rgba(18, 19, 64, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        margin-top: 0.25rem;
+    }
+
+    .mr-xs-3 {
+        margin-right: 1rem !important;
+    }
+
+    .pr-xs-3 {
+        padding-right: 1rem !important;
+    }
+}
