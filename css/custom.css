@@ -59,11 +59,6 @@ body > div {
     margin-top: 5px;
 }
 
-.erase {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
 #countries-info, #ages-info {
     height: 180px;
 }
