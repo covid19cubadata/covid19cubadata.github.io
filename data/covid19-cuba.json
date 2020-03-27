@@ -1693,7 +1693,7 @@
                         "dpacode_provincia_deteccion": "25",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
-                        "contagio": null,
+                        "contagio": "importado",
                         "contacto_focal": 13,
                         "centro_aislamiento": "hmm",
                         "centro_diagnostico": "ipk",
