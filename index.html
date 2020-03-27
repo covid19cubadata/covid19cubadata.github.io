@@ -1,182 +1,178 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>Covid19 - Dashboard Cuba </title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Covid19 - Dashboard Cuba </title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="icon" href="favico.jpeg">
+    <link rel="icon" href="favico.jpeg">
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/leaflet.css" />
-	<link href="css/fontawesome-5.8.2/css/all.css" rel="stylesheet">
-	<link href="css/c3.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/leaflet.css"/>
+    <link href="css/fontawesome-5.8.2/css/all.css" rel="stylesheet">
+    <link href="css/c3.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-
-<div id="first-block" class="row">
-	<div  class="col-lg-9 col-md-9 erase">
-		<div id="logo-container" class="">
-			<img id="logo" src="images/logo.jpg"> 
-		</div>
-	</div>
-	<div class="col-lg-3 col-md-3">
-		<div id="gen-info" class="rounded">
-			<p class="gen-info-item"><span class="bd gen-info-diagn">Diagnosticados:</span> <span id="gen-info-diagn-data"></span></p>
-			<p class="gen-info-item"><span class="bd gen-info-activ">Activos:</span> <span id="gen-info-activ-data"></span></p>
-			<p class="gen-info-item"><span class="bd gen-info-recov">Recuperados:</span> <span id="gen-info-recov-data"></span></p>
-			<p class="gen-info-item"><span class="bd gen-info-gone">Evacuados:</span> <span id="gen-info-gone-data"></span></p>
-			<p class="gen-info-item"><span class="bd gen-info-death">Muertes:</span> <span id="gen-info-death-data"></span></p>
-		</div>
-	</div>
-</div>	
 <div class="row">
-	<div class="col-lg-9 col-md-9 erase">
-		<div id="info-note">
-			De los datos del día 26/3 solo se tiene la notificación del fallecido. Los casos confirmados del día 26/3 aún no se publican.
-		</div>
-		<div id="map-container" class="">
-			<div id="map-text" class="text-block">
-				Distribución por <select id="select-map">
-					<option select value="map-mun">municipios</option>
-					<option value="map-pro">provincias</option>
-				</select>
-			</div>
-			<div id="map-mun"></div>
-			<div id="map-pro" ></div>
-			<div id="map-legend-container">
-				<div id="map-legend">
-					0 casos 
-					<i id="cases0" class="main-text fa fa-square"></i>
-					<i id="cases1" class="main-text fa fa-square"></i>
-					<i id="cases2" class="main-text fa fa-square"></i>
-					<i id="cases3" class="main-text fa fa-square"></i>
-					<i id="cases4" class="main-text fa fa-square"></i>
-					<i id="cases5" class="main-text fa fa-square"></i>
-					<span id="cases">#</span> casos
-				</div>				
-			</div>
-			<div id="map-quote">
-				* el cuadrado representa aquellos que por distintas razones no tengan localización conocida  <br>
-				</div>
-		</div>
-	</div>
-	<div class="col-lg-3 col-md-3">
-		<div id="sex-container" class="rounded border">
-			<div id="sex-text" class="text-block">
-				Casos por sexo
-			</div>
-			<div id="sex-info"></div>
-		</div>
-		<div id="contagio-container" class="rounded border">
-			<div id="contagio-text" class="text-block">
-				Casos por modo de contagio
-			</div>
-			<div id="contagio-info"></div>
-		</div>
-	</div>	
+    <div class="col-lg-9 col-md-9 erase">
+        <div id="logo-container" class="mb-3">
+            <img id="logo" src="images/logo.jpg">
+        </div>
+        <div class="info-note ml-3 mr-3 p-2">
+            De los datos del día 26 solo se tiene la notificación del fallecido. Los casos confirmados del día aún no se publican.
+        </div>
+        <div class="clearfix"></div>
+        <div class="card common-bg ml-3 mr-xs-3">
+            <div class="card-header">
+                Distribución por <select id="select-map">
+                <option select value="map-mun">Municipios</option>
+                <option value="map-pro">Provincias</option>
+            </select>
+            </div>
+            <div class="card-body p-0 pt-1 pb-1">
+                <div id="map-container">
+                    <div id="map-mun"></div>
+                    <div id="map-pro"></div>
+                    <div id="map-legend-container">
+                        <div id="map-legend">
+                            0 casos
+                            <i id="cases0" class="main-text fa fa-square"></i>
+                            <i id="cases1" class="main-text fa fa-square"></i>
+                            <i id="cases2" class="main-text fa fa-square"></i>
+                            <i id="cases3" class="main-text fa fa-square"></i>
+                            <i id="cases4" class="main-text fa fa-square"></i>
+                            <i id="cases5" class="main-text fa fa-square"></i>
+                            <span id="cases">#</span> casos
+                        </div>
+                    </div>
+                    <div class="map-quote">
+                        * el cuadrado representa aquellos que por distintas razones no tengan localización conocida <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+        <div class="card">
+            <div class="card-body rounded common-bg pt-2 pb-2">
+                <p class="gen-info-item"><span class="bd gen-info-diagn">Diagnosticados:</span> <span id="gen-info-diagn-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-activ">Activos:</span> <span id="gen-info-activ-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-recov">Recuperados:</span> <span id="gen-info-recov-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-gone">Evacuados:</span> <span id="gen-info-gone-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-death">Muertes:</span> <span id="gen-info-death-data"></span></p>
+                <p class="gen-info-item"><span class="bd">Datos correspondientes a</span> <span id="update">fecha</span>.</p>
+            </div>
+        </div>
+        <div class="card common-bg mt-1">
+            <div class="card-header">Casos por Sexo</div>
+            <div class="card-body">
+                <div id="sex-info"></div>
+            </div>
+        </div>
+        <div class="card common-bg mt-1">
+            <div class="card-header">Casos por Modo de Contagio</div>
+            <div class="card-body">
+                <div id="contagio-info"></div>
+            </div>
+        </div>
+    </div>
 </div>
-<div id="line-charts" class="row">
-	<div class="col-lg-6 col-md-6 erase-right">
-		<div id="countries-container" class="rounded border">
-			<div id="countries-text" class="text-block">
-				Distribución por nacionalidad de casos en Cuba
-			</div>
-			<div id="countries-info"></div>
-		</div>
-	</div>
-	<div class="col-lg-6 col-md-6 erase-left">
-		<div id="ages-container" class="rounded border">
-			<div id="ages-text" class="text-block">
-				Distribución por rangos etarios
-			</div>
-			<div id="ages-info"></div>
-		</div>
-	</div>
-</div>	
-
-
-<div id="countriescurve-info-container"  class="row">
-<div id="daily-container-block" class="col-lg-4 col-md-4 erase"  >
-		<div id="daily-container" class="erase rounded border">
-			<div id="daily-text" class="text-block">
-				Evolución de casos por días 
-			</div>
-			<div id="daily-single-info"></div>
-		</div>
-</div>
-
-<div id="countriescurve-block-container" class="col-lg-8 col-md-8 erase">
-<div id="countriescurve-info" class="rounded border" >
-		<div id="countries-text" class="text-block">
-		Comparación de la curva acumulada de Cuba con <select id="countrycurve-select"></select>
-		</div>
-		<div class="row">
-		<div id="countries-curve-container" class="col-lg-6 col-nd-6">
-			<div id="countries-text" class="text-block sub">
-			Comparación en general
-			</div>
-			<div id="countries-curve"></div>
-			
-		</div>
-		<div id="countries-comparison-container"  class="col-lg-6 col-nd-6">
-			<div id="countries-text" class="text-block sub">
-			Comparación en el período de Cuba
-			</div>
-			<div id="countries-comparison"></div>
-		</div>
-		</div>
-		<div id="map-quote">
-				* Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a> y actualizado el <span id="countries-date">#</span><br>
-				</div>
-	</div>
-</div>
+<div class="clearfix"></div>
+<div id="line-charts" class="row mt-1">
+    <div class="col-lg-6 col-md-6 pr-0 pr-xs-3">
+        <div class="card common-bg mt-1">
+            <div class="card-header">Distribución por nacionalidad de casos en Cuba</div>
+            <div class="card-body">
+                <div id="countries-info"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6">
+        <div class="card common-bg mt-1">
+            <div class="card-header">Distribución por rangos etarios</div>
+            <div class="card-body">
+                <div id="ages-info"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="info" class="row">
-	<div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a>.<br> Estos se actualizan a partir de la información oficial del MINSAP.</div>
-	<div class="col-lg-4 col-md-4" id="project">Código en <a href="https://github.com/covid19cubadata/covid19cubadata.github.io">Github</a></div>
-	<div class="col-lg-4 col-md-4" id="date">Datos correspondientes a <span id="update">fecha</span>.<br> Los datos se informan por las autoridades al día siguiente.</div>
+<div class="row mt-1">
+    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
+        <div class="card common-bg">
+            <div class="card-header">Evolución de casos por días</div>
+            <div class="card-body">
+                <div id="daily-single-info"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-8 col-md-8">
+        <div class="card common-bg">
+            <div class="card-header">Comparación de los casos acumulados de Cuba con <select id="countrycurve-select"></select></div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 col-nd-6">
+                        <div class="text-block sub">
+                            Comparación en general
+                        </div>
+                        <div id="countries-curve"></div>
+
+                    </div>
+                    <div id="countries-comparison-container" class="col-lg-6 col-nd-6">
+                        <div class="text-block sub">
+                            Comparación en el período de Cuba
+                        </div>
+                        <div id="countries-comparison"></div>
+                    </div>
+                </div>
+                <div class="map-quote">
+                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a> y actualizado el <span id="countries-date">#</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="team">
-	<p>Copyright 2020</p>
-	<div id="team-logos">
-		<a href="#"><img class="team-logo" src="images/logo-matcom.jpeg"></a>
-		<a href="https://www.postdata.club/"><img class="team-logo" src="images/logo-pd.png"></a>
-		<a href="#"><img class="team-logo" src="images/logo-jt.jpeg"></a>
-	</div>
+<div class="footer mt-3 row pb-4">
+    <div id="info" class="col-12">
+        <div class="row m-0">
+            <div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a>.<br> Estos se actualizan a partir de la información oficial del MINSAP.</div>
+            <div class="col-lg-4 col-md-4" id="project">
+                Código en <a href="https://github.com/covid19cubadata/covid19cubadata.github.io">Github</a>
+
+                <p>Copyright 2020</p>
+                <div id="team-logos">
+                    <a href="#"><img class="team-logo" src="images/logo-matcom.jpeg"></a>
+                    <a href="https://www.postdata.club/"><img class="team-logo" src="images/logo-pd.png"></a>
+                    <a href="#"><img class="team-logo" src="images/logo-jt.jpeg"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4" id="date">Los datos se informan por las autoridades al día siguiente.</div>
+        </div>
+    </div>
+
+    <div class="col-12 text-center">
+        <div class="text-block mt-4">
+            El sitio original <a href="http://covid19cubadata.github.io">Covid19CubaData</a> es replicado en:
+        </div>
+        <div><a href="http://www.cusobu.nat.cu/covid/">http://www.cusobu.nat.cu/covid/</a> cortesía de
+            <a href="http://www.cusobu.nat.cu/"><img id="cusobu" class="" src="images/logo-cusobu.png"></a></div>
+    </div>
 </div>
 
-<div id="replicas">
-	<div class="text-block">
-	El sitio original <a href="http://covid19cubadata.github.io">Covid19CubaData</a> es replicado en:
-	</div>
-	<div><a href="http://www.cusobu.nat.cu/covid/">www.cusobu.nat.cu/covid</a> cortesía de 
-	<a href="http://www.cusobu.nat.cu"><img id="cusobu" class="" src="images/logo-cusobu.png"></a></div>
-</div>
 
-
-
-
-
-
-
-
-
-
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery.min.js"><\/script>')</script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/leaflet.js"></script>
+<script type="text/javascript" src="js/d3.min.js"></script>
+<script type="text/javascript" src="js/c3.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </body>
-
-<script src="js/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/leaflet.js"></script>
-<script src="js/d3.min.js"></script>
-<script src="js/c3.js"></script>
-<script src="js/custom.js"></script>
-
 </html> 
