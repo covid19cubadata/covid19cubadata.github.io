@@ -21,13 +21,13 @@
         },
         "cvc": {
             "id": "cvc",
-            "nombre": "Centro de Aislamiento de Villa Clara'",
+            "nombre": "Centro de Aislamiento 'La Granjita''",
             "provincia": "Villa Clara",
             "dpacode_provincia": "26"
         },
         "cho": {
             "id": "cho",
-            "nombre": "Centro de Aislamiento de Villa El Cocal",
+            "nombre": "Clínica Internacional 'El Cocal'",
             "provincia": "Holguín",
             "dpacode_provincia": "30"
         },
@@ -61,6 +61,13 @@
             "provincia": "Santiago de Cuba",
             "dpacode_provincia": "34"
         },
+        "hag": {
+            "id": "hag",
+            "nombre": "Hospital 'Ambrosio Grillo'",
+            "provincia": "Santiago de Cuba",
+            "dpacode_provincia": "34"
+        }
+        ,
         "hlc": {
             "id": "hlc",
             "nombre": "Hospital 'León Cuervo'",
@@ -102,7 +109,86 @@
             "nombre": "Hospital 'Octavio de la Concepción y de la Pedraja'",
             "provincia": "Camagüey",
             "dpacode_provincia": "30"
+        },
+        "ham": {
+            "id": "ham",
+            "nombre": "Hospital 'Amalia Simoni'",
+            "provincia": "Camagüey",
+            "dpacode_provincia": "30"
+        },
+        "hhb": {
+            "id": "hhb",
+            "nombre": "Hospital 'Héroes del Baire'",
+            "provincia": "Isla de la Juventud",
+            "dpacode_provincia": "40.01"
+        },
+        "crm": {
+            "id": "crm",
+            "nombre": "Región Militar de Pinar del Río",
+            "provincia": "Pinar del Río",
+            "dpacode_provincia": "21"
+        },
+        "cas": {
+            "id": "cas",
+            "nombre": "Hospital 'Antonio José de Sucre'",
+            "provincia": "Matanzas",
+            "dpacode_provincia": "25"
+        },
+        "cmj": {
+            "id": "cas",
+            "nombre": "Motel 'Jamaica'",
+            "provincia": "Mayabeque",
+            "dpacode_provincia": "24"
+        },
+        "cmc": {
+            "id": "cmc",
+            "nombre": "Motel 'Canimao'",
+            "provincia": "Matanzas",
+            "dpacode_provincia": "25"
+        },
+        "cme": {
+            "id": "cme",
+            "nombre": "Motel 'EPAS'",
+            "provincia": "Matanzas",
+            "dpacode_provincia": "25"
+        },
+        "cac": {
+            "id": "cac",
+            "nombre": "Villa 'Perla Azúcar'",
+            "provincia": "Cienfuegos",
+            "dpacode_provincia": "27"
+        },
+        "cpc": {
+            "id": "cpc",
+            "nombre": "Centro de Aislamiento 'Punta Cuevas'",
+            "provincia": "Cienfuegos",
+            "dpacode_provincia": "27"
+        },
+        "cco": {
+            "id": "cco",
+            "nombre": "Motel 'Cornito'",
+            "provincia": "Las Tunas",
+            "dpacode_provincia": "31"
+        },
+        "ccu": {
+            "id": "ccu",
+            "nombre": "Villa Cautillo",
+            "provincia": "Granma",
+            "dpacode_provincia": "33"
+        },
+        "cso": {
+            "id": "cso",
+            "nombre": "Clínica Internacional 'Colibrí'",
+            "provincia": "Santiago de Cuba",
+            "dpacode_provincia": "34"
+        },
+        "cvl": {
+            "id": "cvl",
+            "nombre": "Villa Lupe",
+            "provincia": "Guantánamo",
+            "dpacode_provincia": "35"
         }
+
     },
     "centros_diagnostico": {
         "ipk": {
@@ -140,7 +226,11 @@
                         "provincia_detección": "Sancti Spíritus",
                         "dpacode_municipio_deteccion": "28.06",
                         "dpacode_provincia_deteccion": "28",
-                        "provincias_visitadas": [],
+                        "provincias_visitadas": [
+                            "La Habana",
+                            "Cienfuegos",
+                            "Sancti Spíritus"
+                        ],
                         "dpacode_provincias_visitadas": [],
                         "contagio": "importado",
                         "contacto_focal": null,
@@ -161,7 +251,9 @@
                         "provincia_detección": "Sancti Spíritus",
                         "dpacode_municipio_deteccion": "28.06",
                         "dpacode_provincia_deteccion": "28",
-                        "provincias_visitadas": [],
+                        "provincias_visitadas": ["La Habana",
+                            "Cienfuegos",
+                            "Sancti Spíritus"],
                         "dpacode_provincias_visitadas": [],
                         "contagio": "importado",
                         "contacto_focal": null,
@@ -183,7 +275,11 @@
                         "dpacode_municipio_deteccion": "28.06",
                         "dpacode_provincia_deteccion": "28",
                         "provincias_visitadas": [],
-                        "dpacode_provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [
+                            "La Habana",
+                            "Cienfuegos",
+                            "Sancti Spíritus"
+                        ],
                         "contagio": "importado",
                         "contacto_focal": 5,
                         "centro_aislamiento": "ipk",
@@ -258,7 +354,8 @@
                             "es"
                         ]
                     }
-                ]
+                ],
+                "sujetos_riesgo": 389
             },
             "7": {
                 "fecha": "2020/03/17",
@@ -305,7 +402,8 @@
                             "it"
                         ]
                     }
-                ]
+                ],
+                "sujetos_riesgo": 356
             },
             "8": {
                 "fecha": "2020/03/18",
