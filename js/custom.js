@@ -256,8 +256,8 @@ $.getJSON("data/municipios.geojson",
 				var cc = curves[countrysorted[c]]['data'][0];
 				$('#countrycurve-select').append('<option value="'+cc+'">'+cc+'</option>');
 			}
-			var countryselected = 'Italy';
-			$('#countrycurve-select').val('Italy');
+			var countryselected = 'Greece';
+			$('#countrycurve-select').val('Greece');
 			$('#countries-date').html(countriesdays['dia-actualizacion']);	
 			
 			$('#countrycurve-select').on('change',function(){
@@ -364,7 +364,7 @@ $.getJSON("data/municipios.geojson",
 					  columns: [
 						dias,
 						cuba,
-						curves['Italy']['data'].slice(0,cuba.length)
+						curves['Greece']['data'].slice(0,cuba.length)
 					  ],
 					  type: 'line',
 		              colors: {
@@ -389,8 +389,8 @@ $.getJSON("data/municipios.geojson",
 				data: {
 					  x : 'Días',
 					  columns: [
-						curves['Italy']['dias'],
-						curves['Italy']['data'],
+						curves['Greece']['dias'],
+						curves['Greece']['data'],
 						cuba,
 					  ],
 					  type: 'line',
