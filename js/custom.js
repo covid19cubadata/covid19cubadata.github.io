@@ -600,7 +600,7 @@ $.getJSON("data/municipios.geojson",
 		    tap: true,
 		    touchZoom: true,
 		    zoomSnap: 0.05,
-		    zoomControl: true
+		    maxBounds: geojsonM.getBounds()
 		});
 		map_mun.zoomControl.setPosition('topright');
 		map_mun.fitBounds(geojsonM.getBounds());
@@ -618,7 +618,7 @@ $.getJSON("data/municipios.geojson",
 		    tap: true,
 		    touchZoom: true,
 		    zoomSnap: 0.05,
-		    zoomControl: true
+		    maxBounds: geojsonP.getBounds()
 		});
 		map_pro.zoomControl.setPosition('topright');
 		map_pro.fitBounds(geojsonP.getBounds());
