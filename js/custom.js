@@ -26,12 +26,29 @@ $.getJSON("data/covid19-cuba.json",function(data){
 $.getJSON("data/provincias.geojson",function(provincias){
 $.getJSON("data/municipios.geojson",
 	function(municipios){
+
+        function getMunicipeByCode(code){
+            for(m in municipios.features){
+                if(municipios.features[m].properties.DPA_municipality_code == code){
+                    return municipios.features[m];
+                    break;
+                }
+            }
+        }
 		
+        function getProvinceByCode(code){
+            for(p in provincias.features){
+                if(provincias.features[p].properties.DPA_province_code == code){
+                    return provincias.features[p];
+                    break;
+                }
+            }
+        }
+        console.log(provincias);
+
 		var factor = 40;
 		
 		var curves = {};
-		
-		
 		
 		function getCountryFromDomain(dom){
 			if (dom in domains){
@@ -240,7 +257,7 @@ $.getJSON("data/municipios.geojson",
 			var countrysorted= [];
 			for(var c in countriesdays.paises){
 				if ((countriesdays.paises[c].length+1)>=cuba.length){
-					console.log(countriesdays.paises[c].length+1,cuba.length);
+					//console.log(countriesdays.paises[c].length+1,cuba.length);
 					var c_temp = [c];
 					var d_temp = ['Días'];
 					for(var i=1;i<countriesdays.paises[c].length;i++){
@@ -432,8 +449,8 @@ $.getJSON("data/municipios.geojson",
 		function getAllRegions(){
 			var muns = {};
 			var pros = {};
+
 			for(var c in casos){
-				
 				if (!(casos[c].dpacode_municipio_deteccion in muns)){
 					muns[casos[c].dpacode_municipio_deteccion] = {"total":1}
 				} else {
@@ -451,7 +468,45 @@ $.getJSON("data/municipios.geojson",
 		var regions = getAllRegions();
 		var muns = regions.muns;
 		var pros = regions.pros;
-		
+
+        muns_array = [];
+        for(var m in muns){
+            muns_array.push({cod:m, total:muns[m].total});
+        }
+        muns_array.sort(function(a,b){return b.total-a.total});
+
+        var MAX_LISTS = 10;
+
+        var $table_mun = $('#table-mun > tbody');
+        var mun_ranking = 1;
+        $(muns_array.slice(0,MAX_LISTS)).each(function(index, item){
+            municipe = getMunicipeByCode(item.cod);
+            var row = "<tr><td>{ranking}</td><td>{cod} ({pro})</td><td>{total}</td></tr>"
+                .replace("{ranking}", mun_ranking)
+                .replace("{cod}", municipe.properties.municipality)
+                .replace("{pro}", municipe.properties.province)
+                .replace('{total}', item.total);
+            $table_mun.append(row);
+            mun_ranking+=1;
+        });
+
+        pros_array = [];
+        for(var m in pros){
+            pros_array.push({cod:m, total:pros[m].total});
+        }
+        pros_array.sort(function(a,b){return b.total-a.total});
+
+        var $table_pro = $('#table-pro > tbody');
+        var pro_ranking = 1;
+        $(pros_array.slice(0,MAX_LISTS)).each(function(index, item){
+            var row = "<tr><td>{ranking}</td><td>{cod}</td><td>{total}</td></tr>"
+                .replace("{ranking}", pro_ranking)
+                .replace("{cod}", getProvinceByCode(item.cod).properties.province)
+                .replace('{total}', item.total);
+            $table_pro.append(row);
+            pro_ranking+=1;
+        });
+
 		function resumeCases(){
 			var max_muns = 0;
 			var max_pros = 0;
@@ -650,7 +705,9 @@ $.getJSON("data/municipios.geojson",
 			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
 		$('#cases').html(genInfo.max_muns);
 			$('#map-pro').hide();	
+			$('#table-pro').hide();	
 			$('#map-mun').show();	
+			$('#table-mun').show();	
 		} else {
 			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.2/genInfo.max_pros)+")");
 			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.4/genInfo.max_pros)+")");
@@ -659,13 +716,16 @@ $.getJSON("data/municipios.geojson",
 			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor/genInfo.max_pros)+")");
 			$('#cases').html(genInfo.max_pros);
 			$('#map-mun').hide();	
+			$('#table-mun').hide();	
 			$('#map-pro').show();	
+			$('#table-pro').show();	
 		}
 		
 });
 
 		
 		$('#map-pro').hide();
+		$('#table-pro').hide();
 		
 		console.log(curves);	
 		
