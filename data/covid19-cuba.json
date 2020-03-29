@@ -1,5 +1,5 @@
 {
-    "schema-version": 2,
+    "schema-version": 3,
     "centros_aislamiento": {
         "ipk": {
             "id": "ipk",
@@ -1357,7 +1357,7 @@
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": "2020/03/08",
                         "consulta_medico": "2020/03/22",
-                        "municipio_detección": "Consolación del Su",
+                        "municipio_detección": "Consolación del Sur",
                         "provincia_detección": "Pinar del Río",
                         "dpacode_municipio_deteccion": "21.07",
                         "dpacode_provincia_deteccion": "21",
@@ -1522,7 +1522,8 @@
                     }
                 ],
                 "sujetos_riesgo": 1479,
-                "graves_numero": 2
+                "graves_numero": 2,
+                "tests_total": 738
             },
             "15": {
                 "fecha": "2020/03/25",
@@ -1736,7 +1737,8 @@
                     }
                 ],
                 "sujetos_riesgo": 1603,
-                "graves_numero": 2
+                "graves_numero": 2,
+                "tests_total": 893
             },
             "16": {
                 "fecha": "2020/03/26",
@@ -2011,19 +2013,20 @@
                 "muertes_numero": 1,
                 "muertes_id": [
                     "ru-1"
-                ]
+                ],
+                "tests_total": 1039
             },
             "17": {
                 "fecha": "2020/03/27",
                 "diagnosticados": [
                     {
-                        "id": "cu-57",
+                        "id": "unknown-57",
                         "pais": "cu",
                         "edad": 61,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": "2020/03/19",
                         "consulta_medico": "2020/03/21",
-                        "municipio_detección": "Consolación  del Sur",
+                        "municipio_detección": "Consolación del Sur",
                         "provincia_detección": "Pinar del Río",
                         "dpacode_municipio_deteccion": "21.07",
                         "dpacode_provincia_deteccion": "21",
@@ -2819,7 +2822,420 @@
                     }
                 ],
                 "sujetos_riesgo": 2000,
-                "muertes_numero": 1
+                "muertes_numero": 1,
+                "tests_total": 1368
+            },
+            "18": {
+                "fecha": "2020/03/28",
+                "diagnosticados": [
+                    {
+                        "id": "cu-96",
+                        "pais": "cu",
+                        "edad": 61,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/22",
+                        "consulta_medico": "2020/03/25",
+                        "municipio_detección": "Consolación del Sur",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.07",
+                        "dpacode_provincia_deteccion": "21",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 33,
+                        "centro_aislamiento": "hlc",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-97",
+                        "pais": "cu",
+                        "edad": 32,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 12,
+                        "centro_aislamiento": "hlc",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-98",
+                        "pais": "cu",
+                        "edad": 24,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/25",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 9,
+                        "centro_aislamiento": "hlc",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-99",
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/16",
+                        "consulta_medico": "2020/03/25",
+                        "municipio_detección": "Artemisa",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.09",
+                        "dpacode_provincia_deteccion": "22",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 15,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "do"
+                        ]
+                    },
+                    {
+                        "id": "cu-100",
+                        "pais": "cu",
+                        "edad": 32,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/21",
+                        "consulta_medico": "2020/03/24",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 12,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-101",
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/15",
+                        "consulta_medico": "2020/03/17",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 13,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-102",
+                        "pais": "cu",
+                        "edad": 47,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/25",
+                        "consulta_medico": "2020/03/25",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 14,
+                        "centro_aislamiento": "hmm",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-103",
+                        "pais": "cu",
+                        "edad": 16,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/26",
+                        "municipio_detección": "Cienfuegos",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.07",
+                        "dpacode_provincia_deteccion": "27",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 9,
+                        "centro_aislamiento": "cac",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-104",
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/25",
+                        "consulta_medico": "2020/03/25",
+                        "municipio_detección": "Cabaiguán",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.03",
+                        "dpacode_provincia_deteccion": "28",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 10,
+                        "centro_aislamiento": "hrf",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-105",
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/22",
+                        "consulta_medico": "2020/03/26",
+                        "municipio_detección": "Cabaiguán",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.03",
+                        "dpacode_provincia_deteccion": "28",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": "hrg",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-106",
+                        "pais": "cu",
+                        "edad": 45,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/24",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 6,
+                        "centro_aislamiento": "cnv",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-107",
+                        "pais": "cu",
+                        "edad": 61,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/21",
+                        "consulta_medico": "2020/03/26",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 9,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ]
+                    },
+                    {
+                        "id": "cu-108",
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/17",
+                        "consulta_medico": "2020/03/26",
+                        "municipio_detección": "Esmeralda",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 9,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ]
+                    },
+                    {
+                        "id": "cu-109",
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Sibanicú",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.07",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 16,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-110",
+                        "pais": "cu",
+                        "edad": 45,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/25",
+                        "municipio_detección": "Vertientes",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.10",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 12,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-111",
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/24",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "introducido",
+                        "contacto_focal": 13,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": []
+                    },
+                    {
+                        "id": "cu-112",
+                        "pais": "cu",
+                        "edad": 19,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/17",
+                        "consulta_medico": "2020/03/24",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 13,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-113",
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03.17",
+                        "consulta_medico": "2020/03/26",
+                        "municipio_detección": "Nuevitas",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.05",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 14,
+                        "centro_aislamiento": "has",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ]
+                    },
+                    {
+                        "id": "cu-114",
+                        "pais": "cu",
+                        "edad": 28,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/24",
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": "importado",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": "hjc",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "id": "cu-115",
+                        "pais": "cu",
+                        "edad": 43,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "30.10",
+                        "dpacode_provincia_deteccion": "30",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "contagio": null,
+                        "contacto_focal": 21,
+                        "centro_aislamiento": "hjc",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": []
+                    }
+                ],
+                "sujetos_riesgo": 2317,
+                "tests_total": 1665,
+                "graves_numero": 5
             }
         }
     }
