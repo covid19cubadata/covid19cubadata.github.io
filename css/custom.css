@@ -11,6 +11,28 @@ body > div {
     background-color: #1C1340;
 }
 
+#apks-info {
+	width: 100%;
+	text-align: right;
+	margin-top: -10px;
+	margin-right: 5px;
+}
+
+#apks-info > a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #1C1340;
+}
+
+#apks-info > a:hover {
+	color: darkgray;
+}
+
+.app-logo {
+	height: 20px;
+	margin-top: -10px;
+}
+
 #map-mun, #map-pro {
     background-color: #ffffff;
     min-height: 371px;
