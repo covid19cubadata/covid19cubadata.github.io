@@ -267,6 +267,13 @@ body > div {
 }
 
 @media screen and (max-width: 900px) {
+	#apks-info {
+		width: 100%;
+		text-align: center;
+		margin-top: -10px;
+	}
+
+
     #first-block {
         height: 220px;
         margin-top: 5px;
