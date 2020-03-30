@@ -272,7 +272,9 @@ $.getJSON("data/municipios.geojson",
 			var dailySum = ['Casos acumulados'];
 			var cuba = ['Cuba'];
 			var test_days = ['Fecha'];
-			var test_amount = ['Tests acumulados']
+			var test_negative = ['Casos Negativos'];
+			var test_positive = ['Casos Positivos'];
+			var test_cases = ['Total de Casos'];
 			var total = 0;
 			
 			
@@ -288,7 +290,9 @@ $.getJSON("data/municipios.geojson",
 				}
 				if ('tests_total' in data.casos.dias[i]){
 					test_days.push(data.casos.dias[i].fecha.replace('2020/',''));
-					test_amount.push(data.casos.dias[i].tests_total);	
+					test_cases.push(data.casos.dias[i].tests_total);
+					test_negative.push(data.casos.dias[i].tests_total-total);
+					test_positive.push(total);	
 				}
 				dailySum.push(total);
 				cuba.push(total);
@@ -302,11 +306,16 @@ $.getJSON("data/municipios.geojson",
 							  x : test_days[0],
 							  columns: [
 								test_days,
-								test_amount
+								test_negative,
+								test_positive,
+								test_cases
 							  ],
 							  type: 'bar',
+							  groups : [['Casos Negativos','Casos Positivos']],
 				              colors: {
-								 'Tests acumulados': '#B01E22' 
+								 'Casos Negativos': '#1C1340',
+								 'Casos Positivos': '#B01E22',
+								 'Total de Casos': '#1A8323' 
 							  }
 							},
 							axis: {

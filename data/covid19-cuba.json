@@ -1169,7 +1169,8 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "sujetos_riesgo": 1036
+                "sujetos_riesgo": 1036,
+                "tests_total": 518
             },
             "13": {
                 "fecha": "2020/03/23",
@@ -1355,7 +1356,8 @@
                 "recuperados_numero": 1,
                 "recuperados_id": [
                     "cu-1"
-                ]
+                ],
+                "tests_total": 625
             },
             "14": {
                 "fecha": "2020/03/24",
