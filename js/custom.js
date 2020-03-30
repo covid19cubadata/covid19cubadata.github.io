@@ -172,11 +172,11 @@ $.getJSON("data/municipios.geojson",
 			c3.generate({
 				bindto: "#tests-donut-info",
 				data: {
-				  columns: [['Casos Positivos',total_cu+total_no_cu+total_unk],['Casos Negativos',total_tests -(total_cu+total_no_cu+total_unk)]] ,
+				  columns: [['Tests Positivos',total_cu+total_no_cu+total_unk],['Tests Negativos',total_tests -(total_cu+total_no_cu+total_unk)]] ,
 				  type: 'donut',
 				  colors: {
-					 'Casos Positivos': '#B01E22',
-					 'Casos Negativos': '#1C1340',
+					 'Tests Positivos': '#B01E22',
+					 'Tests Negativos': '#1C1340',
 				  }
 				},
 		        donut: {
@@ -272,9 +272,9 @@ $.getJSON("data/municipios.geojson",
 			var dailySum = ['Casos acumulados'];
 			var cuba = ['Cuba'];
 			var test_days = ['Fecha'];
-			var test_negative = ['Casos Negativos'];
-			var test_positive = ['Casos Positivos'];
-			var test_cases = ['Total de Casos'];
+			var test_negative = ['Tests Negativos'];
+			var test_positive = ['Tests Positivos'];
+			var test_cases = ['Total de Tests'];
 			var total = 0;
 			
 			
@@ -311,11 +311,11 @@ $.getJSON("data/municipios.geojson",
 								test_cases
 							  ],
 							  type: 'bar',
-							  groups : [['Casos Negativos','Casos Positivos']],
+							  groups : [['Tests Negativos','Tests Positivos']],
 				              colors: {
-								 'Casos Negativos': '#1C1340',
-								 'Casos Positivos': '#B01E22',
-								 'Total de Casos': '#1A8323' 
+								 'Tests Negativos': '#1C1340',
+								 'Tests Positivos': '#B01E22',
+								 'Total de Tests': '#1A8323' 
 							  }
 							},
 							axis: {
