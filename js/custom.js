@@ -63,9 +63,11 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }
 
+
                     var factor = 40;
 
                     var curves = {};
+
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
@@ -93,6 +95,10 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             '61 o más': 0,
                             'Desconocido': 0
                         }
+                        var total_cu = 0;
+                        var total_no_cu = 0;
+                        var total_unk = 0;
+                        var total_tests = 0;
 
                         for (var day in data.casos.dias) {
                             if ('diagnosticados' in data.casos.dias[day]) {
@@ -100,6 +106,17 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 for (var p in diag) {
                                     cases[diag[p].id] = diag[p];
                                     cases[diag[p].id]['fecha'] = data.casos.dias[day].fecha;
+
+                                    //cuban/no cuban
+                                    if (diag[p].pais == 'cu') {
+                                        total_cu += 1;
+                                    } else {
+                                        if (diag[p].pais == 'unknown') {
+                                            total_unk += 1;
+                                        } else {
+                                            total_no_cu += 1;
+                                        }
+                                    }
 
                                     //sex
                                     if (diag[p].sexo == 'hombre') {
@@ -150,6 +167,12 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             if ('recuperados_numero' in data.casos.dias[day]) {
                                 recov += data.casos.dias[day].recuperados_numero;
                             }
+
+                            if ('tests_total' in data.casos.dias[day]) {
+                                if (total_tests <= data.casos.dias[day].tests_total) {
+                                    total_tests = data.casos.dias[day].tests_total;
+                                }
+                            }
                         }
 
                         //Pie for sex
@@ -167,12 +190,44 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         });
 
 
+                        //Pie for cubans/no cubans
+                        c3.generate({
+                            bindto: "#countries-info-pie",
+                            data: {
+                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
+                                type: 'pie',
+                                colors: {
+                                    'cubanos': '#B01E22',
+                                    'extranjeros': '#1C1340',
+                                    'no reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+                        //Donut for tests
+                        c3.generate({
+                            bindto: "#tests-donut-info",
+                            data: {
+                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
+                                type: 'donut',
+                                colors: {
+                                    'Tests Positivos': '#B01E22',
+                                    'Tests Negativos': '#1C1340',
+                                }
+                            },
+                            donut: {
+                                title: total_tests + " tests",
+                            }
+                        });
+
                         //Bar for countries
                         var country = ['País'];
                         var countryDiagnoses = ['Diagnosticados'];
                         for (var c in countries) {
-                            country.push(getCountryFromDomain(c));
-                            countryDiagnoses.push(countries[c]);
+                            if (c != 'cu') {
+                                country.push(getCountryFromDomain(c));
+                                countryDiagnoses.push(countries[c]);
+                            }
                         }
                         c3.generate({
                             bindto: "#countries-info",
@@ -252,6 +307,10 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
                         var cuba = ['Cuba'];
+                        var test_days = ['Fecha'];
+                        var test_negative = ['Tests Negativos'];
+                        var test_positive = ['Tests Positivos'];
+                        var test_cases = ['Total de Tests'];
                         var total = 0;
 
 
@@ -264,15 +323,53 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             } else {
                                 dailySingle.push(0);
                             }
+                            if ('tests_total' in data.casos.dias[i]) {
+                                test_days.push(data.casos.dias[i].fecha.replace('2020/', ''));
+                                test_cases.push(data.casos.dias[i].tests_total);
+                                test_negative.push(data.casos.dias[i].tests_total - total);
+                                test_positive.push(total);
+                            }
                             dailySum.push(total);
                             cuba.push(total);
                         }
                         $('#update').html('2020/' + dates[dates.length - 1]);
 
+
+                        tests = c3.generate({
+                            bindto: "#tests-line-info",
+                            data: {
+                                x: test_days[0],
+                                columns: [
+                                    test_days,
+                                    test_negative,
+                                    test_positive,
+                                    test_cases
+                                ],
+                                type: 'bar',
+                                groups: [['Tests Negativos', 'Tests Positivos']],
+                                colors: {
+                                    'Tests Negativos': '#1C1340',
+                                    'Tests Positivos': '#B01E22',
+                                    'Total de Tests': '#1A8323'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    //show: false
+                                },
+                                y: {
+                                    label: 'Tests acumulados',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
                         var countrysorted = [];
                         for (var c in countriesdays.paises) {
                             if ((countriesdays.paises[c].length + 1) >= cuba.length) {
-                                //console.log(countriesdays.paises[c].length+1,cuba.length);
+                                console.log(countriesdays.paises[c].length + 1, cuba.length);
                                 var c_temp = [c];
                                 var d_temp = ['Días'];
                                 for (var i = 1; i < countriesdays.paises[c].length; i++) {
@@ -469,8 +566,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function getAllRegions() {
                         var muns = {};
                         var pros = {};
-
                         for (var c in casos) {
+
                             if (!(casos[c].dpacode_municipio_deteccion in muns)) {
                                 muns[casos[c].dpacode_municipio_deteccion] = {"total": 1}
                             } else {
@@ -488,7 +585,6 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     var regions = getAllRegions();
                     var muns = regions.muns;
                     var pros = regions.pros;
-
 
                     function resumeCases() {
                         var max_muns = 0;
@@ -708,14 +804,18 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function setBounds() {
                         var val = $('#select-map').val();
                         $('#map-mun').show();
+                        $('#table-mun').show();
                         $('#map-pro').show();
+                        $('#table-pro').show();
                         map_pro.fitBounds(geojsonP.getBounds());
                         map_mun.fitBounds(geojsonM.getBounds());
                         if (val == 'map-mun') {
                             $('#map-pro').hide();
+                            $('#table-pro').hide();
                         }
                         if (val == 'map-pro') {
                             $('#map-mun').hide();
+                            $('#table-mun').hide();
                         }
                     }
 
