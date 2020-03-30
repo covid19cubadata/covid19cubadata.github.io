@@ -29,7 +29,16 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     function getMunicipeByCode(code) {
                         for (m in municipios.features) {
-                            if (municipios.features[m].properties.DPA_municipality_code === code) {
+                            if (municipios.features[m].properties.DPA_municipality_code == code) {
+                                return municipios.features[m];
+                                break;
+                            }
+                        }
+                    }
+
+                    function getCodeByMunicipeName(name) {
+                        for (m in municipios.features) {
+                            if (municipios.features[m].properties.municipality == name) {
                                 return municipios.features[m];
                                 break;
                             }
@@ -45,7 +54,14 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }
 
-                    console.log(provincias);
+                    function getCodeByProvinceName(name) {
+                        for (p in provincias.features) {
+                            if (provincias.features[p].properties.province === name) {
+                                return provincias.features[p];
+                                break;
+                            }
+                        }
+                    }
 
                     var factor = 40;
 
