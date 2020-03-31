@@ -25,31 +25,23 @@
         <div id="logo-container" class="mb-3">
             <img id="logo" src="images/logo.jpg">
         </div>
-        <div id="apks-info">Descargue nuestra app desde <a
-                href="https://www.apklis.cu/application/club.postdata.covid19cuba">Apklis <img class="app-logo"
-                                                                                               src="images/apk-apklis.png"></a>
-            o desde <a
-                    href="https://github.com/Covid19-Cuba-Efforts/covid19cuba-app/releases/download/v0.1.0/covid-19-cuba.apk">Github
-                <img class="app-logo" src="images/apk-github.png"></a></div>
+        <div id="apks-info">Descargue nuestra app desde <a href="https://www.apklis.cu/application/club.postdata.covid19cuba">Apklis <img class="app-logo" src="images/apk-apklis.png"></a> 
+        o desde <a href="https://github.com/covid19cuba/covid19cuba-app/releases/download/v0.2.1/app.apk">Github  <img class="app-logo" src="images/apk-github.png"></a>.
+        También puede consultar a <a href="https://telegram.me/covid19cubadata_bot">@covid19cubadata_bot <img class="app-logo" src="images/bot-telegram.png"></a> en Telegram.
+        </div>
         <div id="info=item" class="info-note ml-3 mr-3 p-2">
-
+            
         </div>
     </div>
     <div class="col-lg-3 col-md-3">
         <div class="card">
             <div class="card-body rounded common-bg pt-2 pb-2">
-                <p class="gen-info-item"><span class="bd gen-info-diagn">Diagnosticados:</span> <span
-                        id="gen-info-diagn-data"></span></p>
-                <p class="gen-info-item"><span class="bd gen-info-activ">Activos:</span> <span
-                        id="gen-info-activ-data"></span></p>
-                <p class="gen-info-item"><span class="bd gen-info-recov">Recuperados:</span> <span
-                        id="gen-info-recov-data"></span></p>
-                <p class="gen-info-item"><span class="bd gen-info-gone">Evacuados:</span> <span
-                        id="gen-info-gone-data"></span></p>
-                <p class="gen-info-item"><span class="bd gen-info-death">Muertes:</span> <span
-                        id="gen-info-death-data"></span></p>
-                <p class="gen-info-item"><span class="bd">Datos correspondientes a:</span> <span
-                        id="update">fecha</span>.</p>
+                <p class="gen-info-item"><span class="bd gen-info-diagn">Diagnosticados:</span> <span id="gen-info-diagn-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-activ">Activos:</span> <span id="gen-info-activ-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-recov">Recuperados:</span> <span id="gen-info-recov-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-gone">Evacuados:</span> <span id="gen-info-gone-data"></span></p>
+                <p class="gen-info-item"><span class="bd gen-info-death">Muertes:</span> <span id="gen-info-death-data"></span></p>
+                <p class="gen-info-item"><span class="bd">Datos correspondientes a:</span> <span id="update">fecha</span>.</p>
             </div>
         </div>
     </div>
@@ -79,8 +71,7 @@
                         </div>
                     </div>
                     <div class="map-quote">
-                        * el cuadrado representa a aquellos casos que por distintas razones no tengan localización
-                        conocida <br>
+                        * el cuadrado representa a aquellos casos que por distintas razones no tengan localización conocida <br>
                     </div>
                 </div>
 
@@ -105,7 +96,7 @@
 </div>
 <div class="clearfix"></div>
 <div id="line-charts" class="row mt-1">
-    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
+	<div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
         <div class="card common-bg mt-1">
             <div class="card-header">Distribución por rangos etarios</div>
             <div class="card-body">
@@ -113,8 +104,8 @@
             </div>
         </div>
     </div>
-
-    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
+	
+	<div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
         <div class="card common-bg mt-1">
             <div class="card-header">Casos por nacionalidad</div>
             <div class="card-body">
@@ -130,7 +121,7 @@
             </div>
         </div>
     </div>
-
+    
 </div>
 
 <div class="row mt-1">
@@ -142,7 +133,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
         <div class="card common-bg">
             <div class="card-header">Relación de tests realizados</div>
@@ -151,19 +142,19 @@
             </div>
         </div>
     </div>
-
+    
     <div class="col-lg-4 col-md-4 ">
         <div class="card common-bg">
             <div class="card-header">Tests acumulados por días</div>
             <div class="card-body">
                 <div id="tests-line-info"></div>
                 <div class="map-quote">
-                    * esta información se reporta desde 2020/03/22
-                </div>
+					* esta información se reporta desde 2020/03/22
+				</div>
             </div>
         </div>
     </div>
-
+    
 </div>
 
 <div class="row">
@@ -209,8 +200,7 @@
 
     <div class="col-lg-12 col-md-12">
         <div class="card common-bg">
-            <div class="card-header">Comparación de los casos acumulados de Cuba con <select
-                    id="countrycurve-select"></select></div>
+            <div class="card-header">Comparación de los casos acumulados de Cuba con <select id="countrycurve-select"></select></div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 col-nd-6">
@@ -228,8 +218,7 @@
                     </div>
                 </div>
                 <div class="map-quote">
-                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a> y
-                    actualizado el <span id="countries-date">#</span><br>
+                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a> y actualizado el <span id="countries-date">#</span><br>
                 </div>
             </div>
         </div>
@@ -239,30 +228,27 @@
 <div class="footer mt-3 row pb-4">
     <div id="info" class="col-12">
         <div class="row m-0">
-            <div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a>
-                que son actualizados a partir de la información oficial del MINSAP que es reportada
-                al día siguiente.
-            </div>
+            <div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a> que son actualizados a partir de la información oficial del MINSAP que es reportada
+            al día siguiente.</div>
             <div class="col-lg-4 col-md-4" id="date">
             </div>
             <div class="col-lg-4 col-md-4" id="project">
-                Este es un proyecto abierto y su código está en <a
-                    href="https://github.com/covid19cubadata/covid19cubadata.github.io">Github</a>
+			Este es un proyecto abierto y su código está en <a href="https://github.com/covid19cubadata/covid19cubadata.github.io">Github</a>
             </div>
         </div>
     </div>
 
     <div class="col-12 text-center">
-
-
+		
+		
         <div class="text-block mt-4">
-            Copyright 2020
-            <div id="team-logos">
-                <a href="#"><img class="team-logo" src="images/logo-matcom.png"></a>
-                <a href="https://www.postdata.club/"><img class="team-logo" src="images/logo-pd.png"></a>
-                <a href="#"><img class="team-logo" src="images/logo-jt.jpeg"></a>
-            </div>
-            <br>
+			Copyright 2020
+                <div id="team-logos">
+                    <a href="#"><img class="team-logo" src="images/logo-matcom.png"></a>
+                    <a href="https://www.postdata.club/"><img class="team-logo" src="images/logo-pd.png"></a>
+                    <a href="#"><img class="team-logo" src="images/logo-jt.jpeg"></a>
+                </div>
+                <br>
             El sitio original <a href="http://covid19cubadata.github.io">Covid19CubaData</a> es replicado en:
         </div>
         <div><a href="http://www.cusobu.nat.cu/covid/">www.cusobu.nat.cu/covid/</a> cortesía de
