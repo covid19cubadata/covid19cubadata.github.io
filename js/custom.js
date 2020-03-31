@@ -802,18 +802,14 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function setBounds() {
                         var val = $('#select-map').val();
                         $('#map-mun').show();
-                        $('#table-mun').show();
                         $('#map-pro').show();
-                        $('#table-pro').show();
                         map_pro.fitBounds(geojsonP.getBounds());
                         map_mun.fitBounds(geojsonM.getBounds());
                         if (val == 'map-mun') {
                             $('#map-pro').hide();
-                            $('#table-pro').hide();
                         }
                         if (val == 'map-pro') {
                             $('#map-mun').hide();
-                            $('#table-mun').hide();
                         }
                     }
 
@@ -829,9 +825,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             $('#cases5').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor / genInfo.max_muns) + ")");
                             $('#cases').html(genInfo.max_muns);
                             $('#map-pro').hide();
-                            $('#table-pro').hide();
                             $('#map-mun').show();
-                            $('#table-mun').show();
                         } else {
                             $('#cases1').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
                             $('#cases2').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor * 0.4 / genInfo.max_pros) + ")");
@@ -840,16 +834,13 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             $('#cases5').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor / genInfo.max_pros) + ")");
                             $('#cases').html(genInfo.max_pros);
                             $('#map-mun').hide();
-                            $('#table-mun').hide();
                             $('#map-pro').show();
-                            $('#table-pro').show();
                         }
 
                     });
 
 
                     $('#map-pro').hide();
-                    $('#table-pro').hide();
 
                     console.log(curves);
 
