@@ -19,13 +19,14 @@ var contagio = {
     'introducido': 0,
     'autoctono': 0,
     'desconocido': 0
-}
+};
 
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
             $.getJSON("data/municipios.geojson",
                 function (municipios) {
+
 
                     function getMunicipeByCode(code) {
                         for (m in municipios.features) {
@@ -63,7 +64,6 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }
 
-
                     var factor = 40;
 
                     var curves = {};
@@ -94,7 +94,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             '41-60': 0,
                             '61 o más': 0,
                             'Desconocido': 0
-                        }
+                        };
                         var total_cu = 0;
                         var total_no_cu = 0;
                         var total_unk = 0;
@@ -662,13 +662,11 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         pro_ranking += 1;
                     });
 
-
                     $('#gen-info-diagn-data').html(genInfo.total);
                     $('#gen-info-activ-data').html(genInfo.total - (genInfo.deaths + genInfo.gone + genInfo.recov));
                     $('#gen-info-death-data').html(genInfo.deaths);
                     $('#gen-info-gone-data').html(genInfo.gone);
                     $('#gen-info-recov-data').html(genInfo.recov);
-
 
                     var geojsonM = L.geoJSON(municipios, {style: styleM});
 
