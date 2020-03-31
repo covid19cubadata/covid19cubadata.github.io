@@ -81,7 +81,7 @@ body > div {
     margin-top: 5px;
 }
 
-#countries-info, #ages-info {
+#countries-info, #ages-info, #countries-info-pie {
     height: 180px;
 }
 
@@ -225,8 +225,12 @@ body > div {
     height: 260px;
 }
 
-#daily-single-info, #daily-sum-info {
+#daily-single-info, #daily-sum-info, #tests-donut-info {
     height: 225px;
+}
+
+#tests-line-info { 
+	height: 205px;
 }
 
 #countriescurve-info {

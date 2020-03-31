@@ -93,15 +93,7 @@
 </div>
 <div class="clearfix"></div>
 <div id="line-charts" class="row mt-1">
-    <div class="col-lg-6 col-md-6 pr-0 pr-xs-3">
-        <div class="card common-bg mt-1">
-            <div class="card-header">Distribución por nacionalidad de casos en Cuba</div>
-            <div class="card-body">
-                <div id="countries-info"></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 col-md-6">
+	<div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
         <div class="card common-bg mt-1">
             <div class="card-header">Distribución por rangos etarios</div>
             <div class="card-body">
@@ -109,6 +101,24 @@
             </div>
         </div>
     </div>
+	
+	<div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
+        <div class="card common-bg mt-1">
+            <div class="card-header">Casos por nacionalidad</div>
+            <div class="card-body">
+                <div id="countries-info-pie"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4">
+        <div class="card common-bg mt-1">
+            <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
+            <div class="card-body">
+                <div id="countries-info"></div>
+            </div>
+        </div>
+    </div>
+    
 </div>
 
 <div class="row mt-1">
@@ -120,8 +130,33 @@
             </div>
         </div>
     </div>
+    
+    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
+        <div class="card common-bg">
+            <div class="card-header">Relación de tests realizados</div>
+            <div class="card-body">
+                <div id="tests-donut-info"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-4 col-md-4 ">
+        <div class="card common-bg">
+            <div class="card-header">Tests acumulados por días</div>
+            <div class="card-body">
+                <div id="tests-line-info"></div>
+                <div class="map-quote">
+					* esta información se reporta desde 2020/03/22
+				</div>
+            </div>
+        </div>
+    </div>
+    
+</div>
 
-    <div class="col-lg-8 col-md-8">
+<div class="row mt-1">
+
+    <div class="col-lg-12 col-md-12">
         <div class="card common-bg">
             <div class="card-header">Comparación de los casos acumulados de Cuba con <select id="countrycurve-select"></select></div>
             <div class="card-body">
