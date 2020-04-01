@@ -244,7 +244,12 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             axis: {
                                 x: {
                                     label: 'País',
-                                    type: 'categorical'
+                                    type: 'categorical',
+                                    tick: {
+                                        rotate: -30,
+                                        multiline: false
+                                    },
+                                    height: 45
                                 },
                                 y: {
                                     label: 'Casos',
