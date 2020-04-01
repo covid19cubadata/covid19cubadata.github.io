@@ -26,23 +26,58 @@ $.getJSON("data/covid19-cuba.json",function(data){
 $.getJSON("data/provincias.geojson",function(provincias){
 $.getJSON("data/municipios.geojson",
 	function(municipios){
-		
-		var factor = 100;
-		
+
+		function getMunicipeByCode(code) {
+			for (m in municipios.features) {
+				if (municipios.features[m].properties.DPA_municipality_code == code) {
+					return municipios.features[m];
+					break;
+				}
+			}
+		}
+
+		function getCodeByMunicipeName(name) {
+			for (m in municipios.features) {
+				if (municipios.features[m].properties.municipality == name) {
+					return municipios.features[m];
+					break;
+				}
+			}
+		}
+
+		function getProvinceByCode(code) {
+			for (p in provincias.features) {
+				if (provincias.features[p].properties.DPA_province_code === code) {
+					return provincias.features[p];
+					break;
+				}
+			}
+		}
+
+		function getCodeByProvinceName(name) {
+			for (p in provincias.features) {
+				if (provincias.features[p].properties.province === name) {
+					return provincias.features[p];
+					break;
+				}
+			}
+		}
+		var factor = 50;
+
 		var curves = {};
-		
-		
-		
+
+
+
 		function getCountryFromDomain(dom){
 			if (dom in domains){
-				return domains[dom];	
+				return domains[dom];
 			}
 			if (dom=='unknown'){
-				return 'Desconocido';	
+				return 'Desconocido';
 			}
 			return dom;
 		}
-		
+
 		function getAllCasesAndSimpleGraphics(){
 			var cases = {};
 			var deaths  = 0;
@@ -57,13 +92,13 @@ $.getJSON("data/municipios.geojson",
 				'19-40':0,
 				'41-60':0,
 				'61 o más': 0,
-				'Desconocido': 0	
+				'Desconocido': 0
 			}
 			var total_cu = 0;
 			var total_no_cu = 0;
 			var total_unk = 0;
 			var total_tests = 0;
-			
+
 			for(var day in data.casos.dias){
 				if ('diagnosticados' in data.casos.dias[day]){
 					var diag = data.casos.dias[day].diagnosticados;
@@ -334,7 +369,7 @@ $.getJSON("data/municipios.geojson",
 			var countrysorted= [];
 			for(var c in countriesdays.paises){
 				if ((countriesdays.paises[c].length+1)>=cuba.length){
-					//console.log(countriesdays.paises[c].length+1,cuba.length);
+					console.log(countriesdays.paises[c].length+1,cuba.length);
 					var c_temp = [c];
 					var d_temp = ['Días'];
 					for(var i=1;i<countriesdays.paises[c].length;i++){
@@ -576,29 +611,75 @@ $.getJSON("data/municipios.geojson",
 		}
 		
 		var genInfo = resumeCases();
-		
+
+		var MAX_LISTS = 10;
+
+		muns_array = [];
+		for (var m in muns) {
+			muns_array.push({cod: m, total: muns[m].total});
+		}
+		muns_array.sort(function (a, b) {
+			return b.total - a.total
+		});
+
+		var $table_mun = $('#table-mun > tbody');
+		var mun_ranking = 1;
+		$(muns_array.slice(0, MAX_LISTS)).each(function (index, item) {
+			municipe = getMunicipeByCode(item.cod);
+			var row = ("<tr><td>{ranking}</td>" +
+				"<td>{cod} ({pro})</td>" +
+				// "<td>{total}</td>" +
+				"<td>{rate}%</td></tr>")
+				.replace("{ranking}", mun_ranking)
+				.replace("{cod}", municipe.properties.municipality)
+				.replace("{pro}", municipe.properties.province)
+				// .replace('{total}', item.total)
+				.replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
+			$table_mun.append(row);
+			mun_ranking += 1;
+		});
+
+		pros_array = [];
+		for (var m in pros) {
+			pros_array.push({cod: m, total: pros[m].total});
+		}
+		pros_array.sort(function (a, b) {
+			return b.total - a.total
+		});
+
+		var $table_pro = $('#table-pro > tbody');
+		var pro_ranking = 1;
+		$(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
+			var row = ("<tr><td>{ranking}</td>" +
+				"<td>{cod}</td>" +
+				// "<td>{total}</td>" +
+				"<td>{rate}%</td></tr>")
+				.replace("{ranking}", pro_ranking)
+				.replace("{cod}", getProvinceByCode(item.cod).properties.province)
+				// .replace('{total}', item.total)
+				.replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
+			$table_pro.append(row);
+			pro_ranking += 1;
+		});
+
 		$('#gen-info-diagn-data').html(genInfo.total);
 		$('#gen-info-activ-data').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
 		$('#gen-info-death-data').html(genInfo.deaths);
 		$('#gen-info-gone-data').html(genInfo.gone);
 		$('#gen-info-recov-data').html(genInfo.recov);
-		
-		
-		
-		
-		
+
 		var geojsonM = L.geoJSON(municipios,{style:styleM});
-		
+
 		var geojsonP = L.geoJSON(provincias,{style:styleP});
-		
+
 		geojsonM.bindTooltip(function(layer){
 			return '<span class="bd">'+layer.feature.properties.province+'</span> - '+layer.feature.properties.municipality;
 		},{'sticky':true});
-		
+
 		geojsonP.bindTooltip(function(layer){
 			return '<span class="bd">'+layer.feature.properties.province+'</span>';
 		},{'sticky':true});
-		
+
 		function getMunProfile(code,mun,pro){
 			var t = '';
 			t += '<div class="small-pname"><span class="bd">'+pro+'</span> - <span>'+mun+'</span></div>';
@@ -657,27 +738,17 @@ $.getJSON("data/municipios.geojson",
 				fillColor: getColorP(feature.properties.DPA_province_code)
 			};
 		}
-
-		function logx(base, x){
-			if(base == 10){
-				return Math.log10(x);
-			}
-			return Math.log10(x)/Math.log10(base);
-		}
 		
-		console.log(factor);
-		console.log(genInfo);
-		$('#cases1').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
-		$('#cases2').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
-		$('#cases3').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
-		$('#cases4').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
-		$('#cases5').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor/genInfo.max_muns)+")");
+		$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
+		$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
+		$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
+		$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
+		$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
 		$('#cases').html(genInfo.max_muns);
 		
 		function getColorM(code){
 			if (code in muns) {
-				var opac = logx(factor,muns[code].total*factor/genInfo.max_muns);
-				console.log(opac);
+				var opac = Math.log10(muns[code].total*factor/genInfo.max_muns);
 				return "rgba(176,30,34,"+opac+")";
 			}
 			return '#D1D2D4';
@@ -685,8 +756,7 @@ $.getJSON("data/municipios.geojson",
 		
 		function getColorP(code){
 			if (code in pros) {
-				var opac = logx(factor, pros[code].total*factor/genInfo.max_pros);
-				console.log(opac);
+				var opac = Math.log10(pros[code].total*factor/genInfo.max_pros);
 				return "rgba(176,30,34,"+opac+")";
 			}
 			return '#D1D2D4';
@@ -744,37 +814,35 @@ $.getJSON("data/municipios.geojson",
 		}
 		
 		window.addEventListener('resize', setBounds);
-
-		//console.log(Math.log10(genInfo.max_pros*factor*0.2/genInfo.max_pros));
-		//console.log(Math.log10(genInfo.max_pros*factor*0.4/genInfo.max_pros));
-		//console.log(Math.log10(genInfo.max_pros*factor*0.6/genInfo.max_pros));
-		//console.log(Math.log10(genInfo.max_pros*factor*0.8/genInfo.max_pros));
 		
 		$('#select-map').on('change',function(e){
 		var val  = $('#select-map').val();
 		if (val=='map-mun'){
-			$('#cases1').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
-			$('#cases2').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
-			$('#cases3').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
-			$('#cases4').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
-			$('#cases5').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_muns*factor/genInfo.max_muns)+")");
+			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
+			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
+			$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
+			$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
+			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
 		$('#cases').html(genInfo.max_muns);
 			$('#map-pro').hide();	
 			$('#map-mun').show();	
 		} else {
-			$('#cases1').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_pros*factor*0.2/genInfo.max_pros)+")");
-			$('#cases2').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_pros*factor*0.4/genInfo.max_pros)+")");
-			$('#cases3').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_pros*factor*0.6/genInfo.max_pros)+")");
-			$('#cases4').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_pros*factor*0.8/genInfo.max_pros)+")");
-			$('#cases5').css('color',"rgba(176,30,34,"+logx(factor,genInfo.max_pros*factor/genInfo.max_pros)+")");
+			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.2/genInfo.max_pros)+")");
+			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.4/genInfo.max_pros)+")");
+			$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.6/genInfo.max_pros)+")");
+			$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.8/genInfo.max_pros)+")");
+			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor/genInfo.max_pros)+")");
 			$('#cases').html(genInfo.max_pros);
 			$('#map-mun').hide();	
 			$('#map-pro').show();	
 		}
+		
 });
 
+		
 		$('#map-pro').hide();
-		//console.log(curves);	
+		
+		console.log(curves);	
 		
 });
 });
