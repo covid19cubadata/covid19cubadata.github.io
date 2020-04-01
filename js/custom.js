@@ -626,11 +626,14 @@ $.getJSON("data/municipios.geojson",
 		var mun_ranking = 1;
 		$(muns_array.slice(0, MAX_LISTS)).each(function (index, item) {
 			municipe = getMunicipeByCode(item.cod);
-			var row = "<tr><td>{ranking}</td><td>{cod} ({pro})</td><td>{total}</td><td>{rate}%</td></tr>"
+			var row = ("<tr><td>{ranking}</td>" +
+				"<td>{cod} ({pro})</td>" +
+				// "<td>{total}</td>" +
+				"<td>{rate}%</td></tr>")
 				.replace("{ranking}", mun_ranking)
 				.replace("{cod}", municipe.properties.municipality)
 				.replace("{pro}", municipe.properties.province)
-				.replace('{total}', item.total)
+				// .replace('{total}', item.total)
 				.replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
 			$table_mun.append(row);
 			mun_ranking += 1;
@@ -647,10 +650,13 @@ $.getJSON("data/municipios.geojson",
 		var $table_pro = $('#table-pro > tbody');
 		var pro_ranking = 1;
 		$(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
-			var row = "<tr><td>{ranking}</td><td>{cod}</td><td>{total}</td><td>{rate}%</td></tr>"
+			var row = ("<tr><td>{ranking}</td>" +
+				"<td>{cod}</td>" +
+				// "<td>{total}</td>" +
+				"<td>{rate}%</td></tr>")
 				.replace("{ranking}", pro_ranking)
 				.replace("{cod}", getProvinceByCode(item.cod).properties.province)
-				.replace('{total}', item.total)
+				// .replace('{total}', item.total)
 				.replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
 			$table_pro.append(row);
 			pro_ranking += 1;
