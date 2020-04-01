@@ -62,7 +62,7 @@ $.getJSON("data/municipios.geojson",
 				}
 			}
 		}
-		var factor = 50;
+		var factor = 100;
 
 		var curves = {};
 
@@ -306,10 +306,10 @@ $.getJSON("data/municipios.geojson",
 			var dailySingle = ['Casos en el día'];
 			var dailySum = ['Casos acumulados'];
 			var cuba = ['Cuba'];
-			var test_days = ['Fecha'];
-			var test_negative = ['Tests Negativos'];
-			var test_positive = ['Tests Positivos'];
-			var test_cases = ['Total de Tests'];
+			var test_days = [];
+			var test_negative = [];
+			var test_positive = [];
+			var test_cases = [];
 			var total = 0;
 			
 			
@@ -332,18 +332,31 @@ $.getJSON("data/municipios.geojson",
 				dailySum.push(total);
 				cuba.push(total);
 			}
+			
+			var ntest_days = ['Fecha'];
+			var ntest_negative = ['Tests Negativos'];
+			var ntest_positive = ['Tests Positivos'];
+			var ntest_cases = ['Total de Tests'];
+			for(var i=1;i<test_cases.length;i++){
+				ntest_days.push(test_days[i]);
+				ntest_cases.push(test_cases[i]-test_cases[i-1]);
+				ntest_negative.push(test_negative[i]-test_negative[i-1]);
+				ntest_positive.push(test_positive[i]-test_positive[i-1]);		
+			}
+			
+			
 			$('#update').html('2020/'+dates[dates.length-1]);
 			
 			
 			tests = c3.generate({
 					bindto: "#tests-line-info",
 						data: {
-							  x : test_days[0],
+							  x : ntest_days[0],
 							  columns: [
-								test_days,
-								test_negative,
-								test_positive,
-								test_cases
+								ntest_days,
+								ntest_negative,
+								ntest_positive,
+								ntest_cases
 							  ],
 							  type: 'bar',
 							  groups : [['Tests Negativos','Tests Positivos']],
@@ -369,7 +382,7 @@ $.getJSON("data/municipios.geojson",
 			var countrysorted= [];
 			for(var c in countriesdays.paises){
 				if ((countriesdays.paises[c].length+1)>=cuba.length){
-					console.log(countriesdays.paises[c].length+1,cuba.length);
+					
 					var c_temp = [c];
 					var d_temp = ['Días'];
 					for(var i=1;i<countriesdays.paises[c].length;i++){
@@ -842,7 +855,6 @@ $.getJSON("data/municipios.geojson",
 		
 		$('#map-pro').hide();
 		
-		console.log(curves);	
 		
 });
 });
