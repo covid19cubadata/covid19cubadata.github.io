@@ -4621,6 +4621,7 @@
                     },
                     {
                         "id": "cu-170",
+                        "pais": "cu",
                         "edad": 17,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
