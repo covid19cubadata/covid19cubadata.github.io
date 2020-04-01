@@ -62,7 +62,7 @@ $.getJSON("data/municipios.geojson",
 				}
 			}
 		}
-		var factor = 50;
+		var factor = 100;
 
 		var curves = {};
 
