@@ -729,18 +729,23 @@ $.getJSON("data/municipios.geojson",
 		map_pro.fitBounds(geojsonP.getBounds());
 		
 		
-		function setBounds(){
-			var val = $('#select-map').val();
+		function setBounds() {
 			$('#map-mun').show();
 			$('#map-pro').show();
-			map_pro.fitBounds(geojsonP.getBounds());		
-			map_mun.fitBounds(geojsonM.getBounds());
-			if (val=='map-mun'){
-				$('#map-pro').hide();		
-			}
-			if (val=='map-pro'){
-				$('#map-mun').hide();		
-			}
+
+			// Using setTimeout to leave some time for the browser to actually render
+			// both maps for one milisecond so that we can adjust their size
+			setTimeout(function () {
+				var val = $('#select-map').val();
+				map_pro.fitBounds(geojsonP.getBounds());
+				map_mun.fitBounds(geojsonM.getBounds());
+				if (val == 'map-mun') {
+					$('#map-pro').hide();
+				}
+				if (val == 'map-pro') {
+					$('#map-mun').hide();
+				}
+			}, 1);
 		}
 		
 		window.addEventListener('resize', setBounds);
