@@ -755,7 +755,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function getColorM(code) {
                         if (code in muns) {
 							var opac = logx(factor,muns[code].total * factor / genInfo.max_muns);
-							console.log(opac);
+							//console.log(opac);
                             return "rgba(176,30,34," + opac + ")";
                         }
                         return '#D1D2D4';
@@ -764,7 +764,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function getColorP(code) {
                         if (code in pros) {
 							var opac = logx(factor,pros[code].total * factor / genInfo.max_pros);
-							console.log(opac);
+							//console.log(opac);
                             return "rgba(176,30,34," + opac + ")";
                         }
                         return '#D1D2D4';
