@@ -69,9 +69,9 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     function logx(base, x){
                         if(base == 10){
-                            return logx(factor, x);
+                            return Math.log10(x);
                         }
-                        return logx(factor, x)/logx(factor, base);
+                        return Math.log10(x)/Math.log10(base);
                     }
 
                     function getCountryFromDomain(dom) {
