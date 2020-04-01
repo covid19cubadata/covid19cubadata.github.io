@@ -714,7 +714,7 @@
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": "2020/03/10",
                         "consulta_medico": "2020/03/17",
-                        "municipio_detección": "Palma de Soriano",
+                        "municipio_detección": "Palma Soriano",
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.07",
                         "dpacode_provincia_deteccion": "34",
@@ -1644,7 +1644,7 @@
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": "2020/03/20",
-                        "municipio_detección": "Plaza",
+                        "municipio_detección": "Plaza de la Revolución",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.02",
                         "dpacode_provincia_deteccion": "23",
@@ -3347,7 +3347,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "contagio": null,
+                        "contagio": "introducido",
                         "contacto_focal": 21,
                         "centro_aislamiento": "hjc",
                         "centro_diagnostico": "lsc",
@@ -3379,7 +3379,9 @@
                         "contacto_focal": 28,
                         "centro_aislamiento": "hlc",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadana cubana de 50 años de edad, residente en Consolación del Sur, provincia Pinar del Río. Es contacto del matrimonio procedente de Cancún, México. Comenzó el 25 de marzo con síntomas, ese día fue ingresada en el Hospital León Cuervo Rubio. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 28 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3419,7 +3421,9 @@
                         "contacto_focal": 12,
                         "centro_aislamiento": "hlc",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 52 años de edad, residente en el municipio Pinar del Río, provincia del mismo nombre. Mantuvo contacto directo con viajero procedente de Estados Unidos en los últimos 14 días. Comenzó el 25 de marzo con síntomas, fue ingresado el 26 en el Hospital León Cuervo Rubio. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3439,7 +3443,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": "caa",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["es"],
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
                         "info": "Ciudadano cubano de 26 años de edad, residente en San Antonio de los Baños, provincia Artemisa. Arribó al país el 16 de marzo procedente de España. Comenzó el día 24 con los síntomas, el 27 fue ingresado en el Centro de aislamiento de la provincia. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 10 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3479,7 +3485,9 @@
                         "contacto_focal": 27,
                         "centro_aislamiento": "hld",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadano cubano de 38 años de edad, residente en Guanajay, provincia de Artemisa. Mantuvo contacto directo con viajero procedente de Estados entre el 13 y 15 de marzo. Comenzó el 20 de marzo con síntomas, fue ingresado el 27 en el Hospital Luis Díaz Soto. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 27 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3499,7 +3507,9 @@
                         "contacto_focal": 7,
                         "centro_aislamiento": "hld",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["es"],
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
                         "info": "Ciudadano cubano de 47 años de edad, residente en Habana del Este, provincia La Habana. Es contacto de su esposa que arribó el 15 de marzo de España, asintomática. Comenzó el 23 de marzo con síntomas, el 24 fue ingresado en el Hospital Luis Díaz Soto. Se mantiene con evolución satisfactoria hasta el momento. Se encuentran en vigilancia 7 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3519,7 +3529,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": "hld",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["es"],
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
                         "info": "Ciudadana cubana de 75 años de edad, residente en el municipio Plaza de la Revolución, provincia La Habana. Mantuvo contacto con personas procedentes de España en los últimos 14 días. Comenzó el 23 de marzo con síntomas, y fue ingresada el 27 en Hospital Luis Díaz Soto. Se mantiene con evolución satisfactoria hasta el momento. Se encuentran en vigilancia 10 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3559,7 +3571,9 @@
                         "contacto_focal": 7,
                         "centro_aislamiento": "hld",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["it"],
+                        "posible_procedencia_contagio": [
+                            "it"
+                        ],
                         "info": "Ciudadano cubano de 49 años de edad, residente en el municipio Plaza de la Revolución, provincia La Habana. Mantuvo contacto con extranjeros procedentes de Italia del día 9 al 16, asintomáticos. Comenzó el 16 de marzo con síntomas, el 21 ingresó en el Hospital Luis Díaz Soto. Se mantiene con evolución satisfactoria hasta el momento. Se encuentran en vigilancia 7 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3659,7 +3673,9 @@
                         "contacto_focal": 12,
                         "centro_aislamiento": "hmm",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadana cubana de 57 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Arribó al país el 19 de marzo procedente de Cancún, México. Comenzó el 24 de marzo con síntomas, el día 27 en la pesquisa fue identifica como caso sospechoso, siendo remitida e ingresada en el Hospital “Mario Muñoz Monrroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3679,7 +3695,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": "hmm",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 70 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Es contacto de su hermano que la visitó del  19 al 21 de marzo procedente de Estados Unidos de América, asintomático. Comenzó el 23 de marzo con síntomas, el 27 fue ingresada en el Hospital “Mario Muñoz Monroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 10 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3739,7 +3757,9 @@
                         "contacto_focal": 15,
                         "centro_aislamiento": "hmm",
                         "centro_diagnostico": "ipk",
-                        "posible_procedencia_contagio": ["fr"],
+                        "posible_procedencia_contagio": [
+                            "fr"
+                        ],
                         "info": "Ciudadano cubano de 55 años de edad, residente en el municipio de Matanzas, provincia del mismo nombre. Es guía turístico de la Agencia de viajes Cubanacán, mantuvo contacto con turistas franceses, asintomáticos. Comenzó el 22 de marzo con síntomas, el 24 fue ingresado en el Hospital “Mario Muñoz Monroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 15 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3759,7 +3779,9 @@
                         "contacto_focal": 12,
                         "centro_aislamiento": "hmf",
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["pa"],
+                        "posible_procedencia_contagio": [
+                            "pa"
+                        ],
                         "info": "Ciudadano cubano de 45 años de edad, residente en el municipio Ranchuelo, provincia Villa Clara. Contacto de viajero procedente de Panamá. Comenzó el 26 de marzo con síntomas, el día 27 fue ingresado Hospital “Manuel Piti Fajardo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3779,7 +3801,9 @@
                         "contacto_focal": 26,
                         "centro_aislamiento": "hmm",
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadano cubano de 67 años de edad, reside en Cumanayagua, provincia Cienfuegos. Es contacto de caso sospechoso procedente de Estado Unidos de América. Comenzó el 23 de marzo con síntomas, el día 26 fue ingresado en el Hospital “Mario Muñoz Monrroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 26 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3799,7 +3823,9 @@
                         "contacto_focal": 25,
                         "centro_aislamiento": "cac",
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 26 años, residente en el municipio Aguada de Pasajeros, provincia Cienfuegos. Es contacto de su esposo que la visitó del  16 al 26 de marzo procedente de Estados Unidos, asintomático. Comenzó el 20 de marzo con síntomas, el 27 fue ingresado en el Centro de Aislamiento Villa Azúcar. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 25 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3819,7 +3845,9 @@
                         "contacto_focal": 13,
                         "centro_aislamiento": "cac",
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 7 meses de edad, residente en el municipio Aguada de Pasajeros, provincia Cienfuegos. Es contacto de su papá que la visitó del 16 al 26 de marzo procedente de Estados Unidos, asintomático. Comenzó el 22 de marzo con síntomas, el 26 fue ingresada en el Centro de Aislamiento Villa Azúcar. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 13 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3859,7 +3887,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": "cnv",
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadano cubano de 48 años de edad, residente en el municipio Majagua, provincia Ciego de Ávila. Arribó al país el 21 de marzo procedente de Estados Unidos. Comenzó el 23 de marzo con síntomas. Fue identificado como caso sospechoso el día 24 como caso sospechoso en la pesquisa, siendo remitido e ingresado en el Hospital “Nguyen Van Troy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 6 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3879,7 +3909,9 @@
                         "contacto_focal": 9,
                         "centro_aislamiento": "cnv",
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 57 años de edad, residente en Ciego de Ávila, provincia del mismo nombre. Arribó el 16 de marzo procedente de Estados Unidos. Comenzó el 21 de marzo con síntomas, el día 27 fue ingresada en el Hospital “Nguyen Van Troi”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 9 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3899,7 +3931,9 @@
                         "contacto_focal": 18,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["es"],
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
                         "info": "Ciudadano cubano de 63 años, residente en el municipio Venezuela, provincia Ciego de Ávila. Contacto de dos viajeros procedentes de España que arribaron el 12 de marzo. Comenzó el 25 de marzo con síntomas, acude a consulta de cuerpo de guardia el día 28, sobre la 1pm. Fue ingresado en el Hospital Dr. Antonio Luaces Iraola con insuficiencia respiratoria severa falleciendo a las 6: 00 p. m. Se encuentran en vigilancia 18 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3919,7 +3953,9 @@
                         "contacto_focal": 18,
                         "centro_aislamiento": "cho",
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["es"],
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
                         "info": "Ciudadano cubano de 48 años de edad, residente en el municipio Majibacoa, provincia Las Tunas. Arribó el 24 de marzo procedente de España. Comenzó el 25 de marzo con síntomas, el día 26 fue ingresado en el Centro de aislamiento “El Cocal”, en la provincia de Holguín. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 18 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3939,7 +3975,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": "ccu",
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 29 años de edad, residente en el municipio Manzanillo, provincia Granma. Contacto de viajero que arribó de Venezuela el 18 de marzo. Comenzó el 23 de marzo con síntomas, el día 24 es ingresado en el centro de aislamiento de la provincia. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 8 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3959,7 +3997,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": "hag",
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadano norteamericano, de 4 años de edad, que se encuentra de visita en casa de sus abuelos en Bayamo, provincia Granma. Arribó el 22 de marzo procedente de Estados Unidos de América. Comenzó el 23 de marzo con síntomas, el día 27 fue ingresado en el Hospital de Santiago de Cuba. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 10 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
@@ -3979,18 +4019,381 @@
                         "contacto_focal": 15,
                         "centro_aislamiento": "cvl",
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["fr"],
+                        "posible_procedencia_contagio": [
+                            "fr"
+                        ],
                         "info": "Ciudadana cubana de 32 años de edad, residente en Manuel Támes, provincia de Guantánamo. Arribó el 20 de marzo de Francia. Comenzó con síntomas desde el 25 de marzo. El 26 fue ingresada en el Hospital designado para la atención en esta provincia. Se mantiene aislada con evolución satisfactoria hasta el momento. Se encuentran en vigilancia 15 contactos de este paciente.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "sujetos_riesgo":  2681,
+                "sujetos_riesgo": 2681,
                 "tests_total": 2007,
                 "muertes_numero": 1,
-                "muertes_id" : [
+                "muertes_id": [
                     "cu-141"
                 ]
+            },
+            "20": {
+                "fecha": "2020/03/30",
+                "diagnosticados": [
+                    {
+                        "id": "fr-6",
+                        "pais": "fr",
+                        "edad": 11,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/09",
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": null,
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "30",
+                        "contagio": "importado",
+                        "contacto_focal": 5,
+                        "centro_aislamiento": "hoc",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "fr"
+                        ],
+                        "info": "Ciudadano francés de 11 años de edad. Arribó al país el 9 de marzo procedente de Francia, contacto de su mamá, caso confirmado anteriormente. Comenzó el 25 de marzo con síntomas, el día 27 de marzo fue remitido e ingresado en el Hospital “Dr. Octavio de la Concepción y Pedraja”, de Camagüey. Se mantiene aislado con evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "fr-7",
+                        "pais": "fr",
+                        "edad": 14,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/09",
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": null,
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "30",
+                        "contagio": "importado",
+                        "contacto_focal": 5,
+                        "centro_aislamiento": "hoc",
+                        "centro_diagnostico": "lvc",
+                        "posible_procedencia_contagio": [
+                            "fr"
+                        ],
+                        "info": "Ciudadano francés de 14 años de edad. Arribó al país el 9 de marzo procedente de Francia, contacto de su mamá, caso confirmado anteriormente. Comenzó el 25 de marzo con síntomas, el día 27 de marzo fue remitido e ingresado en el Hospital “Dr. Octavio de la Concepción y Pedraja”, de Camagüey. Se mantiene aislado con evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-145",
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/29",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 1,
+                        "centro_aislamiento": "ipk",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 58 años de edad, residente en el municipio Plaza de la Revolución, provincia La Habana. Arribó al país el 28 de marzo procedente de España. Comenzó el 29 de marzo con síntomas, fue remitido e ingresado en el IPK. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 1 contacto de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-146",
+                        "pais": "cu",
+                        "edad": 28,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/17",
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "importado",
+                        "contacto_focal": 25,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "ca"
+                        ],
+                        "info": "Ciudadano cubano de 28 años de edad, residente en el municipio Diez de Octubre, provincia La Habana. Arribó al país el 17 de marzo procedente de Canadá. Comenzó el 28 de marzo con síntomas, el mismo día en la pesquisa fue identificado como caso sospechoso, siendo remitido e ingresado en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 25 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-147",
+                        "pais": "cu",
+                        "edad": 25,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 25,
+                        "centro_aislamiento": "ipk",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            ""
+                        ],
+                        "info": "Ciudadana cubana de 25 años de edad, residente en el municipio Diez de Octubre, provincia La Habana. Se encontraba ingresada en el IPK por ser contacto directo del caso confirmado anterior. Se estudia resultando positiva. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 25 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-148",
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/16",
+                        "consulta_medico": "2020/03/28",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "importado",
+                        "contacto_focal": 3,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "fr"
+                        ],
+                        "info": "Ciudadana cubana de 88 años de edad, residente en el municipio Marianao, provincia La Habana. Arribó al país el 16 de marzo procedente de Francia. Comenzó el 17 de marzo con síntomas. El 28 fue ingresada en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 3 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-149",
+                        "pais": "cu",
+                        "edad": 24,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/26",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 4,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
+                        "info": "Ciudadano cubano de 24 años, residente en el municipio Marianao, provincia La Habana. Mantuvo contacto con personas procedentes de España en los últimos 14 días. Comenzó el 25 de marzo con síntomas, y fue ingresado el 26 en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 4 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-150",
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": "2020/03/20",
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": null,
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "importado",
+                        "contacto_focal": 1,
+                        "centro_aislamiento": "hld",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
+                        "info": "Ciudadana cubana de 54 años de edad, residente en La Habana. Arribó de Estados Unidos el día 20 de marzo. El día 27 inició los síntomas y fue ingresada en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 1 contacto de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-151",
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/20",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 3,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano Cubano de 75 años de edad, residente en el municipio Plaza de la Revolución, provincia La Habana. Con antecedentes de enfermedad pulmonar obstructiva crónica, hipertensión arterial, aneurisma de la aorta. Contacto de caso confirmado anteriormente. Inicia los síntomas el 20 de marzo. Fue ingresado el 26 con el diagnostico de Neumonía en el Hospital “Manuel Fajardo”, con evolución tórpida, falleciendo en la tarde de ayer. Se encuentran en vigilancia 3 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-152",
+                        "pais": "cu",
+                        "edad": 37,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/28",
+                        "consulta_medico": "2020/03/29",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "contagio": "importado",
+                        "contacto_focal": 20,
+                        "centro_aislamiento": "ccu",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
+                        "info": "Ciudadano cubano de 37 años de edad, residente en el municipio Bayamo, provincia Granma. Arribó al país el 28 de marzo procedente de Estados Unidos. Comenzó con los síntomas desde el 25 de marzo. El 29 pasado fue remitido e ingresado en el centro de aislamiento Villa Cautillo. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 20 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-153",
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/22",
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "contagio": "importado",
+                        "contacto_focal": 2,
+                        "centro_aislamiento": "ccu",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
+                        "info": "Ciudadano cubano de 56 años de edad, residente en el municipio Bayamo, provincia Granma. Arribó al país el 22 de marzo procedente de Estados Unidos. Comenzó el 26 con síntomas, el 27 en la pesquisa fue identificado como caso sospechoso, siendo remitido e ingresado en el centro de aislamiento Villa Cautillo. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 2 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-154",
+                        "pais": "cu",
+                        "edad": 8,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": "Palma Soriano",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.07",
+                        "dpacode_provincia_deteccion": "34",
+                        "contagio": "introducido",
+                        "contacto_focal": 5,
+                        "centro_aislamiento": "hag",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
+                        "info": "Ciudadano cubano de 8 años, residente en el municipio Palma Soriano, provincia Santiago de Cuba. Mantuvo contacto con dos viajeros procedentes de los Estados Unidos entre el 10 y el 20 de marzo, quienes fueron fuente de infección de un caso confirmado anteriormente. Comenzó el 25 de marzo con síntomas, el 27 fue remitido e ingresado en el Hospital “Ambrosio Grillo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-155",
+                        "pais": "cu",
+                        "edad": 16,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/27",
+                        "municipio_detección": "Palma Soriano",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.07",
+                        "dpacode_provincia_deteccion": "34",
+                        "contagio": "introducido",
+                        "contacto_focal": 5,
+                        "centro_aislamiento": "hag",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
+                        "info": "Ciudadano cubano de 16 años de edad, residente en el municipio Palma Soriano, provincia Santiago de Cuba. Mantuvo contacto con dos viajeros procedentes de los Estados Unidos entre el 10 y el 20 de marzo, quienes fueron fuente de infección de un caso confirmado anteriormente. Comenzó el 25 de marzo con síntomas, el 27 fue remitido e ingresado en el Hospital “Ambrosio Grillo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-156",
+                        "pais": "cu",
+                        "edad": 27,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/29",
+                        "municipio_detección": "Contramaestre",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.01",
+                        "dpacode_provincia_deteccion": "34",
+                        "contagio": "introducido",
+                        "contacto_focal": 5,
+                        "centro_aislamiento": "hag",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
+                        "info": "Ciudadano cubano de 27 años de edad, residente en el municipio Contramaestre, provincia Santiago de Cuba. Mantuvo contacto con dos viajeros procedentes de los Estados Unidos entre el 10 y el 20 de marzo, quienes fueron fuente de infección de un caso confirmado anteriormente. Comenzó el 26 de marzo con síntomas, el 29 fue remitido e ingresado en el Hospital “Ambrosio Grillo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-157",
+                        "pais": "cu",
+                        "edad": 7,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": "2020/03/29",
+                        "municipio_detección": "Palma Soriano",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.07",
+                        "dpacode_provincia_deteccion": "34",
+                        "contagio": "introducido",
+                        "contacto_focal": 5,
+                        "centro_aislamiento": "hag",
+                        "centro_diagnostico": "lsc",
+                        "posible_procedencia_contagio": [
+                            "cu"
+                        ],
+                        "info": "Ciudadano cubano de 7 años de edad, residente en el municipio Palma Soriano, provincia Santiago de Cuba. Mantuvo contacto con dos viajeros procedentes de los Estados Unidos entre el 10 y el 20 de marzo, quienes fueron fuente de infección de un caso confirmado anteriormente. Comenzó el 25 de marzo con síntomas, el 27 fue remitido e ingresado en el Hospital “Ambrosio Grillo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    },
+                    {
+                        "id": "cu-158",
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": "2020/03/14",
+                        "consulta_medico": null,
+                        "municipio_detección": null,
+                        "provincia_detección": null,
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "00",
+                        "contagio": "importado",
+                        "contacto_focal": 3,
+                        "centro_aislamiento": "ipk",
+                        "centro_diagnostico": "ipk",
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
+                        "info": "Ciudadano cubano de 49 años de edad, residente en España. Arribó de ese país el 14 del presente mes. Fue contacto estrecho de un caso confirmado anteriormente. Se encontraba ingresado en el IPK para vigilancia y se mantiene asintomático. Se encuentran en vigilancia 3 contactos de este paciente.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": []
+                    }
+                ],
+                "sujetos_riesgo": 2837,
+                "tests_total": 2322,
+                "muertes_numero": 2,
+                "muertes_id": [
+                    "cu-151", "cu-2"
+                ],
+                "graves_numero": 6,
+                "recuperados_numero": 4
             }
         }
     }
