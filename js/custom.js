@@ -27,7 +27,7 @@ $.getJSON("data/provincias.geojson",function(provincias){
 $.getJSON("data/municipios.geojson",
 	function(municipios){
 		
-		var factor = 50;
+		var factor = 100;
 		
 		var curves = {};
 		
