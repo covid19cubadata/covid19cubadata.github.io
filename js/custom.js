@@ -332,7 +332,7 @@ $.getJSON("data/municipios.geojson",
 				dailySum.push(total);
 				cuba.push(total);
 			}
-			$('#update').html('2020/'+dates[dates.length-1]);
+			$('[data-content=update]').html(dates[dates.length-1]);
 			
 			
 			tests = c3.generate({
@@ -662,11 +662,11 @@ $.getJSON("data/municipios.geojson",
 			pro_ranking += 1;
 		});
 
-		$('#gen-info-diagn-data').html(genInfo.total);
-		$('#gen-info-activ-data').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
-		$('#gen-info-death-data').html(genInfo.deaths);
-		$('#gen-info-gone-data').html(genInfo.gone);
-		$('#gen-info-recov-data').html(genInfo.recov);
+		$('[data-content=diagno]').html(genInfo.total);
+		$('[data-content=activo]').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
+		$('[data-content=fallec]').html(genInfo.deaths);
+		$('[data-content=evacua]').html(genInfo.gone);
+		$('[data-content=recupe]').html(genInfo.recov);
 
 		var geojsonM = L.geoJSON(municipios,{style:styleM});
 

@@ -1,6 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="es">
 
 <head>
     <title>Covid19 - Dashboard Cuba </title>
@@ -21,10 +19,11 @@
 
 <body>
 
-<nav class="navbar navbar-light bg-light mb-2">
+<nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.jpg">
     </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,7 +49,7 @@
     </div>
 </nav>
 
-<p id="apks-info" class="alert alert-info text-center">Descargue nuestra app desde <a
+<p id="apks-info" class="alert alert-info text-center mb-0">Descargue nuestra app desde <a
         href="https://www.apklis.cu/application/club.postdata.covid19cuba">Apklis <img class="app-logo"
                                                                                        src="images/apk-apklis.png"></a>
     o desde <a href="https://github.com/covid19cuba/covid19cuba-app/releases/download/v0.2.1/app.apk">Github
@@ -59,69 +58,101 @@
             class="app-logo" src="images/bot-telegram.png"></a> en Telegram.
 </p>
 
-<div id="general" class="row mb-4">
+<div id="general" class="container-fluid">
 
-    <div class="col-lg-2 col-md-4 col-6">
-        <div class="card text-center">
-            <div class="card-body">
-                <span id="update"><i class="fa fa-spinner fa-spin"></i></span>
-            </div>
-            <h2 class="card-header h5">
-                Actualización
-            </h2>
-        </div>
-    </div>
-    <div class="col-lg-2 col-md-4 col-6">
-        <div class="card text-center bg-danger text-white">
-            <div class="card-body">
-                <span id="gen-info-diagn-data"><i class="fa fa-spinner fa-spin"></i></span>
-            </div>
-            <h2 class="card-header h5">
-                Diagnosticados
-            </h2>
-        </div>
-    </div>
-    <div class="col-lg-2 col-md-4 col-6">
-        <div class="card text-center bg-warning text-white">
-            <div class="card-body">
-                <span id="gen-info-activ-data"><i class="fa fa-spinner fa-spin"></i></span>
-            </div>
-            <h2 class="card-header h5">
-                Activos
-            </h2>
-        </div>
-    </div>
-    <div class="col-lg-2 col-md-4 col-6">
-        <div class="card text-center bg-success text-white">
-            <div class="card-body">
-                <span id="gen-info-recov-data"><i class="fa fa-spinner fa-spin"></i></span>
-            </div>
-            <h2 class="card-header h5">
-                Recuperados
-            </h2>
-        </div>
-    </div>
-    <div class="col-lg-2 col-md-4 col-6">
-        <div class="card text-center bg-info text-white">
-            <div class="card-body">
-                <span id="gen-info-gone-data"><i class="fa fa-spinner fa-spin"></i></span>
-            </div>
-            <h2 class="card-header h5">
-                Evacuados
-            </h2>
-        </div>
-    </div>
-    <div class="col-lg-2 col-md-4 col-6">
-        <div class="card text-center bg-dark text-white">
-            <div class="card-body">
-                <span id="gen-info-death-data"><i class="fa fa-spinner fa-spin"></i></span>
-            </div>
-            <h2 class="card-header h5">
-                Fallecidos
-            </h2>
-        </div>
+    <div class="d-block d-sm-none mt-4">
+        <table class="table">
+            <tr class="bg-light">
+                <th>Actualización</th>
+                <td data-content="update">03/31</td>
+            </tr>
+            <tr class="bg-danger text-white">
+                <th>Diagnosticados</th>
+                <td data-content="diagon">03/31</td>
+            </tr>
+            <tr class="bg-warning text-white">
+                <th>Activos</th>
+                <td data-content="activo">03/31</td>
+            </tr>
+            <tr class="bg-success text-white">
+                <th>Recuperados</th>
+                <td data-content="recupe">03/31</td>
+            </tr>
+            <tr class="bg-info text-white">
+                <th>Evacuados</th>
+                <td data-content="evacua">03/31</td>
+            </tr>
+            <tr class="bg-dark text-white">
+                <th>Fallecidos</th>
+                <td data-content="fallec">03/31</td>
+            </tr>
+        </table>
     </div>
 
+    <div class="d-none d-sm-block mt-4">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <span data-content="update"><i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                    <h2 class="card-header h5">
+                        Actualización
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="card text-center bg-danger text-white">
+                    <div class="card-body">
+                        <span data-content="diagno"><i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                    <h2 class="card-header h5">
+                        Diagnosticados
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="card text-center bg-warning text-white">
+                    <div class="card-body">
+                        <span data-content="activo"><i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                    <h2 class="card-header h5">
+                        Activos
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="card text-center bg-success text-white">
+                    <div class="card-body">
+                        <span data-content="recupe"><i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                    <h2 class="card-header h5">
+                        Recuperados
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="card text-center bg-info text-white">
+                    <div class="card-body">
+                        <span data-content="evacua"><i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                    <h2 class="card-header h5">
+                        Evacuados
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="card text-center bg-dark text-white">
+                    <div class="card-body">
+                        <span data-content="fallec"><i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                    <h2 class="card-header h5">
+                        Fallecidos
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="row">
@@ -160,81 +191,71 @@
         <div class="clearfix"></div>
     </div>
     <div class="col-lg-3 col-md-3">
-        <div class="card common-bg mt-1">
-            <div class="card-header">Casos por Sexo</div>
-            <div class="card-body">
-                <div id="sex-info"></div>
+        <div class="card-deck mt-4 mt-md-0">
+            <div class="card common-bg mt-1">
+                <div class="card-header">Casos por Sexo</div>
+                <div class="card-body">
+                    <div id="sex-info"></div>
+                </div>
             </div>
-        </div>
-        <div class="card common-bg mt-1">
-            <div class="card-header">Casos por Modo de Contagio</div>
-            <div class="card-body">
-                <div id="contagio-info"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="clearfix"></div>
-<div id="line-charts" class="row mt-1">
-    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
-        <div class="card common-bg mt-1">
-            <div class="card-header">Distribución por rangos etarios</div>
-            <div class="card-body">
-                <div id="ages-info"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
-        <div class="card common-bg mt-1">
-            <div class="card-header">Casos por nacionalidad</div>
-            <div class="card-body">
-                <div id="countries-info-pie"></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4 col-md-4">
-        <div class="card common-bg mt-1">
-            <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
-            <div class="card-body">
-                <div id="countries-info"></div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<div class="row mt-1">
-    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
-        <div class="card common-bg">
-            <div class="card-header">Evolución de casos por días</div>
-            <div class="card-body">
-                <div id="daily-single-info"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 pr-0 pr-xs-3">
-        <div class="card common-bg">
-            <div class="card-header">Relación de tests realizados</div>
-            <div class="card-body">
-                <div id="tests-donut-info"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 ">
-        <div class="card common-bg">
-            <div class="card-header">Tests acumulados por días</div>
-            <div class="card-body">
-                <div id="tests-line-info"></div>
-                <div class="map-quote">
-                    * esta información se reporta desde 2020/03/22
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="card common-bg mt-1">
+                <div class="card-header">Casos por Modo de Contagio</div>
+                <div class="card-body">
+                    <div id="contagio-info"></div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="container-fluid">
 
+    <div id="line-charts" class="mt-3">
+        <div class="card-deck">
+            <div class="card common-bg mt-1">
+                <div class="card-header">Distribución por rangos etarios</div>
+                <div class="card-body">
+                    <div id="ages-info"></div>
+                </div>
+            </div>
+            <div class="card common-bg mt-1">
+                <div class="card-header">Casos por nacionalidad</div>
+                <div class="card-body">
+                    <div id="countries-info-pie"></div>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <div class="card common-bg mt-1">
+                <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
+                <div class="card-body">
+                    <div id="countries-info"></div>
+                </div>
+            </div>
+            <div class="w-100 d-none d-lg-block"></div>
+            <div class="card common-bg">
+                <div class="card-header">Evolución de casos por días</div>
+                <div class="card-body">
+                    <div id="daily-single-info"></div>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <div class="card common-bg">
+                <div class="card-header">Relación de tests realizados</div>
+                <div class="card-body">
+                    <div id="tests-donut-info"></div>
+                </div>
+            </div>
+            <div class="card common-bg">
+                <div class="card-header">Tests acumulados por días</div>
+                <div class="card-body">
+                    <div id="tests-line-info"></div>
+                    <div class="map-quote">
+                        * esta información se reporta desde 2020/03/22
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="row">
@@ -299,7 +320,8 @@
                     </div>
                 </div>
                 <div class="map-quote">
-                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a> y
+                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
+                    y
                     actualizado el <span id="countries-date">#</span><br>
                 </div>
             </div>
@@ -310,7 +332,8 @@
 <div class="footer mt-3 row pb-4">
     <div id="info" class="col-12">
         <div class="row m-0">
-            <div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos utilizados</a>
+            <div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos
+                utilizados</a>
                 que son actualizados a partir de la información oficial del MINSAP que es reportada
                 al día siguiente.
             </div>
