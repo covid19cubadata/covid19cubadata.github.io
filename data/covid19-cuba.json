@@ -5393,7 +5393,8 @@
                 ],
                 "sujetos_riesgo": 2320,
                 "tests_total": 3342,
-                "recuperados_numero": 1
+                "recuperados_numero": 1,
+                "graves_numero": 7
             }
         }
     }
