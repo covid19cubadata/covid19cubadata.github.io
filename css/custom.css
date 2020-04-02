@@ -374,3 +374,8 @@ body > div {
         padding-right: 1rem !important;
     }
 }
+
+#table-pro > tbody > tr > td:last-child,
+#table-mun > tbody > tr > td:last-child{
+    text-align: center;
+}
