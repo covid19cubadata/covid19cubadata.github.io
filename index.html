@@ -32,19 +32,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">General</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Distribución Geográfica</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Casos por Sexo</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Modo de Contagio</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Rangos Etarios</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Nacionalidad</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Nacionalidad (extranjeros)</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Casos por días</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Tests realizados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Tests acumulados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Top10 Provincias afectadas</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Top10 Municipios afectadas</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Comparación con otros países</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#general">General</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#geodist">Distribución Geográfica</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#sexdist">Casos por Sexo</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#caudist">Modo de Contagio</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#agedist">Rangos Etarios</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#homdist">Nacionalidad</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#fordist">Nacionalidad (extranjeros)</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#casdist">Casos por días</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#tesmade">Tests realizados</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#tesacum">Tests acumulados</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#topprov">Top10 Provincias afectadas</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#topmuni">Top10 Municipios afectados</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#compari">Comparación con otros países</a></li>
         </ul>
     </div>
 </nav>
@@ -157,7 +157,7 @@
 
 <div class="row">
     <div class="col-lg-9 col-md-9 mt-1 p-0">
-        <div class="card common-bg ml-3 mr-xs-3">
+        <div id="geodist" class="card common-bg ml-3 mr-xs-3">
             <div class="card-header">
                 Distribución por <select id="select-map">
                 <option select value="map-mun">Municipios</option>
@@ -192,14 +192,14 @@
     </div>
     <div class="col-lg-3 col-md-3">
         <div class="card-deck mt-4 mt-md-0">
-            <div class="card common-bg mt-1">
+            <div id="sexdist" class="card common-bg mt-1">
                 <div class="card-header">Casos por Sexo</div>
                 <div class="card-body">
                     <div id="sex-info"></div>
                 </div>
             </div>
             <div class="w-100 d-none d-md-block"></div>
-            <div class="card common-bg mt-1">
+            <div id="caudist" class="card common-bg mt-1">
                 <div class="card-header">Casos por Modo de Contagio</div>
                 <div class="card-body">
                     <div id="contagio-info"></div>
@@ -212,40 +212,40 @@
 
     <div id="line-charts" class="mt-3">
         <div class="card-deck">
-            <div class="card common-bg mt-1">
+            <div id="agedist" class="card common-bg mt-1">
                 <div class="card-header">Distribución por rangos etarios</div>
                 <div class="card-body">
                     <div id="ages-info"></div>
                 </div>
             </div>
-            <div class="card common-bg mt-1">
+            <div id="homdist" class="card common-bg mt-1">
                 <div class="card-header">Casos por nacionalidad</div>
                 <div class="card-body">
                     <div id="countries-info-pie"></div>
                 </div>
             </div>
             <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <div class="card common-bg mt-1">
+            <div id="fordist" class="card common-bg mt-1">
                 <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
                 <div class="card-body">
                     <div id="countries-info"></div>
                 </div>
             </div>
             <div class="w-100 d-none d-lg-block"></div>
-            <div class="card common-bg">
+            <div id="casdist" class="card common-bg">
                 <div class="card-header">Evolución de casos por días</div>
                 <div class="card-body">
                     <div id="daily-single-info"></div>
                 </div>
             </div>
             <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <div class="card common-bg">
+            <div id="tesmade" class="card common-bg">
                 <div class="card-header">Relación de tests realizados</div>
                 <div class="card-body">
                     <div id="tests-donut-info"></div>
                 </div>
             </div>
-            <div class="card common-bg">
+            <div id="tesacum" class="card common-bg">
                 <div class="card-header">Tests acumulados por días</div>
                 <div class="card-body">
                     <div id="tests-line-info"></div>
@@ -260,7 +260,7 @@
 
 <div class="row mt-3">
     <div class="col-md-6 pr-0 pr-xs-3">
-        <div class="card common-bg mt-1">
+        <div id="topprov" class="card common-bg mt-1">
             <div class="card-header">TOP10 Provincias Afectadas</div>
             <div class="card-body p-0">
                 <table id="table-pro" class="table table-sm mb-0">
@@ -278,7 +278,7 @@
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card common-bg mt-1">
+        <div id="topmuni" class="card common-bg mt-1">
             <div class="card-header">TOP10 Municipios Afectados</div>
             <div class="card-body p-0">
                 <table id="table-mun" class="table table-sm mb-0">
@@ -300,7 +300,7 @@
 <div class="row mt-3">
 
     <div class="col-lg-12 col-md-12">
-        <div class="card common-bg">
+        <div id="compari" class="card common-bg">
             <div class="card-header">Comparación de los casos acumulados de Cuba con <select
                     id="countrycurve-select"></select></div>
             <div class="card-body">
