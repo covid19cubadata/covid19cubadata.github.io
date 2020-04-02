@@ -67,6 +67,12 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     var curves = {};
 
+                    function logx(base, x){
+                        if(base == 10){
+                            return Math.log10(x);
+                        }
+                        return Math.log10(x)/Math.log10(base);
+                    }
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
@@ -754,25 +760,30 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         };
                     }
 
-                    $('#cases1').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.2 / genInfo.max_muns) / 2 + ")");
-                    $('#cases2').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.4 / genInfo.max_muns) / 2 + ")");
-                    $('#cases3').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.6 / genInfo.max_muns) / 2 + ")");
-                    $('#cases4').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.8 / genInfo.max_muns) / 2 + ")");
-                    $('#cases5').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor / genInfo.max_muns) / 2 + ")");
+                    function getColor(value) {
+                        var hue = ((1 - value) * 120).toString(10);
+                        return ["hsl(", hue / 1.6, ",80%,40%)"].join("");
+                    }
+
+                    $('#cases1').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns)));
+                    $('#cases2').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns)));
+                    $('#cases3').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns)));
+                    $('#cases4').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns)));
+                    $('#cases5').css('color', getColor(logx(factor, genInfo.max_muns * factor / genInfo.max_muns)));
                     $('#cases').html(genInfo.max_muns);
 
                     function getColorM(code) {
                         if (code in muns) {
-                            var opac = Math.log10(muns[code].total * factor / genInfo.max_muns);
-                            return "rgba(176,30,34," + opac / 2 + ")";
+                            var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
+                            return getColor(opac);
                         }
                         return '#D1D2D4';
                     }
 
                     function getColorP(code) {
                         if (code in pros) {
-                            var opac = Math.log10(pros[code].total * factor / genInfo.max_pros);
-                            return "rgba(176,30,34," + opac / 2 + ")";
+                            var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
+                            return getColor(opac);
                         }
                         return '#D1D2D4';
                     }
@@ -814,21 +825,21 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     $('#select-map').on('change', function (e) {
                         var val = $('#select-map').val();
                         if (val === 'map-mun') {
-                            $('#cases1').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.2 / genInfo.max_muns) / 2 + ")");
-                            $('#cases2').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.4 / genInfo.max_muns) / 2 + ")");
-                            $('#cases3').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.6 / genInfo.max_muns) / 2 + ")");
-                            $('#cases4').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor * 0.8 / genInfo.max_muns) / 2 + ")");
-                            $('#cases5').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_muns * factor / genInfo.max_muns) / 2 + ")");
+                            $('#cases1').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns)));
+                            $('#cases2').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns)));
+                            $('#cases3').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns)));
+                            $('#cases4').css('color', getColor(logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns)));
+                            $('#cases5').css('color', getColor(logx(factor, genInfo.max_muns * factor / genInfo.max_muns)));
                             $('#cases').html(genInfo.max_muns);
                             $('#map-pro').hide();
                             $('#map-mun').show();
                             map_mun.invalidateSize();
                         } else {
-                            $('#cases1').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor * 0.2 / genInfo.max_pros) / 2 + ")");
-                            $('#cases2').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor * 0.4 / genInfo.max_pros) / 2 + ")");
-                            $('#cases3').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor * 0.6 / genInfo.max_pros) / 2 + ")");
-                            $('#cases4').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor * 0.8 / genInfo.max_pros) / 2 + ")");
-                            $('#cases5').css('color', "rgba(176,30,34," + Math.log10(genInfo.max_pros * factor / genInfo.max_pros) / 2 + ")");
+                            $('#cases1').css('color', getColor(logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros)));
+                            $('#cases2').css('color', getColor(logx(factor, genInfo.max_pros * factor * 0.4 / genInfo.max_pros)));
+                            $('#cases3').css('color', getColor(logx(factor, genInfo.max_pros * factor * 0.6 / genInfo.max_pros)));
+                            $('#cases4').css('color', getColor(logx(factor, genInfo.max_pros * factor * 0.8 / genInfo.max_pros)));
+                            $('#cases5').css('color', getColor(logx(factor, genInfo.max_pros * factor / genInfo.max_pros)));
                             $('#cases').html(genInfo.max_pros);
                             $('#map-mun').hide();
                             $('#map-pro').show();
