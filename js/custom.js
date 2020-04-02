@@ -795,7 +795,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         scrollWheelZoom: false,
                         tap: true,
                         touchZoom: true,
-                        zoomSnap: 0.05
+                        zoomSnap: 0.05,
+                        maxBounds: geojsonM.getBounds()
                     });
                     map_mun.zoomControl.setPosition('topright');
                     map_mun.fitBounds(geojsonM.getBounds());
@@ -812,7 +813,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         scrollWheelZoom: false,
                         tap: true,
                         touchZoom: true,
-                        zoomSnap: 0.05
+                        zoomSnap: 0.05,
+                        maxBounds: geojsonP.getBounds()
                     });
                     map_pro.zoomControl.setPosition('topright');
                     map_pro.fitBounds(geojsonP.getBounds());
@@ -844,4 +846,4 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                 });
         });
     });
-}); 
+});
