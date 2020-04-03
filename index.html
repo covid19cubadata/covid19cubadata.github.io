@@ -182,59 +182,61 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-9 col-md-9 mt-1 p-0">
-        <div id="geodist" class="card common-bg ml-3 mr-xs-3">
-            <div class="card-header">
-                Distribución por <select id="select-map">
-                <option select value="map-mun">Municipios</option>
-                <option value="map-pro">Provincias</option>
-            </select>
-            </div>
-            <div class="card-body p-0 pt-1 pb-1">
-                <div id="map-container">
-                    <div id="map-mun"></div>
-                    <div id="map-pro"></div>
-                    <div id="map-legend-container">
-                        <div id="map-legend">
-                            0 casos
-                            <i id="cases0" class="main-text fa fa-square"></i>
-                            <i id="cases1" class="main-text fa fa-square"></i>
-                            <i id="cases2" class="main-text fa fa-square"></i>
-                            <i id="cases3" class="main-text fa fa-square"></i>
-                            <i id="cases4" class="main-text fa fa-square"></i>
-                            <i id="cases5" class="main-text fa fa-square"></i>
-                            <span id="cases">#</span> casos
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-9 mt-1">
+            <div id="geodist" class="card common-bg">
+                <div class="card-header">
+                    Distribución por <select id="select-map">
+                    <option select value="map-mun">Municipios</option>
+                    <option value="map-pro">Provincias</option>
+                </select>
+                </div>
+                <div class="card-body p-0 pt-1 pb-1">
+                    <div id="map-container">
+                        <div id="map-mun"></div>
+                        <div id="map-pro"></div>
+                        <div id="map-legend-container">
+                            <div id="map-legend">
+                                0 casos
+                                <i id="cases0" class="main-text fa fa-square"></i>
+                                <i id="cases1" class="main-text fa fa-square"></i>
+                                <i id="cases2" class="main-text fa fa-square"></i>
+                                <i id="cases3" class="main-text fa fa-square"></i>
+                                <i id="cases4" class="main-text fa fa-square"></i>
+                                <i id="cases5" class="main-text fa fa-square"></i>
+                                <span id="cases">#</span> casos
+                            </div>
+                        </div>
+                        <div class="map-quote">
+                            * el cuadrado representa a aquellos casos que por distintas razones no tengan localización
+                            conocida <br>
                         </div>
                     </div>
-                    <div class="map-quote">
-                        * el cuadrado representa a aquellos casos que por distintas razones no tengan localización
-                        conocida <br>
-                    </div>
-                </div>
 
+                </div>
             </div>
         </div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="col-lg-3 col-md-3">
-        <div class="card-deck mt-4 mt-md-0">
-            <div id="sexdist" class="card common-bg mt-1">
-                <div class="card-header">Casos por Sexo</div>
-                <div class="card-body">
-                    <div id="sex-info"></div>
+        <div class="col-md-3">
+            <div class="card-deck mt-4 mt-md-0">
+                <div id="sexdist" class="card common-bg mt-1">
+                    <div class="card-header">Casos por Sexo</div>
+                    <div class="card-body">
+                        <div id="sex-info"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="w-100 d-none d-md-block"></div>
-            <div id="caudist" class="card common-bg mt-1">
-                <div class="card-header">Casos por Modo de Contagio</div>
-                <div class="card-body">
-                    <div id="contagio-info"></div>
+                <div class="w-100 d-none d-md-block"></div>
+                <div id="caudist" class="card common-bg mt-1">
+                    <div class="card-header">Casos por Modo de Contagio</div>
+                    <div class="card-body">
+                        <div id="contagio-info"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <div class="container-fluid">
 
     <div id="line-charts" class="mt-3">
