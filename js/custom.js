@@ -794,6 +794,18 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     map_mun.zoomControl.setPosition('topright');
                     map_mun.fitBounds(geojsonM.getBounds());
 
+                    $.getJSON("data/isolated.json", function (isolated) {
+                        map_mun.addLayer(L.geoJSON(isolated, {
+                            style: {
+                                weight: 0.5,
+                                opacity: 0.8,
+                                color: '#f5f1f1',
+                                fillOpacity: 1,
+                                fillColor: '#00ff00',
+                            }
+                        }));
+                    });
+
                     var map_pro = L.map('map-pro', {
                         center: [21.5, -79.371124],
                         zoom: 15,

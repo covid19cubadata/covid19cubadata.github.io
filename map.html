@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="js/openlayers/ol.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/openlayers/ol.js"></script>
+    <script type="text/javascript" src="js/openlayers/ol-layer-switcher.js"></script>
+</head>
+<body>
+<div id="map" style="height: 600px;"></div>
+<button class="btn btn-success btn-sm" id="getcoord">GET COORDINATES</button>
+<div id="map-info"></div>
+
+<script type="text/javascript">
+    (function ($) {
+        let source = new ol.source.OSM({
+            attributions: [
+                'Mapas &copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a> - Implementado por <a href="http://www.cusobucuba.com/products/map-server">CUSOBU</a>'
+            ],
+            url: 'https://b.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            crossOrigin: null,
+        });
+
+        let layers = [new ol.layer.Tile({source: source})];
+        let map = new ol.Map({
+            layers: layers,
+            target: document.getElementById('map'),
+            controls: ol.control.defaults({attributionOptions: {collapsible: false}}).extend([
+                new ol.control.LayerSwitcher({tipLabel: "Layers"}),
+                new ol.control.ScaleLine(),
+                new ol.control.ZoomSlider(),
+                new ol.control.FullScreen(),
+            ]),
+            view: new ol.View({
+                maxZoom: 17,
+                center: ol.proj.transform([-79.663070, 21.456939], 'EPSG:4326', 'EPSG:3857'),
+                zoom: 7
+            }),
+        });
+
+        $.get('data/municipios.geojson', function (data) {
+            map.addLayer(new ol.layer.Vector({
+                title: "Municipios",
+                visible: true,
+                source: new ol.source.Vector({
+                    features: (new ol.format.GeoJSON()).readFeatures(data, {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'})
+                }),
+                style: new ol.style.Style({
+                    stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
+                })
+            }));
+        });
+
+        $.get('data/isolated.json', function (data) {
+            map.addLayer(new ol.layer.Vector({
+                title: "Isolated",
+                visible: true,
+                source: new ol.source.Vector({
+                    features: (new ol.format.GeoJSON()).readFeatures(data, {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'})
+                }),
+                style: new ol.style.Style({
+                    fill: new ol.style.Fill({color: 'rgba(0,255,0,0.5)'}),
+                })
+            }));
+        });
+
+        source = new ol.source.Vector();
+        var vector = new ol.layer.Vector({
+            source: source,
+            style: new ol.style.Style({
+                fill: new ol.style.Fill({
+                    color: 'rgba(255, 255, 255, 0.2)'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#ffcc33',
+                    width: 2
+                }),
+                image: new ol.style.Circle({
+                    radius: 7,
+                    fill: new ol.style.Fill({
+                        color: '#ffcc33'
+                    })
+                })
+            })
+        });
+
+        map.addLayer(vector);
+        var modify = new ol.interaction.Modify({source: source});
+        map.addInteraction(modify);
+
+        var draw, snap;
+
+        function addInteractions() {
+            draw = new ol.interaction.Draw({
+                source: source,
+                type: "Polygon"
+            });
+            map.addInteraction(draw);
+            snap = new ol.interaction.Snap({source: source});
+            map.addInteraction(snap);
+        }
+
+        addInteractions();
+
+        $('#getcoord').click(function () {
+            var features = vector.getSource().getFeatures();
+            features.forEach(function (feature) {
+                const coords = feature.getGeometry().getCoordinates()[0];
+                let coordinates = '';
+                for (const i in coords) {
+                    const point = ol.proj.transform(coords[i], 'EPSG:3857', 'EPSG:4326');
+                    coordinates += '[' + point[0] + ',' + point[1] + '],';
+                }
+                $('#map-info').html(coordinates);
+            });
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
