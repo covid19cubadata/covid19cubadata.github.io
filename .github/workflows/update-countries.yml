@@ -24,8 +24,8 @@ jobs:
       - name: Get countries Json
         run: |
           python utils/update_countries.py
-          git config --global user.name 'hiancdtrsnm'
-          git config --global user.email 'hiancdtrsnm@gmail.com'
+          git config --global user.name 'yudivian'
+          git config --global user.email 'yudivian@gmail.com'
           git add .
           git commit --allow-empty -am "Update countries data"
           git push
