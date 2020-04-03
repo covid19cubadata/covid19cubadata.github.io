@@ -7,7 +7,7 @@ on:
     branches:
       - master
 jobs:
-  updateCsv:
+  JsonUpgrades:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
