@@ -808,9 +808,9 @@
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
-                        "municipio_detección": "Las Tunas",
+                        "municipio_detección": "Jesús Menéndez",
                         "provincia_detección": "Las Tunas",
-                        "dpacode_municipio_deteccion": "31.05",
+                        "dpacode_municipio_deteccion": "31.03",
                         "dpacode_provincia_deteccion": "31",
                         "contagio": "importado",
                         "contacto_focal": null,
@@ -820,6 +820,7 @@
                             "it"
                         ],
                         "info": "Una ciudadana cubana, esposa de un ciudadano italiano diagnosticado como caso positivo, que se mantenía hospitalizada en la provincia de Las Tunas por ser un contacto directo de un caso. Aparecieron los síntomas, se estudió y se confirmó.",
+                        "nota": "Ajustado en base a datos del Periódico 26:  una ciudadana de 38 años de edad, residente en Guayacán, municipio de Jesús Menéndez; quien se encontraba en el Centro de Aislamiento por ser contacto directo de un caso previamente identificado. http://www.periodico26.cu/index.php/es/destacamos-2/2230-demuestra-las-tunas-eficacia-en-su-sistema-de-vigilancia-ante-el-primer-caso-de-covid-19",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     }
