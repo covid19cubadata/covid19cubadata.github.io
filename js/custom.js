@@ -333,7 +333,7 @@ $.getJSON("data/municipios.geojson",
 				cuba.push(total);
 			}
 			$('[data-content=update]').html(dates[dates.length-1]);
-			
+
 			
 			tests = c3.generate({
 					bindto: "#tests-line-info",
@@ -612,55 +612,55 @@ $.getJSON("data/municipios.geojson",
 		
 		var genInfo = resumeCases();
 
-		var MAX_LISTS = 10;
+                    var MAX_LISTS = 10;
 
-		muns_array = [];
-		for (var m in muns) {
-			muns_array.push({cod: m, total: muns[m].total});
-		}
-		muns_array.sort(function (a, b) {
-			return b.total - a.total
-		});
+                    muns_array = [];
+                    for (var m in muns) {
+                        muns_array.push({cod: m, total: muns[m].total});
+                    }
+                    muns_array.sort(function (a, b) {
+                        return b.total - a.total
+                    });
 
-		var $table_mun = $('#table-mun > tbody');
-		var mun_ranking = 1;
-		$(muns_array.slice(0, MAX_LISTS)).each(function (index, item) {
-			municipe = getMunicipeByCode(item.cod);
-			var row = ("<tr><td>{ranking}</td>" +
-				"<td>{cod} ({pro})</td>" +
-				// "<td>{total}</td>" +
-				"<td>{rate}%</td></tr>")
-				.replace("{ranking}", mun_ranking)
-				.replace("{cod}", municipe.properties.municipality)
-				.replace("{pro}", municipe.properties.province)
-				// .replace('{total}', item.total)
-				.replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
-			$table_mun.append(row);
-			mun_ranking += 1;
-		});
+                    var $table_mun = $('#table-mun > tbody');
+                    var mun_ranking = 1;
+                    $(muns_array.slice(0, MAX_LISTS)).each(function (index, item) {
+                        municipe = getMunicipeByCode(item.cod);
+                        var row = ("<tr><td>{ranking}</td>" +
+                            "<td>{cod} ({pro})</td>" +
+                            // "<td>{total}</td>" +
+                            "<td>{rate}%</td></tr>")
+                            .replace("{ranking}", mun_ranking)
+                            .replace("{cod}", municipe.properties.municipality)
+                            .replace("{pro}", municipe.properties.province)
+                            // .replace('{total}', item.total)
+                            .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
+                        $table_mun.append(row);
+                        mun_ranking += 1;
+                    });
 
-		pros_array = [];
-		for (var m in pros) {
-			pros_array.push({cod: m, total: pros[m].total});
-		}
-		pros_array.sort(function (a, b) {
-			return b.total - a.total
-		});
+                    pros_array = [];
+                    for (var m in pros) {
+                        pros_array.push({cod: m, total: pros[m].total});
+                    }
+                    pros_array.sort(function (a, b) {
+                        return b.total - a.total
+                    });
 
-		var $table_pro = $('#table-pro > tbody');
-		var pro_ranking = 1;
-		$(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
-			var row = ("<tr><td>{ranking}</td>" +
-				"<td>{cod}</td>" +
-				// "<td>{total}</td>" +
-				"<td>{rate}%</td></tr>")
-				.replace("{ranking}", pro_ranking)
-				.replace("{cod}", getProvinceByCode(item.cod).properties.province)
-				// .replace('{total}', item.total)
-				.replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
-			$table_pro.append(row);
-			pro_ranking += 1;
-		});
+                    var $table_pro = $('#table-pro > tbody');
+                    var pro_ranking = 1;
+                    $(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
+                        var row = ("<tr><td>{ranking}</td>" +
+                            "<td>{cod}</td>" +
+                            // "<td>{total}</td>" +
+                            "<td>{rate}%</td></tr>")
+                            .replace("{ranking}", pro_ranking)
+                            .replace("{cod}", getProvinceByCode(item.cod).properties.province)
+                            // .replace('{total}', item.total)
+                            .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
+                        $table_pro.append(row);
+                        pro_ranking += 1;
+                    });
 
 		$('[data-content=diagno]').html(genInfo.total);
 		$('[data-content=activo]').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
@@ -668,183 +668,161 @@ $.getJSON("data/municipios.geojson",
 		$('[data-content=evacua]').html(genInfo.gone);
 		$('[data-content=recupe]').html(genInfo.recov);
 
-		var geojsonM = L.geoJSON(municipios,{style:styleM});
+                    var geojsonM = L.geoJSON(municipios, {style: styleM});
 
-		var geojsonP = L.geoJSON(provincias,{style:styleP});
+                    var geojsonP = L.geoJSON(provincias, {style: styleP});
 
-		geojsonM.bindTooltip(function(layer){
-			return '<span class="bd">'+layer.feature.properties.province+'</span> - '+layer.feature.properties.municipality;
-		},{'sticky':true});
+                    geojsonM.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
+                    }, {'sticky': true});
 
-		geojsonP.bindTooltip(function(layer){
-			return '<span class="bd">'+layer.feature.properties.province+'</span>';
-		},{'sticky':true});
+                    geojsonP.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span>';
+                    }, {'sticky': true});
 
-		function getMunProfile(code,mun,pro){
-			var t = '';
-			t += '<div class="small-pname"><span class="bd">'+pro+'</span> - <span>'+mun+'</span></div>';
-			if (code in muns) {
-				t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>'+muns[code].total+'</span></div>';
-			} else {
-				t += '<div class="small-content">No hay casos diagnosticados</div>';
-			}
-			t += '<div class="small-plink">&nbsp;</div>';
-			
-			return t;
-		}
-		
-		function getProProfile(code,pro){
-			var t = '';
-			t += '<div class="small-pname"><span class="bd">'+pro+'</span></div>';
-			if (code in pros) {
-				t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>'+pros[code].total+'</span></div>';
-			} else {
-				t += '<div class="small-content">Sin casos reportados aún</div>';
-			}
-			t += '<div class="small-plink">&nbsp;</div>';
-			
-			return t;
-		}
-		
-		geojsonM.bindPopup(function(layer){
-			var mcode = layer.feature.properties.DPA_municipality_code;
-			var mun = layer.feature.properties.municipality;
-			var pro = layer.feature.properties.province;
-			return getMunProfile(mcode,mun,pro);	
-		});
-		
-		geojsonP.bindPopup(function(layer){
-			var pcode = layer.feature.properties.DPA_province_code;
-			var pro = layer.feature.properties.province;
-			return getProProfile(pcode,pro);	
-		});
-		
-		function styleM(feature){
-			 return {
-				weight: 0.5,
-				opacity: 0.8,
-				color: '#f5f1f1',
-				fillOpacity: 1,
-				fillColor: getColorM(feature.properties.DPA_municipality_code)
-			};
-		}
-		
-		function styleP(feature){
-			 return {
-				weight: 0.5,
-				opacity: 0.8,
-				color: '#f5f1f1',
-				fillOpacity: 1,
-				fillColor: getColorP(feature.properties.DPA_province_code)
-			};
-		}
-		
-		$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
-		$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
-		$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
-		$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
-		$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
-		$('#cases').html(genInfo.max_muns);
-		
-		function getColorM(code){
-			if (code in muns) {
-				var opac = Math.log10(muns[code].total*factor/genInfo.max_muns);
-				return "rgba(176,30,34,"+opac+")";
-			}
-			return '#D1D2D4';
-		}
-		
-		function getColorP(code){
-			if (code in pros) {
-				var opac = Math.log10(pros[code].total*factor/genInfo.max_pros);
-				return "rgba(176,30,34,"+opac+")";
-			}
-			return '#D1D2D4';
-		}
-		 
-		var map_mun = L.map('map-mun', {
-		    center: [21.5, -79.371124],
-		    zoom: 15,
-		    layers: [geojsonM],
-		    keyboard: false,
-		    dragging: true,
-		    zoomControl: true,
-		    boxZoom: false,
-		    doubleClickZoom: false,
-		    scrollWheelZoom: false,
-		    tap: true,
-		    touchZoom: true,
-		    zoomSnap: 0.05,
-		    zoomControl: true
-		});
-		map_mun.zoomControl.setPosition('topright');
-		map_mun.fitBounds(geojsonM.getBounds());
-		
-		var map_pro = L.map('map-pro', {
-		    center: [21.5, -79.371124],
-		    zoom: 15,
-		    layers: [geojsonP],
-		    keyboard: false,
-		    dragging: true,
-		    zoomControl: true,
-		    boxZoom: false,
-		    doubleClickZoom: false,
-		    scrollWheelZoom: false,
-		    tap: true,
-		    touchZoom: true,
-		    zoomSnap: 0.05,
-		    zoomControl: true
-		});
-		map_pro.zoomControl.setPosition('topright');
-		map_pro.fitBounds(geojsonP.getBounds());
-		
-		
-		function setBounds(){
-			var val = $('#select-map').val();
-			$('#map-mun').show();
-			$('#map-pro').show();
-			map_pro.fitBounds(geojsonP.getBounds());		
-			map_mun.fitBounds(geojsonM.getBounds());
-			if (val=='map-mun'){
-				$('#map-pro').hide();		
-			}
-			if (val=='map-pro'){
-				$('#map-mun').hide();		
-			}
-		}
-		
-		window.addEventListener('resize', setBounds);
-		
-		$('#select-map').on('change',function(e){
-		var val  = $('#select-map').val();
-		if (val=='map-mun'){
-			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.2/genInfo.max_muns)+")");
-			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.4/genInfo.max_muns)+")");
-			$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.6/genInfo.max_muns)+")");
-			$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor*0.8/genInfo.max_muns)+")");
-			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_muns*factor/genInfo.max_muns)+")");
-		$('#cases').html(genInfo.max_muns);
-			$('#map-pro').hide();	
-			$('#map-mun').show();	
-		} else {
-			$('#cases1').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.2/genInfo.max_pros)+")");
-			$('#cases2').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.4/genInfo.max_pros)+")");
-			$('#cases3').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.6/genInfo.max_pros)+")");
-			$('#cases4').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor*0.8/genInfo.max_pros)+")");
-			$('#cases5').css('color',"rgba(176,30,34,"+Math.log10(genInfo.max_pros*factor/genInfo.max_pros)+")");
-			$('#cases').html(genInfo.max_pros);
-			$('#map-mun').hide();	
-			$('#map-pro').show();	
-		}
-		
-});
+                    function getMunProfile(code, mun, pro) {
+                        var t = '';
+                        t += '<div class="small-pname"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
+                        if (code in muns) {
+                            t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + muns[code].total + '</span></div>';
+                        } else {
+                            t += '<div class="small-content">No hay casos diagnosticados</div>';
+                        }
+                        t += '<div class="small-plink">&nbsp;</div>';
 
-		
-		$('#map-pro').hide();
-		
-		console.log(curves);	
-		
-});
-});
-});
+                        return t;
+                    }
+
+                    function getProProfile(code, pro) {
+                        var t = '';
+                        t += '<div class="small-pname"><span class="bd">' + pro + '</span></div>';
+                        if (code in pros) {
+                            t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + pros[code].total + '</span></div>';
+                        } else {
+                            t += '<div class="small-content">Sin casos reportados aún</div>';
+                        }
+                        t += '<div class="small-plink">&nbsp;</div>';
+
+                        return t;
+                    }
+
+                    geojsonM.bindPopup(function (layer) {
+                        var mcode = layer.feature.properties.DPA_municipality_code;
+                        var mun = layer.feature.properties.municipality;
+                        var pro = layer.feature.properties.province;
+                        return getMunProfile(mcode, mun, pro);
+                    });
+
+                    geojsonP.bindPopup(function (layer) {
+                        var pcode = layer.feature.properties.DPA_province_code;
+                        var pro = layer.feature.properties.province;
+                        return getProProfile(pcode, pro);
+                    });
+
+                    function styleM(feature) {
+                        return {
+                            weight: 0.5,
+                            opacity: 0.8,
+                            color: '#f5f1f1',
+                            fillOpacity: 1,
+                            fillColor: getColorM(feature.properties.DPA_municipality_code)
+                        };
+                    }
+
+                    function styleP(feature) {
+                        return {
+                            weight: 0.5,
+                            opacity: 0.8,
+                            color: '#f5f1f1',
+                            fillOpacity: 1,
+                            fillColor: getColorP(feature.properties.DPA_province_code)
+                        };
+                    }
+
+                    $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
+                    $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
+                    $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
+                    $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
+                    $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
+                    $('#cases').html(genInfo.max_muns);
+
+                    function getColorM(code) {
+                        if (code in muns) {
+                            var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
+                            return "rgba(176,30,34," + opac + ")";
+                        }
+                        return '#D1D2D4';
+                    }
+
+                    function getColorP(code) {
+                        if (code in pros) {
+                            var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
+                            return "rgba(176,30,34," + opac + ")";
+                        }
+                        return '#D1D2D4';
+                    }
+
+                    var map_mun = L.map('map-mun', {
+                        center: [21.5, -79.371124],
+                        zoom: 15,
+                        layers: [geojsonM],
+                        keyboard: false,
+                        dragging: true,
+                        zoomControl: true,
+                        boxZoom: false,
+                        doubleClickZoom: false,
+                        scrollWheelZoom: false,
+                        tap: true,
+                        touchZoom: true,
+                        zoomSnap: 0.05,
+                        maxBounds: geojsonM.getBounds()
+                    });
+                    map_mun.zoomControl.setPosition('topright');
+                    map_mun.fitBounds(geojsonM.getBounds());
+
+                    var map_pro = L.map('map-pro', {
+                        center: [21.5, -79.371124],
+                        zoom: 15,
+                        layers: [geojsonP],
+                        keyboard: false,
+                        dragging: true,
+                        zoomControl: true,
+                        boxZoom: false,
+                        doubleClickZoom: false,
+                        scrollWheelZoom: false,
+                        tap: true,
+                        touchZoom: true,
+                        zoomSnap: 0.05,
+                        maxBounds: geojsonP.getBounds()
+                    });
+                    map_pro.zoomControl.setPosition('topright');
+                    map_pro.fitBounds(geojsonP.getBounds());
+
+                    $('#select-map').on('change', function (e) {
+                        var val = $('#select-map').val();
+                        if (val === 'map-mun') {
+                            $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
+                            $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
+                            $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
+                            $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
+                            $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
+                            $('#cases').html(genInfo.max_muns);
+                            $('#map-pro').hide();
+                            $('#map-mun').show();
+                            map_mun.invalidateSize();
+                        } else {
+                            $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
+                            $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.4 / genInfo.max_pros) + ")");
+                            $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.6 / genInfo.max_pros) + ")");
+                            $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.8 / genInfo.max_pros) + ")");
+                            $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor / genInfo.max_pros) + ")");
+                            $('#cases').html(genInfo.max_pros);
+                            $('#map-mun').hide();
+                            $('#map-pro').show();
+                            map_pro.invalidateSize();
+                        }
+                    }).change();
+                });
+        });
+    });
 }); 
