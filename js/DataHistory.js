@@ -246,6 +246,59 @@ DataHistory.prototype.offDayChange = function (handler) {
     this._handlers.remove(handler);
 };
 
+/**
+ * Recupera la fecha del día actualmente seleccionado en formato YYYY/MM/DD.
+ *
+ * @return {string}
+ */
 DataHistory.prototype.getCurrentDate = function () {
   return this.days[this.currentDay].date;
+};
+
+DataHistory.prototype.buildUI = function (elementId) {
+
+    var el = document.getElementById(elementId);
+    el.classList.add('history-controls');
+    el.innerHTML = '<button><i class="fa fa-play"></i></button><div class="time-bar"><div class="progress-indicator"></div>';
+    var button = el.childNodes[0];
+    var timeBar = el.childNodes[1];
+    var progress = timeBar.childNodes[0];
+    var self = this;
+    this.onDayChange(function (currentDay) {
+        progress.style.width = (currentDay/self.lastDay*100) + '%';
+    });
+    var interval;
+    function pause () {
+        if (interval) {
+            clearInterval(interval);
+            interval = null;
+            button.childNodes[0].classList.remove('fa-pause');
+            button.childNodes[0].classList.add('fa-play');
+        }
+    }
+    button.onclick = function () {
+        if (interval) {
+            pause()
+        } else {
+
+            if (self.currentDay === self.lastDay) {
+                self.setCurrentDay(1);
+            }
+            button.childNodes[0].classList.remove('fa-play');
+            button.childNodes[0].classList.add('fa-pause');
+            interval = setInterval(function () {
+                if (self.currentDay < self.lastDay) {
+                    self.setCurrentDay(self.currentDay + 1);
+                } else {
+                    pause()
+                }
+            }, 500);
+        }
+    };
+    timeBar.onclick = function (ev) {
+        pause();
+        var day = Math.floor(ev.clientX / el.clientWidth * self.lastDay);
+        self.setCurrentDay(day);
+    };
+    this.setCurrentDay(this.currentDay);
 };

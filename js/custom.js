@@ -855,6 +855,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         geojsonP.setStyle(styleP);
                         geojsonM.setStyle(styleM);
                     });
+
+                    dataHistory.buildUI('timeline');
                     gDataHistory = dataHistory;
                 });
         });
