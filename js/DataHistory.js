@@ -89,6 +89,41 @@ function DataHistory (data) {
 }
 
 /**
+ * Obtiene la cantidad de casos de un territorio hasta un día.
+ *
+ * @param {'mun'|'pros'} type `mun` para indicar que el territorio es un municipio, `pros` para
+ *                            indicar que es una provincia.
+ * @param {string} code Identificador del territorio según la división político-administrativa.
+ * @param {int|undefined} day Día hasta el que se obtendrán los casos del territorio. `undefined`
+ *                            indica que se debe utilizar la información del último día disponible.
+ * @return {int}
+ */
+DataHistory.prototype.getTerritoryTotal = function (type, code, day) {
+    if (day === undefined) {
+        // Por defecto usar información del último día
+        day = Object.keys(this.days).length - 1;
+    }
+    return this.days[day][type][code];
+};
+
+/**
+ * Obtiene el número de casos del territorio con mayor cantidad de casos.
+ *
+ * @param {'mun'|'pros'} type `mun` para indicar que el territorio es un municipio, `pros` para
+ *                            indicar que es una provincia.
+ * @param {int|undefined} day Día hasta el que se obtendrán los casos del territorio. `undefined`
+ *                            indica que se debe utilizar la información del último día disponible.
+ * @return {int}
+ */
+DataHistory.prototype.getTerritoryMax = function (type, day) {
+    if (day === undefined) {
+        // Por defecto usar información del último día
+        day = Object.keys(this.days).length - 1;
+    }
+    return this.days[day][type].max;
+};
+
+/**
  * Obtiene la cantidad de casos de un municipio hasta un día.
  *
  * @param {string} code Identificador del municipio según la división político-administrativa.
@@ -97,11 +132,7 @@ function DataHistory (data) {
  * @return {int}
  */
 DataHistory.prototype.getMunicipalityTotal = function (code, day) {
-    if (day === undefined) {
-        // Por defecto usar información del último día
-        day = Object.keys(this.days).length - 1;
-    }
-    return this.days[day].mun[code];
+    return this.getTerritoryTotal('mun', code, day);
 };
 
 /**
@@ -112,11 +143,7 @@ DataHistory.prototype.getMunicipalityTotal = function (code, day) {
  * @return {int}
  */
 DataHistory.prototype.getMunicipalityMax = function (day) {
-    if (day === undefined) {
-        // Por defecto usar información del último día
-        day = Object.keys(this.days).length - 1;
-    }
-    return this.days[day].mun.max;
+    return this.getTerritoryMax('mun', day);
 };
 
 /**
@@ -128,11 +155,7 @@ DataHistory.prototype.getMunicipalityMax = function (day) {
  * @return {int}
  */
 DataHistory.prototype.getProvinceTotal = function (code, day) {
-    if (day === undefined) {
-        // Por defecto usar información del último día
-        day = Object.keys(this.days).length - 1;
-    }
-    return this.days[day].pros[code];
+    return this.getTerritoryTotal('pros', code, day);
 };
 
 /**
@@ -143,9 +166,5 @@ DataHistory.prototype.getProvinceTotal = function (code, day) {
  * @return {int}
  */
 DataHistory.prototype.getProvinceMax = function (day) {
-    if (day === undefined) {
-        // Por defecto usar información del último día
-        day = Object.keys(this.days).length - 1;
-    }
-    return this.days[day].pros.max;
+    return this.getTerritoryMax('pros', day);
 };
