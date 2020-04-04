@@ -21,18 +21,14 @@ var contagio = {
     'desconocido': 0
 }
 
-var dataHistory = {};
-
-var mLayer;
-var mMap;
-var mStyle;
+var gDataHistory = {};
 
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
             $.getJSON("data/municipios.geojson",
                 function (municipios) {
-                    dataHistory = new DataHistory(data);
+                    var dataHistory = new DataHistory(data);
 
                     function getMunicipeByCode(code) {
                         for (m in municipios.features) {
@@ -700,8 +696,6 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     var geojsonP = L.geoJSON(provincias, {style: styleP});
 
-                    mLayer = geojsonM;
-
                     geojsonM.bindTooltip(function (layer) {
                         return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
                     }, {'sticky': true});
@@ -713,6 +707,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function getMunProfile(code, mun, pro) {
                         var t = '';
                         t += '<div class="small-pname"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
+                        t += '<div class="small-content"><span class="bd">Fecha:</span> <span>' + dataHistory.getCurrentDate() + '</span></div>';
                         if (code in muns) {
                             t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + dataHistory.getMunicipalityTotal(code) + '</span></div>';
                         } else {
@@ -726,6 +721,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     function getProProfile(code, pro) {
                         var t = '';
                         t += '<div class="small-pname"><span class="bd">' + pro + '</span></div>';
+                        t += '<div class="small-content"><span class="bd">Fecha:</span> <span>' + dataHistory.getCurrentDate() + '</span></div>';
                         if (code in pros) {
                             t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + dataHistory.getProvinceTotal(code) + '</span></div>';
                         } else {
@@ -758,8 +754,6 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             fillColor: getColorM(feature.properties.DPA_municipality_code)
                         };
                     }
-
-                    mStyle = styleM;
 
                     function styleP(feature) {
                         return {
@@ -814,8 +808,6 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     map_mun.zoomControl.setPosition('topright');
                     map_mun.fitBounds(geojsonM.getBounds());
 
-                    mMap = map_mun;
-
                     var map_pro = L.map('map-pro', {
                         center: [21.5, -79.371124],
                         zoom: 15,
@@ -858,6 +850,12 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             map_pro.invalidateSize();
                         }
                     }).change();
+
+                    dataHistory.onDayChange(function (currentDay) {
+                        geojsonP.setStyle(styleP);
+                        geojsonM.setStyle(styleM);
+                    });
+                    gDataHistory = dataHistory;
                 });
         });
     });

@@ -4,6 +4,7 @@
  * @typedef {Object} DayStats
  * @property {TerritoryStats} mun Estadísticas de municipios.
  * @property {TerritoryStats} pros Estadísticas de provincias.
+ * @property {string} date Fecha del día.
  */
 
 /**
@@ -27,7 +28,7 @@
  * @param {CubaData} data Datos de Cuba.
  * @constructor
  */
-function DataHistory (data) {
+function DataHistory(data) {
     /**
      * Datos acumulados por día.
      *
@@ -44,8 +45,9 @@ function DataHistory (data) {
     // Hack: agregar un primer elemento para que coincidan los índices con el día en los datos
     // originales y simplificar el algoritmo de llenado de datos.
     this.days.push({
-        mun: { max: 0 },
-        pros: {max: 0}
+        mun: {max: 0},
+        pros: {max: 0},
+        date: '1970/01/01' // aka the beginning of time :)
     });
     for (var dayIndex in data.casos.dias) {
         if (data.casos.dias.hasOwnProperty(dayIndex)) {
@@ -55,8 +57,9 @@ function DataHistory (data) {
              * @type {DayStats}
              */
             var stats = {
-                mun: { max: 0 },
-                pros: { max: 0 }
+                mun: {max: 0},
+                pros: {max: 0},
+                date: dayData.fecha
             };
 
             // Computar totales si existen casos diagnosticados
@@ -82,7 +85,7 @@ function DataHistory (data) {
              * @param {DayStats} stat Datos del día a mezclar.
              * @param {DayStats} dayBefore Datos acumulados hasta el día anterior.
              */
-            function mergeData (store, stat, dayBefore) {
+            function mergeData(store, stat, dayBefore) {
                 for (var territory in dayBefore[store]) {
                     if (dayBefore[store].hasOwnProperty(territory)) {
                         if (territory !== 'max') {
@@ -102,6 +105,7 @@ function DataHistory (data) {
         }
         this.lastDay = Object.keys(this.days).length - 1;
         this.currentDay = this.lastDay;
+        this._handlers = [];
     }
 }
 
@@ -211,12 +215,10 @@ DataHistory.prototype.setCurrentDay = function (day) {
     if (day < 1 || day > this.lastDay) {
         throw new Error('Invalid day index. Value: ' + day);
     }
-  this.currentDay = day;
-  for (var key in this._handlers) {
-      if (this._handlers.hasOwnProperty(key)) {
-          this._handlers[key](this.currentDay);
-      }
-  }
+    this.currentDay = day;
+    for (var i = 0; i < this._handlers.length; i++) {
+        this._handlers[i](this.currentDay);
+    }
 };
 
 /**
@@ -232,7 +234,7 @@ DataHistory.prototype.setCurrentDay = function (day) {
  * @param {DayChangeCallback} handler
  */
 DataHistory.prototype.onDayChange = function (handler) {
-  this._handlers[handler] = handler;
+    this._handlers.push(handler);
 };
 
 /**
@@ -241,7 +243,9 @@ DataHistory.prototype.onDayChange = function (handler) {
  * @param {DayChangeCallback} handler
  */
 DataHistory.prototype.offDayChange = function (handler) {
-    delete this._handlers[handler];
+    this._handlers.remove(handler);
 };
 
-
+DataHistory.prototype.getCurrentDate = function () {
+  return this.days[this.currentDay].date;
+};
