@@ -21,13 +21,17 @@ var contagio = {
     'desconocido': 0
 }
 
-var gDataHistory = {};
-
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
             $.getJSON("data/municipios.geojson",
                 function (municipios) {
+                    /**
+                     * Contiene los datos necesarios para renderizar el mapa en distintos momentos
+                     * del tiempo.
+                     *
+                     * @type {DataHistory}
+                     */
                     var dataHistory = new DataHistory(data);
 
                     function getMunicipeByCode(code) {
@@ -851,11 +855,12 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }).change();
 
+                    // Registrar listeners para el cambio de día
                     dataHistory.onDayChange(function (currentDay) {
                         geojsonP.setStyle(styleP);
                         geojsonM.setStyle(styleM);
                     });
-
+                    // Construir controles de control de tiempo.
                     dataHistory.buildUI('timeline');
                     gDataHistory = dataHistory;
                 });

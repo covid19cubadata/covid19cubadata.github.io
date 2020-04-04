@@ -255,6 +255,11 @@ DataHistory.prototype.getCurrentDate = function () {
   return this.days[this.currentDay].date;
 };
 
+/**
+ * Construye los controles de tiempo en un elemento.
+ *
+ * @param {string} elementId Id del div que contendrá los controles de tiempo.
+ */
 DataHistory.prototype.buildUI = function (elementId) {
 
     var el = document.getElementById(elementId);
@@ -268,6 +273,7 @@ DataHistory.prototype.buildUI = function (elementId) {
         progress.style.width = (currentDay/self.lastDay*100) + '%';
     });
     var interval;
+
     function pause () {
         if (interval) {
             clearInterval(interval);
