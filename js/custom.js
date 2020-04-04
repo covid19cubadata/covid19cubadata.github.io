@@ -11,7 +11,8 @@ var domains = {
     'uy': 'Uruguay',
     'do': 'R.Dominicana',
     'hr': 'Croacia',
-    'co': 'Colombia'
+    'co': 'Colombia',
+    'pe': 'Perú'
 };
 
 var contagio = {
