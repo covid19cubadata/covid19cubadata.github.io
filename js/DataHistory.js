@@ -41,51 +41,60 @@ function DataHistory (data) {
         pros: {max: 0}
     });
     for (var dayIndex in data.casos.dias) {
-        var dayData = data.casos.dias[dayIndex];
-        /**
-         * Datos del día
-         * @type {DayStats}
-         */
-        var stats = {
-            mun: { max: 0 },
-            pros: { max: 0 }
-        };
+        if (data.casos.dias.hasOwnProperty(dayIndex)) {
+            var dayData = data.casos.dias[dayIndex];
+            /**
+             * Datos del día
+             * @type {DayStats}
+             */
+            var stats = {
+                mun: { max: 0 },
+                pros: { max: 0 }
+            };
 
-        // Computar totales si existen casos diagnosticados
-        if (dayData.diagnosticados) {
-            for (var i = 0; i < dayData.diagnosticados.length; i++) {
-                var subject = dayData.diagnosticados[i];
+            // Computar totales si existen casos diagnosticados
+            if (dayData.diagnosticados) {
+                for (var i = 0; i < dayData.diagnosticados.length; i++) {
+                    var subject = dayData.diagnosticados[i];
 
-                stats.mun[subject.dpacode_municipio_deteccion] |= 0;
-                stats.mun[subject.dpacode_municipio_deteccion] += 1;
-                stats.mun.max = Math.max(stats.mun[subject.dpacode_municipio_deteccion], stats.mun.max);
+                    stats.mun[subject.dpacode_municipio_deteccion] |= 0;
+                    stats.mun[subject.dpacode_municipio_deteccion] += 1;
+                    stats.mun.max = Math.max(stats.mun[subject.dpacode_municipio_deteccion], stats.mun.max);
 
-                stats.pros[subject.dpacode_provincia_deteccion] |= 0;
-                stats.pros[subject.dpacode_provincia_deteccion] += 1;
-                stats.pros.max = Math.max(stats.pros[subject.dpacode_provincia_deteccion], stats.pros.max);
+                    stats.pros[subject.dpacode_provincia_deteccion] |= 0;
+                    stats.pros[subject.dpacode_provincia_deteccion] += 1;
+                    stats.pros.max = Math.max(stats.pros[subject.dpacode_provincia_deteccion], stats.pros.max);
+                }
             }
+
+            /**
+             * Suma la cantidad de casos detectados al acumulado registrado hasta el día anterior.
+             *
+             * @param {'mun'|'pros'} store `mun` indicando que debe utilizarse municipios, `pros`
+             *                             indicando que debe utilizarse provincias.
+             * @param {DayStats} stat Datos del día a mezclar.
+             * @param {DayStats} dayBefore Datos acumulados hasta el día anterior.
+             */
+            function mergeData (store, stat, dayBefore) {
+                for (var territory in dayBefore[store]) {
+                    if (dayBefore[store].hasOwnProperty(territory)) {
+                        if (territory !== 'max') {
+                            stat[store][territory] |= 0;
+                            stat[store][territory] += dayBefore[store][territory];
+                            stat[store].max = Math.max(stat[store][territory], stat[store].max);
+                        }
+                    }
+                }
+            }
+
+            // Sumar acumulados del día anterior
+            var dayBefore = this.days[dayIndex - 1];
+            mergeData('mun', stats, dayBefore);
+            mergeData('pros', stats, dayBefore);
+            this.days.push(stats);
         }
 
-        // Sumar acumulados del día anterior
-        var dayBefore = this.days[dayIndex - 1];
-        for (var mun in dayBefore.mun) {
-            if (mun !== 'max') {
-                stats.mun[mun] |= 0;
-                stats.mun[mun] += dayBefore.mun[mun];
-                stats.mun.max = Math.max(stats.mun[mun], stats.mun.max);
-            }
-        }
-        for (var prov in dayBefore.pros) {
-            if (prov !== 'max') {
-                stats.pros[prov] |= 0;
-                stats.pros[prov] += dayBefore.pros[prov];
-                stats.pros.max = Math.max(stats.pros[prov], stats.pros.max);
-            }
-        }
-
-        this.days.push(stats);
     }
-
 }
 
 /**
