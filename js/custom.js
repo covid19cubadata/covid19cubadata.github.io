@@ -23,6 +23,10 @@ var contagio = {
 
 var dataHistory = {};
 
+var mLayer;
+var mMap;
+var mStyle;
+
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
@@ -696,6 +700,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     var geojsonP = L.geoJSON(provincias, {style: styleP});
 
+                    mLayer = geojsonM;
+
                     geojsonM.bindTooltip(function (layer) {
                         return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
                     }, {'sticky': true});
@@ -753,6 +759,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         };
                     }
 
+                    mStyle = styleM;
+
                     function styleP(feature) {
                         return {
                             weight: 0.5,
@@ -771,16 +779,18 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     $('#cases').html(genInfo.max_muns);
 
                     function getColorM(code) {
-                        if (code in muns) {
-                            var opac = logx(factor, dataHistory.getMunicipalityTotal(code) * factor / dataHistory.getMunicipalityMax());
+                        var munTotal = dataHistory.getMunicipalityTotal(code)
+                        if (munTotal) {
+                            var opac = logx(factor, munTotal * factor / dataHistory.getMunicipalityLastMax());
                             return "rgba(176,30,34," + opac + ")";
                         }
                         return '#D1D2D4';
                     }
 
                     function getColorP(code) {
-                        if (code in pros) {
-                            var opac = logx(factor, dataHistory.getProvinceTotal(code) * factor / dataHistory.getProvinceMax());
+                        var provTotal = dataHistory.getProvinceTotal(code);
+                        if (provTotal) {
+                            var opac = logx(factor, provTotal * factor / dataHistory.getProvinceLastMax());
                             return "rgba(176,30,34," + opac + ")";
                         }
                         return '#D1D2D4';
@@ -803,6 +813,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     });
                     map_mun.zoomControl.setPosition('topright');
                     map_mun.fitBounds(geojsonM.getBounds());
+
+                    mMap = map_mun;
 
                     var map_pro = L.map('map-pro', {
                         center: [21.5, -79.371124],

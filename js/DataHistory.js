@@ -34,6 +34,13 @@ function DataHistory (data) {
      * @type {DayStats[]}
      */
     this.days = [];
+    /**
+     * Día para el que se mostrarán los datos si no se especifica en el parametro 'day'.
+     *
+     * @type {int}
+     */
+    this.currentDay = 0;
+
     // Hack: agregar un primer elemento para que coincidan los índices con el día en los datos
     // originales y simplificar el algoritmo de llenado de datos.
     this.days.push({
@@ -93,7 +100,8 @@ function DataHistory (data) {
             mergeData('pros', stats, dayBefore);
             this.days.push(stats);
         }
-
+        this.lastDay = Object.keys(this.days).length - 1;
+        this.currentDay = this.lastDay;
     }
 }
 
@@ -109,10 +117,9 @@ function DataHistory (data) {
  */
 DataHistory.prototype.getTerritoryTotal = function (type, code, day) {
     if (day === undefined) {
-        // Por defecto usar información del último día
-        day = Object.keys(this.days).length - 1;
+        day = this.currentDay;
     }
-    return this.days[day][type][code];
+    return this.days[day][type][code] || 0;
 };
 
 /**
@@ -126,10 +133,9 @@ DataHistory.prototype.getTerritoryTotal = function (type, code, day) {
  */
 DataHistory.prototype.getTerritoryMax = function (type, day) {
     if (day === undefined) {
-        // Por defecto usar información del último día
-        day = Object.keys(this.days).length - 1;
+        day = this.currentDay;
     }
-    return this.days[day][type].max;
+    return this.days[day][type].max || 0;
 };
 
 /**
@@ -156,6 +162,15 @@ DataHistory.prototype.getMunicipalityMax = function (day) {
 };
 
 /**
+ * Obtiene el número de casos del municipio con mayor cantidad de casos.
+ *
+ * @return {int}
+ */
+DataHistory.prototype.getMunicipalityLastMax = function (day) {
+    return this.getTerritoryMax('mun', Object.keys(this.days).length - 1);
+};
+
+/**
  * Obtiene la cantidad de casos de una provincia hasta un día.
  *
  * @param {string} code Identificador de la provincia según la división político-administrativa.
@@ -168,7 +183,7 @@ DataHistory.prototype.getProvinceTotal = function (code, day) {
 };
 
 /**
- * Obtiene el número de casos de laprovincia con mayor cantidad de casos.
+ * Obtiene el número de casos de la provincia con mayor cantidad de casos.
  *
  * @param {int|undefined} day Día hasta el que se obtendrán los casos de la provincia. `undefined`
  *                            indica que se debe utilizar la información del último día disponible.
@@ -177,3 +192,56 @@ DataHistory.prototype.getProvinceTotal = function (code, day) {
 DataHistory.prototype.getProvinceMax = function (day) {
     return this.getTerritoryMax('pros', day);
 };
+
+/**
+ * Obtiene el número de casos de la provincia con mayor cantidad de casos.
+ *
+ * @return {int}
+ */
+DataHistory.prototype.getProvinceLastMax = function () {
+    return this.getTerritoryMax('pros', Object.keys(this.days).length - 1);
+};
+
+/**
+ * Establece el día del que se recuperarán las estadísticas.
+ *
+ * @param {int} day Índice del día. debe ser un número entre 1 y `lastDay` (inclusivos).
+ */
+DataHistory.prototype.setCurrentDay = function (day) {
+    if (day < 1 || day > this.lastDay) {
+        throw new Error('Invalid day index. Value: ' + day);
+    }
+  this.currentDay = day;
+  for (var key in this._handlers) {
+      if (this._handlers.hasOwnProperty(key)) {
+          this._handlers[key](this.currentDay);
+      }
+  }
+};
+
+/**
+ * Callback que se llama por cada handler registrado.
+ *
+ * @callback DayChangeCallback
+ * @param {int} day Índice del día seleccionado.
+ */
+
+/**
+ * Registra un manejador del evento 'DayChange'.
+ *
+ * @param {DayChangeCallback} handler
+ */
+DataHistory.prototype.onDayChange = function (handler) {
+  this._handlers[handler] = handler;
+};
+
+/**
+ * Desregistra un manejador del evento 'DayChange'.
+ *
+ * @param {DayChangeCallback} handler
+ */
+DataHistory.prototype.offDayChange = function (handler) {
+    delete this._handlers[handler];
+};
+
+
