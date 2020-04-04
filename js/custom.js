@@ -11,7 +11,8 @@ var domains = {
     'uy': 'Uruguay',
     'do': 'R.Dominicana',
     'hr': 'Croacia',
-    'co': 'Colombia'
+    'co': 'Colombia',
+    'pe': 'Perú'
 };
 
 var contagio = {
@@ -383,7 +384,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                     //show: false
                                 },
                                 y: {
-                                    label: 'Tests acumulados',
+                                    label: 'Tests en el día',
                                     position: 'outer-middle'
                                 }
                             }
@@ -408,8 +409,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             var cc = curves[countrysorted[c]]['data'][0];
                             $('#countrycurve-select').append('<option value="' + cc + '">' + cc + '</option>');
                         }
-                        var countryselected = 'Greece';
-                        $('#countrycurve-select').val('Greece');
+                        var countryselected = 'Hungary';
+                        $('#countrycurve-select').val(countryselected);
                         $('#countries-date').html(countriesdays['dia-actualizacion']);
 
                         $('#countrycurve-select').on('change', function () {
@@ -516,7 +517,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 columns: [
                                     dias,
                                     cuba,
-                                    curves['Greece']['data'].slice(0, cuba.length)
+                                    curves[countryselected]['data'].slice(0, cuba.length)
                                 ],
                                 type: 'line',
                                 colors: {
@@ -541,8 +542,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             data: {
                                 x: 'Días',
                                 columns: [
-                                    curves['Greece']['dias'],
-                                    curves['Greece']['data'],
+                                    curves[countryselected]['dias'],
+                                    curves[countryselected]['data'],
                                     cuba,
                                 ],
                                 type: 'line',
@@ -795,7 +796,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         scrollWheelZoom: false,
                         tap: true,
                         touchZoom: true,
-                        zoomSnap: 0.05
+                        zoomSnap: 0.05,
+                        maxBounds: geojsonM.getBounds()
                     });
                     map_mun.zoomControl.setPosition('topright');
                     map_mun.fitBounds(geojsonM.getBounds());
@@ -812,7 +814,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         scrollWheelZoom: false,
                         tap: true,
                         touchZoom: true,
-                        zoomSnap: 0.05
+                        zoomSnap: 0.05,
+                        maxBounds: geojsonP.getBounds()
                     });
                     map_pro.zoomControl.setPosition('topright');
                     map_pro.fitBounds(geojsonP.getBounds());
