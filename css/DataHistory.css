@@ -1,0 +1,36 @@
+.history-controls {
+    padding-left: 40px;
+    margin-top: 12px;
+    position: relative;
+    padding-right: 18px;
+}
+
+.history-controls .time-bar {
+    background-color: #d1d2d4;
+}
+
+.history-controls .time-bar,
+.history-controls .time-bar > * {
+    width: 100%;
+    height: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.history-controls .time-bar .progress-indicator {
+    height: 10px;
+    background-color: rgb(176, 30, 34);
+    transition: all .3s;
+}
+
+.history-controls button {
+    float: left;
+    background: white;
+    border: none;
+    color: rgb(176, 30, 34);
+    margin-left: -31px;
+    margin-top: -7px;
+}
+
+
