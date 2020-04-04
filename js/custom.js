@@ -21,11 +21,14 @@ var contagio = {
     'desconocido': 0
 }
 
+var dataHistory = {};
+
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
             $.getJSON("data/municipios.geojson",
                 function (municipios) {
+                    dataHistory = new DataHistory(data);
 
                     function getMunicipeByCode(code) {
                         for (m in municipios.features) {
@@ -705,7 +708,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var t = '';
                         t += '<div class="small-pname"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
                         if (code in muns) {
-                            t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + muns[code].total + '</span></div>';
+                            t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + dataHistory.getMunicipalityTotal(code) + '</span></div>';
                         } else {
                             t += '<div class="small-content">No hay casos diagnosticados</div>';
                         }
@@ -718,7 +721,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var t = '';
                         t += '<div class="small-pname"><span class="bd">' + pro + '</span></div>';
                         if (code in pros) {
-                            t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + pros[code].total + '</span></div>';
+                            t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + dataHistory.getProvinceTotal(code) + '</span></div>';
                         } else {
                             t += '<div class="small-content">Sin casos reportados aún</div>';
                         }
@@ -769,7 +772,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     function getColorM(code) {
                         if (code in muns) {
-                            var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
+                            var opac = logx(factor, dataHistory.getMunicipalityTotal(code) * factor / dataHistory.getMunicipalityMax());
                             return "rgba(176,30,34," + opac + ")";
                         }
                         return '#D1D2D4';
@@ -777,7 +780,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     function getColorP(code) {
                         if (code in pros) {
-                            var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
+                            var opac = logx(factor, dataHistory.getProvinceTotal(code) * factor / dataHistory.getProvinceMax());
                             return "rgba(176,30,34," + opac + ")";
                         }
                         return '#D1D2D4';
