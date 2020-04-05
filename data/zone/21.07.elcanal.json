@@ -1,0 +1,47 @@
+{
+  "crs": {
+    "type": "EPSG",
+    "properties": {
+      "code": "3857"
+    }
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.38223934173584,
+              22.556080315658917
+            ],
+            [
+              -83.37477207183838,
+              22.557348550295487
+            ],
+            [
+              -83.37399959564209,
+              22.549738967583266
+            ],
+            [
+              -83.37987899780275,
+              22.547479791921162
+            ],
+            [
+              -83.38223934173584,
+              22.556080315658917
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "El Canal",
+        "DPA_municipality_code": "21.07",
+        "country": "Cuba",
+        "country_domain": "cu"
+      }
+    }
+  ]
+}
