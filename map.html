@@ -17,6 +17,7 @@
     <link href="css/fontawesome-5.8.2/css/all.css" rel="stylesheet">
     <link href="css/c3.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/map.css" rel="stylesheet">
 </head>
 
 <body>
@@ -47,19 +48,25 @@
             <div class="card-header">
                 Distribución por Municipios
             </div>
-            <div class="card-body p-0 pt-1 pb-1">
-                <div id="map-container">
-                    <div id="province-map" class="map"></div>
-                    <div id="map-legend-container">
-                        <div id="map-legend">
-                            0 casos
-                            <i id="cases0" class="main-text fa fa-square"></i>
-                            <i id="cases1" class="main-text fa fa-square"></i>
-                            <i id="cases2" class="main-text fa fa-square"></i>
-                            <i id="cases3" class="main-text fa fa-square"></i>
-                            <i id="cases4" class="main-text fa fa-square"></i>
-                            <i id="cases5" class="main-text fa fa-square"></i>
-                            <span id="cases">#</span> casos
+            <div class="card-body p-0">
+                <div id="map-container" class="row m-0">
+                    <div class="col-3 p-0">
+                        <div class="list-group list-condensed" data-region="province">
+                        </div>
+                    </div>
+                    <div class="col-9 pt-4 pr-0">
+                        <div id="province-map" class="map"></div>
+                        <div id="map-legend-container">
+                            <div id="map-legend">
+                                0 casos
+                                <i id="cases0" class="main-text fa fa-square"></i>
+                                <i id="cases1" class="main-text fa fa-square"></i>
+                                <i id="cases2" class="main-text fa fa-square"></i>
+                                <i id="cases3" class="main-text fa fa-square"></i>
+                                <i id="cases4" class="main-text fa fa-square"></i>
+                                <i id="cases5" class="main-text fa fa-square"></i>
+                                <span id="cases">#</span> casos
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -117,8 +124,6 @@
     </div>
 
     <div class="col-12 text-center">
-
-
         <div class="text-block mt-4">
             Copyright 2020
             <div id="team-logos">
@@ -133,7 +138,6 @@
             <a href="http://www.cusobu.nat.cu/"><img id="cusobu" class="" src="images/logo-cusobu.png"></a></div>
     </div>
 </div>
-
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
