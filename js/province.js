@@ -15,62 +15,71 @@
     });
     var locations = null;
 
+    $.walker = {
+        loaded: {},
+        load: function (url, callback) {
+            if (url in $.walker.loaded)
+                return callback(Object.assign({}, $.walker.loaded[url]));
+            $.getJSON(url, function (data) {
+                $.walker.loaded[url] = Object.assign({}, data);
+                callback(data);
+            });
+        },
+        province: {
+            list: {features: []},
+            createLinks: function (active, target) {
+                const $target = $(target);
+                for (const i in $.walker.province.list.features) {
+                    const province = $.walker.province.list.features[i].properties;
+                    if ($target.find('a[href="#' + province.province_id + '"]').length === 0)
+                        $target.append('<a href="#' + province.province_id + '" class="list-group-item list-group-item-action">' + province.province + '</a>');
+                }
+
+                $target.find('a[href="#' + active + '"]').addClass('active').siblings().removeClass('active');
+            },
+            findById: function (id) {
+                return $.walker.province.matchByField('province_id', id);
+            },
+            matchByField: function (field, value) {
+                for (const i in $.walker.province.list.features) {
+                    const province = $.walker.province.list.features[i];
+                    if (province.properties[field] === value)
+                        return province;
+                }
+                return false;
+            }
+        },
+        municipality: {
+            list: {features: []},
+            filterByProvince: function (province_id) {
+                let features = [], remaining = {};
+                for (const i in $.walker.municipality.list.features) {
+                    const province = $.walker.municipality.list.features[i];
+                    if (province.properties.province_id === province_id) {
+                        features.push($.walker.municipality.list.features[i]);
+                        remaining[$.walker.municipality.list.features[i].properties.DPA_municipality_code] = {"total": 0};
+                    }
+                }
+                $.walker.municipality.list.features = features;
+                return remaining;
+            }
+        }
+    };
+
     $(window).on('hashchange', function () {
         const province_id = window.location.hash.replace("#", "");
 
-        $.walker = {
-            province: {
-                list: {features: []},
-                createLinks: function (target) {
-                    const $target = $(target);
-                    for (const i in $.walker.province.list.features) {
-                        const province = $.walker.province.list.features[i].properties;
-                        if ($target.find('a[href="#' + province.province_id + '"]').length === 0)
-                            $target.append('<a href="#' + province.province_id + '" class="list-group-item list-group-item-action">' + province.province + '</a>');
-                    }
-
-                    $target.find('a[href="#' + province_id + '"]').addClass('active').siblings().removeClass('active');
-                },
-                findById: function (id) {
-                    return $.walker.province.matchByField('province_id', id);
-                },
-                matchByField: function (field, value) {
-                    for (const i in $.walker.province.list.features) {
-                        const province = $.walker.province.list.features[i];
-                        if (province.properties[field] === value)
-                            return province;
-                    }
-                    return false;
-                }
-            },
-            municipality: {
-                list: {features: []},
-                filterByProvince: function (province_id) {
-                    let features = [], remaining = {};
-                    for (const i in $.walker.municipality.list.features) {
-                        const province = $.walker.municipality.list.features[i];
-                        if (province.properties.province_id === province_id) {
-                            features.push($.walker.municipality.list.features[i]);
-                            remaining[$.walker.municipality.list.features[i].properties.DPA_municipality_code] = {"total": 0};
-                        }
-                    }
-                    $.walker.municipality.list.features = features;
-                    return remaining;
-                }
-            }
-        };
-
-        $.getJSON("data/provincias.geojson", function (provincias) {
+        $.walker.load('data/provincias.geojson', function (provincias) {
             $.walker.province.list = provincias;
-            $.walker.province.createLinks('[data-region="province"]');
+            $.walker.province.createLinks(province_id, '[data-region="province"]');
             if (!$.walker.province.findById(province_id))
                 return $('#province-map').html('Province ' + province_id + ' not found!!');
 
-            $.getJSON("data/municipios.geojson", function (municipios) {
+            $.walker.load("data/municipios.geojson", function (municipios) {
                 $.walker.municipality.list = municipios;
                 let muns = $.walker.municipality.filterByProvince(province_id);
 
-                $.getJSON("data/covid19-cuba.json", function (data) {
+                $.walker.load("data/covid19-cuba.json", function (data) {
                     let max = 0, total = 0, days = [], sex_male = 0, sex_female = 0, sex_unknown = 0;
                     let contagio = {
                         'importado': 0,
