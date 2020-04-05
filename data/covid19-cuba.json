@@ -36,7 +36,7 @@
             "id": "cho",
             "nombre": "Clínica Internacional 'El Cocal'",
             "provincia": "Holguín",
-            "dpacode_provincia": "30"
+            "dpacode_provincia": "32"
         },
         "csc": {
             "id": "csa",
@@ -3571,7 +3571,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": "2020/03/21",
                         "municipio_detección": "Plaza de la Revolución",
-                        "provincia_detección": null,
+                        "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.02",
                         "dpacode_provincia_deteccion": "23",
                         "contagio": "introducido",
