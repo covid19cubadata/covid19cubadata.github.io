@@ -12,28 +12,28 @@ body > div {
 }
 
 #apks-info {
-	width: 100%;
-	text-align: right;
-	margin-top: -10px;
-	margin-right: 5px;
+    width: 100%;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 5px;
 }
 
 #apks-info > a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #1C1340;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1C1340;
 }
 
 #apks-info > a:hover {
-	color: darkgray;
+    color: darkgray;
 }
 
 .app-logo {
-	height: 20px;
-	margin-top: -10px;
+    height: 20px;
+    margin-top: -10px;
 }
 
-#map-mun, #map-pro {
+#map-mun, #map-pro, .map {
     background-color: #ffffff;
     min-height: 371px;
 }
@@ -225,12 +225,12 @@ body > div {
     height: 260px;
 }
 
- #daily-sum-info, #tests-donut-info {
+#daily-sum-info, #tests-donut-info {
     height: 225px;
 }
 
-#tests-line-info { 
-	height: 208px;
+#tests-line-info {
+    height: 208px;
 }
 
 #countriescurve-info {
@@ -271,11 +271,11 @@ body > div {
 }
 
 @media screen and (max-width: 900px) {
-	#apks-info {
-		width: 100%;
-		text-align: center;
-		margin-top: -10px;
-	}
+    #apks-info {
+        width: 100%;
+        text-align: center;
+        margin-top: -10px;
+    }
 
 
     #first-block {
