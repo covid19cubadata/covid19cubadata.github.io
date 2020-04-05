@@ -7,3 +7,8 @@
     padding: .10rem 1.05rem;
     border-radius: 0 !important;
 }
+
+.map {
+    background-color: #ffffff;
+    min-height: 371px;
+}
