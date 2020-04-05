@@ -15,6 +15,8 @@ var domains = {
     'pe': 'Perú'
 };
 
+
+
 var contagio = {
     'importado': 0,
     'introducido': 0,
