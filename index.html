@@ -116,7 +116,7 @@
         </table>
     </div>
 
-    <div class="d-none d-sm-block d-lg-none">
+    <div id="stats-cards" class="d-none d-sm-block d-lg-none">
         <div class="row">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="card text-center">
@@ -182,7 +182,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div id="top-row" class="container-fluid">
     <div class="row">
         <div class="col-md-9">
             <div id="geodist" class="card common-bg">
@@ -219,78 +219,73 @@
         </div>
         <div class="col-md-3">
             <div class="card-deck">
-                <div id="sexdist" class="card common-bg">
+                <section id="sexdist" class="card common-bg">
                     <div class="card-header">Casos por Sexo</div>
                     <div class="card-body">
                         <div id="sex-info"></div>
                     </div>
-                </div>
+                </section>
                 <div class="w-100 d-none d-md-block"></div>
-                <div id="caudist" class="card common-bg">
+                <section id="caudist" class="card common-bg">
                     <div class="card-header">Casos por Modo de Contagio</div>
                     <div class="card-body">
                         <div id="contagio-info"></div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid">
-
-    <div id="line-charts" class="">
-        <div class="card-deck">
-            <div id="casdist" class="card common-bg">
-                <div class="card-header">Evolución de casos por días</div>
-                <div class="card-body">
-                    <div id="daily-single-info"></div>
-                </div>
-            </div>
-            <div id="agedist" class="card common-bg ">
-                <div class="card-header">Distribución por rangos etarios</div>
-                <div class="card-body">
-                    <div id="ages-info"></div>
-                </div>
-            </div>
-            
-            <div class="w-100 d-none d-sm-block"></div>
-            <div id="homdist" class="card common-bg ">
-                <div class="card-header">Casos por nacionalidad</div>
-                <div class="card-body">
-                    <div id="countries-info-pie"></div>
-                </div>
-            </div>
-            <div id="fordist" class="card common-bg ">
-                <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
-                <div class="card-body">
-                    <div id="countries-info"></div>
-                </div>
-            </div>
-            
-            <div class="w-100 d-none d-sm-block"></div>
-            <div id="tesmade" class="card common-bg">
-                <div class="card-header">Relación de tests realizados</div>
-                <div class="card-body">
-                    <div id="tests-donut-info"></div>
-                </div>
-            </div>
-            <div id="tesacum" class="card common-bg">
-                <div class="card-header">Tests acumulados por días</div>
-                <div class="card-body">
-                    <div id="tests-line-info"></div>
-                    <div class="map-quote">
-                        * esta información se reporta desde 2020/03/22
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
+<div id="line-charts" class="container-fluid">
     <div class="card-deck">
-        <div id="topprov" class="card common-bg ">
+        <section id="casdist" class="card common-bg">
+            <div class="card-header">Evolución de casos por días</div>
+            <div class="card-body">
+                <div id="daily-single-info"></div>
+            </div>
+        </section>
+        <section id="agedist" class="card common-bg ">
+            <div class="card-header">Distribución por rangos etarios</div>
+            <div class="card-body">
+                <div id="ages-info"></div>
+            </div>
+        </section>
+        <div class="w-100 d-none d-sm-block"></div>
+        <section id="homdist" class="card common-bg ">
+            <div class="card-header">Casos por nacionalidad</div>
+            <div class="card-body">
+                <div id="countries-info-pie"></div>
+            </div>
+        </section>
+        <section id="fordist" class="card common-bg ">
+            <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
+            <div class="card-body">
+                <div id="countries-info"></div>
+            </div>
+        </section>
+        <div class="w-100 d-none d-sm-block"></div>
+        <section id="tesmade" class="card common-bg">
+            <div class="card-header">Relación de tests realizados</div>
+            <div class="card-body">
+                <div id="tests-donut-info"></div>
+            </div>
+        </section>
+        <section id="tesacum" class="card common-bg">
+            <div class="card-header">Tests acumulados por días</div>
+            <div class="card-body">
+                <div id="tests-line-info"></div>
+                <div class="map-quote">
+                    * esta información se reporta desde 2020/03/22
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div id="tables" class="container-fluid">
+    <div class="card-deck">
+        <section id="topprov" class="card common-bg ">
             <div class="card-header">TOP10 Provincias Afectadas</div>
             <div class="card-body p-0">
                 <table id="table-pro" class="table table-striped table-sm mb-0">
@@ -305,9 +300,9 @@
                     <tbody></tbody>
                 </table>
             </div>
-        </div>
+        </section>
         <div class="w-100 d-sm-block d-md-none"></div>
-        <div id="topmuni" class="card common-bg ">
+        <section id="topmuni" class="card common-bg ">
             <div class="card-header">TOP10 Municipios Afectados</div>
             <div class="card-body p-0">
                 <table id="table-mun" class="table table-striped table-sm mb-0">
@@ -322,7 +317,7 @@
                     <tbody></tbody>
                 </table>
             </div>
-        </div>
+        </section>
     </div>
 </div>
 
