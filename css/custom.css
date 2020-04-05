@@ -7,30 +7,63 @@ body > div {
     margin: 0 !important;
 }
 
+.navbar {
+    padding: 0 1rem 0 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.bg-light {
+    background: #D1D2D4 !important;
+}
+
+.bg-success {
+    background: #00aeef !important;
+}
+
+.bg-primary {
+    background: #005778 !important;
+}
+
+.bg-info {
+    background: #939393 !important;
+}
+
+.bg-warning {
+    background: #b11116 !important;
+}
+
+.bg-danger {
+    background: #d0797c !important;
+}
+
+.bg-dark {
+    background: #1C1340 !important;
+}
+
 .common-bg {
     background-color: #1C1340;
 }
 
 #apks-info {
-	width: 100%;
-	text-align: right;
-	margin-top: -10px;
-	margin-right: 5px;
+    border-radius: 0;
 }
 
 #apks-info > a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #1C1340;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1C1340;
 }
 
 #apks-info > a:hover {
-	color: darkgray;
+    color: darkgray;
 }
 
 .app-logo {
-	height: 20px;
-	margin-top: -10px;
+    height: 20px;
+    margin-top: -10px;
 }
 
 #map-mun, #map-pro {
@@ -92,8 +125,10 @@ body > div {
     margin-right: 10px;
 }
 
-#line-charts {
-    margin-top: 10px;
+.card,
+.card-deck > .card,
+#apks-info {
+    margin-bottom: 1em;
 }
 
 #countries-container {
@@ -225,18 +260,17 @@ body > div {
     height: 260px;
 }
 
- #daily-sum-info, #tests-donut-info {
+#daily-sum-info, #tests-donut-info {
     height: 225px;
 }
 
-#tests-line-info { 
-	height: 208px;
+#tests-line-info {
+    height: 208px;
 }
 
 #countriescurve-info {
     min-height: 260px;
     margin-left: 5px;
-    text-align: center;
     margin-right: 20px;
     text-align: left;
 }
@@ -271,11 +305,11 @@ body > div {
 }
 
 @media screen and (max-width: 900px) {
-	#apks-info {
-		width: 100%;
-		text-align: center;
-		margin-top: -10px;
-	}
+    #apks-info {
+        width: 100%;
+        text-align: center;
+        margin-top: -10px;
+    }
 
 
     #first-block {
@@ -361,18 +395,49 @@ body > div {
     background-color: rgba(18, 19, 64, 0.2);
 }
 
-@media screen and (max-width: 767px) {
-    .card {
-        margin-top: 0.25rem;
-    }
+#general .card-body {
+    padding: .25em 15px;
+}
 
-    .mr-xs-3 {
-        margin-right: 1rem !important;
-    }
+#general .card-body span {
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 1em;
+}
 
-    .pr-xs-3 {
-        padding-right: 1rem !important;
-    }
+#general .col-lg-2 {
+    /*padding-right: 0;*/
+}
+
+#general .col-lg-2:last-child {
+    /*padding-right: 15px;*/
+}
+
+#general .card {
+    margin-bottom: 1em;
+}
+
+#general h2 {
+    text-transform: uppercase;
+    font-size: .70em;
+    font-weight: bold;
+}
+
+.navbar-stat {
+    width: 130px;
+    text-align: center;
+    padding: .5em 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.stat-number {
+    font-size: 2em;
+}
+
+.stat-label {
+    text-transform: uppercase;
+    font-size: .75em;
 }
 
 #table-pro > tbody > tr > td:last-child,
