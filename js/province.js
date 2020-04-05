@@ -67,7 +67,7 @@
     };
 
     $(window).on('hashchange', function () {
-        const province_id = window.location.hash.replace("#", "");
+        const province_id = window.location.hash.replace("#", "") || 'lha';
 
         $.walker.load('data/provincias.geojson', function (provincias) {
             $.walker.province.list = provincias;
