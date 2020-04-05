@@ -28,6 +28,8 @@
                         if ($target.find('a[href="#' + province.province_id + '"]').length === 0)
                             $target.append('<a href="#' + province.province_id + '" class="list-group-item list-group-item-action">' + province.province + '</a>');
                     }
+
+                    $target.find('a[href="#' + province_id + '"]').addClass('active').siblings().removeClass('active');
                 },
                 findById: function (id) {
                     return $.walker.province.matchByField('province_id', id);
