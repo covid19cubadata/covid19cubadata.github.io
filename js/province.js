@@ -55,7 +55,7 @@
                 let features = [], remaining = {};
                 for (const i in $.walker.municipality.list.features) {
                     const province = $.walker.municipality.list.features[i];
-                    if (province.properties.province_id === province_id) {
+                    if (province.properties.province_id === province_id || province_id === 'cuba') {
                         features.push($.walker.municipality.list.features[i]);
                         remaining[$.walker.municipality.list.features[i].properties.DPA_municipality_code] = {"total": 0};
                     }
@@ -67,12 +67,12 @@
     };
 
     $(window).on('hashchange', function () {
-        const province_id = window.location.hash.replace("#", "") || 'lha';
+        const province_id = window.location.hash.replace("#", "") || 'cuba';
 
         $.walker.load('data/provincias.geojson', function (provincias) {
             $.walker.province.list = provincias;
             $.walker.province.createLinks(province_id, '[data-region="province"]');
-            if (!$.walker.province.findById(province_id))
+            if (!$.walker.province.findById(province_id) && province_id !== 'cuba')
                 return $('#province-map').html('Province ' + province_id + ' not found!!');
 
             $.walker.load("data/municipios.geojson", function (municipios) {
