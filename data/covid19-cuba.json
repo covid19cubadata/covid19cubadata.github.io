@@ -6735,16 +6735,15 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Melena del Sur",
-                        "provincia_detección": "Artemisa",
-                        "dpacode_municipio_deteccion": "22.09",
-                        "dpacode_provincia_deteccion": "22",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.09",
+                        "dpacode_provincia_deteccion": "24",
                         "contagio": "introducido",
                         "contacto_focal": null,
                         "centro_aislamiento": "hld",
                         "centro_diagnostico": null,
                         "posible_procedencia_contagio": [],
                         "info": "Ciudadana cubana, de 34 años, residente en el municipio Melena del Sur, provincia Mayabeque. Refiere contacto con viajera procedente de Estados Unidos. Fue ingresada para vigilancia en el centro de aislamiento. El día 1ro de abril fue remitida e ingresada en el Hospital ¨Luis Díaz Soto¨. Mantiene evolución satisfactoria hasta el momento.",
-                        "nota": "Melena del Sur pertenece a la provincia Artemisa",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
@@ -7219,14 +7218,15 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "tests_total": 5234,
+                "tests_total": 6234,
                 "sujetos_riesgo": 1887,
                 "evacuados_numero": 1,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-277",
                     "cu-35"
-                ]
+                ],
+                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume un error de cálculo y que la muestra del día es el caso del paciente fallecido de la Isla y por tanto serían 1202 pruebas y 6234 casos "
             }
         }
     }
