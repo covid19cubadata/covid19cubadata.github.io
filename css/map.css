@@ -1,3 +1,9 @@
+.list-condensed .list-group-item.active {
+    background-color: rgba(28, 19, 64, 0.8);
+    border-color: rgba(28, 19, 64, 0.5);
+}
+
 .list-condensed .list-group-item {
-    padding: .15rem 1.05rem;
+    padding: .10rem 1.05rem;
+    border-radius: 0 !important;
 }
