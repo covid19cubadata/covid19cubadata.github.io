@@ -125,11 +125,9 @@ body > div {
     margin-right: 10px;
 }
 
-#line-charts {
-    margin-top: 10px;
-}
-
-#line-charts .card {
+.card,
+.card-deck > .card,
+#apks-info {
     margin-bottom: 1em;
 }
 
@@ -262,12 +260,12 @@ body > div {
     height: 260px;
 }
 
- #daily-sum-info, #tests-donut-info {
+#daily-sum-info, #tests-donut-info {
     height: 225px;
 }
 
-#tests-line-info { 
-	height: 208px;
+#tests-line-info {
+    height: 208px;
 }
 
 #countriescurve-info {
