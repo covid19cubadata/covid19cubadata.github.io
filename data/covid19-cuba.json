@@ -7218,7 +7218,7 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "tests_total": 6234,
+                "tests_total": 6403,
                 "sujetos_riesgo": 1887,
                 "evacuados_numero": 1,
                 "muertes_numero": 2,
@@ -7226,7 +7226,7 @@
                     "cu-277",
                     "cu-35"
                 ],
-                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume un error de cálculo y que la muestra del día es el caso del paciente fallecido de la Isla y por tanto serían 1202 pruebas y 6234 casos "
+                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 5403"
             }
         }
     }
