@@ -6711,7 +6711,7 @@
                         "edad": 64,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
-                        "consulta_medico": null,
+                        "consulta_medico": "2020/03/27",
                         "municipio_detección": "Habana del Este",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
@@ -6733,18 +6733,17 @@
                         "edad": 34,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
-                        "consulta_medico": null,
+                        "consulta_medico": "2020/04/01",
                         "municipio_detección": "Melena del Sur",
-                        "provincia_detección": "Artemisa",
-                        "dpacode_municipio_deteccion": "22.09",
-                        "dpacode_provincia_deteccion": "22",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.09",
+                        "dpacode_provincia_deteccion": "24",
                         "contagio": "introducido",
                         "contacto_focal": null,
                         "centro_aislamiento": "hld",
                         "centro_diagnostico": null,
                         "posible_procedencia_contagio": [],
                         "info": "Ciudadana cubana, de 34 años, residente en el municipio Melena del Sur, provincia Mayabeque. Refiere contacto con viajera procedente de Estados Unidos. Fue ingresada para vigilancia en el centro de aislamiento. El día 1ro de abril fue remitida e ingresada en el Hospital ¨Luis Díaz Soto¨. Mantiene evolución satisfactoria hasta el momento.",
-                        "nota": "Melena del Sur pertenece a la provincia Artemisa",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
@@ -7219,14 +7218,15 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "tests_total": 5234,
+                "tests_total": 6403,
                 "sujetos_riesgo": 1887,
                 "evacuados_numero": 1,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-277",
                     "cu-35"
-                ]
+                ],
+                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 6403"
             }
         }
     }
