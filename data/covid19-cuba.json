@@ -6711,7 +6711,7 @@
                         "edad": 64,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
-                        "consulta_medico": null,
+                        "consulta_medico": "2020/03/27",
                         "municipio_detección": "Habana del Este",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
@@ -6733,7 +6733,7 @@
                         "edad": 34,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
-                        "consulta_medico": null,
+                        "consulta_medico": "2020/04/01",
                         "municipio_detección": "Melena del Sur",
                         "provincia_detección": "Mayabeque",
                         "dpacode_municipio_deteccion": "24.09",
@@ -6997,7 +6997,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": "2020/04/02",
                         "municipio_detección": "Isla de la Juventud",
-                        "provincia_detección": null,
+                        "provincia_detección": "Isla de la Juventud",
                         "dpacode_municipio_deteccion": "40.01",
                         "dpacode_provincia_deteccion": "40.01",
                         "contagio": "introducido",
@@ -7226,7 +7226,7 @@
                     "cu-277",
                     "cu-35"
                 ],
-                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 5403"
+                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 6403"
             }
         }
     }
