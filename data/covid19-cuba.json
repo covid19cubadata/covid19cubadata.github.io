@@ -6997,7 +6997,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": "2020/04/02",
                         "municipio_detección": "Isla de la Juventud",
-                        "provincia_detección": null,
+                        "provincia_detección": "Isla de la Juventud",
                         "dpacode_municipio_deteccion": "40.01",
                         "dpacode_provincia_deteccion": "40.01",
                         "contagio": "introducido",

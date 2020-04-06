@@ -114,7 +114,7 @@ body > div {
     margin-top: 5px;
 }
 
-#daily-single-info, #countries-info, #ages-info, #countries-info-pie {
+#daily-single-info, #countries-info, #ages-info, #countries-info-pie, #daily-deads-info, #daily-recovers-info {
     height: 180px;
 }
 
@@ -294,7 +294,7 @@ body > div {
     color: red;
 }
 
-#cusobu {
+#cusobu, #fr {
     height: 25px;
 }
 
