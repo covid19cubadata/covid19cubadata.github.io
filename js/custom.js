@@ -66,7 +66,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }
 
-                    var factor = 100;
+                    var factor = 150;
 
                     var curves = {};
 
