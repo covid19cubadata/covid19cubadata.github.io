@@ -319,12 +319,21 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var dias = ['Días'];
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
+                        var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
+                        var deadsSum = ['Muertes acumuladas'];
+                        var deadsSingle = ['Muertes en el día'];
+                        var recoversSum = ['Altas acumuladas'];
+                        var recoversSingle = ['Altas en el día'];
                         var test_days = [];
                         var test_negative = [];
                         var test_positive = [];
                         var test_cases = [];
                         var total = 0;
+                        var active = 0;
+                        var deads = 0;
+                        var recover = 0;
+                        var evac = 0;
 
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
@@ -342,9 +351,30 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 test_negative.push(data.casos.dias[i].tests_total - total);
                                 test_positive.push(total);
                             }
+                            if ('recuperados_numero' in data.casos.dias[i]) {
+								recover += data.casos.dias[i].recuperados_numero;
+								recoversSingle.push(data.casos.dias[i].recuperados_numero);
+							} else {
+								recoversSingle.push(0);
+							}
+							if ('muertes_numero' in data.casos.dias[i]) {
+								deads += data.casos.dias[i].muertes_numero;
+								deadsSingle.push(data.casos.dias[i].muertes_numero);
+							} else {
+								deadsSingle.push(0);	
+							}
+							if ('evacuados_numero' in data.casos.dias[i]) {
+								evac += data.casos.dias[i].evacuados_numero;
+							}
+                            
                             dailySum.push(total);
+                            dailyActive.push(total-(recover+deads+evac));
+                            recoversSum.push(recover);
+                            deadsSum.push(deads);
                             cuba.push(total);
                         }
+                        
+                        console.log(deadsSingle);
 
                         var ntest_days = ['Fecha'];
                         var ntest_negative = ['Tests Negativos'];
@@ -491,12 +521,14 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 columns: [
                                     dates,
                                     dailySingle,
+                                    dailyActive,
                                     dailySum
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Casos en el día': '#B01E22',
-                                    'Casos acumulados': '#1C1340'
+                                    'Casos en el día': '#00577B',
+                                    'Casos activos': '#B11116',
+                                    'Casos acumulados': '#D0797C'
                                 }
                             },
                             axis: {
@@ -507,6 +539,62 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 },
                                 y: {
                                     label: 'Casos',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#daily-deads-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    deadsSingle,
+                                    deadsSum
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Muertes en el día': '#00577B',
+                                    'Muertes acumuladas': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Muertes',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#daily-recovers-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    recoversSingle,                                    
+                                    recoversSum
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Altas en el día': '#00577B',
+                                    'Altas acumuladas': '#00AEEF'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Altas',
                                     position: 'outer-middle',
                                 }
                             }
