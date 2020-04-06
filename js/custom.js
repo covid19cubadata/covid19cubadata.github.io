@@ -12,7 +12,8 @@ var domains = {
     'do': 'R.Dominicana',
     'hr': 'Croacia',
     'co': 'Colombia',
-    'pe': 'Perú'
+    'pe': 'Perú',
+    'tz': 'Tanzania'
 };
 
 
