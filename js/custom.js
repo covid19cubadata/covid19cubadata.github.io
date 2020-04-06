@@ -22,6 +22,8 @@ var contagio = {
     'desconocido': 0
 }
 
+$.ajaxSetup({cache: false});
+
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
@@ -68,11 +70,11 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     var curves = {};
 
-                    function logx(base, x){
-                        if(base == 10){
+                    function logx(base, x) {
+                        if (base == 10) {
                             return Math.log10(x);
                         }
-                        return Math.log10(x)/Math.log10(base);
+                        return Math.log10(x) / Math.log10(base);
                     }
 
                     function getCountryFromDomain(dom) {
