@@ -606,6 +606,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var countrysorted = [];
                         for (var c in countriesdays.paises) {
                             if ((countriesdays.paises[c].length + 1) >= cuba.length) {
+                                if (!(c in trans_countries))
+                                    trans_countries[c] = c;
                                 var c_temp = [trans_countries[c]];
                                 var d_temp = ['Días'];
                                 for (var i = 1; i < countriesdays.paises[c].length; i++) {
