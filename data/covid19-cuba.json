@@ -8752,7 +8752,7 @@
                         "municipio_detección": "Banes",
                         "provincia_detección": "Holguín",
                         "dpacode_municipio_deteccion": "32.03",
-                        "dpacode_provincia_deteccion": "32.03",
+                        "dpacode_provincia_deteccion": "32",
                         "contagio": "introducido",
                         "contacto_focal": null,
                         "centro_aislamiento": "hld",
