@@ -636,8 +636,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 x: 'Días',
                                 columns: [
                                     curves[countryselected]['dias'],
-                                    curves[countryselected]['data'],
                                     cuba,
+                                    curves[countryselected]['data'],
                                 ],
                                 type: 'line',
                                 colors: {
