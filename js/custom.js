@@ -446,7 +446,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                         var countryselected = 'Hungary';
                         $('#countrycurve-select').val(countryselected);
-                        $('#countries-date').html(countriesdays['dia-actualizacion']);
+                        $('.countries-date').html(countriesdays['dia-actualizacion']);
 
                         $('#countrycurve-select').on('change', function () {
                             var val = $('#countrycurve-select').val();
@@ -938,6 +938,91 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }).change();
                 });
+                
+                curves2 = {};
+
+				var countrysorted2 = [];
+			
+				function scaleX(num){
+					if(num==0){
+						return 0;
+					}
+					return Math.log10(num);
+				}
+				function scaleY(num){
+					if(num==0){
+						return 0;
+					}
+					return Math.log10(num);
+				}
+			
+				for(var c in countriesdays.paises){
+					var weeksum=0;
+					var weeks=[c];
+					var accum=['Confirmados-'+c];
+					var prevweek=0;
+					var total=0;
+					for(var i=1;i<countriesdays.paises[c].length;i++){
+						if(i%7==0){
+							total=countriesdays.paises[c][i-1];
+							if (total>30){
+								weeksum=countriesdays.paises[c][i-1]-prevweek;
+								weeks.push(scaleY(weeksum));
+								weeksum=0;
+								accum.push(scaleX(total));
+								prevweek=countriesdays.paises[c][i-1];
+							}
+						}
+					}
+					curves2[c]={'weeks': weeks, 'cummulative_sum':accum, 'total': total};
+					countrysorted2.push(c);
+				}
+				
+				columdata = [];
+				xaxisdata = {};
+				var cont=0;
+				var topn=20;
+				countrysorted2.sort((a,b)=> curves2[b]['total']-curves2[a]['total']);
+				console.log(countrysorted2);
+				for(var i=0;i<countrysorted2.length;i++){
+					xaxisdata[countrysorted2[i]]='Confirmados-'+countrysorted2[i];
+					columdata.push(curves2[countrysorted2[i]]['weeks']);
+					columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
+			
+					if(cont==topn){break;}
+					cont+=1;
+				}
+			
+				xaxisdata['Cuba']='Confirmados-Cuba';
+				columdata.push(curves2['Cuba']['weeks']);
+				columdata.push(curves2['Cuba']['cummulative_sum']);
+			
+				curve3 = c3.generate({
+					bindto: "#curves-evolution",
+					data: {
+							xs: xaxisdata,
+							columns: columdata,
+							type: 'line',
+							colors: {
+								'Cuba': '#B01E22'
+							}
+						},
+					tooltip: {
+							show: false
+						},
+					axis : {
+						x : {
+							label: "Casos confirmados (log scale)",
+							tick: {
+								format: d3.format('.1f')
+							}
+						},
+						y: {
+							label: 'Casos nuevos  (log scale)',
+							position: 'outer-middle'
+						}
+					}
+				});
         });
     });
 }); 

@@ -279,13 +279,13 @@
         </section>
         <div class="w-100 d-none d-sm-block"></div>
         <section id="tesmade" class="card common-bg">
-            <div class="card-header">Relación de tests realizados</div>
+            <div class="card-header">Relación de tests (PCR) realizados</div>
             <div class="card-body">
                 <div id="tests-donut-info"></div>
             </div>
         </section>
         <section id="tesacum" class="card common-bg">
-            <div class="card-header">Tests acumulados por días</div>
+            <div class="card-header">Tests (PCR) acumulados por días</div>
             <div class="card-body">
                 <div id="tests-line-info"></div>
                 <div class="map-quote">
@@ -293,6 +293,7 @@
                 </div>
             </div>
         </section>
+        
     </div>
 </div>
 
@@ -357,11 +358,33 @@
             <div class="map-quote">
                 * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
                 y
-                actualizado el <span id="countries-date">#</span><br>
+                actualizado el <span class="countries-date">#</span><br>
             </div>
         </div>
     </div>
 </div>
+
+<div class="container-fluid">
+	<section id="tesmade" class="card common-bg">
+		<div class="card-header">Evolución de la epidemia (paises seleccionados)</div>
+		
+		<div class="card-body">
+			<div class="explain-text">
+				El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos 
+				confirmados de cada país. De esta manera, los países mientras siguen una línea recta mantienen un crecimeinto exponencial y cuando se 
+				desvían de la recta comienzan a salir del comportamiento exponencial.
+			</div>
+			<div id="curves-evolution"></div>
+			<div class="map-quote">
+                * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
+                y
+                actualizado el <span class="countries-date">#</span><br>
+            </div>
+		</div>
+	</section>
+	
+</div>
+
 
 <div class="footer  row pb-4">
     <div id="info" class="col-12">
