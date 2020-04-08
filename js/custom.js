@@ -964,7 +964,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 					var total=0;
 					var ctotal = 0;
 					for(var i=1;i<countriesdays.paises[c].length;i++){
-						ctotal=countriesdays.paises[c][i-1];
+						ctotal=countriesdays.paises[c][i];
 						if(i%7==0){
 							total=countriesdays.paises[c][i-1];
 							if (total>30){
