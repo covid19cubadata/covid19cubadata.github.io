@@ -12,7 +12,8 @@ var domains = {
     'do': 'R.Dominicana',
     'hr': 'Croacia',
     'co': 'Colombia',
-    'pe': 'Perú'
+    'pe': 'Perú',
+    'tz': 'Tanzania'
 };
 
 
@@ -23,6 +24,8 @@ var contagio = {
     'autoctono': 0,
     'desconocido': 0
 }
+
+$.ajaxSetup({cache: false});
 
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
@@ -66,15 +69,15 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }
 
-                    var factor = 100;
+                    var factor = 150;
 
                     var curves = {};
 
-                    function logx(base, x){
-                        if(base == 10){
+                    function logx(base, x) {
+                        if (base == 10) {
                             return Math.log10(x);
                         }
-                        return Math.log10(x)/Math.log10(base);
+                        return Math.log10(x) / Math.log10(base);
                     }
 
                     function getCountryFromDomain(dom) {
@@ -319,12 +322,21 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var dias = ['Días'];
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
+                        var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
+                        var deadsSum = ['Muertes acumuladas'];
+                        var deadsSingle = ['Muertes en el día'];
+                        var recoversSum = ['Altas acumuladas'];
+                        var recoversSingle = ['Altas en el día'];
                         var test_days = [];
                         var test_negative = [];
                         var test_positive = [];
                         var test_cases = [];
                         var total = 0;
+                        var active = 0;
+                        var deads = 0;
+                        var recover = 0;
+                        var evac = 0;
 
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
@@ -342,9 +354,30 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 test_negative.push(data.casos.dias[i].tests_total - total);
                                 test_positive.push(total);
                             }
+                            if ('recuperados_numero' in data.casos.dias[i]) {
+								recover += data.casos.dias[i].recuperados_numero;
+								recoversSingle.push(data.casos.dias[i].recuperados_numero);
+							} else {
+								recoversSingle.push(0);
+							}
+							if ('muertes_numero' in data.casos.dias[i]) {
+								deads += data.casos.dias[i].muertes_numero;
+								deadsSingle.push(data.casos.dias[i].muertes_numero);
+							} else {
+								deadsSingle.push(0);	
+							}
+							if ('evacuados_numero' in data.casos.dias[i]) {
+								evac += data.casos.dias[i].evacuados_numero;
+							}
+                            
                             dailySum.push(total);
+                            dailyActive.push(total-(recover+deads+evac));
+                            recoversSum.push(recover);
+                            deadsSum.push(deads);
                             cuba.push(total);
                         }
+                        
+                        console.log(deadsSingle);
 
                         var ntest_days = ['Fecha'];
                         var ntest_negative = ['Tests Negativos'];
@@ -413,7 +446,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                         var countryselected = 'Hungary';
                         $('#countrycurve-select').val(countryselected);
-                        $('#countries-date').html(countriesdays['dia-actualizacion']);
+                        $('.countries-date').html(countriesdays['dia-actualizacion']);
 
                         $('#countrycurve-select').on('change', function () {
                             var val = $('#countrycurve-select').val();
@@ -491,12 +524,14 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 columns: [
                                     dates,
                                     dailySingle,
+                                    dailyActive,
                                     dailySum
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Casos en el día': '#B01E22',
-                                    'Casos acumulados': '#1C1340'
+                                    'Casos en el día': '#00577B',
+                                    'Casos activos': '#B11116',
+                                    'Casos acumulados': '#D0797C'
                                 }
                             },
                             axis: {
@@ -507,6 +542,62 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 },
                                 y: {
                                     label: 'Casos',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#daily-deads-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    deadsSingle,
+                                    deadsSum
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Muertes en el día': '#00577B',
+                                    'Muertes acumuladas': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Muertes',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#daily-recovers-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    recoversSingle,                                    
+                                    recoversSum
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Altas en el día': '#00577B',
+                                    'Altas acumuladas': '#00AEEF'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Altas',
                                     position: 'outer-middle',
                                 }
                             }
@@ -847,6 +938,102 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }).change();
                 });
+                
+                curves2 = {};
+
+				var countrysorted2 = [];
+			
+				function scaleX(num){
+					if(num==0){
+						return 0;
+					}
+					return Math.log10(num);
+				}
+				function scaleY(num){
+					if(num==0){
+						return 0;
+					}
+					return Math.log10(num);
+				}
+			
+				for(var c in countriesdays.paises){
+					var weeksum=0;
+					var weeks=[c];
+					var accum=['Confirmados-'+c];
+					var prevweek=0;
+					var total=0;
+					var ctotal = 0;
+					for(var i=1;i<countriesdays.paises[c].length;i++){
+						ctotal=countriesdays.paises[c][i];
+						if(i%7==0){
+							total=countriesdays.paises[c][i-1];
+							if (total>30){
+								weeksum=countriesdays.paises[c][i-1]-prevweek;
+								weeks.push(scaleY(weeksum));
+								weeksum=0;
+								accum.push(scaleX(total));
+								prevweek=countriesdays.paises[c][i-1];
+							}
+						}
+					}
+					curves2[c]={'weeks': weeks, 'cummulative_sum':accum, 'total': total,'ctotal':ctotal};
+					countrysorted2.push(c);
+				}
+				
+				columdata = [];
+				xaxisdata = {};
+				var cont=0;
+				var topn=20;
+				countrysorted2.sort((a,b)=> curves2[b]['ctotal']-curves2[a]['ctotal']);
+				var $table_country = $('#table-countries > tbody');
+				for(var i=0;i<countrysorted2.length;i++){
+					xaxisdata[countrysorted2[i]]='Confirmados-'+countrysorted2[i];
+					columdata.push(curves2[countrysorted2[i]]['weeks']);
+					columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
+					
+					
+					if(cont==topn){break;}
+					cont+=1;
+					
+					var row = ("<tr><td>{ranking}</td>" +
+                            "<td>{country}</td>" +
+                            "<td>{cases}</td></tr>")
+                            .replace("{ranking}", i+1)
+                            .replace("{country}", curves2[countrysorted2[i]]['weeks'][0])
+                            .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
+                    $table_country.append(row);
+				}
+			
+				xaxisdata['Cuba']='Confirmados-Cuba';
+				columdata.push(curves2['Cuba']['weeks']);
+				columdata.push(curves2['Cuba']['cummulative_sum']);
+			
+				curve3 = c3.generate({
+					bindto: "#curves-evolution",
+					data: {
+							xs: xaxisdata,
+							columns: columdata,
+							type: 'line',
+							colors: {
+								'Cuba': '#B01E22'
+							}
+						},
+					tooltip: {
+							show: false
+						},
+					axis : {
+						x : {
+							label: "Casos confirmados (log scale)",
+							tick: {
+								format: d3.format('.1f')
+							}
+						},
+						y: {
+							label: 'Casos nuevos  (log scale)',
+							position: 'outer-middle'
+						}
+					}
+				});
         });
     });
 }); 
