@@ -424,11 +424,13 @@ body > div {
         margin-right: 15px;
     }
 
-    #tables > .card-deck > section.card:nth-of-type(odd) {
+    #tables > .card-deck > section.card:nth-of-type(odd),
+    #top-countries > .card-deck > section.card:nth-of-type(odd) {
         margin-right: 7px;
     }
 
-    #tables > .card-deck > section.card:nth-of-type(even) {
+    #tables > .card-deck > section.card:nth-of-type(even),
+    #top-countries> .card-deck > section.card:nth-of-type(even) {
         margin-left: 7px;
     }
 }
