@@ -962,7 +962,9 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 					var accum=['Confirmados-'+c];
 					var prevweek=0;
 					var total=0;
+					var ctotal = 0;
 					for(var i=1;i<countriesdays.paises[c].length;i++){
+						ctotal=countriesdays.paises[c][i-1];
 						if(i%7==0){
 							total=countriesdays.paises[c][i-1];
 							if (total>30){
@@ -974,7 +976,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 							}
 						}
 					}
-					curves2[c]={'weeks': weeks, 'cummulative_sum':accum, 'total': total};
+					curves2[c]={'weeks': weeks, 'cummulative_sum':accum, 'total': total,'ctotal':ctotal};
 					countrysorted2.push(c);
 				}
 				
@@ -982,15 +984,24 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 				xaxisdata = {};
 				var cont=0;
 				var topn=20;
-				countrysorted2.sort((a,b)=> curves2[b]['total']-curves2[a]['total']);
-				console.log(countrysorted2);
+				countrysorted2.sort((a,b)=> curves2[b]['ctotal']-curves2[a]['ctotal']);
+				var $table_country = $('#table-countries > tbody');
 				for(var i=0;i<countrysorted2.length;i++){
 					xaxisdata[countrysorted2[i]]='Confirmados-'+countrysorted2[i];
 					columdata.push(curves2[countrysorted2[i]]['weeks']);
 					columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
-			
+					
+					
 					if(cont==topn){break;}
 					cont+=1;
+					
+					var row = ("<tr><td>{ranking}</td>" +
+                            "<td>{country}</td>" +
+                            "<td>{cases}</td></tr>")
+                            .replace("{ranking}", i+1)
+                            .replace("{country}", curves2[countrysorted2[i]]['weeks'][0])
+                            .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
+                    $table_country.append(row);
 				}
 			
 				xaxisdata['Cuba']='Confirmados-Cuba';
