@@ -15,6 +15,8 @@
     });
     var locations = null;
 
+    $.ajaxSetup({cache: false});
+
     $.walker = {
         loaded: {},
         load: function (url, callback) {
