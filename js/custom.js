@@ -12,7 +12,8 @@ var domains = {
     'do': 'R.Dominicana',
     'hr': 'Croacia',
     'co': 'Colombia',
-    'pe': 'Perú'
+    'pe': 'Perú',
+    'tz': 'Tanzania'
 };
 
 
@@ -23,6 +24,8 @@ var contagio = {
     'autoctono': 0,
     'desconocido': 0
 }
+
+$.ajaxSetup({cache: false});
 
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
@@ -70,11 +73,11 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     var curves = {};
 
-                    function logx(base, x){
-                        if(base == 10){
+                    function logx(base, x) {
+                        if (base == 10) {
                             return Math.log10(x);
                         }
-                        return Math.log10(x)/Math.log10(base);
+                        return Math.log10(x) / Math.log10(base);
                     }
 
                     function getCountryFromDomain(dom) {
