@@ -79,7 +79,7 @@
 <p id="apks-info" class="alert alert-info text-center">Descargue nuestra app desde <a
         href="https://www.apklis.cu/application/club.postdata.covid19cuba">Apklis <img class="app-logo"
                                                                                        src="images/apk-apklis.png"></a>
-    o desde <a href="https://github.com/covid19cuba/covid19cuba-app/releases/download/v0.2.1/app.apk">Github
+    o desde <a href="https://github.com/covid19cuba/covid19cuba-app/releases/download/v0.3.1/app.apk">Github
         <img class="app-logo" src="images/apk-github.png"></a>.
     También puede consultar a <a href="https://telegram.me/covid19cubadata_bot">@covid19cubadata_bot <img
             class="app-logo" src="images/bot-telegram.png"></a> en Telegram.
@@ -279,13 +279,13 @@
         </section>
         <div class="w-100 d-none d-sm-block"></div>
         <section id="tesmade" class="card common-bg">
-            <div class="card-header">Relación de tests realizados</div>
+            <div class="card-header">Relación de tests (PCR) realizados</div>
             <div class="card-body">
                 <div id="tests-donut-info"></div>
             </div>
         </section>
         <section id="tesacum" class="card common-bg">
-            <div class="card-header">Tests acumulados por días</div>
+            <div class="card-header">Tests (PCR) por días</div>
             <div class="card-body">
                 <div id="tests-line-info"></div>
                 <div class="map-quote">
@@ -293,6 +293,7 @@
                 </div>
             </div>
         </section>
+        
     </div>
 </div>
 
@@ -357,11 +358,57 @@
             <div class="map-quote">
                 * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
                 y
-                actualizado el <span id="countries-date">#</span><br>
+                actualizado el <span class="countries-date">#</span><br>
             </div>
         </div>
     </div>
 </div>
+
+<div class="container-fluid">
+	<div class="card-deck">
+	<section id="tesmade" class="card common-bg">
+		<div class="card-header">Top 20 de países con más casos acumulados</div>
+		
+		<div class="card-body  p-0">
+			<table id="table-countries" class="table table-striped table-sm mb-0">
+				<thead>
+				<tr>
+					<th>#</th>
+					<th>País</th>
+					<th>Total de casos</th>
+				</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		
+		<div class="map-quote">
+			* Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
+			y
+			actualizado el <span class="countries-date">#</span><br>
+		</div>	
+		</div>
+		
+	</section>
+	<section id="evomade" class="card common-bg">
+		<div class="card-header">Evolución de la epidemia (paises seleccionados)</div>
+		
+		<div class="card-body">
+			<div class="explain-text">
+				El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos 
+				confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un crecimeinto exponencial y cuando se 
+				desvían de la recta comienzan a salir del comportamiento exponencial.
+			</div>
+			<div id="curves-evolution"></div>
+			<div class="map-quote">
+                * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
+                y
+                actualizado el <span class="countries-date">#</span><br>
+            </div>
+		</div>
+	</section>
+	</div>
+</div>
+
 
 <div class="footer  row pb-4">
     <div id="info" class="col-12">
@@ -400,7 +447,7 @@
             <a href="http://www.frcuba.cu/"><img id="fr" class="" src="images/logo-fr.png"></a>
         </div>
         <div><a href="http://covidcuba.swlx.info">covidcuba.swlx.info</a>  cortesía de
-            <a href="http://www.swlx.info/">SWL-X</a>
+            <a href="http://www.swlx.info/"><img id="swlx" class="" src="images/logo-swlx.png"></a>
         </div>
     </div>
 </div>

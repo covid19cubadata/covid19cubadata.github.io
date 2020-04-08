@@ -294,7 +294,16 @@ body > div {
     color: red;
 }
 
-#cusobu, #fr {
+.explain-text{
+	margin-left: 35px;
+	margin-bottom: 15px;
+} 
+
+#curves-evolution {
+	height: 450px;
+}
+
+#cusobu, #fr, #swlx {
     height: 25px;
 }
 
