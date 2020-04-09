@@ -805,7 +805,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         this.properties.name = this.properties.province;
                     });
                     
-                    var geojsonP = L.geoJSON(provincias, { style: stylePN, onEachFeature: onEachFeature });
+                    var geojsonP = L.geoJSON(provincias, { style: stylePN, onEachFeature: onEachFeatureProv });
 
                     geojsonM.bindTooltip(function (layer) {
                         return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.name+'<br> Diagnosticados: <b>'+layer.feature.properties.density.total+'</b> ';
@@ -894,16 +894,28 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                     }
                     function resetHighlight(e) {
                         geojsonM.resetStyle(e.target);
+                        info.update();
+                    }
+                    function resetHighlightProv(e) {
                         geojsonP.resetStyle(e.target);
                         info.update();
                     }
                     function zoomToFeature(e) {
                         map_mun.fitBounds(e.target.getBounds());
                     }
+                    
                     function onEachFeature(feature, layer) {
                         layer.on({
                             mouseover: highlightFeature,
                             mouseout: resetHighlight,
+                            click: zoomToFeature
+                        });
+                    }
+
+                    function onEachFeatureProv(feature, layer) {
+                        layer.on({
+                            mouseover: highlightFeature,
+                            mouseout: resetHighlightProv,
                             click: zoomToFeature
                         });
                     }
