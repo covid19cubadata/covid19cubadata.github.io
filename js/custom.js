@@ -25,7 +25,7 @@ var contagio = {
     'desconocido': 0
 }
 
-$.ajaxSetup({cache: false});
+$.ajaxSetup({ cache: false });
 
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
@@ -215,6 +215,8 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             }
                         });
 
+                        //c3.select(".c3-legend-item").attr("transform", "translate(25,30)");
+
                         //Donut for tests
                         c3.generate({
                             bindto: "#tests-donut-info",
@@ -355,28 +357,28 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 test_positive.push(total);
                             }
                             if ('recuperados_numero' in data.casos.dias[i]) {
-								recover += data.casos.dias[i].recuperados_numero;
-								recoversSingle.push(data.casos.dias[i].recuperados_numero);
-							} else {
-								recoversSingle.push(0);
-							}
-							if ('muertes_numero' in data.casos.dias[i]) {
-								deads += data.casos.dias[i].muertes_numero;
-								deadsSingle.push(data.casos.dias[i].muertes_numero);
-							} else {
-								deadsSingle.push(0);	
-							}
-							if ('evacuados_numero' in data.casos.dias[i]) {
-								evac += data.casos.dias[i].evacuados_numero;
-							}
-                            
+                                recover += data.casos.dias[i].recuperados_numero;
+                                recoversSingle.push(data.casos.dias[i].recuperados_numero);
+                            } else {
+                                recoversSingle.push(0);
+                            }
+                            if ('muertes_numero' in data.casos.dias[i]) {
+                                deads += data.casos.dias[i].muertes_numero;
+                                deadsSingle.push(data.casos.dias[i].muertes_numero);
+                            } else {
+                                deadsSingle.push(0);
+                            }
+                            if ('evacuados_numero' in data.casos.dias[i]) {
+                                evac += data.casos.dias[i].evacuados_numero;
+                            }
+
                             dailySum.push(total);
-                            dailyActive.push(total-(recover+deads+evac));
+                            dailyActive.push(total - (recover + deads + evac));
                             recoversSum.push(recover);
                             deadsSum.push(deads);
                             cuba.push(total);
                         }
-                        
+
                         console.log(deadsSingle);
 
                         var ntest_days = ['Fecha'];
@@ -435,7 +437,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                     c_temp.push(countriesdays.paises[c][i]);
                                     d_temp.push('Día ' + i);
                                 }
-                                curves[c] = {'dias': d_temp, 'data': c_temp};
+                                curves[c] = { 'dias': d_temp, 'data': c_temp };
                                 countrysorted.push(c);
                             }
                         }
@@ -450,11 +452,11 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                         $('#countrycurve-select').on('change', function () {
                             var val = $('#countrycurve-select').val();
-                            comparison.unload({ids: countryselected});
-                            curve.unload({ids: countryselected});
+                            comparison.unload({ ids: countryselected });
+                            curve.unload({ ids: countryselected });
                             countryselected = val;
-                            comparison.load({columns: [curves[countryselected]['data']]});
-                            curve.load({columns: [curves[countryselected]['data']]});
+                            comparison.load({ columns: [curves[countryselected]['data']] });
+                            curve.load({ columns: [curves[countryselected]['data']] });
 
                             comparison = c3.generate({
                                 bindto: "#countries-comparison",
@@ -510,7 +512,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 },
                                 grid: {
                                     x: {
-                                        lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        lines: [{ 'value': dias[dias.length - 1], 'text': dias[dias.length - 1] }]
                                     }
                                 }
                             });
@@ -546,7 +548,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#daily-deads-info",
                             data: {
@@ -574,14 +576,14 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#daily-recovers-info",
                             data: {
                                 x: dates[0],
                                 columns: [
                                     dates,
-                                    recoversSingle,                                    
+                                    recoversSingle,
                                     recoversSum
                                 ],
                                 type: 'line',
@@ -657,12 +659,12 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                             },
                             grid: {
                                 x: {
-                                    lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                    lines: [{ 'value': dias[dias.length - 1], 'text': dias[dias.length - 1] }]
                                 }
                             }
                         });
 
-                        return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
+                        return { "cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown };
                     }
 
 
@@ -678,23 +680,30 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         for (var c in casos) {
 
                             if (!(casos[c].dpacode_municipio_deteccion in muns)) {
-                                muns[casos[c].dpacode_municipio_deteccion] = {"total": 1}
+                                muns[casos[c].dpacode_municipio_deteccion] = { "total": 1 }
                             } else {
                                 muns[casos[c].dpacode_municipio_deteccion].total += 1;
                             }
                             if (!(casos[c].dpacode_provincia_deteccion in pros)) {
-                                pros[casos[c].dpacode_provincia_deteccion] = {"total": 1}
+                                pros[casos[c].dpacode_provincia_deteccion] = { "total": 1 }
                             } else {
                                 pros[casos[c].dpacode_provincia_deteccion].total += 1;
                             }
+
+                            /*if (!(casos[c].DPA_province_code in pros)) {
+                                pros[casos[c].DPA_province_code] = { "total": 1 }
+                            } else {
+                                pros[casos[c].DPA_province_code].total += 1;
+                            }*/
+                           
                         }
-                        return {'muns': muns, 'pros': pros};
+                        return { 'muns': muns, 'pros': pros };
                     }
 
                     var regions = getAllRegions();
                     var muns = regions.muns;
                     var pros = regions.pros;
-
+                    //console.log(pros);
                     function resumeCases() {
                         var max_muns = 0;
                         var max_pros = 0;
@@ -731,7 +740,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     muns_array = [];
                     for (var m in muns) {
-                        muns_array.push({cod: m, total: muns[m].total});
+                        muns_array.push({ cod: m, total: muns[m].total });
                     }
                     muns_array.sort(function (a, b) {
                         return b.total - a.total
@@ -756,7 +765,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
 
                     pros_array = [];
                     for (var m in pros) {
-                        pros_array.push({cod: m, total: pros[m].total});
+                        pros_array.push({ cod: m, total: pros[m].total });
                     }
                     pros_array.sort(function (a, b) {
                         return b.total - a.total
@@ -777,23 +786,34 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         pro_ranking += 1;
                     });
 
-		$('[data-content=diagno]').html(genInfo.total);
-		$('[data-content=activo]').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
-		$('[data-content=fallec]').html(genInfo.deaths);
-		$('[data-content=evacua]').html(genInfo.gone);
-		$('[data-content=recupe]').html(genInfo.recov);
+                    $('[data-content=diagno]').html(genInfo.total);
+                    $('[data-content=activo]').html(genInfo.total - (genInfo.deaths + genInfo.gone + genInfo.recov));
+                    $('[data-content=fallec]').html(genInfo.deaths);
+                    $('[data-content=evacua]').html(genInfo.gone);
+                    $('[data-content=recupe]').html(genInfo.recov);
 
-                    var geojsonM = L.geoJSON(municipios, {style: styleM});
 
-                    var geojsonP = L.geoJSON(provincias, {style: styleP});
+                    $.each(municipios.features, function () {
+                        this.properties.density = (muns[this.properties.DPA_municipality_code]!==undefined)? muns[this.properties.DPA_municipality_code]:{"total":0};
+                        this.properties.name = this.properties.municipality;
+                    });
+
+                    var geojsonM = L.geoJSON(municipios, { style: styleM, onEachFeature: onEachFeature });
+
+                    $.each(provincias.features, function () {
+                        this.properties.density = (pros[this.properties.DPA_province_code]!==undefined)? pros[this.properties.DPA_province_code]:{"total":0};
+                        this.properties.name = this.properties.province;
+                    });
+                    
+                    var geojsonP = L.geoJSON(provincias, { style: stylePN, onEachFeature: onEachFeature });
 
                     geojsonM.bindTooltip(function (layer) {
-                        return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
-                    }, {'sticky': true});
+                        return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.name+'<br> Diagnosticados: <b>'+layer.feature.properties.density.total+'</b> ';
+                    }, { 'sticky': true });
 
                     geojsonP.bindTooltip(function (layer) {
-                        return '<span class="bd">' + layer.feature.properties.province + '</span>';
-                    }, {'sticky': true});
+                        return '<span class="bd">' + layer.feature.properties.province + '</span>'+'<br> Diagnosticados: <b>'+layer.feature.properties.density.total+'</b> ';
+                    }, { 'sticky': true });
 
                     function getMunProfile(code, mun, pro) {
                         var t = '';
@@ -821,219 +841,258 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         return t;
                     }
 
-                    geojsonM.bindPopup(function (layer) {
-                        var mcode = layer.feature.properties.DPA_municipality_code;
-                        var mun = layer.feature.properties.municipality;
-                        var pro = layer.feature.properties.province;
-                        return getMunProfile(mcode, mun, pro);
-                    });
-
-                    geojsonP.bindPopup(function (layer) {
-                        var pcode = layer.feature.properties.DPA_province_code;
-                        var pro = layer.feature.properties.province;
-                        return getProProfile(pcode, pro);
-                    });
-
                     function styleM(feature) {
                         return {
-                            weight: 0.5,
-                            opacity: 0.8,
-                            color: '#f5f1f1',
-                            fillOpacity: 1,
+                            weight: .5,
+                            opacity: 1,
+                            color: 'white',
+                            dashArray: '3',
+                            fillOpacity: (feature.properties.DPA_municipality_code in muns) ? 0.7 : 0,
                             fillColor: getColorM(feature.properties.DPA_municipality_code)
                         };
                     }
-
-                    function styleP(feature) {
+                    function stylePN(feature) {
                         return {
-                            weight: 0.5,
-                            opacity: 0.8,
-                            color: '#f5f1f1',
-                            fillOpacity: 1,
+                            weight: .5,
+                            opacity: 1,
+                            color: 'white',
+                            dashArray: '3',
+                            fillOpacity: (feature.properties.DPA_province_code in pros) ? 0.7 : 0,
                             fillColor: getColorP(feature.properties.DPA_province_code)
                         };
-                    }
-
-                    $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
-                    $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
-                    $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
-                    $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
-                    $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
-                    $('#cases').html(genInfo.max_muns);
+                    }           
 
                     function getColorM(code) {
                         if (code in muns) {
-                            var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
-                            return "rgba(176,30,34," + opac + ")";
+                            return getColor(muns[code].total);                            
                         }
                         return '#D1D2D4';
                     }
 
                     function getColorP(code) {
                         if (code in pros) {
-                            var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
-                            return "rgba(176,30,34," + opac + ")";
+                            return getColor(pros[code].total);                            
                         }
                         return '#D1D2D4';
                     }
 
+                    function highlightFeature(e) {
+                        var layer = e.target;
+
+                        layer.setStyle({
+                            weight: 3,
+                            color: '#666',
+                            dashArray: '',
+                            fillOpacity: 0.7
+                        });
+
+                        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                            layer.bringToFront();
+                        }
+
+                        info.update(layer.feature.properties);
+                    }
+                    function resetHighlight(e) {
+                        geojsonM.resetStyle(e.target);
+                        geojsonP.resetStyle(e.target);
+                        info.update();
+                    }
+                    function zoomToFeature(e) {
+                        map_mun.fitBounds(e.target.getBounds());
+                    }
+                    function onEachFeature(feature, layer) {
+                        layer.on({
+                            mouseover: highlightFeature,
+                            mouseout: resetHighlight,
+                            click: zoomToFeature
+                        });
+                    }
+
+                    function getColor(d) {
+                        return d > 1000 ? '#800026' :
+                            d > 500 ? '#BD0026' :
+                                d > 200 ? '#E31A1C' :
+                                    d > 100 ? '#FC4E2A' :
+                                        d > 50 ? '#FD8D3C' :
+                                            d > 20 ? '#FEB24C' :
+                                                d > 10 ? '#FED976' :
+                                                    '#FFEDA0';
+                    }
+
+                    var osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                        zoom: 10,
+                        maxZoom: 19
+                    });
+                    var hib = L.tileLayer("https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}", {
+                        zoom: 10,
+                        maxZoom: 19
+                    });
+
+
+
                     var map_mun = L.map('map-mun', {
                         center: [21.5, -79.371124],
                         zoom: 15,
-                        layers: [geojsonM],
+                        layers: [geojsonM, hib],
                         keyboard: false,
                         dragging: true,
-                        zoomControl: true,
+                        zoomControl: false,
                         boxZoom: false,
                         doubleClickZoom: false,
-                        scrollWheelZoom: false,
+                        scrollWheelZoom: true,
                         tap: true,
                         touchZoom: true,
-                        zoomSnap: 0.05,
+                        //zoomSnap: 0.05,
                         maxBounds: geojsonM.getBounds()
                     });
-                    map_mun.zoomControl.setPosition('topright');
-                    map_mun.fitBounds(geojsonM.getBounds());
+                    L.control.zoom({ position: "topleft", zoomInTitle: "Acercarse", zoomOutTitle: "Alejarse" }).addTo(map_mun);
+                    var scale = L.control.scale({ options: { position: 'bottomleft', maxWidth: 100, metric: true, imperial: false, updateWhenIdle: false } }).addTo(map_mun);
 
-                    var map_pro = L.map('map-pro', {
-                        center: [21.5, -79.371124],
-                        zoom: 15,
-                        layers: [geojsonP],
-                        keyboard: false,
-                        dragging: true,
-                        zoomControl: true,
-                        boxZoom: false,
-                        doubleClickZoom: false,
-                        scrollWheelZoom: false,
-                        tap: true,
-                        touchZoom: true,
-                        zoomSnap: 0.05,
-                        maxBounds: geojsonP.getBounds()
-                    });
-                    map_pro.zoomControl.setPosition('topright');
-                    map_pro.fitBounds(geojsonP.getBounds());
+                    map_mun.fitBounds(geojsonM.getBounds());                    
 
-                    $('#select-map').on('change', function (e) {
-                        var val = $('#select-map').val();
-                        if (val === 'map-mun') {
-                            $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
-                            $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
-                            $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
-                            $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
-                            $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
-                            $('#cases').html(genInfo.max_muns);
-                            $('#map-pro').hide();
-                            $('#map-mun').show();
-                            map_mun.invalidateSize();
-                        } else {
-                            $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
-                            $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.4 / genInfo.max_pros) + ")");
-                            $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.6 / genInfo.max_pros) + ")");
-                            $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.8 / genInfo.max_pros) + ")");
-                            $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor / genInfo.max_pros) + ")");
-                            $('#cases').html(genInfo.max_pros);
-                            $('#map-mun').hide();
-                            $('#map-pro').show();
-                            map_pro.invalidateSize();
+                    var info = L.control({position: 'topright'});
+
+                    info.onAdd = function (map) {
+                        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+                        this.update();
+                        return this._div;
+                    };
+
+                    // method that we will use to update the control based on feature properties passed
+                    info.update = function (props) {
+                        this._div.innerHTML = '<h6>CUBA COVID-19</h6>' +  (props ?
+                            '<b>' + props.name + '</b><br />' + props.density.total + ' personas positivas'
+                            : 'ubicate en un limite');
+                    };
+
+                    info.addTo(map_mun);
+
+                    var baseLayers = {
+                        "OpenStreetMap": osm,
+                        "Satelite": hib
+                    };
+                    var overlays = {
+                        "Municipios": geojsonM,
+                        "Provincias": geojsonP
+                    };
+                    L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map_mun);
+
+                    var legend = L.control({position: 'bottomright'});
+                    legend.onAdd = function (map) {
+
+                        var div = L.DomUtil.create('div', 'info legend'),
+                            grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+                            labels = [];
+
+                        // loop through our density intervals and generate a label with a colored square for each interval
+                        for (var i = 0; i < grades.length; i++) {
+                            div.innerHTML +=
+                                '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+                                (grades[i]+1) + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
                         }
-                    }).change();
-                });
-                
-                curves2 = {};
 
-				var countrysorted2 = [];
-			
-				function scaleX(num){
-					if(num==0){
-						return 0;
-					}
-					return Math.log10(num);
-				}
-				function scaleY(num){
-					if(num==0){
-						return 0;
-					}
-					return Math.log10(num);
-				}
-			
-				for(var c in countriesdays.paises){
-					var weeksum=0;
-					var weeks=[c];
-					var accum=['Confirmados-'+c];
-					var prevweek=0;
-					var total=0;
-					var ctotal = 0;
-					for(var i=1;i<countriesdays.paises[c].length;i++){
-						ctotal=countriesdays.paises[c][i];
-						if(i%7==0){
-							total=countriesdays.paises[c][i-1];
-							if (total>30){
-								weeksum=countriesdays.paises[c][i-1]-prevweek;
-								weeks.push(scaleY(weeksum));
-								weeksum=0;
-								accum.push(scaleX(total));
-								prevweek=countriesdays.paises[c][i-1];
-							}
-						}
-					}
-					curves2[c]={'weeks': weeks, 'cummulative_sum':accum, 'total': total,'ctotal':ctotal};
-					countrysorted2.push(c);
-				}
-				
-				columdata = [];
-				xaxisdata = {};
-				var cont=0;
-				var topn=20;
-				countrysorted2.sort((a,b)=> curves2[b]['ctotal']-curves2[a]['ctotal']);
-				var $table_country = $('#table-countries > tbody');
-				for(var i=0;i<countrysorted2.length;i++){
-					xaxisdata[countrysorted2[i]]='Confirmados-'+countrysorted2[i];
-					columdata.push(curves2[countrysorted2[i]]['weeks']);
-					columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
-					
-					
-					if(cont==topn){break;}
-					cont+=1;
-					
-					var row = ("<tr><td>{ranking}</td>" +
-                            "<td>{country}</td>" +
-                            "<td>{cases}</td></tr>")
-                            .replace("{ranking}", i+1)
-                            .replace("{country}", curves2[countrysorted2[i]]['weeks'][0])
-                            .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
-                    $table_country.append(row);
-				}
-			
-				xaxisdata['Cuba']='Confirmados-Cuba';
-				columdata.push(curves2['Cuba']['weeks']);
-				columdata.push(curves2['Cuba']['cummulative_sum']);
-			
-				curve3 = c3.generate({
-					bindto: "#curves-evolution",
-					data: {
-							xs: xaxisdata,
-							columns: columdata,
-							type: 'line',
-							colors: {
-								'Cuba': '#B01E22'
-							}
-						},
-					tooltip: {
-							show: false
-						},
-					axis : {
-						x : {
-							label: "Casos confirmados (log scale)",
-							tick: {
-								format: d3.format('.1f')
-							}
-						},
-						y: {
-							label: 'Casos nuevos  (log scale)',
-							position: 'outer-middle'
-						}
-					}
-				});
+                        return div;
+                    };
+                    legend.addTo(map_mun);
+
+            });
+
+
+            curves2 = {};
+
+            var countrysorted2 = [];
+
+            function scaleX(num) {
+                if (num == 0) {
+                    return 0;
+                }
+                return Math.log10(num);
+            }
+            function scaleY(num) {
+                if (num == 0) {
+                    return 0;
+                }
+                return Math.log10(num);
+            }
+
+            for (var c in countriesdays.paises) {
+                var weeksum = 0;
+                var weeks = [c];
+                var accum = ['Confirmados-' + c];
+                var prevweek = 0;
+                var total = 0;
+                var ctotal = 0;
+                for (var i = 1; i < countriesdays.paises[c].length; i++) {
+                    ctotal = countriesdays.paises[c][i];
+                    if (i % 7 == 0) {
+                        total = countriesdays.paises[c][i - 1];
+                        if (total > 30) {
+                            weeksum = countriesdays.paises[c][i - 1] - prevweek;
+                            weeks.push(scaleY(weeksum));
+                            weeksum = 0;
+                            accum.push(scaleX(total));
+                            prevweek = countriesdays.paises[c][i - 1];
+                        }
+                    }
+                }
+                curves2[c] = { 'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal };
+                countrysorted2.push(c);
+            }
+
+            columdata = [];
+            xaxisdata = {};
+            var cont = 0;
+            var topn = 20;
+            countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
+            var $table_country = $('#table-countries > tbody');
+            for (var i = 0; i < countrysorted2.length; i++) {
+                xaxisdata[countrysorted2[i]] = 'Confirmados-' + countrysorted2[i];
+                columdata.push(curves2[countrysorted2[i]]['weeks']);
+                columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
+
+
+                if (cont == topn) { break; }
+                cont += 1;
+
+                var row = ("<tr><td>{ranking}</td>" +
+                    "<td>{country}</td>" +
+                    "<td>{cases}</td></tr>")
+                    .replace("{ranking}", i + 1)
+                    .replace("{country}", curves2[countrysorted2[i]]['weeks'][0])
+                    .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
+                $table_country.append(row);
+            }
+
+            xaxisdata['Cuba'] = 'Confirmados-Cuba';
+            columdata.push(curves2['Cuba']['weeks']);
+            columdata.push(curves2['Cuba']['cummulative_sum']);
+
+            curve3 = c3.generate({
+                bindto: "#curves-evolution",
+                data: {
+                    xs: xaxisdata,
+                    columns: columdata,
+                    type: 'line',
+                    colors: {
+                        'Cuba': '#B01E22'
+                    }
+                },
+                tooltip: {
+                    show: false
+                },
+                axis: {
+                    x: {
+                        label: "Casos confirmados (log scale)",
+                        tick: {
+                            format: d3.format('.1f')
+                        }
+                    },
+                    y: {
+                        label: 'Casos nuevos  (log scale)',
+                        position: 'outer-middle'
+                    }
+                }
+            });
         });
     });
 }); 
