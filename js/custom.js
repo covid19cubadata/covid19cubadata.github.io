@@ -17,7 +17,185 @@ var domains = {
     'pa': 'Panamá'
 };
 
-
+var trans_countries = {
+    'Vietnam': 'Vietnam',
+    'Austria': 'Austria',
+    'Cambodia': 'Camboya',
+    'Kazakhstan': 'Kazajstán',
+    "Cote d'Ivoire": 'Costa de Marfil',
+    'Spain': 'España',
+    'Serbia': 'Serbia',
+    'Ethiopia': 'Etiopía',
+    'Brazil': 'Brasil',
+    'Pakistan': 'Pakistán',
+    'Panama': 'Panamá',
+    'Syria': 'Siria',
+    'France': 'Francia',
+    'Germany': 'Alemania',
+    'Montenegro': 'Montenegro',
+    'Switzerland': 'Suiza',
+    'Paraguay': 'Paraguay',
+    'Holy See': 'Santa Sede',
+    'Nepal': 'Nepal',
+    'Norway': 'Noruega',
+    'Afghanistan': 'Afganistán',
+    'Djibouti': 'Yitubi',
+    'Ireland': 'Irlanda',
+    'United Arab Emirates': 'Emiratos Árabes Unidos',
+    'Israel': 'Israel',
+    'Bulgaria': 'Bulgaria',
+    'Korea, South': 'Corea del Sur',
+    'Cyprus': 'Chipre',
+    'Peru': 'Perú',
+    'Azerbaijan': 'Azerbaiyán',
+    'Philippines': 'Filipinas',
+    'Bahamas': 'Bahamas',
+    'India': 'India',
+    'MS Zaandam': 'MS Zaandam',
+    'Canada': 'Canadá',
+    'Rwanda': 'Ruanda',
+    'Cuba': 'Cuba',
+    'Thailand': 'Tailandia',
+    'Brunei': 'Brunéi',
+    'El Salvador': 'El Salvador',
+    'North Macedonia': 'Macedonia del Norte',
+    'Saint Vincent and the Grenadines': 'San Vicente y las Granadinas',
+    'Jamaica': 'Jamaica',
+    'Greece': 'Grecia',
+    'Bolivia': 'Bolivia',
+    'Dominica': 'Dominica',
+    'Togo': 'Togo',
+    'Mauritius': 'Mauricio',
+    'Russia': 'Rusia',
+    'Lebanon': 'Líbano',
+    'Zimbabwe': 'Zimbabue',
+    'Nigeria': 'Nigeria',
+    'Finland': 'Finlandia',
+    'Burma': 'Birmania',
+    'Iraq': 'Irak',
+    'United Kingdom': 'Reino Unido',
+    'Tanzania': 'Tanzania',
+    'Uruguay': 'Uruguay',
+    'South Africa': 'Sudáfrica',
+    'Somalia': 'Somalia',
+    'Algeria': 'Argelia',
+    'Benin': 'Benín',
+    'Niger': 'Níger',
+    'West Bank and Gaza': 'Cisjordania',
+    'Uganda': 'Uganda',
+    'San Marino': 'San Marino',
+    'Liberia': 'Liberia',
+    'Iran': 'Irán',
+    'Mexico': 'México',
+    'Honduras': 'Honduras',
+    'Burkina Faso': 'Burkina Faso',
+    'Australia': 'Australia',
+    'Chile': 'Chile',
+    'Haiti': 'Haití',
+    'Turkey': 'Turquía',
+    'Madagascar': 'Madagascar',
+    'Saint Lucia': 'Santa Lucía',
+    'Papua New Guinea': 'Papúa Nueva Guinea',
+    'Central African Republic': 'República Centroafricana',
+    'Eritrea': 'Eritrea',
+    'Lithuania': 'Lituania',
+    'Kyrgyzstan': 'Kirguistán',
+    'Andorra': 'Andorra',
+    'Laos': 'Laos',
+    'Mali': 'Mali',
+    'Guinea': 'Guinea',
+    'Luxembourg': 'Luxemburgo',
+    'Gambia': 'Gambia',
+    'Mongolia': 'Mongolia',
+    'Costa Rica': 'Costa Rica',
+    'Trinidad and Tobago': 'Trinidad y Tobago',
+    'Mauritania': 'Mauritania',
+    'Antigua and Barbuda': 'Antigua y Barbuda',
+    'Libya': 'Libia',
+    'Zambia': 'Zambia',
+    'Timor-Leste': 'Timor-Leste',
+    'Guyana': 'Guayana',
+    'Tunisia': 'Túnez',
+    'Japan': 'Japón',
+    'Liechtenstein': 'Liechtenstein',
+    'Saint Kitts and Nevis': 'San Cristóbal y Nieves',
+    'Senegal': 'Senegal',
+    'Hungary': 'Hungría',
+    'Moldova': 'Moldavia',
+    'Qatar': 'Katar',
+    'US': 'Estados Unidos',
+    'Belarus': 'Bielorrusia',
+    'Chad': 'Chad',
+    'Malaysia': 'Malasia',
+    'Romania': 'Rumania',
+    'Argentina': 'Argentina',
+    'Belize': 'Belice',
+    'Angola': 'Angola',
+    'Sweden': 'Suecia',
+    'China': 'China',
+    'Jordan': 'Jordán',
+    'Italy': 'Italia',
+    'Latvia': 'Letonia',
+    'Seychelles': 'Seychelles',
+    'Ghana': 'Ghana',
+    'Colombia': 'Colombia',
+    'Albania': 'Albania',
+    'Saudi Arabia': 'Arabia Saudita',
+    'Estonia': 'Estonia',
+    'Monaco': 'Mónaco',
+    'Ukraine': 'Ucrania',
+    'Uzbekistan': 'Uzbekistán',
+    'Maldives': 'Maldivas',
+    'Morocco': 'Marruecos',
+    'Portugal': 'Portugal',
+    'Kenya': 'Kenia',
+    'Guatemala': 'Guatemala',
+    'Gabon': 'Gabón',
+    'Belgium': 'Bélgica',
+    'Iceland': 'Islandia',
+    'Cabo Verde': 'Cabo Verde',
+    'Mozambique': 'Mozambique',
+    'Indonesia': 'Indonesia',
+    'Egypt': 'Egipto',
+    'Taiwan*': 'Taiwán *',
+    'Netherlands': 'Países Bajos',
+    'Slovakia': 'Eslovaquia',
+    'Bosnia and Herzegovina': 'Bosnia y Herzegovina',
+    'Cameroon': 'Camerún',
+    'Venezuela': 'Venezuela',
+    'Kuwait': 'Kuwait',
+    'Malta': 'Malta',
+    'Nicaragua': 'Nicaragua',
+    'Congo (Kinshasa)': 'Congo (Kinshasa)',
+    'Singapore': 'Singapur',
+    'Bhutan': 'Bután',
+    'Bangladesh': 'Bangladesh',
+    'Ecuador': 'Ecuador',
+    'Georgia': 'Georgia',
+    'Namibia': 'Namibia',
+    'Denmark': 'Dinamarca',
+    'Poland': 'Polonia',
+    'Suriname': 'Surinam',
+    'Slovenia': 'Eslovenia',
+    'Congo (Brazzaville)': 'Congo (Brazzaville)',
+    'Guinea-Bissau': 'Guinea-Bissau',
+    'Dominican Republic': 'República Dominicana',
+    'Diamond Princess': 'Princesa del Diamante',
+    'Grenada': 'Granada',
+    'Barbados': 'Barbados',
+    'New Zealand': 'Nueva Zelanda',
+    'Eswatini': 'Eswatini',
+    'Czechia': 'Chequia',
+    'Kosovo': 'Kosovo',
+    'Sudan': 'Sudán',
+    'Armenia': 'Armenia',
+    'Bahrain': 'Bahrein',
+    'Sri Lanka': 'Sri Lanka',
+    'Equatorial Guinea': 'Guinea Ecuatorial',
+    'Croatia': 'Croacia',
+    'Oman': 'Omán',
+    'Fiji': 'Fiyi',
+};
 
 var contagio = {
     'importado': 0,
@@ -356,29 +534,27 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 test_positive.push(total);
                             }
                             if ('recuperados_numero' in data.casos.dias[i]) {
-								recover += data.casos.dias[i].recuperados_numero;
-								recoversSingle.push(data.casos.dias[i].recuperados_numero);
-							} else {
-								recoversSingle.push(0);
-							}
-							if ('muertes_numero' in data.casos.dias[i]) {
-								deads += data.casos.dias[i].muertes_numero;
-								deadsSingle.push(data.casos.dias[i].muertes_numero);
-							} else {
-								deadsSingle.push(0);	
-							}
-							if ('evacuados_numero' in data.casos.dias[i]) {
-								evac += data.casos.dias[i].evacuados_numero;
-							}
-                            
+                                recover += data.casos.dias[i].recuperados_numero;
+                                recoversSingle.push(data.casos.dias[i].recuperados_numero);
+                            } else {
+                                recoversSingle.push(0);
+                            }
+                            if ('muertes_numero' in data.casos.dias[i]) {
+                                deads += data.casos.dias[i].muertes_numero;
+                                deadsSingle.push(data.casos.dias[i].muertes_numero);
+                            } else {
+                                deadsSingle.push(0);
+                            }
+                            if ('evacuados_numero' in data.casos.dias[i]) {
+                                evac += data.casos.dias[i].evacuados_numero;
+                            }
+
                             dailySum.push(total);
-                            dailyActive.push(total-(recover+deads+evac));
+                            dailyActive.push(total - (recover + deads + evac));
                             recoversSum.push(recover);
                             deadsSum.push(deads);
                             cuba.push(total);
                         }
-                        
-                        console.log(deadsSingle);
 
                         var ntest_days = ['Fecha'];
                         var ntest_negative = ['Tests Negativos'];
@@ -429,23 +605,25 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         var countrysorted = [];
                         for (var c in countriesdays.paises) {
                             if ((countriesdays.paises[c].length + 1) >= cuba.length) {
-
-                                var c_temp = [c];
+                                if (!(c in trans_countries))
+                                    trans_countries[c] = c;
+                                var c_temp = [trans_countries[c]];
                                 var d_temp = ['Días'];
                                 for (var i = 1; i < countriesdays.paises[c].length; i++) {
                                     c_temp.push(countriesdays.paises[c][i]);
                                     d_temp.push('Día ' + i);
                                 }
-                                curves[c] = {'dias': d_temp, 'data': c_temp};
-                                countrysorted.push(c);
+                                curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
+                                countrysorted.push(trans_countries[c]);
                             }
                         }
+
                         countrysorted.sort();
                         for (var c = 0; c < countrysorted.length; c++) {
                             var cc = curves[countrysorted[c]]['data'][0];
                             $('#countrycurve-select').append('<option value="' + cc + '">' + cc + '</option>');
                         }
-                        var countryselected = 'Hungary';
+                        var countryselected = 'Hungría';
                         $('#countrycurve-select').val(countryselected);
                         $('.countries-date').html(countriesdays['dia-actualizacion']);
 
@@ -547,7 +725,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#daily-deads-info",
                             data: {
@@ -575,14 +753,14 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#daily-recovers-info",
                             data: {
                                 x: dates[0],
                                 columns: [
                                     dates,
-                                    recoversSingle,                                    
+                                    recoversSingle,
                                     recoversSum
                                 ],
                                 type: 'line',
@@ -778,11 +956,11 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         pro_ranking += 1;
                     });
 
-		$('[data-content=diagno]').html(genInfo.total);
-		$('[data-content=activo]').html(genInfo.total -(genInfo.deaths + genInfo.gone +genInfo.recov));
-		$('[data-content=fallec]').html(genInfo.deaths);
-		$('[data-content=evacua]').html(genInfo.gone);
-		$('[data-content=recupe]').html(genInfo.recov);
+                    $('[data-content=diagno]').html(genInfo.total);
+                    $('[data-content=activo]').html(genInfo.total - (genInfo.deaths + genInfo.gone + genInfo.recov));
+                    $('[data-content=fallec]').html(genInfo.deaths);
+                    $('[data-content=evacua]').html(genInfo.gone);
+                    $('[data-content=recupe]').html(genInfo.recov);
 
                     var geojsonM = L.geoJSON(municipios, {style: styleM});
 
@@ -939,102 +1117,106 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                         }
                     }).change();
                 });
-                
-                curves2 = {};
 
-				var countrysorted2 = [];
-			
-				function scaleX(num){
-					if(num==0){
-						return 0;
-					}
-					return Math.log10(num);
-				}
-				function scaleY(num){
-					if(num==0){
-						return 0;
-					}
-					return Math.log10(num);
-				}
-			
-				for(var c in countriesdays.paises){
-					var weeksum=0;
-					var weeks=[c];
-					var accum=['Confirmados-'+c];
-					var prevweek=0;
-					var total=0;
-					var ctotal = 0;
-					for(var i=1;i<countriesdays.paises[c].length;i++){
-						ctotal=countriesdays.paises[c][i];
-						if(i%7==0){
-							total=countriesdays.paises[c][i-1];
-							if (total>30){
-								weeksum=countriesdays.paises[c][i-1]-prevweek;
-								weeks.push(scaleY(weeksum));
-								weeksum=0;
-								accum.push(scaleX(total));
-								prevweek=countriesdays.paises[c][i-1];
-							}
-						}
-					}
-					curves2[c]={'weeks': weeks, 'cummulative_sum':accum, 'total': total,'ctotal':ctotal};
-					countrysorted2.push(c);
-				}
-				
-				columdata = [];
-				xaxisdata = {};
-				var cont=0;
-				var topn=20;
-				countrysorted2.sort((a,b)=> curves2[b]['ctotal']-curves2[a]['ctotal']);
-				var $table_country = $('#table-countries > tbody');
-				for(var i=0;i<countrysorted2.length;i++){
-					xaxisdata[countrysorted2[i]]='Confirmados-'+countrysorted2[i];
-					columdata.push(curves2[countrysorted2[i]]['weeks']);
-					columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
-					
-					
-					if(cont==topn){break;}
-					cont+=1;
-					
-					var row = ("<tr><td>{ranking}</td>" +
-                            "<td>{country}</td>" +
-                            "<td>{cases}</td></tr>")
-                            .replace("{ranking}", i+1)
-                            .replace("{country}", curves2[countrysorted2[i]]['weeks'][0])
-                            .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
-                    $table_country.append(row);
-				}
-			
-				xaxisdata['Cuba']='Confirmados-Cuba';
-				columdata.push(curves2['Cuba']['weeks']);
-				columdata.push(curves2['Cuba']['cummulative_sum']);
-			
-				curve3 = c3.generate({
-					bindto: "#curves-evolution",
-					data: {
-							xs: xaxisdata,
-							columns: columdata,
-							type: 'line',
-							colors: {
-								'Cuba': '#B01E22'
-							}
-						},
-					tooltip: {
-							show: false
-						},
-					axis : {
-						x : {
-							label: "Casos confirmados (log scale)",
-							tick: {
-								format: d3.format('.1f')
-							}
-						},
-						y: {
-							label: 'Casos nuevos  (log scale)',
-							position: 'outer-middle'
-						}
-					}
-				});
+            curves2 = {};
+
+            var countrysorted2 = [];
+
+            function scaleX(num) {
+                if (num == 0) {
+                    return 0;
+                }
+                return Math.log10(num);
+            }
+
+            function scaleY(num) {
+                if (num == 0) {
+                    return 0;
+                }
+                return Math.log10(num);
+            }
+
+            for (var c in countriesdays.paises) {
+                let c_trans = c in trans_countries ? trans_countries[c] : c;
+                var weeksum = 0;
+                var weeks = [c_trans];
+                var accum = ['Confirmados-' + c_trans];
+                var prevweek = 0;
+                var total = 0;
+                var ctotal = 0;
+                for (var i = 1; i < countriesdays.paises[c].length; i++) {
+                    ctotal = countriesdays.paises[c][i];
+                    if (i % 7 == 0) {
+                        total = countriesdays.paises[c][i - 1];
+                        if (total > 30) {
+                            weeksum = countriesdays.paises[c][i - 1] - prevweek;
+                            weeks.push(scaleY(weeksum));
+                            weeksum = 0;
+                            accum.push(scaleX(total));
+                            prevweek = countriesdays.paises[c][i - 1];
+                        }
+                    }
+                }
+                curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal};
+                countrysorted2.push(c_trans);
+            }
+
+            columdata = [];
+            xaxisdata = {};
+            var cont = 0;
+            var topn = 20;
+            countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
+            var $table_country = $('#table-countries > tbody');
+            for (var i = 0; i < countrysorted2.length; i++) {
+                xaxisdata[countrysorted2[i]] = 'Confirmados-' + countrysorted2[i];
+                columdata.push(curves2[countrysorted2[i]]['weeks']);
+                columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
+
+
+                if (cont == topn) {
+                    break;
+                }
+                cont += 1;
+
+                var row = ("<tr><td>{ranking}</td>" +
+                    "<td>{country}</td>" +
+                    "<td>{cases}</td></tr>")
+                    .replace("{ranking}", i + 1)
+                    .replace("{country}", curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0])
+                    .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
+                $table_country.append(row);
+            }
+
+            xaxisdata['Cuba'] = 'Confirmados-Cuba';
+            columdata.push(curves2['Cuba']['weeks']);
+            columdata.push(curves2['Cuba']['cummulative_sum']);
+
+            curve3 = c3.generate({
+                bindto: "#curves-evolution",
+                data: {
+                    xs: xaxisdata,
+                    columns: columdata,
+                    type: 'line',
+                    colors: {
+                        'Cuba': '#B01E22'
+                    }
+                },
+                tooltip: {
+                    show: false
+                },
+                axis: {
+                    x: {
+                        label: "Casos confirmados (log scale)",
+                        tick: {
+                            format: d3.format('.1f')
+                        }
+                    },
+                    y: {
+                        label: 'Casos nuevos  (log scale)',
+                        position: 'outer-middle'
+                    }
+                }
+            });
         });
     });
 }); 
