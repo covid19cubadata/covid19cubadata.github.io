@@ -13,7 +13,8 @@ var domains = {
     'hr': 'Croacia',
     'co': 'Colombia',
     'pe': 'Perú',
-    'tz': 'Tanzania'
+    'tz': 'Tanzania',
+    'pa': 'Panamá'
 };
 
 
