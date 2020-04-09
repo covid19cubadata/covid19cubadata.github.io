@@ -8790,11 +8790,10 @@
                     }
                 ],
                 "sujetos_riesgo": 1752,
-                "recuperados_numero": 9,
-                "evacuados_numero": 1,
+                "recuperados_numero": 10,
                 "muertes_numero": 2,
                 "tests_total": 8223,
-                "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy"
+                "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy. En el parte del día siguiente se cambió el status de un paciente reportado como evacuado a alta médica"
             },
             "28": {
                 "fecha": "2020/04/07",
