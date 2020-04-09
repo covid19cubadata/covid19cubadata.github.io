@@ -10118,7 +10118,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Habana del Este",
-                        "provincia_detección": "La Habana ",
+                        "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
                         "dpacode_provincia_deteccion": "23",
                         "contagio": "introducido",
