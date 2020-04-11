@@ -1809,10 +1809,10 @@
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": "2020/03/07",
                         "consulta_medico": "2020/03/24",
-                        "municipio_detección": null,
-                        "provincia_detección": null,
-                        "dpacode_municipio_deteccion": "00.00",
-                        "dpacode_provincia_deteccion": "00",
+                        "municipio_detección": "Cárdenas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
                         "contagio": "importado",
                         "contacto_focal": 14,
                         "centro_aislamiento": "ipk",
@@ -1821,6 +1821,7 @@
                             "fr"
                         ],
                         "info": "Ciudadano francés de 56 años de edad. Arribó al país el 7 de marzo del presente año procedente de Francia. El 24 se detectó con síntomas respiratorios en el chequeo de frontera a su salida del país, siendo trasladado al Instituto de Medicina Tropical Pedro Kourí (IPK). Se consideró caso sospechoso, quedando ingresado en el Instituto. Se mantiene aislado con evolución satisfactoria hasta el momento. En el Hotel donde se encontraba se detectaron 14 contactos directos, y se continúan las acciones de control epidemiológico y detección de contactos.",
+                        "nota": "Datos verificados con información directa del MINSAP",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
@@ -4205,9 +4206,9 @@
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": "2020/03/20",
                         "consulta_medico": "2020/03/27",
-                        "municipio_detección": null,
+                        "municipio_detección": "Playa",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_municipio_deteccion": "23.01",
                         "dpacode_provincia_deteccion": "23",
                         "contagio": "importado",
                         "contacto_focal": 1,
@@ -4217,6 +4218,7 @@
                             "us"
                         ],
                         "info": "Ciudadana cubana de 54 años de edad, residente en La Habana. Arribó de Estados Unidos el día 20 de marzo. El día 27 inició los síntomas y fue ingresada en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 1 contacto de este paciente.",
+                        "nota": "Dato verificados con información directa del MINSAP.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
@@ -4379,10 +4381,10 @@
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": "2020/03/14",
                         "consulta_medico": null,
-                        "municipio_detección": null,
-                        "provincia_detección": null,
-                        "dpacode_municipio_deteccion": "00.00",
-                        "dpacode_provincia_deteccion": "00",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
                         "contagio": "importado",
                         "contacto_focal": 3,
                         "centro_aislamiento": "ipk",
@@ -4391,6 +4393,7 @@
                             "es"
                         ],
                         "info": "Ciudadano cubano de 49 años de edad, residente en España. Arribó de ese país el 14 del presente mes. Fue contacto estrecho de un caso confirmado anteriormente. Se encontraba ingresado en el IPK para vigilancia y se mantiene asintomático. Se encuentran en vigilancia 3 contactos de este paciente.",
+                        "nota": "Dato verificados con información directa del MINSAP.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     }
