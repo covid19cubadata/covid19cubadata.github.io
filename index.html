@@ -23,6 +23,14 @@
     <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.jpg" alt="COVID-19 Cubadata">
     </a>
+    <form class="card ml-auto" style="margin-bottom: 0px; margin-right: 4px">
+        <div class="card-body" style="padding: 10px 5px">
+            <select id="location-select" class="form-control" style="margin-top: 0px">
+                <option value="cuba">Cuba</option>
+            </select>
+        </div>
+        <div class="card-footer text-center text-uppercase" style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione lugar...</div>
+    </form>
 
     <div class="navbar-stats d-none d-lg-block">
         <p class="navbar-text navbar-stat bg-white">
@@ -292,7 +300,7 @@
                 </div>
             </div>
         </section>
-        
+
     </div>
 </div>
 
@@ -364,49 +372,49 @@
 </div>
 
 <div id="top-countries" class="container-fluid">
-   	<div class="card-deck">
-	<section id="topn-n-countries" class="card common-bg">
-		<div class="card-header">Top 20 de países con más casos acumulados</div>
-		
-		<div class="card-body  p-0">
-			<table id="table-countries" class="table table-striped table-sm mb-0">
-				<thead>
-				<tr>
-					<th>#</th>
-					<th>País</th>
-					<th>Total de casos</th>
-				</tr>
-				</thead>
-				<tbody></tbody>
-			</table>
-		
-		<div class="map-quote">
-			* Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
-			y
-			actualizado el <span class="countries-date">#</span><br>
-		</div>	
-		</div>
-		
-	</section>
-    <div class="w-100 d-sm-block d-md-none"></div>
-	<section id="evomade" class="card common-bg">
-		<div class="card-header">Evolución de la epidemia (paises seleccionados)</div>
-		
-		<div class="card-body">
-			<div class="explain-text">
-				El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos 
-				confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un crecimeinto exponencial y cuando se 
-				desvían de la recta comienzan a salir del comportamiento exponencial.
-			</div>
-			<div id="curves-evolution"></div>
-			<div class="map-quote">
-                * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
-                y
-                actualizado el <span class="countries-date">#</span><br>
+    <div class="card-deck">
+        <section id="topn-n-countries" class="card common-bg">
+            <div class="card-header">Top 20 de países con más casos acumulados</div>
+
+            <div class="card-body  p-0">
+                <table id="table-countries" class="table table-striped table-sm mb-0">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>País</th>
+                        <th>Total de casos</th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <div class="map-quote">
+                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
+                    y
+                    actualizado el <span class="countries-date">#</span><br>
+                </div>
             </div>
-		</div>
-	</section>
-	</div>
+
+        </section>
+        <div class="w-100 d-sm-block d-md-none"></div>
+        <section id="evomade" class="card common-bg">
+            <div class="card-header">Evolución de la epidemia (paises seleccionados)</div>
+
+            <div class="card-body">
+                <div class="explain-text">
+                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos
+                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un crecimeinto exponencial y cuando se
+                    desvían de la recta comienzan a salir del comportamiento exponencial.
+                </div>
+                <div id="curves-evolution"></div>
+                <div class="map-quote">
+                    * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
+                    y
+                    actualizado el <span class="countries-date">#</span><br>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 
 
@@ -446,7 +454,7 @@
         <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a> cortesía de
             <a href="http://www.frcuba.cu/"><img id="fr" class="" src="images/logo-fr.png"></a>
         </div>
-        <div><a href="http://covidcuba.swlx.info">covidcuba.swlx.info</a>  cortesía de
+        <div><a href="http://covidcuba.swlx.info">covidcuba.swlx.info</a> cortesía de
             <a href="http://www.swlx.info/"><img id="swlx" class="" src="images/logo-swlx.png"></a>
         </div>
     </div>

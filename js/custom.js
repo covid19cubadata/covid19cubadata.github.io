@@ -279,11 +279,13 @@ $.walker = {
     }
 };
 
-let muns = [], pros = [], $selector = $('#select-map');
+let muns = [], pros = [], $selector = $('#select-map'), $locator = $('#location-select');
 
 function run_calculations() {
-    const province_id = $selector.val();
-    const general_view = province_id === 'map-mun' || province_id === 'map-pro';
+    let province_id = $locator.val();
+    const general_view = $locator.val() === 'cuba';
+    if (general_view)
+        province_id = $selector.val();
 
     let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade');
     if (general_view)
@@ -302,7 +304,7 @@ function run_calculations() {
         $.walker.load("data/covid19-cuba.json", function (data) {
             $.walker.load("data/provincias.geojson", function (provincias, recent_prov) {
                 $.walker.province.list = provincias;
-                pros = $.walker.province.prepare('#select-map');
+                pros = $.walker.province.prepare('#location-select');
 
                 $.walker.load("data/municipios.geojson", function (municipios, recent_mun) {
                     $.walker.municipality.list = municipios;
@@ -430,7 +432,7 @@ function run_calculations() {
                                 }
                             }
                         }
-					
+
                         //Pie for sex
                         c3.generate({
                             bindto: "#sex-info",
@@ -1035,7 +1037,7 @@ function run_calculations() {
                         return t;
                     }
 
-                    if (province_id === 'map-pro') {
+                    if ($selector.val() === 'map-pro') {
                         geojsonM = L.geoJSON($.walker.province.list, {style: styleP});
 
                         geojsonM.bindTooltip(function (layer) {
@@ -1235,7 +1237,7 @@ function run_calculations() {
     });
 }
 
-$selector.on('change', function (e) {
+$([$selector[0], $locator[0]]).on('change', function (e) {
     $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
     $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
     $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
