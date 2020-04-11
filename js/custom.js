@@ -14,7 +14,8 @@ var domains = {
     'co': 'Colombia',
     'pe': 'Perú',
     'tz': 'Tanzania',
-    'pa': 'Panamá'
+    'pa': 'Panamá',
+    'bo': 'Bolivia'
 };
 
 var trans_countries = {
@@ -364,7 +365,7 @@ $.getJSON("data/paises-info-dias.json", function (countriesdays) {
                                 }
                             }
                         }
-
+					
                         //Pie for sex
                         c3.generate({
                             bindto: "#sex-info",
