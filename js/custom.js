@@ -430,7 +430,7 @@ function run_calculations() {
                                 }
                             }
                         }
-
+					
                         //Pie for sex
                         c3.generate({
                             bindto: "#sex-info",
