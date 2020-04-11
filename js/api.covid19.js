@@ -19,7 +19,7 @@
 
             $.ajax({
                 type: 'GET',
-                url: 'https://www.cusobu.nat.cu/covid/data/covid19-cuba.json',
+                url: 'https://cusobu.nat.cu/covid/data/serve_data.php?filename=covid19-cuba.json',
                 dataType: 'json',
                 cache: false,
                 crossDomain: true,
