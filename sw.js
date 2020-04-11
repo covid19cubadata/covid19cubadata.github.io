@@ -1,7 +1,8 @@
 // This is the service worker with the Cache-first network
 
+importScripts('cache_version.js');
 
-const CACHE = "covid19cubadata-precache:1";
+const CACHE = "covid19cubadata-precache:" + cache_version;
 
 
 const precacheFiles = [
