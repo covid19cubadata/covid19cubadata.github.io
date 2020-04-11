@@ -25,8 +25,6 @@ var contagio = {
     'desconocido': 0
 }
 
-$.ajaxSetup({cache: false});
-
 $.getJSON("data/paises-info-dias.json", function (countriesdays) {
     $.getJSON("data/covid19-cuba.json", function (data) {
         $.getJSON("data/provincias.geojson", function (provincias) {
