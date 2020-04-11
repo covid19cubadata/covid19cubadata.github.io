@@ -14,7 +14,8 @@ var domains = {
     'co': 'Colombia',
     'pe': 'Perú',
     'tz': 'Tanzania',
-    'pa': 'Panamá'
+    'pa': 'Panamá',
+    'bo': 'Bolivia'
 };
 
 var trans_countries = {
@@ -1090,16 +1091,20 @@ function run_calculations() {
 
                     function getColorM(code) {
                         if (code in muns) {
-                            var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
-                            return "rgba(176,30,34," + opac + ")";
+                            if (muns[code].total > 0) {
+                                var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
+                                return "rgba(176,30,34," + opac + ")";
+                            }
                         }
                         return '#D1D2D4';
                     }
 
                     function getColorP(code) {
                         if (code in pros) {
-                            var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
-                            return "rgba(176,30,34," + opac + ")";
+                            if (pros[code].total > 0) {
+                                var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
+                                return "rgba(176,30,34," + opac + ")";
+                            }
                         }
                         return '#D1D2D4';
                     }
