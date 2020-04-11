@@ -284,6 +284,12 @@ function run_calculations() {
     const province_id = $selector.val();
     const general_view = province_id === 'map-mun' || province_id === 'map-pro';
 
+    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade');
+    if (general_view)
+        $generals.show();
+    else
+        $generals.hide();
+
     let contagio = {
         'importado': 0,
         'introducido': 0,
@@ -951,7 +957,7 @@ function run_calculations() {
                         return b.total - a.total
                     });
 
-                    var $table_mun = $('#table-mun > tbody');
+                    var $table_mun = $('#table-mun > tbody').html('');
                     var mun_ranking = 1;
                     $(muns_array.slice(0, MAX_LISTS)).each(function (index, item) {
                         municipe = $.walker.municipality.matchByField('DPA_municipality_code', item.cod);
@@ -976,7 +982,7 @@ function run_calculations() {
                         return b.total - a.total
                     });
 
-                    var $table_pro = $('#table-pro > tbody');
+                    var $table_pro = $('#table-pro > tbody').html('');
                     var pro_ranking = 1;
                     $(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
                         var row = ("<tr><td>{ranking}</td>" +
@@ -992,10 +998,10 @@ function run_calculations() {
                     });
 
                     $('[data-content=diagno]').html(genInfo.total);
-                    $('[data-content=activo]').html(genInfo.total - (genInfo.deaths + genInfo.gone + genInfo.recov));
-                    $('[data-content=fallec]').html(genInfo.deaths);
-                    $('[data-content=evacua]').html(genInfo.gone);
-                    $('[data-content=recupe]').html(genInfo.recov);
+                    $('[data-content=activo]').html(genInfo.deaths + genInfo.gone + genInfo.recov ? genInfo.total - (genInfo.deaths + genInfo.gone + genInfo.recov) : '-');
+                    $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
+                    $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
+                    $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
 
                     if (geojsonM)
                         map_mun.removeLayer(geojsonM);
@@ -1169,7 +1175,7 @@ function run_calculations() {
                 var cont = 0;
                 var topn = 20;
                 countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
-                var $table_country = $('#table-countries > tbody');
+                var $table_country = $('#table-countries > tbody').html('');
                 for (var i = 0; i < countrysorted2.length; i++) {
                     xaxisdata[countrysorted2[i]] = 'Confirmados-' + countrysorted2[i];
                     columdata.push(curves2[countrysorted2[i]]['weeks']);
