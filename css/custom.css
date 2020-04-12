@@ -384,6 +384,10 @@ body > div {
     font-size: .75em;
 }
 
+[data-view="province"] {
+    display: none!important;
+}
+
 @media (min-width: 576px) {
 
     #stats-cards > .row > div:nth-child(odd) {

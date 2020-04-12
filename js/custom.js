@@ -279,7 +279,7 @@ $.walker = {
     }
 };
 
-let muns = [], pros = [], $selector = $('#select-map'), $locator = $('#location-select');
+let muns = [], pros = [], $selector = $('#select-map'), $selector_span = $selector.closest('.card').find('.card-header span'), $locator = $('#location-select');
 
 function run_calculations() {
     let province_id = $locator.val();
@@ -487,35 +487,43 @@ function run_calculations() {
                                 countryDiagnoses.push(countries[c]);
                             }
                         }
-                        c3.generate({
-                            bindto: "#countries-info",
-                            data: {
-                                x: country[0],
-                                columns: [
-                                    country,
-                                    countryDiagnoses
-                                ],
-                                type: 'bar',
-                                colors: {
-                                    'Diagnosticados': '#B01E22'
-                                }
-                            },
-                            axis: {
-                                x: {
-                                    label: 'País',
-                                    type: 'categorical',
-                                    tick: {
-                                        rotate: -30,
-                                        multiline: false
-                                    },
-                                    height: 45
+
+                        $("#countries-info-sep").attr('class', 'w-100 d-none d-sm-block');
+                        $("#countries-info").closest('section').show();
+                        if (countryDiagnoses.length === 1) {
+                            $("#countries-info").closest('section').hide();
+                            $("#countries-info-sep").attr('class', '');
+                        } else {
+                            c3.generate({
+                                bindto: "#countries-info",
+                                data: {
+                                    x: country[0],
+                                    columns: [
+                                        country,
+                                        countryDiagnoses
+                                    ],
+                                    type: 'bar',
+                                    colors: {
+                                        'Diagnosticados': '#B01E22'
+                                    }
                                 },
-                                y: {
-                                    label: 'Casos',
-                                    position: 'outer-middle',
+                                axis: {
+                                    x: {
+                                        label: 'País',
+                                        type: 'categorical',
+                                        tick: {
+                                            rotate: -30,
+                                            multiline: false
+                                        },
+                                        height: 45
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle',
+                                    }
                                 }
-                            }
-                        });
+                            });
+                        }
 
                         //Bar for ages
                         var range = ['Rango Etario'];
@@ -700,7 +708,7 @@ function run_calculations() {
                         $('#countrycurve-select').val(countryselected);
                         $('.countries-date').html(countriesdays['dia-actualizacion']);
 
-                        $('#countrycurve-select').on('change', function () {
+                        $('#countrycurve-select').off('change').on('change', function () {
                             var val = $('#countrycurve-select').val();
                             comparison.unload({ids: countryselected});
                             curve.unload({ids: countryselected});
@@ -769,22 +777,29 @@ function run_calculations() {
 
                         });
 
+                        let colors = {
+                            'Casos en el día': '#00577B',
+                            'Casos acumulados': '#D0797C'
+                        };
+
+                        let columns = [
+                            dates,
+                            dailySingle,
+                            dailySum,
+                        ];
+
+                        if (general_view) {
+                            colors['Casos activos'] = '#B11116';
+                            columns.push(dailyActive);
+                        }
+
                         c3.generate({
                             bindto: "#daily-single-info",
                             data: {
                                 x: dates[0],
-                                columns: [
-                                    dates,
-                                    dailySingle,
-                                    dailyActive,
-                                    dailySum
-                                ],
+                                columns: columns,
                                 type: 'line',
-                                colors: {
-                                    'Casos en el día': '#00577B',
-                                    'Casos activos': '#B11116',
-                                    'Casos acumulados': '#D0797C'
-                                }
+                                colors: colors
                             },
                             axis: {
                                 x: {
@@ -1236,6 +1251,26 @@ function run_calculations() {
         });
     });
 }
+
+$('[data-class]').each(function () {
+    $(this).data('class', $(this).attr('class'));
+});
+
+let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe]').parent();
+$locator.change(function () {
+    $cards.show();
+    $selector.show();
+    $selector_span.html('Distribución por');
+    $('[data-class]').each(function () {
+        $(this).attr('class', $(this).data('class'));
+    });
+    if ($locator.val() !== 'cuba') {
+        $selector_span.html('Distribución de ' + $locator.find('option[value="' + $locator.val() + '"]').html());
+        $cards.hide();
+        $selector.hide();
+        $('[data-class]').attr('class', '');
+    }
+});
 
 $([$selector[0], $locator[0]]).on('change', function (e) {
     $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
