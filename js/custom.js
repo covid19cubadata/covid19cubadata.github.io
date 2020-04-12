@@ -123,7 +123,7 @@ var trans_countries = {
     'Senegal': 'Senegal',
     'Hungary': 'Hungría',
     'Moldova': 'Moldavia',
-    'Qatar': 'Katar',
+    'Qatar': 'Qatar',
     'US': 'Estados Unidos',
     'Belarus': 'Bielorrusia',
     'Chad': 'Chad',
@@ -1268,7 +1268,7 @@ $locator.change(function () {
         $(this).attr('class', $(this).data('class'));
     });
     if ($locator.val() !== 'cuba') {
-        $selector_span.html('Distribución de ' + $locator.find('option[value="' + $locator.val() + '"]').html());
+        $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
         $cards.hide();
         $selector.hide();
         $('[data-class]').attr('class', '');
