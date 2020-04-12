@@ -677,7 +677,7 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    //show: false
+                                    show: false
                                 },
                                 y: {
                                     label: 'Tests en el día',
@@ -1131,6 +1131,7 @@ function run_calculations() {
 
                     map_mun.addLayer(geojsonM);
                     map_mun.fitBounds(geojsonM.getBounds());
+                    map_mun.setMaxBounds(geojsonM.getBounds());
 
                     var val = $selector.val();
                     if (val === 'map-pro') {
@@ -1270,6 +1271,7 @@ $locator.change(function () {
     if ($locator.val() !== 'cuba') {
         $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
         $cards.hide();
+        $selector.val("map-mun").trigger('change');
         $selector.hide();
         $('[data-class]').attr('class', '');
     }
