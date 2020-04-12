@@ -433,51 +433,6 @@ function run_calculations() {
                             }
                         }
 
-                        //Pie for sex
-                        c3.generate({
-                            bindto: "#sex-info",
-                            data: {
-                                columns: [['Hombres', sex_male], ['Mujeres', sex_female], ['No reportado', sex_unknown]],
-                                type: 'pie',
-                                colors: {
-                                    'Mujeres': '#B01E22',
-                                    'Hombres': '#1C1340',
-                                    'No reportado': '#1A8323'
-                                }
-                            }
-                        });
-
-
-                        //Pie for cubans/no cubans
-                        c3.generate({
-                            bindto: "#countries-info-pie",
-                            data: {
-                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
-                                type: 'pie',
-                                colors: {
-                                    'cubanos': '#B01E22',
-                                    'extranjeros': '#1C1340',
-                                    'no reportado': '#1A8323'
-                                }
-                            }
-                        });
-
-                        //Donut for tests
-                        c3.generate({
-                            bindto: "#tests-donut-info",
-                            data: {
-                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
-                                type: 'donut',
-                                colors: {
-                                    'Tests Positivos': '#B01E22',
-                                    'Tests Negativos': '#1C1340',
-                                }
-                            },
-                            donut: {
-                                title: total_tests + " tests",
-                            }
-                        });
-
                         //Bar for countries
                         var country = ['País'];
                         var countryDiagnoses = ['Diagnosticados'];
@@ -527,6 +482,51 @@ function run_calculations() {
                                 }
                             });
                         }
+
+                        //Pie for sex
+                        c3.generate({
+                            bindto: "#sex-info",
+                            data: {
+                                columns: [['Hombres', sex_male], ['Mujeres', sex_female], ['No reportado', sex_unknown]],
+                                type: 'pie',
+                                colors: {
+                                    'Mujeres': '#B01E22',
+                                    'Hombres': '#1C1340',
+                                    'No reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+
+                        //Pie for cubans/no cubans
+                        c3.generate({
+                            bindto: "#countries-info-pie",
+                            data: {
+                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
+                                type: 'pie',
+                                colors: {
+                                    'cubanos': '#B01E22',
+                                    'extranjeros': '#1C1340',
+                                    'no reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+                        //Donut for tests
+                        c3.generate({
+                            bindto: "#tests-donut-info",
+                            data: {
+                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
+                                type: 'donut',
+                                colors: {
+                                    'Tests Positivos': '#B01E22',
+                                    'Tests Negativos': '#1C1340',
+                                }
+                            },
+                            donut: {
+                                title: total_tests + " tests",
+                            }
+                        });
 
                         //Bar for ages
                         var range = ['Rango Etario'];
