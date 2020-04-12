@@ -14261,7 +14261,7 @@
                         "municipio_detección": "Báguanos",
                         "provincia_detección": "Holguín",
                         "dpacode_municipio_deteccion": "32.05",
-                        "dpacode_provincia_deteccion": "00",
+                        "dpacode_provincia_deteccion": "32",
                         "contagio": "introducido",
                         "contacto_focal": 10,
                         "centro_aislamiento": null,
