@@ -304,11 +304,11 @@ function run_calculations() {
         $.walker.load("data/covid19-cuba.json", function (data) {
             $.walker.load("data/provincias.geojson", function (provincias, recent_prov) {
                 $.walker.province.list = provincias;
-                pros = $.walker.province.prepare('#location-select');
+                let pros = $.walker.province.prepare('#location-select');
 
                 $.walker.load("data/municipios.geojson", function (municipios, recent_mun) {
                     $.walker.municipality.list = municipios;
-                    muns = $.walker.municipality.filterByProvince(province_id);
+                    let muns = $.walker.municipality.filterByProvince(province_id);
 
                     var factor = 150;
 
@@ -995,7 +995,7 @@ function run_calculations() {
                         mun_ranking += 1;
                     });
 
-                    pros_array = [];
+                    let pros_array = [];
                     for (var m in pros) {
                         pros_array.push({cod: m, total: pros[m].total});
                     }
