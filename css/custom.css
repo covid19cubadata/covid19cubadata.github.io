@@ -68,7 +68,7 @@ body > div {
 
 #map-mun, #map-pro {
     background-color: #ffffff;
-    min-height: 371px;
+    min-height: 383px;
 }
 
 #project {
@@ -294,13 +294,13 @@ body > div {
     color: red;
 }
 
-.explain-text{
-	margin-left: 35px;
-	margin-bottom: 15px;
-} 
+.explain-text {
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
 
 #curves-evolution {
-	height: 450px;
+    height: 450px;
 }
 
 #cusobu, #fr, #swlx {
@@ -375,9 +375,17 @@ body > div {
     font-size: 2em;
 }
 
+.stat-number i {
+    padding: 8px;
+}
+
 .stat-label {
     text-transform: uppercase;
     font-size: .75em;
+}
+
+[data-view="province"] {
+    display: none!important;
 }
 
 @media (min-width: 576px) {
@@ -430,7 +438,7 @@ body > div {
     }
 
     #tables > .card-deck > section.card:nth-of-type(even),
-    #top-countries> .card-deck > section.card:nth-of-type(even) {
+    #top-countries > .card-deck > section.card:nth-of-type(even) {
         margin-left: 7px;
     }
 }
