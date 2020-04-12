@@ -490,10 +490,13 @@ function run_calculations() {
 
                         $("#countries-info-sep").attr('class', 'w-100 d-none d-sm-block');
                         $("#countries-info").closest('section').show();
+                        $('#topmuni').css({'margin-left': '7px'});
                         if (countryDiagnoses.length === 1) {
                             $("#countries-info").closest('section').hide();
                             $("#countries-info-sep").attr('class', '');
                         } else {
+                            if (!general_view)
+                                $('#topmuni').css({'margin-left': '15px'});
                             c3.generate({
                                 bindto: "#countries-info",
                                 data: {
