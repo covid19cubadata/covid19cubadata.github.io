@@ -214,11 +214,19 @@ var map_mun = L.map('map-mun', {
     touchZoom: true,
     zoomSnap: 0.05,
 });
-var geojsonM = null;
+var geojsonM = null, geojsonP = null;
 map_mun.zoomControl.setPosition('topright');
 
 $.walker = {
     loaded: {},
+    map: {
+        clear: function () {
+            if (geojsonM)
+                map_mun.removeLayer(geojsonM);
+            if (geojsonP)
+                map_mun.removeLayer(geojsonP);
+        }
+    },
     load: function (url, callback) {
         if (url in $.walker.loaded)
             return callback(Object.assign({}, $.walker.loaded[url]), false);
@@ -302,11 +310,11 @@ function run_calculations() {
 
     $.walker.load("data/paises-info-dias.json", function (countriesdays) {
         $.walker.load("data/covid19-cuba.json", function (data) {
-            $.walker.load("data/provincias.geojson", function (provincias, recent_prov) {
+            $.walker.load("data/provincias.geojson", function (provincias) {
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
 
-                $.walker.load("data/municipios.geojson", function (municipios, recent_mun) {
+                $.walker.load("data/municipios.geojson", function (municipios) {
                     $.walker.municipality.list = municipios;
                     muns = $.walker.municipality.filterByProvince(province_id);
 
@@ -433,51 +441,6 @@ function run_calculations() {
                             }
                         }
 
-                        //Pie for sex
-                        c3.generate({
-                            bindto: "#sex-info",
-                            data: {
-                                columns: [['Hombres', sex_male], ['Mujeres', sex_female], ['No reportado', sex_unknown]],
-                                type: 'pie',
-                                colors: {
-                                    'Mujeres': '#B01E22',
-                                    'Hombres': '#1C1340',
-                                    'No reportado': '#1A8323'
-                                }
-                            }
-                        });
-
-
-                        //Pie for cubans/no cubans
-                        c3.generate({
-                            bindto: "#countries-info-pie",
-                            data: {
-                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
-                                type: 'pie',
-                                colors: {
-                                    'cubanos': '#B01E22',
-                                    'extranjeros': '#1C1340',
-                                    'no reportado': '#1A8323'
-                                }
-                            }
-                        });
-
-                        //Donut for tests
-                        c3.generate({
-                            bindto: "#tests-donut-info",
-                            data: {
-                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
-                                type: 'donut',
-                                colors: {
-                                    'Tests Positivos': '#B01E22',
-                                    'Tests Negativos': '#1C1340',
-                                }
-                            },
-                            donut: {
-                                title: total_tests + " tests",
-                            }
-                        });
-
                         //Bar for countries
                         var country = ['País'];
                         var countryDiagnoses = ['Diagnosticados'];
@@ -527,6 +490,51 @@ function run_calculations() {
                                 }
                             });
                         }
+
+                        //Pie for sex
+                        c3.generate({
+                            bindto: "#sex-info",
+                            data: {
+                                columns: [['Hombres', sex_male], ['Mujeres', sex_female], ['No reportado', sex_unknown]],
+                                type: 'pie',
+                                colors: {
+                                    'Mujeres': '#B01E22',
+                                    'Hombres': '#1C1340',
+                                    'No reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+
+                        //Pie for cubans/no cubans
+                        c3.generate({
+                            bindto: "#countries-info-pie",
+                            data: {
+                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
+                                type: 'pie',
+                                colors: {
+                                    'cubanos': '#B01E22',
+                                    'extranjeros': '#1C1340',
+                                    'no reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+                        //Donut for tests
+                        c3.generate({
+                            bindto: "#tests-donut-info",
+                            data: {
+                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
+                                type: 'donut',
+                                colors: {
+                                    'Tests Positivos': '#B01E22',
+                                    'Tests Negativos': '#1C1340',
+                                }
+                            },
+                            donut: {
+                                title: total_tests + " tests",
+                            }
+                        });
 
                         //Bar for ages
                         var range = ['Rango Etario'];
@@ -995,7 +1003,7 @@ function run_calculations() {
                         mun_ranking += 1;
                     });
 
-                    pros_array = [];
+                    let pros_array = [];
                     for (var m in pros) {
                         pros_array.push({cod: m, total: pros[m].total});
                     }
@@ -1023,9 +1031,6 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
-
-                    if (geojsonM)
-                        map_mun.removeLayer(geojsonM);
 
                     function getMunProfile(code, mun, pro) {
                         var t = '';
@@ -1055,32 +1060,32 @@ function run_calculations() {
                         return t;
                     }
 
-                    if ($selector.val() === 'map-pro') {
-                        geojsonM = L.geoJSON($.walker.province.list, {style: styleP});
+                    geojsonP = L.geoJSON($.walker.province.list, {style: styleP});
 
-                        geojsonM.bindTooltip(function (layer) {
-                            return '<span class="bd">' + layer.feature.properties.province + '</span>';
-                        }, {'sticky': true});
+                    geojsonP.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span>';
+                    }, {'sticky': true});
 
-                        geojsonM.bindPopup(function (layer) {
-                            var pcode = layer.feature.properties.DPA_province_code;
-                            var pro = layer.feature.properties.province;
-                            return getProProfile(pcode, pro);
-                        });
-                    } else {
-                        geojsonM = L.geoJSON($.walker.municipality.list, {style: styleM});
+                    geojsonP.bindPopup(function (layer) {
+                        var pcode = layer.feature.properties.DPA_province_code;
+                        var pro = layer.feature.properties.province;
+                        return getProProfile(pcode, pro);
+                    });
 
-                        geojsonM.bindTooltip(function (layer) {
-                            return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
-                        }, {'sticky': true});
+                    geojsonM = L.geoJSON($.walker.municipality.list, {style: styleM});
 
-                        geojsonM.bindPopup(function (layer) {
-                            var mcode = layer.feature.properties.DPA_municipality_code;
-                            var mun = layer.feature.properties.municipality;
-                            var pro = layer.feature.properties.province;
-                            return getMunProfile(mcode, mun, pro);
-                        });
-                    }
+                    geojsonM.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
+                    }, {'sticky': true});
+
+                    geojsonM.bindPopup(function (layer) {
+                        var mcode = layer.feature.properties.DPA_municipality_code;
+                        var mun = layer.feature.properties.municipality;
+                        var pro = layer.feature.properties.province;
+                        return getMunProfile(mcode, mun, pro);
+                    });
+
+                    $selector.change();
 
                     function styleM(feature) {
                         return {
@@ -1129,10 +1134,6 @@ function run_calculations() {
                         return '#D1D2D4';
                     }
 
-                    map_mun.addLayer(geojsonM);
-                    map_mun.fitBounds(geojsonM.getBounds());
-                    map_mun.setMaxBounds(geojsonM.getBounds());
-
                     var val = $selector.val();
                     if (val === 'map-pro') {
                         $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
@@ -1149,8 +1150,6 @@ function run_calculations() {
                         $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
                         $('#cases').html(genInfo.max_muns);
                     }
-
-                    map_mun.invalidateSize();
                 });
 
                 let curves2 = {};
@@ -1254,6 +1253,7 @@ function run_calculations() {
             });
         });
     });
+
 }
 
 $('[data-class]').each(function () {
@@ -1271,13 +1271,10 @@ $locator.change(function () {
     if ($locator.val() !== 'cuba') {
         $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
         $cards.hide();
-        $selector.val("map-mun").trigger('change');
+        $selector.val("map-mun");
         $selector.hide();
         $('[data-class]').attr('class', '');
     }
-});
-
-$([$selector[0], $locator[0]]).on('change', function (e) {
     $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
     $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
     $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
@@ -1285,6 +1282,22 @@ $([$selector[0], $locator[0]]).on('change', function (e) {
     $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
     setTimeout(function () {
+        $.walker.map.clear();
+
         run_calculations();
-    }, 100);
+    }, 200);
 }).change();
+
+$selector.on('change', function (e) {
+    $.walker.map.clear();
+
+    if (this.value === 'map-pro') {
+        map_mun.addLayer(geojsonP);
+        map_mun.fitBounds(geojsonP.getBounds());
+        map_mun.setMaxBounds(geojsonP.getBounds());
+    } else {
+        map_mun.addLayer(geojsonM);
+        map_mun.fitBounds(geojsonM.getBounds());
+        map_mun.setMaxBounds(geojsonM.getBounds());
+    }
+});
