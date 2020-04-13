@@ -29,7 +29,9 @@
                 <option value="cuba">Cuba</option>
             </select>
         </div>
-        <div class="card-footer text-center text-uppercase" style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región</div>
+        <div class="card-footer text-center text-uppercase"
+             style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región
+        </div>
     </form>
 
     <div class="navbar-stats d-none d-lg-block">
@@ -338,22 +340,80 @@
 
 <div class="container-fluid">
     <div id="compari" class="card common-bg">
-        <div class="card-header">Comparación de los casos acumulados de Cuba con <select
-                id="countrycurve-select"></select></div>
+        <div class="card-header">
+            <div class="py-1">
+                Comparación de Cuba con <select id="countrycurve-select"></select>
+            </div>
+            <ul class="nav nav-tabs nav-justified card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#tab-activos">
+                        <i class="fa fa-2x fa-heartbeat d-block d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none d-sm-block d-md-none d-lg-block">Activos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-recuperados">
+                        <i class="fa fa-2x fa-heart d-block d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none d-sm-block d-md-none d-lg-block">Recuperados</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-fallecidos">
+                        <i class="fa fa-2x fa-heart-broken d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none  d-sm-block d-md-none d-lg-block">Fallecidos</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div class="card-body">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-block sub">
-                        Comparación en general
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-activos" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve"></div>
+                        </div>
+                        <div id="countries-comparison-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison"></div>
+                        </div>
                     </div>
-                    <div id="countries-curve"></div>
-
                 </div>
-                <div id="countries-comparison-container" class="col-md-6">
-                    <div class="text-block sub">
-                        Comparación en el período de Cuba
+                <div class="tab-pane fade" id="tab-recuperados" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-recuperados"></div>
+                        </div>
+                        <div id="countries-comparison-recuperados-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-recuperados"></div>
+                        </div>
                     </div>
-                    <div id="countries-comparison"></div>
+                </div>
+                <div class="tab-pane fade" id="tab-fallecidos" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-fallecidos"></div>
+                        </div>
+                        <div id="countries-comparison-fallecidos-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-fallecidos"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="map-quote">
@@ -396,8 +456,10 @@
 
             <div class="card-body">
                 <div class="explain-text">
-                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos
-                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un crecimeinto exponencial y cuando se
+                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los
+                    casos nuevos por el total de casos
+                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un
+                    crecimeinto exponencial y cuando se
                     desvían de la recta comienzan a salir del comportamiento exponencial.
                 </div>
                 <div id="curves-evolution"></div>
@@ -445,7 +507,8 @@
         <div><a href="http://www.cusobu.nat.cu/covid/">www.cusobu.nat.cu/covid/</a> cortesía de
             <a href="http://www.cusobu.nat.cu/"><img id="cusobu" class="" src="images/logo-cusobu.png"></a>
         </div>
-        <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a> cortesía de
+        <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a>
+            cortesía de
             <a href="http://www.frcuba.cu/"><img id="fr" class="" src="images/logo-fr.png"></a>
         </div>
         <div><a href="http://covidcuba.swlx.info">covidcuba.swlx.info</a> cortesía de
