@@ -56,7 +56,11 @@ self.addEventListener("install", function (event) {
     event.waitUntil(
         caches.open(CACHE).then(function (cache) {
             console.log("[PWA Builder] Caching pages during install");
-            return cache.addAll(precacheFiles);
+            return cache.addAll(precacheFiles).then(() => {
+                // Send message to client on update
+                const channel = new BroadcastChannel('sw-update-messages');
+                channel.postMessage({updated: true});
+            });
         })
     );
 });
@@ -80,15 +84,6 @@ self.addEventListener("fetch", function (event) {
         fromCache(event.request).then(
             function (response) {
                 // The response was found in the cache so we respond with it and update the entry
-
-                // This is where we call the server to get the newest version of the
-                // file to use the next time we show view
-                // event.waitUntil(
-                //     fetch(event.request).then(function (response) {
-                //         return updateCache(event.request, response);
-                //     })
-                // );
-
                 return response;
             },
             function () {

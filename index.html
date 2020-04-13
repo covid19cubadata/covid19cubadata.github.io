@@ -517,6 +517,20 @@
                 });
         }
     }
+    // listen for update notifications
+    const channel = new BroadcastChannel('sw-update-messages');
+    channel.addEventListener('message', event => {
+        if (window.localStorage && window.localStorage.getItem('has_run')){
+            if (event.data.updated){
+                let r = confirm('Se ha descargado una nueva versión del dashboard, presione aceptar para actualizar.');
+                if (r == true){
+                    location.reload();
+                }
+            }
+        } else if (window.localStorage){
+            window.localStorage.setItem('has_run', 'true');
+        }
+    });
 </script>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
