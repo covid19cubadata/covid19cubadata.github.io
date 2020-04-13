@@ -371,7 +371,7 @@ body > div {
     margin: 0;
 }
 
-.navbar-stats > .card{
+.navbar-stats > .card {
     display: inline-block;
     font-weight: bold;
     text-align: center;
@@ -380,13 +380,13 @@ body > div {
     width: 142px;
 }
 
-.navbar-stats > .card > .card-body{
+.navbar-stats > .card > .card-body {
     padding: 5px 15px;
     line-height: 1;
     font-size: 2.5em;
 }
 
-.navbar-stats > .card > .card-footer{
+.navbar-stats > .card > .card-footer {
     padding: 2px 10px;
     font-size: .75em;
 }
@@ -405,7 +405,7 @@ body > div {
 }
 
 [data-view="province"] {
-    display: none!important;
+    display: none !important;
 }
 
 @media (min-width: 576px) {
@@ -453,11 +453,13 @@ body > div {
     }
 
     #tables > .card-deck > section.card:nth-of-type(odd),
+    #national-comparison > .card-deck > section.card:nth-of-type(odd),
     #top-countries > .card-deck > section.card:nth-of-type(odd) {
         margin-right: 7px;
     }
 
     #tables > .card-deck > section.card:nth-of-type(even),
+    #national-comparison > .card-deck > section.card:nth-of-type(even),
     #top-countries > .card-deck > section.card:nth-of-type(even) {
         margin-left: 7px;
     }
