@@ -242,9 +242,13 @@ $.walker = {
             let remaining = {};
             for (const i in $.walker.province.list.features) {
                 const province = $.walker.province.list.features[i].properties;
-                if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida')
+                if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
                     $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
-
+                }
+                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida'){
+                    $('#proscurve-select1').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
+                    $('#proscurve-select2').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
+                }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
 
@@ -266,11 +270,17 @@ $.walker = {
         list: {features: []},
         filterByProvince: function (province_id) {
             let features = [], remaining = {};
+            $('#munscurve-select1').find('option').remove();
+            $('#munscurve-select2').find('option').remove();
             for (const i in $.walker.municipality.list.features) {
                 const municipality = $.walker.municipality.list.features[i].properties;
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
+                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido'){
+                        $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
+                        $('#munscurve-select2').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
+                    }
                 }
             }
             $.walker.municipality.list.features = features;
@@ -295,7 +305,7 @@ function run_calculations() {
     if (general_view)
         province_id = $selector.val();
 
-    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade');
+    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves');
     if (general_view)
         $generals.show();
     else
@@ -603,16 +613,40 @@ function run_calculations() {
                         var deads = 0;
                         var recover = 0;
                         var evac = 0;
+                        var munscurves = {};
+                        var proscurves = {};
+                        for( const j in muns){
+                            munscurves[j]={data: [0]};
+                        }
+                        for( const j in pros){
+                            proscurves[j]={data: [0]};
+                        }
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                             dias.push('Día ' + i);
                             dates.push(data.casos.dias[i].fecha.replace('2020/', ''));
+                            for( const j in muns){
+                                let tt = munscurves[j]['data'].length;
+                                let val = munscurves[j]['data'][tt-1];
+                                munscurves[j]['data'].push(val);
+                            }
+                            for( const j in pros){
+                                let tt = proscurves[j]['data'].length;
+                                let val = proscurves[j]['data'][tt-1];
+                                proscurves[j]['data'].push(val);
+                            }
 
                             if ('diagnosticados' in data.casos.dias[i]) {
                                 let report_day = 0;
                                 for (const j in data.casos.dias[i].diagnosticados) {
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion in muns) {
                                         report_day++;
+                                        let tt = munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'].length;
+                                        munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'][tt-1]++;
+                                    }
+                                    if (data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion in pros) {
+                                        let tt = proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'].length;
+                                        proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'][tt-1]++;
                                     }
                                 }
 
@@ -659,6 +693,19 @@ function run_calculations() {
                             ntest_cases.push(test_cases[i] - test_cases[i - 1]);
                             ntest_negative.push(test_negative[i] - test_negative[i - 1]);
                             ntest_positive.push(test_positive[i] - test_positive[i - 1]);
+                        }
+                        for( const j in muns){
+                            const municipality = $.walker.municipality.matchByField('DPA_municipality_code',j).properties;
+                            munscurves[j]['data'][0]=municipality.municipality;
+                            let tt = munscurves[j]['data'].length;
+                            let val = munscurves[j]['data'][tt-1];
+                            if(val===0){
+                                $('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').remove();
+                                $('#munscurve-select2').find('option[value="' + municipality.DPA_municipality_code + '"]').remove();
+                            }
+                        }
+                        for( const j in pros){
+                            proscurves[j]['data'][0]=$.walker.province.matchByField('DPA_province_code',j).properties.province;
                         }
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
@@ -786,6 +833,151 @@ function run_calculations() {
                                 }
                             });
 
+                        });
+
+                        var provinceslectd1 = $.walker.province.findById('lha').properties.DPA_province_code;
+                        $('#proscurve-select1').val(provinceslectd1);
+                        var provinceslectd2 = $.walker.province.findById('mat').properties.DPA_province_code;
+                        $('#proscurve-select2').val(provinceslectd2);
+
+                        $('#proscurve-select1').off('change').on('change', function () {
+                            var val = $('#proscurve-select1').val();
+                            provinceslectd1 = val;
+
+                            comparison = c3.generate({
+                                bindto: "#provinces-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        proscurves[provinceslectd1]['data'],
+                                        proscurves[provinceslectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
+                        $('#proscurve-select2').off('change').on('change', function () {
+                            var val = $('#proscurve-select2').val();
+                            provinceslectd2 = val;
+
+                            comparison = c3.generate({
+                                bindto: "#provinces-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        proscurves[provinceslectd1]['data'],
+                                        proscurves[provinceslectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
+                        var municipalitylectd1 = '23.02';
+                        if(!(municipalitylectd1 in muns)){
+                            for(const j in muns){
+                                let tt = munscurves[j]['data'].length;
+                                let val = munscurves[j]['data'][tt-1];
+                                if(!(val===0)){
+                                    municipalitylectd1=j;
+                                    break;
+                                }
+                            }
+                        }
+                        $('#munscurve-select1').val(municipalitylectd1);
+
+                        var municipalitylectd2 = '25.01';
+                        if(!(municipalitylectd2 in muns)){
+                            for(const j in muns){
+                                let tt = munscurves[j]['data'].length;
+                                let val = munscurves[j]['data'][tt-1];
+                                if(!(val===0))
+                                    municipalitylectd2=j;
+                            }
+                        }
+                        $('#munscurve-select2').val(municipalitylectd2);
+
+                        $('#munscurve-select1').off('change').on('change', function () {
+                            var val = $('#munscurve-select1').val();
+                            municipalitylectd1 = val;
+
+                            comparison = c3.generate({
+                                bindto: "#municipalyties-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        munscurves[municipalitylectd1]['data'],
+                                        munscurves[municipalitylectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
+                        $('#munscurve-select2').off('change').on('change', function () {
+                            var val = $('#munscurve-select2').val();
+                            municipalitylectd2 = val;
+
+                            comparison = c3.generate({
+                                bindto: "#municipalyties-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        munscurves[municipalitylectd1]['data'],
+                                        munscurves[municipalitylectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
                         });
 
                         let colors = {
@@ -936,6 +1128,87 @@ function run_calculations() {
                             grid: {
                                 x: {
                                     lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                }
+                            }
+                        });
+
+                        curve = c3.generate({
+                            bindto: "#municipalyties-curve",
+                            data: {
+                                x: 'Días',
+                                columns: [
+                                    curves[countryselected]['dias'],
+                                    curves[countryselected]['data'],
+                                    cuba,
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Cuba': '#B01E22'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            },
+                            grid: {
+                                x: {
+                                    lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                }
+                            }
+                        });
+
+
+                        comparison = c3.generate({
+                            bindto: "#provinces-curve",
+                            data: {
+                                x: dias[0],
+                                columns: [
+                                    dias,
+                                    proscurves[provinceslectd1]['data'],
+                                    proscurves[provinceslectd2]['data']
+                                ],
+                                type: 'line',
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
+                        comparison = c3.generate({
+                            bindto: "#municipalyties-curve",
+                            data: {
+                                x: dias[0],
+                                columns: [
+                                    dias,
+                                    munscurves[municipalitylectd1]['data'],
+                                    munscurves[municipalitylectd2]['data']
+                                ],
+                                type: 'line',
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
                                 }
                             }
                         });
