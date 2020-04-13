@@ -29,7 +29,9 @@
                 <option value="cuba">Cuba</option>
             </select>
         </div>
-        <div class="card-footer text-center text-uppercase" style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región</div>
+        <div class="card-footer text-center text-uppercase"
+             style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región
+        </div>
     </form>
 
     <div class="navbar-stats d-none d-lg-block">
@@ -171,10 +173,13 @@
         <div class="col-md-9">
             <div id="geodist" class="card common-bg">
                 <div class="card-header">
-                    <span>Distribución por</span> <select id="select-map">
-                    <option select value="map-mun">Municipios</option>
-                    <option value="map-pro">Provincias</option>
-                </select>
+                    <form class="form-inline my-0">
+                        <label for="#select-map" class="mr-1">Distribución por</label>
+                        <select id="select-map" class="form-control form-control-sm">
+                            <option select value="map-mun">Municipios</option>
+                            <option value="map-pro">Provincias</option>
+                        </select>
+                    </form>
                 </div>
                 <div class="card-body p-0 pt-1 pb-1">
                     <div id="map-container">
@@ -314,8 +319,12 @@
 
 <div class="container-fluid">
     <div id="compari" class="card common-bg">
-        <div class="card-header">Comparación de los casos acumulados de Cuba con <select
-                id="countrycurve-select"></select></div>
+        <div class="card-header">
+            <form class="form-inline my-0">
+                <label for="#countrycurve-select" class="mr-1">Comparación de los casos acumulados de Cuba con</label>
+                <select id="countrycurve-select" class="form-control form-control-sm"></select>
+            </form>
+        </div>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
@@ -372,8 +381,10 @@
 
             <div class="card-body">
                 <div class="explain-text">
-                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos
-                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un crecimeinto exponencial y cuando se
+                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los
+                    casos nuevos por el total de casos
+                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un
+                    crecimeinto exponencial y cuando se
                     desvían de la recta comienzan a salir del comportamiento exponencial.
                 </div>
                 <div id="curves-evolution"></div>
@@ -421,7 +432,8 @@
         <div><a href="http://www.cusobu.nat.cu/covid/">www.cusobu.nat.cu/covid/</a> cortesía de
             <a href="http://www.cusobu.nat.cu/"><img id="cusobu" class="" src="images/logo-cusobu.png"></a>
         </div>
-        <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a> cortesía de
+        <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a>
+            cortesía de
             <a href="http://www.frcuba.cu/"><img id="fr" class="" src="images/logo-fr.png"></a>
         </div>
         <div><a href="http://covidcuba.swlx.info">covidcuba.swlx.info</a> cortesía de
