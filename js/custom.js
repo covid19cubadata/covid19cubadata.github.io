@@ -212,11 +212,19 @@ var map_mun = L.map('map-mun', {
     touchZoom: true,
     zoomSnap: 0.05,
 });
-var geojsonM = null;
+var geojsonM = null, geojsonP = null;
 map_mun.zoomControl.setPosition('topright');
 
 $.walker = {
     loaded: {},
+    map: {
+        clear: function () {
+            if (geojsonM)
+                map_mun.removeLayer(geojsonM);
+            if (geojsonP)
+                map_mun.removeLayer(geojsonP);
+        }
+    },
     load: function (url, callback) {
         if (url in $.walker.loaded)
             return callback(Object.assign({}, $.walker.loaded[url]), false);
@@ -230,14 +238,33 @@ $.walker = {
         prepare: function (target) {
             const $target = $(target);
             let remaining = {};
+            let sorteddata = [];
             for (const i in $.walker.province.list.features) {
                 const province = $.walker.province.list.features[i].properties;
-                if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida')
+                /*if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
                     $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
-
+                }*/
+                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida'){
+                    sorteddata.push($.walker.province.list.features[i].properties);
+                    $('#proscurve-select1').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
+                }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
-
+            $('#proscurve-select1').find('option').remove();
+            sorteddata.sort(function(a,b){
+                if (a.province < b.province)
+                    return -1;
+                else if (a.province == b.province)
+                    return 0;
+                else
+                    return 1;
+            });
+            for(var j = 0; j < sorteddata.length; j++){
+                const province2 = sorteddata[j];
+                $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
+                $('#proscurve-select1').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
+                $('#proscurve-select2').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
+            }
             return remaining;
         },
         findById: function (id) {
@@ -256,12 +283,33 @@ $.walker = {
         list: {features: []},
         filterByProvince: function (province_id) {
             let features = [], remaining = {};
+            let sorteddata = [];
+            $('#munscurve-select1').find('option').remove();
+            $('#munscurve-select2').find('option').remove();
             for (const i in $.walker.municipality.list.features) {
                 const municipality = $.walker.municipality.list.features[i].properties;
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
+                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido'){
+                        sorteddata.push($.walker.municipality.list.features[i].properties);
+                        $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
+                    }
                 }
+            }
+            $('#munscurve-select1').find('option').remove();
+            sorteddata.sort(function(a,b){
+                if (a.province < b.province)
+                    return -1;
+                else if (a.province == b.province)
+                    return 0;
+                else
+                    return 1;
+            });
+            for(var j = 0; j < sorteddata.length; j++){
+                const municipality2 = sorteddata[j];
+                $('#munscurve-select1').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
+                $('#munscurve-select2').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
             }
             $.walker.municipality.list.features = features;
             return remaining;
@@ -285,7 +333,7 @@ function run_calculations() {
     if (general_view)
         province_id = $selector.val();
 
-    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade');
+    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves');
     if (general_view)
         $generals.show();
     else
@@ -300,11 +348,11 @@ function run_calculations() {
 
     $.walker.load("data/paises-info-dias.json", function (countriesdays) {
         $.walker.load("data/covid19-cuba.json", function (data) {
-            $.walker.load("data/provincias.geojson", function (provincias, recent_prov) {
+            $.walker.load("data/provincias.geojson", function (provincias) {
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
 
-                $.walker.load("data/municipios.geojson", function (municipios, recent_mun) {
+                $.walker.load("data/municipios.geojson", function (municipios) {
                     $.walker.municipality.list = municipios;
                     muns = $.walker.municipality.filterByProvince(province_id);
 
@@ -431,51 +479,6 @@ function run_calculations() {
                             }
                         }
 
-                        //Pie for sex
-                        c3.generate({
-                            bindto: "#sex-info",
-                            data: {
-                                columns: [['Hombres', sex_male], ['Mujeres', sex_female], ['No reportado', sex_unknown]],
-                                type: 'pie',
-                                colors: {
-                                    'Mujeres': '#B01E22',
-                                    'Hombres': '#1C1340',
-                                    'No reportado': '#1A8323'
-                                }
-                            }
-                        });
-
-
-                        //Pie for cubans/no cubans
-                        c3.generate({
-                            bindto: "#countries-info-pie",
-                            data: {
-                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
-                                type: 'pie',
-                                colors: {
-                                    'cubanos': '#B01E22',
-                                    'extranjeros': '#1C1340',
-                                    'no reportado': '#1A8323'
-                                }
-                            }
-                        });
-
-                        //Donut for tests
-                        c3.generate({
-                            bindto: "#tests-donut-info",
-                            data: {
-                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
-                                type: 'donut',
-                                colors: {
-                                    'Tests Positivos': '#B01E22',
-                                    'Tests Negativos': '#1C1340',
-                                }
-                            },
-                            donut: {
-                                title: total_tests + " tests",
-                            }
-                        });
-
                         //Bar for countries
                         var country = ['País'];
                         var countryDiagnoses = ['Diagnosticados'];
@@ -525,6 +528,51 @@ function run_calculations() {
                                 }
                             });
                         }
+
+                        //Pie for sex
+                        c3.generate({
+                            bindto: "#sex-info",
+                            data: {
+                                columns: [['Hombres', sex_male], ['Mujeres', sex_female], ['No reportado', sex_unknown]],
+                                type: 'pie',
+                                colors: {
+                                    'Mujeres': '#B01E22',
+                                    'Hombres': '#1C1340',
+                                    'No reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+
+                        //Pie for cubans/no cubans
+                        c3.generate({
+                            bindto: "#countries-info-pie",
+                            data: {
+                                columns: [['cubanos', total_cu], ['extranjeros', total_no_cu], ['no reportado', total_unk]],
+                                type: 'pie',
+                                colors: {
+                                    'cubanos': '#B01E22',
+                                    'extranjeros': '#1C1340',
+                                    'no reportado': '#1A8323'
+                                }
+                            }
+                        });
+
+                        //Donut for tests
+                        c3.generate({
+                            bindto: "#tests-donut-info",
+                            data: {
+                                columns: [['Tests Positivos', total_cu + total_no_cu + total_unk], ['Tests Negativos', total_tests - (total_cu + total_no_cu + total_unk)]],
+                                type: 'donut',
+                                colors: {
+                                    'Tests Positivos': '#B01E22',
+                                    'Tests Negativos': '#1C1340',
+                                }
+                            },
+                            donut: {
+                                title: total_tests + " tests",
+                            }
+                        });
 
                         //Bar for ages
                         var range = ['Rango Etario'];
@@ -593,16 +641,40 @@ function run_calculations() {
                         var deads = 0;
                         var recover = 0;
                         var evac = 0;
+                        var munscurves = {};
+                        var proscurves = {};
+                        for( const j in muns){
+                            munscurves[j]={data: [0]};
+                        }
+                        for( const j in pros){
+                            proscurves[j]={data: [0]};
+                        }
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                             dias.push('Día ' + i);
                             dates.push(data.casos.dias[i].fecha.replace('2020/', ''));
+                            for( const j in muns){
+                                let tt = munscurves[j]['data'].length;
+                                let val = munscurves[j]['data'][tt-1];
+                                munscurves[j]['data'].push(val);
+                            }
+                            for( const j in pros){
+                                let tt = proscurves[j]['data'].length;
+                                let val = proscurves[j]['data'][tt-1];
+                                proscurves[j]['data'].push(val);
+                            }
 
                             if ('diagnosticados' in data.casos.dias[i]) {
                                 let report_day = 0;
                                 for (const j in data.casos.dias[i].diagnosticados) {
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion in muns) {
                                         report_day++;
+                                        let tt = munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'].length;
+                                        munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'][tt-1]++;
+                                    }
+                                    if (data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion in pros) {
+                                        let tt = proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'].length;
+                                        proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'][tt-1]++;
                                     }
                                 }
 
@@ -650,6 +722,19 @@ function run_calculations() {
                             ntest_negative.push(test_negative[i] - test_negative[i - 1]);
                             ntest_positive.push(test_positive[i] - test_positive[i - 1]);
                         }
+                        for( const j in muns){
+                            const municipality = $.walker.municipality.matchByField('DPA_municipality_code',j).properties;
+                            munscurves[j]['data'][0]=municipality.municipality;
+                            let tt = munscurves[j]['data'].length;
+                            let val = munscurves[j]['data'][tt-1];
+                            if(val===0){
+                                $('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').remove();
+                                $('#munscurve-select2').find('option[value="' + municipality.DPA_municipality_code + '"]').remove();
+                            }
+                        }
+                        for( const j in pros){
+                            proscurves[j]['data'][0]=$.walker.province.matchByField('DPA_province_code',j).properties.province;
+                        }
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
 
@@ -675,7 +760,7 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    //show: false
+                                    show: false
                                 },
                                 y: {
                                     label: 'Tests en el día',
@@ -776,6 +861,151 @@ function run_calculations() {
                                 }
                             });
 
+                        });
+
+                        var provinceslectd1 = $.walker.province.findById('lha').properties.DPA_province_code;
+                        $('#proscurve-select1').val(provinceslectd1);
+                        var provinceslectd2 = $.walker.province.findById('mat').properties.DPA_province_code;
+                        $('#proscurve-select2').val(provinceslectd2);
+
+                        $('#proscurve-select1').off('change').on('change', function () {
+                            var val = $('#proscurve-select1').val();
+                            provinceslectd1 = val;
+
+                            comparison2 = c3.generate({
+                                bindto: "#provinces-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        proscurves[provinceslectd1]['data'],
+                                        proscurves[provinceslectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
+                        $('#proscurve-select2').off('change').on('change', function () {
+                            var val = $('#proscurve-select2').val();
+                            provinceslectd2 = val;
+
+                            comparison2 = c3.generate({
+                                bindto: "#provinces-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        proscurves[provinceslectd1]['data'],
+                                        proscurves[provinceslectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
+                        var municipalitylectd1 = '23.02';
+                        if(!(municipalitylectd1 in muns)){
+                            for(const j in muns){
+                                let tt = munscurves[j]['data'].length;
+                                let val = munscurves[j]['data'][tt-1];
+                                if(!(val===0)){
+                                    municipalitylectd1=j;
+                                    break;
+                                }
+                            }
+                        }
+                        $('#munscurve-select1').val(municipalitylectd1);
+
+                        var municipalitylectd2 = '25.01';
+                        if(!(municipalitylectd2 in muns)){
+                            for(const j in muns){
+                                let tt = munscurves[j]['data'].length;
+                                let val = munscurves[j]['data'][tt-1];
+                                if(!(val===0))
+                                    municipalitylectd2=j;
+                            }
+                        }
+                        $('#munscurve-select2').val(municipalitylectd2);
+
+                        $('#munscurve-select1').off('change').on('change', function () {
+                            var val = $('#munscurve-select1').val();
+                            municipalitylectd1 = val;
+
+                            comparison3 = c3.generate({
+                                bindto: "#municipalyties-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        munscurves[municipalitylectd1]['data'],
+                                        munscurves[municipalitylectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
+                        $('#munscurve-select2').off('change').on('change', function () {
+                            var val = $('#munscurve-select2').val();
+                            municipalitylectd2 = val;
+
+                            comparison3 = c3.generate({
+                                bindto: "#municipalyties-curve",
+                                data: {
+                                    x: dias[0],
+                                    columns: [
+                                        dias,
+                                        munscurves[municipalitylectd1]['data'],
+                                        munscurves[municipalitylectd2]['data']
+                                    ],
+                                    type: 'line',
+                                },
+                                axis: {
+                                    x: {
+                                        label: 'Fecha',
+                                        type: 'categorical',
+                                        show: false
+                                    },
+                                    y: {
+                                        label: 'Casos',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
                         });
 
                         let colors = {
@@ -930,6 +1160,54 @@ function run_calculations() {
                             }
                         });
 
+                        comparison2 = c3.generate({
+                            bindto: "#provinces-curve",
+                            data: {
+                                x: dias[0],
+                                columns: [
+                                    dias,
+                                    proscurves[provinceslectd1]['data'],
+                                    proscurves[provinceslectd2]['data']
+                                ],
+                                type: 'line',
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
+                        comparison3 = c3.generate({
+                            bindto: "#municipalyties-curve",
+                            data: {
+                                x: dias[0],
+                                columns: [
+                                    dias,
+                                    munscurves[municipalitylectd1]['data'],
+                                    munscurves[municipalitylectd2]['data']
+                                ],
+                                type: 'line',
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
                         return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
                     }
 
@@ -993,7 +1271,7 @@ function run_calculations() {
                         mun_ranking += 1;
                     });
 
-                    pros_array = [];
+                    let pros_array = [];
                     for (var m in pros) {
                         pros_array.push({cod: m, total: pros[m].total});
                     }
@@ -1021,9 +1299,6 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
-
-                    if (geojsonM)
-                        map_mun.removeLayer(geojsonM);
 
                     function getMunProfile(code, mun, pro) {
                         var t = '';
@@ -1053,32 +1328,32 @@ function run_calculations() {
                         return t;
                     }
 
-                    if ($selector.val() === 'map-pro') {
-                        geojsonM = L.geoJSON($.walker.province.list, {style: styleP});
+                    geojsonP = L.geoJSON($.walker.province.list, {style: styleP});
 
-                        geojsonM.bindTooltip(function (layer) {
-                            return '<span class="bd">' + layer.feature.properties.province + '</span>';
-                        }, {'sticky': true});
+                    geojsonP.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span>';
+                    }, {'sticky': true});
 
-                        geojsonM.bindPopup(function (layer) {
-                            var pcode = layer.feature.properties.DPA_province_code;
-                            var pro = layer.feature.properties.province;
-                            return getProProfile(pcode, pro);
-                        });
-                    } else {
-                        geojsonM = L.geoJSON($.walker.municipality.list, {style: styleM});
+                    geojsonP.bindPopup(function (layer) {
+                        var pcode = layer.feature.properties.DPA_province_code;
+                        var pro = layer.feature.properties.province;
+                        return getProProfile(pcode, pro);
+                    });
 
-                        geojsonM.bindTooltip(function (layer) {
-                            return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
-                        }, {'sticky': true});
+                    geojsonM = L.geoJSON($.walker.municipality.list, {style: styleM});
 
-                        geojsonM.bindPopup(function (layer) {
-                            var mcode = layer.feature.properties.DPA_municipality_code;
-                            var mun = layer.feature.properties.municipality;
-                            var pro = layer.feature.properties.province;
-                            return getMunProfile(mcode, mun, pro);
-                        });
-                    }
+                    geojsonM.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
+                    }, {'sticky': true});
+
+                    geojsonM.bindPopup(function (layer) {
+                        var mcode = layer.feature.properties.DPA_municipality_code;
+                        var mun = layer.feature.properties.municipality;
+                        var pro = layer.feature.properties.province;
+                        return getMunProfile(mcode, mun, pro);
+                    });
+
+                    $selector.change();
 
                     function styleM(feature) {
                         return {
@@ -1127,9 +1402,6 @@ function run_calculations() {
                         return '#D1D2D4';
                     }
 
-                    map_mun.addLayer(geojsonM);
-                    map_mun.fitBounds(geojsonM.getBounds());
-
                     var val = $selector.val();
                     if (val === 'map-pro') {
                         $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
@@ -1146,8 +1418,6 @@ function run_calculations() {
                         $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
                         $('#cases').html(genInfo.max_muns);
                     }
-
-                    map_mun.invalidateSize();
                 });
 
                 let curves2 = {};
@@ -1251,6 +1521,7 @@ function run_calculations() {
             });
         });
     });
+
 }
 
 $('[data-class]').each(function () {
@@ -1268,12 +1539,10 @@ $locator.change(function () {
     if ($locator.val() !== 'cuba') {
         $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
         $cards.hide();
+        $selector.val("map-mun");
         $selector.hide();
         $('[data-class]').attr('class', '');
     }
-});
-
-$([$selector[0], $locator[0]]).on('change', function (e) {
     $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
     $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
     $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
@@ -1281,6 +1550,22 @@ $([$selector[0], $locator[0]]).on('change', function (e) {
     $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
     setTimeout(function () {
+        $.walker.map.clear();
+
         run_calculations();
-    }, 100);
+    }, 200);
 }).change();
+
+$selector.on('change', function (e) {
+    $.walker.map.clear();
+
+    if (this.value === 'map-pro') {
+        map_mun.addLayer(geojsonP);
+        map_mun.fitBounds(geojsonP.getBounds());
+        map_mun.setMaxBounds(geojsonP.getBounds());
+    } else {
+        map_mun.addLayer(geojsonM);
+        map_mun.fitBounds(geojsonM.getBounds());
+        map_mun.setMaxBounds(geojsonM.getBounds());
+    }
+});
