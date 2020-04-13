@@ -240,18 +240,33 @@ $.walker = {
         prepare: function (target) {
             const $target = $(target);
             let remaining = {};
+            let sorteddata = [];
             for (const i in $.walker.province.list.features) {
                 const province = $.walker.province.list.features[i].properties;
-                if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
+                /*if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
                     $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
-                }
+                }*/
                 if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida'){
+                    sorteddata.push($.walker.province.list.features[i].properties);
                     $('#proscurve-select1').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
-                    $('#proscurve-select2').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
-
+            $('#proscurve-select1').find('option').remove();
+            sorteddata.sort(function(a,b){
+                if (a.province < b.province)
+                    return -1;
+                else if (a.province == b.province)
+                    return 0;
+                else
+                    return 1;
+            });
+            for(var j = 0; j < sorteddata.length; j++){
+                const province2 = sorteddata[j];
+                $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
+                $('#proscurve-select1').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
+                $('#proscurve-select2').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
+            }
             return remaining;
         },
         findById: function (id) {
@@ -270,6 +285,7 @@ $.walker = {
         list: {features: []},
         filterByProvince: function (province_id) {
             let features = [], remaining = {};
+            let sorteddata = [];
             $('#munscurve-select1').find('option').remove();
             $('#munscurve-select2').find('option').remove();
             for (const i in $.walker.municipality.list.features) {
@@ -278,10 +294,24 @@ $.walker = {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
                     if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido'){
+                        sorteddata.push($.walker.municipality.list.features[i].properties);
                         $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
-                        $('#munscurve-select2').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
                     }
                 }
+            }
+            $('#munscurve-select1').find('option').remove();
+            sorteddata.sort(function(a,b){
+                if (a.municipality < b.municipality)
+                    return -1;
+                else if (a.municipality == b.municipality)
+                    return 0;
+                else
+                    return 1;
+            });
+            for(var j = 0; j < sorteddata.length; j++){
+                const municipality2 = sorteddata[j];
+                $('#munscurve-select1').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
+                $('#munscurve-select2').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
             }
             $.walker.municipality.list.features = features;
             return remaining;
@@ -844,7 +874,7 @@ function run_calculations() {
                             var val = $('#proscurve-select1').val();
                             provinceslectd1 = val;
 
-                            comparison = c3.generate({
+                            comparison2 = c3.generate({
                                 bindto: "#provinces-curve",
                                 data: {
                                     x: dias[0],
@@ -873,7 +903,7 @@ function run_calculations() {
                             var val = $('#proscurve-select2').val();
                             provinceslectd2 = val;
 
-                            comparison = c3.generate({
+                            comparison2 = c3.generate({
                                 bindto: "#provinces-curve",
                                 data: {
                                     x: dias[0],
@@ -926,7 +956,7 @@ function run_calculations() {
                             var val = $('#munscurve-select1').val();
                             municipalitylectd1 = val;
 
-                            comparison = c3.generate({
+                            comparison3 = c3.generate({
                                 bindto: "#municipalyties-curve",
                                 data: {
                                     x: dias[0],
@@ -955,7 +985,7 @@ function run_calculations() {
                             var val = $('#munscurve-select2').val();
                             municipalitylectd2 = val;
 
-                            comparison = c3.generate({
+                            comparison3 = c3.generate({
                                 bindto: "#municipalyties-curve",
                                 data: {
                                     x: dias[0],
@@ -1132,40 +1162,7 @@ function run_calculations() {
                             }
                         });
 
-                        curve = c3.generate({
-                            bindto: "#municipalyties-curve",
-                            data: {
-                                x: 'Días',
-                                columns: [
-                                    curves[countryselected]['dias'],
-                                    curves[countryselected]['data'],
-                                    cuba,
-                                ],
-                                type: 'line',
-                                colors: {
-                                    'Cuba': '#B01E22'
-                                }
-                            },
-                            axis: {
-                                x: {
-                                    label: 'Fecha',
-                                    type: 'categorical',
-                                    show: false
-                                },
-                                y: {
-                                    label: 'Casos',
-                                    position: 'outer-middle'
-                                }
-                            },
-                            grid: {
-                                x: {
-                                    lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                }
-                            }
-                        });
-
-
-                        comparison = c3.generate({
+                        comparison2 = c3.generate({
                             bindto: "#provinces-curve",
                             data: {
                                 x: dias[0],
@@ -1189,7 +1186,7 @@ function run_calculations() {
                             }
                         });
 
-                        comparison = c3.generate({
+                        comparison3 = c3.generate({
                             bindto: "#municipalyties-curve",
                             data: {
                                 x: dias[0],
