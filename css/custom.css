@@ -371,6 +371,26 @@ body > div {
     margin: 0;
 }
 
+.navbar-stats > .card{
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width: 140px;
+}
+
+.navbar-stats > .card > .card-body{
+    padding: 5px 15px;
+    line-height: 1;
+    font-size: 2.5em;
+}
+
+.navbar-stats > .card > .card-footer{
+    padding: 2px 10px;
+    font-size: .75em;
+}
+
 .stat-number {
     font-size: 2em;
 }

@@ -24,63 +24,50 @@
         <img id="logo" src="images/logo.jpg" alt="COVID-19 Cubadata">
     </a>
     <form class="card ml-auto" style="margin-bottom: 0px; margin-right: 4px">
-        <div class="card-body" style="padding: 10px 5px">
+        <div class="card-body" style="padding: 6px 5px">
             <select id="location-select" class="form-control" style="margin-top: 0px">
                 <option value="cuba">Cuba</option>
             </select>
         </div>
         <div class="card-footer text-center text-uppercase" style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región</div>
     </form>
-
-    <div class="navbar-stats d-none d-lg-block">
-        <p class="navbar-text navbar-stat bg-white">
-            <span class="stat-number" data-content="update"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Actualizacion</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-danger text-white">
-            <span class="stat-number" data-content="diagno"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Diagnosticados</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-warning text-white">
-            <span class="stat-number" data-content="activo"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Activos</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-success text-white">
-            <span class="stat-number" data-content="recupe"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Recuperados</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-info text-white">
-            <span class="stat-number" data-content="evacua"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Evacuados</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-dark text-white">
-            <span class="stat-number" data-content="fallec"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Fallecidos</span>
-        </p>
-    </div>
-
-    <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#general">General</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#geodist">Distribución Geográfica</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#sexdist">Casos por Sexo</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#caudist">Modo de Contagio</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#agedist">Rangos Etarios</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#homdist">Nacionalidad</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#fordist">Nacionalidad (extranjeros)</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#casdist">Casos por días</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#tesmade">Tests realizados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#tesacum">Tests acumulados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#topprov">Top10 Provincias afectadas</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#topmuni">Top10 Municipios afectados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#compari">Comparación con otros países</a></li>
-        </ul>
+    <div class="navbar-stats d-none d-xl-block">
+        <div class="card ml-auto">
+            <div class="card-body"data-content="update">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Actualizacion</div>
+        </div>
+        <div class="card ml-auto bg-danger text-white">
+            <div class="card-body"data-content="diagno">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Diagnosticados</div>
+        </div>
+        <div class="card ml-auto bg-warning text-white">
+            <div class="card-body"data-content="activo">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Activos</div>
+        </div>
+        <div class="card ml-auto bg-success text-white">
+            <div class="card-body"data-content="recupe">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Recuperados</div>
+        </div>
+        <div class="card ml-auto bg-info text-white">
+            <div class="card-body"data-content="evacua">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Evacuados</div>
+        </div>
+        <div class="card ml-auto bg-dark text-white">
+            <div class="card-body"data-content="fallec">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Fallecidos</div>
+        </div>
     </div>
 </nav>
 
@@ -124,7 +111,7 @@
         </table>
     </div>
 
-    <div id="stats-cards" class="d-none d-sm-block d-lg-none">
+    <div id="stats-cards" class="d-none d-sm-block d-xl-none">
         <div class="row">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="card text-center">
