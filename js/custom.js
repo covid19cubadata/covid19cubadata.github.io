@@ -301,9 +301,9 @@ $.walker = {
             }
             $('#munscurve-select1').find('option').remove();
             sorteddata.sort(function(a,b){
-                if (a.municipality < b.municipality)
+                if (a.province < b.province)
                     return -1;
-                else if (a.municipality == b.municipality)
+                else if (a.province == b.province)
                     return 0;
                 else
                     return 1;
