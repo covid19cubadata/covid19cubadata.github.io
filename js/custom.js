@@ -198,6 +198,28 @@ var trans_countries = {
     'Fiji': 'Fiyi',
 };
 
+
+province_order = {
+    'unk': 16,
+    'lha': 2,
+    'mat': 4,
+    'cfg': 6,
+    'ssp': 7,
+    'ltu': 10,
+    'hol': 12,
+    'gra': 11,
+    'stg': 13,
+    'ijv': 15,
+    'cam': 9,
+    'cav': 8,
+    'vcl': 5,
+    'gtm': 14,
+    'pri': 0,
+    'art': 1,
+    'may': 3
+}
+
+
 $.ajaxSetup({cache: false});
 
 var map_mun = L.map('map-mun', {
@@ -254,13 +276,14 @@ $.walker = {
             }
             $('#proscurve-select1').find('option').remove();
             sorteddata.sort(function(a,b){
-                if (a.province < b.province)
+                if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
-                else if (a.province == b.province)
+                else if (province_order[a.province_id] == province_order[b.province_id])
                     return 0;
                 else
                     return 1;
             });
+            console.log(sorteddata);
             for(var j = 0; j < sorteddata.length; j++){
                 const province2 = sorteddata[j];
                 $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
@@ -301,9 +324,9 @@ $.walker = {
             }
             $('#munscurve-select1').find('option').remove();
             sorteddata.sort(function(a,b){
-                if (a.province < b.province)
+                if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
-                else if (a.province == b.province)
+                else if (province_order[a.province_id] == province_order[b.province_id])
                     return 0;
                 else
                     return 1;
