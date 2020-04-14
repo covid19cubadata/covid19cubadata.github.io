@@ -283,7 +283,6 @@ $.walker = {
                 else
                     return 1;
             });
-            console.log(sorteddata);
             for(var j = 0; j < sorteddata.length; j++){
                 const province2 = sorteddata[j];
                 $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
@@ -796,13 +795,13 @@ function run_calculations() {
 
                         var countrysorted = [];
                         for (var c in countriesdays.paises) {
-                            if ((countriesdays.paises[c].length + 1) >= cuba.length) {
+                            if ((countriesdays.paises[c].confirmed.length + 1) >= cuba.length) {
                                 if (!(c in trans_countries))
                                     trans_countries[c] = c;
                                 var c_temp = [trans_countries[c]];
                                 var d_temp = ['Días'];
-                                for (var i = 1; i < countriesdays.paises[c].length; i++) {
-                                    c_temp.push(countriesdays.paises[c][i]);
+                                for (var i = 1; i < countriesdays.paises[c].confirmed.length; i++) {
+                                    c_temp.push(countriesdays.paises[c].confirmed[i]);
                                     d_temp.push('Día ' + i);
                                 }
                                 curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
@@ -1471,16 +1470,16 @@ function run_calculations() {
                     var prevweek = 0;
                     var total = 0;
                     var ctotal = 0;
-                    for (var i = 1; i < countriesdays.paises[c].length; i++) {
-                        ctotal = countriesdays.paises[c][i];
+                    for (var i = 1; i < countriesdays.paises[c].confirmed.length; i++) {
+                        ctotal = countriesdays.paises[c].confirmed[i];
                         if (i % 7 === 0) {
-                            total = countriesdays.paises[c][i - 1];
+                            total = countriesdays.paises[c].confirmed[i - 1];
                             if (total > 30) {
-                                weeksum = countriesdays.paises[c][i - 1] - prevweek;
+                                weeksum = countriesdays.paises[c].confirmed[i - 1] - prevweek;
                                 weeks.push(scaleY(weeksum));
                                 weeksum = 0;
                                 accum.push(scaleX(total));
-                                prevweek = countriesdays.paises[c][i - 1];
+                                prevweek = countriesdays.paises[c].confirmed[i - 1];
                             }
                         }
                     }

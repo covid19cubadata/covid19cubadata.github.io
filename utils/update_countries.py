@@ -15,17 +15,23 @@ def get_json_info():
     fecha = '2020-1-22'
     for c in countries:
         data = []
+        deaths = []
+        recovered = []
         started = False
         for day in countries[c]:
             if not started:
                 if day['confirmed']!=0:
                     started = True
                     data.append(day['confirmed'])
+                    deaths.append(day['deaths'])
+                    recovered.append(day['recovered'])
                     fecha = day["date"]
             else:
                 data.append(day['confirmed'])
+                deaths.append(day['deaths'])
+                recovered.append(day['recovered'])
                 fecha = day["date"]
-        inf[c] = data
+        inf[c] = {'confirmed':data,'deaths':deaths,'recovered':recovered}
     c = {"paises": inf, "dia-actualizacion": change_date(fecha)}
     return c
 
