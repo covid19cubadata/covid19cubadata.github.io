@@ -7,35 +7,68 @@ body > div {
     margin: 0 !important;
 }
 
+.navbar {
+    padding: 0 1rem 0 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.bg-light {
+    background: #D1D2D4 !important;
+}
+
+.bg-success {
+    background: #00aeef !important;
+}
+
+.bg-primary {
+    background: #005778 !important;
+}
+
+.bg-info {
+    background: #939393 !important;
+}
+
+.bg-warning {
+    background: #b11116 !important;
+}
+
+.bg-danger {
+    background: #d0797c !important;
+}
+
+.bg-dark {
+    background: #1C1340 !important;
+}
+
 .common-bg {
     background-color: #1C1340;
 }
 
 #apks-info {
-	width: 100%;
-	text-align: right;
-	margin-top: -10px;
-	margin-right: 5px;
+    border-radius: 0;
 }
 
 #apks-info > a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #1C1340;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1C1340;
 }
 
 #apks-info > a:hover {
-	color: darkgray;
+    color: darkgray;
 }
 
 .app-logo {
-	height: 20px;
-	margin-top: -10px;
+    height: 20px;
+    margin-top: -10px;
 }
 
 #map-mun, #map-pro {
     background-color: #ffffff;
-    min-height: 371px;
+    min-height: 383px;
 }
 
 #project {
@@ -81,7 +114,7 @@ body > div {
     margin-top: 5px;
 }
 
-#daily-single-info, #countries-info, #ages-info, #countries-info-pie {
+#daily-single-info, #countries-info, #ages-info, #countries-info-pie, #daily-deads-info, #daily-recovers-info {
     height: 180px;
 }
 
@@ -92,8 +125,10 @@ body > div {
     margin-right: 10px;
 }
 
-#line-charts {
-    margin-top: 10px;
+.card,
+.card-deck > .card,
+#apks-info {
+    margin-bottom: 1em;
 }
 
 #countries-container {
@@ -225,18 +260,17 @@ body > div {
     height: 260px;
 }
 
- #daily-sum-info, #tests-donut-info {
+#daily-sum-info, #tests-donut-info {
     height: 225px;
 }
 
-#tests-line-info { 
-	height: 208px;
+#tests-line-info {
+    height: 208px;
 }
 
 #countriescurve-info {
     min-height: 260px;
     margin-left: 5px;
-    text-align: center;
     margin-right: 20px;
     text-align: left;
 }
@@ -260,7 +294,16 @@ body > div {
     color: red;
 }
 
-#cusobu {
+.explain-text {
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+#curves-evolution {
+    height: 450px;
+}
+
+#cusobu, #fr, #swlx {
     height: 25px;
 }
 
@@ -268,75 +311,6 @@ body > div {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-@media screen and (max-width: 900px) {
-	#apks-info {
-		width: 100%;
-		text-align: center;
-		margin-top: -10px;
-	}
-
-
-    #first-block {
-        height: 220px;
-        margin-top: 5px;
-    }
-
-    #gen-info {
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    #map-container {
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    #sex-container, #contagio-container {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    #daily-container {
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 20px;
-    }
-
-    #countries-container {
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 20px;
-    }
-
-    #ages-container {
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 5px;
-    }
-
-    #data, #project, #date {
-        text-align: center;
-    }
-
-    #daily-container {
-        margin-left: 0px;
-    }
-
-    #countriescurve-block-container {
-        margin-left: 5px;
-    }
-
-    #countriescurve-block-container {
-        margin-top: 10px;
-    }
-
-    #countriescurve-info {
-        margin-right: 15px;
-    }
 }
 
 .card-header {
@@ -361,16 +335,132 @@ body > div {
     background-color: rgba(18, 19, 64, 0.2);
 }
 
-@media screen and (max-width: 767px) {
-    .card {
-        margin-top: 0.25rem;
+#general .card-body {
+    padding: .25em 15px;
+}
+
+#general .card-body span {
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+#general .col-lg-2 {
+    /*padding-right: 0;*/
+}
+
+#general .col-lg-2:last-child {
+    /*padding-right: 15px;*/
+}
+
+#general .card {
+    margin-bottom: 1em;
+}
+
+#general h2 {
+    text-transform: uppercase;
+    font-size: .70em;
+    font-weight: bold;
+}
+
+.navbar-stat {
+    width: 130px;
+    text-align: center;
+    padding: .5em 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-stats > .card {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width: 142px;
+}
+
+.navbar-stats > .card > .card-body {
+    padding: 5px 15px;
+    line-height: 1;
+    font-size: 2.5em;
+}
+
+.navbar-stats > .card > .card-footer {
+    padding: 2px 10px;
+    font-size: .75em;
+}
+
+.stat-number {
+    font-size: 2em;
+}
+
+.stat-number i {
+    padding: 8px;
+}
+
+.stat-label {
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+[data-view="province"] {
+    display: none !important;
+}
+
+@media (min-width: 576px) {
+
+    #stats-cards > .row > div:nth-child(odd) {
+        padding-right: 7px;
     }
 
-    .mr-xs-3 {
-        margin-right: 1rem !important;
+    #stats-cards > .row > div:nth-child(even) {
+        padding-left: 7px;
     }
 
-    .pr-xs-3 {
-        padding-right: 1rem !important;
+    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
+    #line-charts > .card-deck > section.card:nth-of-type(odd) {
+        margin-right: 7px;
+    }
+
+    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even),
+    #line-charts > .card-deck > section.card:nth-of-type(even) {
+        margin-left: 7px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #stats-cards > .row > div:nth-child(3n+1) {
+        padding-left: 15px;
+        padding-right: 7px;
+    }
+
+    #stats-cards > .row > div:nth-child(3n+2) {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    #stats-cards > .row > div:nth-child(3n+0) {
+        padding-left: 7px;
+        padding-right: 15px;
+    }
+
+    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
+    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even) {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    #tables > .card-deck > section.card:nth-of-type(odd),
+    #national-comparison > .card-deck > section.card:nth-of-type(odd),
+    #top-countries > .card-deck > section.card:nth-of-type(odd) {
+        margin-right: 7px;
+    }
+
+    #tables > .card-deck > section.card:nth-of-type(even),
+    #national-comparison > .card-deck > section.card:nth-of-type(even),
+    #top-countries > .card-deck > section.card:nth-of-type(even) {
+        margin-left: 7px;
     }
 }
