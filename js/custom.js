@@ -628,7 +628,8 @@ function run_calculations() {
                         var dias = ['Días'];
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
-                        var dailyPorcientoPositivo = ['% de Tests Positivos'];
+                        var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
+                        var dailyPorcientoPositivo = ['% de Tests Positivos Acumulados'];
                         var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
                         var deadsSum = ['Muertes acumuladas'];
@@ -1059,7 +1060,7 @@ function run_calculations() {
                         c3.generate({
                             bindto: "#daily-porciento-positivos",
                             data: {
-                                x: dates[0],
+                                x: ntest_days[0],
                                 columns: porciento,
                                 type: 'line',
                                 colors: colors
@@ -1071,7 +1072,7 @@ function run_calculations() {
                                     show: false
                                 },
                                 y: {
-                                    label: 'Casos',
+                                    label: 'Por ciento (%)',
                                     position: 'outer-middle',
                                 }
                             }
