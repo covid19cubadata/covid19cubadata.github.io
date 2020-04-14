@@ -12,6 +12,7 @@ def change_date(dat):
 def get_json_info():
     countries = requests.get('https://pomber.github.io/covid19/timeseries.json').json()
     inf =  {}
+    back_inf = {}
     fecha = '2020-1-22'
     for c in countries:
         data = []
@@ -29,10 +30,11 @@ def get_json_info():
             else:
                 data.append(day['confirmed'])
                 deaths.append(day['deaths'])
-                recovered.append(day['recovered'])
+                recovered.append(day['recovered'])               
                 fecha = day["date"]
+        back_inf[c] = data
         inf[c] = {'confirmed':data,'deaths':deaths,'recovered':recovered}
-    c = {"paises": inf, "dia-actualizacion": change_date(fecha)}
+    c = {"paises":back_inf,"paises_info": inf, "dia-actualizacion": change_date(fecha)}
     return c
 
 def main():
