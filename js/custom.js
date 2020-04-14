@@ -651,7 +651,7 @@ function run_calculations() {
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
                         var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
-                        var dailyPorcientoPositivo = ['% de Tests Positivos Acumulados'];
+                        var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
                         var deadsSum = ['Muertes acumuladas'];
@@ -675,6 +675,8 @@ function run_calculations() {
                         for( const j in pros){
                             proscurves[j]={data: [0]};
                         }
+
+                        let porc = 0;
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                             dias.push('Día ' + i);
@@ -733,7 +735,13 @@ function run_calculations() {
 
                             dailySum.push(total);
                             if (data.casos.dias[i].tests_total){
-                                dailyPorcientoPositivo.push((total * 100.0 / data.casos.dias[i].tests_total).toFixed(2));
+                                dailyPorcientoPositivoAcumulado.push((total * 100.0 / data.casos.dias[i].tests_total).toFixed(2));
+                                if (dailyPorcientoPositivo.length == 1){
+                                    dailyPorcientoPositivo.push((test_positive[porc] * 100.0 / test_cases[porc]).toFixed(2));
+                                } else {
+                                    dailyPorcientoPositivo.push(((test_positive[porc] - test_positive[porc - 1])*100.0/(test_cases[porc] - test_cases[porc - 1])).toFixed(2));
+                                };
+                                porc++;                                
                             }
                             dailyActive.push(total - (recover + deads + evac));
                             recoversSum.push(recover);
@@ -1076,8 +1084,12 @@ function run_calculations() {
 
                         let porciento = [
                             ntest_days,
+                            dailyPorcientoPositivoAcumulado,
                             dailyPorcientoPositivo,
                         ];
+
+                        console.log(dailyPorcientoPositivo);
+                        console.log(dailyPorcientoPositivoAcumulado);
 
                         c3.generate({
                             bindto: "#daily-porciento-positivos",
