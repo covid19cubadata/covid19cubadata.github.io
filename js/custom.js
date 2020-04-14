@@ -1359,23 +1359,17 @@ function run_calculations() {
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
 
-                    function getMunProfile(code, mun, pro) {
-                        var t = '';
-                        t += '<div class="small-pname"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
-                        if (code in muns) {
-                            if (muns[code].total)
-                                t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + muns[code].total + '</span></div>';
-                            else
-                                t += '<div class="small-content">No hay casos diagnosticados</div>';
-                        }
-                        t += '<div class="small-plink">&nbsp;</div>';
+                    geojsonP = L.geoJSON($.walker.province.list, {style: styleP});
 
-                        return t;
-                    }
+                    geojsonP.bindTooltip(function (layer) {
+                        return '<span class="bd">' + layer.feature.properties.province + '</span>';
+                    }, {'sticky': true});
 
-                    function getProProfile(code, pro) {
-                        var t = '';
-                        t += '<div class="small-pname"><span class="bd">' + pro + '</span></div>';
+                    geojsonP.bindPopup(function (layer) {
+                        var code = layer.feature.properties.DPA_province_code;
+                        var pro = layer.feature.properties.province;
+
+                        let t = '<div class="small-pname"><span class="bd">' + pro + '</span></div>';
                         if (code in pros) {
                             if (pros[code].total)
                                 t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + pros[code].total + '</span></div>';
@@ -1385,18 +1379,6 @@ function run_calculations() {
                         t += '<div class="small-plink">&nbsp;</div>';
 
                         return t;
-                    }
-
-                    geojsonP = L.geoJSON($.walker.province.list, {style: styleP});
-
-                    geojsonP.bindTooltip(function (layer) {
-                        return '<span class="bd">' + layer.feature.properties.province + '</span>';
-                    }, {'sticky': true});
-
-                    geojsonP.bindPopup(function (layer) {
-                        var pcode = layer.feature.properties.DPA_province_code;
-                        var pro = layer.feature.properties.province;
-                        return getProProfile(pcode, pro);
                     });
 
                     geojsonM = L.geoJSON($.walker.municipality.list, {style: styleM});
@@ -1406,10 +1388,20 @@ function run_calculations() {
                     }, {'sticky': true});
 
                     geojsonM.bindPopup(function (layer) {
-                        var mcode = layer.feature.properties.DPA_municipality_code;
+                        var code = layer.feature.properties.DPA_municipality_code;
                         var mun = layer.feature.properties.municipality;
                         var pro = layer.feature.properties.province;
-                        return getMunProfile(mcode, mun, pro);
+
+                        let t = '<div class="small-pname"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
+                        if (code in muns) {
+                            if (muns[code].total)
+                                t += '<div class="small-content"><span class="bd">Diagnosticados:</span> <span>' + muns[code].total + '</span></div>';
+                            else
+                                t += '<div class="small-content">No hay casos diagnosticados</div>';
+                        }
+                        t += '<div class="small-plink">&nbsp;</div>';
+
+                        return t;
                     });
 
                     $selector.change();
