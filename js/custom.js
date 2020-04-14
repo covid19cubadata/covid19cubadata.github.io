@@ -1047,6 +1047,32 @@ function run_calculations() {
                             }
                         });
 
+                        let porciento = [
+                            dates,
+                            dailySum,
+                        ];
+
+                        c3.generate({
+                            bindto: "#daily-porciento-positivos",
+                            data: {
+                                x: dates[0],
+                                columns: porciento,
+                                type: 'line',
+                                colors: colors
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+
                         c3.generate({
                             bindto: "#daily-deads-info",
                             data: {
