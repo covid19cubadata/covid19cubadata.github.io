@@ -1053,7 +1053,7 @@ function run_calculations() {
                         });
 
                         let porciento = [
-                            dates,
+                            ntest_days,
                             dailyPorcientoPositivo,
                         ];
 
