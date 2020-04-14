@@ -16333,9 +16333,10 @@
                     }
                 ],
                 "sujetos_riesgo": 2501,
-                "tests_total": 18864,
+                "tests_total": 18767,
                 "recuperados_numero": 11,
-                "graves_numero": 12
+                "graves_numero": 12,
+                "nota_general": "En el parte del día no coincide la suma de los tests con los números reportados previamente. Entonces asumimos los tests reportados en el día 1634 y sumados al total previo 17133 "
             }
         }
     }
