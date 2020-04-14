@@ -9,6 +9,14 @@
     <meta http-equiv="expires" content="0"/>
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
     <meta http-equiv="pragma" content="no-cache"/>
+
+    <meta property="og:title" content="Covid19 - Dashboard Cuba"/>
+    <meta property="og:description" content="Visualize los datos relacionados con Covid19 en Cuba a partir de la información oficial del MINSAP que es reportada al día siguiente."/>
+    <meta property="og:image" content="http://www.acn.cu/images/2020/ABRIL/0-10-cubadata.jpg"/>
+    <meta property="og:locale" content="es_ES"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://covid19cubadata.github.io"/>
+
     <link rel="icon" href="favico.jpeg">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/leaflet.css"/>
@@ -24,70 +32,59 @@
         <img id="logo" src="images/logo.jpg" alt="COVID-19 Cubadata">
     </a>
     <form class="card ml-auto" style="margin-bottom: 0px; margin-right: 4px">
-        <div class="card-body" style="padding: 10px 5px">
+        <div class="card-body" style="padding: 6px 5px">
             <select id="location-select" class="form-control" style="margin-top: 0px">
                 <option value="cuba">Cuba</option>
             </select>
         </div>
-        <div class="card-footer text-center text-uppercase" style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región</div>
+        <div class="card-footer text-center text-uppercase"
+             style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región
+        </div>
     </form>
-
-    <div class="navbar-stats d-none d-lg-block">
-        <p class="navbar-text navbar-stat bg-white">
-            <span class="stat-number" data-content="update"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Actualizacion</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-danger text-white">
-            <span class="stat-number" data-content="diagno"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Diagnosticados</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-warning text-white">
-            <span class="stat-number" data-content="activo"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Activos</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-success text-white">
-            <span class="stat-number" data-content="recupe"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Recuperados</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-info text-white">
-            <span class="stat-number" data-content="evacua"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Evacuados</span>
-        </p>
-        <p class="navbar-text navbar-stat bg-dark text-white">
-            <span class="stat-number" data-content="fallec"><i class="fa fa-spinner fa-spin"></i></span><br>
-            <span class="stat-label">Fallecidos</span>
-        </p>
-    </div>
-
-    <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#general">General</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#geodist">Distribución Geográfica</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#sexdist">Casos por Sexo</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#caudist">Modo de Contagio</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#agedist">Rangos Etarios</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#homdist">Nacionalidad</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#fordist">Nacionalidad (extranjeros)</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#casdist">Casos por días</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#tesmade">Tests realizados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#tesacum">Tests acumulados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#topprov">Top10 Provincias afectadas</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#topmuni">Top10 Municipios afectados</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#compari">Comparación con otros países</a></li>
-        </ul>
+    <div class="navbar-stats d-none d-xl-block">
+        <div class="card ml-auto">
+            <div class="card-body" data-content="update">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Actualizacion</div>
+        </div>
+        <div class="card ml-auto bg-danger text-white">
+            <div class="card-body" data-content="diagno">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Diagnosticados</div>
+        </div>
+        <div class="card ml-auto bg-warning text-white">
+            <div class="card-body" data-content="activo">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Activos</div>
+        </div>
+        <div class="card ml-auto bg-success text-white">
+            <div class="card-body" data-content="recupe">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Recuperados</div>
+        </div>
+        <div class="card ml-auto bg-info text-white">
+            <div class="card-body" data-content="evacua">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Evacuados</div>
+        </div>
+        <div class="card ml-auto bg-dark text-white">
+            <div class="card-body" data-content="fallec">
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+            <div class="card-footer">Fallecidos</div>
+        </div>
     </div>
 </nav>
 
 <p id="apks-info" class="alert alert-info text-center">Descargue nuestra app desde <a
         href="https://www.apklis.cu/application/club.postdata.covid19cuba">Apklis <img class="app-logo"
                                                                                        src="images/apk-apklis.png"></a>
-    o desde <a href="https://github.com/covid19cuba/covid19cuba-app/releases/download/v0.3.1/app.apk">Github
+    o desde <a href="https://github.com/covid19cuba/covid19cuba-app/releases/download/v0.5.0/app.apk">Github
         <img class="app-logo" src="images/apk-github.png"></a>.
     También puede consultar a <a href="https://telegram.me/covid19cubadata_bot">@covid19cubadata_bot <img
             class="app-logo" src="images/bot-telegram.png"></a> en Telegram.
@@ -124,7 +121,7 @@
         </table>
     </div>
 
-    <div id="stats-cards" class="d-none d-sm-block d-lg-none">
+    <div id="stats-cards" class="d-none d-sm-block d-xl-none">
         <div class="row">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="card text-center">
@@ -195,10 +192,13 @@
         <div class="col-md-9">
             <div id="geodist" class="card common-bg">
                 <div class="card-header">
-                    <span>Distribución por</span> <select id="select-map">
-                    <option select value="map-mun">Municipios</option>
-                    <option value="map-pro">Provincias</option>
-                </select>
+                    <form class="form-inline my-0">
+                        <label for="#select-map" class="mr-1">Distribución por</label>
+                        <select id="select-map" class="form-control form-control-sm">
+                            <option select value="map-mun">Municipios</option>
+                            <option value="map-pro">Provincias</option>
+                        </select>
+                    </form>
                 </div>
                 <div class="card-body p-0 pt-1 pb-1">
                     <div id="map-container">
@@ -265,7 +265,7 @@
                 <div id="daily-deads-info"></div>
             </div>
         </section>
-        <section id="agedist" class="card common-bg ">
+        <section id="agedist" class="card common-bg">
             <div class="card-header">Distribución por rangos etarios</div>
             <div class="card-body">
                 <div id="ages-info"></div>
@@ -302,7 +302,7 @@
         </section>
         <div id="countries-info-sep" class="w-100 d-none d-sm-block"></div>
         <section id="topprov" class="card common-bg ">
-            <div class="card-header">TOP10 Provincias Afectadas</div>
+            <div class="card-header">Top 10 Provincias Afectadas</div>
             <div class="card-body p-0">
                 <table id="table-pro" class="table table-striped table-sm mb-0">
                     <thead>
@@ -317,8 +317,8 @@
                 </table>
             </div>
         </section>
-        <section id="topmuni" class="card common-bg ">
-            <div class="card-header">TOP10 Municipios Afectados</div>
+        <section id="topmuni" class="card common-bg">
+            <div class="card-header">Top 10 Municipios Afectados</div>
             <div class="card-body p-0">
                 <table id="table-mun" class="table table-striped table-sm mb-0">
                     <thead>
@@ -336,10 +336,53 @@
     </div>
 </div>
 
+<div id="national-comparison" class="container-fluid">
+    <div class="card-deck">
+        <section id="proscurves" class="card common-bg">
+            <div class="card-header">
+                <form action="" class="my-0">
+                    <p class="mb-1">Comparación de los casos acumulados por provincias</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <select id="proscurve-select1" class="form-control form-control-sm mr-1"></select>
+                        </div>
+                        <div class="col-6">
+                            <select id="proscurve-select2" class="form-control form-control-sm ml-1"></select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="card-body">
+                <div id="provinces-curve"></div>
+            </div>
+        </section>
+        <section id="munscurves" class="card common-bg">
+            <div class="card-header">
+                <p class="mb-1">Comparación de los casos acumulados por municipios</p>
+                <div class="row">
+                    <div class="col-6">
+                        <select id="munscurve-select1" class="form-control form-control-sm"></select>
+                    </div>
+                    <div class="col-6">
+                        <select id="munscurve-select2" class="form-control form-control-sm"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="municipalyties-curve"></div>
+            </div>
+        </section>
+    </div>
+</div>
+
 <div class="container-fluid">
     <div id="compari" class="card common-bg">
-        <div class="card-header">Comparación de los casos acumulados de Cuba con <select
-                id="countrycurve-select"></select></div>
+        <div class="card-header">
+            <form class="form-inline my-0">
+                <label for="#countrycurve-select" class="mr-1">Comparación de los casos acumulados de Cuba con</label>
+                <select id="countrycurve-select" class="form-control form-control-sm"></select>
+            </form>
+        </div>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
@@ -396,8 +439,10 @@
 
             <div class="card-body">
                 <div class="explain-text">
-                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los casos nuevos por el total de casos
-                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un crecimeinto exponencial y cuando se
+                    El gráfico muestra a partir de 30 casos, en escala logarítmica y agrupados cada siete días, los
+                    casos nuevos por el total de casos
+                    confirmados de cada país. De esta manera, los países mientras siguen una línea recta están en un
+                    crecimeinto exponencial y cuando se
                     desvían de la recta comienzan a salir del comportamiento exponencial.
                 </div>
                 <div id="curves-evolution"></div>
@@ -445,7 +490,8 @@
         <div><a href="http://www.cusobu.nat.cu/covid/">www.cusobu.nat.cu/covid/</a> cortesía de
             <a href="http://www.cusobu.nat.cu/"><img id="cusobu" class="" src="images/logo-cusobu.png"></a>
         </div>
-        <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a> cortesía de
+        <div><a href="http://covid19.frcuba.cu">covid19.frcuba.cu</a> y <a href="http://coronavirus.frcuba.cu">coronavirus.frcuba.cu</a>
+            cortesía de
             <a href="http://www.frcuba.cu/"><img id="fr" class="" src="images/logo-fr.png"></a>
         </div>
         <div><a href="http://covidcuba.swlx.info">covidcuba.swlx.info</a> cortesía de
