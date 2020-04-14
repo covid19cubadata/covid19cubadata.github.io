@@ -628,6 +628,7 @@ function run_calculations() {
                         var dias = ['Días'];
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
+                        var dailyPorcientoPositivo = ['% de Tests Positivos'];
                         var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
                         var deadsSum = ['Muertes acumuladas'];
@@ -708,6 +709,9 @@ function run_calculations() {
                             }
 
                             dailySum.push(total);
+                            if (data.casos.dias[i].tests_total){
+                                dailyPorcientoPositivo.push((total * 100.0 / data.casos.dias[i].tests_total).toFixed(2));
+                            }
                             dailyActive.push(total - (recover + deads + evac));
                             recoversSum.push(recover);
                             deadsSum.push(deads);
@@ -1049,7 +1053,7 @@ function run_calculations() {
 
                         let porciento = [
                             dates,
-                            dailySum,
+                            dailyPorcientoPositivo,
                         ];
 
                         c3.generate({
