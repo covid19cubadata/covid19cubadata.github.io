@@ -246,7 +246,7 @@
 </div>
 
 <div id="line-charts" class="container-fluid">
-    <div class="card-deck">
+    <div class="card-deck card-deck-3">
         <section id="casdist" class="card common-bg">
             <div class="card-header">Evolución de casos por días</div>
             <div class="card-body">
@@ -259,20 +259,23 @@
                 <div id="daily-recovers-info"></div>
             </div>
         </section>
-        <div data-class="" class="w-100 d-none d-sm-block"></div>
+        
         <section id="deadist" class="card common-bg">
             <div class="card-header">Evolución de muertes por días</div>
             <div class="card-body">
                 <div id="daily-deads-info"></div>
             </div>
         </section>
+        </div>
+
+		<div class="card-deck card-deck-3">
         <section id="agedist" class="card common-bg ">
             <div class="card-header">Distribución por rangos etarios</div>
             <div class="card-body">
                 <div id="ages-info"></div>
             </div>
         </section>
-        <div class="w-100 d-none d-sm-block"></div>
+		
         <section id="homdist" class="card common-bg ">
             <div class="card-header">Casos por nacionalidad</div>
             <div class="card-body">
@@ -286,6 +289,8 @@
             </div>
         </section>
         <div data-class="" class="w-100 d-none d-sm-block"></div>
+    </div>
+    <div id="tests-deck" class="card-deck card-deck-3">
         <section id="tesmade-pcr" class="card common-bg">
             <div class="card-header">Relación de tests (PCR) realizados</div>
             <div class="card-body">
@@ -301,6 +306,7 @@
                 </div>
             </div>
         </section>
+        <div class="w-100 d-none d-sm-block d-lg-none"></div>
         <section id="testspor" class="card common-bg">
             <div class="card-header">% Tests Positivos con respecto a Total de Tests (PCR)</div>
             <div class="card-body">
@@ -310,7 +316,8 @@
                 </div>
             </div>
         </section>
-        <div id="countries-info-sep" class="w-100 d-none d-sm-block"></div>
+    </div>
+    <div class="card-deck card-deck-2">
         <section id="topprov" class="card common-bg ">
             <div class="card-header">Top 10 Provincias Afectadas</div>
             <div class="card-body p-0">
