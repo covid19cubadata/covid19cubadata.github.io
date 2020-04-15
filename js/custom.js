@@ -198,6 +198,27 @@ var trans_countries = {
     'Fiji': 'Fiyi',
 };
 
+
+province_order = {
+    'unk': 16,
+    'lha': 2,
+    'mat': 4,
+    'cfg': 6,
+    'ssp': 7,
+    'ltu': 10,
+    'hol': 12,
+    'gra': 11,
+    'stg': 13,
+    'ijv': 15,
+    'cam': 9,
+    'cav': 8,
+    'vcl': 5,
+    'gtm': 14,
+    'pri': 0,
+    'art': 1,
+    'may': 3
+}
+
 var map_mun = L.map('map-mun', {
     center: [21.5, -79.371124],
     zoom: 15,
@@ -252,9 +273,9 @@ $.walker = {
             }
             $('#proscurve-select1').find('option').remove();
             sorteddata.sort(function(a,b){
-                if (a.province < b.province)
+                if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
-                else if (a.province == b.province)
+                else if (province_order[a.province_id] == province_order[b.province_id])
                     return 0;
                 else
                     return 1;
@@ -299,9 +320,9 @@ $.walker = {
             }
             $('#munscurve-select1').find('option').remove();
             sorteddata.sort(function(a,b){
-                if (a.province < b.province)
+                if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
-                else if (a.province == b.province)
+                else if (province_order[a.province_id] == province_order[b.province_id])
                     return 0;
                 else
                     return 1;
@@ -770,14 +791,14 @@ function run_calculations() {
                         });
 
                         var countrysorted = [];
-                        for (var c in countriesdays.paises) {
-                            if ((countriesdays.paises[c].length + 1) >= cuba.length) {
+                        for (var c in countriesdays.paises_info) {
+                            if ((countriesdays.paises_info[c].confirmed.length + 1) >= cuba.length) {
                                 if (!(c in trans_countries))
                                     trans_countries[c] = c;
                                 var c_temp = [trans_countries[c]];
                                 var d_temp = ['Días'];
-                                for (var i = 1; i < countriesdays.paises[c].length; i++) {
-                                    c_temp.push(countriesdays.paises[c][i]);
+                                for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                                    c_temp.push(countriesdays.paises_info[c].confirmed[i]);
                                     d_temp.push('Día ' + i);
                                 }
                                 curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
@@ -1438,7 +1459,7 @@ function run_calculations() {
                     return Math.log10(num);
                 }
 
-                for (var c in countriesdays.paises) {
+                for (var c in countriesdays.paises_info) {
                     let c_trans = c in trans_countries ? trans_countries[c] : c;
                     var weeksum = 0;
                     var weeks = [c_trans];
@@ -1446,16 +1467,16 @@ function run_calculations() {
                     var prevweek = 0;
                     var total = 0;
                     var ctotal = 0;
-                    for (var i = 1; i < countriesdays.paises[c].length; i++) {
-                        ctotal = countriesdays.paises[c][i];
+                    for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                        ctotal = countriesdays.paises_info[c].confirmed[i];
                         if (i % 7 === 0) {
-                            total = countriesdays.paises[c][i - 1];
+                            total = countriesdays.paises_info[c].confirmed[i - 1];
                             if (total > 30) {
-                                weeksum = countriesdays.paises[c][i - 1] - prevweek;
+                                weeksum = countriesdays.paises_info[c].confirmed[i - 1] - prevweek;
                                 weeks.push(scaleY(weeksum));
                                 weeksum = 0;
                                 accum.push(scaleX(total));
-                                prevweek = countriesdays.paises[c][i - 1];
+                                prevweek = countriesdays.paises_info[c].confirmed[i - 1];
                             }
                         }
                     }
