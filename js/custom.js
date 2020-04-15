@@ -236,7 +236,7 @@ var map_mun = L.map('map-mun', {
     touchZoom: true,
     zoomSnap: 0.05,
 });
-var geojsonM = null, geojsonP = null;
+var geojsonM = null, geojsonP = null, start_selection = window.location.hash.replace('#', '');
 map_mun.zoomControl.setPosition('topright');
 
 $.walker = {
@@ -247,6 +247,39 @@ $.walker = {
                 map_mun.removeLayer(geojsonM);
             if (geojsonP)
                 map_mun.removeLayer(geojsonP);
+        }
+    },
+
+    view: {
+        update: function () {
+            $cards.show();
+            $selector.show();
+            $selector_span.html('Distribución por');
+            $('[data-class]').each(function () {
+                $(this).attr('class', $(this).data('class'));
+            });
+            if ($locator.val() !== 'cuba') {
+                $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
+                $cards.hide();
+                $selector.val("map-mun");
+                $selector.hide();
+                $('[data-class]').attr('class', '');
+            }
+            $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=evacua]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
+
+            const general_view = $locator.val() === 'cuba';
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves');
+            if (general_view) {
+                $('#munscurves').css({'margin-left': ''});
+                $generals.show();
+            } else {
+                $('#munscurves').css({'margin-left': '15px'});
+                $generals.hide();
+            }
         }
     },
     load: function (url, callback) {
@@ -274,7 +307,7 @@ $.walker = {
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
-            $('#proscurve-select1').find('option').remove();
+            // $('#proscurve-select1').find('option').remove();
             sorteddata.sort(function (a, b) {
                 if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
@@ -357,16 +390,11 @@ function logx(base, x) {
 
 function run_calculations() {
     let province_id = $locator.val();
-    const general_view = $locator.val() === 'cuba';
+    let general_view = $locator.val() === 'cuba';
     if (general_view)
         province_id = $selector.val();
 
-    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves');
-    if (general_view)
-        $generals.show();
-    else
-        $generals.hide();
-
+    $.walker.view.update();
     let contagio = {
         'importado': 0,
         'introducido': 0,
@@ -379,6 +407,14 @@ function run_calculations() {
             $.walker.load("data/provincias.geojson", function (provincias) {
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
+
+                if (start_selection !== 'cuba' && $.walker.province.findById(start_selection)) {
+                    province_id = start_selection;
+                    $locator.val(province_id);
+                }
+                start_selection = false;
+                $.walker.view.update();
+                general_view = $locator.val() === 'cuba';
 
                 $.walker.load("data/municipios.geojson", function (municipios) {
                     $.walker.municipality.list = municipios;
@@ -1531,24 +1567,9 @@ $('[data-class]').each(function () {
 
 let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe]').parent();
 $locator.change(function () {
-    $cards.show();
-    $selector.show();
-    $selector_span.html('Distribución por');
-    $('[data-class]').each(function () {
-        $(this).attr('class', $(this).data('class'));
-    });
-    if ($locator.val() !== 'cuba') {
-        $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
-        $cards.hide();
-        $selector.val("map-mun");
-        $selector.hide();
-        $('[data-class]').attr('class', '');
-    }
-    $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=evacua]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
+    $.walker.view.update();
+    if (!start_selection)
+        window.location.hash = this.value;
 
     setTimeout(function () {
         $.walker.map.clear();
