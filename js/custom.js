@@ -707,8 +707,6 @@ function run_calculations() {
                             proscurves[j] = {data: [0]};
                         }
 
-                        let porc = 0;
-
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                             dias.push('Día ' + i);
                             dates.push(data.casos.dias[i].fecha.replace('2020/', ''));
@@ -765,19 +763,22 @@ function run_calculations() {
                             }
 
                             dailySum.push(total);
-                            if (data.casos.dias[i].tests_total){
-                                dailyPorcientoPositivoAcumulado.push((total * 100.0 / data.casos.dias[i].tests_total).toFixed(2));
-                                if (dailyPorcientoPositivo.length == 1){
-                                    dailyPorcientoPositivo.push((test_positive[porc] * 100.0 / test_cases[porc]).toFixed(2));
-                                } else {
-                                    dailyPorcientoPositivo.push(((test_positive[porc] - test_positive[porc - 1])*100.0/(test_cases[porc] - test_cases[porc - 1])).toFixed(2));
-                                };
-                                porc++;                                
-                            }
                             dailyActive.push(total - (recover + deads + evac));
                             recoversSum.push(recover);
                             deadsSum.push(deads);
                             cuba.push(total);
+                        }
+
+                        // Por ciento de Tests Positivos en el Día y Acumulado
+
+                        for (var i = 0; i < test_days.length; i++) {
+                            if (i == 0){
+                                dailyPorcientoPositivo.push(null);
+                                dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
+                            } else {
+                                dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1])*100.0/(test_cases[i] - test_cases[i - 1])).toFixed(2));
+                                dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
+                            };
                         }
 
                         var ntest_days = ['Fecha'];
@@ -1118,9 +1119,6 @@ function run_calculations() {
                             dailyPorcientoPositivoAcumulado,
                             dailyPorcientoPositivo,
                         ];
-
-                        console.log(dailyPorcientoPositivo);
-                        console.log(dailyPorcientoPositivoAcumulado);
 
                         c3.generate({
                             bindto: "#daily-porciento-positivos",
