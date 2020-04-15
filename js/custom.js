@@ -1472,6 +1472,8 @@ function run_calculations() {
                     var ctotal = 0;
                     for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
                         ctotal = countriesdays.paises_info[c].confirmed[i];
+                        crecovered = countriesdays.paises_info[c].recovered[i];
+                        cdeaths = countriesdays.paises_info[c].deaths[i];
                         if (i % 7 === 0) {
                             total = countriesdays.paises_info[c].confirmed[i - 1];
                             if (total > 30) {
@@ -1483,7 +1485,7 @@ function run_calculations() {
                             }
                         }
                     }
-                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal};
+                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal,'crecovered':crecovered,'cdeaths':cdeaths};
                     countrysorted2.push(c_trans);
                 }
 
@@ -1505,10 +1507,14 @@ function run_calculations() {
 
                     var row = ("<tr><td>{ranking}</td>" +
                         "<td>{country}</td>" +
-                        "<td>{cases}</td></tr>")
+                        "<td>{cases}</td>"+
+                        "<td>{recovers}</td>"+
+                        "<td>{deaths}</td></tr>")
                         .replace("{ranking}", i + 1)
                         .replace("{country}", curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0])
-                        .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
+                        .replace('{cases}', curves2[countrysorted2[i]]['ctotal'])
+                        .replace('{recovers}', curves2[countrysorted2[i]]['crecovered'])
+                        .replace('{deaths}', curves2[countrysorted2[i]]['cdeaths']);
                     $table_country.append(row);
                 }
 
