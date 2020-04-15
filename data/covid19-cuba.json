@@ -1958,7 +1958,7 @@
                     {
                         "id": "cu-51",
                         "pais": "cu",
-                        "edad": 92,
+                        "edad": 91,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": "2020/03/18",
@@ -1972,6 +1972,7 @@
                         "centro_diagnostico": "lvc",
                         "posible_procedencia_contagio": [],
                         "info": "Ciudadana cubana de 92 años de edad, con residencia en el municipio Santa Clara, provincia Villa Clara. Se encontraba ingresada desde el 18 del propio mes en el Hospital “Manuel Piti Fajardo” por ser contacto de un caso confirmado. Se mantienen en vigilancia 13 contactos.",
+                        "nota": "Cambia la edad a partir de verificar la información con el MINSAP y es coincidente con la edad en el reporte de su fallecimiento",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
@@ -2934,8 +2935,9 @@
                     }
                 ],
                 "sujetos_riesgo": 2000,
-                "muertes_numero": 1,
-                "tests_total": 1368
+                "muertes_numero": 0,
+                "tests_total": 1368,
+                "nota_general": "El paciente reportado como fallecido en el parte del 27 correspondía realmente con la fecha del 28 por eso se cambió de fecha"
             },
             "18": {
                 "fecha": "2020/03/28",
@@ -3367,7 +3369,10 @@
                 ],
                 "sujetos_riesgo": 2317,
                 "tests_total": 1665,
-                "graves_numero": 5
+                "graves_numero": 5,
+                "muertes_numero": 2,
+                "muertes_id": ["cu-72","cu-141"],
+                "nota_general": "El fallecido cu-72 aquí fue reubicado en esta fecha acorde a la información del MINSAP mientras que cu-141 también falleció en esta fecha pero fue confirmado el día siguiente"
             },
             "19": {
                 "fecha": "2020/03/29",
@@ -4037,10 +4042,8 @@
                 ],
                 "sujetos_riesgo": 2681,
                 "tests_total": 2007,
-                "muertes_numero": 1,
-                "muertes_id": [
-                    "cu-141"
-                ]
+                "muertes_numero": 0,
+                "nota_general": "El paciente reportado como fallecido en este parte fue confirmado en esta fecha pero realmente falleció el día anterior y se reubicó allí"
             },
             "20": {
                 "fecha": "2020/03/30",
@@ -4406,7 +4409,8 @@
                     "cu-2"
                 ],
                 "graves_numero": 6,
-                "recuperados_numero": 4
+                "recuperados_numero": 4,
+                "nota_general": "Existen inconsistencias respecto al fallecido cu-151, no coincide el reporte del parte con respecto a datos del MINSAP. Se dejó acorde al parte hasta que se pueda discernir mejor."
             },
             "21": {
                 "fecha": "2020/03/31",
@@ -6153,7 +6157,12 @@
                 "sujetos_riesgo": 3241,
                 "tests_total": 4145,
                 "recuperados_numero": 2,
-                "graves_numero": 8
+                "graves_numero": 8,
+                "muertes_numero": 1,
+                "muertes_id": [
+                    "cu-278"
+                ],
+                "nota_general": "El paciente cu-278 fue confirmado el día 4 pero en el parte se reporta que realmente falleció el día 2, que muestra inconsistencia con otra información del MINSAP. Hasta que no se pueda discernir quedará acorde al parte."
             },
             "24": {
                 "fecha": "2020/04/03",
@@ -7224,12 +7233,11 @@
                 "tests_total": 6403,
                 "sujetos_riesgo": 1887,
                 "evacuados_numero": 1,
-                "muertes_numero": 2,
+                "muertes_numero": 1,
                 "muertes_id": [
-                    "cu-277",
                     "cu-35"
                 ],
-                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 6403"
+                "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 6403. El paciente cu-278 reportado este día falleció días antes, sin embargo la fecha no coincide entre el parte e información del MINSAP, por tanto se reubicó y se dejó con la fecha de fallecimiento del parte: 2 de abril."
             },
             "26": {
                 "fecha": "2020/04/05",
@@ -7853,8 +7861,11 @@
                 "sujetos_riesgo": 1718,
                 "recuperados_numero": 3,
                 "muertes_numero": 1,
+                "muertes_id":[
+                    "cu-303"
+                ],
                 "tests_total": 7167,
-                "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy"
+                "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy. El paciente cu-303 muestra inconsistencias con respecto a la fecha de fallecimiento con respecto a otra información y, por tanto, se dejó la información del parte hasta que se pueda discernir"
             },
             "27": {
                 "fecha": "2020/04/06",
@@ -8795,6 +8806,10 @@
                 "sujetos_riesgo": 1752,
                 "recuperados_numero": 9,
                 "muertes_numero": 2,
+                "muertes_id": [
+                    "cu-246",
+                    "cu-272"
+                ],
                 "tests_total": 8223,
                 "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy. En el parte del día siguiente se cambió el status de un paciente reportado como evacuado a alta médica"
             },
@@ -10046,6 +10061,9 @@
                 ],
                 "sujetos_riesgo": 1732,
                 "muertes_numero": 1,
+                "muertes_id": [
+                    "cu-310"
+                ], 
                 "tests_total": 9410,
                 "nota_general": "Hoy fue rectificado el número total de pruebas en el parte y la rectificación es coherente con las cifras que habíamos mantenido días previos "
             },
@@ -11248,7 +11266,11 @@
                 "sujetos_riesgo": 1860,
                 "recuperados_numero": 1,
                 "muertes_numero": 3,
-                "graves_numero": 16
+                "muertes_id": [
+                    "cu-29", "cu-451", "cu-477"
+                ],
+                "graves_numero": 16,
+                "nota_general": "Las fechas de muertes muestran aglunas diferencias con datos del MINSAP y se dejaron tal cual aparecen en el parte del propio MINSAP"
             },
             "30": {
                 "fecha": "2020/04/09",
@@ -13386,7 +13408,8 @@
                 "tests_total": 13162,
                 "recuperados_numero": 26,
                 "graves_numero": 12,
-                "muertes_numero": 1
+                "muertes_numero": 1,
+                "muertes_id": ["cu-51"]
             },
             "32": {
                 "fecha": "2020/04/11",
@@ -14376,7 +14399,12 @@
                 "tests_total": 15057,
                 "recuperados_numero": 15,
                 "graves_numero": 14,
-                "muertes_numero": 2
+                "muertes_numero": 2,
+                "muertes_id":[
+                    "cu-592",
+                    "cu-593"
+                ],
+                "nota_general": "No existe coincidencia entre varias informaciones del minsap, por lo que se dejó el día del parte hasta que se pueda discernir"
             },
             "33": {
                 "fecha": "2020/04/12",
@@ -15528,7 +15556,12 @@
                 "tests_total": 17133,
                 "recuperados_numero": 29,
                 "graves_numero": 14,
-                "muertes_numero": 3
+                "muertes_numero": 3,
+                "muertes_id":[
+                    "cu-306",
+                    "cu-666"
+                ],
+                "nota_general": "Aun no es posible identificar el fallecido cubano de 83 años residente en España"
             },
             "34": {
                 "fecha": "2020/04/13",
