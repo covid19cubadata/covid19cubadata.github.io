@@ -1,9 +1,9 @@
+<!doctype html>
 <html lang="es">
-
 <head>
     <title>Covid19 - Dashboard Cuba </title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta http-equiv="cache-control" content="max-age=0"/>
     <meta http-equiv="cache-control" content="no-cache"/>
     <meta http-equiv="expires" content="0"/>
@@ -395,25 +395,129 @@
 <div class="container-fluid">
     <div id="compari" class="card common-bg">
         <div class="card-header">
-            <form class="form-inline my-0">
-                <label for="countrycurve-select" class="mr-1">Comparación de los casos acumulados de Cuba con</label>
-                <select id="countrycurve-select" class="form-control form-control-sm"></select>
+            <form class="form-inline mb-0 mt-1">
+                <label for="countrycurve-select">Comparación de Cuba con</label>
+                <select id="countrycurve-select" class="form-control form-control-sm ml-1"></select>
             </form>
+            <ul class="nav nav-tabs nav-justified card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#tab-confirmados">
+                        <i class="fa fa-users d-block d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none d-sm-block d-md-none d-lg-block">Confirmados</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-activos">
+                        <i class="fa fa-heartbeat d-block d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none d-sm-block d-md-none d-lg-block">Activos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-diarios">
+                        <i class="fa fa-calendar d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none  d-sm-block d-md-none d-lg-block">Diarios</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-recuperados">
+                        <i class="fa fa-heart d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none  d-sm-block d-md-none d-lg-block">Recuperados</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-fallecidos">
+                        <i class="fa fa-heart-broken d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none  d-sm-block d-md-none d-lg-block">Fallecidos</span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="card-body">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-block sub">
-                        Comparación en general
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-confirmados" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Confirmados</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-confirmados"></div>
+                        </div>
+                        <div id="countries-comparison-confirmados-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-confirmados"></div>
+                        </div>
                     </div>
-                    <div id="countries-curve"></div>
-
                 </div>
-                <div id="countries-comparison-container" class="col-md-6">
-                    <div class="text-block sub">
-                        Comparación en el período de Cuba
+                <div class="tab-pane fade" id="tab-activos" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Activos</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-activos"></div>
+                        </div>
+                        <div id="countries-comparison-activos-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-activos"></div>
+                        </div>
                     </div>
-                    <div id="countries-comparison"></div>
+                </div>
+                <div class="tab-pane fade" id="tab-diarios" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Diarios</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-diarios"></div>
+                        </div>
+                        <div id="countries-comparison-diarios-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-diarios"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-recuperados" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Recuperados</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-recuperados"></div>
+                        </div>
+                        <div id="countries-comparison-recuperados-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-recuperados"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-fallecidos" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Fallecidos</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-fallecidos"></div>
+                        </div>
+                        <div id="countries-comparison-fallecidos-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-comparison-fallecidos"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="map-quote">
