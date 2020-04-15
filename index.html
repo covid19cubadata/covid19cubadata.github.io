@@ -246,7 +246,7 @@
 </div>
 
 <div id="line-charts" class="container-fluid">
-    <div class="card-deck">
+    <div class="card-deck card-deck-2">
         <section id="casdist" class="card common-bg">
             <div class="card-header">Evolución de casos por días</div>
             <div class="card-body">
@@ -286,6 +286,8 @@
             </div>
         </section>
         <div data-class="" class="w-100 d-none d-sm-block"></div>
+    </div>
+    <div id="tests-deck" class="card-deck card-deck-3">
         <section id="tesmade-pcr" class="card common-bg">
             <div class="card-header">Relación de tests (PCR) realizados</div>
             <div class="card-body">
@@ -301,6 +303,7 @@
                 </div>
             </div>
         </section>
+        <div class="w-100 d-none d-sm-block d-lg-none"></div>
         <section id="testspor" class="card common-bg">
             <div class="card-header">% Tests Positivos con respecto a Total de Tests (PCR)</div>
             <div class="card-body">
@@ -310,7 +313,8 @@
                 </div>
             </div>
         </section>
-        <div id="countries-info-sep" class="w-100 d-none d-sm-block"></div>
+    </div>
+    <div class="card-deck card-deck-2">
         <section id="topprov" class="card common-bg ">
             <div class="card-header">Top 10 Provincias Afectadas</div>
             <div class="card-body p-0">
@@ -389,7 +393,7 @@
     <div id="compari" class="card common-bg">
         <div class="card-header">
             <form class="form-inline my-0">
-                <label for="#countrycurve-select" class="mr-1">Comparación de los casos acumulados de Cuba con</label>
+                <label for="countrycurve-select" class="mr-1">Comparación de los casos acumulados de Cuba con</label>
                 <select id="countrycurve-select" class="form-control form-control-sm"></select>
             </form>
         </div>
