@@ -423,14 +423,25 @@ body > div {
     }
 
     #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
-    #line-charts > .card-deck > section.card:nth-of-type(odd) {
+    #line-charts > .card-deck-2 > section.card:nth-of-type(odd) {
         margin-right: 7px;
     }
 
     #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even),
-    #line-charts > .card-deck > section.card:nth-of-type(even) {
+    #line-charts > .card-deck-2 > section.card:nth-of-type(even) {
         margin-left: 7px;
     }
+
+    .card-deck-3 > .card:nth-child(1) {
+        margin-left: 15px;
+        margin-right: 7px !important;
+    }
+
+    .card-deck-3 > .card:nth-child(2) {
+        margin-left: 7px !important;
+        margin-right: 15px !important;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -467,4 +478,24 @@ body > div {
     #top-countries > .card-deck > section.card:nth-of-type(even) {
         margin-left: 7px;
     }
+
 }
+
+@media (min-width: 992px) {
+
+    .card-deck-3 > .card:nth-of-tpe(3n+1) {
+        margin-left: 15px;
+        margin-right: 7px !important;
+    }
+
+    .card-deck-3 > .card:nth-of-type(3n+2) {
+        margin-left: 7px !important;
+        margin-right: 7px !important;
+    }
+
+    .card-deck-3 > .card:nth-of-type(3n+0) {
+        margin-left: 7px !important;
+        margin-right: 15px !important;
+    }
+}
+
