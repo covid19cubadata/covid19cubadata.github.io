@@ -422,6 +422,10 @@ body > div {
     margin-bottom: 1em;
 }
 
+#compari .fa{
+    line-height: 1.3;
+}
+
 @media (min-width: 576px) {
 
     #stats-cards > .row > div:nth-child(odd) {
@@ -480,7 +484,7 @@ body > div {
 }
 
 @media(min-width: 768px){
-    #compari > .card-header > .py-1{
+    #compari > .card-header > form{
         float: left;
     }
 

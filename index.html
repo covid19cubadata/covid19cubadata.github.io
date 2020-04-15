@@ -379,31 +379,32 @@
 <div class="container-fluid">
     <div id="compari" class="card common-bg">
         <div class="card-header">
-            <div class="py-1">
-                Comparación de Cuba con <select id="countrycurve-select"></select>
-            </div>
+            <form class="form-inline mb-0 mt-1">
+                <label for="countrycurve-select">Comparación de Cuba con</label>
+                <select id="countrycurve-select" class="form-control form-control-sm ml-1"></select>
+            </form>
             <ul class="nav nav-tabs nav-justified card-header-tabs">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#tab-confirmados">
-                        <i class="fa fa-heartbeat d-block d-sm-none d-md-block d-lg-none"></i> <span
+                        <i class="fa fa-users d-block d-sm-none d-md-block d-lg-none"></i> <span
                             class="d-none d-sm-block d-md-none d-lg-block">Confirmados</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#tab-activos">
-                        <i class="fa fa-heart d-block d-sm-none d-md-block d-lg-none"></i> <span
+                        <i class="fa fa-heartbeat d-block d-sm-none d-md-block d-lg-none"></i> <span
                             class="d-none d-sm-block d-md-none d-lg-block">Activos</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#tab-diarios">
-                        <i class="fa fa-heart-broken d-sm-none d-md-block d-lg-none"></i> <span
+                        <i class="fa fa-calendar d-sm-none d-md-block d-lg-none"></i> <span
                             class="d-none  d-sm-block d-md-none d-lg-block">Diarios</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#tab-recuperados">
-                        <i class="fa fa-heart-broken d-sm-none d-md-block d-lg-none"></i> <span
+                        <i class="fa fa-heart d-sm-none d-md-block d-lg-none"></i> <span
                             class="d-none  d-sm-block d-md-none d-lg-block">Recuperados</span>
                     </a>
                 </li>
@@ -418,6 +419,7 @@
         <div class="card-body">
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="tab-confirmados" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Confirmados</p>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="text-block sub">
@@ -434,6 +436,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tab-activos" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Activos</p>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="text-block sub">
@@ -450,6 +453,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tab-diarios" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Diarios</p>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="text-block sub">
@@ -466,6 +470,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tab-recuperados" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Recuperados</p>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="text-block sub">
@@ -482,6 +487,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tab-fallecidos" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Fallecidos</p>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="text-block sub">
