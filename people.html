@@ -4,109 +4,213 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="js/jui/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="js/gijgo/gijgo.min.css"/>
+    <link rel="stylesheet" href="js/datatables/datatables.min.css"/>
 </head>
 <body>
 
 <div class="container-fluid">
 
+    <form id="filter-form" class="card my-4">
+        <div class="card-header">Filtrar casos</div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="date-start">Desde</label>
+                        <input id="date-start" type="text" name="date_start" class="form-control form-control-sm"
+                               value=""/>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="date-end">Hasta</label>
+                        <input id="date-end" type="text" name="date_end" class="form-control form-control-sm" value=""/>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="nationality">Nacionalidad</label>
+                        <select name="nationality" id="nationality" class="form-control form-control-sm"></select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="province">Provincia</label>
+                        <select name="province" id="province" class="form-control form-control-sm">
+                            <option>-- Cualquiera --</option>
+                            <option value="pri">Pinar del Río</option>
+                            <option value="pri">Artemisa</option>
+                            <option value="pri">La Habana</option>
+                            <option value="pri">Mayabeque</option>
+                            <option value="pri">Matanzas</option>
+                            <option value="pri">Villa Clara</option>
+                            <option value="pri">Cienfuegos</option>
+                            <option value="pri">Sancti Spíritus</option>
+                            <option value="pri">Ciego de Ávila</option>
+                            <option value="pri">Camagüey</option>
+                            <option value="pri">Las Tunas</option>
+                            <option value="pri">Holguín</option>
+                            <option value="pri">Granma</option>
+                            <option value="pri">Santiago de Cuba</option>
+                            <option value="pri">Guantánamo</option>
+                            <option value="pri">Isla de la Juventud</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="municipe">Municipio</label>
+                        <select name="municipe" id="municipe" class="form-control form-control-sm"></select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="sexo">Sexo</label>
+                        <select name="sexo" id="sexo" class="form-control form-control-sm">
+                            <option value="">Ambos</option>
+                            <option value="mujer">Mujer</option>
+                            <option value="hombre">Hombre</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row mt-2">
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="age-start">Desde</label>
+                                <input type="text" id="age-start" class="form-control form-control-sm" readonly
+                                       name="age_start"
+                                       value="1"/>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <label class="mb-3">Rango de Edad</label>
+                            <div id="slider-age"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="age-end">Hasta</label>
+                                <input type="text" id="age-end" class="form-control form-control-sm" readonly
+                                       name="age_end"
+                                       value="120"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <input type="submit" value="Buscar" class="btn btn-primary"/>
+        </div>
+    </form>
+
     <table id="datatable" class="table table-condensed table-striped">
-        <thead>
-        <tr>
-            <th>Fecha</th>
-            <th>Nacionalidad</th>
-            <th>Provincia</th>
-            <th>Municipio</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-        </tr>
-        </thead>
-        <tbody></tbody>
     </table>
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/datatables/datatables.min.js"></script>
 <script type="text/javascript" src="js/underscore-min.js"></script>
 <script type="text/javascript">
+    let dateFormat = "dd/mm/yy";
     $(function () {
-        $.get('data/covid19-cuba.json', function (data) {
-            let cuba_ages = {
-                acum: 0,
-                q: 0,
-                hacum: 0,
-                hq: 0,
-                macum: 0,
-                mq: 0
-            };
 
-            let ages = {};
-            let $tbody = $('#datatable > tbody');
-            _.each(data.casos.dias, function (dia) {
-                let fecha = dia.fecha;
-                _.each(dia.diagnosticados, function (diag) {
-                    let tr = "<tr>" +
-                        "<td>{fecha}</td>".replace('{fecha}', fecha) +
-                        "<td>{nacionalidad}</td>".replace('{nacionalidad}', diag.pais) +
-                        "<td>{provincia}</td>".replace('{provincia}', diag['provincia_detección']) +
-                        "<td>{municipio}</td>".replace('{municipio}', diag['municipio_detección']) +
-                        "<td>{sexo}</td>".replace('{sexo}', diag.sexo) +
-                        "<td>{edad}</td>".replace('{edad}', diag.edad) +
-                        "</tr>"
-
-                    cuba_ages.acum += diag.edad;
-                    cuba_ages.q++;
-
-                    if (diag.sexo == 'hombre') {
-                        cuba_ages.hacum += diag.edad;
-                        cuba_ages.hq++;
-                    } else {
-                        cuba_ages.macum += diag.edad;
-                        cuba_ages.mq++;
-                    }
-
-                    if (ages[diag['provincia_detección']] == undefined) {
-                        ages[diag['provincia_detección']] = {
-                            acum: 0,
-                            q: 0,
-                            hacum: 0,
-                            hq: 0,
-                            macum: 0,
-                            mq: 0
-                        };
-                    }
-
-                    ages[diag['provincia_detección']].acum+=diag.edad;
-                    ages[diag['provincia_detección']].q++;
-
-                    if (diag.sexo == 'hombre') {
-                        ages[diag['provincia_detección']].hacum += diag.edad;
-                        ages[diag['provincia_detección']].hq++;
-                    } else {
-                        ages[diag['provincia_detección']].macum += diag.edad;
-                        ages[diag['provincia_detección']].mq++;
-                    }
-
-                    $tbody.append(tr);
-                });
-            });
-            console.log({
-                general: cuba_ages.acum / cuba_ages.q,
-                hombres: cuba_ages.hacum / cuba_ages.hq,
-                mujeres: cuba_ages.macum / cuba_ages.mq
-            });
-            // console.log(ages);
-            console.log(_.map(ages, (item, index) => {
-                return {
-                    aplace: index,
-                    gavg: item.acum / item.q,
-                    gq: item.q,
-                    havg: item.hacum/item.hq,
-                    hq: item.hq,
-                    mavg: item.macum/item.mq,
-                    mg: item.mq,
-                };
-            }));
+        $datatable = $('#datatable').DataTable({
+            data: [],
+            columns: [
+                {title: "Fecha"},
+                {title: "Nacionalidad"},
+                {title: "Provincia"},
+                {title: "Municipio"},
+                {title: "Sexo"},
+                {title: "Edad"}
+            ]
         });
+
+        let $dateStart = $("#date-start");
+        let $dateEnd = $("#date-end");
+
+        let startDatePicker = $dateStart.datepicker({
+            defaultDate: "11/03/2020",
+            dateFormat: "dd/mm/yy",
+            minDate: "11/03/2020",
+        }).on("change", function () {
+            endDatePicker.datepicker("option", "minDate", getDate(this));
+        });
+
+        let endDatePicker = $dateEnd.datepicker({
+            defaultDate: 0,
+            dateFormat: "dd/mm/yy",
+            maxDate: new Date(),
+        }).on("change", function () {
+            startDatePicker.datepicker("option", "maxDate", getDate(this));
+        });
+
+        let $ageStart = $("#age-start");
+        let $ageEnd = $("#age-end");
+
+        $("#slider-age").slider({
+            range: true,
+            min: 1,
+            max: 120,
+            values: [1, 120],
+            slide: function (event, ui) {
+                $ageStart.val(ui.values[0]);
+                $ageEnd.val(ui.values[1]);
+            }
+        });
+
+        $(document).on('submit', '#filter-form', function (e) {
+            e.preventDefault();
+            let filter = {};
+            _.each($(this).serializeArray(), function (item) {
+                filter[item.name] = item.value;
+            });
+
+            let dataSet = [];
+            $.get('data/covid19-cuba.json', function (data) {
+                _.each(data.casos.dias, function (dia) {
+                    let fecha = dia.fecha;
+                    _.each(dia.diagnosticados, function (diag) {
+
+                        console.log(filter.sexo);
+                        if (
+                            true
+                            && (filter.age_start == "" || diag.edad >= filter.age_start)
+                            && (filter.age_end == "" || diag.edad <= filter.age_end)
+                            && (filter.sexo == "" || diag.sexo == filter.sexo)
+                        ) {
+                            dataSet.push([fecha, diag.pais, diag['provincia_detección'], diag['municipio_detección'], diag.sexo, diag.edad])
+                        }
+
+                    });
+                });
+
+                $datatable.clear();
+                $datatable.rows.add(dataSet);
+                $datatable.draw();
+
+            });
+
+
+        }).submit();
+
     });
+
+
+    function getDate(element) {
+        var date;
+        try {
+            date = $.datepicker.parseDate(dateFormat, element.value);
+        } catch (error) {
+            date = null;
+        }
+
+        return date;
+    }
 </script>
 </body>
 </html>
