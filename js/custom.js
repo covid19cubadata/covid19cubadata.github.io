@@ -771,14 +771,9 @@ function run_calculations() {
 
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
-                        for (var i = 0; i < test_days.length; i++) {
-                            if (i == 0){
-                                dailyPorcientoPositivo.push(null);
-                                dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
-                            } else {
-                                dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1])*100.0/(test_cases[i] - test_cases[i - 1])).toFixed(2));
-                                dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
-                            };
+                        for (var i = 1; i < test_days.length; i++) {
+                            dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1])*100.0/(test_cases[i] - test_cases[i - 1])).toFixed(2));
+                            dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
                         }
 
                         var ntest_days = ['Fecha'];
