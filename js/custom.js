@@ -867,7 +867,7 @@ function run_calculations() {
                                 curves_recover[trans_countries[c]] = {'dias': d_temp, 'data': c_r_temp};
                                 curves_death[trans_countries[c]] = {'dias': d_temp, 'data': c_d_temp};
                                 curves_active[trans_countries[c]] = {'dias': d_temp, 'data': c_a_temp};
-                                curves_daily[trans_countries[c]] = {'dias': d_temp, 'data': c_d_temp};
+                                curves_daily[trans_countries[c]] = {'dias': d_temp, 'data': c_day_temp};
                                 countrysorted.push(trans_countries[c]);
                             }
                         }
