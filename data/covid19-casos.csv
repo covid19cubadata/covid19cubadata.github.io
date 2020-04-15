@@ -73,7 +73,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,13,cu,Consolación del Sur,Pinar del Río,2020/03/26,2020/03/21,primario
 ,hombre,48,cu,San Miguel del Padrón,La Habana,2020/03/26,2020/03/22,primario
 ,mujer,21,cu,Cerro,La Habana,2020/03/26,2020/03/21,primario
-,mujer,92,cu,Santa Clara,Villa Clara,2020/03/26,2020/03/18,secundario
+,mujer,91,cu,Santa Clara,Villa Clara,2020/03/26,2020/03/18,secundario
 ,hombre,33,cu,Camagüey,Camagüey,2020/03/26,,secundario
 ,mujer,17,cu,Camajuaní,Villa Clara,2020/03/26,2020/03/23,secundario
 ,hombre,33,cu,Ranchuelo,Villa Clara,2020/03/26,2020/03/23,primario
