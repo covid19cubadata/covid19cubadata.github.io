@@ -12,7 +12,7 @@
 
     <meta property="og:title" content="Covid19 - Dashboard Cuba"/>
     <meta property="og:description"
-          content="Visualize los datos relacionados con Covid19 en Cuba a partir de la información oficial del MINSAP que es reportada al día siguiente."/>
+          content="Visualice los datos relacionados con Covid19 en Cuba a partir de la información oficial del MINSAP que es reportada al día siguiente."/>
     <meta property="og:image" content="http://www.acn.cu/images/2020/ABRIL/0-10-cubadata.jpg"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:type" content="website"/>
@@ -194,7 +194,7 @@
             <div id="geodist" class="card common-bg">
                 <div class="card-header">
                     <form class="form-inline my-0">
-                        <label for="#select-map" class="mr-1">Distribución por</label>
+                        <label for="select-map" class="mr-1">Distribución por</label>
                         <select id="select-map" class="form-control form-control-sm">
                             <option select value="map-mun">Municipios</option>
                             <option value="map-pro">Provincias</option>
@@ -429,7 +429,9 @@
                     <tr>
                         <th>#</th>
                         <th>País</th>
-                        <th>Total de casos</th>
+                        <th>Casos</th>
+                        <th>Recuperados</th>
+                        <th>Muertes</th>
                     </tr>
                     </thead>
                     <tbody></tbody>
@@ -470,8 +472,8 @@
 <div class="footer  row pb-4">
     <div id="info" class="col-12">
         <div class="row m-0">
-            <div class="col-lg-4 col-md-4" id="data">Descarga los <a href="data/covid19-cuba.json">datos
-                utilizados</a>
+            <div class="col-lg-4 col-md-4" id="data">Descarga los datos
+                utilizados en formato <a href="data/covid19-cuba.json">JSON</a> o en formato <a href="data/covid19-casos.csv">CSV</a>,
                 que son actualizados a partir de la información oficial del MINSAP que es reportada
                 al día siguiente.
             </div>
