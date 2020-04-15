@@ -236,7 +236,7 @@ var map_mun = L.map('map-mun', {
     touchZoom: true,
     zoomSnap: 0.05,
 });
-var geojsonM = null, geojsonP = null;
+var geojsonM = null, geojsonP = null, start_selection = window.location.hash.replace('#', '');
 map_mun.zoomControl.setPosition('topright');
 
 $.walker = {
@@ -247,6 +247,39 @@ $.walker = {
                 map_mun.removeLayer(geojsonM);
             if (geojsonP)
                 map_mun.removeLayer(geojsonP);
+        }
+    },
+
+    view: {
+        update: function () {
+            $cards.show();
+            $selector.show();
+            $selector_span.html('Distribución por');
+            $('[data-class]').each(function () {
+                $(this).attr('class', $(this).data('class'));
+            });
+            if ($locator.val() !== 'cuba') {
+                $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
+                $cards.hide();
+                $selector.val("map-mun");
+                $selector.hide();
+                $('[data-class]').attr('class', '');
+            }
+            $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=evacua]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
+
+            const general_view = $locator.val() === 'cuba';
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves');
+            if (general_view) {
+                $('#munscurves').css({'margin-left': ''});
+                $generals.show();
+            } else {
+                $('#munscurves').css({'margin-left': '15px'});
+                $generals.hide();
+            }
         }
     },
     load: function (url, callback) {
@@ -268,14 +301,14 @@ $.walker = {
                 /*if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
                     $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
                 }*/
-                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida'){
+                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida') {
                     sorteddata.push($.walker.province.list.features[i].properties);
                     $('#proscurve-select1').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
-            $('#proscurve-select1').find('option').remove();
-            sorteddata.sort(function(a,b){
+            // $('#proscurve-select1').find('option').remove();
+            sorteddata.sort(function (a, b) {
                 if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
                 else if (province_order[a.province_id] == province_order[b.province_id])
@@ -283,7 +316,7 @@ $.walker = {
                 else
                     return 1;
             });
-            for(var j = 0; j < sorteddata.length; j++){
+            for (var j = 0; j < sorteddata.length; j++) {
                 const province2 = sorteddata[j];
                 $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
                 $('#proscurve-select1').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
@@ -315,14 +348,14 @@ $.walker = {
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
-                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido'){
+                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido') {
                         sorteddata.push($.walker.municipality.list.features[i].properties);
                         $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
                     }
                 }
             }
             $('#munscurve-select1').find('option').remove();
-            sorteddata.sort(function(a,b){
+            sorteddata.sort(function (a, b) {
                 if (province_order[a.province_id] < province_order[b.province_id])
                     return -1;
                 else if (province_order[a.province_id] == province_order[b.province_id])
@@ -330,7 +363,7 @@ $.walker = {
                 else
                     return 1;
             });
-            for(var j = 0; j < sorteddata.length; j++){
+            for (var j = 0; j < sorteddata.length; j++) {
                 const municipality2 = sorteddata[j];
                 $('#munscurve-select1').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
                 $('#munscurve-select2').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
@@ -349,20 +382,19 @@ $.walker = {
     }
 };
 
-let muns = [], pros = [], $selector = $('#select-map'), $selector_span = $selector.closest('.card').find('.card-header span'), $locator = $('#location-select');
+let factor = 150, muns = [], pros = [], genInfo = {}, $selector = $('#select-map'), $selector_span = $selector.closest('.card').find('.card-header label'), $locator = $('#location-select');
+
+function logx(base, x) {
+    return (base === 10) ? Math.log10(x) : Math.log10(x) / Math.log10(base);
+}
 
 function run_calculations() {
     let province_id = $locator.val();
-    const general_view = $locator.val() === 'cuba';
+    let general_view = $locator.val() === 'cuba';
     if (general_view)
         province_id = $selector.val();
 
-    let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves');
-    if (general_view)
-        $generals.show();
-    else
-        $generals.hide();
-
+    $.walker.view.update();
     let contagio = {
         'importado': 0,
         'introducido': 0,
@@ -376,20 +408,19 @@ function run_calculations() {
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
 
+                if (start_selection !== 'cuba' && $.walker.province.findById(start_selection)) {
+                    province_id = start_selection;
+                    $locator.val(province_id);
+                }
+                start_selection = false;
+                $.walker.view.update();
+                general_view = $locator.val() === 'cuba';
+
                 $.walker.load("data/municipios.geojson", function (municipios) {
                     $.walker.municipality.list = municipios;
                     muns = $.walker.municipality.filterByProvince(province_id);
 
-                    var factor = 150;
-
                     var curves = {};
-
-                    function logx(base, x) {
-                        if (base === 10) {
-                            return Math.log10(x);
-                        }
-                        return Math.log10(x) / Math.log10(base);
-                    }
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
@@ -667,24 +698,24 @@ function run_calculations() {
                         var evac = 0;
                         var munscurves = {};
                         var proscurves = {};
-                        for( const j in muns){
-                            munscurves[j]={data: [0]};
+                        for (const j in muns) {
+                            munscurves[j] = {data: [0]};
                         }
-                        for( const j in pros){
-                            proscurves[j]={data: [0]};
+                        for (const j in pros) {
+                            proscurves[j] = {data: [0]};
                         }
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                             dias.push('Día ' + i);
                             dates.push(data.casos.dias[i].fecha.replace('2020/', ''));
-                            for( const j in muns){
+                            for (const j in muns) {
                                 let tt = munscurves[j]['data'].length;
-                                let val = munscurves[j]['data'][tt-1];
+                                let val = munscurves[j]['data'][tt - 1];
                                 munscurves[j]['data'].push(val);
                             }
-                            for( const j in pros){
+                            for (const j in pros) {
                                 let tt = proscurves[j]['data'].length;
-                                let val = proscurves[j]['data'][tt-1];
+                                let val = proscurves[j]['data'][tt - 1];
                                 proscurves[j]['data'].push(val);
                             }
 
@@ -694,11 +725,11 @@ function run_calculations() {
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion in muns) {
                                         report_day++;
                                         let tt = munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'].length;
-                                        munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'][tt-1]++;
+                                        munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'][tt - 1]++;
                                     }
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion in pros) {
                                         let tt = proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'].length;
-                                        proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'][tt-1]++;
+                                        proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'][tt - 1]++;
                                     }
                                 }
 
@@ -746,18 +777,18 @@ function run_calculations() {
                             ntest_negative.push(test_negative[i] - test_negative[i - 1]);
                             ntest_positive.push(test_positive[i] - test_positive[i - 1]);
                         }
-                        for( const j in muns){
-                            const municipality = $.walker.municipality.matchByField('DPA_municipality_code',j).properties;
-                            munscurves[j]['data'][0]=municipality.municipality;
+                        for (const j in muns) {
+                            const municipality = $.walker.municipality.matchByField('DPA_municipality_code', j).properties;
+                            munscurves[j]['data'][0] = municipality.municipality;
                             let tt = munscurves[j]['data'].length;
-                            let val = munscurves[j]['data'][tt-1];
-                            if(val===0){
+                            let val = munscurves[j]['data'][tt - 1];
+                            if (val === 0) {
                                 $('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').remove();
                                 $('#munscurve-select2').find('option[value="' + municipality.DPA_municipality_code + '"]').remove();
                             }
                         }
-                        for( const j in pros){
-                            proscurves[j]['data'][0]=$.walker.province.matchByField('DPA_province_code',j).properties.province;
+                        for (const j in pros) {
+                            proscurves[j]['data'][0] = $.walker.province.matchByField('DPA_province_code', j).properties.province;
                         }
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
@@ -800,9 +831,9 @@ function run_calculations() {
                                     trans_countries[c] = c;
                                 var c_temp = [trans_countries[c]];
                                 var d_temp = ['Días'];
-                                for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                                for (var i = 0; i < countriesdays.paises_info[c].confirmed.length; i++) {
                                     c_temp.push(countriesdays.paises_info[c].confirmed[i]);
-                                    d_temp.push('Día ' + i);
+                                    d_temp.push('Día ' + (i + 1));
                                 }
                                 curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
                                 countrysorted.push(trans_countries[c]);
@@ -951,12 +982,12 @@ function run_calculations() {
                         });
 
                         var municipalitylectd1 = '23.02';
-                        if(!(municipalitylectd1 in muns)){
-                            for(const j in muns){
+                        if (!(municipalitylectd1 in muns)) {
+                            for (const j in muns) {
                                 let tt = munscurves[j]['data'].length;
-                                let val = munscurves[j]['data'][tt-1];
-                                if(!(val===0)){
-                                    municipalitylectd1=j;
+                                let val = munscurves[j]['data'][tt - 1];
+                                if (!(val === 0)) {
+                                    municipalitylectd1 = j;
                                     break;
                                 }
                             }
@@ -964,12 +995,12 @@ function run_calculations() {
                         $('#munscurve-select1').val(municipalitylectd1);
 
                         var municipalitylectd2 = '25.01';
-                        if(!(municipalitylectd2 in muns)){
-                            for(const j in muns){
+                        if (!(municipalitylectd2 in muns)) {
+                            for (const j in muns) {
                                 let tt = munscurves[j]['data'].length;
-                                let val = munscurves[j]['data'][tt-1];
-                                if(!(val===0))
-                                    municipalitylectd2=j;
+                                let val = munscurves[j]['data'][tt - 1];
+                                if (!(val === 0))
+                                    municipalitylectd2 = j;
                             }
                         }
                         $('#munscurve-select2').val(municipalitylectd2);
@@ -1266,7 +1297,7 @@ function run_calculations() {
                         };
                     }
 
-                    var genInfo = resumeCases();
+                    genInfo = resumeCases();
 
                     var MAX_LISTS = 10;
 
@@ -1399,13 +1430,6 @@ function run_calculations() {
                         };
                     }
 
-                    $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
-                    $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
-                    $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
-                    $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
-                    $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
-                    $('#cases').html(genInfo.max_muns);
-
                     function getColorM(code) {
                         if (code in muns) {
                             if (muns[code].total > 0) {
@@ -1424,23 +1448,6 @@ function run_calculations() {
                             }
                         }
                         return '#D1D2D4';
-                    }
-
-                    var val = $selector.val();
-                    if (val === 'map-pro') {
-                        $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
-                        $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.4 / genInfo.max_pros) + ")");
-                        $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.6 / genInfo.max_pros) + ")");
-                        $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.8 / genInfo.max_pros) + ")");
-                        $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor / genInfo.max_pros) + ")");
-                        $('#cases').html(genInfo.max_pros);
-                    } else {
-                        $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
-                        $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
-                        $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
-                        $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
-                        $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
-                        $('#cases').html(genInfo.max_muns);
                     }
                 });
 
@@ -1472,6 +1479,8 @@ function run_calculations() {
                     var ctotal = 0;
                     for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
                         ctotal = countriesdays.paises_info[c].confirmed[i];
+                        crecovered = countriesdays.paises_info[c].recovered[i];
+                        cdeaths = countriesdays.paises_info[c].deaths[i];
                         if (i % 7 === 0) {
                             total = countriesdays.paises_info[c].confirmed[i - 1];
                             if (total > 30) {
@@ -1483,7 +1492,7 @@ function run_calculations() {
                             }
                         }
                     }
-                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal};
+                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
                     countrysorted2.push(c_trans);
                 }
 
@@ -1505,10 +1514,14 @@ function run_calculations() {
 
                     var row = ("<tr><td>{ranking}</td>" +
                         "<td>{country}</td>" +
-                        "<td>{cases}</td></tr>")
+                        "<td>{cases}</td>" +
+                        "<td>{recovers}</td>" +
+                        "<td>{deaths}</td></tr>")
                         .replace("{ranking}", i + 1)
                         .replace("{country}", curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0])
-                        .replace('{cases}', curves2[countrysorted2[i]]['ctotal']);
+                        .replace('{cases}', curves2[countrysorted2[i]]['ctotal'])
+                        .replace('{recovers}', curves2[countrysorted2[i]]['crecovered'])
+                        .replace('{deaths}', curves2[countrysorted2[i]]['cdeaths']);
                     $table_country.append(row);
                 }
 
@@ -1554,24 +1567,9 @@ $('[data-class]').each(function () {
 
 let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe]').parent();
 $locator.change(function () {
-    $cards.show();
-    $selector.show();
-    $selector_span.html('Distribución por');
-    $('[data-class]').each(function () {
-        $(this).attr('class', $(this).data('class'));
-    });
-    if ($locator.val() !== 'cuba') {
-        $selector_span.html('Distribución por municipios en ' + $locator.find('option[value="' + $locator.val() + '"]').html());
-        $cards.hide();
-        $selector.val("map-mun");
-        $selector.hide();
-        $('[data-class]').attr('class', '');
-    }
-    $('[data-content=diagno]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=activo]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=evacua]').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
+    $.walker.view.update();
+    if (!start_selection)
+        window.location.hash = this.value;
 
     setTimeout(function () {
         $.walker.map.clear();
@@ -1587,9 +1585,23 @@ $selector.on('change', function (e) {
         map_mun.addLayer(geojsonP);
         map_mun.fitBounds(geojsonP.getBounds());
         map_mun.setMaxBounds(geojsonP.getBounds());
+
+        $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
+        $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.4 / genInfo.max_pros) + ")");
+        $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.6 / genInfo.max_pros) + ")");
+        $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.8 / genInfo.max_pros) + ")");
+        $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor / genInfo.max_pros) + ")");
+        $('#cases').html(genInfo.max_pros);
     } else {
         map_mun.addLayer(geojsonM);
         map_mun.fitBounds(geojsonM.getBounds());
         map_mun.setMaxBounds(geojsonM.getBounds());
+
+        $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
+        $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
+        $('#cases3').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.6 / genInfo.max_muns) + ")");
+        $('#cases4').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.8 / genInfo.max_muns) + ")");
+        $('#cases5').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor / genInfo.max_muns) + ")");
+        $('#cases').html(genInfo.max_muns);
     }
 });
