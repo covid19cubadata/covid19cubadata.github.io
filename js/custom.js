@@ -1121,7 +1121,10 @@ function run_calculations() {
                                 x: ntest_days[0],
                                 columns: porciento,
                                 type: 'line',
-                                colors: colors
+                                colors: {
+									'% de Tests Positivos Acumulados': '#1C1340',
+									'% de Tests Positivos en el Día': '#B01E22'
+								}
                             },
                             axis: {
                                 x: {
