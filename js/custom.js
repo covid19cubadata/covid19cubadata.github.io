@@ -800,9 +800,9 @@ function run_calculations() {
                                     trans_countries[c] = c;
                                 var c_temp = [trans_countries[c]];
                                 var d_temp = ['Días'];
-                                for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                                for (var i = 0; i < countriesdays.paises_info[c].confirmed.length; i++) {
                                     c_temp.push(countriesdays.paises_info[c].confirmed[i]);
-                                    d_temp.push('Día ' + i);
+                                    d_temp.push('Día ' + (i+1));
                                 }
                                 curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
                                 countrysorted.push(trans_countries[c]);
