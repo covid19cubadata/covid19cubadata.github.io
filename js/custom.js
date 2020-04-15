@@ -681,6 +681,8 @@ function run_calculations() {
                         var dias = ['Días'];
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
+                        var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
+                        var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
                         var deadsSum = ['Muertes acumuladas'];
@@ -765,6 +767,13 @@ function run_calculations() {
                             recoversSum.push(recover);
                             deadsSum.push(deads);
                             cuba.push(total);
+                        }
+
+                        // Por ciento de Tests Positivos en el Día y Acumulado
+
+                        for (var i = 1; i < test_days.length; i++) {
+                            dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1])*100.0/(test_cases[i] - test_cases[i - 1])).toFixed(2));
+                            dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
                         }
 
                         var ntest_days = ['Fecha'];
@@ -1095,6 +1104,33 @@ function run_calculations() {
                                 },
                                 y: {
                                     label: 'Casos',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+
+                        let porciento = [
+                            ntest_days,
+                            dailyPorcientoPositivoAcumulado,
+                            dailyPorcientoPositivo,
+                        ];
+
+                        c3.generate({
+                            bindto: "#daily-porciento-positivos",
+                            data: {
+                                x: ntest_days[0],
+                                columns: porciento,
+                                type: 'line',
+                                colors: colors
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Por ciento (%)',
                                     position: 'outer-middle',
                                 }
                             }
