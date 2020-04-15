@@ -432,16 +432,20 @@ body > div {
         margin-left: 7px;
     }
 
-    .card-deck-3 > .card:nth-child(1) {
-        margin-left: 15px;
-        margin-right: 7px !important;
-    }
-
-    .card-deck-3 > .card:nth-child(2) {
-        margin-left: 7px !important;
+    .card-deck-3 > .card:nth-of-type(1) {
+        margin-left: 15px !important;
         margin-right: 15px !important;
     }
 
+    .card-deck-3 > .card:nth-of-type(odd) {
+        margin-left: 7px;
+        margin-right: 15px;
+    }
+
+    .card-deck-3 > .card:nth-of-type(even) {
+        margin-left: 15px;
+        margin-right: 7px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -483,7 +487,7 @@ body > div {
 
 @media (min-width: 992px) {
 
-    .card-deck-3 > .card:nth-of-tpe(3n+1) {
+    .card-deck-3 > .card:nth-of-type(3n+1) {
         margin-left: 15px;
         margin-right: 7px !important;
     }
