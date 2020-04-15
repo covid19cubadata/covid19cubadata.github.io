@@ -421,6 +421,8 @@ function run_calculations() {
                     muns = $.walker.municipality.filterByProvince(province_id);
 
                     var curves = {};
+                    var curves_recover = {};
+                    var curves_death = {};
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
