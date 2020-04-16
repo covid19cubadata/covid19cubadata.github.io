@@ -46,7 +46,9 @@
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="nationality">Nacionalidad</label>
-                        <select name="nationality" id="nationality" class="form-control form-control-sm"></select>
+                        <select name="nationality" id="nationality" class="form-control form-control-sm">
+                            <option value="">-- Cualquiera --</option>
+                        </select>
                     </div>
                 </div>
                 <div class="col-md-2">
@@ -127,7 +129,8 @@
     <div id="info" class="col-12">
         <div class="row m-0">
             <div class="col-lg-4 col-md-4" id="data">Descarga los datos
-                utilizados en formato <a href="data/covid19-cuba.json">JSON</a> o en formato <a href="data/covid19-casos.csv">CSV</a>,
+                utilizados en formato <a href="data/covid19-cuba.json">JSON</a> o en formato <a
+                        href="data/covid19-casos.csv">CSV</a>,
                 que son actualizados a partir de la información oficial del MINSAP que es reportada
                 al día siguiente.
             </div>
@@ -172,12 +175,31 @@
 <script type="text/javascript" src="js/underscore-min.js"></script>
 <script type="text/javascript">
     let dateFormat = "yy/mm/dd";
+    let domains = {
+        'cu': 'Cuba',
+        'it': 'Italia',
+        'be': 'Bélgica',
+        'us': 'USA',
+        'fr': 'Francia',
+        'ca': 'Canadá',
+        'es': 'España',
+        'cn': 'China',
+        'ru': 'Rusia',
+        'uy': 'Uruguay',
+        'do': 'R.Dominicana',
+        'hr': 'Croacia',
+        'co': 'Colombia',
+        'pe': 'Perú',
+        'tz': 'Tanzania',
+        'pa': 'Panamá',
+        'bo': 'Bolivia'
+    };
+
     $(function () {
 
         $.get('data/provincias.geojson', function (provincias) {
             $.get('data/municipios.geojson', function (municipios) {
                 $.get('data/covid19-cuba.json', function (data) {
-
 
                     $datatable = $('#datatable').DataTable({
                         data: [],
@@ -193,6 +215,10 @@
 
                     let $dateStart = $("#date-start");
                     let $dateEnd = $("#date-end");
+
+                    $dateStart.val("2020/03/11");
+                    let today = new Date();
+                    $dateEnd.val(today.getFullYear() + '/' + today.getMonth() + '/' + today.getDate());
 
                     let startDatePicker = $dateStart.datepicker({
                         defaultDate: "2020/03/11",
@@ -210,10 +236,10 @@
                         startDatePicker.datepicker("option", "maxDate", getDate(this));
                     });
 
-                    _.each(provincias, function (item) {
-
+                    let $nationality = $('#nationality');
+                    _.each(domains, function (item, index) {
+                        $nationality.append($('<option></option>').attr('value', index).text(item));
                     });
-
 
                     let $ageStart = $("#age-start");
                     let $ageEnd = $("#age-end");
@@ -244,14 +270,14 @@
                                 && (filter.date_end == '' || fecha <= filter.date_end)
                             ) {
                                 _.each(dia.diagnosticados, function (diag) {
-                                    console.log(filter.sexo);
                                     if (
                                         true
+                                        && (filter.nationality == "" || diag.pais == filter.nationality)
                                         && (filter.age_start == "" || diag.edad >= filter.age_start)
                                         && (filter.age_end == "" || diag.edad <= filter.age_end)
                                         && (filter.sexo == "" || diag.sexo == filter.sexo)
                                     ) {
-                                        dataSet.push([fecha, diag.pais, diag['provincia_detección'], diag['municipio_detección'], diag.sexo, diag.edad])
+                                        dataSet.push([fecha, domains[diag.pais], diag['provincia_detección'], diag['municipio_detección'], diag.sexo, diag.edad])
                                     }
                                 });
                             }
