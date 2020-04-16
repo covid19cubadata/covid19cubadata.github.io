@@ -25,6 +25,9 @@ $(function () {
         $.get('data/municipios.geojson', function (municipios) {
             $.get('data/covid19-cuba.json', function (data) {
 
+                provincias = JSON.parse(provincias);
+                municipios = JSON.parse(municipios);
+
                 $datatable = $('#datatable').DataTable({
                     data: [],
                     columns: [
@@ -64,6 +67,23 @@ $(function () {
                 let $nationality = $('#nationality');
                 _.each(domains, function (item, index) {
                     $nationality.append($('<option></option>').attr('value', index).text(item));
+                });
+
+                let $province = $('#province');
+                _.each(provincias.features, function (item) {
+                    $province.append($('<option></option>').attr('value', item.properties.DPA_province_code).text(item.properties.province));
+                });
+
+                let $municipe = $('#municipe');
+                $province.change(function (e) {
+                    let id = $(this).val();
+                    $municipe.empty();
+                    $municipe.append($('<option></option>').attr('value', "").text('-- Cualquiera --'));
+                    _.each(_.filter(municipios.features, function (item) {
+                        return item.properties.DPA_province_code == id;
+                    }), function (item) {
+                        $municipe.append($('<option></option>').attr('value', item.properties.DPA_municipality_code).text(item.properties.municipality));
+                    });
                 });
 
                 let $ageStart = $("#age-start");
@@ -107,8 +127,8 @@ $(function () {
                                 if (
                                     true
                                     && (filter.nationality == "" || diag.pais == filter.nationality)
-                                    && (filter.province == "" || diag.DPA_province_code == filter.province)
-                                    && (filter.municipe == "" || diag.DPA_municipality_code == filter.municipe)
+                                    && (filter.province == "" || diag.dpacode_provincia_deteccion == filter.province)
+                                    && (filter.municipe == "" || diag.dpacode_municipio_deteccion == filter.municipe)
                                     && (filter.age_start == "" || diag.edad >= filter.age_start)
                                     && (filter.age_end == "" || diag.edad <= filter.age_end)
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
