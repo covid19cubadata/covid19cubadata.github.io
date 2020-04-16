@@ -219,6 +219,25 @@ province_order = {
     'may': 3
 }
 
+var population = {
+	'cuba': 11209628,
+	'21': 588555,//PRI
+	'22': 511079,//ART
+	'23': 2131480,//LHA
+	'24': 383043,//MAY
+	'25': 714843,//MAT
+	'26': 780749,//VCL
+	'27': 406751,//CFG
+	'28': 465780,//SSP
+	'29': 435006,//CAV
+	'30': 767138,//CAM
+	'31': 535335,//LTU
+	'32': 1027249,//HOL
+	'33': 823651,//GRA
+	'34': 1049256,//STG
+	'35': 508552,//GTM
+	'40.01': 83801,//IJV	
+}
 
 $.ajaxSetup({cache: false});
 
@@ -1913,7 +1932,7 @@ function run_calculations() {
 
                     genInfo = resumeCases();
 
-                    var MAX_LISTS = 10;
+                    var MAX_LISTS = 16;
 
                     muns_array = [];
                     for (var m in muns) {
@@ -1929,12 +1948,12 @@ function run_calculations() {
                         municipe = $.walker.municipality.matchByField('DPA_municipality_code', item.cod);
                         var row = ("<tr><td>{ranking}</td>" +
                             "<td>{cod} ({pro})</td>" +
-                            // "<td>{total}</td>" +
+                            "<td>{total}</td>" +
                             "<td>{rate}%</td></tr>")
                             .replace("{ranking}", mun_ranking)
                             .replace("{cod}", municipe.properties.municipality)
                             .replace("{pro}", municipe.properties.province)
-                            // .replace('{total}', item.total)
+                            .replace('{total}', item.total)
                             .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
                         $table_mun.append(row);
                         mun_ranking += 1;
@@ -1953,12 +1972,14 @@ function run_calculations() {
                     $(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
                         var row = ("<tr><td>{ranking}</td>" +
                             "<td>{cod}</td>" +
-                            // "<td>{total}</td>" +
-                            "<td>{rate}%</td></tr>")
+                            "<td>{total}</td>" +
+                            "<td>{rate}%</td>" +
+                            "<td>{tasa}</td></tr>")
                             .replace("{ranking}", pro_ranking)
                             .replace("{cod}", $.walker.province.matchByField('DPA_province_code', item.cod).properties.province)
-                            // .replace('{total}', item.total)
-                            .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
+                            .replace('{total}', item.total)
+                            .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2))
+                            .replace('{tasa}', (item.total * 100000 / population[item.cod]).toFixed(2));
                         $table_pro.append(row);
                         pro_ranking += 1;
                     });
