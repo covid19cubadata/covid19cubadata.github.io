@@ -7236,6 +7236,9 @@
                 "tests_total": 6403,
                 "sujetos_riesgo": 1887,
                 "evacuados_numero": 1,
+                "evacuados_id": [
+                    "ca-3"
+                ],
                 "muertes_numero": 1,
                 "muertes_id": [
                     "cu-35"
@@ -17352,7 +17355,12 @@
                 "tests_total": 20451,
                 "recuperados_numero": 19,
                 "graves_numero": 15,
-                "muertes_numero": 3
+                "muertes_numero": 3,
+                "muertes_id": [
+                    "cu-240",
+                    "cu-290",
+                    "cu-758"
+                ]
             },
             "36": {
                 "fecha": "2020/04/15",
@@ -18324,7 +18332,12 @@
                 "tests_total": 21837,
                 "recuperados_numero": 20,
                 "graves_numero": 16,
-                "muertes_numero": 3
+                "muertes_numero": 3,
+                "muertes_id": [
+                    "cu-255",
+                    "cu-806",
+                    ""
+                ]
             }
         }
     }
