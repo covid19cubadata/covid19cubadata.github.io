@@ -813,3 +813,51 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,55,cu,Ciego de Ávila,Ciego de Ávila,2020/04/14,,desconocido
 ,hombre,32,cu,Guantánamo,Guantánamo,2020/04/14,,desconocido
 ,hombre,32,cu,Baracoa,Guantánamo,2020/04/14,,desconocido
+,hombre,29,cu,Playa,La Habana,2020/04/15,,secundario
+,hombre,53,cu,Playa,La Habana,2020/04/15,,desconocido
+,mujer,32,cu,San Miguel del Padrón,La Habana,2020/04/15,,secundario
+,hombre,34,cu,Cotorro,La Habana,2020/04/15,,secundario
+,hombre,21,cu,La Lisa,La Habana,2020/04/15,,secundario
+,mujer,44,cu,Habana del Este,La Habana,2020/04/15,,desconocido
+,hombre,32,cu,Habana del Este,La Habana,2020/04/15,,desconocido
+,mujer,58,cu,Habana del Este,La Habana,2020/04/15,,desconocido
+,hombre,56,cu,Cerro,La Habana,2020/04/15,,desconocido
+,mujer,57,cu,Cerro,La Habana,2020/04/15,,secundario
+,mujer,53,cu,Diez de Octubre,La Habana,2020/04/15,,secundario
+,hombre,31,cu,Plaza de la Revolución,La Habana,2020/04/15,,secundario
+,mujer,44,cu,Marianao,La Habana,2020/04/15,,secundario
+,mujer,25,cu,Regla,La Habana,2020/04/15,,desconocido
+,hombre,70,cu,Plaza de la Revolución,La Habana,2020/04/15,,desconocido
+,hombre,76,cu,Cerro,La Habana,2020/04/15,,desconocido
+,mujer,49,cu,Diez de Octubre,La Habana,2020/04/15,,secundario
+,hombre,60,cu,Habana del Este,La Habana,2020/04/15,,desconocido
+,mujer,54,cu,Diez de Octubre,La Habana,2020/04/15,,desconocido
+,hombre,20,cu,Guanabacoa,La Habana,2020/04/15,,secundario
+,hombre,19,cu,Marianao,La Habana,2020/04/15,,secundario
+,hombre,58,cu,Centro Habana,La Habana,2020/04/15,,desconocido
+,mujer,75,cu,Plaza de la Revolución,La Habana,2020/04/15,,desconocido
+,mujer,66,cu,Cárdenas,Matanzas,2020/04/15,,desconocido
+,mujer,31,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,81,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,68,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,50,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,87,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,79,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,20,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,47,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,32,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,85,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,27,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,81,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,77,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,31,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,21,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,85,cu,Placetas,Villa Clara,2020/04/15,,desconocido
+,hombre,43,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,83,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,hombre,83,cu,Santa Clara,Villa Clara,2020/04/15,,secundario
+,mujer,31,cu,La Sierpe,Sancti Spíritus,2020/04/15,,secundario
+,hombre,47,cu,Florencia,Ciego de Ávila,2020/04/15,,secundario
+,mujer,75,cu,Camagüey,Camagüey,2020/04/15,,secundario
+,mujer,47,cu,Camagüey,Camagüey,2020/04/15,,secundario
+,hombre,69,cu,Guantánamo,Guantánamo,2020/04/15,,desconocido
