@@ -273,6 +273,8 @@
                                     if (
                                         true
                                         && (filter.nationality == "" || diag.pais == filter.nationality)
+                                        && (filter.province == "" || diag.DPA_province_code == filter.province)
+                                        && (filter.municipe == "" || diag.DPA_municipality_code == filter.municipe)
                                         && (filter.age_start == "" || diag.edad >= filter.age_start)
                                         && (filter.age_end == "" || diag.edad <= filter.age_end)
                                         && (filter.sexo == "" || diag.sexo == filter.sexo)
