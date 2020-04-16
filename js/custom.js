@@ -421,6 +421,10 @@ function run_calculations() {
                     muns = $.walker.municipality.filterByProvince(province_id);
 
                     var curves = {};
+                    var curves_recover = {};
+                    var curves_death = {};
+                    var curves_active = {};
+                    var curves_daily = {};
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
@@ -681,9 +685,9 @@ function run_calculations() {
                         var dias = ['Días'];
                         var dailySingle = ['Casos en el día'];
                         var dailySum = ['Casos acumulados'];
+                        var dailyActive = ['Casos activos'];
                         var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
-                        var dailyActive = ['Casos activos']
                         var cuba = ['Cuba'];
                         var deadsSum = ['Muertes acumuladas'];
                         var deadsSingle = ['Muertes en el día'];
@@ -838,94 +842,665 @@ function run_calculations() {
                             if ((countriesdays.paises_info[c].confirmed.length + 1) >= cuba.length) {
                                 if (!(c in trans_countries))
                                     trans_countries[c] = c;
-                                var c_temp = [trans_countries[c]];
-                                var d_temp = ['Días'];
+                                let c_temp = [trans_countries[c]];
+                                let c_r_temp = [trans_countries[c]];
+                                let c_d_temp = [trans_countries[c]];
+                                let c_a_temp = [trans_countries[c]];
+                                let c_day_temp = [trans_countries[c]];
+                                let d_temp = ['Días'];
                                 for (var i = 0; i < countriesdays.paises_info[c].confirmed.length; i++) {
                                     c_temp.push(countriesdays.paises_info[c].confirmed[i]);
+                                    c_r_temp.push(countriesdays.paises_info[c].recovered[i]);
+                                    c_d_temp.push(countriesdays.paises_info[c].deaths[i]);
+                                    c_a_temp.push(countriesdays.paises_info[c].confirmed[i]-
+                                                countriesdays.paises_info[c].deaths[i]-
+                                                countriesdays.paises_info[c].recovered[i]);
+                                    if(i>0){
+                                        c_day_temp.push(countriesdays.paises_info[c].confirmed[i]-
+                                                    countriesdays.paises_info[c].confirmed[i-1]);
+                                    }else{
+                                        c_day_temp.push(countriesdays.paises_info[c].confirmed[i]);
+                                    }
                                     d_temp.push('Día ' + (i + 1));
                                 }
                                 curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
+                                curves_recover[trans_countries[c]] = {'dias': d_temp, 'data': c_r_temp};
+                                curves_death[trans_countries[c]] = {'dias': d_temp, 'data': c_d_temp};
+                                curves_active[trans_countries[c]] = {'dias': d_temp, 'data': c_a_temp};
+                                curves_daily[trans_countries[c]] = {'dias': d_temp, 'data': c_day_temp};
                                 countrysorted.push(trans_countries[c]);
                             }
                         }
 
                         countrysorted.sort();
                         for (var c = 0; c < countrysorted.length; c++) {
-                            var cc = curves[countrysorted[c]]['data'][0];
+                            let cc = curves[countrysorted[c]]['data'][0];
                             $('#countrycurve-select').append('<option value="' + cc + '">' + cc + '</option>');
                         }
+                        var tab_selected = 'confirmados';
                         var countryselected = 'Hungría';
                         $('#countrycurve-select').val(countryselected);
                         $('.countries-date').html(countriesdays['dia-actualizacion']);
 
                         $('#countrycurve-select').off('change').on('change', function () {
                             var val = $('#countrycurve-select').val();
-                            comparison.unload({ids: countryselected});
-                            curve.unload({ids: countryselected});
+                            //comparison.unload({ids: countryselected});
+                            //curve.unload({ids: countryselected});
                             countryselected = val;
-                            comparison.load({columns: [curves[countryselected]['data']]});
-                            curve.load({columns: [curves[countryselected]['data']]});
-
-                            comparison = c3.generate({
-                                bindto: "#countries-comparison",
-                                data: {
-                                    x: dias[0],
-                                    columns: [
-                                        dias,
-                                        cuba,
-                                        curves[countryselected]['data']
-                                    ],
-                                    type: 'line',
-                                    colors: {
-                                        'Cuba': '#B01E22'
-                                    }
-                                },
-                                axis: {
-                                    x: {
-                                        label: 'Fecha',
-                                        type: 'categorical',
-                                        show: false
+                            //comparison.load({columns: [curves[countryselected]['data']]});
+                            //curve.load({columns: [curves[countryselected]['data']]});
+                            if(tab_selected=='confirmados'){
+                                comparison = c3.generate({
+                                    bindto: "#countries-comparison-confirmados",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            cuba,
+                                            curves[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
                                     },
-                                    y: {
-                                        label: 'Casos',
-                                        position: 'outer-middle'
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
                                     }
-                                }
-                            });
+                                });
 
-                            curve = c3.generate({
-                                bindto: "#countries-curve",
-                                data: {
-                                    x: 'Días',
-                                    columns: [
-                                        curves[countryselected]['dias'],
-                                        curves[countryselected]['data'],
-                                        cuba,
-                                    ],
-                                    type: 'line',
-                                    colors: {
-                                        'Cuba': '#B01E22'
-                                    }
-                                },
-                                axis: {
-                                    x: {
-                                        label: 'Fecha',
-                                        type: 'categorical',
-                                        show: false
+                                curve = c3.generate({
+                                    bindto: "#countries-curve-confirmados",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves[countryselected]['dias'],
+                                            curves[countryselected]['data'],
+                                            cuba,
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
                                     },
-                                    y: {
-                                        label: 'Casos',
-                                        position: 'outer-middle'
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
                                     }
-                                },
-                                grid: {
-                                    x: {
-                                        lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                });
+                            }
+                            if(tab_selected=='recuperados'){
+                                comparison_recover = c3.generate({
+                                    bindto: "#countries-comparison-recuperados",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(recoversSum.slice(1)),
+                                            curves_recover[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
                                     }
-                                }
-                            });
+                                });
 
+                                curve_recover = c3.generate({
+                                    bindto: "#countries-curve-recuperados",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_recover[countryselected]['dias'],
+                                            curves_recover[countryselected]['data'],
+                                            ['Cuba'].concat(recoversSum.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(tab_selected=='fallecidos'){
+                                comparison_death = c3.generate({
+                                    bindto: "#countries-comparison-fallecidos",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(deadsSum.slice(1)),
+                                            curves_death[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_death = c3.generate({
+                                    bindto: "#countries-curve-fallecidos",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_death[countryselected]['dias'],
+                                            curves_death[countryselected]['data'],
+                                            cu['Cuba'].concat(deadsSum.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(tab_selected=='activos'){
+                                comparison_active = c3.generate({
+                                    bindto: "#countries-comparison-activos",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(dailyActive.slice(1)),
+                                            curves_active[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_active = c3.generate({
+                                    bindto: "#countries-curve-activos",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_active[countryselected]['dias'],
+                                            curves_active[countryselected]['data'],
+                                            ['Cuba'].concat(dailyActive.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(tab_selected=='diarios'){
+                                comparison_daily = c3.generate({
+                                    bindto: "#countries-comparison-diarios",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(dailySingle.slice(1)),
+                                            curves_daily[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_daily = c3.generate({
+                                    bindto: "#countries-curve-diarios",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_daily[countryselected]['dias'],
+                                            curves_daily[countryselected]['data'],
+                                            ['Cuba'].concat(dailySingle.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
                         });
+
+                        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                            e.target // newly activated tab
+                            e.relatedTarget // previous active tab
+                            let reff = e.target.attributes.href.value;
+                            if(reff=='#tab-confirmados'){
+                                tab_selected='confirmados';
+                                comparison = c3.generate({
+                                    bindto: "#countries-comparison-confirmados",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            cuba,
+                                            curves[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve = c3.generate({
+                                    bindto: "#countries-curve-confirmados",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves[countryselected]['dias'],
+                                            curves[countryselected]['data'],
+                                            cuba,
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(reff=='#tab-recuperados'){
+                                tab_selected='recuperados';
+                                comparison_recover = c3.generate({
+                                    bindto: "#countries-comparison-recuperados",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(recoversSum.slice(1)),
+                                            curves_recover[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_recover = c3.generate({
+                                    bindto: "#countries-curve-recuperados",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_recover[countryselected]['dias'],
+                                            curves_recover[countryselected]['data'],
+                                            ['Cuba'].concat(recoversSum.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(reff=='#tab-fallecidos'){
+                                tab_selected='fallecidos';
+                                comparison_death = c3.generate({
+                                    bindto: "#countries-comparison-fallecidos",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(deadsSum.slice(1)),
+                                            curves_death[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_death = c3.generate({
+                                    bindto: "#countries-curve-fallecidos",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_death[countryselected]['dias'],
+                                            curves_death[countryselected]['data'],
+                                            ['Cuba'].concat(deadsSum.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(reff=='#tab-activos'){
+                                tab_selected='activos';
+                                comparison_active = c3.generate({
+                                    bindto: "#countries-comparison-activos",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(dailyActive.slice(1)),
+                                            curves_active[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_active = c3.generate({
+                                    bindto: "#countries-curve-activos",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_active[countryselected]['dias'],
+                                            curves_active[countryselected]['data'],
+                                            ['Cuba'].concat(dailyActive.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                            if(reff=='#tab-diarios'){
+                                tab_selected='diarios';
+                                comparison_daily = c3.generate({
+                                    bindto: "#countries-comparison-diarios",
+                                    data: {
+                                        x: dias[0],
+                                        columns: [
+                                            dias,
+                                            ['Cuba'].concat(dailySingle.slice(1)),
+                                            curves_daily[countryselected]['data']
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    }
+                                });
+
+                                curve_daily = c3.generate({
+                                    bindto: "#countries-curve-diarios",
+                                    data: {
+                                        x: 'Días',
+                                        columns: [
+                                            curves_daily[countryselected]['dias'],
+                                            curves_daily[countryselected]['data'],
+                                            ['Cuba'].concat(dailySingle.slice(1)),
+                                        ],
+                                        type: 'line',
+                                        colors: {
+                                            'Cuba': '#B01E22'
+                                        }
+                                    },
+                                    axis: {
+                                        x: {
+                                            label: 'Fecha',
+                                            type: 'categorical',
+                                            show: false
+                                        },
+                                        y: {
+                                            label: 'Casos',
+                                            position: 'outer-middle'
+                                        }
+                                    },
+                                    grid: {
+                                        x: {
+                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
+                                        }
+                                    }
+                                });
+                            }
+                        })
 
                         var provinceslectd1 = $.walker.province.findById('lha').properties.DPA_province_code;
                         $('#proscurve-select1').val(provinceslectd1);
@@ -1196,7 +1771,7 @@ function run_calculations() {
                         });
 
                         comparison = c3.generate({
-                            bindto: "#countries-comparison",
+                            bindto: "#countries-comparison-confirmados",
                             data: {
                                 x: dias[0],
                                 columns: [
@@ -1223,7 +1798,7 @@ function run_calculations() {
                         });
 
                         curve = c3.generate({
-                            bindto: "#countries-curve",
+                            bindto: "#countries-curve-confirmados",
                             data: {
                                 x: 'Días',
                                 columns: [
