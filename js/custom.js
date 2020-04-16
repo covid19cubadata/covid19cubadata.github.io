@@ -2195,10 +2195,12 @@ $locator.change(function () {
 $selector.on('change', function (e) {
     $.walker.map.clear();
 
+    let ratio = (geojsonP.getBounds().getNorthEast().lat - geojsonP.getBounds().getSouthWest().lat) * 0.05;
+
     if (this.value === 'map-pro') {
         map_mun.addLayer(geojsonP);
         map_mun.fitBounds(geojsonP.getBounds());
-        map_mun.setMaxBounds(geojsonP.getBounds());
+        map_mun.setMaxBounds(geojsonP.getBounds().pad(ratio));
 
         $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.2 / genInfo.max_pros) + ")");
         $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_pros * factor * 0.4 / genInfo.max_pros) + ")");
@@ -2209,7 +2211,7 @@ $selector.on('change', function (e) {
     } else {
         map_mun.addLayer(geojsonM);
         map_mun.fitBounds(geojsonM.getBounds());
-        map_mun.setMaxBounds(geojsonM.getBounds());
+        map_mun.setMaxBounds(geojsonM.getBounds().pad(ratio));
 
         $('#cases1').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.2 / genInfo.max_muns) + ")");
         $('#cases2').css('color', "rgba(176,30,34," + logx(factor, genInfo.max_muns * factor * 0.4 / genInfo.max_muns) + ")");
