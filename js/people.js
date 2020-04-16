@@ -126,7 +126,6 @@ $(function () {
                             _.each(dia.diagnosticados, function (diag) {
                                 if (
                                     true
-                                    && diag.nota
                                     && (filter.nationality == "" || diag.pais == filter.nationality)
                                     && (filter.province == "" || diag.dpacode_provincia_deteccion == filter.province)
                                     && (filter.municipe == "" || diag.dpacode_municipio_deteccion == filter.municipe)
@@ -172,7 +171,7 @@ $(function () {
             $info.remove();
             $(this).html('+');
         } else
-            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + $(this).data('text') + '</p><p class="text-muted">' + $(this).data('note') + '</p></td></tr>');
+            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + $(this).data('text') + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
     });
 });
 
