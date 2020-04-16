@@ -126,6 +126,7 @@ $(function () {
                             _.each(dia.diagnosticados, function (diag) {
                                 if (
                                     true
+                                    && diag.nota
                                     && (filter.nationality == "" || diag.pais == filter.nationality)
                                     && (filter.province == "" || diag.dpacode_provincia_deteccion == filter.province)
                                     && (filter.municipe == "" || diag.dpacode_municipio_deteccion == filter.municipe)
@@ -143,7 +144,7 @@ $(function () {
                                             'class': 'btn btn-primary btn-block btn-sm',
                                             'href': '#case-details',
                                             'data-text': diag.info,
-                                            'data-note': diag.note != undefined ? diag.note : '',
+                                            'data-note': diag.nota != undefined ? diag.nota : '',
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
                                     ]);
@@ -171,7 +172,7 @@ $(function () {
             $info.remove();
             $(this).html('+');
         } else
-            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6">' + $(this).data('text') + $(this).data('note') + '</td></tr>');
+            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + $(this).data('text') + '</p><p class="text-muted">' + $(this).data('note') + '</p></td></tr>');
     });
 });
 
