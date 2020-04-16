@@ -81,7 +81,7 @@ $(function () {
                 });
 
                 let $modal = $('#modal-details');
-                $(document).on('click', 'a[data-action="show-details"]', function(e){
+                $(document).on('click', 'a[data-action="show-details"]', function (e) {
                     $modal.find('.modal-title').text($(this).data('title'));
                     $modal.find('.modal-body').html($('<p></p>').text($(this).data('text')));
                     // $('#modal-details').modal('show');
@@ -121,9 +121,7 @@ $(function () {
                                         diag.edad,
                                         $('<a></a>').attr({
                                             'class': 'btn btn-primary btn-block btn-sm',
-                                            'href': '#modal-details',
-                                            'data-action': 'show-details',
-                                            'data-toggle': 'modal',
+                                            'href': '#case-details',
                                             'data-text': diag.info,
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
@@ -145,6 +143,16 @@ $(function () {
         })
     });
 
+    $(document).on('click', 'a[href="#case-details"]', function (evt) {
+        evt.preventDefault();
+        const $info = $('[data-info="' + $(this).data('title') + '"]');
+        $(this).html('-');
+        if ($info.length) {
+            $info.remove();
+            $(this).html('+');
+        } else
+            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6">' + $(this).data('text') + '</td></tr>');
+    });
 });
 
 function getDate(element) {
@@ -157,3 +165,4 @@ function getDate(element) {
 
     return date;
 }
+
