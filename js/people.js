@@ -143,6 +143,7 @@ $(function () {
                                             'class': 'btn btn-primary btn-block btn-sm',
                                             'href': '#case-details',
                                             'data-text': diag.info,
+                                            'data-note': diag.note != undefined ? diag.note : '',
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
                                     ]);
@@ -154,7 +155,6 @@ $(function () {
                     $datatable.clear();
                     $datatable.rows.add(dataSet);
                     $datatable.draw();
-
 
                 });
                 $('#filter-form').submit();
@@ -171,7 +171,7 @@ $(function () {
             $info.remove();
             $(this).html('+');
         } else
-            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6">' + $(this).data('text') + '</td></tr>');
+            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6">' + $(this).data('text') + $(this).data('note') + '</td></tr>');
     });
 });
 
