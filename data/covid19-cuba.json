@@ -19269,7 +19269,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Santa Clara",
-                        "provincia_detección": "La Habana",
+                        "provincia_detección": "Villa Clara",
                         "dpacode_municipio_deteccion": "26.09",
                         "dpacode_provincia_deteccion": "26",
                         "contagio": "introducido",
@@ -19384,7 +19384,7 @@
                     {
                         "id": "cu-885",
                         "pais": "cu",
-                        "edad": 0,
+                        "edad": 1,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
