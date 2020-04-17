@@ -365,26 +365,14 @@ body > div {
     background-color: rgba(18, 19, 64, 0.2);
 }
 
-#general .card-body {
+#stats-cards .card-body {
     padding: .25em 15px;
 }
 
-#general .card-body span {
+#stats-cards .card-body {
     font-weight: bold;
     font-size: 2.5em;
     line-height: 1em;
-}
-
-#general .col-lg-2 {
-    /*padding-right: 0;*/
-}
-
-#general .col-lg-2:last-child {
-    /*padding-right: 15px;*/
-}
-
-#general .card {
-    margin-bottom: 1em;
 }
 
 #general h2 {
@@ -458,12 +446,18 @@ body > div {
 
 @media (min-width: 576px) {
 
-    #stats-cards > .row > div:nth-child(odd) {
-        padding-right: 7px;
+    #stats-cards .card {
+        margin: 0 7px 1em;
     }
 
-    #stats-cards > .row > div:nth-child(even) {
-        padding-left: 7px;
+    #stats-cards > .card-deck > .card:first-child,
+    #stats-cards > .card-deck > .card:nth-of-type(4) {
+        margin-left: 15px;
+    }
+
+    #stats-cards > .card-deck > .card:nth-of-type(3),
+    #stats-cards > .card-deck > .card:last-child {
+        margin-right: 15px;
     }
 
     #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
@@ -542,6 +536,20 @@ body > div {
 }
 
 @media (min-width: 992px) {
+
+    #stats-cards .card,
+    #stats-cards > .card-deck > .card:nth-of-type(3),
+    #stats-cards > .card-deck > .card:nth-of-type(4) {
+        margin: 0 7px 1em;
+    }
+
+    #stats-cards > .card-deck > .card:first-child {
+        margin-left: 15px;
+    }
+
+    #stats-cards > .card-deck > .card:last-child {
+        margin-right: 15px;
+    }
 
     .card-deck-3 > .card:nth-of-type(3n+1) {
         margin-left: 15px;
