@@ -59,9 +59,9 @@ $(function () {
                     data: [],
                     columns: [
                         {title: "Fecha"},
-                        {title: "Nacionalidad"},
-                        {title: "Provincia"},
-                        {title: "Municipio"},
+                        {title: "País"},
+                        {title: "Prov."},
+                        {title: "Mun."},
                         {title: "Sexo"},
                         {title: "Edad"},
                         {title: ""}
@@ -161,7 +161,8 @@ $(function () {
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
                                 ) {
                                     dataSet.push([
-                                        fecha, domains[diag.pais],
+                                        fecha,
+                                        domains[diag.pais],
                                         diag['provincia_detección'],
                                         diag['municipio_detección'],
                                         diag.sexo,
