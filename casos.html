@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Title</title>
+    <title>Covid19 - Casos Confirmados en Cuba</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
@@ -27,10 +27,25 @@
 </head>
 <body>
 
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-light navbar-expand-sm">
     <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.jpg" alt="COVID-19 Cubadata">
     </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="casos.html">casos</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <p id="apks-info" class="alert alert-info text-center">Descargue nuestra app desde <a
@@ -127,7 +142,7 @@
 
     <div class="card common-bg">
         <h1 class="card-header h6">Casos Confirmados en Cuba</h1>
-        <div class="card-body" style="border-radius: 0">
+        <div class="card-body table-responsive" style="border-radius: 0">
             <table id="datatable" class="table table-condensed table-striped">
             </table>
         </div>
