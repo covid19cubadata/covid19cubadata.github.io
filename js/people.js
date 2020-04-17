@@ -25,6 +25,9 @@ $(function () {
             $.getJSON('data/covid19-cuba.json', function (data) {
 
                 $datatable = $('#datatable').DataTable({
+                    'searching': false,
+                    'pageLength': 25,
+                    "lengthMenu": [25, 50, 100, 500, 1000],
                     "language": {
                         "sProcessing": "Procesando...",
                         "sLengthMenu": "Mostrar _MENU_ registros",
