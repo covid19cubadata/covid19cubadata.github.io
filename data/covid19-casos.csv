@@ -907,13 +907,13 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,84,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,mujer,61,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,mujer,90,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
-,mujer,77,cu,Santa Clara,La Habana,2020/04/16,,secundario
+,mujer,77,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,mujer,100,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,hombre,47,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,mujer,50,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,hombre,76,cu,Santa Clara,Villa Clara,2020/04/16,,secundario
 ,hombre,83,cu,Las Tunas,Las Tunas,2020/04/16,,desconocido
-,hombre,0,cu,Puerto Padre,Las Tunas,2020/04/16,,desconocido
+,hombre,1,cu,Puerto Padre,Las Tunas,2020/04/16,,desconocido
 ,mujer,53,cu,Holguín,Holguín,2020/04/16,,secundario
 ,hombre,7,cu,Santiago de Cuba,Santiago de Cuba,2020/04/16,,secundario
 ,mujer,46,cu,Santiago de Cuba,Santiago de Cuba,2020/04/16,,secundario
