@@ -220,23 +220,23 @@ province_order = {
 }
 
 var population = {
-	'cuba': 11209628,
-	'21': 588555,//PRI
-	'22': 511079,//ART
-	'23': 2131480,//LHA
-	'24': 383043,//MAY
-	'25': 714843,//MAT
-	'26': 780749,//VCL
-	'27': 406751,//CFG
-	'28': 465780,//SSP
-	'29': 435006,//CAV
-	'30': 767138,//CAM
-	'31': 535335,//LTU
-	'32': 1027249,//HOL
-	'33': 823651,//GRA
-	'34': 1049256,//STG
-	'35': 508552,//GTM
-	'40.01': 83801,//IJV	
+    'cuba': 11209628,
+    '21': 588555,//PRI
+    '22': 511079,//ART
+    '23': 2131480,//LHA
+    '24': 383043,//MAY
+    '25': 714843,//MAT
+    '26': 780749,//VCL
+    '27': 406751,//CFG
+    '28': 465780,//SSP
+    '29': 435006,//CAV
+    '30': 767138,//CAM
+    '31': 535335,//LTU
+    '32': 1027249,//HOL
+    '33': 823651,//GRA
+    '34': 1049256,//STG
+    '35': 508552,//GTM
+    '40.01': 83801,//IJV
 }
 
 $.ajaxSetup({cache: false});
@@ -270,6 +270,11 @@ $.walker = {
     },
 
     view: {
+        addOptionToSelect: function (select, value, text) {
+            if ($(select).find('option[value="' + value + '"]').length)
+                return;
+            $(select).append('<option value="' + value + '">' + text + '</option>')
+        },
         update: function () {
             $cards.show();
             $selector.show();
@@ -322,7 +327,7 @@ $.walker = {
                 }*/
                 if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida') {
                     sorteddata.push($.walker.province.list.features[i].properties);
-                    $('#proscurve-select1').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
+                    $.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
@@ -337,9 +342,9 @@ $.walker = {
             });
             for (var j = 0; j < sorteddata.length; j++) {
                 const province2 = sorteddata[j];
-                $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
-                $('#proscurve-select1').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
-                $('#proscurve-select2').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
+                $.walker.view.addOptionToSelect($target, province2.province_id, province2.province);
+                $.walker.view.addOptionToSelect('#proscurve-select1', province2.DPA_province_code, province2.province);
+                $.walker.view.addOptionToSelect('#proscurve-select2', province2.DPA_province_code, province2.province);
             }
             return remaining;
         },
@@ -795,7 +800,7 @@ function run_calculations() {
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {
-                            dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1])*100.0/(test_cases[i] - test_cases[i - 1])).toFixed(2));
+                            dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1]) * 100.0 / (test_cases[i] - test_cases[i - 1])).toFixed(2));
                             dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
                         }
 
@@ -871,13 +876,13 @@ function run_calculations() {
                                     c_temp.push(countriesdays.paises_info[c].confirmed[i]);
                                     c_r_temp.push(countriesdays.paises_info[c].recovered[i]);
                                     c_d_temp.push(countriesdays.paises_info[c].deaths[i]);
-                                    c_a_temp.push(countriesdays.paises_info[c].confirmed[i]-
-                                                countriesdays.paises_info[c].deaths[i]-
-                                                countriesdays.paises_info[c].recovered[i]);
-                                    if(i>0){
-                                        c_day_temp.push(countriesdays.paises_info[c].confirmed[i]-
-                                                    countriesdays.paises_info[c].confirmed[i-1]);
-                                    }else{
+                                    c_a_temp.push(countriesdays.paises_info[c].confirmed[i] -
+                                        countriesdays.paises_info[c].deaths[i] -
+                                        countriesdays.paises_info[c].recovered[i]);
+                                    if (i > 0) {
+                                        c_day_temp.push(countriesdays.paises_info[c].confirmed[i] -
+                                            countriesdays.paises_info[c].confirmed[i - 1]);
+                                    } else {
                                         c_day_temp.push(countriesdays.paises_info[c].confirmed[i]);
                                     }
                                     d_temp.push('Día ' + (i + 1));
@@ -908,7 +913,7 @@ function run_calculations() {
                             countryselected = val;
                             //comparison.load({columns: [curves[countryselected]['data']]});
                             //curve.load({columns: [curves[countryselected]['data']]});
-                            if(tab_selected=='confirmados'){
+                            if (tab_selected == 'confirmados') {
                                 comparison = c3.generate({
                                     bindto: "#countries-comparison-confirmados",
                                     data: {
@@ -968,7 +973,7 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(tab_selected=='recuperados'){
+                            if (tab_selected == 'recuperados') {
                                 comparison_recover = c3.generate({
                                     bindto: "#countries-comparison-recuperados",
                                     data: {
@@ -1028,7 +1033,7 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(tab_selected=='fallecidos'){
+                            if (tab_selected == 'fallecidos') {
                                 comparison_death = c3.generate({
                                     bindto: "#countries-comparison-fallecidos",
                                     data: {
@@ -1088,7 +1093,7 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(tab_selected=='activos'){
+                            if (tab_selected == 'activos') {
                                 comparison_active = c3.generate({
                                     bindto: "#countries-comparison-activos",
                                     data: {
@@ -1148,7 +1153,7 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(tab_selected=='diarios'){
+                            if (tab_selected == 'diarios') {
                                 comparison_daily = c3.generate({
                                     bindto: "#countries-comparison-diarios",
                                     data: {
@@ -1214,8 +1219,8 @@ function run_calculations() {
                             e.target // newly activated tab
                             e.relatedTarget // previous active tab
                             let reff = e.target.attributes.href.value;
-                            if(reff=='#tab-confirmados'){
-                                tab_selected='confirmados';
+                            if (reff == '#tab-confirmados') {
+                                tab_selected = 'confirmados';
                                 comparison = c3.generate({
                                     bindto: "#countries-comparison-confirmados",
                                     data: {
@@ -1275,8 +1280,8 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(reff=='#tab-recuperados'){
-                                tab_selected='recuperados';
+                            if (reff == '#tab-recuperados') {
+                                tab_selected = 'recuperados';
                                 comparison_recover = c3.generate({
                                     bindto: "#countries-comparison-recuperados",
                                     data: {
@@ -1336,8 +1341,8 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(reff=='#tab-fallecidos'){
-                                tab_selected='fallecidos';
+                            if (reff == '#tab-fallecidos') {
+                                tab_selected = 'fallecidos';
                                 comparison_death = c3.generate({
                                     bindto: "#countries-comparison-fallecidos",
                                     data: {
@@ -1397,8 +1402,8 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(reff=='#tab-activos'){
-                                tab_selected='activos';
+                            if (reff == '#tab-activos') {
+                                tab_selected = 'activos';
                                 comparison_active = c3.generate({
                                     bindto: "#countries-comparison-activos",
                                     data: {
@@ -1458,8 +1463,8 @@ function run_calculations() {
                                     }
                                 });
                             }
-                            if(reff=='#tab-diarios'){
-                                tab_selected='diarios';
+                            if (reff == '#tab-diarios') {
+                                tab_selected = 'diarios';
                                 comparison_daily = c3.generate({
                                     bindto: "#countries-comparison-diarios",
                                     data: {
@@ -1716,9 +1721,9 @@ function run_calculations() {
                                 columns: porciento,
                                 type: 'line',
                                 colors: {
-									'% de Tests Positivos Acumulados': '#1C1340',
-									'% de Tests Positivos en el Día': '#B01E22'
-								}
+                                    '% de Tests Positivos Acumulados': '#1C1340',
+                                    '% de Tests Positivos en el Día': '#B01E22'
+                                }
                             },
                             axis: {
                                 x: {
