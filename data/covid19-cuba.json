@@ -4819,7 +4819,7 @@
                     {
                         "id": "cu-178",
                         "pais": "cu",
-                        "edad": null,
+                        "edad": 56,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": "2020/03/29",
@@ -4835,6 +4835,7 @@
                             "us"
                         ],
                         "info": "Ciudadano cubano americano, residente en el municipio Holguín, provincia del mismo nombre. Arribó al país procedente de Estados Unidos. No precisa fecha de inicio de los síntomas. Fue detectado el día 29 por el área de salud, siendo remitido al Hospital “Fermín Valdéz Domínguez” para su ingreso. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente.",
+                        "nota": "Dato verificados con información directa del MINSAP.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
