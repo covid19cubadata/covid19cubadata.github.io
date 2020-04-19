@@ -2284,6 +2284,11 @@ $locator.change(function () {
 
 $selector.on('change', function (e) {
     $.walker.map.clear();
+    for(var i in markers){
+        for(var j=0;j<markers[i].length;j++){
+            markers[i][j].addTo(map_mun);
+        }
+    }
 
     let ratio = (geojsonP.getBounds().getNorthEast().lat - geojsonP.getBounds().getSouthWest().lat) * 0.05;
 
