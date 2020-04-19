@@ -64,7 +64,14 @@ $(function () {
                         {title: "Mun."},
                         {title: "Sexo"},
                         {title: "Edad"},
-                        {title: ""}
+                        {title: ""},
+                        {title: "Info"}
+                    ],
+                    "columnDefs": [
+                        {
+                            "targets": [7],
+                            "visible": false
+                        }
                     ]
                 });
 
@@ -131,8 +138,6 @@ $(function () {
                 $(document).on('click', 'a[data-action="show-details"]', function (e) {
                     $modal.find('.modal-title').text($(this).data('title'));
                     $modal.find('.modal-body').html($('<p></p>').text($(this).data('text')));
-                    // $('#modal-details').modal('show');
-                    console.log($modal);
                 });
 
                 $(document).on('submit', '#filter-form', function (e) {
@@ -160,6 +165,7 @@ $(function () {
                                     && (filter.age_end == "" || diag.edad <= filter.age_end)
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
                                 ) {
+                                    console.log(diag.nota);
                                     dataSet.push([
                                         fecha,
                                         domains[diag.pais],
@@ -174,6 +180,7 @@ $(function () {
                                             'data-note': diag.nota != undefined ? diag.nota : '',
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
+                                        diag.info,
                                     ]);
                                 }
                             });
