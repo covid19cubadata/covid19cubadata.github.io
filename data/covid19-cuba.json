@@ -21725,7 +21725,7 @@
                     {
                         "id": "cu-987",
                         "pais": "cu",
-                        "edad": 0,
+                        "edad": 1,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
@@ -22065,7 +22065,7 @@
                     {
                         "id": "cu-1004",
                         "pais": "cu",
-                        "edad": 0,
+                        "edad": 1,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
