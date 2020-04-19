@@ -1014,7 +1014,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,52,cu,Sancti Spíritus,Sancti Spíritus,2020/04/18,,secundario
 ,mujer,54,cu,Taguasco,Sancti Spíritus,2020/04/18,,secundario
 ,mujer,23,cu,Venezuela,Ciego de Ávila,2020/04/18,,secundario
-,mujer,0,cu,Venezuela,Ciego de Ávila,2020/04/18,,desconocido
+,mujer,1,cu,Venezuela,Ciego de Ávila,2020/04/18,,desconocido
 ,mujer,49,cu,Baraguá,Ciego de Ávila,2020/04/18,,secundario
 ,mujer,52,cu,Ciego de Ávila,Ciego de Ávila,2020/04/18,,secundario
 ,mujer,17,cu,Cueto,Holguín,2020/04/18,,secundario
@@ -1031,6 +1031,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,28,cu,Holguín,Holguín,2020/04/18,,secundario
 ,hombre,77,cu,Contramaestre,Santiago de Cuba,2020/04/18,,desconocido
 ,mujer,23,cu,Santiago de Cuba,Santiago de Cuba,2020/04/18,,secundario
-,mujer,0,cu,Santiago de Cuba,Santiago de Cuba,2020/04/18,,desconocido
+,mujer,1,cu,Santiago de Cuba,Santiago de Cuba,2020/04/18,,desconocido
 ,hombre,9,cu,Isla de la Juventud,Isla de la Juventud,2020/04/18,,secundario
 ,hombre,29,cu,Isla de la Juventud,Isla de la Juventud,2020/04/18,,secundario
