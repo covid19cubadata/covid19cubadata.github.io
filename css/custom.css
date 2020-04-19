@@ -239,12 +239,12 @@ body > div {
     text-align: right;
 }
 
-#map-legend {
+.map-legend {
     text-align: center;
 }
 
 #map-legend-container {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #cases0 {
