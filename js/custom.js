@@ -244,19 +244,19 @@ $.ajaxSetup({cache: false});
 var openIcon = new L.Icon({
 	iconUrl: 'images/marker-icon-2x-gold.png',
 	shadowUrl: 'images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
+	iconSize: [15, 24],
+	iconAnchor: [7, 24],
 	popupAnchor: [1, -34],
-	shadowSize: [41, 41]
+	shadowSize: [24, 24]
 });
 
 var closeIcon = new L.Icon({
 	iconUrl: 'images/marker-icon-2x-green.png',
 	shadowUrl: 'images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
+	iconSize: [15, 24],
+	iconAnchor: [7, 24],
 	popupAnchor: [1, -34],
-	shadowSize: [41, 41]
+	shadowSize: [24, 24]
 });
 
 var map_mun = L.map('map-mun', {
