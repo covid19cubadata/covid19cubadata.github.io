@@ -1117,7 +1117,7 @@ function run_calculations() {
                                         columns: [
                                             curves_death[countryselected]['dias'],
                                             curves_death[countryselected]['data'],
-                                            cu['Cuba'].concat(deadsSum.slice(1)),
+                                            ['Cuba'].concat(deadsSum.slice(1)),
                                         ],
                                         type: 'line',
                                         colors: {
