@@ -25,6 +25,7 @@ $(function () {
             $.getJSON('data/covid19-cuba.json', function (data) {
 
                 $datatable = $('#datatable').DataTable({
+                    responsive: true,
                     'searching': false,
                     'pageLength': 25,
                     "lengthMenu": [25, 50, 100, 500, 1000],
@@ -71,7 +72,11 @@ $(function () {
                         {
                             "targets": [7],
                             "visible": false
-                        }
+                        },
+                        { responsivePriority: 1, targets: 0 },
+                        { responsivePriority: 2, targets: 3 },
+                        { responsivePriority: 3, targets: 5 },
+                        { responsivePriority: 4, targets: 4 },
                     ],
                     "drawCallback": function (settings) {
                         $('#datatable a[data-text]').each(function () {
@@ -80,6 +85,8 @@ $(function () {
                         });
                     }
                 });
+
+                new $.fn.dataTable.FixedHeader( $datatable );
 
                 let $dateStart = $("#date-start");
                 let $dateEnd = $("#date-end");
