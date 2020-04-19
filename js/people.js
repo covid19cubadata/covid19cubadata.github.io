@@ -61,7 +61,14 @@ $(function () {
                         {title: "Municipio"},
                         {title: "Sexo"},
                         {title: "Edad"},
-                        {title: ""}
+                        {title: ""},
+                        {title: "Info"}
+                    ],
+                    "columnDefs": [
+                        {
+                            "targets": [7],
+                            "visible": false
+                        }
                     ]
                 });
 
@@ -157,6 +164,7 @@ $(function () {
                                     && (filter.age_end == "" || diag.edad <= filter.age_end)
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
                                 ) {
+                                    console.log(diag.nota);
                                     dataSet.push([
                                         fecha, domains[diag.pais],
                                         diag['provincia_detección'],
@@ -170,6 +178,7 @@ $(function () {
                                             'data-note': diag.nota != undefined ? diag.nota : '',
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
+                                        diag.info,
                                     ]);
                                 }
                             });
