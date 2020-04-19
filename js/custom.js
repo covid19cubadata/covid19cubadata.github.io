@@ -453,7 +453,8 @@ $.walker = {
     }
 };
 
-let factor = 150, muns = [], pros = [], genInfo = {}, $selector = $('#select-map'), $selector_span = $selector.closest('.card').find('.card-header label'), $locator = $('#location-select');
+let factor = 150, muns = [], pros = [], genInfo = {}, $selector = $('#select-map'),
+    $selector_span = $selector.closest('.card').find('.card-header label'), $locator = $('#location-select');
 
 function logx(base, x) {
     return (base === 10) ? Math.log10(x) : Math.log10(x) / Math.log10(base);
@@ -1950,7 +1951,15 @@ function run_calculations() {
                             }
                         });
 
-                        return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
+                        return {
+                            "cases": cases,
+                            "deaths": deaths,
+                            "gone": gone,
+                            "recov": recov,
+                            "female": sex_female,
+                            "male": sex_male,
+                            "unknownsex": sex_unknown
+                        };
                     }
 
                     var globalInfo = getAllCasesAndSimpleGraphics();
@@ -2013,6 +2022,11 @@ function run_calculations() {
                         mun_ranking += 1;
                     });
 
+                    $table_mun.parents('table').dataTable({
+                        'paging': false,
+                        'bInfo': false,
+                    });
+
                     let pros_array = [];
                     for (var m in pros) {
                         pros_array.push({cod: m, total: pros[m].total});
@@ -2036,6 +2050,11 @@ function run_calculations() {
                             .replace('{tasa}', (item.total * 100000 / population[item.cod]).toFixed(2));
                         $table_pro.append(row);
                         pro_ranking += 1;
+                    });
+
+                    $table_pro.parents('table').dataTable({
+                        'paging': false,
+                        'bInfo': false,
                     });
 
                     $('[data-content=diagno]').html(genInfo.total);
@@ -2196,7 +2215,14 @@ function run_calculations() {
                             }
                         }
                     }
-                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
+                    curves2[c_trans] = {
+                        'weeks': weeks,
+                        'cummulative_sum': accum,
+                        'total': total,
+                        'ctotal': ctotal,
+                        'crecovered': crecovered,
+                        'cdeaths': cdeaths
+                    };
                     countrysorted2.push(c_trans);
                 }
 
@@ -2228,6 +2254,11 @@ function run_calculations() {
                         .replace('{deaths}', curves2[countrysorted2[i]]['cdeaths']);
                     $table_country.append(row);
                 }
+
+                $table_country.parents('table').dataTable({
+                    'paging': false,
+                    'bInfo': false,
+                });
 
                 xaxisdata['Cuba'] = 'Confirmados-Cuba';
                 columdata.push(curves2['Cuba']['weeks']);
