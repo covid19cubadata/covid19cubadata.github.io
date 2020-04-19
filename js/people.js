@@ -77,7 +77,13 @@ $(function () {
                         { responsivePriority: 2, targets: 3 },
                         { responsivePriority: 3, targets: 5 },
                         { responsivePriority: 4, targets: 4 },
-                    ]
+                    ],
+                    "drawCallback": function (settings) {
+                        $('#datatable a[data-text]').each(function () {
+                            if ($(this).html() === '-')
+                                $(this).trigger('enhance');
+                        });
+                    }
                 });
 
                 new $.fn.dataTable.FixedHeader( $datatable );
@@ -141,12 +147,6 @@ $(function () {
                     }
                 });
 
-                let $modal = $('#modal-details');
-                $(document).on('click', 'a[data-action="show-details"]', function (e) {
-                    $modal.find('.modal-title').text($(this).data('title'));
-                    $modal.find('.modal-body').html($('<p></p>').text($(this).data('text')));
-                });
-
                 $(document).on('submit', '#filter-form', function (e) {
                     e.preventDefault();
                     let filter = {};
@@ -172,7 +172,6 @@ $(function () {
                                     && (filter.age_end == "" || diag.edad <= filter.age_end)
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
                                 ) {
-                                    console.log(diag.nota);
                                     dataSet.push([
                                         fecha,
                                         domains[diag.pais],
@@ -213,7 +212,13 @@ $(function () {
             $info.remove();
             $(this).html('+');
         } else
-            $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + $(this).data('text') + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
+            $(this).trigger('enhance');
+    });
+
+    $(document).on('enhance', 'a[href="#case-details"]', function () {
+        const search = $('[type="search"]').val();
+        let content = $(this).data('text').replace(new RegExp(search), "<span style='color:#005778;'>" + search + "</span>");
+        $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
     });
 });
 
