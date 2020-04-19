@@ -23,7 +23,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link href="css/fontawesome-5.8.2/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="js/jui/jquery-ui.min.css"/>
-    <link rel="stylesheet" href="js/datatables/datatables.min.css"/>
+    <link rel="stylesheet" href="js/datatables/dataTables.bootstrap4.min.css"/>
+    <link rel="stylesheet" href="js/datatables/fixedHeader.bootstrap4.min.css"/>
+    <link rel="stylesheet" href="js/datatables/responsive.bootstrap4.min.css"/>
     <link rel="stylesheet" href="css/custom.css"/>
 </head>
 <body>
@@ -144,9 +146,9 @@
     <div class="card common-bg">
         <h1 class="card-header h6">Casos Confirmados en Cuba</h1>
         <div class="card-body table-responsive" style="border-radius: 0">
-            <p class="d-block d-md-none text-danger text-center" style="font-size: .8em"><i class="fa fa-arrow-left"></i> Desplace hacia el lado para ver todas las columnas <i class="fa fa-arrow-right"></i></p>
-            <table id="datatable" class="table table-condensed table-striped">
-            </table>
+                <p class="d-block d-md-none text-danger text-center" style="font-size: .8em"><i class="fa fa-arrow-left"></i> Desplace hacia el lado para ver todas las columnas <i class="fa fa-arrow-right"></i></p>
+                <!--<table id="datatable" class="table table-condensed table-striped ">-->
+                    <table id="datatable" class="table table-striped table-condensed nowrap" style="width:100%"></table>
         </div>
     </div>
 </div>
@@ -194,10 +196,15 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/datatables/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/jui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/datatables/datatables.min.js"></script>
+<script type="text/javascript" src="js/datatables/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/datatables/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="js/datatables/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" src="js/datatables/fixedHeader.bootstrap4.min.js"></script>
+<script type="text/javascript" src="js/datatables/dataTables.responsive.min.js"></script>
+<script type="text/javascript" src="js/datatables/responsive.bootstrap4.min.js"></script>
 <script type="text/javascript" src="js/underscore-min.js"></script>
 <script type="text/javascript" src="js/people.js"></script>
 </body>
