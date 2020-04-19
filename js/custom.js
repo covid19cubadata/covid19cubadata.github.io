@@ -241,6 +241,24 @@ var population = {
 
 $.ajaxSetup({cache: false});
 
+var openIcon = new L.Icon({
+	iconUrl: 'images/marker-icon-2x-gold.png',
+	shadowUrl: 'images/marker-shadow.png',
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
+	popupAnchor: [1, -34],
+	shadowSize: [41, 41]
+});
+
+var closeIcon = new L.Icon({
+	iconUrl: 'images/marker-icon-2x-green.png',
+	shadowUrl: 'images/marker-shadow.png',
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
+	popupAnchor: [1, -34],
+	shadowSize: [41, 41]
+});
+
 var map_mun = L.map('map-mun', {
     center: [21.5, -79.371124],
     zoom: 15,
@@ -2089,6 +2107,25 @@ function run_calculations() {
                         }
                         return '#D1D2D4';
                     }
+
+                    for(var i in data.eventos){
+                        console.log(i);
+                        event = data.eventos[i];
+                        console.log(event);
+                        if(event['lat']===0 && event['lon']===0){
+                            continue;
+                        }
+                        console.log(event['abierto']);
+                        if(event['abierto']===false){
+                            L.marker([event['lat'],event['lon']],{icon: closeIcon,
+                                title: event['identificador'], riseOnHover: true}).addTo(map_mun);
+                        }else{
+                            L.marker([event['lat'],event['lon']],{icon: openIcon,
+                                title: event['identificador'], riseOnHover: true}).addTo(map_mun);
+                        }
+
+                    }
+
                 });
 
                 let curves2 = {};
