@@ -135,8 +135,6 @@ $(function () {
                 $(document).on('click', 'a[data-action="show-details"]', function (e) {
                     $modal.find('.modal-title').text($(this).data('title'));
                     $modal.find('.modal-body').html($('<p></p>').text($(this).data('text')));
-                    // $('#modal-details').modal('show');
-                    console.log($modal);
                 });
 
                 $(document).on('submit', '#filter-form', function (e) {
