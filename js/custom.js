@@ -275,15 +275,44 @@ var map_mun = L.map('map-mun', {
 });
 var geojsonM = null, geojsonP = null, start_selection = window.location.hash.replace('#', '');
 map_mun.zoomControl.setPosition('topright');
+var markers = {};
 
 $.walker = {
     loaded: {},
     map: {
+        gen_markers: function(data){
+            for(var i in data.eventos){
+                event = data.eventos[i];
+                if(event['lat']===0 && event['lon']===0){
+                    continue;
+                }
+                if(event['abierto']===false){
+                    var marker = L.marker([event['lat'],event['lon']],{icon: closeIcon,
+                        title: event['identificador'], riseOnHover: true});
+                }else{
+                    var marker = L.marker([event['lat'],event['lon']],{icon: openIcon,
+                        title: event['identificador'], riseOnHover: true});
+                }
+                if(event['dpacode_provincia'] in markers){
+                    markers[event['dpacode_provincia']].push(marker);
+                }else{
+                    markers[event['dpacode_provincia']]=[];
+                    markers[event['dpacode_provincia']].push(marker);
+                }
+
+            }
+        },
         clear: function () {
             if (geojsonM)
                 map_mun.removeLayer(geojsonM);
             if (geojsonP)
                 map_mun.removeLayer(geojsonP);
+            for(var i in markers){
+                for(var j=0;j<markers[i].length;j++){
+                    marker = markers[i][j];
+                    map_mun.removeLayer(marker);
+                }
+            }
         }
     },
 
@@ -457,6 +486,8 @@ function run_calculations() {
                 start_selection = false;
                 $.walker.view.update();
                 general_view = $locator.val() === 'cuba';
+
+                $.walker.map.gen_markers(data);
 
                 $.walker.load("data/municipios.geojson", function (municipios) {
                     $.walker.municipality.list = municipios;
@@ -2108,22 +2139,18 @@ function run_calculations() {
                         return '#D1D2D4';
                     }
 
-                    for(var i in data.eventos){
-                        console.log(i);
-                        event = data.eventos[i];
-                        console.log(event);
-                        if(event['lat']===0 && event['lon']===0){
+                    let province_code = -1;
+                    if(general_view===false){
+                        province_code = $.walker.province.findById(province_id)['properties']['DPA_province_code'];
+                    }
+                    for(var i in markers){
+
+                        if(general_view===false && i!==province_code){
                             continue;
                         }
-                        console.log(event['abierto']);
-                        if(event['abierto']===false){
-                            L.marker([event['lat'],event['lon']],{icon: closeIcon,
-                                title: event['identificador'], riseOnHover: true}).addTo(map_mun);
-                        }else{
-                            L.marker([event['lat'],event['lon']],{icon: openIcon,
-                                title: event['identificador'], riseOnHover: true}).addTo(map_mun);
+                        for(var j=0;j<markers[i].length;j++){
+                            markers[i][j].addTo(map_mun);
                         }
-
                     }
 
                 });
