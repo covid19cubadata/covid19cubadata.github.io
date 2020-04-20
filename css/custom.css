@@ -444,6 +444,26 @@ body > div {
     line-height: 1.3;
 }
 
+
+.dataTables_info {
+    white-space: normal !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+    content: "" !important;
+    display: none !important;
+}
+
+.dataTables_wrapper .row:first-child,
+.dataTables_wrapper .row:nth-child(3) {
+    padding: 0 20px;
+}
+
+.dtr-details {
+    width: 100%;
+}
+
 @media (min-width: 576px) {
 
     #stats-cards .card {

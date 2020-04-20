@@ -24,9 +24,10 @@ $(function () {
         $.getJSON('data/municipios.geojson', function (municipios) {
             $.getJSON('data/covid19-cuba.json', function (data) {
 
-                $datatable = $('#datatable').DataTable({
-                    responsive: true,
-                    'searching': false,
+                $.fn.DataTable.ext.pager.numbers_length = 5;
+                let $datatable = $('#datatable').DataTable({
+                    'responsive': true,
+                    'searching': true,
                     'pageLength': 25,
                     "lengthMenu": [25, 50, 100, 500, 1000],
                     "language": {
@@ -43,10 +44,10 @@ $(function () {
                         "sInfoThousands": ",",
                         "sLoadingRecords": "Cargando...",
                         "oPaginate": {
-                            "sFirst": "Primero",
-                            "sLast": "Último",
-                            "sNext": "Siguiente",
-                            "sPrevious": "Anterior"
+                            "sFirst": "<<",
+                            "sLast": ">>",
+                            "sNext": ">",
+                            "sPrevious": "<"
                         },
                         "oAria": {
                             "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
@@ -59,24 +60,20 @@ $(function () {
                     },
                     data: [],
                     columns: [
+                        {title: ""},
                         {title: "Fecha"},
                         {title: "País"},
                         {title: "Prov."},
                         {title: "Mun."},
                         {title: "Sexo"},
                         {title: "Edad"},
-                        {title: ""},
                         {title: "Info"}
                     ],
                     "columnDefs": [
-                        {
-                            "targets": [7],
-                            "visible": false
-                        },
-                        { responsivePriority: 1, targets: 0 },
-                        { responsivePriority: 2, targets: 3 },
-                        { responsivePriority: 3, targets: 5 },
-                        { responsivePriority: 4, targets: 4 },
+                        {"orderable": false, "targets": [0], "searchable": false, "width": "20"},
+                        {"targets": [7], "visible": false},
+                        {responsivePriority: 1, targets: 0},
+                        {responsivePriority: 2, targets: -1}
                     ],
                     "drawCallback": function (settings) {
                         $('#datatable a[data-text]').each(function () {
@@ -86,7 +83,7 @@ $(function () {
                     }
                 });
 
-                new $.fn.dataTable.FixedHeader( $datatable );
+                new $.fn.dataTable.FixedHeader($datatable);
 
                 let $dateStart = $("#date-start");
                 let $dateEnd = $("#date-end");
@@ -129,7 +126,8 @@ $(function () {
                     _.each(_.filter(municipios.features, function (item) {
                         return item.properties.DPA_province_code == id;
                     }), function (item) {
-                        $municipe.append($('<option></option>').attr('value', item.properties.DPA_municipality_code).text(item.properties.municipality));
+                        if ($municipe.find('option[value="' + item.properties.DPA_municipality_code + '"]').length === 0)
+                            $municipe.append($('<option></option>').attr('value', item.properties.DPA_municipality_code).text(item.properties.municipality));
                     });
                 });
 
@@ -173,12 +171,6 @@ $(function () {
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
                                 ) {
                                     dataSet.push([
-                                        fecha,
-                                        domains[diag.pais],
-                                        diag['provincia_detección'],
-                                        diag['municipio_detección'],
-                                        diag.sexo,
-                                        diag.edad,
                                         $('<a></a>').attr({
                                             'class': 'btn btn-primary btn-block btn-sm',
                                             'href': '#case-details',
@@ -186,6 +178,12 @@ $(function () {
                                             'data-note': diag.nota != undefined ? diag.nota : '',
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
+                                        fecha,
+                                        domains[diag.pais],
+                                        diag['provincia_detección'],
+                                        diag['municipio_detección'],
+                                        diag.sexo,
+                                        diag.edad,
                                         diag.info,
                                     ]);
                                 }
@@ -217,8 +215,16 @@ $(function () {
 
     $(document).on('enhance', 'a[href="#case-details"]', function () {
         const search = $('[type="search"]').val();
-        let content = $(this).data('text').replace(new RegExp(search), "<span style='color:#005778;'>" + search + "</span>");
-        $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
+        let content = $(this).data('text');
+        if (search)
+            content = content.replace(new RegExp(search), "<span style='color:#005778;'>" + search + "</span>");
+        let $tr = $(this).closest('tr');
+        const $sender = $(this);
+        setTimeout(function () {
+            if ($tr.next().hasClass('child'))
+                $tr = $tr.next();
+            $tr.after('<tr data-info="' + $sender.data('title') + '"><td colspan="7" style="white-space: normal;"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $sender.data('note') + '</p></td></tr>');
+        }, 100);
     });
 });
 
