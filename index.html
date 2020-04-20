@@ -28,57 +28,24 @@
 
 <body>
 
-<nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="/">
+<nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.jpg" alt="COVID-19 Cubadata">
     </a>
-    <form class="card ml-auto" style="margin-bottom: 0px; margin-right: 4px">
-        <div class="card-body" style="padding: 6px 5px">
-            <select id="location-select" class="form-control" style="margin-top: 0px">
-                <option value="cuba">Cuba</option>
-            </select>
-        </div>
-        <div class="card-footer text-center text-uppercase"
-             style="font-size: .75em; font-weight: 700; padding: 2px 10px">Seleccione una región
-        </div>
-    </form>
-    <div class="navbar-stats d-none d-xl-block">
-        <div class="card ml-auto">
-            <div class="card-body" data-content="update">
-                <i class="fa fa-spinner fa-spin"></i>
-            </div>
-            <div class="card-footer">Actualizacion</div>
-        </div>
-        <div class="card ml-auto bg-danger text-white">
-            <div class="card-body" data-content="diagno">
-                <i class="fa fa-spinner fa-spin"></i>
-            </div>
-            <div class="card-footer">Diagnosticados</div>
-        </div>
-        <div class="card ml-auto bg-warning text-white">
-            <div class="card-body" data-content="activo">
-                <i class="fa fa-spinner fa-spin"></i>
-            </div>
-            <div class="card-footer">Activos</div>
-        </div>
-        <div class="card ml-auto bg-success text-white">
-            <div class="card-body" data-content="recupe">
-                <i class="fa fa-spinner fa-spin"></i>
-            </div>
-            <div class="card-footer">Recuperados</div>
-        </div>
-        <div class="card ml-auto bg-info text-white">
-            <div class="card-body" data-content="evacua">
-                <i class="fa fa-spinner fa-spin"></i>
-            </div>
-            <div class="card-footer">Evacuados</div>
-        </div>
-        <div class="card ml-auto bg-dark text-white">
-            <div class="card-body" data-content="fallec">
-                <i class="fa fa-spinner fa-spin"></i>
-            </div>
-            <div class="card-footer">Fallecidos</div>
-        </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto pl-3">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="casos.html">Casos</a>
+            </li>
+        </ul>
     </div>
 </nav>
 
@@ -92,6 +59,17 @@
 </p>
 
 <div id="general" class="container-fluid">
+
+    <form class="card form-inline">
+        <div class="card-body" style="padding: 6px 5px">
+            <div class="form-group mb-0">
+                <label for="location-select">Seleccione una región</label>
+                <select id="location-select" class="form-control text-center ml-md-1" style="margin-top: 0px">
+                    <option value="cuba">Cuba</option>
+                </select>
+            </div>
+        </div>
+    </form>
 
     <div class="d-block d-sm-none">
         <table class="table">
@@ -122,68 +100,57 @@
         </table>
     </div>
 
-    <div id="stats-cards" class="d-none d-sm-block d-xl-none">
-        <div class="row">
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <span data-content="update"><i class="fa fa-spinner fa-spin"></i></span>
-                    </div>
-                    <h2 class="card-header h5">
-                        Actualización
-                    </h2>
+    <div id="stats-cards" class="d-none d-sm-block">
+        <div class="card-deck">
+            <section class="card text-center">
+                <div class="card-body" data-content="update">
+                    <i class="fa fa-spinner fa-spin"></i>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="card text-center bg-danger text-white">
-                    <div class="card-body">
-                        <span data-content="diagno"><i class="fa fa-spinner fa-spin"></i></span>
-                    </div>
-                    <h2 class="card-header h5">
-                        Diagnosticados
-                    </h2>
+                <h2 class="card-header h5">
+                    Actualización
+                </h2>
+            </section>
+            <section class="card text-center bg-danger text-white">
+                <div class="card-body" data-content="diagno">
+                    <i class="fa fa-spinner fa-spin"></i>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="card text-center bg-warning text-white">
-                    <div class="card-body">
-                        <span data-content="activo"><i class="fa fa-spinner fa-spin"></i></span>
-                    </div>
-                    <h2 class="card-header h5">
-                        Activos
-                    </h2>
+                <h2 class="card-header h5">
+                    Diagnosticados
+                </h2>
+            </section>
+            <section class="card text-center bg-warning text-white">
+                <div class="card-body" data-content="activo">
+                    <i class="fa fa-spinner fa-spin"></i>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="card text-center bg-success text-white">
-                    <div class="card-body">
-                        <span data-content="recupe"><i class="fa fa-spinner fa-spin"></i></span>
-                    </div>
-                    <h2 class="card-header h5">
-                        Recuperados
-                    </h2>
+                <h2 class="card-header h5">
+                    Activos
+                </h2>
+            </section>
+            <div class="w-100 d-sm-block d-lg-none"></div>
+            <section class="card text-center bg-success text-white">
+                <div class="card-body" data-content="recupe">
+                    <i class="fa fa-spinner fa-spin"></i>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="card text-center bg-info text-white">
-                    <div class="card-body">
-                        <span data-content="evacua"><i class="fa fa-spinner fa-spin"></i></span>
-                    </div>
-                    <h2 class="card-header h5">
-                        Evacuados
-                    </h2>
+                <h2 class="card-header h5">
+                    Recuperados
+                </h2>
+            </section>
+            <section class="card text-center bg-info text-white">
+                <div class="card-body" data-content="evacua">
+                    <i class="fa fa-spinner fa-spin"></i>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="card text-center bg-dark text-white">
-                    <div class="card-body">
-                        <span data-content="fallec"><i class="fa fa-spinner fa-spin"></i></span>
-                    </div>
-                    <h2 class="card-header h5">
-                        Fallecidos
-                    </h2>
+                <h2 class="card-header h5">
+                    Evacuados
+                </h2>
+            </section>
+            <section class="card text-center bg-dark text-white">
+                <div class="card-body" data-content="fallec">
+                    <i class="fa fa-spinner fa-spin"></i>
                 </div>
-            </div>
+                <h2 class="card-header h5">
+                    Fallecidos
+                </h2>
+            </section>
         </div>
     </div>
 </div>
@@ -258,50 +225,47 @@
                 <div id="daily-single-info"></div>
             </div>
         </section>
+        <div class="w-100 d-none d-sm-block d-lg-none"></div>
         <section id="recdist" class="card common-bg">
             <div class="card-header">Evolución de altas por días</div>
             <div class="card-body">
                 <div id="daily-recovers-info"></div>
             </div>
         </section>
-        
         <section id="deadist" class="card common-bg">
             <div class="card-header">Evolución de muertes por días</div>
             <div class="card-body">
                 <div id="daily-deads-info"></div>
             </div>
         </section>
-        </div>
-
-		<div class="card-deck card-deck-3">
+        <div class="w-100 d-none d-sm-block"></div>
         <section id="agedist" class="card common-bg ">
             <div class="card-header">Distribución por rangos etarios</div>
             <div class="card-body">
                 <div id="ages-info"></div>
             </div>
         </section>
-		
         <section id="homdist" class="card common-bg ">
             <div class="card-header">Casos por nacionalidad</div>
             <div class="card-body">
                 <div id="countries-info-pie"></div>
             </div>
         </section>
+        <div class="w-100 d-none d-sm-block d-lg-none"></div>
         <section id="fordist" class="card common-bg ">
             <div class="card-header">Distribución por nacionalidad de casos extranjeros</div>
             <div class="card-body">
                 <div id="countries-info"></div>
             </div>
         </section>
-        <div data-class="" class="w-100 d-none d-sm-block"></div>
-    </div>
-    <div id="tests-deck" class="card-deck card-deck-3">
+        <div class="w-100 d-none d-lg-block"></div>
         <section id="tesmade-pcr" class="card common-bg">
             <div class="card-header">Relación de tests (PCR) realizados</div>
             <div class="card-body">
                 <div id="tests-donut-info"></div>
             </div>
         </section>
+        <div class="w-100 d-none d-sm-block d-lg-none"></div>
         <section id="tesacum" class="card common-bg">
             <div class="card-header">Tests (PCR) por días</div>
             <div class="card-body">
@@ -311,7 +275,6 @@
                 </div>
             </div>
         </section>
-        <div class="w-100 d-none d-sm-block d-lg-none"></div>
         <section id="testspor" class="card common-bg">
             <div class="card-header">% Tests Positivos con respecto a Total de Tests (PCR)</div>
             <div class="card-body">

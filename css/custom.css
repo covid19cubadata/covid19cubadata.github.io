@@ -43,6 +43,32 @@ body > div {
     background: #1C1340 !important;
 }
 
+.btn-primary {
+    background: #005778 !important;
+    border-color: #005778 !important;
+}
+
+.btn-danger {
+    background: #d0797c !important;
+    border-color: #d0797c !important;
+}
+
+.btn-warning {
+    background: #b11116 !important;
+    border-color: #b11116 !important;
+    color: #fff;
+}
+
+.page-link {
+    color: #005778;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #005778;
+    border-color: #005778;
+}
+
 .common-bg {
     background-color: #1C1340;
 }
@@ -191,7 +217,7 @@ body > div {
 }
 
 #logo {
-    height: 100px;
+    height: 70px;
     margin-left: 0px;
 }
 
@@ -339,26 +365,14 @@ body > div {
     background-color: rgba(18, 19, 64, 0.2);
 }
 
-#general .card-body {
+#stats-cards .card-body {
     padding: .25em 15px;
 }
 
-#general .card-body span {
+#stats-cards .card-body {
     font-weight: bold;
     font-size: 2.5em;
     line-height: 1em;
-}
-
-#general .col-lg-2 {
-    /*padding-right: 0;*/
-}
-
-#general .col-lg-2:last-child {
-    /*padding-right: 15px;*/
-}
-
-#general .card {
-    margin-bottom: 1em;
 }
 
 #general h2 {
@@ -412,32 +426,58 @@ body > div {
     display: none !important;
 }
 
-#compari > .card-header > ul.nav{
+#compari > .card-header > ul.nav {
     margin-top: .3em;
     margin-bottom: -0.5rem;
 }
 
-#compari > .card-header > ul.nav > li > a:not([class*='active']){
+#compari > .card-header > ul.nav > li > a:not([class*='active']) {
     color: white;
 }
 
-#compari .text-block.sub{
+#compari .text-block.sub {
     text-align: center;
     margin-bottom: 1em;
 }
 
-#compari .fa{
+#compari .fa {
     line-height: 1.3;
+}
+
+
+.dataTables_info {
+    white-space: normal !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+    content: "" !important;
+    display: none !important;
+}
+
+.dataTables_wrapper .row:first-child,
+.dataTables_wrapper .row:nth-child(3) {
+    padding: 0 20px;
+}
+
+.dtr-details {
+    width: 100%;
 }
 
 @media (min-width: 576px) {
 
-    #stats-cards > .row > div:nth-child(odd) {
-        padding-right: 7px;
+    #stats-cards .card {
+        margin: 0 7px 1em;
     }
 
-    #stats-cards > .row > div:nth-child(even) {
-        padding-left: 7px;
+    #stats-cards > .card-deck > .card:first-child,
+    #stats-cards > .card-deck > .card:nth-of-type(4) {
+        margin-left: 15px;
+    }
+
+    #stats-cards > .card-deck > .card:nth-of-type(3),
+    #stats-cards > .card-deck > .card:last-child {
+        margin-right: 15px;
     }
 
     #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
@@ -450,16 +490,20 @@ body > div {
         margin-left: 7px;
     }
 
-    .card-deck-3 > .card:nth-child(1) {
-        margin-left: 15px;
-        margin-right: 7px !important;
-    }
-
-    .card-deck-3 > .card:nth-child(2) {
-        margin-left: 7px !important;
+    .card-deck-3 > .card:nth-of-type(1) {
+        margin-left: 15px !important;
         margin-right: 15px !important;
     }
 
+    .card-deck-3 > .card:nth-of-type(odd) {
+        margin-left: 7px;
+        margin-right: 15px;
+    }
+
+    .card-deck-3 > .card:nth-of-type(even) {
+        margin-left: 15px;
+        margin-right: 7px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -496,16 +540,16 @@ body > div {
     #top-countries > .card-deck > section.card:nth-of-type(even) {
         margin-left: 7px;
     }
-  
-    #compari > .card-header > form{
+
+    #compari > .card-header > form {
         float: left;
     }
 
-    #compari > .card-header > ul.nav-justified{
+    #compari > .card-header > ul.nav-justified {
         float: right;
     }
 
-    #compari > .card-header > ul.nav-justified > li{
+    #compari > .card-header > ul.nav-justified > li {
         flex-basis: auto;
         flex-grow: 0;
     }
@@ -513,7 +557,21 @@ body > div {
 
 @media (min-width: 992px) {
 
-    .card-deck-3 > .card:nth-of-tpe(3n+1) {
+    #stats-cards .card,
+    #stats-cards > .card-deck > .card:nth-of-type(3),
+    #stats-cards > .card-deck > .card:nth-of-type(4) {
+        margin: 0 7px 1em;
+    }
+
+    #stats-cards > .card-deck > .card:first-child {
+        margin-left: 15px;
+    }
+
+    #stats-cards > .card-deck > .card:last-child {
+        margin-right: 15px;
+    }
+
+    .card-deck-3 > .card:nth-of-type(3n+1) {
         margin-left: 15px;
         margin-right: 7px !important;
     }
