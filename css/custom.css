@@ -333,6 +333,10 @@ body > div {
     height: 450px;
 }
 
+#curves-deaths-normalized {
+    height: 550px;
+}
+
 #cusobu, #fr, #swlx {
     height: 25px;
 }

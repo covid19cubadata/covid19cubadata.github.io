@@ -2262,6 +2262,72 @@ function run_calculations() {
                         }
                     }
                 });
+
+                //
+
+                let acurves2 = {};
+                var acountrysorted2 = [];
+
+                for (var c in countriesdays.paises_info) {
+                    let c_trans = c in trans_countries ? trans_countries[c] : c;
+                    var adays = [c_trans];
+                    var accum = [c_trans];
+                    var total = 0;
+                    var ctotal = 0;
+                    for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                        cdeaths = countriesdays.paises_info[c].deaths[i];
+                        adays.push(i);
+                        accum.push(cdeaths);
+                    }
+                    acurves2[c_trans] = {'adays': adays, 'cummulative_sum': accum, 'dtotal': cdeaths};
+                    acountrysorted2.push(c_trans);
+                }                
+
+                let acolumdata = [];
+                let axaxisdata = {};
+                var acont = 0;
+                var atopn = 20;                
+
+                acountrysorted2.sort((a, b) => acurves2[b]['dtotal'] - acurves2[a]['dtotal']);
+                
+                for (var i = 0; i < acountrysorted2.length; i++) {
+                    axaxisdata[acountrysorted2[i]] = acountrysorted2[i];
+                    acolumdata.push(acurves2[acountrysorted2[i]]['adays']);
+                    acolumdata.push(acurves2[acountrysorted2[i]]['cummulative_sum']);
+
+                    if (acont === atopn) {
+                        break;
+                    }
+                    acont += 1;
+                }
+
+                axaxisdata['Cuba'] = 'Cuba';
+                acolumdata.push(acurves2['Cuba']['adays']);
+                acolumdata.push(acurves2['Cuba']['cummulative_sum']);
+
+                curve3 = c3.generate({
+                    bindto: "#curves-deaths-normalized",
+                    data: {
+                        xs: axaxisdata[0],
+                        columns: acolumdata,
+                        type: 'line',
+                        colors: {
+                            'Cuba': '#B01E22'
+                        }
+                    },
+                    tooltip: {
+                        show: false
+                    },
+                    axis: {
+                        x: {
+                            label: "Time",
+                        },
+                        y: {
+                            label: 'Deaths',
+                            position: 'outer-middle'
+                        }
+                    }
+                });
             });
         });
     });
