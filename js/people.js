@@ -26,7 +26,7 @@ $(function () {
 
                 $datatable = $('#datatable').DataTable({
                     responsive: true,
-                    'searching': false,
+                    'searching': true,
                     'pageLength': 25,
                     "lengthMenu": [25, 50, 100, 500, 1000],
                     "language": {
@@ -73,10 +73,13 @@ $(function () {
                             "targets": [7],
                             "visible": false
                         },
-                        { responsivePriority: 1, targets: 0 },
-                        { responsivePriority: 2, targets: 3 },
-                        { responsivePriority: 3, targets: 5 },
-                        { responsivePriority: 4, targets: 4 },
+                        {responsivePriority: 1, targets: 0},
+                        {responsivePriority: 3, targets: 1},
+                        {responsivePriority: 7, targets: 2},
+                        {responsivePriority: 6, targets: 3},
+                        {responsivePriority: 5, targets: 4},
+                        {responsivePriority: 2, targets: 5},
+                        {responsivePriority: 4, targets: 6}
                     ],
                     "drawCallback": function (settings) {
                         $('#datatable a[data-text]').each(function () {
@@ -86,7 +89,7 @@ $(function () {
                     }
                 });
 
-                new $.fn.dataTable.FixedHeader( $datatable );
+                new $.fn.dataTable.FixedHeader($datatable);
 
                 let $dateStart = $("#date-start");
                 let $dateEnd = $("#date-end");
@@ -129,7 +132,8 @@ $(function () {
                     _.each(_.filter(municipios.features, function (item) {
                         return item.properties.DPA_province_code == id;
                     }), function (item) {
-                        $municipe.append($('<option></option>').attr('value', item.properties.DPA_municipality_code).text(item.properties.municipality));
+                        if ($municipe.find('option[value="' + item.properties.DPA_municipality_code + '"]').length === 0)
+                            $municipe.append($('<option></option>').attr('value', item.properties.DPA_municipality_code).text(item.properties.municipality));
                     });
                 });
 
@@ -215,10 +219,23 @@ $(function () {
             $(this).trigger('enhance');
     });
 
+    $(document).on('click', 'td.sorting_1', function () {
+        const $link = $(this).closest('tr').find('a').hide();
+        const $info = $('[data-info="' + $link.data('title') + '"]');
+        $link.html('-');
+        if ($info.length) {
+            $info.remove();
+            $link.html('+');
+        } else
+            $link.trigger('enhance');
+    });
+
     $(document).on('enhance', 'a[href="#case-details"]', function () {
         const search = $('[type="search"]').val();
-        let content = $(this).data('text').replace(new RegExp(search), "<span style='color:#005778;'>" + search + "</span>");
-        $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td></td><td colspan="6"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
+        let content = $(this).data('text');
+        if (search)
+            content = content.replace(new RegExp(search), "<span style='color:#005778;'>" + search + "</span>");
+        $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td colspan="7" style="white-space: normal;"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
     });
 });
 
