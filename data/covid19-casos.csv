@@ -1069,7 +1069,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,22,cu,Limonar,Matanzas,2020/04/19,,secundario
 ,mujer,56,cu,Matanzas,Matanzas,2020/04/19,,desconocido
 ,mujer,57,cu,Cárdenas,Matanzas,2020/04/19,,desconocido
-,mujer,40,cu,Cárdenas,Matanzas,2020/04/19,,secundario
+,hombre,40,cu,Cárdenas,Matanzas,2020/04/19,,secundario
 ,hombre,41,cu,Matanzas,Matanzas,2020/04/19,,secundario
 ,hombre,48,cu,Cárdenas,Matanzas,2020/04/19,,desconocido
 ,mujer,55,cu,Colón,Matanzas,2020/04/19,,secundario
