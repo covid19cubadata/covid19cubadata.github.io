@@ -448,6 +448,17 @@ body > div {
     white-space: normal !important;
 }
 
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+    content: "" !important;
+    display: none !important;
+}
+
+.dataTables_wrapper .row:first-child,
+.dataTables_wrapper .row:nth-child(3) {
+    padding: 0 20px;
+}
+
 @media (min-width: 576px) {
 
     #stats-cards .card {

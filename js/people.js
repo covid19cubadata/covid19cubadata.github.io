@@ -24,8 +24,9 @@ $(function () {
         $.getJSON('data/municipios.geojson', function (municipios) {
             $.getJSON('data/covid19-cuba.json', function (data) {
 
-                $datatable = $('#datatable').DataTable({
-                    responsive: true,
+                $.fn.DataTable.ext.pager.numbers_length = 5;
+                let $datatable = $('#datatable').DataTable({
+                    'responsive': true,
                     'searching': true,
                     'pageLength': 25,
                     "lengthMenu": [25, 50, 100, 500, 1000],
@@ -43,10 +44,10 @@ $(function () {
                         "sInfoThousands": ",",
                         "sLoadingRecords": "Cargando...",
                         "oPaginate": {
-                            "sFirst": "Primero",
-                            "sLast": "Último",
-                            "sNext": "Siguiente",
-                            "sPrevious": "Anterior"
+                            "sFirst": "<<",
+                            "sLast": ">>",
+                            "sNext": ">",
+                            "sPrevious": "<"
                         },
                         "oAria": {
                             "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
@@ -59,27 +60,20 @@ $(function () {
                     },
                     data: [],
                     columns: [
+                        {title: ""},
                         {title: "Fecha"},
                         {title: "País"},
                         {title: "Prov."},
                         {title: "Mun."},
                         {title: "Sexo"},
                         {title: "Edad"},
-                        {title: ""},
                         {title: "Info"}
                     ],
                     "columnDefs": [
-                        {
-                            "targets": [7],
-                            "visible": false
-                        },
+                        {"orderable": false, "targets": [0], "searchable": false, "width": "20"},
+                        {"targets": [7], "visible": false},
                         {responsivePriority: 1, targets: 0},
-                        {responsivePriority: 3, targets: 1},
-                        {responsivePriority: 7, targets: 2},
-                        {responsivePriority: 6, targets: 3},
-                        {responsivePriority: 5, targets: 4},
-                        {responsivePriority: 2, targets: 5},
-                        {responsivePriority: 4, targets: 6}
+                        {responsivePriority: 2, targets: -1}
                     ],
                     "drawCallback": function (settings) {
                         $('#datatable a[data-text]').each(function () {
@@ -177,12 +171,6 @@ $(function () {
                                     && (filter.sexo == "" || diag.sexo == filter.sexo)
                                 ) {
                                     dataSet.push([
-                                        fecha,
-                                        domains[diag.pais],
-                                        diag['provincia_detección'],
-                                        diag['municipio_detección'],
-                                        diag.sexo,
-                                        diag.edad,
                                         $('<a></a>').attr({
                                             'class': 'btn btn-primary btn-block btn-sm',
                                             'href': '#case-details',
@@ -190,6 +178,12 @@ $(function () {
                                             'data-note': diag.nota != undefined ? diag.nota : '',
                                             'data-title': diag.id,
                                         }).text('+').prop('outerHTML'),
+                                        fecha,
+                                        domains[diag.pais],
+                                        diag['provincia_detección'],
+                                        diag['municipio_detección'],
+                                        diag.sexo,
+                                        diag.edad,
                                         diag.info,
                                     ]);
                                 }
@@ -219,23 +213,18 @@ $(function () {
             $(this).trigger('enhance');
     });
 
-    $(document).on('click', 'td.sorting_1', function () {
-        const $link = $(this).closest('tr').find('a').hide();
-        const $info = $('[data-info="' + $link.data('title') + '"]');
-        $link.html('-');
-        if ($info.length) {
-            $info.remove();
-            $link.html('+');
-        } else
-            $link.trigger('enhance');
-    });
-
     $(document).on('enhance', 'a[href="#case-details"]', function () {
         const search = $('[type="search"]').val();
         let content = $(this).data('text');
         if (search)
             content = content.replace(new RegExp(search), "<span style='color:#005778;'>" + search + "</span>");
-        $(this).closest('tr').after('<tr data-info="' + $(this).data('title') + '"><td colspan="7" style="white-space: normal;"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $(this).data('note') + '</p></td></tr>');
+        let $tr = $(this).closest('tr');
+        const $sender = $(this);
+        setTimeout(function () {
+            if ($tr.next().hasClass('child'))
+                $tr = $tr.next();
+            $tr.after('<tr data-info="' + $sender.data('title') + '"><td colspan="7" style="white-space: normal;"><p>' + content + '</p><p class="text-danger font-italic" style="font-size: .75em">' + $sender.data('note') + '</p></td></tr>');
+        }, 100);
     });
 });
 
