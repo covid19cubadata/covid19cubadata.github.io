@@ -519,10 +519,11 @@ function run_calculations() {
                         var sex_unknown = 0;
                         var countries = {};
                         var ages = {
-                            '0-18': 0,
-                            '19-40': 0,
-                            '41-60': 0,
-                            '61 o más': 0,
+                            '0-19': 0,
+                            '20-39': 0,
+                            '40-59': 0,
+                            '60-79': 0,
+                            '80 o más': 0,
                             'Desconocido': 0
                         }
                         var total_cu = 0;
@@ -575,14 +576,16 @@ function run_calculations() {
                                     //ages
                                     if (diag[p].edad == null) {
                                         ages['Desconocido'] += 1
-                                    } else if ((diag[p].edad >= 0) && (diag[p].edad < 19)) {
-                                        ages['0-18'] += 1
-                                    } else if ((diag[p].edad >= 19) && (diag[p].edad <= 40)) {
-                                        ages['19-40'] += 1
-                                    } else if ((diag[p].edad >= 41) && (diag[p].edad <= 60)) {
-                                        ages['41-60'] += 1
+                                    } else if ((diag[p].edad >= 0) && (diag[p].edad < 20)) {
+                                        ages['0-19'] += 1
+                                    } else if ((diag[p].edad >= 20) && (diag[p].edad < 40)) {
+                                        ages['20-39'] += 1
+                                    } else if ((diag[p].edad >= 40) && (diag[p].edad < 60)) {
+                                        ages['40-59'] += 1
+                                    } else if ((diag[p].edad >= 60) && (diag[p].edad < 80)) {
+                                        ages['60-79'] += 1
                                     } else {
-                                        ages['61 o más'] += 1
+                                        ages['80 o más'] += 1
                                     }
 
                                     //contagio
