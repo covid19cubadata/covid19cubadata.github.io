@@ -1117,7 +1117,7 @@ function run_calculations() {
                                         columns: [
                                             curves_death[countryselected]['dias'],
                                             curves_death[countryselected]['data'],
-                                            cu['Cuba'].concat(deadsSum.slice(1)),
+                                            ['Cuba'].concat(deadsSum.slice(1)),
                                         ],
                                         type: 'line',
                                         colors: {
@@ -2284,7 +2284,17 @@ $locator.change(function () {
 
 $selector.on('change', function (e) {
     $.walker.map.clear();
+    let general_view = $locator.val() === 'cuba';
+    let province_code = -1;
+    if(general_view===false){
+        let province_id = $locator.val();
+        province_code = $.walker.province.findById(province_id)['properties']['DPA_province_code'];
+    }
     for(var i in markers){
+
+        if(general_view===false && i!==province_code){
+            continue;
+        }
         for(var j=0;j<markers[i].length;j++){
             markers[i][j].addTo(map_mun);
         }
