@@ -2268,6 +2268,23 @@ function run_calculations() {
                 let acurves2 = {};
                 var acountrysorted2 = [];
 
+                // let myjson = []
+                // $.getJSON("./data/country-by-population.json", function(json) {
+                //     myjson = json
+                // });
+                // console.log(myjson);
+
+                // let myList;
+                // $.getJSON("./data/country-by-population.json").done(function (data) {
+                //     myList = data;
+                //     console.log(data);
+                // });
+                // $.walker.load("data/country-by-population.json", function (population1) {
+        
+                // });
+                // $.walker.load("country-by-population.json", function (population) {})
+                // console.log(population1);
+
                 for (var c in countriesdays.paises_info) {
                     let c_trans = c in trans_countries ? trans_countries[c] : c;
                     var adays = [c_trans];
