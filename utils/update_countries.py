@@ -16,7 +16,7 @@ def change_date(dat):
 def get_oxford_index():
 	now = datetime.now()
 	indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
-	data = {'data':{}}
+	data = {'data':{},'countries': indexes['countries']}
 	for day,countries in indexes['data'].items():
 		data['data'][day] = {}
 		for country in countries:
