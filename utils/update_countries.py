@@ -94,19 +94,15 @@ def generate_csv():
 
 
 def main():
-
-    indexs = get_oxford_index()
-    print('Oxford Index generated')
-    
-    data = get_json_info()
-    data['indexes'] = indexs
-    path = os.path.join('data', 'paises-info-dias.json')
-    json.dump(data, open(path, 'w'))
-
-    print('Countries info generated')
-    
-    generate_csv()
-    print('CSV generated')
+	indexs = get_oxford_index()
+	print('Oxford Index generated')
+	data = get_json_info()
+	data['indexes'] = indexs
+	path = os.path.join('data', 'paises-info-dias.json')
+	json.dump(data, open(path, 'w'))
+	print('Countries info generated')
+	generate_csv()
+	print('CSV generated')
 
     
     
