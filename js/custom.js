@@ -1178,7 +1178,7 @@ function run_calculations() {
                             curves_stringency[cid]['data']=curves_stringency[cid]['data'].slice(1);
                         }
                         $('#stringencycub-idx').html(index_last_value);
-                        let index_slice2 = index_days.length-cuba.length-1;
+                        let index_slice2 = index_days.length-cuba.length;
                         index_slice2 = Math.max(index_slice2,0);
                         stringency = c3.generate({
                             bindto: "#stringencycub-evol",
@@ -1191,7 +1191,8 @@ function run_calculations() {
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Cuba': '#B01E22'
+                                    'Stringency': '#B01E22',
+                                    'Confirmados': '1C1340'
                                 },
                                 axes: {
                                     Stringency: 'y',
@@ -1200,6 +1201,10 @@ function run_calculations() {
                             },
                             axis: {
                                 x: {
+									padding: {
+								      left: 1,
+								      right: 1
+								    },
                                     label: 'Fecha',
                                     type: 'categorical',
                                     show: false
@@ -1217,7 +1222,18 @@ function run_calculations() {
                                         position: 'outer-middle'
                                     }
                                 }
-                            }
+                            },
+								grid: {
+									x: {
+										lines: [
+											{'value': '01/28' , 'text': 'Análisis Plan de Prevención y Control '},
+											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
+											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
+											{'value': '03/24' , 'text': 'Regulación de fronteras y cierre de escuelas'},
+											{'value': '04/11' , 'text': 'Cese de trasnporte público'}
+										]
+									}
+								}
                         });
 
 
