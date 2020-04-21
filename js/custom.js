@@ -1125,14 +1125,15 @@ function run_calculations() {
                         }
                         index_days.sort();
                         let index_values_cuba = [];
+                        let index_values_cuba_all = [];
                         let index_last_value = 0;
                         let verif=false;
                         var curves_stringency = {}
                         for(var i in index_days){
                             var idx = '2020-'+index_days[i].replace('/','-');
-                            //var idx2 = idx.replace(/-/g,'/');
-                            //if(!verif && idx2==='2020/03/11'){verif=true;}
-                            //if(verif){
+                            var idx2 = idx.replace(/-/g,'/');
+                            if(!verif && idx2==='2020/03/11'){verif=true;}
+                            if(verif){
                                 if ('CUB' in countriesdays.indexes.data[idx]){
                                     var val = countriesdays.indexes.data[idx].CUB.stringency;
                                     index_values_cuba.push(val);
@@ -1140,8 +1141,14 @@ function run_calculations() {
                                 } else {
                                     index_values_cuba.push(null);
                                 }
-                                //if(index_values_cuba.length>(cuba.length-1)){break;}
-                            //}
+                                if(index_values_cuba.length>(cuba.length-1)){break;}
+                            }
+                            if ('CUB' in countriesdays.indexes.data[idx]){
+                                var val = countriesdays.indexes.data[idx].CUB.stringency;
+                                index_values_cuba_all.push(val);
+                            } else {
+                                index_values_cuba_all.push(null);
+                            }
                             for(var j in countriesdays.indexes.data[idx]){
                                 if(j in countries_codes){
                                     let name = trans_countries[countries_codes[j]];
@@ -1152,6 +1159,9 @@ function run_calculations() {
                                     }
                                 }
                             }
+                        }
+                        for(var cid in curves_stringency){
+                            curves_stringency[cid]['data']=curves_stringency[cid]['data'].slice(1);
                         }
                         /*stringency_sorted=[];
                         for(var i in curves_stringency){
@@ -1167,8 +1177,8 @@ function run_calculations() {
                             data: {
                                 x: 'Fecha',
                                 columns: [
-                                    ['Fecha'].concat(index_days),
-                                    ['Stringency'].concat(index_values_cuba),
+                                    ['Fecha'].concat(index_days.slice(0,index_slice2+cuba.length-1)),
+                                    ['Stringency'].concat(index_values_cuba_all),
                                     ['Confirmados'].concat(Array.apply(null,Array(index_slice2)).map((x,i)=>null).concat(cuba.slice(1))),
                                 ],
                                 type: 'line',
@@ -1187,11 +1197,17 @@ function run_calculations() {
                                     show: false
                                 },
                                 y: {
-                                    label: 'Valor del índice',
-                                    position: 'outer-middle'
+                                    label: {
+                                        text: 'Valor del índice',
+                                        position: 'outer-middle'
+                                    }
                                 },
                                 y2: {
-                                    show: true
+                                    show: true,
+                                    label: {
+                                        text: 'Casos confirmados',
+                                        position: 'outer-middle'
+                                    }
                                 }
                             }
                         });
