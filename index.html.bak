@@ -493,19 +493,6 @@
                     </div>
                 </div>
             </div>
-            <div class="text-block sub">
-                Top 10 de países con comportamiento similar a Cuba
-            </div>
-            <table id="top-similar-countries" class="table table-striped table-sm mb-0">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>País</th>
-                        <th>Distancia</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
             <div class="map-quote">
                 * Datos de los países tomados de <a href="https://github.com/pomber/covid19">pomber/covid19</a>
                 y
