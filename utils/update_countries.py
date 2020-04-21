@@ -13,6 +13,8 @@ logging.basicConfig(level=logging.DEBUG, format='%(threadName)s: %(message)s')
 DB_POSTGRES_URI = os.getenv("DB_POSTGRES_URI")
 OUTPUT_TYPE = "db"
 
+# TODO: migrate all functions to a class
+
 
 def change_date(dat):
     t = dat.split('-')
@@ -137,6 +139,7 @@ def save_data_into_postgresdb(data, type):
                     (json.dumps(data, indent=2),
                      fecha)
                     )
+    # TODO: insert data from generate_csv() into postges table
     pgclient.commit()
     cur.close()
     pgclient.close()
@@ -161,4 +164,5 @@ def main():
 
 
 if __name__ == "__main__":
+    # TODO: migrate script to acept flags commands output_type <db|json>
     main()
