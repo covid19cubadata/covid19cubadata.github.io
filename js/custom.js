@@ -2361,7 +2361,7 @@ function run_calculations() {
                         acolumdata.push(acurves2[acountrysorted2[i]]['adays']);
                         acolumdata.push(acurves2[acountrysorted2[i]]['cummulative_sum']);
 
-                        if (acont === atopn) {
+                        if (acont === atopn - 1) {
                             break;
                         }
                         acont += 1;
@@ -2386,7 +2386,7 @@ function run_calculations() {
                         },
                         axis: {
                             x: {
-                                label: "Dias",
+                                label: "Días",
                             },
                             y: {
                                 label: 'Fallecidos x Millón de habitantes',
