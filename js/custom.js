@@ -1130,6 +1130,12 @@ function run_calculations() {
                         let index_values_cuba_all = [];
                         let index_last_value = 0;
                         let verif=false;
+                        let stringency_countries = [];
+                        for(var i=0;i<countriesdays.indexes.countries.length;i++){
+                            if(countriesdays.indexes.countries[i] in countries_codes){
+                                stringency_countries.push(countriesdays.indexes.countries[i]);
+                            }
+                        }
                         var curves_stringency = {}
                         for(var i in index_days){
                             var idx = '2020-'+index_days[i].replace('/','-');
@@ -1143,7 +1149,6 @@ function run_calculations() {
                                 } else {
                                     index_values_cuba.push(null);
                                 }
-                                //if(index_values_cuba.length>(cuba.length-1)){break;}
                             }
                             if ('CUB' in countriesdays.indexes.data[idx]){
                                 var val = countriesdays.indexes.data[idx].CUB.stringency;
@@ -1151,13 +1156,20 @@ function run_calculations() {
                             } else {
                                 index_values_cuba_all.push(null);
                             }
-                            for(var j in countriesdays.indexes.data[idx]){
-                                if(j in countries_codes){
-                                    let name = trans_countries[countries_codes[j]];
+                            for(var j=0;j<stringency_countries.length;j++){
+                                let code = stringency_countries[j];
+                                let name = trans_countries[countries_codes[code]];
+                                if(code in countriesdays.indexes.data[idx]){
                                     if(name in curves_stringency){
-                                        curves_stringency[name]['data'].push(countriesdays.indexes.data[idx][j].stringency);
+                                        curves_stringency[name]['data'].push(countriesdays.indexes.data[idx][code].stringency);
                                     }else{
-                                        curves_stringency[name]={data: [countriesdays.indexes.data[idx][j].stringency]};
+                                        curves_stringency[name]={data: [countriesdays.indexes.data[idx][code].stringency]};
+                                    }
+                                }else{
+                                    if(name in curves_stringency){
+                                        curves_stringency[name]['data'].push(null);
+                                    }else{
+                                        curves_stringency[name]={data: [null]};
                                     }
                                 }
                             }
@@ -1165,14 +1177,8 @@ function run_calculations() {
                         for(var cid in curves_stringency){
                             curves_stringency[cid]['data']=curves_stringency[cid]['data'].slice(1);
                         }
-                        /*stringency_sorted=[];
-                        for(var i in curves_stringency){
-                            stringency_sorted.push(i);
-                        }
-                        stringency_sorted.sort();*/
                         $('#stringencycub-idx').html(index_last_value);
                         let index_slice2 = index_days.length-cuba.length-1;
-                        //Array.apply(null,Array(10)).map((x,i)=>null)
                         index_slice2 = Math.max(index_slice2,0);
                         stringency = c3.generate({
                             bindto: "#stringencycub-evol",
