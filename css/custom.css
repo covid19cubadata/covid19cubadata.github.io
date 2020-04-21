@@ -587,4 +587,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:b
     }
 }
 
-
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 80% !important;
+}
