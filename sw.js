@@ -35,6 +35,7 @@ const precacheFiles = [
     'images/logo-matcom.png',
     'images/logo-pd.png',
     'images/logo-swlx.png',
+    'images/logo-jc.png',
     'images/logo.jpg',
     'js/bootstrap.min.js',
     'js/c3.js',
