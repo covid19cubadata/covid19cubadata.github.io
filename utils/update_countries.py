@@ -18,7 +18,7 @@ def get_oxford_index():
 	indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
 	data = {}
 	for day,countries in indexes['data'].items():
-		data[day] = {}
+		data['data'][day] = {}
 		for country in countries:
 			print(day,country,countries[country]['stringency'])
 			data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
