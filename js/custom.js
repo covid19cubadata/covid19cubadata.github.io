@@ -2758,7 +2758,7 @@ function run_calculations() {
                                 break;
                             };                                
                         }
-                        if (population === null || population === 0) {
+                        if (population === null || population === 0 || population < 3000000) {
                             population = 9999999999;
                         }
                         let c_trans = c in trans_countries ? trans_countries[c] : c;
