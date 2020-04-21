@@ -2319,12 +2319,10 @@ function run_calculations() {
                     }
                 });
 
-                //
+                // Curves deaths normalized
                 $.walker.load("data/country-by-population.json", function (pdata) {
                     let acurves2 = {};
-                    var acountrysorted2 = [];
-
-                    // console.log(pdata);                    
+                    var acountrysorted2 = [];                    
 
                     for (var c in countriesdays.paises_info) {
                         var population = 9999999999;
