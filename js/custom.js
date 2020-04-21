@@ -2334,8 +2334,8 @@ function run_calculations() {
                                 break;
                             };                                
                         }
-                        if (population === 1) {
-                            console.log(c);
+                        if (population === null || population === 0) {
+                            population = 9999999999;
                         }
                         let c_trans = c in trans_countries ? trans_countries[c] : c;
                         var adays = [c_trans];

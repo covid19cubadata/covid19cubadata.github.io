@@ -139,6 +139,10 @@
         "country": "Burundi",
         "population": "10864245"
     },
+	{
+        "country": "Cabo Verde",
+        "population": "554783"
+    },
     {
         "country": "Cambodia",
         "population": "16005373"
@@ -203,6 +207,10 @@
         "country": "Costa Rica",
         "population": "4905769"
     },
+	{
+        "country": "Cote d'Ivoire",
+        "population": "26241040"
+    },
     {
         "country": "Croatia",
         "population": "4189353"
@@ -236,7 +244,7 @@
         "population": "10766998"
     },
     {
-        "country": "East Timor",
+        "country": "Timor-Leste",
         "population": "1296311"
     },
     {
@@ -762,6 +770,10 @@
     {
         "country": "Senegal",
         "population": "15850567"
+    },
+	{
+        "country": "Serbia",
+        "population": "8744097"
     },
     {
         "country": "Seychelles",
