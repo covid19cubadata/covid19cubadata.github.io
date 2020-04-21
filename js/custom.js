@@ -2271,7 +2271,7 @@ function run_calculations() {
                     // console.log(pdata);                    
 
                     for (var c in countriesdays.paises_info) {
-                        var population = 1;
+                        var population = 9999999999;
                         for (const p in pdata) {
                             if (pdata[p].country === c) {
                                 population = pdata[p].population;
@@ -2330,10 +2330,10 @@ function run_calculations() {
                         },
                         axis: {
                             x: {
-                                label: "Time",
+                                label: "Dias",
                             },
                             y: {
-                                label: 'Deaths',
+                                label: 'Fallecidos x Millón de habitantes',
                                 position: 'outer-middle'
                             }
                         }
