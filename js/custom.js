@@ -667,7 +667,6 @@ function run_calculations() {
                     var curves_death = {};
                     var curves_active = {};
                     var curves_daily = {};
-
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
                             return domains[dom];
@@ -1083,6 +1082,7 @@ function run_calculations() {
                         });
 
                         var countrysorted = [];
+                        var diff = [];
                         for (var c in countriesdays.paises_info) {
                             if ((countriesdays.paises_info[c].confirmed.length + 1) >= cuba.length) {
                                 if (!(c in trans_countries))
@@ -1093,6 +1093,7 @@ function run_calculations() {
                                 let c_a_temp = [trans_countries[c]];
                                 let c_day_temp = [trans_countries[c]];
                                 let d_temp = ['Días'];
+                                let diff_temp = 0;  // mine
                                 for (var i = 0; i < countriesdays.paises_info[c].confirmed.length; i++) {
                                     c_temp.push(countriesdays.paises_info[c].confirmed[i]);
                                     c_r_temp.push(countriesdays.paises_info[c].recovered[i]);
@@ -1107,7 +1108,12 @@ function run_calculations() {
                                         c_day_temp.push(countriesdays.paises_info[c].confirmed[i]);
                                     }
                                     d_temp.push('Día ' + (i + 1));
+                                    // mine
+                                    if (i > 0 && i < cuba.length) {
+                                        diff_temp += Math.abs(cuba[i] - countriesdays.paises_info[c].confirmed[i-1]);
+                                    }
                                 }
+                                diff.push([trans_countries[c], diff_temp]);  // mine
                                 curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
                                 curves_recover[trans_countries[c]] = {'dias': d_temp, 'data': c_r_temp};
                                 curves_death[trans_countries[c]] = {'dias': d_temp, 'data': c_d_temp};
@@ -1116,6 +1122,29 @@ function run_calculations() {
                                 countrysorted.push(trans_countries[c]);
                             }
                         }
+
+                        // mine
+                        diff.sort((a, b) => a[1] - b[1]);
+                        // console.log(diff[0][0] + ': ' + diff[0][1]);
+                        var topn = 10;
+                        var display_dist = "block";
+                        $('#top-similar-countries thead tr th:nth-child(3)').css("display", display_dist);
+                        var $table_country = $('#top-similar-countries > tbody').html('');
+                        for (var i = 0; i < topn; i++) {
+                            var row = ("<tr style=\"cursor: pointer;\"><td>{ranking}</td>" +
+                                "<td>{country}</td>" +
+                                "<td style=\"display: " + display_dist + ";\">{distance}</td></tr>")
+                                .replace("{ranking}", i + 1)
+                                .replace("{country}", diff[i][0])
+                                .replace('{distance}', diff[i][1]);
+                            $table_country.append(row);
+                        }
+                        $("#top-similar-countries tr").click(function() {
+                            var countryselected = $(this).children('td').eq(1).text();
+                            $('#countrycurve-select').val(countryselected);
+                            $('#countrycurve-select').trigger('change');
+                            console.log(countryselected);
+                        });
 
                         countrysorted.sort();
 
@@ -1218,7 +1247,7 @@ function run_calculations() {
                             $('#countrycurve-select').append('<option value="' + cc + '">' + cc + '</option>');
                         }
                         var tab_selected = 'confirmados';
-                        var countryselected = 'Hungría';
+                        var countryselected = diff[0][0];
                         $('#countrycurve-select').val(countryselected);
                         $('.countries-date').html(countriesdays['dia-actualizacion']);
 
