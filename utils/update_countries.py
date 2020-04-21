@@ -102,25 +102,43 @@ def generate_csv():
     f.close()
 
 
-def save_data_into_postgresdb(data):
+def save_data_into_postgresdb(data, type):
     """
-    Stores in postgres the result of the API call https://pomber.github.io/covid19/timeseries.json
+    params data objeto json
+    type nombre de la fuente json
+    Stores in postgres the result of method get_json_info API call https://pomber.github.io/covid19/timeseries.json and
+    result of method get_oxford_index API call https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range
     Use environment variables for the postgres connection string
     """
     pgclient = psycopg2.connect(DB_POSTGRES_URI)
     cur = pgclient.cursor()
-    fecha = datetime.strptime(data['dia-actualizacion'], '%Y/%m/%d')
-    cur.execute("""
-        CREATE TABLE IF NOT EXISTS paises_info_dias (
-                id uuid not null default uuid_generate_v4() primary key,
-                data jsonb not null,
-                fecha date not null
-        );
-        """)
-    cur.execute("INSERT INTO paises_info_dias (data,fecha) VALUES (%s,%s)",
-                (json.dumps(data, indent=2),
-                 fecha)
-                )
+    if type == 'oxford':
+        # logic for oxford_indexes_table
+        for fecha, countries in data['data'].items():
+            cur.execute("""
+            CREATE TABLE IF NOT EXISTS oxford_indexes (
+                    id uuid not null default uuid_generate_v4() primary key,
+                    countries jsonb not null,
+                    fecha date not null
+            );
+            """)
+            cur.execute("INSERT INTO oxford_indexes (countries,fecha) VALUES (%s,%s)",
+                        (json.dumps(countries, indent=2),
+                            fecha)
+                        )
+    elif type == 'pomber':
+        fecha = datetime.strptime(data['dia-actualizacion'], '%Y/%m/%d')
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS paises_info_dias (
+                    id uuid not null default uuid_generate_v4() primary key,
+                    paises jsonb not null,
+                    fecha date not null
+            );
+            """)
+        cur.execute("INSERT INTO paises_info_dias (paises,fecha) VALUES (%s,%s)",
+                    (json.dumps(data, indent=2),
+                     fecha)
+                    )
     pgclient.commit()
     cur.close()
     pgclient.close()
@@ -141,7 +159,7 @@ def main():
         print('Oxford Index generated')
     elif OUTPUT_TYPE == "db":
         data = get_json_info()
-        save_data_into_postgresdb(data)
+        save_data_into_postgresdb(data, type='pomber')
 
 
 if __name__ == "__main__":
