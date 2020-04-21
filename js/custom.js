@@ -484,6 +484,54 @@ function run_calculations() {
     $.walker.load("data/paises-info-dias.json", function (countriesdays) {
         $.walker.load("data/covid19-cuba.json", function (data) {
             $.walker.load("data/provincias.geojson", function (provincias) {
+				
+				let index_days = [];
+				for(var d in countriesdays.indexes.data){
+					index_days.push(d.replace(/-/g,'/').replace('2020/',''));	
+				}
+				index_days.sort();
+				let index_values = [];
+				let index_last_value = 0;
+				for(var i in index_days){
+					var idx = '2020-'+index_days[i].replace('/','-');
+					if ('CUB' in countriesdays.indexes.data[idx]){
+						var val = countriesdays.indexes.data[idx].CUB.stringency;
+						index_values.push(val);
+						index_last_value = val;	
+					} else {
+						index_values.push(null);
+					}	
+				}
+				$('#stringencycub-idx').html(index_last_value);
+				
+				stringency = c3.generate({
+					bindto: "#stringencycub-evol",
+					data: {
+						x: 'Fecha',
+						columns: [
+							['Fecha'].concat(index_days),
+							['Cuba'].concat(index_values)
+						],
+						type: 'line',
+						colors: {
+							'Cuba': '#B01E22'
+						}
+					},
+					axis: {
+						x: {
+							label: 'Fecha',
+							type: 'categorical',
+							show: false
+						},
+						y: {
+							label: 'Valor del índice',
+							position: 'outer-middle'
+						}
+					}
+				});
+				
+				
+				
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
 

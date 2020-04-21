@@ -295,7 +295,11 @@ body > div {
 }
 
 #daily-porciento-positivos {
-    height: 208px;
+    height: 280px;
+}
+
+#stringencycub-evol {
+	height: 250px;
 }
 
 #countriescurve-info {
@@ -341,6 +345,15 @@ body > div {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#stringencycub-value {
+	text-align: center;
+}
+
+#stringencycub-idx {
+	font-weight: bold;
+	color: #B01E22;
 }
 
 .card-header {
