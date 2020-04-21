@@ -1,1 +1,5 @@
 requests
+psycopg2-binary
+autopep8
+python-dotenv
+sqlalchemy

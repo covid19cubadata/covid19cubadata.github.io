@@ -3,6 +3,15 @@ import requests  # noqa We are just importing this to prove the dependency insta
 import json
 import csv
 from datetime import datetime
+import psycopg2
+
+import logging
+from dotenv import load_dotenv
+load_dotenv()
+logging.basicConfig(level=logging.DEBUG, format='%(threadName)s: %(message)s')
+
+DB_POSTGRES_URI = os.getenv("DB_POSTGRES_URI")
+OUTPUT_TYPE = os.getenv("OUTPUT_TYPE")
 
 
 def change_date(dat):
@@ -11,20 +20,21 @@ def change_date(dat):
     if len(m) == 1:
         m = '0'+m
     return t[0]+'/'+m+'/'+t[2]
-    
-    
+
+
 def get_oxford_index():
-	now = datetime.now()
-	indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
-	data = {'data':{}}
-	for day,countries in indexes['data'].items():
-		data['data'][day] = {}
-		for country in countries:
-			print(day,country,countries[country]['stringency'])
-			data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
-	path = os.path.join('data', 'oxford-indexes.json')
-	json.dump(data, open(path, 'w'))
-	
+    now = datetime.now()
+    indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/' +
+                           str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
+    data = {'data': {}}
+    for day, countries in indexes['data'].items():
+        data['data'][day] = {}
+        for country in countries:
+            print(day, country, countries[country]['stringency'])
+            data['data'][day][country] = {'stringency': countries[country]['stringency'],
+                                          'stringency_actual': countries[country]['stringency_actual']}
+    path = os.path.join('data', 'oxford-indexes.json')
+    json.dump(data, open(path, 'w'))
 
 
 def get_json_info():
@@ -93,18 +103,37 @@ def generate_csv():
 
 
 def main():
+    if OUTPUT_TYPE == "json":
+        data = get_json_info()
+        path = os.path.join('data', 'paises-info-dias.json')
+        json.dump(data, open(path, 'w'))
 
-    data = get_json_info()
-    path = os.path.join('data', 'paises-info-dias.json')
-    json.dump(data, open(path, 'w'))
+        print(json.dumps(data, indent=2))
 
-    print(json.dumps(data, indent=2))
+        generate_csv()
+        print('CSV generated')
 
-    generate_csv()
-    print('CSV generated')
-    
-    get_oxford_index()
-    print('Oxford Index generated')
+        get_oxford_index()
+        print('Oxford Index generated')
+    elif OUTPUT_TYPE == "db":
+        data = get_json_info()
+        pgclient = psycopg2.connect(DB_POSTGRES_URI)
+        cur = pgclient.cursor()
+        fecha = datetime.strptime(data['dia-actualizacion'], '%Y/%m/%d')
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS paises_info_dias (
+                id uuid not null default uuid_generate_v4() primary key,
+                data jsonb not null,
+                fecha date not null
+        );
+        """)
+        cur.execute("INSERT INTO paises_info_dias (data,fecha) VALUES (%s,%s)",
+                    (json.dumps(data, indent=2),
+                     fecha)
+                    )
+        pgclient.commit()
+        cur.close()
+        pgclient.close()
 
 
 if __name__ == "__main__":
