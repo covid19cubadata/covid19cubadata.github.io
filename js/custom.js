@@ -281,6 +281,13 @@ $.walker = {
     loaded: {},
     map: {
         gen_markers: function(data){
+            function getMarkerProfile(title, pro, mun) {
+                var t = '';
+                t += '<div class="small-pname"><span class="bd">' + title + '</span></div>';
+                t += '<div class="small-content"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
+                t += '<div class="small-plink">&nbsp;</div>';
+                return t;
+            }
             for(var i in data.eventos){
                 event = data.eventos[i];
                 if(event['lat']===0 && event['lon']===0){
@@ -299,6 +306,7 @@ $.walker = {
                     markers[event['dpacode_provincia']]=[];
                     markers[event['dpacode_provincia']].push(marker);
                 }
+                marker.bindPopup(getMarkerProfile(event['identificador'],event['provincia'],event['municipio']));
 
             }
         },
