@@ -181,11 +181,11 @@
                                 <i id="cases4" class="main-text fa fa-square"></i>
                                 <i id="cases5" class="main-text fa fa-square"></i>
                                 <span id="cases">#</span> casos
-                            </div>  
+                            </div>
 							<div class="map-legend">
-									<span class="main-text">Eventos de transmisión local activos <img class="img-fluid" src="images/marker-icon-2x-gold.png" alt="" width="15px" height="30px"></span>
-									 
-									<span class="main-text">Eventos de transmisión local cerrados <img class="img-fluid" src="images/marker-icon-2x-green.png" alt="" width="15px" height="30px"></span>
+									<span class="main-text">Eventos de transmisión local activos <img class="img-fluid" src="/images/marker-icon-2x-gold.png" alt="" width="15px" height="30px"></span>
+
+									<span class="main-text">Eventos de transmisión local cerrados <img class="img-fluid" src="/images/marker-icon-2x-green.png" alt="" width="15px" height="30px"></span>
 							</div>
                         </div>
                         <div class="map-quote">
@@ -275,7 +275,7 @@
                 </div>
             </div>
         </section>
-        
+
     </div>
     <div class="card-deck card-deck-2">
 		<section id="testspor" class="card common-bg">
@@ -287,7 +287,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="stringencycub" class="card common-bg">
             <div class="card-header">Evolución del Oxford Stringency Index para Cuba</div>
             <div class="card-body">
@@ -298,7 +298,7 @@
                 <div class="map-quote">
                     * el <a href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Oxford Stringency Index</a> evalúa las intervenciones del estado en la epidemia.
                     Los valores se obtienen de un <a href="https://covidtracker.bsg.ox.ac.uk/about-api">API público</a>.
-                    
+
                 </div>
             </div>
         </section>
@@ -338,7 +338,7 @@
                     </thead>
                     <tbody></tbody>
                 </table>
-                
+
             </div>
         </section>
     </div>
@@ -419,6 +419,12 @@
                     <a class="nav-link" data-toggle="tab" href="#tab-fallecidos">
                         <i class="fa fa-heart-broken d-sm-none d-md-block d-lg-none"></i> <span
                             class="d-none  d-sm-block d-md-none d-lg-block">Fallecidos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-stringency">
+                        <i class="fa fa-heart-broken d-sm-none d-md-block d-lg-none"></i> <span
+                            class="d-none  d-sm-block d-md-none d-lg-block">Stringency</span>
                     </a>
                 </li>
             </ul>
@@ -507,6 +513,29 @@
                                 Comparación en el período de Cuba
                             </div>
                             <div id="countries-comparison-fallecidos"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-stringency" role="tabpanel">
+                    <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Casos Fallecidos</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en general
+                            </div>
+                            <div id="countries-curve-stringency-no-data" class="text-block sub">
+                                <h2><span>No hay datos</span></h2>
+                            </div>
+                            <div id="countries-curve-stringency"></div>
+                        </div>
+                        <div id="countries-comparison-stringency-container" class="col-md-6">
+                            <div class="text-block sub">
+                                Comparación en el período de Cuba
+                            </div>
+                            <div id="countries-curve-stringency-no-data2" class="text-block sub">
+                                <h2><span>No hay datos</span></h2>
+                            </div>
+                            <div id="countries-comparison-stringency"></div>
                         </div>
                     </div>
                 </div>
