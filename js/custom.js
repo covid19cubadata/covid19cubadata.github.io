@@ -37,8 +37,8 @@ countries_codes = {
     "BLR": "Belarus",
     "BEL": "Belgium",
     "BLZ": "Belize",
-    "BEN": "Benin",
     "BTN": "Bhutan",
+    "BOL": "Bolivia",
     "BIH": "Bosnia and Herzegovina",
     "BRA": "Brazil",
     "BGR": "Bulgaria",
@@ -53,12 +53,11 @@ countries_codes = {
     "CHN": "China",
     "COL": "Colombia",
     "CRI": "Costa Rica",
+    "CIV": "Cote d'Ivoire",
     "HRV": "Croatia",
     "CUB": "Cuba",
     "CYP": "Cyprus",
-    "CZE": "Czechia",
     "DNK": "Denmark",
-    "DJI": "Djibouti",
     "DMA": "Dominica",
     "DOM": "Dominican Republic",
     "ECU": "Ecuador",
@@ -67,7 +66,6 @@ countries_codes = {
     "GNQ": "Equatorial Guinea",
     "ERI": "Eritrea",
     "EST": "Estonia",
-    "SWZ": "Eswatini",
     "ETH": "Ethiopia",
     "FJI": "Fiji",
     "FIN": "Finland",
@@ -84,7 +82,6 @@ countries_codes = {
     "GNB": "Guinea-Bissau",
     "GUY": "Guyana",
     "HTI": "Haiti",
-    "VAT": "Holy See",
     "HND": "Honduras",
     "HUN": "Hungary",
     "ISL": "Iceland",
@@ -99,8 +96,10 @@ countries_codes = {
     "JOR": "Jordan",
     "KAZ": "Kazakhstan",
     "KEN": "Kenya",
+    "KOR": "Korea, South",
     "KWT": "Kuwait",
     "KGZ": "Kyrgyzstan",
+    "LAO": "Laos",
     "LVA": "Latvia",
     "LBN": "Lebanon",
     "LBR": "Liberia",
@@ -115,7 +114,7 @@ countries_codes = {
     "MLT": "Malta",
     "MRT": "Mauritania",
     "MUS": "Mauritius",
-    "MEX": "Mexico",
+    "MDA": "Moldova",
     "MCO": "Monaco",
     "MNG": "Mongolia",
     "MNE": "Montenegro",
@@ -128,7 +127,6 @@ countries_codes = {
     "NIC": "Nicaragua",
     "NER": "Niger",
     "NGA": "Nigeria",
-    "MKD": "North Macedonia",
     "NOR": "Norway",
     "OMN": "Oman",
     "PAK": "Pakistan",
@@ -139,8 +137,8 @@ countries_codes = {
     "PHL": "Philippines",
     "POL": "Poland",
     "PRT": "Portugal",
-    "QAT": "Qatar",
     "ROU": "Romania",
+    "RUS": "Russia",
     "RWA": "Rwanda",
     "KNA": "Saint Kitts and Nevis",
     "LCA": "Saint Lucia",
@@ -161,17 +159,21 @@ countries_codes = {
     "SUR": "Suriname",
     "SWE": "Sweden",
     "CHE": "Switzerland",
+    "SYR": "Syria",
+    "TZA": "Tanzania",
     "THA": "Thailand",
-    "TLS": "Timor-Leste",
-    "TGO": "Togo",
     "TTO": "Trinidad and Tobago",
     "TUN": "Tunisia",
     "TUR": "Turkey",
     "UGA": "Uganda",
     "UKR": "Ukraine",
     "ARE": "United Arab Emirates",
+    "GBR": "United Kingdom",
+    "USA": "US",
     "URY": "Uruguay",
     "UZB": "Uzbekistan",
+    "VEN": "Venezuela",
+    "VNM": "Vietnam",
     "ZMB": "Zambia",
     "ZWE": "Zimbabwe"
    };
@@ -1133,7 +1135,7 @@ function run_calculations() {
                             var idx = '2020-'+index_days[i].replace('/','-');
                             var idx2 = idx.replace(/-/g,'/');
                             if(!verif && idx2==='2020/03/11'){verif=true;}
-                            if(verif){
+                            if(verif && index_values_cuba.length<=(cuba.length-1)){
                                 if ('CUB' in countriesdays.indexes.data[idx]){
                                     var val = countriesdays.indexes.data[idx].CUB.stringency;
                                     index_values_cuba.push(val);
@@ -1141,7 +1143,7 @@ function run_calculations() {
                                 } else {
                                     index_values_cuba.push(null);
                                 }
-                                if(index_values_cuba.length>(cuba.length-1)){break;}
+                                //if(index_values_cuba.length>(cuba.length-1)){break;}
                             }
                             if ('CUB' in countriesdays.indexes.data[idx]){
                                 var val = countriesdays.indexes.data[idx].CUB.stringency;
@@ -1536,6 +1538,7 @@ function run_calculations() {
                                     $('#countries-curve-stringency').show();
                                     $('#countries-comparison-stringency').show();
                                     let index_slice = curves_stringency[countryselected]['data'].length-curves[countryselected]['data'].length;
+                                    index_slice = Math.max(index_slice,0);
                                     curve_stringency = c3.generate({
                                         bindto: "#countries-curve-stringency",
                                         data: {
@@ -1921,6 +1924,7 @@ function run_calculations() {
                                     $('#countries-curve-stringency').show();
                                     $('#countries-comparison-stringency').show();
                                     let index_slice = curves_stringency[countryselected]['data'].length-curves[countryselected]['data'].length;
+                                    index_slice = Math.max(index_slice,0);
                                     curve_stringency = c3.generate({
                                         bindto: "#countries-curve-stringency",
                                         data: {
@@ -1995,6 +1999,7 @@ function run_calculations() {
                                     $('#countries-curve-stringency').show();
                                     $('#countries-comparison-stringency').show();
                                     let index_slice = curves_stringency[countryselected]['data'].length-curves[countryselected]['data'].length;
+                                    index_slice = Math.max(index_slice,0);
                                     curve_stringency = c3.generate({
                                         bindto: "#countries-curve-stringency",
                                         data: {
