@@ -295,7 +295,11 @@ body > div {
 }
 
 #daily-porciento-positivos {
-    height: 208px;
+    height: 280px;
+}
+
+#stringencycub-evol {
+	height: 250px;
 }
 
 #countriescurve-info {
@@ -337,7 +341,7 @@ body > div {
     height: 550px;
 }
 
-#cusobu, #fr, #swlx {
+#cusobu, #fr, #swlx, #jc {
     height: 25px;
 }
 
@@ -345,6 +349,15 @@ body > div {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#stringencycub-value {
+	text-align: center;
+}
+
+#stringencycub-idx {
+	font-weight: bold;
+	color: #B01E22;
 }
 
 .card-header {
@@ -591,4 +604,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:b
     }
 }
 
-
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 80% !important;
+}
