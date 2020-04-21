@@ -11,7 +11,7 @@ load_dotenv()
 logging.basicConfig(level=logging.DEBUG, format='%(threadName)s: %(message)s')
 
 DB_POSTGRES_URI = os.getenv("DB_POSTGRES_URI")
-OUTPUT_TYPE = os.getenv("OUTPUT_TYPE")
+OUTPUT_TYPE = "db"
 
 
 def change_date(dat):
@@ -102,6 +102,30 @@ def generate_csv():
     f.close()
 
 
+def save_data_into_postgresdb(data):
+    """
+    Stores in postgres the result of the API call https://pomber.github.io/covid19/timeseries.json
+    Use environment variables for the postgres connection string
+    """
+    pgclient = psycopg2.connect(DB_POSTGRES_URI)
+    cur = pgclient.cursor()
+    fecha = datetime.strptime(data['dia-actualizacion'], '%Y/%m/%d')
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS paises_info_dias (
+                id uuid not null default uuid_generate_v4() primary key,
+                data jsonb not null,
+                fecha date not null
+        );
+        """)
+    cur.execute("INSERT INTO paises_info_dias (data,fecha) VALUES (%s,%s)",
+                (json.dumps(data, indent=2),
+                 fecha)
+                )
+    pgclient.commit()
+    cur.close()
+    pgclient.close()
+
+
 def main():
     if OUTPUT_TYPE == "json":
         data = get_json_info()
@@ -117,23 +141,7 @@ def main():
         print('Oxford Index generated')
     elif OUTPUT_TYPE == "db":
         data = get_json_info()
-        pgclient = psycopg2.connect(DB_POSTGRES_URI)
-        cur = pgclient.cursor()
-        fecha = datetime.strptime(data['dia-actualizacion'], '%Y/%m/%d')
-        cur.execute("""
-        CREATE TABLE IF NOT EXISTS paises_info_dias (
-                id uuid not null default uuid_generate_v4() primary key,
-                data jsonb not null,
-                fecha date not null
-        );
-        """)
-        cur.execute("INSERT INTO paises_info_dias (data,fecha) VALUES (%s,%s)",
-                    (json.dumps(data, indent=2),
-                     fecha)
-                    )
-        pgclient.commit()
-        cur.close()
-        pgclient.close()
+        save_data_into_postgresdb(data)
 
 
 if __name__ == "__main__":
