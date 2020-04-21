@@ -78,7 +78,7 @@ def generate_csv():
             continue
         for case in day['diagnosticados']:
             row = []
-            row.append('')
+            row.append(case['id'])
             row.append(case['sexo'])
             row.append(case['edad'])
             row.append(case['pais'])
@@ -104,8 +104,6 @@ def generate_csv():
 
 def save_data_into_postgresdb(data, type):
     """
-    params data objeto json
-    type nombre de la fuente json
     Stores in postgres the result of method get_json_info API call https://pomber.github.io/covid19/timeseries.json and
     result of method get_oxford_index API call https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range
     Use environment variables for the postgres connection string
