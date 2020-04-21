@@ -1229,7 +1229,7 @@ function run_calculations() {
 											{'value': '01/28' , 'text': 'Análisis Plan de Prevención y Control '},
 											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
 											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
-											{'value': '03/24' , 'text': 'Regulación de fronteras y cierre de escuelas'},
+											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
 											{'value': '04/11' , 'text': 'Cese de trasnporte público'}
 										]
 									}
