@@ -1136,3 +1136,55 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,17,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
 ,hombre,50,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
 ,hombre,53,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,mujer,19,cu,Playa,La Habana,2020/04/21,,secundario
+,mujer,56,cu,Playa,La Habana,2020/04/21,,secundario
+,hombre,74,cu,Cotorro,La Habana,2020/04/21,,desconocido
+,mujer,45,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,hombre,47,cu,Cotorro,La Habana,2020/04/21,,secundario
+,mujer,12,cu,Cotorro,La Habana,2020/04/21,,secundario
+,hombre,47,cu,Diez de Octubre,La Habana,2020/04/21,,secundario
+,mujer,29,cu,Diez de Octubre,La Habana,2020/04/21,,secundario
+,mujer,59,cu,Diez de Octubre,La Habana,2020/04/21,,desconocido
+,mujer,54,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,mujer,54,cu,Boyeros,La Habana,2020/04/21,,secundario
+,mujer,25,cu,La Habana Vieja,La Habana,2020/04/21,,secundario
+,hombre,18,cu,Habana del Este,La Habana,2020/04/21,,secundario
+,hombre,10,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,10,cu,Playa,La Habana,2020/04/21,,secundario
+,hombre,17,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,20,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,hombre,42,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,mujer,26,cu,Diez de Octubre,La Habana,2020/04/21,,secundario
+,mujer,47,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,mujer,61,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,26,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,mujer,44,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,61,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,24,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,20,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,hombre,50,cu,Marianao,La Habana,2020/04/21,,secundario
+,hombre,26,cu,Plaza de la Revolución,La Habana,2020/04/21,,secundario
+,mujer,43,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,30,cu,Cerro,La Habana,2020/04/21,,desconocido
+,mujer,8,cu,Guanabacoa,La Habana,2020/04/21,,secundario
+,mujer,33,cu,Guanabacoa,La Habana,2020/04/21,,secundario
+,hombre,24,cu,Boyeros,La Habana,2020/04/21,,secundario
+,mujer,54,cu,Plaza de la Revolución,La Habana,2020/04/21,,secundario
+,mujer,21,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,25,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,hombre,25,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,56,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,66,cu,Habana del Este,La Habana,2020/04/21,,desconocido
+,mujer,42,cu,Habana del Este,La Habana,2020/04/21,,secundario
+,mujer,22,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,hombre,44,cu,La Lisa,La Habana,2020/04/21,,secundario
+,mujer,29,cu,La Lisa,La Habana,2020/04/21,,secundario
+,hombre,60,cu,Marianao,La Habana,2020/04/21,,desconocido
+,mujer,51,cu,San José de las Lajas,Mayabeque,2020/04/21,,secundario
+,mujer,58,cu,Cárdenas,Matanzas,2020/04/21,,secundario
+,hombre,67,cu,Cienfuegos,Cienfuegos,2020/04/21,,secundario
+,mujer,84,cu,Santa Clara,Villa Clara,2020/04/21,,secundario
+,mujer,23,cu,Puerto Padrón,Las Tunas,2020/04/21,,secundario
+,hombre,48,cu,Holguín,Holguín,2020/04/21,,secundario
+,hombre,30,cu,Santiago de Cuba,Santiago de Cuba,2020/04/21,,secundario
+,mujer,33,cu,Guantánamo,Guantánamo,2020/04/21,,secundario
