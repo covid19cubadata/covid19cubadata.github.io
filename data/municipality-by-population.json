@@ -1,0 +1,670 @@
+[
+    {
+        "municipality": "Consolación del Sur",
+        "population": "88564"
+    },
+    {
+        "municipality": "Guane",
+        "population": "35990"
+    },
+    {
+        "municipality": "La Palma",
+        "population": "34289"
+    },
+    {
+        "municipality": "Los Palacios",
+        "population": "38731"
+    },
+    {
+        "municipality": "Mantua",
+        "population": "23974"
+    },
+    {
+        "municipality": "Minas de Matahambre",
+        "population": "32008"
+    },
+    {
+        "municipality": "Pinar del Río",
+        "population": "191837"
+    },
+    {
+        "municipality": "San Juan y Martínez",
+        "population": "43572"
+    },
+    {
+        "municipality": "San Luis",
+        "population": "32229"
+    },
+    {
+        "municipality": "Sandino",
+        "population": "36569"
+    },
+    {
+        "municipality": "Viñales",
+        "population": "28720"
+    },
+    {
+        "municipality": "Alquízar",
+        "population": "32540"
+    },
+    {
+        "municipality": "Artemisa",
+        "population": "85289"
+    },
+    {
+        "municipality": "Bahía Honda",
+        "population": "43351"
+    },
+    {
+        "municipality": "Bauta",
+        "population": "50189"
+    },
+    {
+        "municipality": "Caimito",
+        "population": "41570"
+    },
+    {
+        "municipality": "Candelaria",
+        "population": "20973"
+    },
+    {
+        "municipality": "Guanajay",
+        "population": "28242"
+    },
+    {
+        "municipality": "Güira de Melena",
+        "population": "39794"
+    },
+    {
+        "municipality": "Mariel",
+        "population": "45016"
+    },
+    {
+        "municipality": "San Antonio de los Baños",
+        "population": "50107"
+    },
+    {
+        "municipality": "San Cristóbal",
+        "population": "71420"
+    },
+    {
+        "municipality": "Arroyo Naranjo",
+        "population": "204434"
+    },
+    {
+        "municipality": "Boyeros",
+        "population": "196834"
+    },
+    {
+        "municipality": "Centro Habana",
+        "population": "136452"
+    },
+    {
+        "municipality": "Cerro",
+        "population": "124536"
+    },
+    {
+        "municipality": "Cotorro",
+        "population": "81071"
+    },
+    {
+        "municipality": "Diez de Octubre",
+        "population": "202012"
+    },
+    {
+        "municipality": "Guanabacoa",
+        "population": "123127"
+    },
+    {
+        "municipality": "La Habana del Este",
+        "population": "175459"
+    },
+    {
+        "municipality": "La Habana Vieja",
+        "population": "82889"
+    },
+    {
+        "municipality": "La Lisa",
+        "population": "142124"
+    },
+    {
+        "municipality": "Marianao",
+        "population": "135708"
+    },
+    {
+        "municipality": "Playa",
+        "population": "179866"
+    },
+    {
+        "municipality": "Plaza de la Revolución",
+        "population": "144190"
+    },
+    {
+        "municipality": "Regla",
+        "population": "43688"
+    },
+    {
+        "municipality": "San Miguel del Padrón",
+        "population": "157163"
+    },
+    {
+        "municipality": "Batabanó",
+        "population": "27231"
+    },
+    {
+        "municipality": "Bejucal",
+        "population": "27748"
+    },
+    {
+        "municipality": "Güines",
+        "population": "66446"
+    },
+    {
+        "municipality": "Jaruco",
+        "population": "24602"
+    },
+    {
+        "municipality": "Madruga",
+        "population": "27476"
+    },
+    {
+        "municipality": "Melena del Sur",
+        "population": "20481"
+    },
+    {
+        "municipality": "Nueva Paz",
+        "population": "24308"
+    },
+    {
+        "municipality": "Quivicán",
+        "population": "29999"
+    },
+    {
+        "municipality": "San José de las Lajas",
+        "population": "78227"
+    },
+    {
+        "municipality": "San Nicolás",
+        "population": "20799"
+    },
+    {
+        "municipality": "Santa Cruz del Norte",
+        "population": "35142"
+    },
+    {
+        "municipality": "Calimete",
+        "population": "28100"
+    },
+    {
+        "municipality": "Cárdenas",
+        "population": "154204"
+    },
+    {
+        "municipality": "Ciénaga de Zapata",
+        "population": "9968"
+    },
+    {
+        "municipality": "Colón",
+        "population": "69881"
+    },
+    {
+        "municipality": "Jagüey Grande",
+        "population": "60391"
+    },
+    {
+        "municipality": "Jovellanos",
+        "population": "58123"
+    },
+    {
+        "municipality": "Limonar",
+        "population": "26756"
+    },
+    {
+        "municipality": "Los Arabos",
+        "population": "24119"
+    },
+    {
+        "municipality": "Martí",
+        "population": "22236"
+    },
+    {
+        "municipality": "Matanzas",
+        "population": "160629"
+    },
+    {
+        "municipality": "Pedro Betancourt",
+        "population": "30824"
+    },
+    {
+        "municipality": "Perico",
+        "population": "30774"
+    },
+    {
+        "municipality": "Unión de Reyes",
+        "population": "36413"
+    },
+    {
+        "municipality": "Abreus",
+        "population": "30894"
+    },
+    {
+        "municipality": "Aguada de Pasajeros",
+        "population": "32098"
+    },
+    {
+        "municipality": "Cienfuegos",
+        "population": "177113"
+    },
+    {
+        "municipality": "Cruces",
+        "population": "30083"
+    },
+    {
+        "municipality": "Cumanayagua",
+        "population": "48674"
+    },
+    {
+        "municipality": "Lajas",
+        "population": "21826"
+    },
+    {
+        "municipality": "Palmira",
+        "population": "32708"
+    },
+    {
+        "municipality": "Rodas",
+        "population": "33848"
+    },
+    {
+        "municipality": "Caibarién",
+        "population": "40284"
+    },
+    {
+        "municipality": "Camajuaní",
+        "population": "59475"
+    },
+    {
+        "municipality": "Cifuentes",
+        "population": "27323"
+    },
+    {
+        "municipality": "Corralillo",
+        "population": "25834"
+    },
+    {
+        "municipality": "Encrucijada",
+        "population": "32821"
+    },
+    {
+        "municipality": "Manicaragua",
+        "population": "63510"
+    },
+    {
+        "municipality": "Placetas",
+        "population": "67657"
+    },
+    {
+        "municipality": "Quemado de Güines",
+        "population": "21359"
+    },
+    {
+        "municipality": "Ranchuelo",
+        "population": "53329"
+    },
+    {
+        "municipality": "San Juan de los Remedios",
+        "population": "44453"
+    },
+    {
+        "municipality": "Sagua la Grande",
+        "population": "51687"
+    },
+    {
+        "municipality": "Santa Clara",
+        "population": "246067"
+    },
+    {
+        "municipality": "Santo Domingo",
+        "population": "49445"
+    },
+    {
+        "municipality": "Cabaiguán",
+        "population": "65349"
+    },
+    {
+        "municipality": "Fomento",
+        "population": "32409"
+    },
+    {
+        "municipality": "Jatibonico",
+        "population": "43039"
+    },
+    {
+        "municipality": "La Sierpe",
+        "population": "16662"
+    },
+    {
+        "municipality": "Sancti Spíritus",
+        "population": "142447"
+    },
+    {
+        "municipality": "Taguasco",
+        "population": "33997"
+    },
+    {
+        "municipality": "Trinidad",
+        "population": "76772"
+    },
+    {
+        "municipality": "Yaguajay",
+        "population": "55256"
+    },
+    {
+        "municipality": "Baraguá",
+        "population": "32747"
+    },
+    {
+        "municipality": "Bolivia",
+        "population": "15597"
+    },
+    {
+        "municipality": "Chambas",
+        "population": "37614"
+    },
+    {
+        "municipality": "Ciego de Ávila",
+        "population": "154681"
+    },
+    {
+        "municipality": "Ciro Redondo",
+        "population": "30567"
+    },
+    {
+        "municipality": "Florencia",
+        "population": "19022"
+    },
+    {
+        "municipality": "Majagua",
+        "population": "25559"
+    },
+    {
+        "municipality": "Morón",
+        "population": "69707"
+    },
+    {
+        "municipality": "Primero de Enero",
+        "population": "23191"
+    },
+    {
+        "municipality": "Venezuela",
+        "population": "26485"
+    },
+    {
+        "municipality": "Camagüey",
+        "population": "330253"
+    },
+    {
+        "municipality": "Carlos M. de Céspedes",
+        "population": "23722"
+    },
+    {
+        "municipality": "Esmeralda",
+        "population": "29967"
+    },
+    {
+        "municipality": "Florida",
+        "population": "71203"
+    },
+    {
+        "municipality": "Guáimaro",
+        "population": "37551"
+    },
+    {
+        "municipality": "Jimaguayú",
+        "population": "20370"
+    },
+    {
+        "municipality": "Minas",
+        "population": "37078"
+    },
+    {
+        "municipality": "Najasa",
+        "population": "15260"
+    },
+    {
+        "municipality": "Nuevitas",
+        "population": "61473"
+    },
+    {
+        "municipality": "Santa Cruz del Sur",
+        "population": "43229"
+    },
+    {
+        "municipality": "Sibanicú",
+        "population": "30470"
+    },
+    {
+        "municipality": "Sierra de Cubitas",
+        "population": "18320"
+    },
+    {
+        "municipality": "Vertientes",
+        "population": "50967"
+    },
+    {
+        "municipality": "Amancio",
+        "population": "38111"
+    },
+    {
+        "municipality": "Colombia",
+        "population": "32186"
+    },
+    {
+        "municipality": "Jesús Menéndez",
+        "population": "48441"
+    },
+    {
+        "municipality": "Jobabo",
+        "population": "43123"
+    },
+    {
+        "municipality": "Las Tunas",
+        "population": "210412"
+    },
+    {
+        "municipality": "Majibacoa",
+        "population": "41431"
+    },
+    {
+        "municipality": "Manatí",
+        "population": "30211"
+    },
+    {
+        "municipality": "Puerto Padre",
+        "population": "92179"
+    },
+    {
+        "municipality": "Antilla",
+        "population": "12365"
+    },
+    {
+        "municipality": "Báguanos",
+        "population": "49615"
+    },
+    {
+        "municipality": "Banes",
+        "population": "78268"
+    },
+    {
+        "municipality": "Cacocum",
+        "population": "40447"
+    },
+    {
+        "municipality": "Calixto García",
+        "population": "54969"
+    },
+    {
+        "municipality": "Cueto",
+        "population": "31855"
+    },
+    {
+        "municipality": "Frank País",
+        "population": "23490"
+    },
+    {
+        "municipality": "Gibara",
+        "population": "71430"
+    },
+    {
+        "municipality": "Holguín",
+        "population": "355016"
+    },
+    {
+        "municipality": "Mayarí",
+        "population": "98200"
+    },
+    {
+        "municipality": "Moa",
+        "population": "74075"
+    },
+    {
+        "municipality": "Rafael Freyre",
+        "population": "53627"
+    },
+    {
+        "municipality": "Sagua de Tánamo",
+        "population": "46967"
+    },
+    {
+        "municipality": "Urbano Noris",
+        "population": "39700"
+    },
+    {
+        "municipality": "Bartolomé Masó",
+        "population": "40089"
+    },
+    {
+        "municipality": "Bayamo",
+        "population": "238544"
+    },
+    {
+        "municipality": "Buey Arriba",
+        "population": "31463"
+    },
+    {
+        "municipality": "Campechuela",
+        "population": "43648"
+    },
+    {
+        "municipality": "Cauto Cristo",
+        "population": "20556"
+    },
+    {
+        "municipality": "Guisa",
+        "population": "46879"
+    },
+    {
+        "municipality": "Jiguaní",
+        "population": "60163"
+    },
+    {
+        "municipality": "Manzanillo",
+        "population": "128667"
+    },
+    {
+        "municipality": "Media Luna",
+        "population": "32967"
+    },
+    {
+        "municipality": "Niquero",
+        "population": "42485"
+    },
+    {
+        "municipality": "Pilón",
+        "population": "29546"
+    },
+    {
+        "municipality": "Río Cauto",
+        "population": "46804"
+    },
+    {
+        "municipality": "Yara",
+        "population": "56100"
+    },
+    {
+        "municipality": "Contramaestre",
+        "population": "105972"
+    },
+    {
+        "municipality": "Guamá",
+        "population": "34221"
+    },
+    {
+        "municipality": "Mella",
+        "population": "34959"
+    },
+    {
+        "municipality": "Palma Soriano",
+        "population": "123419"
+    },
+    {
+        "municipality": "San Luis",
+        "population": "79700"
+    },
+    {
+        "municipality": "Santiago de Cuba",
+        "population": "509873"
+    },
+    {
+        "municipality": "Segundo Frente",
+        "population": "40081"
+    },
+    {
+        "municipality": "Songo-La Maya",
+        "population": "92474"
+    },
+    {
+        "municipality": "Tercer Frente",
+        "population": "30370"
+    },
+    {
+        "municipality": "Baracoa",
+        "population": "80371"
+    },
+    {
+        "municipality": "Caimanera",
+        "population": "11173"
+    },
+    {
+        "municipality": "El Salvador",
+        "population": "42648"
+    },
+    {
+        "municipality": "Guantánamo",
+        "population": "227535"
+    },
+    {
+        "municipality": "Imías",
+        "population": "21111"
+    },
+    {
+        "municipality": "Maisí",
+        "population": "28752"
+    },
+    {
+        "municipality": "Manuel Tames",
+        "population": "37880"
+    },
+    {
+        "municipality": "Niceto Pérez",
+        "population": "16553"
+    },
+    {
+        "municipality": "San Antonio del Sur",
+        "population": "25880"
+    },
+    {
+        "municipality": "Yateras",
+        "population": "19190"
+    }
+]

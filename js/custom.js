@@ -1076,11 +1076,11 @@ function run_calculations() {
 
                         // Tasa de confirmados por municipio
                         
-                        // for (const i in $.walker.province.list.features) {
-                        //     const province = $.walker.province.list.features[i].properties;
-                        //     console.log(province.province+' '+population[province.DPA_province_code]);
-                        //     console.log(proscurves[province.DPA_province_code]['data']);
-                        // }
+                        for (const i in $.walker.municipality.list.features) {
+                            const municipality = $.walker.municipality.list.features[i].properties;
+                            console.log(municipality.municipality+' '+population[municipality.municipality]);
+                            console.log(proscurves[province.DPA_province_code]['data']);
+                        }
                         
                         let mcurves2 = {};
                         var mprovincename = [];
