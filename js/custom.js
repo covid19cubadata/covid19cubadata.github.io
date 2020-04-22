@@ -1041,24 +1041,22 @@ function run_calculations() {
                                     pdays.push(i);
                                     paccum.push(proscurves[province.DPA_province_code]['data'][i] / (ppopulation / 100000));
                                 }
-                                pcurves2[province.province] = {'pname': province.province,'pdays': pdays, 'cummulative_sum': paccum};
+                                pcurves2[province.province] = {'pname': province.province,'pdays': pdays, 'cummulative_sum': paccum, 'ptotal': paccum[paccum.length - 1]};
                                 pprovincename.push(province.province);
                             }
                         }
+
+                        pprovincename.sort((a, b) => pcurves2[b]['ptotal'] - pcurves2[a]['ptotal']);
 
                         let pcolumdata = [];
                         let pxaxisdata = {};
 
                         var i = 0;
 
-                        for (const p in $.walker.province.list.features) {
-                            const province = $.walker.province.list.features[p].properties;
-                            if (province.DPA_province_code !== '00') {
-                                pxaxisdata[province.province] = province.province;
-                                pcolumdata.push(pcurves2[province.province]['pdays']);
-                                pcolumdata.push(pcurves2[province.province]['cummulative_sum'])
-                            };
-                            i++;
+                        for (const p in pprovincename) {
+                            pxaxisdata[pprovincename[p]] = pprovincename[p];
+                            pcolumdata.push(pcurves2[pprovincename[p]]['pdays']);
+                            pcolumdata.push(pcurves2[pprovincename[p]]['cummulative_sum'])
                         }
                         
                         curve3 = c3.generate({
