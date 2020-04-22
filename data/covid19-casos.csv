@@ -12,7 +12,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,57,ca,Holguín,Holguín,2020/03/18,2020/03/16,primario
 ,hombre,69,fr,Bayamo,Granma,2020/03/19,2020/03/16,primario
 ,hombre,70,it,Holguín,Holguín,2020/03/19,2020/03/14,primario
-,mujer,37,cu,Santiago de Cuba,Santiago de Cuba,2020/03/19,2020/03/17,primario
+,mujer,37,cu,Bayamo,Granma,2020/03/19,2020/03/17,primario
 ,hombre,34,es,Playa,La Habana,2020/03/19,2020/03/17,primario
 ,hombre,81,ca,Plaza de la Revolución,La Habana,2020/03/19,2020/03/18,primario
 ,mujer,25,be,Viñales,Pinar del Río,2020/03/20,2020/03/15,primario
@@ -1184,7 +1184,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,58,cu,Cárdenas,Matanzas,2020/04/21,,secundario
 ,hombre,67,cu,Cienfuegos,Cienfuegos,2020/04/21,,secundario
 ,mujer,84,cu,Santa Clara,Villa Clara,2020/04/21,,secundario
-,mujer,23,cu,Puerto Padrón,Las Tunas,2020/04/21,,secundario
+,mujer,23,cu,Puerto Padre,Las Tunas,2020/04/21,,secundario
 ,hombre,48,cu,Holguín,Holguín,2020/04/21,,secundario
 ,hombre,30,cu,Santiago de Cuba,Santiago de Cuba,2020/04/21,,secundario
 ,mujer,33,cu,Guantánamo,Guantánamo,2020/04/21,,secundario
