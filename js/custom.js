@@ -1020,6 +1020,143 @@ function run_calculations() {
                             cuba.push(total);
                         }
 
+                        // Tasa de confirmados por provincia
+                        
+                        // for (const i in $.walker.province.list.features) {
+                        //     const province = $.walker.province.list.features[i].properties;
+                        //     console.log(province.province+' '+population[province.DPA_province_code]);
+                        //     console.log(proscurves[province.DPA_province_code]['data']);
+                        // }
+                        
+                        let pcurves2 = {};
+                        var pprovincename = [];
+                        
+                        for (const p in $.walker.province.list.features) {
+                            const province = $.walker.province.list.features[p].properties;
+                            if (province.DPA_province_code !== '00') {
+                                var ppopulation = population[province.DPA_province_code];                                                     
+                                var pdays = [province.province];
+                                var paccum = [province.province];
+                                for (var i = 1; i < proscurves[province.DPA_province_code]['data'].length; i++) {
+                                    pdays.push(i);
+                                    paccum.push(proscurves[province.DPA_province_code]['data'][i] / (ppopulation / 100000));
+                                }
+                                pcurves2[province.province] = {'pname': province.province,'pdays': pdays, 'cummulative_sum': paccum};
+                                pprovincename.push(province.province);
+                            }
+                        }
+
+                        let pcolumdata = [];
+                        let pxaxisdata = {};
+
+                        var i = 0;
+
+                        for (const p in $.walker.province.list.features) {
+                            const province = $.walker.province.list.features[p].properties;
+                            if (province.DPA_province_code !== '00') {
+                                pxaxisdata[province.province] = province.province;
+                                pcolumdata.push(pcurves2[province.province]['pdays']);
+                                pcolumdata.push(pcurves2[province.province]['cummulative_sum'])
+                            };
+                            i++;
+                        }
+                        
+                        curve3 = c3.generate({
+                            bindto: "#curves-province-confirmed-normalized",
+                            data: {
+                                xs: pxaxisdata[0],
+                                columns: pcolumdata,
+                                type: 'line'
+                            },
+                            tooltip: {
+                                show: false
+                            },
+                            axis: {
+                                x: {
+                                    label: "Días",
+                                },
+                                y: {
+                                    label: 'Confirmados x 100 000 habitantes',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        
+                        // $.walker.load("data/country-by-population.json", function (pdata) {
+                        //     let acurves2 = {};
+                        //     var acountrysorted2 = [];                    
+
+                        //     for (var c in countriesdays.paises_info) {
+                        //         var population = 9999999999;
+                        //         for (const p in pdata) {
+                        //             if (pdata[p].country === c) {
+                        //                 population = pdata[p].population;
+                        //                 break;
+                        //             };                                
+                        //         }
+                        //         if (population === null || population === 0 || population < 3000000) {
+                        //             population = 9999999999;
+                        //         }
+                        //         let c_trans = c in trans_countries ? trans_countries[c] : c;
+                        //         var adays = [c_trans];
+                        //         var accum = [c_trans];
+                        //         for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                        //             cdeaths = countriesdays.paises_info[c].deaths[i] / (population / 100000);
+                        //             adays.push(i);
+                        //             accum.push(cdeaths);
+                        //         }
+                        //         acurves2[c_trans] = {'adays': adays, 'cummulative_sum': accum, 'dtotal': cdeaths};
+                        //         acountrysorted2.push(c_trans);
+                        //     }                
+
+                        //     let acolumdata = [];
+                        //     let axaxisdata = {};
+                        //     var acont = 0;
+                        //     var atopn = 20;                
+
+                        //     acountrysorted2.sort((a, b) => acurves2[b]['dtotal'] - acurves2[a]['dtotal']);
+                            
+                        //     for (var i = 0; i < acountrysorted2.length; i++) {
+                        //         axaxisdata[acountrysorted2[i]] = acountrysorted2[i];
+                        //         acolumdata.push(acurves2[acountrysorted2[i]]['adays']);
+                        //         acolumdata.push(acurves2[acountrysorted2[i]]['cummulative_sum']);
+
+                        //         if (acont === atopn - 1) {
+                        //             break;
+                        //         }
+                        //         acont += 1;
+                        //     }
+
+                        //     axaxisdata['Cuba'] = 'Cuba';
+                        //     acolumdata.push(acurves2['Cuba']['adays']);
+                        //     acolumdata.push(acurves2['Cuba']['cummulative_sum']);
+
+                        //     curve3 = c3.generate({
+                        //         bindto: "#curves-province-confirmed-normalized",
+                        //         data: {
+                        //             xs: axaxisdata[0],
+                        //             columns: acolumdata,
+                        //             type: 'line',
+                        //             colors: {
+                        //                 'Cuba': '#B01E22'
+                        //             }
+                        //         },
+                        //         tooltip: {
+                        //             show: false
+                        //         },
+                        //         axis: {
+                        //             x: {
+                        //                 label: "Días",
+                        //             },
+                        //             y: {
+                        //                 label: 'Fallecidos x Millón de habitantes',
+                        //                 position: 'outer-middle'
+                        //             }
+                        //         }
+                        //     });
+                        // });
+
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {
