@@ -1078,39 +1078,29 @@ function run_calculations() {
 
                         $.walker.load("data/municipality-by-population.json", function (pmunicipality) {
                             
-                            // for (const i in $.walker.municipality.list.features) {
-                            //     const municipality = $.walker.municipality.list.features[i].properties;
-                            //     console.log(municipality.municipality+' '+population[municipality.municipality]);
-                            //     console.log(proscurves[province.DPA_province_code]['data']);
-                            // }
-                            
                             let mcurves2 = {};
                             var mmunicipalityname = [];
                             
                             for (const p in pmunicipality) {
-                                const municipality = pmunicipality[p];
-                                if (1 !== '00') {
-                                    var code = '00';
-                                    var mpopulation = municipality.population;
-                                    var features = $.walker.municipality.list.features;
-                                    for (const pa in features) {                                    
-                                        if (features[pa].properties.municipality === municipality.municipality) {
-                                            console.log("okok");
-                                            code = features[pa].properties.DPA_municipality_code;
-                                        }
+                                const municipality = pmunicipality[p];                                
+                                var code = '00';
+                                var mpopulation = municipality.population;
+                                var features = $.walker.municipality.list.features;
+                                for (const pa in features) {                                    
+                                    if (features[pa].properties.municipality === municipality.municipality) {
+                                        code = features[pa].properties.DPA_municipality_code;
                                     }
-                                    if (code !== '00') {
-                                        var mdays = [municipality.municipality];
-                                        var maccum = [municipality.municipality];
-                                        for (var i = 1; i < munscurves[code]['data'].length; i++) {
-                                            mdays.push(i);
-                                            maccum.push((munscurves[code]['data'][i] / (mpopulation / 100000)).toFixed(2));
-                                        }
-                                        mcurves2[municipality.municipality] = {'mname': municipality.municipality,'mdays': mdays, 'cummulative_sum': maccum, 'mtotal': maccum[maccum.length - 1]};
-                                        mmunicipalityname.push(municipality.municipality);
-                                        }
-                                    
                                 }
+                                if (code !== '00') {
+                                    var mdays = [municipality.municipality];
+                                    var maccum = [municipality.municipality];
+                                    for (var i = 1; i < munscurves[code]['data'].length; i++) {
+                                        mdays.push(i);
+                                        maccum.push((munscurves[code]['data'][i] / (mpopulation / 100000)).toFixed(2));
+                                    }
+                                    mcurves2[municipality.municipality] = {'mname': municipality.municipality,'mdays': mdays, 'cummulative_sum': maccum, 'mtotal': maccum[maccum.length - 1]};
+                                    mmunicipalityname.push(municipality.municipality);
+                                    }
                             }
     
                             mmunicipalityname.sort((a, b) => mcurves2[b]['mtotal'] - mcurves2[a]['mtotal']);
@@ -1118,7 +1108,7 @@ function run_calculations() {
                             let mcolumdata = [];
                             let mxaxisdata = {};
                             var mcont = 0;
-                            var mtopn = 10;
+                            var mtopn = 15;
     
                             var i = 0;
     
