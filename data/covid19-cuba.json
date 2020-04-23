@@ -11,7 +11,8 @@
             "dpacode_provincia": "21",
             "lon": -83.37809801101685,
             "lat": 22.553424911624475,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "eart-1": {
             "id": "eart1",
@@ -22,7 +23,8 @@
             "dpacode_provincia": "22",
             "lon": -82.541029,
             "lat": 22.917551,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "elha-1": {
             "id": "elha-1",
@@ -33,7 +35,8 @@
             "dpacode_provincia": "23",
             "lon": -82.406630,
             "lat": 23.134915,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "elha-2": {
             "id": "elha-2",
@@ -44,7 +47,8 @@
             "dpacode_provincia": "23",
             "lon": -82.394147,
             "lat": 23.133810,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "elha-3": {
             "id": "elha-3",
@@ -55,7 +59,8 @@
             "dpacode_provincia": "23",
             "lon": -82.373719,
             "lat": 23.112644,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "elha-4": {
             "id": "elha-4",
@@ -66,7 +71,8 @@
             "dpacode_provincia": "23",
             "lon": -82.252791,
             "lat": 23.041131,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "elha-5": {
             "id": "elha-5",
@@ -77,7 +83,8 @@
             "dpacode_provincia": "23",
             "lon": -82.469490,
             "lat": 23.062503,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "elha-6": {
             "id": "elha-6",
@@ -88,7 +95,20 @@
             "dpacode_provincia": "23",
             "lon": -82.361671,
             "lat": 23.090854,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
+        },
+        "elha-7": {
+            "id": "elha-7",
+            "identificador": "Consejo Popular Guiteras",
+            "municipio": "Habana del Este",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.06",
+            "dpacode_provincia": "23",
+            "lon": -82.306841,
+            "lat": 23.144922,
+            "abierto": true,
+            "chequeado": false
         },
         "emay-1": {
             "id": "emay-1",
@@ -99,7 +119,8 @@
             "dpacode_provincia": "24",
             "lon": -82.259740,
             "lat": 22.853941,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "emat-1": {
             "id": "emat-1",
@@ -110,7 +131,8 @@
             "dpacode_provincia": "25",
             "lon": -81.145032,
             "lat": 23.199094,
-            "abierto": false
+            "abierto": false,
+            "chequeado": true
         },
         "emat-2": {
             "id": "emat-2",
@@ -121,7 +143,8 @@
             "dpacode_provincia": "25",
             "lon": -81.598202,
             "lat": 23.037148,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "evcl-1": {
             "id": "evcl-1",
@@ -132,7 +155,8 @@
             "dpacode_provincia": "26",
             "lon": 	-79.7182,
             "lat": 22.4529,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "evcl-2": {
             "id": "evcl-2",
@@ -143,7 +167,8 @@
             "dpacode_provincia": "26",
             "lon": 	-79.6365,
             "lat": 	22.4377,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "evcl-3": {
             "id": "evcl-3",
@@ -154,7 +179,8 @@
             "dpacode_provincia": "26",
             "lon": 	-79.9585,
             "lat": 	22.3907,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "essp-1": {
             "id": "essp-1",
@@ -165,7 +191,8 @@
             "dpacode_provincia": "28",
             "lon": 	-79.5232,
             "lat": 	22.1429,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "essp-2": {
             "id": "essp-2",
@@ -176,7 +203,8 @@
             "dpacode_provincia": "28",
             "lon": -79.4847,
             "lat": 	22.0812,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "essp-3": {
             "id": "essp-3",
@@ -187,7 +215,8 @@
             "dpacode_provincia": "28",
             "lon": -79.366034,
             "lat": 21.993348,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "ecav-1": {
             "id": "ecav-1",
@@ -198,7 +227,8 @@
             "dpacode_provincia": "29",
             "lon": 	-78.8132,
             "lat": 21.7314,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "ecav-2": {
             "id": "ecav-2",
@@ -209,7 +239,8 @@
             "dpacode_provincia": "29",
             "lon": 	-79.0068,
             "lat": 	22.1505,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "ecav-3": {
             "id": "ecav-3",
@@ -220,7 +251,8 @@
             "dpacode_provincia": "29",
             "lon": -78.615591,
             "lat": 22.269206,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "ecav-4": {
             "id": "ecav-4",
@@ -231,7 +263,8 @@
             "dpacode_provincia": "29",
             "lon": -78.6031,
             "lat": 	22.1416,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "ecam-1": {
             "id": "ecam-1",
@@ -242,7 +275,20 @@
             "dpacode_provincia": "30",
             "lon": -78.2185,
             "lat": 	21.5668,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
+        },
+        "ecam-2": {
+            "id": "ecam-2",
+            "identificador": "Consejo popular Buenos Aires-Bellavista",
+            "municipio": "Camagüey",
+            "provincia": "Camagüey",
+            "dpacode_municipio": "30.09",
+            "dpacode_provincia": "30",
+            "lon": -77.909095,
+            "lat": 	21.412535,
+            "abierto": true,
+            "chequeado": false
         },
         "ehol-1": {
             "id": "ehol-1",
@@ -253,7 +299,8 @@
             "dpacode_provincia": "32",
             "lon": -76.128636,
             "lat": 21.110501,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "ehol-2": {
             "id": "ehol-2",
@@ -264,7 +311,20 @@
             "dpacode_provincia": "32",
             "lon": -75.722647,
             "lat": 20.940798,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
+        },
+        "ehol-3": {
+            "id": "ehol-3",
+            "identificador": "Reparto 26 de Julio",
+            "municipio": "Holguín",
+            "provincia": "Holguín",
+            "dpacode_municipio": "32.06",
+            "dpacode_provincia": "32",
+            "lon": -76.252168,
+            "lat": 20.870663,
+            "abierto": true,
+            "chequeado": false
         },
         "egtm-1": {
             "id": "egtm-1",
@@ -275,7 +335,8 @@
             "dpacode_provincia": "35",
             "lon": -74.511464,
             "lat": 20.353737,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "eijv-1": {
             "id": "eijv-1",
@@ -286,7 +347,8 @@
             "dpacode_provincia": "40.01",
             "lon": -82.811626,
             "lat": 21.886638,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
         },
         "eijv-2": {
             "id": "eijv-2",
@@ -297,8 +359,22 @@
             "dpacode_provincia": "40.01",
             "lon": -82.810281,
             "lat": 21.890710,
-            "abierto": true
+            "abierto": true,
+            "chequeado": true
+        },
+        "eijv-3": {
+            "id": "eijv-3",
+            "identificador": "Consejo Popular La Fé",
+            "municipio": "Isla de la Juventud",
+            "provincia": "Isla de la Juventud",
+            "dpacode_municipio": "40.01",
+            "dpacode_provincia": "40.01",
+            "lon": -82.753945,
+            "lat": 21.745226,
+            "abierto": true,
+            "chequeado": false
         }
+        
     },
     "centros_aislamiento": {
         "hal": {
