@@ -1058,7 +1058,25 @@ function run_calculations() {
                             data: {
                                 xs: pxaxisdata[0],
                                 columns: pcolumdata,
-                                type: 'line'
+                                type: 'line',
+                                colors: {
+                                    'Pinar del Río': '#125e41',
+                                    'Isla de la Juventud': '#547b78',
+                                    'Villa Clara': '#f98857',
+                                    'La Habana': '#090db8',
+                                    'Ciego de Ávila': '#92caff',
+                                    'Sancti Spíritus': '#ff7982',
+                                    'Matanzas': '#ff2a2a',
+                                    'Mayabeque': '#740301',
+                                    'Holguín': '#80a6ba',
+                                    'Artemisa': '#c17e86',
+                                    'Camagüey': '#7e8798',
+                                    'Santiago de Cuba': '#9f242a',
+                                    'Cienfuegos': '#1ab369',
+                                    'Guantánamo': '#9b7324',
+                                    'Las Tunas': '#358e61',
+                                    'Granma': '#6aacea',
+                                }
                             },
                             tooltip: {
                                 show: true
