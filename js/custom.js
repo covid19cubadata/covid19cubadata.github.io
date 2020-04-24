@@ -1230,6 +1230,7 @@ function run_calculations() {
 											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
 											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
 											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
+											{'value': '03/25' , 'text': 'Cierre de universidades'},
 											{'value': '04/11' , 'text': 'Cese de trasnporte público'}
 										]
 									}
