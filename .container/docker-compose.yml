@@ -1,0 +1,35 @@
+version: "3.3"
+
+services:
+  covid19cubadata_web:
+    image: covid19cubadata/web:latest
+    build:
+      context: ./nginx
+      args:
+        - TZ=${TIMEZONE}
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    container_name: covid19cubadata
+    volumes:
+      - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}
+      - ${NGINX_HOST_LOG_PATH}:/var/log/nginx
+      - ${NGINX_SITES_PATH}:/etc/nginx/sites-available
+      - ${NGINX_SSL_PATH}:/etc/nginx/ssl
+    extra_hosts:
+      - "host.docker.internal:${DOCKER_HOST_IP}"
+      - "${APP_DOMAIN}:${DOCKER_HOST_IP}"
+    ports:
+      - "${NGINX_HOST_HTTP_PORT}:80"
+#      - "${NGINX_HOST_HTTPS_PORT}:443"
+
+  covid19cubadata_update_countries:
+    image: covid19cubadata/update_countries:latest
+    build:
+      context: ..
+      dockerfile: .container/python/Dockerfile
+      args:
+        - PYTHON_VERSION=${PYTHON_VERSION}
+        - TZ=${TIMEZONE}
+    volumes:
+      - ${APP_CODE_PATH_HOST}/data:/app/src/data
