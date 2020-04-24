@@ -399,8 +399,6 @@ var population = {
     '40.01': 83801,//IJV
 }
 
-$.ajaxSetup({cache: false});
-
 var openIcon = new L.Icon({
 	iconUrl: 'images/marker-icon-2x-gold.png',
 	shadowUrl: 'images/marker-shadow.png',
