@@ -1267,7 +1267,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,60,cu,Habana del Este,La Habana,2020/04/23,,secundario
 ,hombre,31,cu,Habana del Este,La Habana,2020/04/23,,secundario
 ,hombre,21,cu,Batabanó,Mayabeque,2020/04/23,,secundario
-,hombre,43,cu,Batabanó,La Habana,2020/04/23,,secundario
+,hombre,43,cu,Batabanó,Mayabeque,2020/04/23,,secundario
 ,hombre,71,cu,Batabanó,Mayabeque,2020/04/23,,secundario
 ,hombre,39,cu,Cárdenas,Matanzas,2020/04/23,,secundario
 ,mujer,59,cu,Matanzas,Matanzas,2020/04/23,,secundario
@@ -1282,5 +1282,5 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,35,cu,Cienfuegos,Cienfuegos,2020/04/23,,desconocido
 ,mujer,50,cu,Nuevitas,Camagüey,2020/04/23,,secundario
 ,mujer,21,cu,Puerto Padre,Las Tunas,2020/04/23,,secundario
-,hombre,80,cu,Isla de la Juventud,,2020/04/23,,secundario
-,mujer,3,cu,Isla de la Juventud,,2020/04/23,,secundario
+,hombre,80,cu,Isla de la Juventud,Isla de la Juventud,2020/04/23,,secundario
+,mujer,3,cu,Isla de la Juventud,Isla de la Juventud,2020/04/23,,secundario
