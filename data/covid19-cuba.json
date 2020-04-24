@@ -3,7 +3,7 @@
     "note-text": "",
     "eventos": {
         "epri-1": {
-            "id": "epri1",
+            "id": "epri-1",
             "identificador": "Comunidad Camilo Cienfuegos",
             "municipio": "Consolación del Sur",
             "provincia": "Pinar del Río",
@@ -14,8 +14,20 @@
             "abierto": true,
             "chequeado": true
         },
+        "epri-2": {
+            "id": "epri-2",
+            "identificador": "Zona La Ceiba",
+            "municipio": "Guane",
+            "provincia": "Pinar del Río",
+            "dpacode_municipio": "21.11",
+            "dpacode_provincia": "21",
+            "lon": -84.087038,
+            "lat": 22.202105, 
+            "abierto": true,
+            "chequeado": true
+        },
         "eart-1": {
-            "id": "eart1",
+            "id": "eart-1",
             "identificador": "Escuela Internacional de Cine y Televisión de San Antonio de los Baños",
             "municipio": "San Antonio de los Baños",
             "provincia": "Artemisa",
