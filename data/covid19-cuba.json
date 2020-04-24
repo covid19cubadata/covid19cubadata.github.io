@@ -19955,7 +19955,8 @@
                 "tests_total": 23317,
                 "recuperados_numero": 21,
                 "graves_numero": 17,
-                "muertes_numero": 4
+                "muertes_numero": 5,
+                "nota_general": "El día 24 de abril se reportaron 6 fallecidos pero uno de ellos falleció el día 16 de abril pero fue confirmado este día. Por ese motivo se incrementaron en uno los fallecidos en esta fecha"
             },
             "38": {
                 "fecha": "2020/04/17",
@@ -27266,7 +27267,8 @@
                 "tests_total": 36134,
                 "recuperados_numero": 51,
                 "graves_numero": 11,
-                "muertes_numero": 6
+                "muertes_numero": 5,
+                "nota_general": "Para este día se reportaron 6 fallecidos pero uno de ellos falleció el día 16 de abril pero fue confirmado este día. Por ese motivo se reportaron 5 fallecidos este día y el fallecido el día 16 fue ajustado en la cuenta de este día"
             }
         }
     }
