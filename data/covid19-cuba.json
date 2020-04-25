@@ -122,6 +122,54 @@
             "abierto": true,
             "chequeado": false
         },
+        "elha-8": {
+            "id": "elha-8",
+            "identificador": "Guaicanamar",
+            "municipio": "Regla",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.05",
+            "dpacode_provincia": "23",
+            "lon": -82.331909,
+            "lat": 23.126879,
+            "abierto": true,
+            "chequeado": false
+        },
+        "elha-9": {
+            "id": "elha-9",
+            "identificador": "Los Sitios",
+            "municipio": "Centro Habana",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.03",
+            "dpacode_provincia": "23",
+            "lon": -82.371030,
+            "lat": 23.129591,
+            "abierto": true,
+            "chequeado": false
+        },
+        "elha-10": {
+            "id": "elha-10",
+            "identificador": "Dragones",
+            "municipio": "Centro Habana",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.03",
+            "dpacode_provincia": "23",
+            "lon": -82.361380,
+            "lat": 23.133651,
+            "abierto": true,
+            "chequeado": false
+        },
+        "elha-11": {
+            "id": "elha-11",
+            "identificador": "Cayo Hueso",
+            "municipio": "Centro Habana",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.03",
+            "dpacode_provincia": "23",
+            "lon": -82.373594,
+            "lat": 23.134378,
+            "abierto": true,
+            "chequeado": false
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Rúa",
