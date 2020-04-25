@@ -1128,8 +1128,6 @@ function run_calculations() {
                             var mcont = 0;
                             var mtopn = 15;
     
-                            var i = 0;
-    
                             for (const p in mmunicipalityname) {
                                 mxaxisdata[mmunicipalityname[p]] = mmunicipalityname[p];
                                 mcolumdata.push(mcurves2[mmunicipalityname[p]]['mdays']);
