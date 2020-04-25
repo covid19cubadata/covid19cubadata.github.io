@@ -359,7 +359,7 @@ var trans_countries = {
 };
 
 
-province_order = {
+var province_order = {
     'unk': 16,
     'lha': 2,
     'mat': 4,
@@ -377,6 +377,25 @@ province_order = {
     'pri': 0,
     'art': 1,
     'may': 3
+}
+
+var provinces_codes = {
+    'lha': "23",
+    'mat': "25",
+    'cfg': "27",
+    'ssp': "28",
+    'ltu': "31",
+    'hol': "32",
+    'gra': "33",
+    'stg': "34",
+    'ijv': "40.01",
+    'cam': "30",
+    'cav': "29",
+    'vcl': "26",
+    'gtm': "35",
+    'pri': "21",
+    'art': "22",
+    'may': "24"
 }
 
 var population = {
@@ -646,6 +665,8 @@ function run_calculations() {
     $.walker.load("data/paises-info-dias.json", function (countriesdays) {
         $.walker.load("data/covid19-cuba.json", function (data) {
             $.walker.load("data/provincias.geojson", function (provincias) {
+				
+				
 
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
@@ -657,6 +678,63 @@ function run_calculations() {
                 start_selection = false;
                 $.walker.view.update();
                 general_view = $locator.val() === 'cuba';
+                
+                let nre_id = 'cu';
+                if (!(general_view)){
+					nre_id = provinces_codes[province_id];
+				}
+				
+				if (nre_id in data['numero-reproductivo']){
+					var nre_dates = ['Fecha'].concat(data['numero-reproductivo'][nre_id]['dates']);
+					var nre_value = ['Número Reproductivo Efectivo'].concat(data['numero-reproductivo'][nre_id]['value']);
+					var nre_lower = ['Margen inferior'].concat(data['numero-reproductivo'][nre_id]['lower']);
+					var nre_upper = ['Margen superior'].concat(data['numero-reproductivo'][nre_id]['upper']);
+					c3.generate({
+						bindto: "#repnumber-chart",
+						data: {
+							x: nre_dates[0],
+							columns: [
+								nre_dates,
+								nre_value,
+								nre_lower,
+								nre_upper
+							],
+							type: 'line',
+							colors: {
+								'Número Reproductivo Efectivo': '#B01E22',
+								'Margen inferior': '#D0797C',
+								'Margen superior': '#D0797C'
+							}
+						},
+						axis: {
+							x: {
+								padding: {
+							      left: 1,
+							      right: 1
+							    },
+								label: 'Fecha',
+								type: 'categorical',
+								tick: {
+									values: [0,nre_dates.length/2,nre_dates.length-2]
+								}
+							},
+							y: {
+								label: 'Número Reproductivo Efectivo',
+								position: 'outer-middle',
+							}
+						}
+						,
+					    grid: {
+					        y: {
+					            lines: [
+					                {value: 1, text: ''}
+					            ]
+					        }
+					    }
+					});
+				} else {
+					$('#repnumber-chart').html('<h2 id="repnumber_nodata"><span>No hay datos suficientes para su cálculo</span></h2>');
+				}
 
                 $.walker.map.gen_markers(data);
 
@@ -1030,7 +1108,7 @@ function run_calculations() {
                         var ntest_days = ['Fecha'];
                         var ntest_negative = ['Tests Negativos'];
                         var ntest_positive = ['Tests Positivos'];
-                        var ntest_cases = ['Total de Tests'];
+                        var ntest_cases = ['Total de Tests en el día'];
                         for (var i = 1; i < test_cases.length; i++) {
                             ntest_days.push(test_days[i]);
                             ntest_cases.push(test_cases[i] - test_cases[i - 1]);
@@ -1059,16 +1137,16 @@ function run_calculations() {
                                 x: ntest_days[0],
                                 columns: [
                                     ntest_days,
-                                    ntest_negative,
+                                    //ntest_negative,
                                     ntest_positive,
                                     ntest_cases
                                 ],
-                                type: 'bar',
-                                groups: [['Tests Negativos', 'Tests Positivos']],
+                                type: 'line',
+                                //groups: [['Tests Negativos', 'Tests Positivos']],
                                 colors: {
-                                    'Tests Negativos': '#1C1340',
+                                    //'Tests Negativos': '#1C1340',
                                     'Tests Positivos': '#B01E22',
-                                    'Total de Tests': '#1A8323'
+                                    'Total de Tests en el día': '#1A8323'
                                 }
                             },
                             axis: {

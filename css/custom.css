@@ -298,8 +298,18 @@ body > div {
     height: 280px;
 }
 
-#stringencycub-evol {
+#stringencycub-evol{
 	height: 250px;
+}
+
+#repnumber-chart {
+	height: 280px;
+}
+
+#repnumber_nodata {
+	margin-top: 120px;
+	margin-bottom: 120px;
+	text-align: center;
 }
 
 #countriescurve-info {
