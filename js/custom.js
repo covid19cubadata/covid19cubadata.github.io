@@ -1045,8 +1045,6 @@ function run_calculations() {
                         let pcolumdata = [];
                         let pxaxisdata = {};
 
-                        var i = 0;
-
                         for (const p in pprovincename) {
                             pxaxisdata[pprovincename[p]] = pprovincename[p];
                             pcolumdata.push(pcurves2[pprovincename[p]]['pdays']);
@@ -1127,8 +1125,6 @@ function run_calculations() {
                             let mxaxisdata = {};
                             var mcont = 0;
                             var mtopn = 15;
-    
-                            var i = 0;
     
                             for (const p in mmunicipalityname) {
                                 mxaxisdata[mmunicipalityname[p]] = mmunicipalityname[p];
@@ -1373,6 +1369,7 @@ function run_calculations() {
 											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
 											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
 											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
+											//{'value': '03/25' , 'text': 'Cierre de universidades'},
 											{'value': '04/11' , 'text': 'Cese de trasnporte público'}
 										]
 									}
