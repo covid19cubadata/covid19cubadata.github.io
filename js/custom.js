@@ -1045,8 +1045,6 @@ function run_calculations() {
                         let pcolumdata = [];
                         let pxaxisdata = {};
 
-                        var i = 0;
-
                         for (const p in pprovincename) {
                             pxaxisdata[pprovincename[p]] = pprovincename[p];
                             pcolumdata.push(pcurves2[pprovincename[p]]['pdays']);
