@@ -307,8 +307,7 @@ body > div {
 }
 
 #repnumber_nodata {
-	margin-top: 120px;
-	margin-bottom: 120px;
+	padding-top: 100px;
 	text-align: center;
 }
 
