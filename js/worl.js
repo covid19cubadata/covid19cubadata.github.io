@@ -752,7 +752,6 @@ function run_calculations() {
             var cont = 0;
             var topn = 20;
             countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
-            var $table_country = $('#table-countries > tbody').html('');
             for (var i = 0; i < countrysorted2.length; i++) {
                 xaxisdata[countrysorted2[i]] = 'Confirmados-' + countrysorted2[i];
                 columdata.push(curves2[countrysorted2[i]]['weeks']);
@@ -762,18 +761,6 @@ function run_calculations() {
                     break;
                 }
                 cont += 1;
-
-                var row = ("<tr><td>{ranking}</td>" +
-                    "<td>{country}</td>" +
-                    "<td>{cases}</td>" +
-                    "<td>{recovers}</td>" +
-                    "<td>{deaths}</td></tr>")
-                    .replace("{ranking}", i + 1)
-                    .replace("{country}", curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0])
-                    .replace('{cases}', curves2[countrysorted2[i]]['ctotal'])
-                    .replace('{recovers}', curves2[countrysorted2[i]]['crecovered'])
-                    .replace('{deaths}', curves2[countrysorted2[i]]['cdeaths']);
-                $table_country.append(row);
             }
 
             xaxisdata['Cuba'] = 'Confirmados-Cuba';
@@ -806,6 +793,94 @@ function run_calculations() {
                     }
                 }
             });
+
+            $.fn.DataTable.ext.pager.numbers_length = 5;
+            let $datatable = $('#datatable').DataTable({
+                'responsive': true,
+                'searching': true,
+                'scaleX': false,
+                'scaleY': false,
+                'pageLength': 20,
+                "lengthMenu": [20, 50 , 100, 200],
+                "language": {
+                    "sProcessing": "Procesando...",
+                    "sLengthMenu": "Mostrar _MENU_ registros",
+                    "sZeroRecords": "No se encontraron resultados",
+                    "sEmptyTable": "Ningún dato disponible en esta tabla",
+                    "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                    "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                    "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                    "sInfoPostFix": "",
+                    "sSearch": "Buscar:",
+                    "sUrl": "",
+                    "sInfoThousands": ",",
+                    "sLoadingRecords": "Cargando...",
+                    "oPaginate": {
+                        "sFirst": "<<",
+                        "sLast": ">>",
+                        "sNext": ">",
+                        "sPrevious": "<"
+                    },
+                    "oAria": {
+                        "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                    },
+                    "buttons": {
+                        "copy": "Copiar",
+                        "colvis": "Visibilidad"
+                    }
+                },
+                data: [],
+                columns: [
+                    {title: ""},
+                    {title: "#"},
+                    {title: "País"},
+                    {title: "Casos."},
+                    {title: "Recuperados."},
+                    {title: "Muertes"},
+                ],
+                "columnDefs": [
+                    {responsivePriority: 1, targets: 0},
+                    {responsivePriority: 2, targets: 1},
+                    {responsivePriority: 3, targets: 2},
+                    {responsivePriority: 4, targets: 3},
+                    {responsivePriority: 4, targets: 4},
+                    {responsivePriority: 4, targets: 5}
+                ],
+                "drawCallback": function (settings) {
+                    if ( $(window).width() > 670 ) {
+                        $('#datatable a[data-title]').each(function () {
+                            $(this).html('-');
+                        });
+                    }
+                }
+            });
+
+            new $.fn.dataTable.FixedHeader($datatable);
+
+            for (var i = 0; i < countrysorted2.length; i++) {
+                let rowdat = [$('<a></a>').attr({
+                    'class': 'btn btn-primary btn-block btn-sm',
+                    'href': '#case-details',
+                    'data-text': '',
+                    'data-note': '',
+                    'data-title': (i+1),
+                }).text('+').prop('outerHTML'),i+1, curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
+                $datatable.row.add(rowdat);
+            }
+            $(document).on('click', 'a[href="#case-details"]', function (evt) {
+                evt.preventDefault();
+                if ( $(window).width() < 670 ){
+                    const $info = $(this).html();
+                    if($info==='+'){
+                        $(this).html('-');
+                    }else{
+                        $(this).html('+');
+                    }
+                }
+            });
+
+            $datatable.draw();
 
         });
     });
