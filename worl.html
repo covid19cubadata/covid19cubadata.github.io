@@ -275,7 +275,13 @@
     <script type="text/javascript" src="js/c3.js"></script>
     <script type="text/javascript" src="js/worl.js"></script>
     <script type="text/javascript">
-        $("#navbar").load('navbar.html')
+        $("#navbar").load('navbar.html', function(){
+            $("#inicio").removeClass("active");
+            $("#mundo").removeClass("active");
+            $("#casos").removeClass("active");
+            $("#equipo").removeClass("active");
+            $("#mundo").addClass("active")
+        })
         $("#footer").load('footer.html')
     </script>
 </body>

@@ -135,7 +135,13 @@
     <script type="text/javascript" src="js/underscore-min.js"></script>
     <script type="text/javascript" src="js/people.js"></script>
     <script type="text/javascript">
-        $("#navbar").load('navbar.html')
+        $("#navbar").load('navbar.html', function(){
+            $("#inicio").removeClass("active");
+            $("#mundo").removeClass("active");
+            $("#casos").removeClass("active");
+            $("#equipo").removeClass("active");
+            $("#casos").addClass("active")
+        })
         $("#footer").load('footer.html')
     </script>
 </body>

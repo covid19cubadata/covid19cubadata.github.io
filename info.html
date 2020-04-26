@@ -121,7 +121,7 @@
                     <p class="card-text">Lic. Matem&aacute;tica, graduado de la Univ. de La Habana. Investigador del departamento de Matem&aacute;tica Interdisciplinaria del Instituto de Cibern&eacute;tica, Matem&aacute;tica y F&iacute;sica. Integrante del grupo de Inteligencia Artificial de la Fac. de Matemática y Computación de la Univ. de La Habana.</p>
                 </div>
             </div>
-           
+
             <div class="card">
                 <img src="images/people/sandy.jpg" alt="Sandy F. P&eacute;rez Matamoros" class="card-img-top" />
                 <div class="card-body">
@@ -161,9 +161,9 @@
                     <p class="card-text">Lic. Bioqu&iacute;mica, graduado de la Univ. de La Habana. Estudiante de Ingenier&iacute;a Inform&aacute;tica en la Univ. de Oriente. Fundador del <a href="https://swlx.info" target="_blank">Proyecto SWL-X</a></p>
                 </div>
             </div>
-            
-            
-            
+
+
+
             <div class="card">
                 <img src="images/people/correa.jpg" alt="Luis Correa Leyva" class="card-img-top" />
                 <div class="card-body">
@@ -171,18 +171,24 @@
                     <p class="card-text">Estudiante de Ciencia de la Computaci&oacute;n en la Univ. de Oriente.</p>
                 </div>
             </div>
-           
-            
+
+
         </div>
     </div>
-    
+
     <div id="footer"></div>
 
     <script type="text/javascript" src="js/datatables/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/underscore-min.js"></script>
     <script type="text/javascript">
-        $("#navbar").load('navbar.html')
+        $("#navbar").load('navbar.html', function(){
+            $("#inicio").removeClass("active");
+            $("#mundo").removeClass("active");
+            $("#casos").removeClass("active");
+            $("#equipo").removeClass("active");
+            $("#equipo").addClass("active")
+        })
         $("#footer").load('footer.html')
     </script>
 </body>
