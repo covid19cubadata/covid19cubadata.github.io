@@ -12,7 +12,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,57,ca,Holguín,Holguín,2020/03/18,2020/03/16,primario
 ,hombre,69,fr,Bayamo,Granma,2020/03/19,2020/03/16,primario
 ,hombre,70,it,Holguín,Holguín,2020/03/19,2020/03/14,primario
-,mujer,37,cu,Santiago de Cuba,Santiago de Cuba,2020/03/19,2020/03/17,primario
+,mujer,37,cu,Bayamo,Granma,2020/03/19,2020/03/17,primario
 ,hombre,34,es,Playa,La Habana,2020/03/19,2020/03/17,primario
 ,hombre,81,ca,Plaza de la Revolución,La Habana,2020/03/19,2020/03/18,primario
 ,mujer,25,be,Viñales,Pinar del Río,2020/03/20,2020/03/15,primario
@@ -1086,3 +1086,285 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,34,cu,Gibara,Holguín,2020/04/19,,secundario
 ,mujer,56,cu,Holguín,Holguín,2020/04/19,,secundario
 ,mujer,61,cu,Santiago de Cuba,Santiago de Cuba,2020/04/19,,desconocido
+,hombre,67,cu,Guanabacoa,La Habana,2020/04/20,,secundario
+,hombre,7,cu,Guanabacoa,La Habana,2020/04/20,,secundario
+,mujer,43,cu,Guanabacoa,La Habana,2020/04/20,,secundario
+,mujer,12,cu,San Miguel del Padrón,La Habana,2020/04/20,,secundario
+,mujer,22,cu,Boyeros,La Habana,2020/04/20,,desconocido
+,hombre,43,cu,Guanabacoa,La Habana,2020/04/20,,secundario
+,hombre,27,cu,Cerro,La Habana,2020/04/20,,secundario
+,hombre,19,cu,Cerro,La Habana,2020/04/20,,secundario
+,hombre,27,cu,Centro Habana,La Habana,2020/04/20,,desconocido
+,hombre,50,cu,Boyeros,La Habana,2020/04/20,,desconocido
+,hombre,40,cu,Arroyo Naranjo,La Habana,2020/04/20,,secundario
+,hombre,9,cu,Arroyo Naranjo,La Habana,2020/04/20,,secundario
+,hombre,49,cu,Habana del Este,La Habana,2020/04/20,,desconocido
+,mujer,59,cu,La Habana Vieja,La Habana,2020/04/20,,secundario
+,mujer,38,cu,Arroyo Naranjo,La Habana,2020/04/20,,secundario
+,hombre,92,cu,Cerro,La Habana,2020/04/20,,secundario
+,hombre,65,cu,La Habana Vieja,La Habana,2020/04/20,,desconocido
+,hombre,47,cu,Centro Habana,La Habana,2020/04/20,,desconocido
+,hombre,17,cu,Arroyo Naranjo,La Habana,2020/04/20,,desconocido
+,mujer,54,cu,Diez de Octubre,La Habana,2020/04/20,,secundario
+,hombre,14,cu,San José de las Lajas,Mayabeque,2020/04/20,,secundario
+,hombre,73,cu,San José de las Lajas,Mayabeque,2020/04/20,,secundario
+,mujer,56,cu,Batabanó,Mayabeque,2020/04/20,,secundario
+,hombre,59,cu,San José de las Lajas,Mayabeque,2020/04/20,,desconocido
+,mujer,59,cu,Limonar,Matanzas,2020/04/20,,secundario
+,mujer,59,cu,Cárdenas,Matanzas,2020/04/20,,secundario
+,mujer,59,cu,Cárdenas,Matanzas,2020/04/20,,secundario
+,mujer,7,cu,Santa Clara,Villa Clara,2020/04/20,,secundario
+,mujer,37,cu,Camajuaní,Villa Clara,2020/04/20,,secundario
+,mujer,59,cu,Santa Clara,Villa Clara,2020/04/20,,secundario
+,hombre,52,cu,Santa Clara,Villa Clara,2020/04/20,,secundario
+,hombre,49,cu,Santa Clara,Villa Clara,2020/04/20,,secundario
+,mujer,40,cu,Santa Clara,Villa Clara,2020/04/20,,secundario
+,mujer,86,cu,Morón,Ciego de Ávila,2020/04/20,,secundario
+,mujer,41,cu,Morón,Ciego de Ávila,2020/04/20,,desconocido
+,hombre,39,cu,Bolivia,Ciego de Ávila,2020/04/20,,secundario
+,hombre,30,cu,Morón,Ciego de Ávila,2020/04/20,,secundario
+,hombre,1,cu,Chambas,Ciego de Ávila,2020/04/20,,secundario
+,mujer,30,cu,Puerto Padre,Las Tunas,2020/04/20,,secundario
+,mujer,28,cu,Puerto Padre,Las Tunas,2020/04/20,,secundario
+,hombre,68,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,mujer,24,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,hombre,34,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,hombre,61,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,mujer,52,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,hombre,8,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,mujer,31,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,hombre,17,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,hombre,50,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,hombre,53,cu,Isla de la Juventud,Isla de la Juventud,2020/04/20,,secundario
+,mujer,19,cu,Playa,La Habana,2020/04/21,,secundario
+,mujer,56,cu,Playa,La Habana,2020/04/21,,secundario
+,hombre,74,cu,Cotorro,La Habana,2020/04/21,,desconocido
+,mujer,45,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,hombre,47,cu,Cotorro,La Habana,2020/04/21,,secundario
+,mujer,12,cu,Cotorro,La Habana,2020/04/21,,secundario
+,hombre,47,cu,Diez de Octubre,La Habana,2020/04/21,,secundario
+,mujer,29,cu,Diez de Octubre,La Habana,2020/04/21,,secundario
+,mujer,59,cu,Diez de Octubre,La Habana,2020/04/21,,desconocido
+,mujer,54,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,mujer,54,cu,Boyeros,La Habana,2020/04/21,,secundario
+,mujer,25,cu,La Habana Vieja,La Habana,2020/04/21,,secundario
+,hombre,18,cu,Habana del Este,La Habana,2020/04/21,,secundario
+,hombre,10,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,10,cu,Playa,La Habana,2020/04/21,,secundario
+,hombre,17,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,20,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,hombre,42,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,mujer,26,cu,Diez de Octubre,La Habana,2020/04/21,,secundario
+,mujer,47,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,mujer,61,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,26,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,mujer,44,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,61,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,24,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,20,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,hombre,50,cu,Marianao,La Habana,2020/04/21,,secundario
+,hombre,26,cu,Plaza de la Revolución,La Habana,2020/04/21,,secundario
+,mujer,43,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,30,cu,Cerro,La Habana,2020/04/21,,desconocido
+,mujer,8,cu,Guanabacoa,La Habana,2020/04/21,,secundario
+,mujer,33,cu,Guanabacoa,La Habana,2020/04/21,,secundario
+,hombre,24,cu,Boyeros,La Habana,2020/04/21,,secundario
+,mujer,54,cu,Plaza de la Revolución,La Habana,2020/04/21,,secundario
+,mujer,21,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,25,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,hombre,25,cu,San Miguel del Padrón,La Habana,2020/04/21,,secundario
+,mujer,56,cu,Centro Habana,La Habana,2020/04/21,,secundario
+,hombre,66,cu,Habana del Este,La Habana,2020/04/21,,desconocido
+,mujer,42,cu,Habana del Este,La Habana,2020/04/21,,secundario
+,mujer,22,cu,Centro Habana,La Habana,2020/04/21,,desconocido
+,hombre,44,cu,La Lisa,La Habana,2020/04/21,,secundario
+,mujer,29,cu,La Lisa,La Habana,2020/04/21,,secundario
+,hombre,60,cu,Marianao,La Habana,2020/04/21,,desconocido
+,mujer,51,cu,San José de las Lajas,Mayabeque,2020/04/21,,secundario
+,mujer,58,cu,Cárdenas,Matanzas,2020/04/21,,secundario
+,hombre,67,cu,Cienfuegos,Cienfuegos,2020/04/21,,secundario
+,mujer,84,cu,Santa Clara,Villa Clara,2020/04/21,,secundario
+,mujer,23,cu,Puerto Padre,Las Tunas,2020/04/21,,secundario
+,hombre,48,cu,Holguín,Holguín,2020/04/21,,secundario
+,hombre,30,cu,Santiago de Cuba,Santiago de Cuba,2020/04/21,,secundario
+,mujer,33,cu,Guantánamo,Guantánamo,2020/04/21,,secundario
+,hombre,29,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,29,cu,Pinar del Río,Pinar del Río,2020/04/22,,secundario
+,mujer,45,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,61,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,mujer,2,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,25,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,32,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,mujer,53,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,7,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,58,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,mujer,81,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,mujer,30,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,36,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,mujer,71,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,36,cu,Guane,Pinar del Río,2020/04/22,,secundario
+,hombre,74,cu,Habana del Este,La Habana,2020/04/22,,desconocido
+,mujer,71,cu,Habana del Este,La Habana,2020/04/22,,desconocido
+,mujer,34,cu,Boyeros,La Habana,2020/04/22,,secundario
+,mujer,54,cu,Centro Habana,La Habana,2020/04/22,,secundario
+,hombre,15,cu,Centro Habana,La Habana,2020/04/22,,secundario
+,mujer,46,cu,Playa,La Habana,2020/04/22,,secundario
+,mujer,51,cu,Guanabacoa,La Habana,2020/04/22,,secundario
+,hombre,20,cu,Diez de Octubre,La Habana,2020/04/22,,secundario
+,mujer,37,cu,Centro Habana,La Habana,2020/04/22,,secundario
+,mujer,61,cu,Guanabacoa,La Habana,2020/04/22,,secundario
+,hombre,33,cu,Guanabacoa,La Habana,2020/04/22,,desconocido
+,mujer,50,cu,Guanabacoa,La Habana,2020/04/22,,secundario
+,mujer,50,cu,Guanabacoa,La Habana,2020/04/22,,secundario
+,hombre,30,cu,Playa,La Habana,2020/04/22,,secundario
+,mujer,51,cu,Marianao,La Habana,2020/04/22,,desconocido
+,hombre,32,cu,Habana del Este,La Habana,2020/04/22,,secundario
+,mujer,19,cu,Marianao,La Habana,2020/04/22,,secundario
+,hombre,54,cu,Matanzas,Matanzas,2020/04/22,,secundario
+,mujer,75,cu,Pedro Betancourt,Matanzas,2020/04/22,,secundario
+,mujer,18,cu,Colón,Matanzas,2020/04/22,,secundario
+,hombre,66,cu,Cárdenas,Matanzas,2020/04/22,,secundario
+,hombre,49,cu,Placetas,Villa Clara,2020/04/22,,secundario
+,hombre,49,cu,Santa Clara,Villa Clara,2020/04/22,,secundario
+,hombre,10,cu,Santa Clara,Villa Clara,2020/04/22,,secundario
+,mujer,31,cu,Santa Clara,Villa Clara,2020/04/22,,secundario
+,mujer,76,cu,Santa Clara,Villa Clara,2020/04/22,,secundario
+,mujer,41,cu,Santa Clara,Villa Clara,2020/04/22,,secundario
+,hombre,45,cu,Placetas,Villa Clara,2020/04/22,,secundario
+,mujer,24,cu,Santiago de Cuba,Santiago de Cuba,2020/04/22,,secundario
+,hombre,87,cu,Guantánamo,Guantánamo,2020/04/22,,desconocido
+,hombre,23,cu,Isla de la Juventud,Isla de la Juventud,2020/04/22,,secundario
+,mujer,59,cu,San Luis,Pinar del Río,2020/04/23,,desconocido
+,hombre,6,cu,San Luis,Pinar del Río,2020/04/23,,desconocido
+,hombre,48,cu,Arroyo Naranjo,La Habana,2020/04/23,,secundario
+,mujer,82,cu,La Lisa,La Habana,2020/04/23,,secundario
+,hombre,59,cu,Plaza de la Revolución,La Habana,2020/04/23,,secundario
+,mujer,43,cu,Cerro,La Habana,2020/04/23,,secundario
+,hombre,59,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,hombre,57,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,mujer,36,cu,La Habana Vieja,La Habana,2020/04/23,,secundario
+,hombre,29,cu,Habana del Este,La Habana,2020/04/23,,secundario
+,mujer,37,cu,La Habana Vieja,La Habana,2020/04/23,,secundario
+,hombre,36,cu,La Habana Vieja,La Habana,2020/04/23,,secundario
+,hombre,28,cu,La Habana Vieja,La Habana,2020/04/23,,secundario
+,mujer,24,cu,San Miguel del Padrón,La Habana,2020/04/23,,secundario
+,mujer,38,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,hombre,43,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,mujer,52,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,mujer,40,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,hombre,49,cu,Diez de Octubre,La Habana,2020/04/23,,secundario
+,mujer,44,cu,Playa,La Habana,2020/04/23,,secundario
+,mujer,7,cu,San Miguel del Padrón,La Habana,2020/04/23,,secundario
+,hombre,45,cu,San Miguel del Padrón,La Habana,2020/04/23,,secundario
+,mujer,66,cu,San Miguel del Padrón,La Habana,2020/04/23,,secundario
+,mujer,26,cu,Boyeros,La Habana,2020/04/23,,secundario
+,mujer,60,cu,Guanabacoa,La Habana,2020/04/23,,secundario
+,mujer,19,cu,Guanabacoa,La Habana,2020/04/23,,secundario
+,hombre,23,cu,Cerro,La Habana,2020/04/23,,secundario
+,hombre,19,cu,Regla,La Habana,2020/04/23,,secundario
+,hombre,21,cu,Regla,La Habana,2020/04/23,,secundario
+,hombre,52,cu,Habana del Este,La Habana,2020/04/23,,secundario
+,mujer,60,cu,Habana del Este,La Habana,2020/04/23,,secundario
+,hombre,31,cu,Habana del Este,La Habana,2020/04/23,,secundario
+,hombre,21,cu,Batabanó,Mayabeque,2020/04/23,,secundario
+,hombre,43,cu,Batabanó,Mayabeque,2020/04/23,,secundario
+,hombre,71,cu,Batabanó,Mayabeque,2020/04/23,,secundario
+,hombre,39,cu,Cárdenas,Matanzas,2020/04/23,,secundario
+,mujer,59,cu,Matanzas,Matanzas,2020/04/23,,secundario
+,hombre,55,cu,Perico,Matanzas,2020/04/23,,secundario
+,mujer,13,cu,Corralillo,Villa Clara,2020/04/23,,secundario
+,hombre,15,cu,Corralillo,Villa Clara,2020/04/23,,secundario
+,hombre,86,cu,Santa Clara,Villa Clara,2020/04/23,,desconocido
+,hombre,84,cu,Camajuaní,Villa Clara,2020/04/23,,secundario
+,mujer,13,cu,Cienfuegos,Cienfuegos,2020/04/23,,secundario
+,mujer,82,cu,Cienfuegos,Cienfuegos,2020/04/23,,secundario
+,hombre,17,cu,Cienfuegos,Cienfuegos,2020/04/23,,secundario
+,hombre,35,cu,Cienfuegos,Cienfuegos,2020/04/23,,desconocido
+,mujer,50,cu,Nuevitas,Camagüey,2020/04/23,,secundario
+,mujer,21,cu,Puerto Padre,Las Tunas,2020/04/23,,secundario
+,hombre,80,cu,Isla de la Juventud,Isla de la Juventud,2020/04/23,,secundario
+,mujer,3,cu,Isla de la Juventud,Isla de la Juventud,2020/04/23,,secundario
+,mujer,57,cu,Centro Habana,La Habana,2020/04/24,,desconocido
+,hombre,84,cu,Guanabacoa,La Habana,2020/04/24,,secundario
+,hombre,32,cu,Cerro,La Habana,2020/04/24,,secundario
+,hombre,69,cu,Diez de Octubre,La Habana,2020/04/24,,desconocido
+,hombre,32,cu,Centro Habana,La Habana,2020/04/24,,secundario
+,hombre,57,cu,Cotorro,La Habana,2020/04/24,,secundario
+,mujer,15,cu,Boyeros,La Habana,2020/04/24,,secundario
+,hombre,12,cu,Boyeros,La Habana,2020/04/24,,secundario
+,mujer,5,cu,San Miguel del Padrón,La Habana,2020/04/24,,secundario
+,mujer,20,cu,Guanabacoa,La Habana,2020/04/24,,secundario
+,mujer,85,cu,Centro Habana,La Habana,2020/04/24,,desconocido
+,mujer,77,cu,La Habana Vieja,La Habana,2020/04/24,,desconocido
+,hombre,75,cu,Habana del Este,La Habana,2020/04/24,,desconocido
+,mujer,34,cu,San Miguel del Padrón,La Habana,2020/04/24,,secundario
+,mujer,63,cu,Plaza de la Revolución,La Habana,2020/04/24,,desconocido
+,mujer,56,cu,Habana del Este,La Habana,2020/04/24,,desconocido
+,mujer,47,cu,Playa,La Habana,2020/04/24,,desconocido
+,mujer,79,cu,Marianao,La Habana,2020/04/24,,desconocido
+,hombre,51,cu,Cerro,La Habana,2020/04/24,,secundario
+,mujer,21,cu,Guanabacoa,La Habana,2020/04/24,,desconocido
+,mujer,59,cu,Diez de Octubre,La Habana,2020/04/24,,secundario
+,hombre,57,cu,Plaza de la Revolución,La Habana,2020/04/24,,desconocido
+,hombre,69,cu,Arroyo Naranjo,La Habana,2020/04/24,,secundario
+,hombre,57,cu,Centro Habana,La Habana,2020/04/24,,desconocido
+,hombre,18,cu,Habana del Este,La Habana,2020/04/24,,desconocido
+,hombre,62,cu,Playa,La Habana,2020/04/24,,secundario
+,hombre,47,cu,Boyeros,La Habana,2020/04/24,,secundario
+,hombre,47,cu,La Lisa,La Habana,2020/04/24,,secundario
+,hombre,19,cu,Habana del Este,La Habana,2020/04/24,,secundario
+,mujer,25,cu,San José de las Lajas,Mayabeque,2020/04/24,,desconocido
+,mujer,36,cu,San José de las Lajas,Mayabeque,2020/04/24,,secundario
+,mujer,73,cu,Melena del Sur,Mayabeque,2020/04/24,,secundario
+,mujer,27,cu,San José de las Lajas,Mayabeque,2020/04/24,,secundario
+,mujer,15,cu,San José de las Lajas,Mayabeque,2020/04/24,,secundario
+,hombre,13,cu,San José de las Lajas,Mayabeque,2020/04/24,,secundario
+,hombre,27,cu,San José de las Lajas,Mayabeque,2020/04/24,,secundario
+,mujer,5,cu,San José de las Lajas,Mayabeque,2020/04/24,,secundario
+,hombre,44,cu,Batabanó,Mayabeque,2020/04/24,,secundario
+,hombre,31,cu,Güines,Mayabeque,2020/04/24,,secundario
+,mujer,34,cu,Melena del Sur,Mayabeque,2020/04/24,,secundario
+,hombre,76,cu,Jovellanos,Matanzas,2020/04/24,,desconocido
+,hombre,80,cu,Matanzas,Matanzas,2020/04/24,,desconocido
+,hombre,66,cu,Matanzas,Matanzas,2020/04/24,,desconocido
+,hombre,73,cu,Matanzas,Matanzas,2020/04/24,,desconocido
+,hombre,82,cu,Santa Clara,Villa Clara,2020/04/24,,secundario
+,mujer,20,cu,Santa Clara,Villa Clara,2020/04/24,,secundario
+,hombre,15,cu,Cienfuegos,Cienfuegos,2020/04/24,,desconocido
+,hombre,7,cu,Camagüey,Camagüey,2020/04/24,,secundario
+,hombre,52,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
+,hombre,26,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
+,hombre,37,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
+,mujer,29,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
+,mujer,56,cu,Guane,Pinar del Río,2020/04/25,,secundario
+,mujer,27,cu,Guane,Pinar del Río,2020/04/25,,secundario
+,hombre,62,cu,Centro Habana,La Habana,2020/04/25,,secundario
+,hombre,73,cu,Arroyo Naranjo,La Habana,2020/04/25,,desconocido
+,hombre,52,cu,San Miguel del Padrón,La Habana,2020/04/25,,desconocido
+,hombre,48,cu,San Miguel del Padrón,La Habana,2020/04/25,,secundario
+,mujer,46,cu,Cerro,La Habana,2020/04/25,,desconocido
+,mujer,49,cu,La Lisa,La Habana,2020/04/25,,desconocido
+,mujer,42,cu,Plaza de la Revolución,La Habana,2020/04/25,,secundario
+,mujer,43,cu,Diez de Octubre,La Habana,2020/04/25,,secundario
+,mujer,21,cu,Marianao,La Habana,2020/04/25,,secundario
+,mujer,30,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,45,cu,Centro Habana,La Habana,2020/04/25,,secundario
+,mujer,52,cu,Marianao,La Habana,2020/04/25,,secundario
+,mujer,34,cu,Diez de Octubre,La Habana,2020/04/25,,secundario
+,mujer,20,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,23,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,36,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,36,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,49,cu,Cerro,La Habana,2020/04/25,,secundario
+,hombre,79,cu,Melena del Sur,Mayabeque,2020/04/25,,secundario
+,hombre,73,cu,Pedro Betancourt,Matanzas,2020/04/25,,secundario
+,hombre,44,cu,Matanzas,Matanzas,2020/04/25,,secundario
+,mujer,54,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,hombre,32,cu,Limonar,Matanzas,2020/04/25,,secundario
+,mujer,44,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,mujer,54,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,hombre,51,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,hombre,42,cu,Santa Clara,Villa Clara,2020/04/25,,secundario
+,hombre,23,cu,Banes,Holguín,2020/04/25,,secundario
+,mujer,30,cu,Banes,Holguín,2020/04/25,,secundario
+,mujer,25,cu,Santiago de Cuba,Santiago de Cuba,2020/04/25,,secundario
