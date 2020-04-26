@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="js/datatables/fixedHeader.bootstrap4.min.css" />
     <link rel="stylesheet" href="js/datatables/responsive.bootstrap4.min.css" />
     <link href="css/c3.css" rel="stylesheet">
+    <link href="css/select2.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 </head>
 
@@ -219,8 +220,14 @@
 
     <div class="container-fluid">
         <div id="evomade" class="card common-bg">
-            <div class="card-header">Evoluci&oacute;n de la epidemia (paises seleccionados)</div>
+            <div class="card-header">
+                Evoluci&oacute;n de la epidemia (paises seleccionados)
+            </div>
             <div class="card-body">
+                <form class="form-inline">
+                    <select id="country_selector" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
+                    </select>
+                </form>
                 <div class="explain-text">
                     El gr&aacute;fico muestra a partir de 30 casos, en escala logar&iacute;tmica y agrupados cada siete d&iacute;as, los
                     casos nuevos por el total de casos
@@ -253,6 +260,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/d3.min.js"></script>
     <script type="text/javascript" src="js/c3.js"></script>
+    <script type="text/javascript" src="js/select2.min.js"></script>
     <script type="text/javascript" src="js/datatables/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="js/datatables/dataTables.bootstrap4.min.js"></script>
     <script type="text/javascript" src="js/datatables/dataTables.fixedHeader.min.js"></script>
