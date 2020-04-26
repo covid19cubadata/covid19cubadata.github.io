@@ -885,22 +885,20 @@ function run_calculations() {
                 data: [],
                 columns: [
                     {title: ""},
-                    {title: "#"},
                     {title: "País"},
                     {title: "Casos."},
                     {title: "Recuperados."},
                     {title: "Muertes"},
                 ],
                 "columnDefs": [
-                    {responsivePriority: 1, targets: 0},
+                    {responsivePriority: 1, targets: 0, "orderable": false},
                     {responsivePriority: 2, targets: 1},
                     {responsivePriority: 3, targets: 2},
                     {responsivePriority: 4, targets: 3},
-                    {responsivePriority: 4, targets: 4},
-                    {responsivePriority: 4, targets: 5}
+                    {responsivePriority: 5, targets: 4}
                 ],
                 "drawCallback": function (settings) {
-                    if ( $(window).width() > 670 ) {
+                    if ( $(window).width() > 540 ) {
                         $('#datatable a[data-title]').each(function () {
                             $(this).html('-');
                         });
@@ -917,12 +915,12 @@ function run_calculations() {
                     'data-text': '',
                     'data-note': '',
                     'data-title': (i+1),
-                }).text('+').prop('outerHTML'),i+1, curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
+                }).text('+').prop('outerHTML'), curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
                 $datatable.row.add(rowdat);
             }
             $(document).on('click', 'a[href="#case-details"]', function (evt) {
                 evt.preventDefault();
-                if ( $(window).width() < 670 ){
+                if ( $(window).width() < 540 ){
                     const $info = $(this).html();
                     if($info==='+'){
                         $(this).html('-');
