@@ -342,13 +342,21 @@ var trans_countries = {
 $.ajaxSetup({cache: false});
 $.c3 = c3;
 
-function paint_comparison(label, c1, c2, c3, y_conf=null){
+function paint_comparison(label, c1, c2, c3, y_conf=null, x_conf=null){
     var yconfig = {
         label: 'Casos',
         position: 'outer-middle'
     };
     if(y_conf){
         yconfig=y_conf;
+    }
+    var xconfig =   {
+        label: 'Fecha',
+        type: 'categorical',
+        show: false
+    };
+    if(x_conf){
+        yconfig=x_conf;
     }
     var comparison = $.c3.generate({
         bindto: label,
@@ -365,15 +373,8 @@ function paint_comparison(label, c1, c2, c3, y_conf=null){
             }
         },
         axis: {
-            x: {
-                label: 'Fecha',
-                type: 'categorical',
-                show: false
-            },
-            y: {
-                label: 'Casos',
-                position: 'outer-middle'
-            }
+            x: xconfig,
+            y: yconfig
         }
     });
     return comparison;
@@ -416,6 +417,36 @@ function paint_curve(label, c1, c2, c3, lines_data, y_conf=null){
         }
     });
     return curve;
+}
+
+function paint_comparison_countries(label, x_data, col_data){
+    var comparison = $.c3.generate({
+        bindto: label,
+        data: {
+            xs: x_data,
+            columns: col_data,
+            type: 'line',
+            colors: {
+                'Cuba': '#B01E22'
+            }
+        },
+        tooltip: {
+            show: false
+        },
+        axis: {
+            x: {
+                label: "Casos confirmados (log scale)",
+                tick: {
+                    format: d3.format('.1f')
+                }
+            },
+            y: {
+                label: 'Casos nuevos  (log scale)',
+                position: 'outer-middle'
+            }
+        }
+    });
+    return comparison;
 }
 
 
@@ -524,6 +555,7 @@ function run_calculations() {
                     curves_daily[trans_countries[c]] = {'dias': d_temp, 'data': c_day_temp};
                     countrysorted.push(trans_countries[c]);
                     curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
+                    if(c_trans!=='Cuba')
                     countrysorted2.push(c_trans);
                 }else{
                     for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
@@ -542,7 +574,8 @@ function run_calculations() {
                         }
                     }
                     curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
-                    countrysorted2.push(c_trans);
+                    if(c_trans!=='Cuba')
+                        countrysorted2.push(c_trans);
                 }
             }
 
@@ -747,65 +780,159 @@ function run_calculations() {
                 return Math.log10(num);
             }
 
+            var $country_selector = $('#country_selector').select2({
+                data: countrysorted,
+                closeOnSelect: true
+            });
+            $("#country_selector").on("select2:unselect", function (evt) {
+                if (!evt.params.originalEvent) {
+                  return;
+                }
+                evt.params.originalEvent.stopPropagation();
+                let columdata = [];
+                let xaxisdata = {};
+
+                let selection = $('#country_selector').select2('data');
+
+                for (var i = 0; i < selection.length; i++) {
+                    xaxisdata[selection[i]['id']] = 'Confirmados-' + selection[i]['id'];
+                    columdata.push(curves2[selection[i]['id']]['weeks']);
+                    columdata.push(curves2[selection[i]['id']]['cummulative_sum']);
+
+                }
+                xaxisdata['Cuba'] = 'Confirmados-Cuba';
+                columdata.push(curves2['Cuba']['weeks']);
+                columdata.push(curves2['Cuba']['cummulative_sum']);
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata)
+            });
+
+            $("#country_selector").on("select2:select", function (evt) {
+                let columdata = [];
+                let xaxisdata = {};
+
+                let selection = $('#country_selector').select2('data');
+
+                for (var i = 0; i < selection.length; i++) {
+                    xaxisdata[selection[i]['id']] = 'Confirmados-' + selection[i]['id'];
+                    columdata.push(curves2[selection[i]['id']]['weeks']);
+                    columdata.push(curves2[selection[i]['id']]['cummulative_sum']);
+
+                }
+                xaxisdata['Cuba'] = 'Confirmados-Cuba';
+                columdata.push(curves2['Cuba']['weeks']);
+                columdata.push(curves2['Cuba']['cummulative_sum']);
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata)
+            });
+
+
+            let topn = 20;
+            countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
+            $country_selector.val(countrysorted2.slice(0,topn)).trigger("change");
+
             let columdata = [];
             let xaxisdata = {};
-            var cont = 0;
-            var topn = 20;
-            countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
-            var $table_country = $('#table-countries > tbody').html('');
-            for (var i = 0; i < countrysorted2.length; i++) {
-                xaxisdata[countrysorted2[i]] = 'Confirmados-' + countrysorted2[i];
-                columdata.push(curves2[countrysorted2[i]]['weeks']);
-                columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
 
-                if (cont === topn) {
-                    break;
-                }
-                cont += 1;
+            let selection = $('#country_selector').select2('data');
 
-                var row = ("<tr><td>{ranking}</td>" +
-                    "<td>{country}</td>" +
-                    "<td>{cases}</td>" +
-                    "<td>{recovers}</td>" +
-                    "<td>{deaths}</td></tr>")
-                    .replace("{ranking}", i + 1)
-                    .replace("{country}", curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0])
-                    .replace('{cases}', curves2[countrysorted2[i]]['ctotal'])
-                    .replace('{recovers}', curves2[countrysorted2[i]]['crecovered'])
-                    .replace('{deaths}', curves2[countrysorted2[i]]['cdeaths']);
-                $table_country.append(row);
+            for (var i = 0; i < selection.length; i++) {
+                xaxisdata[selection[i]['id']] = 'Confirmados-' + selection[i]['id'];
+                columdata.push(curves2[selection[i]['id']]['weeks']);
+                columdata.push(curves2[selection[i]['id']]['cummulative_sum']);
+
             }
-
             xaxisdata['Cuba'] = 'Confirmados-Cuba';
             columdata.push(curves2['Cuba']['weeks']);
             columdata.push(curves2['Cuba']['cummulative_sum']);
 
-            curve3 = c3.generate({
-                bindto: "#curves-evolution",
-                data: {
-                    xs: xaxisdata,
-                    columns: columdata,
-                    type: 'line',
-                    colors: {
-                        'Cuba': '#B01E22'
+            curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
+
+            $.fn.DataTable.ext.pager.numbers_length = 5;
+            let $datatable = $('#datatable').DataTable({
+                'responsive': true,
+                'searching': true,
+                'scaleX': false,
+                'scaleY': false,
+                'pageLength': 20,
+                "lengthMenu": [20, 50 , 100, 200],
+                "language": {
+                    "sProcessing": "Procesando...",
+                    "sLengthMenu": "Mostrar _MENU_ registros",
+                    "sZeroRecords": "No se encontraron resultados",
+                    "sEmptyTable": "Ningún dato disponible en esta tabla",
+                    "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                    "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                    "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                    "sInfoPostFix": "",
+                    "sSearch": "Buscar:",
+                    "sUrl": "",
+                    "sInfoThousands": ",",
+                    "sLoadingRecords": "Cargando...",
+                    "oPaginate": {
+                        "sFirst": "<<",
+                        "sLast": ">>",
+                        "sNext": ">",
+                        "sPrevious": "<"
+                    },
+                    "oAria": {
+                        "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                    },
+                    "buttons": {
+                        "copy": "Copiar",
+                        "colvis": "Visibilidad"
                     }
                 },
-                tooltip: {
-                    show: false
-                },
-                axis: {
-                    x: {
-                        label: "Casos confirmados (log scale)",
-                        tick: {
-                            format: d3.format('.1f')
-                        }
-                    },
-                    y: {
-                        label: 'Casos nuevos  (log scale)',
-                        position: 'outer-middle'
+                data: [],
+                columns: [
+                    {title: ""},
+                    {title: "#"},
+                    {title: "País"},
+                    {title: "Casos."},
+                    {title: "Recuperados."},
+                    {title: "Muertes"},
+                ],
+                "columnDefs": [
+                    {responsivePriority: 1, targets: 0},
+                    {responsivePriority: 2, targets: 1},
+                    {responsivePriority: 3, targets: 2},
+                    {responsivePriority: 4, targets: 3},
+                    {responsivePriority: 4, targets: 4},
+                    {responsivePriority: 4, targets: 5}
+                ],
+                "drawCallback": function (settings) {
+                    if ( $(window).width() > 670 ) {
+                        $('#datatable a[data-title]').each(function () {
+                            $(this).html('-');
+                        });
                     }
                 }
             });
+
+            new $.fn.dataTable.FixedHeader($datatable);
+
+            for (var i = 0; i < countrysorted2.length; i++) {
+                let rowdat = [$('<a></a>').attr({
+                    'class': 'btn btn-primary btn-block btn-sm',
+                    'href': '#case-details',
+                    'data-text': '',
+                    'data-note': '',
+                    'data-title': (i+1),
+                }).text('+').prop('outerHTML'),i+1, curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
+                $datatable.row.add(rowdat);
+            }
+            $(document).on('click', 'a[href="#case-details"]', function (evt) {
+                evt.preventDefault();
+                if ( $(window).width() < 670 ){
+                    const $info = $(this).html();
+                    if($info==='+'){
+                        $(this).html('-');
+                    }else{
+                        $(this).html('+');
+                    }
+                }
+            });
+
+            $datatable.draw();
 
         });
     });
