@@ -1336,3 +1336,35 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,26,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
 ,hombre,37,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
 ,mujer,29,cu,Isla de la Juventud,Isla de la Juventud,2020/04/24,,secundario
+,mujer,56,cu,Guane,Pinar del Río,2020/04/25,,secundario
+,mujer,27,cu,Guane,Pinar del Río,2020/04/25,,secundario
+,hombre,62,cu,Centro Habana,La Habana,2020/04/25,,secundario
+,hombre,73,cu,Arroyo Naranjo,La Habana,2020/04/25,,desconocido
+,hombre,52,cu,San Miguel del Padrón,La Habana,2020/04/25,,desconocido
+,hombre,48,cu,San Miguel del Padrón,La Habana,2020/04/25,,secundario
+,mujer,46,cu,Cerro,La Habana,2020/04/25,,desconocido
+,mujer,49,cu,La Lisa,La Habana,2020/04/25,,desconocido
+,mujer,42,cu,Plaza de la Revolución,La Habana,2020/04/25,,secundario
+,mujer,43,cu,Diez de Octubre,La Habana,2020/04/25,,secundario
+,mujer,21,cu,Marianao,La Habana,2020/04/25,,secundario
+,mujer,30,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,45,cu,Centro Habana,La Habana,2020/04/25,,secundario
+,mujer,52,cu,Marianao,La Habana,2020/04/25,,secundario
+,mujer,34,cu,Diez de Octubre,La Habana,2020/04/25,,secundario
+,mujer,20,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,23,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,36,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,36,cu,Cerro,La Habana,2020/04/25,,secundario
+,mujer,49,cu,Cerro,La Habana,2020/04/25,,secundario
+,hombre,79,cu,Melena del Sur,Mayabeque,2020/04/25,,secundario
+,hombre,73,cu,Pedro Betancourt,Matanzas,2020/04/25,,secundario
+,hombre,44,cu,Matanzas,Matanzas,2020/04/25,,secundario
+,mujer,54,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,hombre,32,cu,Limonar,Matanzas,2020/04/25,,secundario
+,mujer,44,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,mujer,54,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,hombre,51,cu,Cárdenas,Matanzas,2020/04/25,,secundario
+,hombre,42,cu,Santa Clara,Villa Clara,2020/04/25,,secundario
+,hombre,23,cu,Banes,Holguín,2020/04/25,,secundario
+,mujer,30,cu,Banes,Holguín,2020/04/25,,secundario
+,mujer,25,cu,Santiago de Cuba,Santiago de Cuba,2020/04/25,,secundario
