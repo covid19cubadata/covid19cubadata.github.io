@@ -495,6 +495,11 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:b
     width: 100%;
 }
 
+.alert-text {
+	margin-bottom: 0px;	
+	text-align: center;
+}
+
 @media (min-width: 576px) {
 
     #stats-cards .card {
