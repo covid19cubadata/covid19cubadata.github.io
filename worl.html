@@ -221,19 +221,25 @@
     <div class="container-fluid">
         <div id="evomade" class="card common-bg">
             <div class="card-header">
-                Evoluci&oacute;n de la epidemia (paises seleccionados)
+                Evoluci&oacute;n de la epidemia 
             </div>
             <div class="card-body">
-                <form class="form-inline">
-                    <select id="country_selector" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
-                    </select>
-                </form>
                 <div class="explain-text">
                     El gr&aacute;fico muestra a partir de 30 casos, en escala logar&iacute;tmica y agrupados cada siete d&iacute;as, los
                     casos nuevos por el total de casos
                     confirmados de cada pa&iacute;s. De esta manera, los pa&iacute;ses mientras siguen una l&iacute;nea recta est&aacute;n en un
                     crecimiento exponencial y cuando se
                     desv&iacute;an de la recta comienzan a salir del comportamiento exponencial.
+                </div>
+                <br>
+                <div id="evomade-form">
+				<p>
+				Seleccione los países a comparar con Cuba:
+				</p>
+                <form class="form-inline">
+                    <select id="country_selector" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
+                    </select>
+                </form>
                 </div>
                 <div id="curves-evolution"></div>
                 <div class="map-quote">
