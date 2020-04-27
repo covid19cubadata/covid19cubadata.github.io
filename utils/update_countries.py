@@ -11,21 +11,37 @@ def change_date(dat):
     if len(m) == 1:
         m = '0'+m
     return t[0]+'/'+m+'/'+t[2]
-    
-    
+
+def gat_last_backup_day_cub():
+    path = os.path.join('data', 'oxford-indexes-backup.json')
+    data = json.load(open(path))
+    last_day = ''
+    for day,countries in data['data'].items():
+        if 'CUB' in data['data'][day]:
+            last_day=max(day, last_day)
+    return last_day
+
 def get_oxford_index():
-	now = datetime.now()
-	indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
-	data = {'data':{},'countries': indexes['countries']}
-	for day,countries in indexes['data'].items():
-		data['data'][day] = {}
-		for country in countries:
-			print(day,country,countries[country]['stringency'])
-			data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
-	path = os.path.join('data', 'oxford-indexes.json')
-	json.dump(data, open(path, 'w'))
-	return data
-	
+    now = datetime.now()
+    indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
+    data = {'data':{},'countries': indexes['countries']}
+    has_data_after_last_day = False
+    last_day = gat_last_backup_day_cub()
+    for day,countries in indexes['data'].items():
+        data['data'][day] = {}
+        if day>last_day and 'CUB' in data['data'][day]:
+            has_data_after_last_day=True
+        for country in countries:
+            print(day,country,countries[country]['stringency'])
+            data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
+    path = os.path.join('data', 'oxford-indexes-backup.json')
+    if not has_data_after_last_day:
+        data = json.load(open(path))
+    else:
+        json.dump(data, open(path, 'w'))
+    path = os.path.join('data', 'oxford-indexes.json')
+    json.dump(data, open(path, 'w'))
+    return data
 
 
 def get_json_info():
@@ -97,7 +113,7 @@ def main():
 
     indexs = get_oxford_index()
     print('Oxford Index generated')
-    
+
     data = get_json_info()
     data['indexes'] = indexs
     path = os.path.join('data', 'paises-info-dias.json')
@@ -107,8 +123,8 @@ def main():
 
     generate_csv()
     print('CSV generated')
-    
-    
+
+
 
 
 if __name__ == "__main__":

@@ -1178,11 +1178,13 @@ function run_calculations() {
                             if ('CUB' in oxford_index.data[idx]){
                                 var val = oxford_index.data[idx].CUB.stringency;
                                 index_values_cuba_all.push(val);
+                                index_last_value = Math.max(index_last_value, val);
                             } else {
                                 index_values_cuba_all.push(null);
                             }
                         }
                         $('#stringencycub-idx').html(index_last_value);
+
                         let index_slice2 = index_days.length-cuba.length;
                         index_slice2 = Math.max(index_slice2,0);
                         stringency = c3.generate({
