@@ -18,6 +18,166 @@ var domains = {
     'bo': 'Bolivia'
 };
 
+countries_codes = {
+    "AFG": "Afghanistan",
+    "ALB": "Albania",
+    "DZA": "Algeria",
+    "AND": "Andorra",
+    "AGO": "Angola",
+    "ATG": "Antigua and Barbuda",
+    "ARG": "Argentina",
+    "ARM": "Armenia",
+    "AUS": "Australia",
+    "AUT": "Austria",
+    "AZE": "Azerbaijan",
+    "BHS": "Bahamas",
+    "BHR": "Bahrain",
+    "BGD": "Bangladesh",
+    "BRB": "Barbados",
+    "BLR": "Belarus",
+    "BEL": "Belgium",
+    "BLZ": "Belize",
+    "BTN": "Bhutan",
+    "BOL": "Bolivia",
+    "BIH": "Bosnia and Herzegovina",
+    "BRA": "Brazil",
+    "BGR": "Bulgaria",
+    "BFA": "Burkina Faso",
+    "CPV": "Cabo Verde",
+    "KHM": "Cambodia",
+    "CMR": "Cameroon",
+    "CAN": "Canada",
+    "CAF": "Central African Republic",
+    "TCD": "Chad",
+    "CHL": "Chile",
+    "CHN": "China",
+    "COL": "Colombia",
+    "CRI": "Costa Rica",
+    "CIV": "Cote d'Ivoire",
+    "HRV": "Croatia",
+    "CUB": "Cuba",
+    "CYP": "Cyprus",
+    "DNK": "Denmark",
+    "DMA": "Dominica",
+    "DOM": "Dominican Republic",
+    "ECU": "Ecuador",
+    "EGY": "Egypt",
+    "SLV": "El Salvador",
+    "GNQ": "Equatorial Guinea",
+    "ERI": "Eritrea",
+    "EST": "Estonia",
+    "ETH": "Ethiopia",
+    "FJI": "Fiji",
+    "FIN": "Finland",
+    "FRA": "France",
+    "GAB": "Gabon",
+    "GMB": "Gambia",
+    "GEO": "Georgia",
+    "DEU": "Germany",
+    "GHA": "Ghana",
+    "GRC": "Greece",
+    "GRD": "Grenada",
+    "GTM": "Guatemala",
+    "GIN": "Guinea",
+    "GNB": "Guinea-Bissau",
+    "GUY": "Guyana",
+    "HTI": "Haiti",
+    "HND": "Honduras",
+    "HUN": "Hungary",
+    "ISL": "Iceland",
+    "IND": "India",
+    "IDN": "Indonesia",
+    "IRQ": "Iraq",
+    "IRL": "Ireland",
+    "ISR": "Israel",
+    "ITA": "Italy",
+    "JAM": "Jamaica",
+    "JPN": "Japan",
+    "JOR": "Jordan",
+    "KAZ": "Kazakhstan",
+    "KEN": "Kenya",
+    "KOR": "Korea, South",
+    "KWT": "Kuwait",
+    "KGZ": "Kyrgyzstan",
+    "LAO": "Laos",
+    "LVA": "Latvia",
+    "LBN": "Lebanon",
+    "LBR": "Liberia",
+    "LBY": "Libya",
+    "LIE": "Liechtenstein",
+    "LTU": "Lithuania",
+    "LUX": "Luxembourg",
+    "MDG": "Madagascar",
+    "MYS": "Malaysia",
+    "MDV": "Maldives",
+    "MLI": "Mali",
+    "MLT": "Malta",
+    "MRT": "Mauritania",
+    "MUS": "Mauritius",
+    "MDA": "Moldova",
+    "MCO": "Monaco",
+    "MNG": "Mongolia",
+    "MNE": "Montenegro",
+    "MAR": "Morocco",
+    "MOZ": "Mozambique",
+    "NAM": "Namibia",
+    "NPL": "Nepal",
+    "NLD": "Netherlands",
+    "NZL": "New Zealand",
+    "NIC": "Nicaragua",
+    "NER": "Niger",
+    "NGA": "Nigeria",
+    "NOR": "Norway",
+    "OMN": "Oman",
+    "PAK": "Pakistan",
+    "PAN": "Panama",
+    "PNG": "Papua New Guinea",
+    "PRY": "Paraguay",
+    "PER": "Peru",
+    "PHL": "Philippines",
+    "POL": "Poland",
+    "PRT": "Portugal",
+    "ROU": "Romania",
+    "RUS": "Russia",
+    "RWA": "Rwanda",
+    "KNA": "Saint Kitts and Nevis",
+    "LCA": "Saint Lucia",
+    "VCT": "Saint Vincent and the Grenadines",
+    "SMR": "San Marino",
+    "SAU": "Saudi Arabia",
+    "SEN": "Senegal",
+    "SRB": "Serbia",
+    "SYC": "Seychelles",
+    "SGP": "Singapore",
+    "SVK": "Slovakia",
+    "SVN": "Slovenia",
+    "SOM": "Somalia",
+    "ZAF": "South Africa",
+    "ESP": "Spain",
+    "LKA": "Sri Lanka",
+    "SDN": "Sudan",
+    "SUR": "Suriname",
+    "SWE": "Sweden",
+    "CHE": "Switzerland",
+    "SYR": "Syria",
+    "TZA": "Tanzania",
+    "THA": "Thailand",
+    "TTO": "Trinidad and Tobago",
+    "TUN": "Tunisia",
+    "TUR": "Turkey",
+    "UGA": "Uganda",
+    "UKR": "Ukraine",
+    "ARE": "United Arab Emirates",
+    "GBR": "United Kingdom",
+    "USA": "US",
+    "URY": "Uruguay",
+    "UZB": "Uzbekistan",
+    "VEN": "Venezuela",
+    "VNM": "Vietnam",
+    "ZMB": "Zambia",
+    "ZWE": "Zimbabwe"
+   };
+
 var trans_countries = {
     'Vietnam': 'Vietnam',
     'Austria': 'Austria',
@@ -199,7 +359,7 @@ var trans_countries = {
 };
 
 
-province_order = {
+var province_order = {
     'unk': 16,
     'lha': 2,
     'mat': 4,
@@ -219,8 +379,64 @@ province_order = {
     'may': 3
 }
 
+var provinces_codes = {
+    'lha': "23",
+    'mat': "25",
+    'cfg': "27",
+    'ssp': "28",
+    'ltu': "31",
+    'hol': "32",
+    'gra': "33",
+    'stg': "34",
+    'ijv': "40.01",
+    'cam': "30",
+    'cav': "29",
+    'vcl': "26",
+    'gtm': "35",
+    'pri': "21",
+    'art': "22",
+    'may': "24"
+}
+
+var population = {
+    'cuba': 11209628,
+    '21': 588555,//PRI
+    '22': 511079,//ART
+    '23': 2131480,//LHA
+    '24': 383043,//MAY
+    '25': 714843,//MAT
+    '26': 780749,//VCL
+    '27': 406751,//CFG
+    '28': 465780,//SSP
+    '29': 435006,//CAV
+    '30': 767138,//CAM
+    '31': 535335,//LTU
+    '32': 1027249,//HOL
+    '33': 823651,//GRA
+    '34': 1049256,//STG
+    '35': 508552,//GTM
+    '40.01': 83801,//IJV
+}
 
 $.ajaxSetup({cache: false});
+
+var openIcon = new L.Icon({
+	iconUrl: 'images/marker-icon-2x-gold.png',
+	shadowUrl: 'images/marker-shadow.png',
+	iconSize: [15, 24],
+	iconAnchor: [7, 24],
+	popupAnchor: [1, -34],
+	shadowSize: [24, 24]
+});
+
+var closeIcon = new L.Icon({
+	iconUrl: 'images/marker-icon-2x-green.png',
+	shadowUrl: 'images/marker-shadow.png',
+	iconSize: [15, 24],
+	iconAnchor: [7, 24],
+	popupAnchor: [1, -34],
+	shadowSize: [24, 24]
+});
 
 var map_mun = L.map('map-mun', {
     center: [21.5, -79.371124],
@@ -238,19 +454,61 @@ var map_mun = L.map('map-mun', {
 });
 var geojsonM = null, geojsonP = null, start_selection = window.location.hash.replace('#', '');
 map_mun.zoomControl.setPosition('topright');
+var markers = {};
 
 $.walker = {
     loaded: {},
     map: {
+        gen_markers: function(data){
+            function getMarkerProfile(title, pro, mun) {
+                var t = '';
+                t += '<div class="small-pname"><span class="bd">' + title + '</span></div>';
+                t += '<div class="small-content"><span class="bd">' + pro + '</span> - <span>' + mun + '</span></div>';
+                t += '<div class="small-plink">&nbsp;</div>';
+                return t;
+            }
+            for(var i in data.eventos){
+                event = data.eventos[i];
+                if(event['lat']===0 && event['lon']===0){
+                    continue;
+                }
+                if(event['abierto']===false){
+                    var marker = L.marker([event['lat'],event['lon']],{icon: closeIcon,
+                        title: event['identificador'], riseOnHover: true});
+                }else{
+                    var marker = L.marker([event['lat'],event['lon']],{icon: openIcon,
+                        title: event['identificador'], riseOnHover: true});
+                }
+                if(event['dpacode_provincia'] in markers){
+                    markers[event['dpacode_provincia']].push(marker);
+                }else{
+                    markers[event['dpacode_provincia']]=[];
+                    markers[event['dpacode_provincia']].push(marker);
+                }
+                marker.bindPopup(getMarkerProfile(event['identificador'],event['provincia'],event['municipio']));
+
+            }
+        },
         clear: function () {
             if (geojsonM)
                 map_mun.removeLayer(geojsonM);
             if (geojsonP)
                 map_mun.removeLayer(geojsonP);
+            for(var i in markers){
+                for(var j=0;j<markers[i].length;j++){
+                    marker = markers[i][j];
+                    map_mun.removeLayer(marker);
+                }
+            }
         }
     },
 
     view: {
+        addOptionToSelect: function (select, value, text) {
+            if ($(select).find('option[value="' + value + '"]').length)
+                return;
+            $(select).append('<option value="' + value + '">' + text + '</option>')
+        },
         update: function () {
             $cards.show();
             $selector.show();
@@ -272,7 +530,7 @@ $.walker = {
             $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -303,7 +561,7 @@ $.walker = {
                 }*/
                 if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida') {
                     sorteddata.push($.walker.province.list.features[i].properties);
-                    $('#proscurve-select1').append('<option value="' + province.DPA_province_code + '">' + province.province + '</option>');
+                    $.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
@@ -318,9 +576,9 @@ $.walker = {
             });
             for (var j = 0; j < sorteddata.length; j++) {
                 const province2 = sorteddata[j];
-                $target.append('<option value="' + province2.province_id + '">' + province2.province + '</option>');
-                $('#proscurve-select1').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
-                $('#proscurve-select2').append('<option value="' + province2.DPA_province_code + '">' + province2.province + '</option>');
+                $.walker.view.addOptionToSelect($target, province2.province_id, province2.province);
+                $.walker.view.addOptionToSelect('#proscurve-select1', province2.DPA_province_code, province2.province);
+                $.walker.view.addOptionToSelect('#proscurve-select2', province2.DPA_province_code, province2.province);
             }
             return remaining;
         },
@@ -401,10 +659,13 @@ function run_calculations() {
         'autoctono': 0,
         'desconocido': 0
     };
+    $('#countries-curve-stringency-no-data').hide();
+    $('#countries-curve-stringency-no-data2').hide();
 
-    $.walker.load("data/paises-info-dias.json", function (countriesdays) {
+    $.walker.load("data/oxford-indexes.json", function (oxford_index) {
         $.walker.load("data/covid19-cuba.json", function (data) {
             $.walker.load("data/provincias.geojson", function (provincias) {
+
                 $.walker.province.list = provincias;
                 pros = $.walker.province.prepare('#location-select');
 
@@ -415,6 +676,65 @@ function run_calculations() {
                 start_selection = false;
                 $.walker.view.update();
                 general_view = $locator.val() === 'cuba';
+
+                let nre_id = 'cu';
+                if (!(general_view)){
+					nre_id = provinces_codes[province_id];
+				}
+
+				if (nre_id in data['numero-reproductivo']){
+					var nre_dates = ['Fecha'].concat(data['numero-reproductivo'][nre_id]['dates']);
+					var nre_value = ['Número Reproductivo Efectivo'].concat(data['numero-reproductivo'][nre_id]['value']);
+					var nre_lower = ['Margen inferior'].concat(data['numero-reproductivo'][nre_id]['lower']);
+					var nre_upper = ['Margen superior'].concat(data['numero-reproductivo'][nre_id]['upper']);
+					c3.generate({
+						bindto: "#repnumber-chart",
+						data: {
+							x: nre_dates[0],
+							columns: [
+								nre_dates,
+								nre_value,
+								nre_lower,
+								nre_upper
+							],
+							type: 'line',
+							colors: {
+								'Número Reproductivo Efectivo': '#B01E22',
+								'Margen inferior': '#D0797C',
+								'Margen superior': '#D0797C'
+							}
+						},
+						axis: {
+							x: {
+								padding: {
+							      left: 1,
+							      right: 1
+							    },
+								label: 'Fecha',
+								type: 'categorical',
+								tick: {
+									values: [0,nre_dates.length/2,nre_dates.length-2]
+								}
+							},
+							y: {
+								label: 'Número Reproductivo Efectivo',
+								position: 'outer-middle',
+							}
+						}
+						,
+					    grid: {
+					        y: {
+					            lines: [
+					                {value: 1, text: ''}
+					            ]
+					        }
+					    }
+					});
+				} else {
+					$('#repnumber-chart').html('<h2 id="repnumber_nodata"><span>No hay datos suficientes para su cálculo</span></h2>');
+				}
+
+                $.walker.map.gen_markers(data);
 
                 $.walker.load("data/municipios.geojson", function (municipios) {
                     $.walker.municipality.list = municipios;
@@ -446,10 +766,11 @@ function run_calculations() {
                         var sex_unknown = 0;
                         var countries = {};
                         var ages = {
-                            '0-18': 0,
-                            '19-40': 0,
-                            '41-60': 0,
-                            '61 o más': 0,
+                            '0-19': 0,
+                            '20-39': 0,
+                            '40-59': 0,
+                            '60-79': 0,
+                            '80 o más': 0,
                             'Desconocido': 0
                         }
                         var total_cu = 0;
@@ -502,14 +823,16 @@ function run_calculations() {
                                     //ages
                                     if (diag[p].edad == null) {
                                         ages['Desconocido'] += 1
-                                    } else if ((diag[p].edad >= 0) && (diag[p].edad < 19)) {
-                                        ages['0-18'] += 1
-                                    } else if ((diag[p].edad >= 19) && (diag[p].edad <= 40)) {
-                                        ages['19-40'] += 1
-                                    } else if ((diag[p].edad >= 41) && (diag[p].edad <= 60)) {
-                                        ages['41-60'] += 1
+                                    } else if ((diag[p].edad >= 0) && (diag[p].edad < 20)) {
+                                        ages['0-19'] += 1
+                                    } else if ((diag[p].edad >= 20) && (diag[p].edad < 40)) {
+                                        ages['20-39'] += 1
+                                    } else if ((diag[p].edad >= 40) && (diag[p].edad < 60)) {
+                                        ages['40-59'] += 1
+                                    } else if ((diag[p].edad >= 60) && (diag[p].edad < 80)) {
+                                        ages['60-79'] += 1
                                     } else {
-                                        ages['61 o más'] += 1
+                                        ages['80 o más'] += 1
                                     }
 
                                     //contagio
@@ -698,7 +1021,7 @@ function run_calculations() {
                         var test_positive = [];
                         var test_cases = [];
                         var total = 0;
-                        var active = 0;
+                        //var active = 0;
                         var deads = 0;
                         var recover = 0;
                         var evac = 0;
@@ -776,14 +1099,14 @@ function run_calculations() {
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {
-                            dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1])*100.0/(test_cases[i] - test_cases[i - 1])).toFixed(2));
+                            dailyPorcientoPositivo.push(((test_positive[i] - test_positive[i - 1]) * 100.0 / (test_cases[i] - test_cases[i - 1])).toFixed(2));
                             dailyPorcientoPositivoAcumulado.push((test_positive[i] * 100.0 / test_cases[i]).toFixed(2));
                         }
 
                         var ntest_days = ['Fecha'];
                         var ntest_negative = ['Tests Negativos'];
                         var ntest_positive = ['Tests Positivos'];
-                        var ntest_cases = ['Total de Tests'];
+                        var ntest_cases = ['Total de Tests en el día'];
                         for (var i = 1; i < test_cases.length; i++) {
                             ntest_days.push(test_days[i]);
                             ntest_cases.push(test_cases[i] - test_cases[i - 1]);
@@ -812,16 +1135,16 @@ function run_calculations() {
                                 x: ntest_days[0],
                                 columns: [
                                     ntest_days,
-                                    ntest_negative,
+                                    //ntest_negative,
                                     ntest_positive,
                                     ntest_cases
                                 ],
-                                type: 'bar',
-                                groups: [['Tests Negativos', 'Tests Positivos']],
+                                type: 'line',
+                                //groups: [['Tests Negativos', 'Tests Positivos']],
                                 colors: {
-                                    'Tests Negativos': '#1C1340',
+                                    //'Tests Negativos': '#1C1340',
                                     'Tests Positivos': '#B01E22',
-                                    'Total de Tests': '#1A8323'
+                                    'Total de Tests en el día': '#1A8323'
                                 }
                             },
                             axis: {
@@ -837,670 +1160,89 @@ function run_calculations() {
                             }
                         });
 
-                        var countrysorted = [];
-                        for (var c in countriesdays.paises_info) {
-                            if ((countriesdays.paises_info[c].confirmed.length + 1) >= cuba.length) {
-                                if (!(c in trans_countries))
-                                    trans_countries[c] = c;
-                                let c_temp = [trans_countries[c]];
-                                let c_r_temp = [trans_countries[c]];
-                                let c_d_temp = [trans_countries[c]];
-                                let c_a_temp = [trans_countries[c]];
-                                let c_day_temp = [trans_countries[c]];
-                                let d_temp = ['Días'];
-                                for (var i = 0; i < countriesdays.paises_info[c].confirmed.length; i++) {
-                                    c_temp.push(countriesdays.paises_info[c].confirmed[i]);
-                                    c_r_temp.push(countriesdays.paises_info[c].recovered[i]);
-                                    c_d_temp.push(countriesdays.paises_info[c].deaths[i]);
-                                    c_a_temp.push(countriesdays.paises_info[c].confirmed[i]-
-                                                countriesdays.paises_info[c].deaths[i]-
-                                                countriesdays.paises_info[c].recovered[i]);
-                                    if(i>0){
-                                        c_day_temp.push(countriesdays.paises_info[c].confirmed[i]-
-                                                    countriesdays.paises_info[c].confirmed[i-1]);
-                                    }else{
-                                        c_day_temp.push(countriesdays.paises_info[c].confirmed[i]);
-                                    }
-                                    d_temp.push('Día ' + (i + 1));
+                        let index_days = [];
+                        for(var d in oxford_index.data){
+                            index_days.push(d.replace(/-/g,'/').replace('2020/',''));
+                        }
+                        index_days.sort();
+                        let index_values_cuba_all = [];
+                        let index_last_value = 0;
+                        let stringency_countries = [];
+                        for(var i=0;i<oxford_index.countries.length;i++){
+                            if(oxford_index.countries[i] in countries_codes){
+                                stringency_countries.push(oxford_index.countries[i]);
+                            }
+                        }
+                        for(var i in index_days){
+                            var idx = '2020-'+index_days[i].replace('/','-');
+                            if ('CUB' in oxford_index.data[idx]){
+                                var val = oxford_index.data[idx].CUB.stringency;
+                                index_values_cuba_all.push(val);
+                                index_last_value = Math.max(index_last_value, val);
+                            } else {
+                                index_values_cuba_all.push(null);
+                            }
+                        }
+                        $('#stringencycub-idx').html(index_last_value);
+
+                        let index_slice2 = index_days.length-cuba.length;
+                        index_slice2 = Math.max(index_slice2,0);
+                        stringency = c3.generate({
+                            bindto: "#stringencycub-evol",
+                            data: {
+                                x: 'Fecha',
+                                columns: [
+                                    ['Fecha'].concat(index_days.slice(0,index_slice2+cuba.length-1)),
+                                    ['Stringency'].concat(index_values_cuba_all),
+                                    ['Confirmados'].concat(Array.apply(null,Array(index_slice2)).map((x,i)=>null).concat(cuba.slice(1))),
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Stringency': '#B01E22',
+                                    'Confirmados': '1C1340'
+                                },
+                                axes: {
+                                    Stringency: 'y',
+                                    Confirmados: 'y2'
                                 }
-                                curves[trans_countries[c]] = {'dias': d_temp, 'data': c_temp};
-                                curves_recover[trans_countries[c]] = {'dias': d_temp, 'data': c_r_temp};
-                                curves_death[trans_countries[c]] = {'dias': d_temp, 'data': c_d_temp};
-                                curves_active[trans_countries[c]] = {'dias': d_temp, 'data': c_a_temp};
-                                curves_daily[trans_countries[c]] = {'dias': d_temp, 'data': c_day_temp};
-                                countrysorted.push(trans_countries[c]);
-                            }
-                        }
-
-                        countrysorted.sort();
-                        for (var c = 0; c < countrysorted.length; c++) {
-                            let cc = curves[countrysorted[c]]['data'][0];
-                            $('#countrycurve-select').append('<option value="' + cc + '">' + cc + '</option>');
-                        }
-                        var tab_selected = 'confirmados';
-                        var countryselected = 'Hungría';
-                        $('#countrycurve-select').val(countryselected);
-                        $('.countries-date').html(countriesdays['dia-actualizacion']);
-
-                        $('#countrycurve-select').off('change').on('change', function () {
-                            var val = $('#countrycurve-select').val();
-                            //comparison.unload({ids: countryselected});
-                            //curve.unload({ids: countryselected});
-                            countryselected = val;
-                            //comparison.load({columns: [curves[countryselected]['data']]});
-                            //curve.load({columns: [curves[countryselected]['data']]});
-                            if(tab_selected=='confirmados'){
-                                comparison = c3.generate({
-                                    bindto: "#countries-comparison-confirmados",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            cuba,
-                                            curves[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
+                            },
+                            axis: {
+                                x: {
+									padding: {
+								      left: 1,
+								      right: 1
+								    },
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: {
+                                        text: 'Valor del índice',
+                                        position: 'outer-middle'
                                     }
-                                });
-
-                                curve = c3.generate({
-                                    bindto: "#countries-curve-confirmados",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves[countryselected]['dias'],
-                                            curves[countryselected]['data'],
-                                            cuba,
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
+                                },
+                                y2: {
+                                    show: true,
+                                    label: {
+                                        text: 'Casos confirmados',
+                                        position: 'outer-middle'
                                     }
-                                });
-                            }
-                            if(tab_selected=='recuperados'){
-                                comparison_recover = c3.generate({
-                                    bindto: "#countries-comparison-recuperados",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(recoversSum.slice(1)),
-                                            curves_recover[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_recover = c3.generate({
-                                    bindto: "#countries-curve-recuperados",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_recover[countryselected]['dias'],
-                                            curves_recover[countryselected]['data'],
-                                            ['Cuba'].concat(recoversSum.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(tab_selected=='fallecidos'){
-                                comparison_death = c3.generate({
-                                    bindto: "#countries-comparison-fallecidos",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(deadsSum.slice(1)),
-                                            curves_death[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_death = c3.generate({
-                                    bindto: "#countries-curve-fallecidos",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_death[countryselected]['dias'],
-                                            curves_death[countryselected]['data'],
-                                            cu['Cuba'].concat(deadsSum.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(tab_selected=='activos'){
-                                comparison_active = c3.generate({
-                                    bindto: "#countries-comparison-activos",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(dailyActive.slice(1)),
-                                            curves_active[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_active = c3.generate({
-                                    bindto: "#countries-curve-activos",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_active[countryselected]['dias'],
-                                            curves_active[countryselected]['data'],
-                                            ['Cuba'].concat(dailyActive.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(tab_selected=='diarios'){
-                                comparison_daily = c3.generate({
-                                    bindto: "#countries-comparison-diarios",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(dailySingle.slice(1)),
-                                            curves_daily[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_daily = c3.generate({
-                                    bindto: "#countries-curve-diarios",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_daily[countryselected]['dias'],
-                                            curves_daily[countryselected]['data'],
-                                            ['Cuba'].concat(dailySingle.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
+                                }
+                            },
+								grid: {
+									x: {
+										lines: [
+											{'value': '01/28' , 'text': 'Análisis Plan de Prevención y Control '},
+											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
+											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
+											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
+											//{'value': '03/25' , 'text': 'Cierre de universidades'},
+											{'value': '04/11' , 'text': 'Cese de trasnporte público'}
+										]
+									}
+								}
                         });
-
-                        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                            e.target // newly activated tab
-                            e.relatedTarget // previous active tab
-                            let reff = e.target.attributes.href.value;
-                            if(reff=='#tab-confirmados'){
-                                tab_selected='confirmados';
-                                comparison = c3.generate({
-                                    bindto: "#countries-comparison-confirmados",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            cuba,
-                                            curves[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve = c3.generate({
-                                    bindto: "#countries-curve-confirmados",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves[countryselected]['dias'],
-                                            curves[countryselected]['data'],
-                                            cuba,
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(reff=='#tab-recuperados'){
-                                tab_selected='recuperados';
-                                comparison_recover = c3.generate({
-                                    bindto: "#countries-comparison-recuperados",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(recoversSum.slice(1)),
-                                            curves_recover[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_recover = c3.generate({
-                                    bindto: "#countries-curve-recuperados",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_recover[countryselected]['dias'],
-                                            curves_recover[countryselected]['data'],
-                                            ['Cuba'].concat(recoversSum.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(reff=='#tab-fallecidos'){
-                                tab_selected='fallecidos';
-                                comparison_death = c3.generate({
-                                    bindto: "#countries-comparison-fallecidos",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(deadsSum.slice(1)),
-                                            curves_death[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_death = c3.generate({
-                                    bindto: "#countries-curve-fallecidos",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_death[countryselected]['dias'],
-                                            curves_death[countryselected]['data'],
-                                            ['Cuba'].concat(deadsSum.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(reff=='#tab-activos'){
-                                tab_selected='activos';
-                                comparison_active = c3.generate({
-                                    bindto: "#countries-comparison-activos",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(dailyActive.slice(1)),
-                                            curves_active[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_active = c3.generate({
-                                    bindto: "#countries-curve-activos",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_active[countryselected]['dias'],
-                                            curves_active[countryselected]['data'],
-                                            ['Cuba'].concat(dailyActive.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                            if(reff=='#tab-diarios'){
-                                tab_selected='diarios';
-                                comparison_daily = c3.generate({
-                                    bindto: "#countries-comparison-diarios",
-                                    data: {
-                                        x: dias[0],
-                                        columns: [
-                                            dias,
-                                            ['Cuba'].concat(dailySingle.slice(1)),
-                                            curves_daily[countryselected]['data']
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                });
-
-                                curve_daily = c3.generate({
-                                    bindto: "#countries-curve-diarios",
-                                    data: {
-                                        x: 'Días',
-                                        columns: [
-                                            curves_daily[countryselected]['dias'],
-                                            curves_daily[countryselected]['data'],
-                                            ['Cuba'].concat(dailySingle.slice(1)),
-                                        ],
-                                        type: 'line',
-                                        colors: {
-                                            'Cuba': '#B01E22'
-                                        }
-                                    },
-                                    axis: {
-                                        x: {
-                                            label: 'Fecha',
-                                            type: 'categorical',
-                                            show: false
-                                        },
-                                        y: {
-                                            label: 'Casos',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    grid: {
-                                        x: {
-                                            lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
-                                        }
-                                    }
-                                });
-                            }
-                        })
 
                         var provinceslectd1 = $.walker.province.findById('lha').properties.DPA_province_code;
                         $('#proscurve-select1').val(provinceslectd1);
@@ -1697,9 +1439,9 @@ function run_calculations() {
                                 columns: porciento,
                                 type: 'line',
                                 colors: {
-									'% de Tests Positivos Acumulados': '#1C1340',
-									'% de Tests Positivos en el Día': '#B01E22'
-								}
+                                    '% de Tests Positivos Acumulados': '#1C1340',
+                                    '% de Tests Positivos en el Día': '#B01E22'
+                                }
                             },
                             axis: {
                                 x: {
@@ -1766,65 +1508,6 @@ function run_calculations() {
                                 y: {
                                     label: 'Altas',
                                     position: 'outer-middle',
-                                }
-                            }
-                        });
-
-                        comparison = c3.generate({
-                            bindto: "#countries-comparison-confirmados",
-                            data: {
-                                x: dias[0],
-                                columns: [
-                                    dias,
-                                    cuba,
-                                    curves[countryselected]['data'].slice(0, cuba.length)
-                                ],
-                                type: 'line',
-                                colors: {
-                                    'Cuba': '#B01E22'
-                                }
-                            },
-                            axis: {
-                                x: {
-                                    label: 'Fecha',
-                                    type: 'categorical',
-                                    show: false
-                                },
-                                y: {
-                                    label: 'Casos',
-                                    position: 'outer-middle'
-                                }
-                            }
-                        });
-
-                        curve = c3.generate({
-                            bindto: "#countries-curve-confirmados",
-                            data: {
-                                x: 'Días',
-                                columns: [
-                                    curves[countryselected]['dias'],
-                                    curves[countryselected]['data'],
-                                    cuba,
-                                ],
-                                type: 'line',
-                                colors: {
-                                    'Cuba': '#B01E22'
-                                }
-                            },
-                            axis: {
-                                x: {
-                                    label: 'Fecha',
-                                    type: 'categorical',
-                                    show: false
-                                },
-                                y: {
-                                    label: 'Casos',
-                                    position: 'outer-middle'
-                                }
-                            },
-                            grid: {
-                                x: {
-                                    lines: [{'value': dias[dias.length - 1], 'text': dias[dias.length - 1]}]
                                 }
                             }
                         });
@@ -1913,7 +1596,7 @@ function run_calculations() {
 
                     genInfo = resumeCases();
 
-                    var MAX_LISTS = 10;
+                    var MAX_LISTS = 16;
 
                     muns_array = [];
                     for (var m in muns) {
@@ -1929,12 +1612,12 @@ function run_calculations() {
                         municipe = $.walker.municipality.matchByField('DPA_municipality_code', item.cod);
                         var row = ("<tr><td>{ranking}</td>" +
                             "<td>{cod} ({pro})</td>" +
-                            // "<td>{total}</td>" +
+                            "<td>{total}</td>" +
                             "<td>{rate}%</td></tr>")
                             .replace("{ranking}", mun_ranking)
                             .replace("{cod}", municipe.properties.municipality)
                             .replace("{pro}", municipe.properties.province)
-                            // .replace('{total}', item.total)
+                            .replace('{total}', item.total)
                             .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
                         $table_mun.append(row);
                         mun_ranking += 1;
@@ -1953,12 +1636,14 @@ function run_calculations() {
                     $(pros_array.slice(0, MAX_LISTS)).each(function (index, item) {
                         var row = ("<tr><td>{ranking}</td>" +
                             "<td>{cod}</td>" +
-                            // "<td>{total}</td>" +
-                            "<td>{rate}%</td></tr>")
+                            "<td>{total}</td>" +
+                            "<td>{rate}%</td>" +
+                            "<td>{tasa}</td></tr>")
                             .replace("{ranking}", pro_ranking)
                             .replace("{cod}", $.walker.province.matchByField('DPA_province_code', item.cod).properties.province)
-                            // .replace('{total}', item.total)
-                            .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2));
+                            .replace('{total}', item.total)
+                            .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2))
+                            .replace('{tasa}', (item.total * 100000 / population[item.cod]).toFixed(2));
                         $table_pro.append(row);
                         pro_ranking += 1;
                     });
@@ -2063,112 +1748,23 @@ function run_calculations() {
                         }
                         return '#D1D2D4';
                     }
+
+                    let province_code = -1;
+                    if(general_view===false){
+                        province_code = $.walker.province.findById(province_id)['properties']['DPA_province_code'];
+                    }
+                    for(var i in markers){
+
+                        if(general_view===false && i!==province_code){
+                            continue;
+                        }
+                        for(var j=0;j<markers[i].length;j++){
+                            markers[i][j].addTo(map_mun);
+                        }
+                    }
+
                 });
 
-                let curves2 = {};
-
-                var countrysorted2 = [];
-
-                function scaleX(num) {
-                    if (num === 0) {
-                        return 0;
-                    }
-                    return Math.log10(num);
-                }
-
-                function scaleY(num) {
-                    if (num === 0) {
-                        return 0;
-                    }
-                    return Math.log10(num);
-                }
-
-                for (var c in countriesdays.paises_info) {
-                    let c_trans = c in trans_countries ? trans_countries[c] : c;
-                    var weeksum = 0;
-                    var weeks = [c_trans];
-                    var accum = ['Confirmados-' + c_trans];
-                    var prevweek = 0;
-                    var total = 0;
-                    var ctotal = 0;
-                    for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
-                        ctotal = countriesdays.paises_info[c].confirmed[i];
-                        crecovered = countriesdays.paises_info[c].recovered[i];
-                        cdeaths = countriesdays.paises_info[c].deaths[i];
-                        if (i % 7 === 0) {
-                            total = countriesdays.paises_info[c].confirmed[i - 1];
-                            if (total > 30) {
-                                weeksum = countriesdays.paises_info[c].confirmed[i - 1] - prevweek;
-                                weeks.push(scaleY(weeksum));
-                                weeksum = 0;
-                                accum.push(scaleX(total));
-                                prevweek = countriesdays.paises_info[c].confirmed[i - 1];
-                            }
-                        }
-                    }
-                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
-                    countrysorted2.push(c_trans);
-                }
-
-                let columdata = [];
-                let xaxisdata = {};
-                var cont = 0;
-                var topn = 20;
-                countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
-                var $table_country = $('#table-countries > tbody').html('');
-                for (var i = 0; i < countrysorted2.length; i++) {
-                    xaxisdata[countrysorted2[i]] = 'Confirmados-' + countrysorted2[i];
-                    columdata.push(curves2[countrysorted2[i]]['weeks']);
-                    columdata.push(curves2[countrysorted2[i]]['cummulative_sum']);
-
-                    if (cont === topn) {
-                        break;
-                    }
-                    cont += 1;
-
-                    var row = ("<tr><td>{ranking}</td>" +
-                        "<td>{country}</td>" +
-                        "<td>{cases}</td>" +
-                        "<td>{recovers}</td>" +
-                        "<td>{deaths}</td></tr>")
-                        .replace("{ranking}", i + 1)
-                        .replace("{country}", curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0])
-                        .replace('{cases}', curves2[countrysorted2[i]]['ctotal'])
-                        .replace('{recovers}', curves2[countrysorted2[i]]['crecovered'])
-                        .replace('{deaths}', curves2[countrysorted2[i]]['cdeaths']);
-                    $table_country.append(row);
-                }
-
-                xaxisdata['Cuba'] = 'Confirmados-Cuba';
-                columdata.push(curves2['Cuba']['weeks']);
-                columdata.push(curves2['Cuba']['cummulative_sum']);
-
-                curve3 = c3.generate({
-                    bindto: "#curves-evolution",
-                    data: {
-                        xs: xaxisdata,
-                        columns: columdata,
-                        type: 'line',
-                        colors: {
-                            'Cuba': '#B01E22'
-                        }
-                    },
-                    tooltip: {
-                        show: false
-                    },
-                    axis: {
-                        x: {
-                            label: "Casos confirmados (log scale)",
-                            tick: {
-                                format: d3.format('.1f')
-                            }
-                        },
-                        y: {
-                            label: 'Casos nuevos  (log scale)',
-                            position: 'outer-middle'
-                        }
-                    }
-                });
             });
         });
     });
@@ -2194,6 +1790,21 @@ $locator.change(function () {
 
 $selector.on('change', function (e) {
     $.walker.map.clear();
+    let general_view = $locator.val() === 'cuba';
+    let province_code = -1;
+    if(general_view===false){
+        let province_id = $locator.val();
+        province_code = $.walker.province.findById(province_id)['properties']['DPA_province_code'];
+    }
+    for(var i in markers){
+
+        if(general_view===false && i!==province_code){
+            continue;
+        }
+        for(var j=0;j<markers[i].length;j++){
+            markers[i][j].addTo(map_mun);
+        }
+    }
 
     let ratio = (geojsonP.getBounds().getNorthEast().lat - geojsonP.getBounds().getSouthWest().lat) * 0.05;
 

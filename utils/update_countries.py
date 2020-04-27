@@ -2,6 +2,7 @@ import os
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 import json
 import csv
+from datetime import datetime
 
 
 def change_date(dat):
@@ -10,6 +11,24 @@ def change_date(dat):
     if len(m) == 1:
         m = '0'+m
     return t[0]+'/'+m+'/'+t[2]
+
+def load_index_backup():
+    path = os.path.join('data', 'oxford-indexes-backup.json')
+    return json.load(open(path))
+
+def get_oxford_index():
+    now = datetime.now()
+    indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
+    data = {'data':{},'countries': indexes['countries']}
+    for day,countries in indexes['data'].items():
+        data['data'][day] = {}
+        for country in countries:
+            print(day,country,countries[country]['stringency'])
+            data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
+    path = os.path.join('data', 'oxford-indexes.json')
+    json.dump(data, open(path, 'w'))
+    return data
+
 
 
 def get_json_info():
@@ -79,7 +98,12 @@ def generate_csv():
 
 def main():
 
+    #indexs = get_oxford_index()
+    indexs = load_index_backup()
+    print('Oxford Index generated')
+
     data = get_json_info()
+    data['indexes'] = indexs
     path = os.path.join('data', 'paises-info-dias.json')
     json.dump(data, open(path, 'w'))
 
@@ -87,6 +111,8 @@ def main():
 
     generate_csv()
     print('CSV generated')
+
+
 
 
 if __name__ == "__main__":
