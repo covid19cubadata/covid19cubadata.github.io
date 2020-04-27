@@ -29462,7 +29462,11 @@
                 "tests_total": 41651,
                 "recuperados_numero": 24,
                 "graves_numero": 12,
-                "muertes_numero": 2
+                "muertes_numero": 2,
+                "muertes_id": [
+                    "cu-1358",
+                    "cu-938"
+                ]
             }
         }
     }
