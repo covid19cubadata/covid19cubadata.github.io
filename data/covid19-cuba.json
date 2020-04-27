@@ -387,6 +387,18 @@
             "abierto": true,
             "chequeado": false
         },
+        "ehol-4": {
+            "id": "ehol-4",
+            "identificador": "Avenida Cárdenas",
+            "municipio": "Banes",
+            "provincia": "Holguín",
+            "dpacode_municipio": "32.03",
+            "dpacode_provincia": "32",
+            "lon": -75.725901,
+            "lat": 20.961779,
+            "abierto": true,
+            "chequeado": true
+        },
         "egtm-1": {
             "id": "egtm-1",
             "identificador": "Baracoa",
