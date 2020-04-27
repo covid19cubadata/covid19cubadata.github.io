@@ -449,6 +449,19 @@ function paint_comparison_countries(label, x_data, col_data){
     return comparison;
 }
 
+function scaleX(num) {
+    if (num === 0) {
+        return 0;
+    }
+    return Math.log10(num);
+}
+
+function scaleY(num) {
+    if (num === 0) {
+        return 0;
+    }
+    return Math.log10(num);
+}
 
 function run_calculations() {
 
@@ -474,6 +487,10 @@ function run_calculations() {
             var deads = 0;
             var recover = 0;
             var evac = 0;
+            let weeksum = 0;
+            let prevweek = 0;
+            var weeks_cuba = ['Cuba'];
+            var accum_cuba = ['Confirmados-Cuba']
 
             for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                 dias.push('Día ' + i);
@@ -495,6 +512,16 @@ function run_calculations() {
                 }
                 if ('evacuados_numero' in data.casos.dias[i]) {
                     evac += data.casos.dias[i].evacuados_numero;
+                }
+                if (i % 7 === 0) {
+                    let ttotal = dailySum[dailySum.length-1];
+                    if (ttotal > 30) {
+                        weeksum = ttotal - prevweek;
+                        weeks_cuba.push(scaleY(weeksum));
+                        weeksum = 0;
+                        accum_cuba.push(scaleX(ttotal));
+                        prevweek = ttotal;
+                    }
                 }
                 dailySum.push(total);
                 dailyActive.push(total - (recover + deads + evac));
@@ -540,11 +567,11 @@ function run_calculations() {
                         if (i % 7 === 0) {
                             total = countriesdays.paises_info[c].confirmed[i - 1];
                             if (total > 30) {
-                                weeksum = countriesdays.paises_info[c].confirmed[i - 1] - prevweek;
+                                weeksum = total - prevweek;
                                 weeks.push(scaleY(weeksum));
                                 weeksum = 0;
                                 accum.push(scaleX(total));
-                                prevweek = countriesdays.paises_info[c].confirmed[i - 1];
+                                prevweek = total;
                             }
                         }
                     }
@@ -578,6 +605,11 @@ function run_calculations() {
                         countrysorted2.push(c_trans);
                 }
             }
+            curves2['Cuba']['weeks']=weeks_cuba;
+            curves2['Cuba']['cummulative_sum']=accum_cuba;
+            curves2['Cuba']['ctotal']=cuba[cuba.length-1];
+            curves2['Cuba']['crecovered']=recoversSum[recoversSum.length-1];
+            curves2['Cuba']['cdeaths']=deadsSum[deadsSum.length-1];
 
             countrysorted.sort();
 
@@ -694,7 +726,6 @@ function run_calculations() {
                 e.target // newly activated tab
                 e.relatedTarget // previous active tab
                 let reff = e.target.attributes.href.value;
-                //let preff = e.relatedTarget.attributes.href.value;
                 if (reff == '#tab-confirmados') {
                     tab_selected = 'confirmados';
                     comparison = paint_comparison("#countries-comparison-confirmados",dias,cuba,curves[countryselected]['data']);
@@ -756,29 +787,6 @@ function run_calculations() {
             }
             comparison = paint_comparison("#countries-comparison-confirmados",dias,cuba,curves[countryselected]['data']);
             curve = paint_curve("#countries-curve-confirmados", curves[countryselected]['dias'], curves[countryselected]['data'], cuba, dias);
-            // this is inecesary because when tab change the graphic is render, only need paint the graphic of first tab
-            /*comparison_recover = paint_comparison("#countries-comparison-recuperados", dias, ['Cuba'].concat(recoversSum.slice(1)), curves_recover[countryselected]['data']);
-            curve_recover = paint_curve("#countries-curve-recuperados", curves_recover[countryselected]['dias'], curves_recover[countryselected]['data'], ['Cuba'].concat(recoversSum.slice(1)), dias);
-            comparison_death = paint_comparison("#countries-comparison-fallecidos", dias, ['Cuba'].concat(deadsSum.slice(1)), curves_death[countryselected]['data']);
-            curve_death = paint_curve("#countries-curve-fallecidos", curves_death[countryselected]['dias'], curves_death[countryselected]['data'], ['Cuba'].concat(deadsSum.slice(1)),dias);
-            comparison_active = paint_comparison("#countries-comparison-activos", dias, ['Cuba'].concat(dailyActive.slice(1)), curves_active[countryselected]['data']);
-            curve_active = paint_curve("#countries-curve-activos", curves_active[countryselected]['dias'], curves_active[countryselected]['data'], ['Cuba'].concat(dailyActive.slice(1)), dias);
-            comparison_daily = paint_comparison("#countries-comparison-diarios", dias, ['Cuba'].concat(dailySingle.slice(1)), curves_daily[countryselected]['data']);
-            curve_daily = paint_curve("#countries-curve-diarios", curves_daily[countryselected]['dias'], curves_daily[countryselected]['data'], ['Cuba'].concat(dailySingle.slice(1)), dias);*/
-
-            function scaleX(num) {
-                if (num === 0) {
-                    return 0;
-                }
-                return Math.log10(num);
-            }
-
-            function scaleY(num) {
-                if (num === 0) {
-                    return 0;
-                }
-                return Math.log10(num);
-            }
 
             var $country_selector = $('#country_selector').select2({
                 data: countrysorted,
