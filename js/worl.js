@@ -918,6 +918,14 @@ function run_calculations() {
                 }).text('+').prop('outerHTML'), curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
                 $datatable.row.add(rowdat);
             }
+            let rowdat = [$('<a></a>').attr({
+                'class': 'btn btn-primary btn-block btn-sm',
+                'href': '#case-details',
+                'data-text': '',
+                'data-note': '',
+                'data-title': (countrysorted2.length+1),
+            }).text('+').prop('outerHTML'), curves2['Cuba']['weeks'][0] in trans_countries ? trans_countries[curves2['Cuba']['weeks'][0]] : curves2['Cuba']['weeks'][0], curves2['Cuba']['ctotal'], curves2['Cuba']['crecovered'], curves2['Cuba']['cdeaths']];
+            $datatable.row.add(rowdat);
             $(document).on('click', 'a[href="#case-details"]', function (evt) {
                 evt.preventDefault();
                 if ( $(window).width() < 540 ){
@@ -929,8 +937,7 @@ function run_calculations() {
                     }
                 }
             });
-
-            $datatable.draw();
+            $datatable.order([2, 'desc']).draw();
 
         });
     });
