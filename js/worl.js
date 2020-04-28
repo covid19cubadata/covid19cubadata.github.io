@@ -877,7 +877,7 @@ function run_calculations() {
                 xaxisdata['Cuba'] = 'Confirmados-Cuba';
                 columdata.push(curves2['Cuba']['weeks']);
                 columdata.push(curves2['Cuba']['cummulative_sum']);
-                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata)
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
             });
 
             $("#country_selector").on("select2:select", function (evt) {
@@ -895,7 +895,7 @@ function run_calculations() {
                 xaxisdata['Cuba'] = 'Confirmados-Cuba';
                 columdata.push(curves2['Cuba']['weeks']);
                 columdata.push(curves2['Cuba']['cummulative_sum']);
-                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata)
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
             });
 
 
@@ -920,23 +920,91 @@ function run_calculations() {
 
             curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
 
-            let columdata2 = [];
-            let xaxisdata2 = {};
+
+            var test_countries = [];
+            var curves_test = {};
+
             for(i in  countriesdays.tests){
                 if(i in countries_codes && i!=='CUB'){
                     let c_trans = trans_countries[countries_codes[i]];
-                    //test_countries.push(trans_countries[countries_codes[i]]);
-                    xaxisdata2[c_trans] = c_trans+'-per-million';
-                    columdata2.push([c_trans+'-per-million',countriesdays.tests[i]['total_tests_per_million']]);
-                    columdata2.push([c_trans,countriesdays.tests[i]['test_efectivity']]);
+                    test_countries.push(c_trans);
+                    curves_test[c_trans]={x:[c_trans+'-per-million',countriesdays.tests[i]['total_tests_per_million']],
+                                        y:[c_trans,countriesdays.tests[i]['test_efectivity']]};
                 }
             }
 
+            var $country_selector2 = $('#country_selector_2').select2({
+                data: test_countries,
+                closeOnSelect: true
+            });
+
+            let test_countries_top=[];
+            for (var i = 0; i < countrysorted2.length; i++) {
+                if(countrysorted2[i] in curves_test){
+                    test_countries_top.push(countrysorted2[i]);
+                }
+                if(test_countries_top.length>=topn){
+                    break;
+                }
+            }
+            $country_selector2.val(test_countries_top).trigger("change");
+
+            let selection2 = $('#country_selector_2').select2('data');
+
+            let xaxisdata2 = {};
+            let columdata2 = [];
+            for (var i = 0; i < selection2.length; i++) {
+                xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
+                columdata2.push(curves_test[selection2[i]['id']].x);
+                columdata2.push(curves_test[selection2[i]['id']].y);
+
+            }
             xaxisdata2[test_effective[0]] = test_cases_per_million[0];
             columdata2.push(test_cases_per_million);
             columdata2.push(test_effective);
 
             curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+
+            $country_selector2.val(countrysorted2.slice(0,topn)).trigger("change");
+            $("#country_selector_2").on("select2:unselect", function (evt) {
+                if (!evt.params.originalEvent) {
+                  return;
+                }
+                evt.params.originalEvent.stopPropagation();
+                let selection2 = $('#country_selector_2').select2('data');
+
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < selection2.length; i++) {
+                    xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
+                    columdata2.push(curves_test[selection2[i]['id']].x);
+                    columdata2.push(curves_test[selection2[i]['id']].y);
+
+                }
+                xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+                columdata2.push(test_cases_per_million);
+                columdata2.push(test_effective);
+
+                curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            });
+
+            $("#country_selector_2").on("select2:select", function (evt) {
+                let selection2 = $('#country_selector_2').select2('data');
+
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < selection2.length; i++) {
+                    xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
+                    columdata2.push(curves_test[selection2[i]['id']].x);
+                    columdata2.push(curves_test[selection2[i]['id']].y);
+
+                }
+                xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+                columdata2.push(test_cases_per_million);
+                columdata2.push(test_effective);
+
+                curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            });
 
             $.fn.DataTable.ext.pager.numbers_length = 5;
             let $datatable = $('#datatable').DataTable({
