@@ -892,7 +892,6 @@ function run_calculations() {
                 },
                 data: [],
                 columns: [
-                    {title: ""},
                     {title: "País"},
                     {title: "Casos."},
                     {title: "Recuperados."},
@@ -902,54 +901,21 @@ function run_calculations() {
                     {responsivePriority: 1, targets: 0, "orderable": false},
                     {responsivePriority: 2, targets: 1},
                     {responsivePriority: 3, targets: 2},
-                    {responsivePriority: 4, targets: 3},
-                    {responsivePriority: 5, targets: 4}
-                ],
-                "drawCallback": function (settings) {
-                    if ( $(window).width() > 540 ) {
-                        $('#datatable a[data-title]').each(function () {
-                            $(this).html('-');
-                        });
-                    }
-                }
+                    {responsivePriority: 4, targets: 3}
+                ]
             });
 
             new $.fn.dataTable.FixedHeader($datatable);
 
             for (var i = 0; i < countrysorted2.length; i++) {
-                let rowdat = [$('<a></a>').attr({
-                    'class': 'btn btn-primary btn-block btn-sm',
-                    'href': '#case-details',
-                    'data-text': '',
-                    'data-note': '',
-                    'data-title': (i+1),
-                }).text('+').prop('outerHTML'), curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
+                let rowdat = [curves2[countrysorted2[i]]['weeks'][0] in trans_countries ? trans_countries[curves2[countrysorted2[i]]['weeks'][0]] : curves2[countrysorted2[i]]['weeks'][0], curves2[countrysorted2[i]]['ctotal'], curves2[countrysorted2[i]]['crecovered'], curves2[countrysorted2[i]]['cdeaths']];
                 $datatable.row.add(rowdat);
             }
-            let rowdat = [$('<a></a>').attr({
-                'class': 'btn btn-primary btn-block btn-sm',
-                'href': '#case-details',
-                'data-text': '',
-                'data-note': '',
-                'data-title': (countrysorted2.length+1),
-            }).text('+').prop('outerHTML'), curves2['Cuba']['weeks'][0] in trans_countries ? trans_countries[curves2['Cuba']['weeks'][0]] : curves2['Cuba']['weeks'][0], curves2['Cuba']['ctotal'], curves2['Cuba']['crecovered'], curves2['Cuba']['cdeaths']];
+            let rowdat = [curves2['Cuba']['weeks'][0] in trans_countries ? trans_countries[curves2['Cuba']['weeks'][0]] : curves2['Cuba']['weeks'][0], curves2['Cuba']['ctotal'], curves2['Cuba']['crecovered'], curves2['Cuba']['cdeaths']];
             $datatable.row.add(rowdat);
-            $(document).on('click', 'a[href="#case-details"]', function (evt) {
-                evt.preventDefault();
-                if ( $(window).width() < 540 ){
-                    const $info = $(this).html();
-                    if($info==='+'){
-                        $(this).html('-');
-                    }else{
-                        $(this).html('+');
-                    }
-                }
-            });
             $datatable.order([2, 'desc']).draw();
-
         });
     });
-
 }
 
 run_calculations();
