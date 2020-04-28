@@ -740,11 +740,11 @@ function run_calculations() {
                     $.walker.municipality.list = municipios;
                     muns = $.walker.municipality.filterByProvince(province_id);
 
-                    var curves = {};
+                    /*var curves = {};
                     var curves_recover = {};
                     var curves_death = {};
                     var curves_active = {};
-                    var curves_daily = {};
+                    var curves_daily = {};*/
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {

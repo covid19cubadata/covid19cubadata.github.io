@@ -1,8 +1,10 @@
 import os
+import io
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 import json
 import csv
 from datetime import datetime
+from collections import defaultdict
 
 
 def change_date(dat):
@@ -95,6 +97,24 @@ def generate_csv():
     f.flush()
     f.close()
 
+def get_countries_test():
+    data2 = requests.get('https://covid.ourworldindata.org/data/owid-covid-data.csv').content
+    data2 = io.StringIO(data2.decode('utf8'))
+    reader = csv.reader(data2)
+    data = defaultdict(lambda : defaultdict(list))
+    next(reader)
+    for i in reader:
+        if i[-1]:
+            percent = int(i[3])/float(i[-5])*100
+            data[i[0]]['test_efectivity'].append(percent)
+            data[i[0]]['total_tests_per_million'].append(float(i[-3])*1000)
+    path = os.path.join('data', 'countries_test.json')
+    json.dump(data,open(path,'w'))
+    for i in data.keys():
+        data[i]['test_efectivity']=data[i]['test_efectivity'][-1]
+        data[i]['total_tests_per_million']=data[i]['total_tests_per_million'][-1]
+    return data
+
 
 def main():
 
@@ -102,8 +122,12 @@ def main():
     indexs = load_index_backup()
     print('Oxford Index generated')
 
+    tests = get_countries_test()
+    print('Countries tests generated')
+
     data = get_json_info()
     data['indexes'] = indexs
+    data['tests'] = tests
     path = os.path.join('data', 'paises-info-dias.json')
     json.dump(data, open(path, 'w'))
 

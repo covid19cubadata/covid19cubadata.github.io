@@ -342,6 +342,8 @@ var trans_countries = {
 $.ajaxSetup({cache: false});
 $.c3 = c3;
 
+var cuba_population = 11209628;
+
 function paint_comparison(label, c1, c2, c3, y_conf=null, x_conf=null){
     var yconfig = {
         label: 'Casos',
@@ -400,7 +402,7 @@ function paint_curve(label, c1, c2, c3, lines_data, y_conf=null){
             type: 'line',
             colors: {
                 'Cuba': '#B01E22'
-            }
+            },
         },
         axis: {
             x: {
@@ -419,34 +421,90 @@ function paint_curve(label, c1, c2, c3, lines_data, y_conf=null){
     return curve;
 }
 
-function paint_comparison_countries(label, x_data, col_data){
+function paint_comparison_countries(label, x_data, col_data, type_plot='line', y_conf=null, x_conf=null, points_cfg=null,tooltip_cfg=null){
+    var yconfig = {
+        label: 'Casos nuevos  (log scale)',
+        position: 'outer-middle'
+    };
+    if(y_conf){
+        yconfig=y_conf;
+    }
+    var xconfig = {
+        label: "Casos confirmados (log scale)",
+        tick: {
+            format: d3.format('.1f')
+        }
+    };
+    if(x_conf){
+        xconfig=x_conf;
+    }
+    points = {};
+    if(points_cfg){
+        points=points_cfg;
+    }
+    tooltip = {
+        show: false
+    };
+    if(tooltip_cfg){
+        tooltip=tooltip_cfg;
+    }
     var comparison = $.c3.generate({
         bindto: label,
         data: {
             xs: x_data,
             columns: col_data,
-            type: 'line',
+            type: type_plot,
             colors: {
                 'Cuba': '#B01E22'
             }
         },
-        tooltip: {
-            show: false
-        },
+        point: points,
+        tooltip: tooltip,
         axis: {
-            x: {
-                label: "Casos confirmados (log scale)",
-                tick: {
-                    format: d3.format('.1f')
-                }
-            },
-            y: {
-                label: 'Casos nuevos  (log scale)',
-                position: 'outer-middle'
-            }
+            x: xconfig,
+            y: yconfig
         }
     });
     return comparison;
+}
+
+function scatter_plot(label, x_data, col_data){
+    xconf = {
+        label: {
+            text: 'Tests por millón de habitantes',
+            position: 'outer-middle'
+        },
+        tick: {
+            format: d3.format('.1f')
+        }
+    };
+    yconf = {
+        label: {
+            text: '% de efectividad de los Tests',
+            position: 'outer-middle'
+        },
+        tick: {
+            format: d3.format('.1f')
+        }
+    };
+    points = {
+        r: function(d) {
+            if(d['id']==='Cuba')
+                return 5;
+            return 3;
+        }
+    };
+    tooltip={
+        format: {
+            title: function (d) {return 'Test por milloón de habitantes ' + d; },
+            value: function (value, ratio, id) {
+                var format = id === 'data1' ? d3.format(',') : d3.format('$');
+                return value;
+            }
+//            value: d3.format(',') // apply this format to both y and y2
+        }
+    };
+    return paint_comparison_countries(label, x_data, col_data, 'scatter', yconf, xconf, points, tooltip);
 }
 
 function scaleX(num) {
@@ -490,7 +548,9 @@ function run_calculations() {
             let weeksum = 0;
             let prevweek = 0;
             var weeks_cuba = ['Cuba'];
-            var accum_cuba = ['Confirmados-Cuba']
+            var accum_cuba = ['Confirmados-Cuba'];
+            var test_cases_per_million = ['Cuba-per-million'];
+            var test_effective = ['Cuba']
 
             for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                 dias.push('Día ' + i);
@@ -523,12 +583,18 @@ function run_calculations() {
                         prevweek = ttotal;
                     }
                 }
+                if ('tests_total' in data.casos.dias[i]) {
+                    test_cases_per_million.push(data.casos.dias[i].tests_total/cuba_population*10**6);
+                    test_effective.push(total/data.casos.dias[i].tests_total*100);
+                }
                 dailySum.push(total);
                 dailyActive.push(total - (recover + deads + evac));
                 recoversSum.push(recover);
                 deadsSum.push(deads);
                 cuba.push(total);
             }
+            test_cases_per_million = ['Cuba-per-million',test_cases_per_million[test_cases_per_million.length-1]];
+            test_effective = ['Cuba', test_effective[test_effective.length-1]];
 
             var countrysorted = [];
             for (var c in countriesdays.paises_info) {
@@ -627,7 +693,7 @@ function run_calculations() {
                     stringency_countries.push(countriesdays.indexes.countries[i]);
                 }
             }
-            var curves_stringency = {}
+            var curves_stringency = {};
             for(var i in index_days){
                 var idx = '2020-'+index_days[i].replace('/','-');
                 var idx2 = idx.replace(/-/g,'/');
@@ -811,7 +877,7 @@ function run_calculations() {
                 xaxisdata['Cuba'] = 'Confirmados-Cuba';
                 columdata.push(curves2['Cuba']['weeks']);
                 columdata.push(curves2['Cuba']['cummulative_sum']);
-                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata)
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
             });
 
             $("#country_selector").on("select2:select", function (evt) {
@@ -829,7 +895,7 @@ function run_calculations() {
                 xaxisdata['Cuba'] = 'Confirmados-Cuba';
                 columdata.push(curves2['Cuba']['weeks']);
                 columdata.push(curves2['Cuba']['cummulative_sum']);
-                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata)
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
             });
 
 
@@ -853,6 +919,92 @@ function run_calculations() {
             columdata.push(curves2['Cuba']['cummulative_sum']);
 
             curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
+
+
+            var test_countries = [];
+            var curves_test = {};
+
+            for(i in  countriesdays.tests){
+                if(i in countries_codes && i!=='CUB'){
+                    let c_trans = trans_countries[countries_codes[i]];
+                    test_countries.push(c_trans);
+                    curves_test[c_trans]={x:[c_trans+'-per-million',countriesdays.tests[i]['total_tests_per_million']],
+                                        y:[c_trans,countriesdays.tests[i]['test_efectivity']]};
+                }
+            }
+
+            var $country_selector2 = $('#country_selector_2').select2({
+                data: test_countries,
+                closeOnSelect: true
+            });
+
+            let test_countries_top=[];
+            for (var i = 0; i < countrysorted2.length; i++) {
+                if(countrysorted2[i] in curves_test){
+                    test_countries_top.push(countrysorted2[i]);
+                }
+                if(test_countries_top.length>=topn){
+                    break;
+                }
+            }
+            $country_selector2.val(test_countries_top).trigger("change");
+
+            let selection2 = $('#country_selector_2').select2('data');
+
+            let xaxisdata2 = {};
+            let columdata2 = [];
+            for (var i = 0; i < selection2.length; i++) {
+                xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
+                columdata2.push(curves_test[selection2[i]['id']].x);
+                columdata2.push(curves_test[selection2[i]['id']].y);
+
+            }
+            xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+            columdata2.push(test_cases_per_million);
+            columdata2.push(test_effective);
+
+            curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+
+            $country_selector2.val(countrysorted2.slice(0,topn)).trigger("change");
+            $("#country_selector_2").on("select2:unselect", function (evt) {
+                if (!evt.params.originalEvent) {
+                  return;
+                }
+                evt.params.originalEvent.stopPropagation();
+                let selection2 = $('#country_selector_2').select2('data');
+
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < selection2.length; i++) {
+                    xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
+                    columdata2.push(curves_test[selection2[i]['id']].x);
+                    columdata2.push(curves_test[selection2[i]['id']].y);
+
+                }
+                xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+                columdata2.push(test_cases_per_million);
+                columdata2.push(test_effective);
+
+                curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            });
+
+            $("#country_selector_2").on("select2:select", function (evt) {
+                let selection2 = $('#country_selector_2').select2('data');
+
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < selection2.length; i++) {
+                    xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
+                    columdata2.push(curves_test[selection2[i]['id']].x);
+                    columdata2.push(curves_test[selection2[i]['id']].y);
+
+                }
+                xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+                columdata2.push(test_cases_per_million);
+                columdata2.push(test_effective);
+
+                curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            });
 
             $.fn.DataTable.ext.pager.numbers_length = 5;
             let $datatable = $('#datatable').DataTable({
