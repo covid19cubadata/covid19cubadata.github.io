@@ -895,7 +895,7 @@ function run_calculations() {
                     {title: "País"},
                     {title: "Casos."},
                     {title: "Recuperados."},
-                    {title: "Muertes"},
+                    {title: "Fallecidos"},
                 ],
                 "columnDefs": [
                     {responsivePriority: 1, targets: 0, "orderable": false},

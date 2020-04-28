@@ -1029,8 +1029,8 @@ function run_calculations() {
                         var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var cuba = ['Cuba'];
-                        var deadsSum = ['Muertes acumuladas'];
-                        var deadsSingle = ['Muertes en el día'];
+                        var deadsSum = ['Total de fallecidos'];
+                        var deadsSingle = ['Fallecidos en el día'];
                         var recoversSum = ['Altas acumuladas'];
                         var recoversSingle = ['Altas en el día'];
                         var test_days = [];
@@ -1484,8 +1484,8 @@ function run_calculations() {
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Muertes en el día': '#00577B',
-                                    'Muertes acumuladas': '#1C1340'
+                                    'Fallecidos en el día': '#00577B',
+                                    'Total de fallecidos': '#1C1340'
                                 }
                             },
                             axis: {
@@ -1495,7 +1495,7 @@ function run_calculations() {
                                     show: false
                                 },
                                 y: {
-                                    label: 'Muertes',
+                                    label: 'Fallecidos',
                                     position: 'outer-middle',
                                 }
                             }
