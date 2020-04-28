@@ -496,10 +496,10 @@ function scatter_plot(label, x_data, col_data){
     };
     tooltip={
         format: {
-            title: function (d) {return 'Test por millón de habitantes ' + d; },
+            title: function (d) {return 'Test por millón de habitantes ' + Math.round(d); },
             value: function (value, ratio, id) {
                 var format = id === 'data1' ? d3.format(',') : d3.format('$');
-                return value;
+                return (Math.round(value*100)/100)+'%';
             }
 //            value: d3.format(',') // apply this format to both y and y2
         }
