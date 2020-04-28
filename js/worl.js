@@ -480,7 +480,7 @@ function scatter_plot(label, x_data, col_data){
     };
     yconf = {
         label: {
-            text: '% de efectividad de los Tests',
+            text: '% de tests positivos',
             position: 'outer-middle'
         },
         tick: {
@@ -490,13 +490,13 @@ function scatter_plot(label, x_data, col_data){
     points = {
         r: function(d) {
             if(d['id']==='Cuba')
-                return 5;
-            return 3;
+                return 10;
+            return 5;
         }
     };
     tooltip={
         format: {
-            title: function (d) {return 'Test por milloón de habitantes ' + d; },
+            title: function (d) {return 'Test por millón de habitantes ' + d; },
             value: function (value, ratio, id) {
                 var format = id === 'data1' ? d3.format(',') : d3.format('$');
                 return value;
@@ -899,7 +899,7 @@ function run_calculations() {
             });
 
 
-            let topn = 20;
+            let topn = 30;
             countrysorted2.sort((a, b) => curves2[b]['ctotal'] - curves2[a]['ctotal']);
             $country_selector.val(countrysorted2.slice(0,topn)).trigger("change");
 
@@ -957,7 +957,6 @@ function run_calculations() {
                 xaxisdata2[selection2[i]['id']]=selection2[i]['id']+'-per-million';
                 columdata2.push(curves_test[selection2[i]['id']].x);
                 columdata2.push(curves_test[selection2[i]['id']].y);
-
             }
             xaxisdata2[test_effective[0]] = test_cases_per_million[0];
             columdata2.push(test_cases_per_million);
