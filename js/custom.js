@@ -766,10 +766,14 @@ function run_calculations() {
                         var sex_unknown = 0;
                         var countries = {};
                         var ages = {
-                            '0-19': 0,
-                            '20-39': 0,
-                            '40-59': 0,
-                            '60-79': 0,
+                            '0-9': 0,
+                            '10-19': 0,
+                            '20-29': 0,
+                            '30-39': 0,
+                            '40-49': 0,
+                            '50-59': 0,
+                            '60-69': 0,
+                            '70-79': 0,
                             '80 o más': 0,
                             'Desconocido': 0
                         }
@@ -823,14 +827,22 @@ function run_calculations() {
                                     //ages
                                     if (diag[p].edad == null) {
                                         ages['Desconocido'] += 1
-                                    } else if ((diag[p].edad >= 0) && (diag[p].edad < 20)) {
-                                        ages['0-19'] += 1
-                                    } else if ((diag[p].edad >= 20) && (diag[p].edad < 40)) {
-                                        ages['20-39'] += 1
-                                    } else if ((diag[p].edad >= 40) && (diag[p].edad < 60)) {
-                                        ages['40-59'] += 1
-                                    } else if ((diag[p].edad >= 60) && (diag[p].edad < 80)) {
-                                        ages['60-79'] += 1
+                                    } else if ((diag[p].edad >= 0) && (diag[p].edad < 10)) {
+                                        ages['0-9'] += 1
+                                    } else if ((diag[p].edad >=10) && (diag[p].edad < 20)) {
+                                        ages['10-19'] += 1
+                                    } else if ((diag[p].edad >= 20) && (diag[p].edad < 30)) {
+                                        ages['20-29'] += 1
+                                    } else if ((diag[p].edad >= 30) && (diag[p].edad < 40)) {
+                                        ages['30-39'] += 1
+                                    } else if ((diag[p].edad >= 40) && (diag[p].edad < 50)) {
+                                        ages['40-49'] += 1
+                                    } else if ((diag[p].edad >= 50) && (diag[p].edad < 60)) {
+                                        ages['50-59'] += 1
+                                    } else if ((diag[p].edad >= 60) && (diag[p].edad < 70)) {
+                                        ages['60-69'] += 1
+                                    } else if ((diag[p].edad >= 70) && (diag[p].edad < 80)) {
+                                        ages['70-79'] += 1
                                     } else {
                                         ages['80 o más'] += 1
                                     }
@@ -979,7 +991,12 @@ function run_calculations() {
                             axis: {
                                 x: {
                                     label: 'Rango etario',
-                                    type: 'categorical'
+                                    type: 'categorical',
+                                     tick: {
+										rotate: -30,
+										multiline: false
+									},
+									height: 45
                                 },
                                 y: {
                                     label: 'Casos',
@@ -1012,8 +1029,8 @@ function run_calculations() {
                         var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var cuba = ['Cuba'];
-                        var deadsSum = ['Muertes acumuladas'];
-                        var deadsSingle = ['Muertes en el día'];
+                        var deadsSum = ['Total de fallecidos'];
+                        var deadsSingle = ['Fallecidos en el día'];
                         var recoversSum = ['Altas acumuladas'];
                         var recoversSingle = ['Altas en el día'];
                         var test_days = [];
@@ -1467,8 +1484,8 @@ function run_calculations() {
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Muertes en el día': '#00577B',
-                                    'Muertes acumuladas': '#1C1340'
+                                    'Fallecidos en el día': '#00577B',
+                                    'Total de fallecidos': '#1C1340'
                                 }
                             },
                             axis: {
@@ -1478,7 +1495,7 @@ function run_calculations() {
                                     show: false
                                 },
                                 y: {
-                                    label: 'Muertes',
+                                    label: 'Fallecidos',
                                     position: 'outer-middle',
                                 }
                             }
