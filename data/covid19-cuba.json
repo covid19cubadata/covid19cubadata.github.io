@@ -171,6 +171,18 @@
             "abierto": true,
             "chequeado": false
         },
+        "elha-12": {
+            "id": "elha-12",
+            "identificador": "Consejo Popular Pocito-Palmar",
+            "municipio": "Marianao",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.11",
+            "dpacode_provincia": "23",
+            "lon": -82.430944,
+            "lat": 23.065716,
+            "abierto": true,
+            "chequeado": false
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Rúa",
@@ -204,6 +216,18 @@
             "dpacode_provincia": "25",
             "lon": -81.598202,
             "lat": 23.037148,
+            "abierto": true,
+            "chequeado": true
+        },
+        "emat-3": {
+            "id": "emat-3",
+            "identificador": "Hospital Julio Aristegui Villamil",
+            "municipio": "Cárdenas",
+            "provincia": "Matanzas",
+            "dpacode_municipio": "25.02",
+            "dpacode_provincia": "25",
+            "lon": -81.206305,
+            "lat": 23.036355,
             "abierto": true,
             "chequeado": true
         },
