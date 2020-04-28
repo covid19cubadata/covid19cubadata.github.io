@@ -500,14 +500,8 @@ body > div {
   white-space: normal !important;
 }
 
-table.dataTable.dtr-inline.collapsed
-  > tbody
-  > tr[role="row"]
-  > td:first-child:before,
-table.dataTable.dtr-inline.collapsed
-  > tbody
-  > tr[role="row"]
-  > th:first-child:before {
+table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
   content: "" !important;
   display: none !important;
 }
