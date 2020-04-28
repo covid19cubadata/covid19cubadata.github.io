@@ -1,628 +1,651 @@
 body {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 body > div {
-    max-width: 100%;
-    margin: 0 !important;
+  margin: 0 !important;
+  max-width: 100%;
 }
 
 .navbar {
-    padding: 0 1rem 0 0;
+  padding: 0 1rem 0 0;
 }
 
 .navbar-brand {
-    padding: 0;
+  padding: 0;
+}
+
+.navbar a.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar a.nav-link:hover {
+  color: #1c1340 !important;
 }
 
 .bg-light {
-    background: #D1D2D4 !important;
+  background: #d1d2d4 !important;
 }
 
 .bg-success {
-    background: #00aeef !important;
+  background: #00aeef !important;
 }
 
 .bg-primary {
-    background: #005778 !important;
+  background: #005778 !important;
 }
 
 .bg-info {
-    background: #939393 !important;
+  background: #939393 !important;
 }
 
 .bg-warning {
-    background: #b11116 !important;
+  background: #b11116 !important;
 }
 
 .bg-danger {
-    background: #d0797c !important;
+  background: #d0797c !important;
 }
 
 .bg-dark {
-    background: #1C1340 !important;
+  background: #1c1340 !important;
 }
 
 .btn-primary {
-    background: #005778 !important;
-    border-color: #005778 !important;
+  background: #005778 !important;
+  border-color: #005778 !important;
 }
 
 .btn-danger {
-    background: #d0797c !important;
-    border-color: #d0797c !important;
+  background: #d0797c !important;
+  border-color: #d0797c !important;
 }
 
 .btn-warning {
-    background: #b11116 !important;
-    border-color: #b11116 !important;
-    color: #fff;
+  background: #b11116 !important;
+  border-color: #b11116 !important;
+  color: #fff;
 }
 
 .page-link {
-    color: #005778;
+  color: #005778;
 }
 
 .page-item.active .page-link {
-    color: #fff;
-    background-color: #005778;
-    border-color: #005778;
+  color: #fff;
+  background-color: #005778;
+  border-color: #005778;
 }
 
 .common-bg {
-    background-color: #1C1340;
+  background-color: #1c1340;
 }
 
 #apks-info {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 #apks-info > a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #1C1340;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c1340;
 }
 
 #apks-info > a:hover {
-    color: darkgray;
+  color: darkgray;
 }
 
 .app-logo {
-    height: 20px;
-    margin-top: -10px;
+  height: 20px;
+  margin-top: -10px;
 }
 
-#map-mun, #map-pro {
-    background-color: #ffffff;
-    min-height: 383px;
+#map-mun,
+#map-pro {
+  background-color: #ffffff;
+  min-height: 383px;
 }
 
 #project {
-    text-align: center;
+  text-align: center;
 }
 
 .rounded {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .border {
-    border-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-color: #1C1340;
+  border-bottom-style: solid;
+  border-color: #1c1340;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
 }
 
 #gen-info {
-    color: #ffffff;
-    background-color: #1C1340;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #1c1340;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.8rem;
 }
 
 .gen-info-item {
-    margin-bottom: 1px;
-    font-size: 0.9rem;
+  margin-bottom: 1px;
+  font-size: 0.9rem;
 }
 
 #logo-container {
-    background-color: #D1D2D4;
-    margin-left: 5px;
+  background-color: #d1d2d4;
+  margin-left: 5px;
 }
 
 #first-block {
-    min-height: 100px;
-    margin-top: 5px;
+  min-height: 100px;
+  margin-top: 5px;
 }
 
-#daily-single-info, #countries-info, #ages-info, #countries-info-pie, #daily-deads-info, #daily-recovers-info {
-    height: 180px;
+#daily-single-info,
+#countries-info,
+#ages-info,
+#countries-info-pie,
+#daily-deads-info,
+#daily-recovers-info {
+  height: 180px;
 }
 
-
-#sex-container, #contagio-container {
-    height: 180px;
-    margin-top: 10px;
-    margin-right: 10px;
+#sex-container,
+#contagio-container {
+  height: 180px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .card,
 .card-deck > .card,
 #apks-info {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 #countries-container {
-    margin-left: 5px;
-    margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #daily-container-block {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
-
 #ages-container {
-    margin-right: 10px;
-    margin-left: 5px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 .erase-right {
-    padding-right: 0px;
+  padding-right: 0px;
 }
 
 .erase-left {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
-#sex-info, #contagio-info {
-    height: 160px;
+#sex-info,
+#contagio-info {
+  height: 160px;
 }
 
 .bd {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .leaflet-popup-content-wrapper {
-    padding: 0px;
+  padding: 0px;
 }
 
 .leaflet-popup-content {
-    margin: 0px;
+  margin: 0px;
 }
 
 .small-pname {
-    color: #fff;
-    font-size: 13px;
-    width: 100%;
-    background-color: #1C1340;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding-top: 8px;
-    padding-bottom: 2px;
+  color: #fff;
+  font-size: 13px;
+  width: 100%;
+  background-color: #1c1340;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-top: 8px;
+  padding-bottom: 2px;
 }
 
 .small-content {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
-.small-pname, .small-plink, .small-content {
-    padding-left: 10px;
-    padding-right: 15px;
+.small-pname,
+.small-plink,
+.small-content {
+  padding-left: 10px;
+  padding-right: 15px;
 }
 
 #logo {
-    height: 70px;
-    margin-left: 0px;
+  height: 70px;
+  margin-left: 0px;
 }
 
 .text-block {
-    color: #1C1340;
-    margin-left: 10px;
-    font-weight: bold;
+  color: #1c1340;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 #select-map {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .map-quote {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 #team > p {
-    font-weight: bold;
-    color: #1C1340;
+  font-weight: bold;
+  color: #1c1340;
 }
 
 #team {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 #team-logos {
-    text-align: center;
-
+  text-align: center;
 }
 
 .team-logo {
-    height: 50px;
+  height: 50px;
 }
 
 #info {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #date {
-    text-align: right;
+  text-align: right;
 }
 
 .map-legend {
-    text-align: center;
+  text-align: center;
 }
 
 #map-legend-container {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 #cases0 {
-    color: #D1D2D4;
+  color: #d1d2d4;
 }
 
-#countries-comparison, #countries-curve {
-    height: 180px;
+#countries-comparison,
+#countries-curve {
+  height: 180px;
 }
 
 #daily-container {
-    margin-top: 5px;
-    height: 260px;
+  margin-top: 5px;
+  height: 260px;
 }
 
-#daily-sum-info, #tests-donut-info {
-    height: 225px;
+#daily-sum-info,
+#tests-donut-info {
+  height: 225px;
 }
 
 #tests-line-info {
-    height: 208px;
+  height: 208px;
 }
 
 #daily-porciento-positivos {
-    height: 280px;
+  height: 280px;
 }
 
-#stringencycub-evol{
-	height: 250px;
+#stringencycub-evol {
+  height: 250px;
 }
 
 #repnumber-chart {
-	height: 280px;
+  height: 280px;
 }
 
 #repnumber_nodata {
-	padding-top: 100px;
-	text-align: center;
+  padding-top: 100px;
+  text-align: center;
 }
 
 #countriescurve-info {
-    min-height: 260px;
-    margin-left: 5px;
-    margin-right: 20px;
-    text-align: left;
+  min-height: 260px;
+  margin-left: 5px;
+  margin-right: 20px;
+  text-align: left;
 }
 
 #countrycurve-select {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .sub {
-    font-weight: normal;
-    margin-top: 5px;
+  font-weight: normal;
+  margin-top: 5px;
 }
 
 #countriescurve-block-container {
-    margin-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .info-note {
-    color: red;
+  color: red;
 }
 
 .explain-text {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 #curves-evolution {
-    height: 450px;
+  height: 450px;
 }
 
-#cusobu, #fr, #swlx, #jc {
-    height: 25px;
+#cusobu,
+#fr,
+#swlx,
+#jc {
+  height: 25px;
 }
 
 #replicas {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #stringencycub-value {
-	text-align: center;
+  text-align: center;
 }
 
 #stringencycub-idx {
-	font-weight: bold;
-	color: #B01E22;
+  font-weight: bold;
+  color: #b01e22;
 }
 
 .card-header {
-    padding: .25rem 0.85rem;
+  padding: 0.25rem 0.85rem;
 }
 
 .card.common-bg .card-header {
-    color: white;
+  color: white;
 }
 
 .card.common-bg .card-body {
-    background-color: white;
-    border-bottom-left-radius: .25rem;
-    border-bottom-right-radius: .25rem;
+  background-color: white;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .card .card-body.common-bg {
-    color: white;
+  color: white;
 }
 
 .footer {
-    background-color: rgba(18, 19, 64, 0.2);
+  background-color: rgba(18, 19, 64, 0.2);
 }
 
 #stats-cards .card-body {
-    padding: .25em 15px;
+  padding: 0.25em 15px;
 }
 
 #stats-cards .card-body {
-    font-weight: bold;
-    font-size: 2.5em;
-    line-height: 1em;
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 1em;
 }
 
 #general h2 {
-    text-transform: uppercase;
-    font-size: .70em;
-    font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: bold;
 }
 
 .navbar-stat {
-    width: 130px;
-    text-align: center;
-    padding: .5em 1em;
-    font-weight: bold;
-    margin: 0;
+  width: 130px;
+  text-align: center;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  margin: 0;
 }
 
 .navbar-stats > .card {
-    display: inline-block;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    width: 142px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  width: 142px;
 }
 
 .navbar-stats > .card > .card-body {
-    padding: 5px 15px;
-    line-height: 1;
-    font-size: 2.5em;
+  padding: 5px 15px;
+  line-height: 1;
+  font-size: 2.5em;
 }
 
 .navbar-stats > .card > .card-footer {
-    padding: 2px 10px;
-    font-size: .75em;
+  padding: 2px 10px;
+  font-size: 0.75em;
 }
 
 .stat-number {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .stat-number i {
-    padding: 8px;
+  padding: 8px;
 }
 
 .stat-label {
-    text-transform: uppercase;
-    font-size: .75em;
+  text-transform: uppercase;
+  font-size: 0.75em;
 }
 
 [data-view="province"] {
-    display: none !important;
+  display: none !important;
 }
 
 #compari > .card-header > ul.nav {
-    margin-top: .3em;
-    margin-bottom: -0.5rem;
+  margin-top: 0.3em;
+  margin-bottom: -0.5rem;
 }
 
-#compari > .card-header > ul.nav > li > a:not([class*='active']) {
-    color: white;
+#compari > .card-header > ul.nav > li > a:not([class*="active"]) {
+  color: white;
 }
 
 #compari .text-block.sub {
-    text-align: center;
-    margin-bottom: 1em;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 #compari .fa {
-    line-height: 1.3;
+  line-height: 1.3;
 }
-
 
 #evomade-form {
-	margin-top: 0px;
-	margin-bottom: 10px;
-	margin-left: 35px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 35px;
 }
 
-#evomade-form>p{
-	margin-bottom: 5px;
+#evomade-form > p {
+  margin-bottom: 5px;
 }
 
 .dataTables_info {
-    white-space: normal !important;
+  white-space: normal !important;
 }
 
-table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
-table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
-    content: "" !important;
-    display: none !important;
+table.dataTable.dtr-inline.collapsed
+  > tbody
+  > tr[role="row"]
+  > td:first-child:before,
+table.dataTable.dtr-inline.collapsed
+  > tbody
+  > tr[role="row"]
+  > th:first-child:before {
+  content: "" !important;
+  display: none !important;
 }
 
 .dataTables_wrapper .row:first-child,
 .dataTables_wrapper .row:nth-child(3) {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .dtr-details {
-    width: 100%;
+  width: 100%;
 }
 
 .alert-text {
-	margin-bottom: 0px;	
-	text-align: center;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
+  #stats-cards .card {
+    margin: 0 7px 1em;
+  }
 
-    #stats-cards .card {
-        margin: 0 7px 1em;
-    }
+  #stats-cards > .card-deck > .card:first-child,
+  #stats-cards > .card-deck > .card:nth-of-type(4) {
+    margin-left: 15px;
+  }
 
-    #stats-cards > .card-deck > .card:first-child,
-    #stats-cards > .card-deck > .card:nth-of-type(4) {
-        margin-left: 15px;
-    }
+  #stats-cards > .card-deck > .card:nth-of-type(3),
+  #stats-cards > .card-deck > .card:last-child {
+    margin-right: 15px;
+  }
 
-    #stats-cards > .card-deck > .card:nth-of-type(3),
-    #stats-cards > .card-deck > .card:last-child {
-        margin-right: 15px;
-    }
+  #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
+  #line-charts > .card-deck-2 > section.card:nth-of-type(odd) {
+    margin-right: 7px;
+  }
 
-    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
-    #line-charts > .card-deck-2 > section.card:nth-of-type(odd) {
-        margin-right: 7px;
-    }
+  #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even),
+  #line-charts > .card-deck-2 > section.card:nth-of-type(even) {
+    margin-left: 7px;
+  }
 
-    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even),
-    #line-charts > .card-deck-2 > section.card:nth-of-type(even) {
-        margin-left: 7px;
-    }
+  .card-deck-3 > .card:nth-of-type(1) {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
 
-    .card-deck-3 > .card:nth-of-type(1) {
-        margin-left: 15px !important;
-        margin-right: 15px !important;
-    }
+  .card-deck-3 > .card:nth-of-type(odd) {
+    margin-left: 7px;
+    margin-right: 15px;
+  }
 
-    .card-deck-3 > .card:nth-of-type(odd) {
-        margin-left: 7px;
-        margin-right: 15px;
-    }
-
-    .card-deck-3 > .card:nth-of-type(even) {
-        margin-left: 15px;
-        margin-right: 7px;
-    }
+  .card-deck-3 > .card:nth-of-type(even) {
+    margin-left: 15px;
+    margin-right: 7px;
+  }
 }
 
 @media (min-width: 768px) {
+  #stats-cards > .row > div:nth-child(3n + 1) {
+    padding-left: 15px;
+    padding-right: 7px;
+  }
 
-    #stats-cards > .row > div:nth-child(3n+1) {
-        padding-left: 15px;
-        padding-right: 7px;
-    }
+  #stats-cards > .row > div:nth-child(3n + 2) {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 
-    #stats-cards > .row > div:nth-child(3n+2) {
-        padding-left: 7px;
-        padding-right: 7px;
-    }
+  #stats-cards > .row > div:nth-child(3n + 0) {
+    padding-left: 7px;
+    padding-right: 15px;
+  }
 
-    #stats-cards > .row > div:nth-child(3n+0) {
-        padding-left: 7px;
-        padding-right: 15px;
-    }
+  #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
+  #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even) {
+    margin-left: 0;
+    margin-right: 15px;
+  }
 
-    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(odd),
-    #top-row > .row > .col-md-3 > .card-deck > section.card:nth-of-type(even) {
-        margin-left: 0;
-        margin-right: 15px;
-    }
+  #tables > .card-deck > section.card:nth-of-type(odd),
+  #national-comparison > .card-deck > section.card:nth-of-type(odd),
+  #top-countries > .card-deck > section.card:nth-of-type(odd) {
+    margin-right: 7px;
+  }
 
-    #tables > .card-deck > section.card:nth-of-type(odd),
-    #national-comparison > .card-deck > section.card:nth-of-type(odd),
-    #top-countries > .card-deck > section.card:nth-of-type(odd) {
-        margin-right: 7px;
-    }
+  #tables > .card-deck > section.card:nth-of-type(even),
+  #national-comparison > .card-deck > section.card:nth-of-type(even),
+  #top-countries > .card-deck > section.card:nth-of-type(even) {
+    margin-left: 7px;
+  }
 
-    #tables > .card-deck > section.card:nth-of-type(even),
-    #national-comparison > .card-deck > section.card:nth-of-type(even),
-    #top-countries > .card-deck > section.card:nth-of-type(even) {
-        margin-left: 7px;
-    }
+  #compari > .card-header > form {
+    float: left;
+  }
 
-    #compari > .card-header > form {
-        float: left;
-    }
+  #compari > .card-header > ul.nav-justified {
+    float: right;
+  }
 
-    #compari > .card-header > ul.nav-justified {
-        float: right;
-    }
-
-    #compari > .card-header > ul.nav-justified > li {
-        flex-basis: auto;
-        flex-grow: 0;
-    }
+  #compari > .card-header > ul.nav-justified > li {
+    flex-basis: auto;
+    flex-grow: 0;
+  }
 }
 
 @media (min-width: 992px) {
+  #stats-cards .card,
+  #stats-cards > .card-deck > .card:nth-of-type(3),
+  #stats-cards > .card-deck > .card:nth-of-type(4) {
+    margin: 0 7px 1em;
+  }
 
-    #stats-cards .card,
-    #stats-cards > .card-deck > .card:nth-of-type(3),
-    #stats-cards > .card-deck > .card:nth-of-type(4) {
-        margin: 0 7px 1em;
-    }
+  #stats-cards > .card-deck > .card:first-child {
+    margin-left: 15px;
+  }
 
-    #stats-cards > .card-deck > .card:first-child {
-        margin-left: 15px;
-    }
+  #stats-cards > .card-deck > .card:last-child {
+    margin-right: 15px;
+  }
 
-    #stats-cards > .card-deck > .card:last-child {
-        margin-right: 15px;
-    }
+  .card-deck-3 > .card:nth-of-type(3n + 1) {
+    margin-left: 15px;
+    margin-right: 7px !important;
+  }
 
-    .card-deck-3 > .card:nth-of-type(3n+1) {
-        margin-left: 15px;
-        margin-right: 7px !important;
-    }
+  .card-deck-3 > .card:nth-of-type(3n + 2) {
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+  }
 
-    .card-deck-3 > .card:nth-of-type(3n+2) {
-        margin-left: 7px !important;
-        margin-right: 7px !important;
-    }
-
-    .card-deck-3 > .card:nth-of-type(3n+0) {
-        margin-left: 7px !important;
-        margin-right: 15px !important;
-    }
+  .card-deck-3 > .card:nth-of-type(3n + 0) {
+    margin-left: 7px !important;
+    margin-right: 15px !important;
+  }
 }
 
 div.dataTables_wrapper div.dataTables_filter input {
-    width: 80% !important;
+  width: 80% !important;
 }
