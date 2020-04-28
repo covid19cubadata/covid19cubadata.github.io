@@ -32194,7 +32194,10 @@
                 "tests_total": 43508,
                 "recuperados_numero": 50,
                 "graves_numero": 12,
-                "muertes_numero": 2
+                "muertes_numero": 2,
+                "muertes_id": [
+                    "cu-1407"
+                ]
             }
         }
     }
