@@ -293,6 +293,12 @@ body > div {
   color: #d1d2d4;
 }
 
+#buttons-container {
+	margin-top: 5px;
+	text-align: center;
+	
+}
+
 #countries-comparison,
 #countries-curve {
   height: 180px;
@@ -359,8 +365,8 @@ body > div {
   margin-left: 5px;
 }
 
-#curves-evolution {
-  height: 450px;
+#curves-evolution, #scatter-plot {
+  height: 500px;
 }
 
 #cusobu,
