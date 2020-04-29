@@ -177,7 +177,6 @@
     opacity: 0.5;
 }
 
-
 .filtertodo {
     color: white;
     background-color: #B1B1B1;
@@ -187,7 +186,7 @@
 }
 
 .big {
-    font-size: 30;
+    font-size: 30px;
 }
 
 

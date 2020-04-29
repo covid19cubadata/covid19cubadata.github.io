@@ -649,3 +649,7 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
 div.dataTables_wrapper div.dataTables_filter input {
   width: 80% !important;
 }
+
+.ui-slider .ui-slider-handle {
+  z-index: 1;
+}
