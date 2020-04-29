@@ -27,6 +27,11 @@
     <link href="css/c3.css" rel="stylesheet">
     <link href="css/select2.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <style rel="stylesheet">
+        .c3-circle {
+            opacity: 0.8 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -239,6 +244,8 @@
                     <form class="form-inline">
                         <select id="country_selector_2" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
                         </select>
+                        <button type="button" class="btn btn-light" onclick="$.plotAllCountries();">Agregar todo</button>
+                        <button type="button" class="btn btn-light" onclick="$.resetCountries();">Resetear</button>
                     </form>
                 </div>
                 <div id="scatter-plot"></div>

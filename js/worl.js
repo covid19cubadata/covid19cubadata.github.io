@@ -475,7 +475,7 @@ function scatter_plot(label, x_data, col_data){
             position: 'outer-middle'
         },
         tick: {
-            format: d3.format('.1f')
+            format: d3.format('.0f')
         }
     };
     yconf = {
@@ -484,7 +484,7 @@ function scatter_plot(label, x_data, col_data){
             position: 'outer-middle'
         },
         tick: {
-            format: d3.format('.1f')
+            format: d3.format('.0f')
         }
     };
     points = {
@@ -496,10 +496,9 @@ function scatter_plot(label, x_data, col_data){
     };
     tooltip={
         format: {
-            title: function (d) {return 'Test por millón de habitantes ' + Math.round(d); },
+            title: function (d) {return 'Test por millón de habitantes ' + d3.format('.0f')(d); },
             value: function (value, ratio, id) {
-                var format = id === 'data1' ? d3.format(',') : d3.format('$');
-                return (Math.round(value*100)/100)+'%';
+                return d3.format('.2f')(value)+'%';
             }
 //            value: d3.format(',') // apply this format to both y and y2
         }
@@ -858,6 +857,7 @@ function run_calculations() {
                 data: countrysorted,
                 closeOnSelect: true
             });
+
             $("#country_selector").on("select2:unselect", function (evt) {
                 if (!evt.params.originalEvent) {
                   return;
@@ -938,7 +938,7 @@ function run_calculations() {
                 closeOnSelect: true
             });
 
-            let test_countries_top=[];
+            var test_countries_top=[];
             for (var i = 0; i < countrysorted2.length; i++) {
                 if(countrysorted2[i] in curves_test){
                     test_countries_top.push(countrysorted2[i]);
@@ -963,6 +963,41 @@ function run_calculations() {
             columdata2.push(test_effective);
 
             curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+
+            function plot_all_countries(){
+                $country_selector2.val(test_countries).trigger("change");
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < test_countries.length; i++) {
+                    xaxisdata2[test_countries[i]]=test_countries[i]+'-per-million';
+                    columdata2.push(curves_test[test_countries[i]].x);
+                    columdata2.push(curves_test[test_countries[i]].y);
+                }
+                xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+                columdata2.push(test_cases_per_million);
+                columdata2.push(test_effective);
+
+                curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            }
+
+            function reset_countries(){
+                $country_selector2.val(test_countries_top).trigger("change");
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < test_countries_top.length; i++) {
+                    xaxisdata2[test_countries_top[i]]=test_countries_top[i]+'-per-million';
+                    columdata2.push(curves_test[test_countries_top[i]].x);
+                    columdata2.push(curves_test[test_countries_top[i]].y);
+                }
+                xaxisdata2[test_effective[0]] = test_cases_per_million[0];
+                columdata2.push(test_cases_per_million);
+                columdata2.push(test_effective);
+
+                curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            }
+
+            $.plotAllCountries = plot_all_countries;
+            $.resetCountries = reset_countries;
 
             $country_selector2.val(countrysorted2.slice(0,topn)).trigger("change");
             $("#country_selector_2").on("select2:unselect", function (evt) {
