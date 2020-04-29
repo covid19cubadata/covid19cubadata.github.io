@@ -1,5 +1,6 @@
 import csv
 import json
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -14,6 +15,11 @@ def change_date(dat):
     if len(m) == 1:
         m = '0' + m
     return t[0] + '/' + m + '/' + t[2]
+
+
+def load_index_backup():
+    with open(BASE_PATH / 'data' / 'oxford-indexes-backup.json') as oxford_indexes_backup:
+        return json.load(oxford_indexes_backup)
 
 
 def get_oxford_index():
@@ -88,13 +94,36 @@ def generate_csv():
         f.flush()
         f.close()
 
+def get_countries_test():
+    data2 = requests.get('https://covid.ourworldindata.org/data/owid-covid-data.csv').content
+    data2 = io.StringIO(data2.decode('utf8'))
+    reader = csv.reader(data2)
+    data = defaultdict(lambda : defaultdict(list))
+    next(reader)
+    for i in reader:
+        if i[-1]:
+            percent = int(i[3])/float(i[-5])*100
+            data[i[0]]['test_efectivity'].append(percent)
+            data[i[0]]['total_tests_per_million'].append(float(i[-3])*1000)
+    path = os.path.join('data', 'countries_test.json')
+    json.dump(data,open(path,'w'))
+    for i in data.keys():
+        data[i]['test_efectivity']=data[i]['test_efectivity'][-1]
+        data[i]['total_tests_per_million']=data[i]['total_tests_per_million'][-1]
+    return data
+
 
 def main():
-    indexes = get_oxford_index()
+    #indexs = get_oxford_index()
+    indexes = load_index_backup()
     print('Oxford Index generated')
+
+    tests = get_countries_test()
+    print('Countries tests generated')
 
     data = get_json_info()
     data['indexes'] = indexes
+    data['tests'] = tests
     with open(BASE_PATH / 'data' / 'paises-info-dias.json', 'w') as countries_info:
         json.dump(data, countries_info)
         countries_info.close()
