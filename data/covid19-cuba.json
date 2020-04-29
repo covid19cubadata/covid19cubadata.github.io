@@ -2193,6 +2193,30 @@
             "lat": 21.745226,
             "abierto": true,
             "chequeado": false
+        },
+        "estg-1": {
+            "id": "estg-1",
+            "identificador": "Reparto Marimón",
+            "municipio": "Santiago de Cuba",
+            "provincia": "Santiago de cuba",
+            "dpacode_municipio": "34.06",
+            "dpacode_provincia": "34",
+            "lon": -75.850496,
+            "lat": 20.047420,
+            "abierto": true,
+            "chequeado": false
+        },
+        "estg-2": {
+            "id": "estg-2",
+            "identificador": "Poblado de Boniato",
+            "municipio": "Santiago de Cuba",
+            "provincia": "Santiago de cuba",
+            "dpacode_municipio": "34.06",
+            "dpacode_provincia": "34",
+            "lon": -75.803810,
+            "lat": 20.081182, 
+            "abierto": true,
+            "chequeado": false
         }
     },
     "centros_aislamiento": {
