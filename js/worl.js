@@ -339,7 +339,6 @@ var trans_countries = {
     'Fiji': 'Fiyi',
 };
 
-$.ajaxSetup({cache: false});
 $.c3 = c3;
 
 var cuba_population = 11209628;
@@ -520,6 +519,16 @@ function scaleY(num) {
     return Math.log10(num);
 }
 
+function load(url, callback) {
+    cache = false;
+    $.ajax({
+        url: url,
+        dataType: 'json',
+        cache: cache,
+        success: callback
+      });
+}
+
 function run_calculations() {
 
     var curves = {};
@@ -530,8 +539,8 @@ function run_calculations() {
     var curves2 = {};
     var countrysorted2 = [];
 
-    $.getJSON("data/paises-info-dias.json", function (countriesdays) {
-        $.getJSON("data/covid19-cuba.json", function (data) {
+    load("data/paises-info-dias.json", function (countriesdays) {
+        load("data/covid19-cuba.json", function (data) {
 
             var dias = ['Días'];
             var cuba = ['Cuba'];

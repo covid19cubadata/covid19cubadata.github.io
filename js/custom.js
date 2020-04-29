@@ -418,8 +418,6 @@ var population = {
     '40.01': 83801,//IJV
 }
 
-$.ajaxSetup({cache: false});
-
 var openIcon = new L.Icon({
 	iconUrl: 'images/marker-icon-2x-gold.png',
 	shadowUrl: 'images/marker-shadow.png',
@@ -543,10 +541,19 @@ $.walker = {
     load: function (url, callback) {
         if (url in $.walker.loaded)
             return callback(Object.assign({}, $.walker.loaded[url]), false);
-        $.getJSON(url, function (data) {
-            $.walker.loaded[url] = Object.assign({}, data);
-            callback(data, true);
-        });
+        cache = false;
+        if(url.search('provincias.geojson')!==-1 || url.search('municipios.geojson')!==-1){
+            cache=true;
+        }
+        $.ajax({
+            url: url,
+            dataType: 'json',
+            cache: cache,
+            success: function (data) {
+                $.walker.loaded[url] = Object.assign({}, data);
+                callback(data, true);
+            }
+          });
     },
     province: {
         list: {features: []},
