@@ -225,7 +225,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container-fluid">
         <div id="evotests" class="card common-bg">
             <div class="card-header">
@@ -280,6 +280,8 @@
                 <form class="form-inline">
                     <select id="country_selector" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
                     </select>
+                    <button type="button" class="btn btn-secondary" onclick="$.plotAllCountriesCurves();">Ver todos los países</button>&nbsp;&nbsp;
+                    <button type="button" class="btn btn-secondary" onclick="$.resetCountriesCurves();">Ver países iniciales</button>
                 </form>
                 </div>
                 <div id="curves-evolution"></div>
