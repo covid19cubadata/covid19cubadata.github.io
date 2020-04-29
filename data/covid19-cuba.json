@@ -2182,18 +2182,6 @@
             "abierto": true,
             "chequeado": true
         },
-        "eijv-2": {
-            "id": "eijv-2",
-            "identificador": "Consejo Popular Abel Santamaría",
-            "municipio": "Isla de la Juventud",
-            "provincia": "Isla de la Juventud",
-            "dpacode_municipio": "40.01",
-            "dpacode_provincia": "40.01",
-            "lon": -82.810281,
-            "lat": 21.890710,
-            "abierto": true,
-            "chequeado": true
-        },
         "eijv-3": {
             "id": "eijv-3",
             "identificador": "Consejo Popular La Fé",
