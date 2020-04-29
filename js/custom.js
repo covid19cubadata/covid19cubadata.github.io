@@ -561,14 +561,13 @@ $.walker = {
             const $target = $(target);
             let remaining = {};
             let sorteddata = [];
+            let prob_set={};
             for (const i in $.walker.province.list.features) {
                 const province = $.walker.province.list.features[i].properties;
-                /*if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
-                    $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
-                }*/
-                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida') {
+                if (!(province.DPA_province_code in prob_set) && province.province !== 'Desconocida') {
                     sorteddata.push($.walker.province.list.features[i].properties);
-                    $.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
+                    prob_set[province.DPA_province_code]=0;
+                    //$.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
@@ -608,14 +607,15 @@ $.walker = {
             let sorteddata = [];
             $('#munscurve-select1').find('option').remove();
             $('#munscurve-select2').find('option').remove();
+            let set_mun = {}
             for (const i in $.walker.municipality.list.features) {
                 const municipality = $.walker.municipality.list.features[i].properties;
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
-                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido') {
+                    if ( !(municipality.DPA_municipality_code in set_mun) && municipality.municipality !== 'Desconocido') {
                         sorteddata.push($.walker.municipality.list.features[i].properties);
-                        $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
+                        set_mun[municipality.DPA_municipality_code]=0;
                     }
                 }
             }
@@ -628,11 +628,13 @@ $.walker = {
                 else
                     return 1;
             });
+            let dom_data = '';
             for (var j = 0; j < sorteddata.length; j++) {
                 const municipality2 = sorteddata[j];
-                $('#munscurve-select1').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
-                $('#munscurve-select2').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
+                dom_data += '<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>\n';
             }
+            $('#munscurve-select1').append(dom_data);
+            $('#munscurve-select2').append(dom_data);
             $.walker.municipality.list.features = features;
             return remaining;
         },
