@@ -920,6 +920,41 @@ function run_calculations() {
 
             curve3 = paint_comparison_countries("#curves-evolution", xaxisdata, columdata);
 
+            function plot_all_countries_curves(){
+                $country_selector.val(countrysorted2).trigger("change");
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < countrysorted2.length; i++) {
+                    xaxisdata2[countrysorted2[i]]='Confirmados-' + countrysorted2[i];
+                    columdata2.push(curves2[countrysorted2[i]]['weeks']);
+                    columdata2.push(curves2[countrysorted2[i]]['cummulative_sum']);
+                }
+                xaxisdata2['Cuba'] = 'Confirmados-Cuba';
+                columdata2.push(curves2['Cuba']['weeks']);
+                columdata2.push(curves2['Cuba']['cummulative_sum']);
+
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata2, columdata2);
+            }
+
+            function reset_countries_curves(){
+                $country_selector.val(countrysorted2.slice(0,topn)).trigger("change");
+                let xaxisdata2 = {};
+                let columdata2 = [];
+                for (var i = 0; i < topn; i++) {
+                    xaxisdata2[countrysorted2[i]]='Confirmados-' + countrysorted2[i];
+                    columdata2.push(curves2[countrysorted2[i]]['weeks']);
+                    columdata2.push(curves2[countrysorted2[i]]['cummulative_sum']);
+                }
+                xaxisdata2['Cuba'] = 'Confirmados-Cuba';
+                columdata2.push(curves2['Cuba']['weeks']);
+                columdata2.push(curves2['Cuba']['cummulative_sum']);
+
+                curve3 = paint_comparison_countries("#curves-evolution", xaxisdata2, columdata2);
+            }
+
+            $.plotAllCountriesCurves = plot_all_countries_curves;
+            $.resetCountriesCurves = reset_countries_curves;
+
 
             var test_countries = [];
             var curves_test = {};
