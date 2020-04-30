@@ -1466,3 +1466,37 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,26,cu,Cárdenas,Matanzas,2020/04/28,,secundario
 ,hombre,10,cu,Báguanos,Holguín,2020/04/28,,secundario
 ,hombre,19,cu,Palma Soriano,Santiago de Cuba,2020/04/28,,desconocido
+,hombre,1,cu,Plaza de la Revolución,La Habana,2020/04/29,,desconocido
+,hombre,19,cu,Guanabacoa,La Habana,2020/04/29,,secundario
+,mujer,44,cu,Cerro,La Habana,2020/04/29,,secundario
+,mujer,45,cu,Arroyo Naranjo,La Habana,2020/04/29,,secundario
+,mujer,95,cu,La Lisa,La Habana,2020/04/29,,desconocido
+,hombre,28,cu,La Lisa,La Habana,2020/04/29,,secundario
+,mujer,27,cu,Boyeros,La Habana,2020/04/29,,secundario
+,hombre,30,cu,Playa,La Habana,2020/04/29,,secundario
+,hombre,57,cu,Cerro,La Habana,2020/04/29,,secundario
+,hombre,49,cu,Plaza de la Revolución,La Habana,2020/04/29,,secundario
+,hombre,35,cu,Cerro,La Habana,2020/04/29,,secundario
+,hombre,49,cu,Centro Habana,La Habana,2020/04/29,,secundario
+,mujer,52,cu,Cerro,La Habana,2020/04/29,,secundario
+,mujer,53,cu,Cerro,La Habana,2020/04/29,,secundario
+,mujer,58,cu,Cerro,La Habana,2020/04/29,,secundario
+,mujer,51,cu,Marianao,La Habana,2020/04/29,,secundario
+,hombre,32,cu,Marianao,La Habana,2020/04/29,,secundario
+,hombre,56,cu,Cerro,La Habana,2020/04/29,,secundario
+,mujer,52,cu,Jagüey Grande,Matanzas,2020/04/29,,desconocido
+,hombre,45,cu,Cárdenas,Matanzas,2020/04/29,,secundario
+,mujer,30,cu,Limonar,Matanzas,2020/04/29,,secundario
+,mujer,27,cu,Cárdenas,La Habana,2020/04/29,,secundario
+,hombre,61,cu,Cárdenas,Matanzas,2020/04/29,,secundario
+,mujer,57,cu,Cárdenas,Matanzas,2020/04/29,,secundario
+,hombre,51,cu,Jovellanos,Matanzas,2020/04/29,,secundario
+,mujer,23,cu,Cárdenas,La Habana,2020/04/29,,secundario
+,mujer,32,cu,Jagüey Grande,Matanzas,2020/04/29,,secundario
+,mujer,27,cu,Jagüey Grande,La Habana,2020/04/29,,desconocido
+,mujer,21,cu,Cienfuegos,Cienfuegos,2020/04/29,,secundario
+,hombre,50,cu,Cienfuegos,Cienfuegos,2020/04/29,,secundario
+,hombre,63,cu,Puerto Padre,Las Tunas,2020/04/29,,secundario
+,hombre,75,cu,Santiago de Cuba,Santiago de Cuba,2020/04/29,,desconocido
+,hombre,13,cu,Guantánamo,Guantánamo,2020/04/29,,secundario
+,mujer,47,cu,Isla de la Juventud,Isla de la Juventud,2020/04/29,,secundario
