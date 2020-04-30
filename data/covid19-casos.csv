@@ -1485,7 +1485,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,32,cu,Marianao,La Habana,2020/04/29,,secundario
 ,hombre,56,cu,Cerro,La Habana,2020/04/29,,secundario
 ,mujer,52,cu,Jagüey Grande,Matanzas,2020/04/29,,desconocido
-,hombre,45,cu,Cárdenas,Matanzas,2020/04/29,,secundario
+,mujer,45,cu,Cárdenas,Matanzas,2020/04/29,,secundario
 ,mujer,30,cu,Limonar,Matanzas,2020/04/29,,secundario
 ,mujer,27,cu,Cárdenas,Matanzas,2020/04/29,,secundario
 ,hombre,61,cu,Cárdenas,Matanzas,2020/04/29,,secundario
