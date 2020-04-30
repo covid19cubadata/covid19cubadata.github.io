@@ -1224,15 +1224,15 @@ function run_calculations() {
                                 x: 'Fecha',
                                 columns: [
                                     ['Fecha'].concat(index_days.slice(index_slice2)),
-                                    ['Stringencyv2'].concat(index_values_cuba_all.slice(index_slice2)),
-                                    ['Stringencyv1'].concat(index_values_cuba_legacy_all.slice(index_slice2)),
-                                    ['Confirmados'].concat(cuba),
+                                    ['Stringency actual (v2)'].concat(index_values_cuba_all.slice(index_slice2)),
+                                    ['Stringency previo (v1)'].concat(index_values_cuba_legacy_all.slice(index_slice2)),
+                                    ['Casos confirmados'].concat(cuba),
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Stringencyv2': '#B01E22',
-                                    'Stringencyv1': 'blue',
-                                    'Confirmados': '1C1340'
+                                    'Stringency actual (v2)': '#B01E22',
+                                    'Stringency previo (v1)': 'blue',
+                                    'Casos confirmados': '1C1340'
                                 },
                                 axes: {
                                     Stringency: 'y',
