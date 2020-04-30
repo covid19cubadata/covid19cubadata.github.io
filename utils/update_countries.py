@@ -20,13 +20,13 @@ def load_index_backup():
 
 def get_oxford_index():
     now = datetime.now()
-    indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
+    indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/v2/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
     data = {'data':{},'countries': indexes['countries']}
     for day,countries in indexes['data'].items():
         data['data'][day] = {}
         for country in countries:
             print(day,country,countries[country]['stringency'])
-            data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
+            data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual'], 'stringency_legacy': countries[country]['stringency_legacy'], 'stringency_legacy_disp': countries[country]['stringency_legacy_disp']}
     path = os.path.join('data', 'oxford-indexes.json')
     json.dump(data, open(path, 'w'))
     return data
@@ -118,8 +118,8 @@ def get_countries_test():
 
 def main():
 
-    #indexs = get_oxford_index()
-    indexs = load_index_backup()
+    indexs = get_oxford_index()
+    #indexs = load_index_backup()
     print('Oxford Index generated')
 
     tests = get_countries_test()

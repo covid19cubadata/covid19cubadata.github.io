@@ -418,8 +418,6 @@ var population = {
     '40.01': 83801,//IJV
 }
 
-$.ajaxSetup({cache: false});
-
 var openIcon = new L.Icon({
 	iconUrl: 'images/marker-icon-2x-gold.png',
 	shadowUrl: 'images/marker-shadow.png',
@@ -543,10 +541,19 @@ $.walker = {
     load: function (url, callback) {
         if (url in $.walker.loaded)
             return callback(Object.assign({}, $.walker.loaded[url]), false);
-        $.getJSON(url, function (data) {
-            $.walker.loaded[url] = Object.assign({}, data);
-            callback(data, true);
-        });
+        cache = false;
+        if(url.search('provincias.geojson')!==-1 || url.search('municipios.geojson')!==-1){
+            cache=true;
+        }
+        $.ajax({
+            url: url,
+            dataType: 'json',
+            cache: cache,
+            success: function (data) {
+                $.walker.loaded[url] = Object.assign({}, data);
+                callback(data, true);
+            }
+          });
     },
     province: {
         list: {features: []},
@@ -554,14 +561,13 @@ $.walker = {
             const $target = $(target);
             let remaining = {};
             let sorteddata = [];
+            let prob_set={};
             for (const i in $.walker.province.list.features) {
                 const province = $.walker.province.list.features[i].properties;
-                /*if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
-                    $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
-                }*/
-                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida') {
+                if (!(province.DPA_province_code in prob_set) && province.province !== 'Desconocida') {
                     sorteddata.push($.walker.province.list.features[i].properties);
-                    $.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
+                    prob_set[province.DPA_province_code]=0;
+                    //$.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
@@ -601,14 +607,15 @@ $.walker = {
             let sorteddata = [];
             $('#munscurve-select1').find('option').remove();
             $('#munscurve-select2').find('option').remove();
+            let set_mun = {}
             for (const i in $.walker.municipality.list.features) {
                 const municipality = $.walker.municipality.list.features[i].properties;
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
-                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido') {
+                    if ( !(municipality.DPA_municipality_code in set_mun) && municipality.municipality !== 'Desconocido') {
                         sorteddata.push($.walker.municipality.list.features[i].properties);
-                        $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
+                        set_mun[municipality.DPA_municipality_code]=0;
                     }
                 }
             }
@@ -621,11 +628,13 @@ $.walker = {
                 else
                     return 1;
             });
+            let dom_data = '';
             for (var j = 0; j < sorteddata.length; j++) {
                 const municipality2 = sorteddata[j];
-                $('#munscurve-select1').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
-                $('#munscurve-select2').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
+                dom_data += '<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>\n';
             }
+            $('#munscurve-select1').append(dom_data);
+            $('#munscurve-select2').append(dom_data);
             $.walker.municipality.list.features = features;
             return remaining;
         },
@@ -659,8 +668,6 @@ function run_calculations() {
         'autoctono': 0,
         'desconocido': 0
     };
-    $('#countries-curve-stringency-no-data').hide();
-    $('#countries-curve-stringency-no-data2').hide();
 
     $.walker.load("data/oxford-indexes.json", function (oxford_index) {
         $.walker.load("data/covid19-cuba.json", function (data) {
@@ -1183,44 +1190,54 @@ function run_calculations() {
                         }
                         index_days.sort();
                         let index_values_cuba_all = [];
+                        let index_values_cuba_legacy_all = [];
                         let index_last_value = 0;
-                        let stringency_countries = [];
+                        let index_last_value_legacy = 0;
+                        /*let stringency_countries = [];
                         for(var i=0;i<oxford_index.countries.length;i++){
                             if(oxford_index.countries[i] in countries_codes){
                                 stringency_countries.push(oxford_index.countries[i]);
                             }
-                        }
+                        }*/
                         for(var i in index_days){
                             var idx = '2020-'+index_days[i].replace('/','-');
                             if ('CUB' in oxford_index.data[idx]){
                                 var val = oxford_index.data[idx].CUB.stringency;
                                 index_values_cuba_all.push(val);
                                 index_last_value = Math.max(index_last_value, val);
+                                val = oxford_index.data[idx].CUB['stringency_legacy_disp'];
+                                index_values_cuba_legacy_all.push(val);
+                                index_last_value_legacy = Math.max(index_last_value_legacy, val)
                             } else {
                                 index_values_cuba_all.push(null);
+                                index_values_cuba_legacy_all.push(null);
                             }
                         }
                         $('#stringencycub-idx').html(index_last_value);
 
-                        let index_slice2 = index_days.length-cuba.length;
+
+                        let index_slice2 = index_days.length-cuba.length-1;
                         index_slice2 = Math.max(index_slice2,0);
                         stringency = c3.generate({
                             bindto: "#stringencycub-evol",
                             data: {
                                 x: 'Fecha',
                                 columns: [
-                                    ['Fecha'].concat(index_days.slice(0,index_slice2+cuba.length-1)),
-                                    ['Stringency'].concat(index_values_cuba_all),
-                                    ['Confirmados'].concat(Array.apply(null,Array(index_slice2)).map((x,i)=>null).concat(cuba.slice(1))),
+                                    ['Fecha'].concat(index_days.slice(index_slice2)),
+                                    ['Stringencyv2'].concat(index_values_cuba_all.slice(index_slice2)),
+                                    ['Stringencyv1'].concat(index_values_cuba_legacy_all.slice(index_slice2)),
+                                    ['Confirmados'].concat(cuba),
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Stringency': '#B01E22',
+                                    'Stringencyv2': '#B01E22',
+                                    'Stringencyv1': 'blue',
                                     'Confirmados': '1C1340'
                                 },
                                 axes: {
                                     Stringency: 'y',
-                                    Confirmados: 'y2'
+                                    Confirmados: 'y2',
+                                    Stringency_legacy: 'y',
                                 }
                             },
                             axis: {
@@ -1250,7 +1267,6 @@ function run_calculations() {
 								grid: {
 									x: {
 										lines: [
-											{'value': '01/28' , 'text': 'Análisis Plan de Prevención y Control '},
 											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
 											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
 											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
