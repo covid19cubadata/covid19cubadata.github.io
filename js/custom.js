@@ -668,8 +668,6 @@ function run_calculations() {
         'autoctono': 0,
         'desconocido': 0
     };
-    $('#countries-curve-stringency-no-data').hide();
-    $('#countries-curve-stringency-no-data2').hide();
 
     $.walker.load("data/oxford-indexes.json", function (oxford_index) {
         $.walker.load("data/covid19-cuba.json", function (data) {
@@ -1192,44 +1190,54 @@ function run_calculations() {
                         }
                         index_days.sort();
                         let index_values_cuba_all = [];
+                        let index_values_cuba_legacy_all = [];
                         let index_last_value = 0;
-                        let stringency_countries = [];
+                        let index_last_value_legacy = 0;
+                        /*let stringency_countries = [];
                         for(var i=0;i<oxford_index.countries.length;i++){
                             if(oxford_index.countries[i] in countries_codes){
                                 stringency_countries.push(oxford_index.countries[i]);
                             }
-                        }
+                        }*/
                         for(var i in index_days){
                             var idx = '2020-'+index_days[i].replace('/','-');
                             if ('CUB' in oxford_index.data[idx]){
                                 var val = oxford_index.data[idx].CUB.stringency;
                                 index_values_cuba_all.push(val);
                                 index_last_value = Math.max(index_last_value, val);
+                                val = oxford_index.data[idx].CUB['stringency_legacy_disp'];
+                                index_values_cuba_legacy_all.push(val);
+                                index_last_value_legacy = Math.max(index_last_value_legacy, val)
                             } else {
                                 index_values_cuba_all.push(null);
+                                index_values_cuba_legacy_all.push(null);
                             }
                         }
                         $('#stringencycub-idx').html(index_last_value);
 
-                        let index_slice2 = index_days.length-cuba.length;
+
+                        let index_slice2 = index_days.length-cuba.length-1;
                         index_slice2 = Math.max(index_slice2,0);
                         stringency = c3.generate({
                             bindto: "#stringencycub-evol",
                             data: {
                                 x: 'Fecha',
                                 columns: [
-                                    ['Fecha'].concat(index_days.slice(0,index_slice2+cuba.length-1)),
-                                    ['Stringency'].concat(index_values_cuba_all),
-                                    ['Confirmados'].concat(Array.apply(null,Array(index_slice2)).map((x,i)=>null).concat(cuba.slice(1))),
+                                    ['Fecha'].concat(index_days.slice(index_slice2)),
+                                    ['Stringencyv2'].concat(index_values_cuba_all.slice(index_slice2)),
+                                    ['Stringencyv1'].concat(index_values_cuba_legacy_all.slice(index_slice2)),
+                                    ['Confirmados'].concat(cuba),
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Stringency': '#B01E22',
+                                    'Stringencyv2': '#B01E22',
+                                    'Stringencyv1': 'blue',
                                     'Confirmados': '1C1340'
                                 },
                                 axes: {
                                     Stringency: 'y',
-                                    Confirmados: 'y2'
+                                    Confirmados: 'y2',
+                                    Stringency_legacy: 'y',
                                 }
                             },
                             axis: {
@@ -1259,7 +1267,6 @@ function run_calculations() {
 								grid: {
 									x: {
 										lines: [
-											{'value': '01/28' , 'text': 'Análisis Plan de Prevención y Control '},
 											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
 											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
 											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
