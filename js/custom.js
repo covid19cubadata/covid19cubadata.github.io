@@ -528,7 +528,7 @@ $.walker = {
             $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -1592,6 +1592,24 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        //Donut for cases info
+						c3.generate({
+							bindto: "#cases-pie-info",
+							data: {
+								columns: [['Fallecidos', deaths], ['Evacuados', gone], ['Recuperados', recov],['Activos', Object.keys(cases).length - (deaths+gone+recov)]],
+								type: 'donut',
+								colors: {
+									'Fallecidos': '#1C1340',
+									'Evacuados': '#939393',
+									'Recuperados': '#B11116',
+									'Activos': '#00AEEF'
+								}
+							},
+							donut: {
+								title: Object.keys(cases).length + " casos",
+							}
+						});
 
                         return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
                     }
@@ -1686,6 +1704,8 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
+                    
+                    
 
                     function getMunProfile(code, mun, pro) {
                         var t = '';
