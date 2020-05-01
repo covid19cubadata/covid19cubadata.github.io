@@ -1531,7 +1531,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,78,cu,Cotorro,La Habana,2020/04/30,,secundario
 ,mujer,53,cu,Martí,Matanzas,2020/04/30,,secundario
 ,mujer,75,cu,Matanzas,Matanzas,2020/04/30,,desconocido
-,mujer,51,cu,Jovellanos,La Habana,2020/04/30,,secundario
+,mujer,51,cu,Jovellanos,Matanzas,2020/04/30,,secundario
 ,mujer,53,cu,Manicaragua,Villa Clara,2020/04/30,,secundario
 ,hombre,30,cu,Sancti Spíritus,Sancti Spíritus,2020/04/30,,secundario
 ,hombre,64,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
