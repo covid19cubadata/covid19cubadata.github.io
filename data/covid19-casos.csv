@@ -1500,3 +1500,39 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,75,cu,Santiago de Cuba,Santiago de Cuba,2020/04/29,,desconocido
 ,hombre,13,cu,Guantánamo,Guantánamo,2020/04/29,,secundario
 ,mujer,47,cu,Isla de la Juventud,Isla de la Juventud,2020/04/29,,secundario
+,hombre,29,cu,San Miguel del Padrón,La Habana,2020/04/30,,secundario
+,hombre,56,cu,Boyeros,La Habana,2020/04/30,,secundario
+,hombre,43,cu,San Miguel del Padrón,La Habana,2020/04/30,,secundario
+,mujer,51,cu,Arroyo Naranjo,La Habana,2020/04/30,,secundario
+,mujer,41,cu,San Miguel del Padrón,La Habana,2020/04/30,,desconocido
+,mujer,51,cu,San Miguel del Padrón,La Habana,2020/04/30,,secundario
+,hombre,31,cu,Centro Habana,La Habana,2020/04/30,,secundario
+,mujer,63,cu,Centro Habana,La Habana,2020/04/30,,secundario
+,hombre,33,cu,Centro Habana,La Habana,2020/04/30,,secundario
+,mujer,30,cu,Centro Habana,La Habana,2020/04/30,,secundario
+,mujer,72,cu,La Habana Vieja,La Habana,2020/04/30,,secundario
+,hombre,42,cu,Cerro,La Habana,2020/04/30,,desconocido
+,hombre,69,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,49,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,79,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,72,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,77,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,67,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,57,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,60,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,72,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,28,cu,Centro Habana,La Habana,2020/04/30,,secundario
+,hombre,54,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,80,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,75,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,52,cu,Guanabacoa,La Habana,2020/04/30,,desconocido
+,hombre,59,cu,Cotorro,La Habana,2020/04/30,,secundario
+,hombre,43,cu,Habana del Este,La Habana,2020/04/30,,desconocido
+,hombre,78,cu,Cotorro,La Habana,2020/04/30,,secundario
+,mujer,53,cu,Martí,Matanzas,2020/04/30,,secundario
+,mujer,75,cu,Matanzas,Matanzas,2020/04/30,,desconocido
+,mujer,51,cu,Jovellanos,La Habana,2020/04/30,,secundario
+,mujer,53,cu,Manicaragua,Villa Clara,2020/04/30,,secundario
+,hombre,30,cu,Sancti Spíritus,Sancti Spíritus,2020/04/30,,secundario
+,hombre,64,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
+,hombre,31,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
