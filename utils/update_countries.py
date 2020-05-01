@@ -1,8 +1,10 @@
 import os
+import io
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 import json
 import csv
 from datetime import datetime
+from collections import defaultdict
 
 
 def change_date(dat):
@@ -11,21 +13,24 @@ def change_date(dat):
     if len(m) == 1:
         m = '0'+m
     return t[0]+'/'+m+'/'+t[2]
-    
-    
+
+def load_index_backup():
+    path = os.path.join('data', 'oxford-indexes-backup.json')
+    return json.load(open(path))
+
 def get_oxford_index():
-	now = datetime.now()
-	indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
-	data = {'data':{},'countries': indexes['countries']}
-	for day,countries in indexes['data'].items():
-		data['data'][day] = {}
-		for country in countries:
-			print(day,country,countries[country]['stringency'])
-			data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
-	path = os.path.join('data', 'oxford-indexes.json')
-	json.dump(data, open(path, 'w'))
-	return data
-	
+    now = datetime.now()
+    indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/v2/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
+    data = {'data':{},'countries': indexes['countries']}
+    for day,countries in indexes['data'].items():
+        data['data'][day] = {}
+        for country in countries:
+            print(day,country,countries[country]['stringency'])
+            data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual'], 'stringency_legacy': countries[country]['stringency_legacy'], 'stringency_legacy_disp': countries[country]['stringency_legacy_disp']}
+    path = os.path.join('data', 'oxford-indexes.json')
+    json.dump(data, open(path, 'w'))
+    return data
+
 
 
 def get_json_info():
@@ -92,14 +97,37 @@ def generate_csv():
     f.flush()
     f.close()
 
+def get_countries_test():
+    data2 = requests.get('https://covid.ourworldindata.org/data/owid-covid-data.csv').content
+    data2 = io.StringIO(data2.decode('utf8'))
+    reader = csv.reader(data2)
+    data = defaultdict(lambda : defaultdict(list))
+    next(reader)
+    for i in reader:
+        if i[-1]:
+            percent = int(i[3])/float(i[-5])*100
+            data[i[0]]['test_efectivity'].append(percent)
+            data[i[0]]['total_tests_per_million'].append(float(i[-3])*1000)
+    path = os.path.join('data', 'countries_test.json')
+    json.dump(data,open(path,'w'))
+    for i in data.keys():
+        data[i]['test_efectivity']=data[i]['test_efectivity'][-1]
+        data[i]['total_tests_per_million']=data[i]['total_tests_per_million'][-1]
+    return data
+
 
 def main():
 
     indexs = get_oxford_index()
+    #indexs = load_index_backup()
     print('Oxford Index generated')
-    
+
+    tests = get_countries_test()
+    print('Countries tests generated')
+
     data = get_json_info()
     data['indexes'] = indexs
+    data['tests'] = tests
     path = os.path.join('data', 'paises-info-dias.json')
     json.dump(data, open(path, 'w'))
 
@@ -107,8 +135,8 @@ def main():
 
     generate_csv()
     print('CSV generated')
-    
-    
+
+
 
 
 if __name__ == "__main__":
