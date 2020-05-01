@@ -1231,8 +1231,8 @@ function run_calculations() {
                                 type: 'line',
                                 colors: {
                                     'Stringency actual (v2)': '#B01E22',
-                                    'Stringency previo (v1)': 'blue'//,
-                                    //'Casos confirmados': '1C1340'
+                                    'Stringency previo (v1)': '#1C1340'//,
+                                    //'Casos confirmados': '#1C1340'
                                 },
                                 axes: {
                                     Stringency: 'y',
