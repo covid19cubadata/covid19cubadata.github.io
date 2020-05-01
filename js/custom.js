@@ -1226,13 +1226,13 @@ function run_calculations() {
                                     ['Fecha'].concat(index_days.slice(index_slice2)),
                                     ['Stringency actual (v2)'].concat(index_values_cuba_all.slice(index_slice2)),
                                     ['Stringency previo (v1)'].concat(index_values_cuba_legacy_all.slice(index_slice2)),
-                                    ['Casos confirmados'].concat(cuba),
+                                    //['Casos confirmados'].concat(cuba),
                                 ],
                                 type: 'line',
                                 colors: {
                                     'Stringency actual (v2)': '#B01E22',
-                                    'Stringency previo (v1)': 'blue',
-                                    'Casos confirmados': '1C1340'
+                                    'Stringency previo (v1)': 'blue'//,
+                                    //'Casos confirmados': '1C1340'
                                 },
                                 axes: {
                                     Stringency: 'y',
@@ -1256,13 +1256,13 @@ function run_calculations() {
                                         position: 'outer-middle'
                                     }
                                 },
-                                y2: {
-                                    show: true,
-                                    label: {
-                                        text: 'Casos confirmados',
-                                        position: 'outer-middle'
-                                    }
-                                }
+                                //y2: {
+                                    //show: true,
+                                    //label: {
+                                        //text: 'Casos confirmados',
+                                        //position: 'outer-middle'
+                                    //}
+                                //}
                             },
 								grid: {
 									x: {
