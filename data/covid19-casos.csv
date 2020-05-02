@@ -1536,3 +1536,77 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,30,cu,Sancti Spíritus,Sancti Spíritus,2020/04/30,,secundario
 ,hombre,64,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
 ,hombre,31,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
+,hombre,74,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,60,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,73,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,56,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,61,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,77,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,54,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,60,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,64,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,70,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,69,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,65,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,63,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,55,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,57,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,57,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,63,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,50,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,63,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,48,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,50,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,73,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,84,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,64,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,79,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,52,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,60,cu,Cotorro,La Habana,2020/05/01,,secundario
+,,55,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,64,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,48,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,56,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,50,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,67,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,69,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,53,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,58,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,67,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,68,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,57,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,66,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,58,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,82,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,72,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,52,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,78,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,54,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,64,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,62,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,53,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,76,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,62,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,63,cu,Cotorro,La Habana,2020/05/01,,secundario
+,mujer,21,cu,Cerro,La Habana,2020/05/01,,secundario
+,mujer,21,cu,San Miguel del Padrón,La Habana,2020/05/01,,desconocido
+,mujer,49,cu,Centro Habana,La Habana,2020/05/01,,desconocido
+,mujer,14,cu,Centro Habana,La Habana,2020/05/01,,secundario
+,mujer,26,cu,Centro Habana,La Habana,2020/05/01,,secundario
+,hombre,39,cu,Centro Habana,La Habana,2020/05/01,,secundario
+,mujer,30,cu,Cárdenas,Matanzas,2020/05/01,,secundario
+,hombre,43,cu,Santa Clara,Villa Clara,2020/05/01,,desconocido
+,hombre,26,cu,Morón,Ciego de Ávila,2020/05/01,,secundario
+,mujer,26,cu,Ciego de Ávila,Ciego de Ávila,2020/05/01,,secundario
+,hombre,87,cu,Holguín,Holguín,2020/05/01,,desconocido
+,hombre,36,cu,Holguín,Holguín,2020/05/01,,secundario
+,hombre,21,cu,Guisa,Granma,2020/05/01,,secundario
+,hombre,20,cu,Guisa,Granma,2020/05/01,,secundario
+,mujer,38,cu,Maisí,Guantánamo,2020/05/01,,desconocido
+,hombre,48,cu,Isla de la Juventud,,2020/05/01,,secundario
