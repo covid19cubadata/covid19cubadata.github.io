@@ -155,8 +155,12 @@ body > div {
 #ages-info,
 #countries-info-pie,
 #daily-deads-info,
-#daily-recovers-info {
-  height: 180px;
+#daily-recovers-info,
+#tests-donut-info,
+#daily-porciento-positivos,
+#tests-line-info,
+#cases-pie-info {
+  height: 220px;
 }
 
 #sex-container,
@@ -293,6 +297,12 @@ body > div {
   color: #d1d2d4;
 }
 
+.buttons-container {
+	margin-top: 5px;
+	text-align: center;
+	
+}
+
 #countries-comparison,
 #countries-curve {
   height: 180px;
@@ -303,17 +313,8 @@ body > div {
   height: 260px;
 }
 
-#daily-sum-info,
-#tests-donut-info {
+#daily-sum-info {
   height: 225px;
-}
-
-#tests-line-info {
-  height: 208px;
-}
-
-#daily-porciento-positivos {
-  height: 280px;
 }
 
 #stringencycub-evol {
@@ -321,7 +322,7 @@ body > div {
 }
 
 #repnumber-chart {
-  height: 280px;
+  height: 330px;
 }
 
 #repnumber_nodata {
@@ -359,14 +360,15 @@ body > div {
   margin-left: 5px;
 }
 
-#curves-evolution {
-  height: 450px;
+#curves-evolution, #scatter-plot {
+  min-height: 500px;
 }
 
 #cusobu,
 #fr,
 #swlx,
-#jc {
+#jc,
+#uh {
   height: 25px;
 }
 
