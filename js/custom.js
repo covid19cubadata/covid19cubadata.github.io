@@ -1193,21 +1193,16 @@ function run_calculations() {
                         let index_values_cuba_legacy_all = [];
                         let index_last_value = 0;
                         let index_last_value_legacy = 0;
-                        /*let stringency_countries = [];
-                        for(var i=0;i<oxford_index.countries.length;i++){
-                            if(oxford_index.countries[i] in countries_codes){
-                                stringency_countries.push(oxford_index.countries[i]);
-                            }
-                        }*/
+
                         for(var i in index_days){
                             var idx = '2020-'+index_days[i].replace('/','-');
                             if ('CUB' in oxford_index.data[idx]){
                                 var val = oxford_index.data[idx].CUB.stringency;
                                 index_values_cuba_all.push(val);
-                                index_last_value = Math.max(index_last_value, val);
+                                index_last_value = val;
                                 val = oxford_index.data[idx].CUB['stringency_legacy_disp'];
                                 index_values_cuba_legacy_all.push(val);
-                                index_last_value_legacy = Math.max(index_last_value_legacy, val)
+                                index_last_value_legacy = val;
                             } else {
                                 index_values_cuba_all.push(null);
                                 index_values_cuba_legacy_all.push(null);
