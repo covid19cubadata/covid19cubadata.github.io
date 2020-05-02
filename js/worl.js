@@ -513,8 +513,8 @@ function scaleX(num) {
 }
 
 function scaleY(num) {
-    if (num === 0) {
-        return 0;
+    if (num <= 0) {
+        return null;
     }
     return Math.log10(num);
 }
