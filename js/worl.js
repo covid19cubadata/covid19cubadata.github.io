@@ -612,7 +612,7 @@ function run_calculations() {
                 let accum = ['Confirmados-' + c_trans];
                 let prevweek = 0;
                 let ctotal = 0;
-                if ((countriesdays.paises_info[c].confirmed.length + 1) >= cuba.length) {
+                //if ((countriesdays.paises_info[c].confirmed.length + 1) >= cuba.length) {
                     if (!(c in trans_countries))
                         trans_countries[c] = c;
                     let c_temp = [trans_countries[c]];
@@ -658,26 +658,26 @@ function run_calculations() {
                     curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
                     if(c_trans!=='Cuba')
                     countrysorted2.push(c_trans);
-                }else{
-                    for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
-                        ctotal = countriesdays.paises_info[c].confirmed[i];
-                        crecovered = countriesdays.paises_info[c].recovered[i];
-                        cdeaths = countriesdays.paises_info[c].deaths[i];
-                        if (i % 7 === 0) {
-                            total = countriesdays.paises_info[c].confirmed[i - 1];
-                            if (total > 30) {
-                                weeksum = countriesdays.paises_info[c].confirmed[i - 1] - prevweek;
-                                weeks.push(scaleY(weeksum));
-                                weeksum = 0;
-                                accum.push(scaleX(total));
-                                prevweek = countriesdays.paises_info[c].confirmed[i - 1];
-                            }
-                        }
-                    }
-                    curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
-                    if(c_trans!=='Cuba')
-                        countrysorted2.push(c_trans);
-                }
+                //} else{
+                    //for (var i = 1; i < countriesdays.paises_info[c].confirmed.length; i++) {
+                        //ctotal = countriesdays.paises_info[c].confirmed[i];
+                        //crecovered = countriesdays.paises_info[c].recovered[i];
+                        //cdeaths = countriesdays.paises_info[c].deaths[i];
+                        //if (i % 7 === 0) {
+                            //total = countriesdays.paises_info[c].confirmed[i - 1];
+                            //if (total > 30) {
+                                //weeksum = countriesdays.paises_info[c].confirmed[i - 1] - prevweek;
+                                //weeks.push(scaleY(weeksum));
+                                //weeksum = 0;
+                                //accum.push(scaleX(total));
+                                //prevweek = countriesdays.paises_info[c].confirmed[i - 1];
+                            //}
+                        //}
+                    //}
+                    //curves2[c_trans] = {'weeks': weeks, 'cummulative_sum': accum, 'total': total, 'ctotal': ctotal, 'crecovered': crecovered, 'cdeaths': cdeaths};
+                    //if(c_trans!=='Cuba')
+                        //countrysorted2.push(c_trans);
+                //}
             }
             curves2['Cuba']['weeks']=weeks_cuba;
             curves2['Cuba']['cummulative_sum']=accum_cuba;
