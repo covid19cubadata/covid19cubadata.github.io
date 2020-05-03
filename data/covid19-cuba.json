@@ -1747,7 +1747,7 @@
             "dpacode_provincia": "21",
             "lon": -83.37809801101685,
             "lat": 22.553424911624475,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "epri-2": {
