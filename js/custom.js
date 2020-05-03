@@ -18,6 +18,347 @@ var domains = {
     'bo': 'Bolivia'
 };
 
+countries_codes = {
+    "AFG": "Afghanistan",
+    "ALB": "Albania",
+    "DZA": "Algeria",
+    "AND": "Andorra",
+    "AGO": "Angola",
+    "ATG": "Antigua and Barbuda",
+    "ARG": "Argentina",
+    "ARM": "Armenia",
+    "AUS": "Australia",
+    "AUT": "Austria",
+    "AZE": "Azerbaijan",
+    "BHS": "Bahamas",
+    "BHR": "Bahrain",
+    "BGD": "Bangladesh",
+    "BRB": "Barbados",
+    "BLR": "Belarus",
+    "BEL": "Belgium",
+    "BLZ": "Belize",
+    "BTN": "Bhutan",
+    "BOL": "Bolivia",
+    "BIH": "Bosnia and Herzegovina",
+    "BRA": "Brazil",
+    "BGR": "Bulgaria",
+    "BFA": "Burkina Faso",
+    "CPV": "Cabo Verde",
+    "KHM": "Cambodia",
+    "CMR": "Cameroon",
+    "CAN": "Canada",
+    "CAF": "Central African Republic",
+    "TCD": "Chad",
+    "CHL": "Chile",
+    "CHN": "China",
+    "COL": "Colombia",
+    "CRI": "Costa Rica",
+    "CIV": "Cote d'Ivoire",
+    "HRV": "Croatia",
+    "CUB": "Cuba",
+    "CYP": "Cyprus",
+    "DNK": "Denmark",
+    "DMA": "Dominica",
+    "DOM": "Dominican Republic",
+    "ECU": "Ecuador",
+    "EGY": "Egypt",
+    "SLV": "El Salvador",
+    "GNQ": "Equatorial Guinea",
+    "ERI": "Eritrea",
+    "EST": "Estonia",
+    "ETH": "Ethiopia",
+    "FJI": "Fiji",
+    "FIN": "Finland",
+    "FRA": "France",
+    "GAB": "Gabon",
+    "GMB": "Gambia",
+    "GEO": "Georgia",
+    "DEU": "Germany",
+    "GHA": "Ghana",
+    "GRC": "Greece",
+    "GRD": "Grenada",
+    "GTM": "Guatemala",
+    "GIN": "Guinea",
+    "GNB": "Guinea-Bissau",
+    "GUY": "Guyana",
+    "HTI": "Haiti",
+    "HND": "Honduras",
+    "HUN": "Hungary",
+    "ISL": "Iceland",
+    "IND": "India",
+    "IDN": "Indonesia",
+    "IRQ": "Iraq",
+    "IRL": "Ireland",
+    "ISR": "Israel",
+    "ITA": "Italy",
+    "JAM": "Jamaica",
+    "JPN": "Japan",
+    "JOR": "Jordan",
+    "KAZ": "Kazakhstan",
+    "KEN": "Kenya",
+    "KOR": "Korea, South",
+    "KWT": "Kuwait",
+    "KGZ": "Kyrgyzstan",
+    "LAO": "Laos",
+    "LVA": "Latvia",
+    "LBN": "Lebanon",
+    "LBR": "Liberia",
+    "LBY": "Libya",
+    "LIE": "Liechtenstein",
+    "LTU": "Lithuania",
+    "LUX": "Luxembourg",
+    "MDG": "Madagascar",
+    "MYS": "Malaysia",
+    "MDV": "Maldives",
+    "MLI": "Mali",
+    "MLT": "Malta",
+    "MRT": "Mauritania",
+    "MUS": "Mauritius",
+    "MDA": "Moldova",
+    "MCO": "Monaco",
+    "MNG": "Mongolia",
+    "MNE": "Montenegro",
+    "MAR": "Morocco",
+    "MOZ": "Mozambique",
+    "NAM": "Namibia",
+    "NPL": "Nepal",
+    "NLD": "Netherlands",
+    "NZL": "New Zealand",
+    "NIC": "Nicaragua",
+    "NER": "Niger",
+    "NGA": "Nigeria",
+    "NOR": "Norway",
+    "OMN": "Oman",
+    "PAK": "Pakistan",
+    "PAN": "Panama",
+    "PNG": "Papua New Guinea",
+    "PRY": "Paraguay",
+    "PER": "Peru",
+    "PHL": "Philippines",
+    "POL": "Poland",
+    "PRT": "Portugal",
+    "ROU": "Romania",
+    "RUS": "Russia",
+    "RWA": "Rwanda",
+    "KNA": "Saint Kitts and Nevis",
+    "LCA": "Saint Lucia",
+    "VCT": "Saint Vincent and the Grenadines",
+    "SMR": "San Marino",
+    "SAU": "Saudi Arabia",
+    "SEN": "Senegal",
+    "SRB": "Serbia",
+    "SYC": "Seychelles",
+    "SGP": "Singapore",
+    "SVK": "Slovakia",
+    "SVN": "Slovenia",
+    "SOM": "Somalia",
+    "ZAF": "South Africa",
+    "ESP": "Spain",
+    "LKA": "Sri Lanka",
+    "SDN": "Sudan",
+    "SUR": "Suriname",
+    "SWE": "Sweden",
+    "CHE": "Switzerland",
+    "SYR": "Syria",
+    "TZA": "Tanzania",
+    "THA": "Thailand",
+    "TTO": "Trinidad and Tobago",
+    "TUN": "Tunisia",
+    "TUR": "Turkey",
+    "UGA": "Uganda",
+    "UKR": "Ukraine",
+    "ARE": "United Arab Emirates",
+    "GBR": "United Kingdom",
+    "USA": "US",
+    "URY": "Uruguay",
+    "UZB": "Uzbekistan",
+    "VEN": "Venezuela",
+    "VNM": "Vietnam",
+    "ZMB": "Zambia",
+    "ZWE": "Zimbabwe"
+   };
+
+var trans_countries = {
+    'Vietnam': 'Vietnam',
+    'Austria': 'Austria',
+    'Cambodia': 'Camboya',
+    'Kazakhstan': 'Kazajstán',
+    "Cote d'Ivoire": 'Costa de Marfil',
+    'Spain': 'España',
+    'Serbia': 'Serbia',
+    'Ethiopia': 'Etiopía',
+    'Brazil': 'Brasil',
+    'Pakistan': 'Pakistán',
+    'Panama': 'Panamá',
+    'Syria': 'Siria',
+    'France': 'Francia',
+    'Germany': 'Alemania',
+    'Montenegro': 'Montenegro',
+    'Switzerland': 'Suiza',
+    'Paraguay': 'Paraguay',
+    'Holy See': 'Santa Sede',
+    'Nepal': 'Nepal',
+    'Norway': 'Noruega',
+    'Afghanistan': 'Afganistán',
+    'Djibouti': 'Yitubi',
+    'Ireland': 'Irlanda',
+    'United Arab Emirates': 'Emiratos Árabes Unidos',
+    'Israel': 'Israel',
+    'Bulgaria': 'Bulgaria',
+    'Korea, South': 'Corea del Sur',
+    'Cyprus': 'Chipre',
+    'Peru': 'Perú',
+    'Azerbaijan': 'Azerbaiyán',
+    'Philippines': 'Filipinas',
+    'Bahamas': 'Bahamas',
+    'India': 'India',
+    'MS Zaandam': 'MS Zaandam',
+    'Canada': 'Canadá',
+    'Rwanda': 'Ruanda',
+    'Cuba': 'Cuba',
+    'Thailand': 'Tailandia',
+    'Brunei': 'Brunéi',
+    'El Salvador': 'El Salvador',
+    'North Macedonia': 'Macedonia del Norte',
+    'Saint Vincent and the Grenadines': 'San Vicente y las Granadinas',
+    'Jamaica': 'Jamaica',
+    'Greece': 'Grecia',
+    'Bolivia': 'Bolivia',
+    'Dominica': 'Dominica',
+    'Togo': 'Togo',
+    'Mauritius': 'Mauricio',
+    'Russia': 'Rusia',
+    'Lebanon': 'Líbano',
+    'Zimbabwe': 'Zimbabue',
+    'Nigeria': 'Nigeria',
+    'Finland': 'Finlandia',
+    'Burma': 'Birmania',
+    'Iraq': 'Irak',
+    'United Kingdom': 'Reino Unido',
+    'Tanzania': 'Tanzania',
+    'Uruguay': 'Uruguay',
+    'South Africa': 'Sudáfrica',
+    'Somalia': 'Somalia',
+    'Algeria': 'Argelia',
+    'Benin': 'Benín',
+    'Niger': 'Níger',
+    'West Bank and Gaza': 'Cisjordania',
+    'Uganda': 'Uganda',
+    'San Marino': 'San Marino',
+    'Liberia': 'Liberia',
+    'Iran': 'Irán',
+    'Mexico': 'México',
+    'Honduras': 'Honduras',
+    'Burkina Faso': 'Burkina Faso',
+    'Australia': 'Australia',
+    'Chile': 'Chile',
+    'Haiti': 'Haití',
+    'Turkey': 'Turquía',
+    'Madagascar': 'Madagascar',
+    'Saint Lucia': 'Santa Lucía',
+    'Papua New Guinea': 'Papúa Nueva Guinea',
+    'Central African Republic': 'República Centroafricana',
+    'Eritrea': 'Eritrea',
+    'Lithuania': 'Lituania',
+    'Kyrgyzstan': 'Kirguistán',
+    'Andorra': 'Andorra',
+    'Laos': 'Laos',
+    'Mali': 'Mali',
+    'Guinea': 'Guinea',
+    'Luxembourg': 'Luxemburgo',
+    'Gambia': 'Gambia',
+    'Mongolia': 'Mongolia',
+    'Costa Rica': 'Costa Rica',
+    'Trinidad and Tobago': 'Trinidad y Tobago',
+    'Mauritania': 'Mauritania',
+    'Antigua and Barbuda': 'Antigua y Barbuda',
+    'Libya': 'Libia',
+    'Zambia': 'Zambia',
+    'Timor-Leste': 'Timor-Leste',
+    'Guyana': 'Guayana',
+    'Tunisia': 'Túnez',
+    'Japan': 'Japón',
+    'Liechtenstein': 'Liechtenstein',
+    'Saint Kitts and Nevis': 'San Cristóbal y Nieves',
+    'Senegal': 'Senegal',
+    'Hungary': 'Hungría',
+    'Moldova': 'Moldavia',
+    'Qatar': 'Qatar',
+    'US': 'Estados Unidos',
+    'Belarus': 'Bielorrusia',
+    'Chad': 'Chad',
+    'Malaysia': 'Malasia',
+    'Romania': 'Rumania',
+    'Argentina': 'Argentina',
+    'Belize': 'Belice',
+    'Angola': 'Angola',
+    'Sweden': 'Suecia',
+    'China': 'China',
+    'Jordan': 'Jordán',
+    'Italy': 'Italia',
+    'Latvia': 'Letonia',
+    'Seychelles': 'Seychelles',
+    'Ghana': 'Ghana',
+    'Colombia': 'Colombia',
+    'Albania': 'Albania',
+    'Saudi Arabia': 'Arabia Saudita',
+    'Estonia': 'Estonia',
+    'Monaco': 'Mónaco',
+    'Ukraine': 'Ucrania',
+    'Uzbekistan': 'Uzbekistán',
+    'Maldives': 'Maldivas',
+    'Morocco': 'Marruecos',
+    'Portugal': 'Portugal',
+    'Kenya': 'Kenia',
+    'Guatemala': 'Guatemala',
+    'Gabon': 'Gabón',
+    'Belgium': 'Bélgica',
+    'Iceland': 'Islandia',
+    'Cabo Verde': 'Cabo Verde',
+    'Mozambique': 'Mozambique',
+    'Indonesia': 'Indonesia',
+    'Egypt': 'Egipto',
+    'Taiwan*': 'Taiwán *',
+    'Netherlands': 'Países Bajos',
+    'Slovakia': 'Eslovaquia',
+    'Bosnia and Herzegovina': 'Bosnia y Herzegovina',
+    'Cameroon': 'Camerún',
+    'Venezuela': 'Venezuela',
+    'Kuwait': 'Kuwait',
+    'Malta': 'Malta',
+    'Nicaragua': 'Nicaragua',
+    'Congo (Kinshasa)': 'Congo (Kinshasa)',
+    'Singapore': 'Singapur',
+    'Bhutan': 'Bután',
+    'Bangladesh': 'Bangladesh',
+    'Ecuador': 'Ecuador',
+    'Georgia': 'Georgia',
+    'Namibia': 'Namibia',
+    'Denmark': 'Dinamarca',
+    'Poland': 'Polonia',
+    'Suriname': 'Surinam',
+    'Slovenia': 'Eslovenia',
+    'Congo (Brazzaville)': 'Congo (Brazzaville)',
+    'Guinea-Bissau': 'Guinea-Bissau',
+    'Dominican Republic': 'República Dominicana',
+    'Diamond Princess': 'Princesa del Diamante',
+    'Grenada': 'Granada',
+    'Barbados': 'Barbados',
+    'New Zealand': 'Nueva Zelanda',
+    'Eswatini': 'Eswatini',
+    'Czechia': 'Chequia',
+    'Kosovo': 'Kosovo',
+    'Sudan': 'Sudán',
+    'Armenia': 'Armenia',
+    'Bahrain': 'Bahrein',
+    'Sri Lanka': 'Sri Lanka',
+    'Equatorial Guinea': 'Guinea Ecuatorial',
+    'Croatia': 'Croacia',
+    'Oman': 'Omán',
+    'Fiji': 'Fiyi',
+};
+
+
 var province_order = {
     'unk': 16,
     'lha': 2,
@@ -76,8 +417,6 @@ var population = {
     '35': 508552,//GTM
     '40.01': 83801,//IJV
 }
-
-$.ajaxSetup({cache: false});
 
 var openIcon = new L.Icon({
 	iconUrl: 'images/marker-icon-2x-gold.png',
@@ -189,7 +528,7 @@ $.walker = {
             $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -202,10 +541,19 @@ $.walker = {
     load: function (url, callback) {
         if (url in $.walker.loaded)
             return callback(Object.assign({}, $.walker.loaded[url]), false);
-        $.getJSON(url, function (data) {
-            $.walker.loaded[url] = Object.assign({}, data);
-            callback(data, true);
-        });
+        cache = false;
+        if(url.search('provincias.geojson')!==-1 || url.search('municipios.geojson')!==-1){
+            cache=true;
+        }
+        $.ajax({
+            url: url,
+            dataType: 'json',
+            cache: cache,
+            success: function (data) {
+                $.walker.loaded[url] = Object.assign({}, data);
+                callback(data, true);
+            }
+          });
     },
     province: {
         list: {features: []},
@@ -213,14 +561,13 @@ $.walker = {
             const $target = $(target);
             let remaining = {};
             let sorteddata = [];
+            let prob_set={};
             for (const i in $.walker.province.list.features) {
                 const province = $.walker.province.list.features[i].properties;
-                /*if ($target.find('option[value="' + province.province_id + '"]').length === 0 && province.province !== 'Desconocida'){
-                    $target.append('<option value="' + province.province_id + '">' + province.province + '</option>');
-                }*/
-                if ($('#proscurve-select1').find('option[value="' + province.DPA_province_code + '"]').length === 0 && province.province !== 'Desconocida') {
+                if (!(province.DPA_province_code in prob_set) && province.province !== 'Desconocida') {
                     sorteddata.push($.walker.province.list.features[i].properties);
-                    $.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
+                    prob_set[province.DPA_province_code]=0;
+                    //$.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
                 }
                 remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
             }
@@ -260,14 +607,15 @@ $.walker = {
             let sorteddata = [];
             $('#munscurve-select1').find('option').remove();
             $('#munscurve-select2').find('option').remove();
+            let set_mun = {}
             for (const i in $.walker.municipality.list.features) {
                 const municipality = $.walker.municipality.list.features[i].properties;
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
                     remaining[municipality.DPA_municipality_code] = {"total": 0};
-                    if ($('#munscurve-select1').find('option[value="' + municipality.DPA_municipality_code + '"]').length === 0 && municipality.municipality !== 'Desconocido') {
+                    if ( !(municipality.DPA_municipality_code in set_mun) && municipality.municipality !== 'Desconocido') {
                         sorteddata.push($.walker.municipality.list.features[i].properties);
-                        $('#munscurve-select1').append('<option value="' + municipality.DPA_municipality_code + '">' + municipality.province + ' - ' + municipality.municipality + '</option>');
+                        set_mun[municipality.DPA_municipality_code]=0;
                     }
                 }
             }
@@ -280,11 +628,13 @@ $.walker = {
                 else
                     return 1;
             });
+            let dom_data = '';
             for (var j = 0; j < sorteddata.length; j++) {
                 const municipality2 = sorteddata[j];
-                $('#munscurve-select1').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
-                $('#munscurve-select2').append('<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>');
+                dom_data += '<option value="' + municipality2.DPA_municipality_code + '">' + municipality2.province + ' - ' + municipality2.municipality + '</option>\n';
             }
+            $('#munscurve-select1').append(dom_data);
+            $('#munscurve-select2').append(dom_data);
             $.walker.municipality.list.features = features;
             return remaining;
         },
@@ -318,8 +668,6 @@ function run_calculations() {
         'autoctono': 0,
         'desconocido': 0
     };
-    $('#countries-curve-stringency-no-data').hide();
-    $('#countries-curve-stringency-no-data2').hide();
 
     $.walker.load("data/oxford-indexes.json", function (oxford_index) {
         $.walker.load("data/covid19-cuba.json", function (data) {
@@ -399,11 +747,11 @@ function run_calculations() {
                     $.walker.municipality.list = municipios;
                     muns = $.walker.municipality.filterByProvince(province_id);
 
-                    var curves = {};
+                    /*var curves = {};
                     var curves_recover = {};
                     var curves_death = {};
                     var curves_active = {};
-                    var curves_daily = {};
+                    var curves_daily = {};*/
 
                     function getCountryFromDomain(dom) {
                         if (dom in domains) {
@@ -688,8 +1036,8 @@ function run_calculations() {
                         var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var cuba = ['Cuba'];
-                        var deadsSum = ['Muertes acumuladas'];
-                        var deadsSingle = ['Muertes en el día'];
+                        var deadsSum = ['Total de fallecidos'];
+                        var deadsSingle = ['Fallecidos en el día'];
                         var recoversSum = ['Altas acumuladas'];
                         var recoversSingle = ['Altas en el día'];
                         var test_days = [];
@@ -836,91 +1184,92 @@ function run_calculations() {
                             }
                         });
 
-                        $.getJSON("data/countries_codes.json", function (countries_codes) {
+                        let index_days = [];
+                        for(var d in oxford_index.data){
+                            index_days.push(d.replace(/-/g,'/').replace('2020/',''));
+                        }
+                        index_days.sort();
+                        let index_values_cuba_all = [];
+                        let index_values_cuba_legacy_all = [];
+                        let index_last_value = 0;
+                        let index_last_value_legacy = 0;
 
-                            let index_days = [];
-                            for(var d in oxford_index.data){
-                                index_days.push(d.replace(/-/g,'/').replace('2020/',''));
+                        for(var i in index_days){
+                            var idx = '2020-'+index_days[i].replace('/','-');
+                            if ('CUB' in oxford_index.data[idx]){
+                                var val = oxford_index.data[idx].CUB.stringency;
+                                index_values_cuba_all.push(val);
+                                index_last_value = val;
+                                val = oxford_index.data[idx].CUB['stringency_legacy_disp'];
+                                index_values_cuba_legacy_all.push(val);
+                                index_last_value_legacy = val;
+                            } else {
+                                index_values_cuba_all.push(null);
+                                index_values_cuba_legacy_all.push(null);
                             }
-                            index_days.sort();
-                            let index_values_cuba_all = [];
-                            let index_last_value = 0;
-                            let stringency_countries = [];
-                            for(var i=0;i<oxford_index.countries.length;i++){
-                                if(oxford_index.countries[i] in countries_codes){
-                                    stringency_countries.push(oxford_index.countries[i]);
-                                }
-                            }
-                            for(var i in index_days){
-                                var idx = '2020-'+index_days[i].replace('/','-');
-                                if ('CUB' in oxford_index.data[idx]){
-                                    var val = oxford_index.data[idx].CUB.stringency;
-                                    index_values_cuba_all.push(val);
-                                    index_last_value = Math.max(index_last_value, val);
-                                } else {
-                                    index_values_cuba_all.push(null);
-                                }
-                            }
-                            $('#stringencycub-idx').html(index_last_value);
+                        }
+                        $('#stringencycub-idx').html(index_last_value);
 
-                            let index_slice2 = index_days.length-cuba.length;
-                            index_slice2 = Math.max(index_slice2,0);
-                            stringency = c3.generate({
-                                bindto: "#stringencycub-evol",
-                                data: {
-                                    x: 'Fecha',
-                                    columns: [
-                                        ['Fecha'].concat(index_days.slice(0,index_slice2+cuba.length-1)),
-                                        ['Stringency'].concat(index_values_cuba_all),
-                                        ['Confirmados'].concat(Array.apply(null,Array(index_slice2)).map((x,i)=>null).concat(cuba.slice(1))),
-                                    ],
-                                    type: 'line',
-                                    colors: {
-                                        'Stringency': '#B01E22',
-                                        'Confirmados': '1C1340'
-                                    },
-                                    axes: {
-                                        Stringency: 'y',
-                                        Confirmados: 'y2'
+
+                        let index_slice2 = index_days.length-cuba.length-1;
+                        index_slice2 = Math.max(index_slice2,0);
+                        stringency = c3.generate({
+                            bindto: "#stringencycub-evol",
+                            data: {
+                                x: 'Fecha',
+                                columns: [
+                                    ['Fecha'].concat(index_days.slice(index_slice2)),
+                                    ['Stringency actual (v2)'].concat(index_values_cuba_all.slice(index_slice2)),
+                                    ['Stringency previo (v1)'].concat(index_values_cuba_legacy_all.slice(index_slice2)),
+                                    //['Casos confirmados'].concat(cuba),
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Stringency actual (v2)': '#B01E22',
+                                    'Stringency previo (v1)': '#1C1340'//,
+                                    //'Casos confirmados': '#1C1340'
+                                },
+                                axes: {
+                                    Stringency: 'y',
+                                    Confirmados: 'y2',
+                                    Stringency_legacy: 'y',
+                                }
+                            },
+                            axis: {
+                                x: {
+									padding: {
+								      left: 1,
+								      right: 1
+								    },
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: {
+                                        text: 'Valor del índice',
+                                        position: 'outer-middle'
                                     }
                                 },
-                                axis: {
-                                    x: {
-                                        padding: {
-                                        left: 1,
-                                        right: 1
-                                        },
-                                        label: 'Fecha',
-                                        type: 'categorical',
-                                        show: false
-                                    },
-                                    y: {
-                                        label: {
-                                            text: 'Valor del índice',
-                                            position: 'outer-middle'
-                                        }
-                                    },
-                                    y2: {
-                                        show: true,
-                                        label: {
-                                            text: 'Casos confirmados',
-                                            position: 'outer-middle'
-                                        }
-                                    }
-                                },
-                                    grid: {
-                                        x: {
-                                            lines: [
-                                                {'value': '01/28' , 'text': 'Análisis Plan de Prevención y Control '},
-                                                {'value': '03/11' , 'text': 'Primeros casos confirmados'},
-                                                {'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
-                                                {'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
-                                                //{'value': '03/25' , 'text': 'Cierre de universidades'},
-                                                {'value': '04/11' , 'text': 'Cese de trasnporte público'}
-                                            ]
-                                        }
-                                    }
-                            });
+                                //y2: {
+                                    //show: true,
+                                    //label: {
+                                        //text: 'Casos confirmados',
+                                        //position: 'outer-middle'
+                                    //}
+                                //}
+                            },
+								grid: {
+									x: {
+										lines: [
+											{'value': '03/11' , 'text': 'Primeros casos confirmados'},
+											{'value': '03/20' , 'text': 'Anuncio de medidas generalizadas'},
+											{'value': '03/24' , 'text': 'Fronteras reguladas y cierre de escuelas'},
+											//{'value': '03/25' , 'text': 'Cierre de universidades'},
+											{'value': '04/11' , 'text': 'Cese de trasnporte público'}
+										]
+									}
+								}
                         });
 
                         var provinceslectd1 = $.walker.province.findById('lha').properties.DPA_province_code;
@@ -1146,8 +1495,8 @@ function run_calculations() {
                                 ],
                                 type: 'line',
                                 colors: {
-                                    'Muertes en el día': '#00577B',
-                                    'Muertes acumuladas': '#1C1340'
+                                    'Fallecidos en el día': '#00577B',
+                                    'Total de fallecidos': '#1C1340'
                                 }
                             },
                             axis: {
@@ -1157,7 +1506,7 @@ function run_calculations() {
                                     show: false
                                 },
                                 y: {
-                                    label: 'Muertes',
+                                    label: 'Fallecidos',
                                     position: 'outer-middle',
                                 }
                             }
@@ -1238,6 +1587,24 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        //Donut for cases info
+						c3.generate({
+							bindto: "#cases-pie-info",
+							data: {
+								columns: [['Fallecidos', deaths], ['Evacuados', gone], ['Recuperados', recov],['Activos', Object.keys(cases).length - (deaths+gone+recov)]],
+								type: 'donut',
+								colors: {
+									'Fallecidos': '#1C1340',
+									'Evacuados': '#939393',
+									'Recuperados': '#B11116',
+									'Activos': '#00AEEF'
+								}
+							},
+							donut: {
+								title: Object.keys(cases).length + " casos",
+							}
+						});
 
                         return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
                     }
@@ -1332,6 +1699,8 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
+                    
+                    
 
                     function getMunProfile(code, mun, pro) {
                         var t = '';

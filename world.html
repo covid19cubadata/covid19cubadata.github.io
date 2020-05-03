@@ -27,6 +27,11 @@
     <link href="css/c3.css" rel="stylesheet">
     <link href="css/select2.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <style rel="stylesheet">
+        .c3-circle {
+            opacity: 0.8 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -188,7 +193,8 @@
                     <div class="tab-pane fade" id="tab-stringency" role="tabpanel">
                         <p class="text-center text-uppercase d-sm-none d-md-block d-lg-none">Stringency Index</p>
                         <div class="alert-text">
-						   El Índice está siendo actualizado por Oxford y se mantendrán los valores hasta el día 24 en tanto se publique la nueva versión.
+						   El Índice fue revisado y actualizado por Oxford y se incorporaron nuevos criterios. Por tanto, en
+						   la gráfica se mostrarán los valores de la versión actualizada.
 	                    </div>
                         <div class="row">
                             <div class="col-md-6">
@@ -222,6 +228,39 @@
     </div>
 
     <div class="container-fluid">
+        <div id="evotests" class="card common-bg">
+            <div class="card-header">
+                Comparación respecto al comportamiento de los Tests realizados.
+            </div>
+            <div class="card-body">
+                <div class="explain-text">
+                    El gráfico permite comparar a Cuba con distintos paises respecto, a la vez, el porciento de detección de contagiados en base al total de tests realizados y el número de tests por
+                    millón de habitantes.
+                </div>
+                <br>
+                <div id="evomade-form">
+                    <p>
+                    Seleccione los países a comparar. Escriba un nombre para añadir alguno o puede eliminar uno de los ya presente.
+                    </p>
+                    <form class="form-inline">
+                        <select id="country_selector_2" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
+                        </select>
+                        <div class="buttons-container">
+	                        <button type="button" class="btn btn-secondary" onclick="$.plotAllCountries();">Ver todos los países analizados</button>&nbsp;&nbsp;
+	                        <button type="button" class="btn btn-secondary" onclick="$.resetCountries();">Ver países iniciales</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="scatter-plot"></div>
+                <div class="map-quote">
+                    * Datos de los pa&iacute;ses tomados de <a href="https://covid.ourworldindata.org/data/owid-covid-data.csv">Our World in Data.</a>. Los datos de Cuba se calculan
+                    a partir de la propia información que provee este sitio.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
         <div id="evomade" class="card common-bg">
             <div class="card-header">
                 Evoluci&oacute;n de la epidemia 
@@ -242,6 +281,8 @@
                 <form class="form-inline">
                     <select id="country_selector" class="form-control form-control-sm" name="states[]" multiple="multiple" style="width: 100%">
                     </select>
+                    <button type="button" class="btn btn-secondary" onclick="$.plotAllCountriesCurves();">Ver todos los países  analizados</button>&nbsp;&nbsp;
+                    <button type="button" class="btn btn-secondary" onclick="$.resetCountriesCurves();">Ver países iniciales</button>
                 </form>
                 </div>
                 <div id="curves-evolution"></div>
@@ -265,7 +306,6 @@
 					actualizado el <span class="countries-date">#</span><br>
 				</div>
             </div>
-            
         </div>
     </div>
 
