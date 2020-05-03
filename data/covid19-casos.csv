@@ -1565,7 +1565,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,79,cu,Cotorro,La Habana,2020/05/01,,secundario
 ,hombre,52,cu,Cotorro,La Habana,2020/05/01,,secundario
 ,hombre,60,cu,Cotorro,La Habana,2020/05/01,,secundario
-,,55,cu,Cotorro,La Habana,2020/05/01,,secundario
+,hombre,55,cu,Cotorro,La Habana,2020/05/01,,secundario
 ,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
 ,hombre,64,cu,Cotorro,La Habana,2020/05/01,,secundario
 ,hombre,59,cu,Cotorro,La Habana,2020/05/01,,secundario
@@ -1609,4 +1609,4 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,21,cu,Guisa,Granma,2020/05/01,,secundario
 ,hombre,20,cu,Guisa,Granma,2020/05/01,,secundario
 ,mujer,38,cu,Maisí,Guantánamo,2020/05/01,,desconocido
-,hombre,48,cu,Isla de la Juventud,,2020/05/01,,secundario
+,hombre,48,cu,Isla de la Juventud,Isla de la Juventud,2020/05/01,,secundario
