@@ -1597,8 +1597,8 @@ function run_calculations() {
 								colors: {
 									'Fallecidos': '#1C1340',
 									'Evacuados': '#939393',
-									'Recuperados': '#B11116',
-									'Activos': '#00AEEF'
+									'Recuperados': '#00AEEF',
+									'Activos': '#B11116'
 								}
 							},
 							donut: {
