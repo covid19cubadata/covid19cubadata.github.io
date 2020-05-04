@@ -528,7 +528,7 @@ $.walker = {
             $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -1524,6 +1524,34 @@ function run_calculations() {
                                 type: 'line',
                                 colors: {
                                     'Altas en el día': '#00577B',
+                                    'Altas acumuladas': '#00AEEF'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Altas',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#daily-actalt-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    dailyActive,
+                                    recoversSum
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Casos activos': '#B01E22',
                                     'Altas acumuladas': '#00AEEF'
                                 }
                             },
