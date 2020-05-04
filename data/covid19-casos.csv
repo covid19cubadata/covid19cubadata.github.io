@@ -9,7 +9,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,25,cu,Santa Clara,Villa Clara,2020/03/18,2020/03/14,primario
 ,mujer,67,cu,Santa Clara,Villa Clara,2020/03/18,2020/03/16,primario
 ,hombre,77,us,Trinidad,Sancti Spíritus,2020/03/18,2020/03/15,primario
-,hombre,57,ca,Holguín,Holguín,2020/03/18,2020/03/16,primario
+,hombre,57,ca,Rafael Freyre,Holguín,2020/03/18,2020/03/16,primario
 ,hombre,69,fr,Bayamo,Granma,2020/03/19,2020/03/16,primario
 ,hombre,70,it,Holguín,Holguín,2020/03/19,2020/03/14,primario
 ,mujer,37,cu,Bayamo,Granma,2020/03/19,2020/03/17,primario
@@ -264,7 +264,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,28,cu,Holguín,Holguín,2020/04/02,2020/03/22,secundario
 ,hombre,68,cu,Holguín,Holguín,2020/04/02,2020/03/28,primario
 ,hombre,46,cu,Holguín,Holguín,2020/04/02,2020/03/23,secundario
-,hombre,48,cu,Holguín,Holguín,2020/04/02,2020/03/23,secundario
+,hombre,48,cu,Calixto García,Holguín,2020/04/02,2020/03/23,secundario
 ,mujer,18,cu,Santiago de Cuba,Santiago de Cuba,2020/04/02,2020/03/23,secundario
 ,mujer,80,cu,Contramaestre,Santiago de Cuba,2020/04/02,2020/03/30,secundario
 ,hombre,39,cu,Santiago de Cuba,Santiago de Cuba,2020/04/02,2020/03/30,secundario
@@ -1648,3 +1648,22 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,4,cu,Centro Habana,La Habana,2020/05/02,,secundario
 ,mujer,57,cu,Batabanó,Mayabeque,2020/05/02,,secundario
 ,hombre,19,cu,Jovellanos,Matanzas,2020/05/02,,secundario
+,mujer,43,cu,Diez de Octubre,La Habana,2020/05/03,,desconocido
+,mujer,35,cu,Habana del Este,La Habana,2020/05/03,,secundario
+,mujer,74,cu,Cotorro,La Habana,2020/05/03,,secundario
+,hombre,32,cu,Plaza de la Revolución,La Habana,2020/05/03,,secundario
+,mujer,21,cu,La Habana Vieja,La Habana,2020/05/03,,secundario
+,hombre,28,cu,Centro Habana,La Habana,2020/05/03,,secundario
+,hombre,59,cu,Centro Habana,La Habana,2020/05/03,,desconocido
+,hombre,58,cu,Centro Habana,La Habana,2020/05/03,,desconocido
+,hombre,26,cu,Centro Habana,La Habana,2020/05/03,,desconocido
+,hombre,43,cu,Centro Habana,La Habana,2020/05/03,,secundario
+,hombre,52,cu,Centro Habana,La Habana,2020/05/03,,secundario
+,hombre,47,cu,Centro Habana,La Habana,2020/05/03,,secundario
+,hombre,29,cu,Arroyo Naranjo,La Habana,2020/05/03,,secundario
+,hombre,54,cu,Cerro,La Habana,2020/05/03,,primario
+,hombre,20,cu,Centro Habana,La Habana,2020/05/03,,secundario
+,hombre,35,cu,Centro Habana,La Habana,2020/05/03,,secundario
+,mujer,28,cu,Jovellanos,Matanzas,2020/05/03,,secundario
+,mujer,25,cu,Santiago de Cuba,Santiago de Cuba,2020/05/03,,secundario
+,mujer,63,cu,Isla de la Juventud,Isla de la Juventud,2020/05/03,,secundario
