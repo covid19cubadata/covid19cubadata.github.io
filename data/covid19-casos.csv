@@ -11,7 +11,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,77,us,Trinidad,Sancti Spíritus,2020/03/18,2020/03/15,primario
 ,hombre,57,ca,Rafael Freyre,Holguín,2020/03/18,2020/03/16,primario
 ,hombre,69,fr,Bayamo,Granma,2020/03/19,2020/03/16,primario
-,hombre,70,it,Holguín,Holguín,2020/03/19,2020/03/14,primario
+,hombre,71,it,Jesús Menéndez,Las Tunas,2020/03/19,2020/03/14,primario
 ,mujer,37,cu,Bayamo,Granma,2020/03/19,2020/03/17,primario
 ,hombre,34,es,Playa,La Habana,2020/03/19,2020/03/17,primario
 ,hombre,81,ca,Plaza de la Revolución,La Habana,2020/03/19,2020/03/18,primario
