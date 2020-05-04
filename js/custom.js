@@ -1567,6 +1567,34 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        c3.generate({
+                            bindto: "#daily-actaltday-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    dailySingle,
+                                    recoversSingle
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Casos en el día': '#B01E22',
+                                    'Altas en el día': '#00AEEF'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Altas',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
 
                         comparison2 = c3.generate({
                             bindto: "#provinces-curve",

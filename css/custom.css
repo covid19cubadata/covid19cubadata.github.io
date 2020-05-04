@@ -160,7 +160,8 @@ body > div {
 #daily-porciento-positivos,
 #tests-line-info,
 #cases-pie-info,
-#daily-actalt-info {
+#daily-actalt-info,
+#daily-actaltday-info {
   height: 220px;
 }
 
