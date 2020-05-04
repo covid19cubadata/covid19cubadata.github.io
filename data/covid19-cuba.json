@@ -2764,14 +2764,14 @@
                     {
                         "id": "it-4",
                         "pais": "it",
-                        "edad": 70,
+                        "edad": 71,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": "2020/03/09",
                         "consulta_medico": "2020/03/14",
-                        "municipio_detección": "Holguín",
-                        "provincia_detección": "Holguín",
-                        "dpacode_municipio_deteccion": "32.06",
-                        "dpacode_provincia_deteccion": "32",
+                        "municipio_detección": "Jesús Menéndez",
+                        "provincia_detección": "Las Tunas",
+                        "dpacode_municipio_deteccion": "31.03",
+                        "dpacode_provincia_deteccion": "31",
                         "contagio": "importado",
                         "contacto_focal": null,
                         "centro_aislamiento": "cho",
@@ -2780,6 +2780,7 @@
                             "it"
                         ],
                         "info": "Ciudadano italiano de 70 años de edad, que arribó al país el 9 de marzo del presente año, procedente de Lombardía, Italia. Se encontraba aislado en el Centro de Aislamiento Villa “El Cocal” de Holguín, por ser contacto de los primeros casos confirmados en Trinidad procedentes de Italia. Comenzó con los síntomas el 14 de marzo. Se mantiene aislado con evolución satisfactoria hasta el momento. Con antecedente de Enfermedad Pulmonar Obstructiva Crónica. Está ingresado en el Hospital “Fermín Valdés Domínguez”, de Holguín.",
+                        "nota": "Dato verificados con información directa del MINSAP. Cambia edad, provincia y municipio",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
