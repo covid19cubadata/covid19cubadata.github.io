@@ -31901,7 +31901,7 @@
                         "id": "cu-1392",
                         "pais": "cu",
                         "edad": 82,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Colón",
@@ -31914,6 +31914,7 @@
                         "centro_diagnostico": "ipk",
                         "posible_procedencia_contagio": [],
                         "info": "Ciudadana cubana de 82 años de edad, residente en el municipio Colón, provincia Matanzas. Se investiga la fuente de infección. Se mantienen en vigilancia 21 contactos. ",
+                        "nota": "Dato verificados con información directa del MINSAP. Cambia sexo",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
