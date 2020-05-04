@@ -261,7 +261,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,27,cu,Ciego de Ávila,Ciego de Ávila,2020/04/02,,secundario
 ,hombre,48,cu,Camagüey,Camagüey,2020/04/02,2020/03/29,primario
 ,mujer,36,cu,Camagüey,Camagüey,2020/04/02,2020/03/28,primario
-,mujer,28,cu,Holguín,Holguín,2020/04/02,2020/03/22,secundario
+,mujer,28,cu,Banes,Holguín,2020/04/02,2020/03/22,secundario
 ,hombre,68,cu,Holguín,Holguín,2020/04/02,2020/03/28,primario
 ,hombre,46,cu,Holguín,Holguín,2020/04/02,2020/03/23,secundario
 ,hombre,48,cu,Calixto García,Holguín,2020/04/02,2020/03/23,secundario
