@@ -1930,6 +1930,18 @@
             "abierto": true,
             "chequeado": false
         },
+        "elha-14": {
+            "id": "elha-14",
+            "identificador": "Consejo Popular Luyanó Moderno",
+            "municipio": "San Miguel del Padrón",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.08",
+            "dpacode_provincia": "23",
+            "lon": -82.323142,
+            "lat": 23.095841,
+            "abierto": true,
+            "chequeado": false
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Rúa",
