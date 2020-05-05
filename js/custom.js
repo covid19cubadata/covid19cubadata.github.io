@@ -1453,6 +1453,8 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        
 
                         let porciento = [
                             ntest_days,
