@@ -187,7 +187,7 @@ $.walker = {
             $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -1112,6 +1112,8 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        
 
                         let porciento = [
                             ntest_days,
@@ -1198,6 +1200,62 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        c3.generate({
+                            bindto: "#daily-actalt-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    dailyActive,
+                                    recoversSum
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Casos activos': '#B01E22',
+                                    'Altas acumuladas': '#00AEEF'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Altas',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#daily-actaltday-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    dailySingle,
+                                    recoversSingle
+                                ],
+                                type: 'line',
+                                colors: {
+                                    'Casos en el día': '#B01E22',
+                                    'Altas en el día': '#00AEEF'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Altas',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
 
                         comparison2 = c3.generate({
                             bindto: "#provinces-curve",
@@ -1256,8 +1314,8 @@ function run_calculations() {
 								colors: {
 									'Fallecidos': '#1C1340',
 									'Evacuados': '#939393',
-									'Recuperados': '#B11116',
-									'Activos': '#00AEEF'
+									'Recuperados': '#00AEEF',
+									'Activos': '#B11116'
 								}
 							},
 							donut: {

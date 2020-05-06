@@ -188,36 +188,52 @@
     </div>
 
     <div id="line-charts" class="container-fluid">
-        <div class="card-deck card-deck-2">
-			<section id="casinfo" class="card common-bg">
-                <div class="card-header">Distribución de los casos</div>
-                <div class="card-body">
-                    <div id="cases-pie-info"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="casdist" class="card common-bg">
+		<div class="card-deck card-deck-2">
+			<section id="casdist" class="card common-bg">
                 <div class="card-header">Evoluci&oacute;n de casos por d&iacute;as</div>
                 <div class="card-body">
                     <div id="daily-single-info"></div>
                 </div>
             </section>
-            <div class="w-100 d-none d-sm-block"></div>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
             <section id="recdist" class="card common-bg">
                 <div class="card-header">Evoluci&oacute;n de altas por d&iacute;as</div>
                 <div class="card-body">
                     <div id="daily-recovers-info"></div>
                 </div>
             </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <div class="w-100 d-none d-sm-block"></div>
             <section id="deadist" class="card common-bg">
                 <div class="card-header">Evoluci&oacute;n de fallecidos por d&iacute;as</div>
                 <div class="card-body">
                     <div id="daily-deads-info"></div>
                 </div>
             </section>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            
+            <section id="casinfo" class="card common-bg">
+                <div class="card-header">Distribución de los casos</div>
+                <div class="card-body">
+                    <div id="cases-pie-info"></div>
+                </div>
+            </section>
             <div class="w-100 d-none d-sm-block"></div>
-            <section id="agedist" class="card common-bg ">
+            
+            <section id="actalt" class="card common-bg">
+                <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos y altas diarias</div>
+                <div class="card-body">
+                    <div id="daily-actaltday-info"></div>
+                </div>
+            </section>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <section id="actalt" class="card common-bg">
+                <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos activos y altas acumuladas</div>
+                <div class="card-body">
+                    <div id="daily-actalt-info"></div>
+                </div>
+            </section>
+			<div class="w-100 d-none d-sm-block"></div>
+			<section id="agedist" class="card common-bg ">
                 <div class="card-header">Distribuci&oacute;n por rangos etarios</div>
                 <div class="card-body">
                     <div id="ages-info"></div>
@@ -267,7 +283,7 @@
         </div>
         <div class="card-deck card-deck-2">
             <section id="repnum" class="card common-bg">
-                <div class="card-header">Número Reproductivo Efectivo</div>
+                <div class="card-header">Número Reproductivo Efectivo (a partir de datos hasta el 2020/05/01)</div>
                 <div class="card-body">
                     <div id="repnumber-chart"></div>
                     <div class="map-quote">
