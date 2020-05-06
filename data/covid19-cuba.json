@@ -36,7 +36,7 @@
             "dpacode_provincia": "22",
             "lon": -82.541029,
             "lat": 22.917551,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-1": {
@@ -48,7 +48,7 @@
             "dpacode_provincia": "23",
             "lon": -82.406630,
             "lat": 23.134915,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-2": {
@@ -60,7 +60,7 @@
             "dpacode_provincia": "23",
             "lon": -82.394147,
             "lat": 23.133810,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-3": {
@@ -96,7 +96,7 @@
             "dpacode_provincia": "23",
             "lon": -82.469490,
             "lat": 23.062503,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-6": {
@@ -120,7 +120,7 @@
             "dpacode_provincia": "23",
             "lon": -82.306841,
             "lat": 23.144922,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "elha-8": {
@@ -312,7 +312,7 @@
             "dpacode_provincia": "28",
             "lon": -79.4847,
             "lat": 22.0812,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "essp-3": {
@@ -324,7 +324,7 @@
             "dpacode_provincia": "28",
             "lon": -79.366034,
             "lat": 21.993348,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "ecav-1": {
