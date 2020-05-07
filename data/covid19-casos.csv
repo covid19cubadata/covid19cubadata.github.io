@@ -1702,3 +1702,29 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,30,cu,Nuevitas,Camagüey,2020/05/05,,primario
 ,hombre,50,cu,Holguín,Holguín,2020/05/05,,secundario
 ,hombre,48,cu,Holguín,Holguín,2020/05/05,,secundario
+,hombre,39,cu,Caimito,Artemisa,2020/05/06,,secundario
+,hombre,35,cu,La Habana Vieja,La Habana,2020/05/06,,secundario
+,hombre,27,cu,San Miguel del Padrón,La Habana,2020/05/06,,secundario
+,hombre,92,cu,San Miguel del Padrón,La Habana,2020/05/06,,secundario
+,hombre,20,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,mujer,48,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,hombre,21,cu,Marianao,La Habana,2020/05/06,,secundario
+,mujer,32,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,hombre,55,cu,Centro Habana,La Habana,2020/05/06,,desconocido
+,hombre,19,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,hombre,42,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,hombre,42,cu,Marianao,La Habana,2020/05/06,,desconocido
+,mujer,70,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,hombre,79,cu,Guanabacoa,La Habana,2020/05/06,,secundario
+,mujer,23,cu,Matanzas,Matanzas,2020/05/06,,secundario
+,mujer,1,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,hombre,43,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,mujer,27,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,mujer,51,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,mujer,28,cu,Santa Clara,La Habana,2020/05/06,,secundario
+,mujer,85,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,mujer,54,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,mujer,33,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,hombre,86,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,hombre,47,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
+,hombre,62,cu,Ciego de Ávila,Ciego de Ávila,2020/05/06,,desconocido
