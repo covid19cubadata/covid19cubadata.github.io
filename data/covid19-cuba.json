@@ -3062,6 +3062,18 @@
             "abierto": true,
             "chequeado": true
         },
+        "evcl-4": {
+            "id": "evcl-4",
+            "identificador": "Poligráfico Enrique Núñez Rodríguez",
+            "municipio": "Santa Clara",
+            "provincia": "Villa Clara",
+            "dpacode_municipio": "26.09",
+            "dpacode_provincia": "26",
+            "lon": -79.933302,
+            "lat": 22.430672,
+            "abierto": true,
+            "chequeado": true
+        },
         "essp-1": {
             "id": "essp-1",
             "identificador": "Cabaiguán I",
