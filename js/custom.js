@@ -1757,8 +1757,7 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
-                    
-                    
+
 
                     function getMunProfile(code, mun, pro) {
                         var t = '';
@@ -1806,6 +1805,9 @@ function run_calculations() {
                         return '<span class="bd">' + layer.feature.properties.province + '</span> - ' + layer.feature.properties.municipality;
                     }, {'sticky': true});
 
+                    factor = 1.5*10**(Math.floor(Math.log10(genInfo.max_pros)));
+                    console.log(factor);
+
                     geojsonM.bindPopup(function (layer) {
                         var mcode = layer.feature.properties.DPA_municipality_code;
                         var mun = layer.feature.properties.municipality;
@@ -1839,6 +1841,7 @@ function run_calculations() {
                         if (code in muns) {
                             if (muns[code].total > 0) {
                                 var opac = logx(factor, muns[code].total * factor / genInfo.max_muns);
+                                if(opac<0.07){opac=0.07;}
                                 return "rgba(176,30,34," + opac + ")";
                             }
                         }
@@ -1849,6 +1852,7 @@ function run_calculations() {
                         if (code in pros) {
                             if (pros[code].total > 0) {
                                 var opac = logx(factor, pros[code].total * factor / genInfo.max_pros);
+                                if(opac<0.07){opac=0.07;}
                                 return "rgba(176,30,34," + opac + ")";
                             }
                         }
