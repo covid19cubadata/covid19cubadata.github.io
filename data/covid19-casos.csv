@@ -1728,3 +1728,15 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,86,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
 ,hombre,47,cu,Santa Clara,Villa Clara,2020/05/06,,secundario
 ,hombre,62,cu,Ciego de Ávila,Ciego de Ávila,2020/05/06,,desconocido
+,mujer,50,cu,San Miguel del Padrón,La Habana,2020/05/07,,secundario
+,hombre,50,cu,Arroyo Naranjo,La Habana,2020/05/07,,secundario
+,hombre,76,cu,Arroyo Naranjo,La Habana,2020/05/07,,secundario
+,hombre,54,cu,Centro Habana,La Habana,2020/05/07,,desconocido
+,mujer,27,cu,Cárdenas,Matanzas,2020/05/07,,secundario
+,mujer,27,cu,Corralillo,Villa Clara,2020/05/07,,secundario
+,hombre,47,cu,Santa Clara,Villa Clara,2020/05/07,,secundario
+,hombre,53,cu,Santa Clara,Villa Clara,2020/05/07,,secundario
+,mujer,24,cu,Morón,Ciego de Ávila,2020/05/07,,secundario
+,hombre,26,cu,Morón,Ciego de Ávila,2020/05/07,,secundario
+,hombre,34,cu,Camagüey,Camagüey,2020/05/07,,secundario
+,hombre,69,cu,Amancio,Las Tunas,2020/05/07,,desconocido
