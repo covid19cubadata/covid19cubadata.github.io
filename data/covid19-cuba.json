@@ -3155,7 +3155,7 @@
             "dpacode_provincia": "29",
             "lon": -78.6031,
             "lat": 22.1416,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "ecam-1": {
