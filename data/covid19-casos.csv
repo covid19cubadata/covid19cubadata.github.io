@@ -1740,3 +1740,16 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,26,cu,Morón,Ciego de Ávila,2020/05/07,,secundario
 ,hombre,34,cu,Camagüey,Camagüey,2020/05/07,,secundario
 ,hombre,69,cu,Amancio,Las Tunas,2020/05/07,,desconocido
+,hombre,47,cu,Pinar del Río,Pinar del Río,2020/05/08,,primario
+,mujer,55,cu,Centro Habana,La Habana,2020/05/08,,desconocido
+,mujer,25,cu,San Miguel del Padrón,La Habana,2020/05/08,,secundario
+,mujer,34,cu,San Miguel del Padrón,La Habana,2020/05/08,,secundario
+,hombre,32,cu,Boyeros,La Habana,2020/05/08,,secundario
+,mujer,55,cu,Boyeros,La Habana,2020/05/08,,desconocido
+,mujer,52,cu,Arroyo Naranjo,La Habana,2020/05/08,,secundario
+,mujer,22,cu,La Habana Vieja,La Habana,2020/05/08,,secundario
+,hombre,51,cu,Diez de Octubre,La Habana,2020/05/08,,desconocido
+,mujer,59,cu,Plaza de la Revolución,La Habana,2020/05/08,,secundario
+,mujer,21,cu,Matanzas,Matanzas,2020/05/08,,desconocido
+,hombre,55,cu,Matanzas,Matanzas,2020/05/08,,desconocido
+,hombre,65,cu,Venezuela,La Habana,2020/05/08,,desconocido
