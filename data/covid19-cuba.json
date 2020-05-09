@@ -72,7 +72,7 @@
             "dpacode_provincia": "23",
             "lon": -82.373719,
             "lat": 23.112644,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-4": {
@@ -144,7 +144,7 @@
             "dpacode_provincia": "23",
             "lon": -82.371030,
             "lat": 23.129591,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "elha-10": {
@@ -168,7 +168,7 @@
             "dpacode_provincia": "23",
             "lon": -82.373594,
             "lat": 23.134378,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "elha-12": {
@@ -206,6 +206,18 @@
             "lat": 23.095841,
             "abierto": true,
             "chequeado": false
+        },
+        "elha-15": {
+            "id": "elha-15",
+            "identificador": "Consejo Popular Latinoamericano",
+            "municipio": "Cerro",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.10",
+            "dpacode_provincia": "23",
+            "lon": -82.374755,
+            "lat": 23.118224,
+            "abierto": false,
+            "chequeado": true
         },
         "emay-1": {
             "id": "emay-1",
@@ -348,7 +360,7 @@
             "dpacode_provincia": "29",
             "lon": -78.8132,
             "lat": 21.7314,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "ecav-2": {
@@ -408,7 +420,7 @@
             "dpacode_provincia": "30",
             "lon": -77.909095,
             "lat": 21.412535,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "ehol-1": {
