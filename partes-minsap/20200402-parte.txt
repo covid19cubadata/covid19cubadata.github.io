@@ -1,0 +1,61 @@
+Parte de cierre del día 1 de abril de 2020 a las 12:00 de la noche
+
+por Redacción MINSAP · Publicada 2 abril 2020 · Actualizado 6 abril 2020
+
+Hasta el cierre del día de ayer, en Cuba se encuentran ingresados 2 mil 320 pacientes, de ellos mil 384 sospechosos y 213 confirmados. Otras 25 mil 920 personas se vigilan en sus hogares, desde la Atención Primaria de Salud.
+
+Para COVID-19 se estudiaron ayer 576 casos, resultando positivas 21 muestras. El país acumula 3 mil 342 muestras realizadas y 233 positivas. Por tanto, al cierre del día de ayer se confirmaron 21 nuevos casos, para un acumulado de 233 en el país.
+
+De los 21 casos confirmados, fueron diagnosticados 20 cubanos y un extranjero (procedente de China). De los 20 cubanos diagnosticados dos tienen fuente de infección en el extranjero: España y Dubai (uno cada uno), 13 fueron contactos de casos confirmados y cinco fueron contactos de viajeros procedentes del exterior.
+
+Detalles de los 21 nuevos casos confirmados:
+
+    Ciudadano cubano de 9 años edad, residente en el municipio de Consolación del Sur, provincia Pinar del Río. Contacto de casos confirmados de la comunidad Camilo Cienfuegos con trasmisión local. Comenzó el 27 de marzo con síntomas, ese mismo día fue ingresado en el Hospital “León Cuervo Rubio”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 23 contactos de este paciente.
+    Ciudadana cubana de 31 años de edad, residente en el municipio  Consolación del Sur, provincia Pinar del Río. Contacto de casos confirmados de la comunidad Camilo Cienfuegos con trasmisión local. El día 29 fue remitida e ingresada asintomática, para aislamiento en el Hospital “León Cuervo Rubio”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 23 contactos de este paciente.
+
+    Ciudadano chino de 42 años de edad, trabajador de la Zona Especial del Mariel. Contacto de un caso confirmado anteriormente. Comenzó con los síntomas el día 27 de marzo. Fue trasladada del centro de aislamiento de la provincia al Instituto de Medicina Tropical Pedro Kourí. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 142 contactos del campamento donde se mantenía aislado. 
+
+    Ciudadano cubano de 69 años de edad, residente en Arroyo Naranjo, provincia La Habana. Arribó al país el 19 de marzo procedente de España. El 29 acude a los servicios de urgencia de su policlínico con síntomas respiratorios, siendo remitido e ingresado en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 10 contactos de este paciente.
+    Ciudadana cubana de 68 años de edad, residente en La Habana Vieja, provincia La Habana. Contacto de un caso confirmado anteriormente. Se encontraba asintomática, ingresada en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 60 contactos de este paciente.
+    Ciudadana cubana de 63 años de edad, residente en el municipio Diez de Octubre, provincia La Habana. Contacto de un caso confirmado anteriormente. Se encontraba asintomática, ingresada en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 60 contactos de este paciente.
+    Ciudadano cubano de 24 años de edad, residente en el municipio Cerro, provincia La Habana. Arribó al país el 28 de marzo procedente de Dubai. Al llegar al Centro de aislamiento de la Villa Panamericana, se detectan síntomas respiratorios, siendo remitido e ingresado en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 15 contactos de este paciente.
+    Ciudadano cubano de 42 años de edad, residente en Centro Habana, provincia La Habana. Mantuvo contacto en los últimos 14 días con viajero procedente de Lombardía, Italia. Comenzó con síntomas el 21 de marzo, fue remitido e ingresado en el Hospital “Luis Díaz Soto”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 15 contactos de este paciente. 
+
+    Ciudadana cubana de 3 años de edad, residente en Jagüey Grande, provincia Matanzas. Es contacto de un viajero procedente de Estados Unidos que se encuentra en seguimiento, y se mantiene asintomático. Se ingresa el día 29 en el Hospital “Mario Muñoz Monroy” por presentar síntomas. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 9 contactos de este paciente.
+    Ciudadano cubano de 35 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Es contacto de varios casos confirmados y sospechosos. Comenzó el 26 de marzo con síntomas, fue ingresado en el Hospital “Mario Muñoz Monroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 13 contactos de este paciente.
+    Ciudadana cubana de 35 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Es contacto del caso anterior confirmado. Comenzó el 26 de marzo con los síntomas, fue ingresada en el Hospital “Mario Muñoz Monroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 13 contactos de este paciente. 
+
+    Ciudadana cubana de 38 años de edad, residente en Cumanayagua, provincia Cienfuegos. Es contacto de un caso confirmado anteriormente. El día 29, asintomática, fue remitida e ingresada, en el Hospital “Mario Muñoz Monroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente.
+    Ciudadano cubano de 22 años de edad, residente en Cumanayagua, provincia Cienfuegos. Es contacto de un caso confirmado anteriormente. El día 29, asintomático, fue remitido e ingresado, en el Hospital “Mario Muñoz Monroy”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente.
+    Ciudadana cubana de 35 años de edad, residente en el municipio Cienfuegos, provincia del mismo nombre. Es contacto de un caso confirmado anteriormente. El día 28, asintomática, fue remitida e ingresada, en el Hospital “Mario Muñoz Monroy¨. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 57 contactos de este paciente. 
+
+    Ciudadana cubana de 35 años de edad, residente en el municipio Venezuela, provincia Ciego de Ávila. Es contacto de un caso confirmado anteriormente. Comenzó el 29 de marzo con síntomas, fue ingresada ese mismo día en el Hospital “Amalia Simoni”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 35 contactos de este paciente.
+    Ciudadana cubana de 8 años, reside en el municipio Venezuela, provincia Ciego de Ávila. Es contacto de un caso confirmado anteriormente. Comenzó el 29 de marzo con síntomas, fue ingresada ese mismo día en el Hospital “Amalia Simoni”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 35 contactos de este paciente.
+    Ciudadana cubana de 58 años de edad, residente en el municipio Venezuela, provincia Ciego de Ávila. Es contacto de un caso confirmado anteriormente. Comenzó el 29 de marzo con los síntomas, fue ingresada ese mismo día en el Hospital “Amalia Simoni”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 29 contactos de este paciente. 
+
+    Ciudadano cubano de 41 años de edad, residente en el municipio Nuevitas, provincia Camagüey. Es trabajador del turismo, por lo que mantuvo contacto con extranjeros. Comenzó con síntomas el día 27, fue ingresada el día 28 en el Hospital “Amalia Simoni”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 12 contactos de este paciente. 
+
+    Ciudadano cubano de 31 años de edad, residente en el municipio Santiago de Cuba, provincia del mismo nombre. Mantuvo contacto con turista procedente de México en los últimos 14 días. Comenzó con síntomas y fue ingresado en el Hospital “Ambrosio Grillo”. El 1ro de abril fue remitido al Hospital “Joaquín Castillo Duani”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 10 contactos de este paciente.
+    Ciudadana cubana de 49 años de edad, residente en el municipio Santiago de Cuba, provincia del mismo nombre. Mantuvo contacto con turistas canadienses del 16 al 18 de marzo, por motivos laborales. Comenzó con síntomas el día 26, fue ingresada el día 27 en el Hospital “Ambrosio Grillo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 14 contactos de este paciente.
+    Ciudadana cubana de 79 años, residente en el municipio Santiago de Cuba, provincia del mismo nombre. Es contacto de dos casos confirmados anteriormente. El día 29 fue ingresada asintomática en el Hospital “Ambrosio Grillo”. Mantiene evolución satisfactoria hasta el momento. Se encuentran en vigilancia 5 contactos de este paciente. 
+
+De los 233 pacientes diagnosticados con la enfermedad, 206 presentan evolución clínica estable. Se reportan seis fallecidos, un evacuado y 13 altas, una nueva alta en el día de ayer. Se reportan cinco pacientes en estado crítico y dos en estado grave.
+
+Pacientes reportados en estado crítico:
+
+    Ciudadana cubana de 53 años de edad que arribó al país el 14 de marzo. Comenzó con síntomas el 23 de marzo, siendo ingresada el 24 de marzo en el Hospital “Manuel Piti Fajardo”, de Villa Clara, con antecedentes de diabetes mellitus. Se traslada para Terapia Intensiva el día 27 por presentar dificultad respiratoria, se mantiene ventilada. Continúa reportada en estado crítico.
+    Ciudadana cubana de 71 años de edad, procedente de Sancti Spíritus e ingresada en el Hospital “Manuel Piti Fajardo”, de Villa Clara.  Arribó de España el 20 de marzo y comenzó con síntomas el 21. Ha presentado empeoramiento clínico y radiográfico, además miocarditis con derrame pericardico. Continúa reportada en estado crítico.
+    Ciudadano cubano de 49 años de edad, residente en el municipio Taguasco, Sancti Spíritus. Presenta antecedentes de hipertensión arterial. El 17 de marzo arribó de República Dominicana. Comenzó con síntomas el 21 y fue ingresado en el Hospital “Manuel Piti Fajardo” de la provincia Villa Cara. Evoluciona con lesión neumónica y distress respiratorio. Continúa reportado en estado crítico.
+    Ciudadano cubano de 70 años de edad. Contactó con personal que procedente de España. Inició con los síntomas el 20 de marzo y fue ingresado en el Hospital “Luis Díaz Soto” como caso sospechoso. Ingresa en la terapia intensiva el día 29 con un cuadro de insuficiencia respiratoria aguda, con distress respiratorio. Continúa reportado en estado crítico.
+    Ciudadano cubano de 83 años, residente en España. Arribó de España el 6 de marzo, comenzó con síntomas el 25 de marzo y fue ingresado en el IPK. Se trasladó para la terapia intensiva por un distress respiratorio, ha presentado empeoramiento del cuadro. Se reporta en estado crítico.
+
+Pacientes reportados en estado grave:
+
+    Ciudadano francés de 72 años de edad, ingresado en el Hospital “Mario Muñoz Monroy”, de Matanzas. Presenta antecedentes de diabetes mellitus, hipertensión arterial, cardiopatía isquémica y fibrilación auricular crónica. Continúa reportado en estado grave.
+    Ciudadana cubana de 68 años de edad, residente en los Estados Unidos. Arribó al país el 22 de marzo, comenzó con síntomas el 26 y fue ingresada en el IPK. Tiene antecedentes de diabetes mellitus, hipertensión arterial y arritmia cardíaca. Presenta distress respiratorio. Se reporta en estado grave.
+
+Se le dio de alta al paciente de 39 años de edad, positivo de COVID-19, caso índice del evento número dos de la comunidad Camilo Cienfuegos de Consolación del Sur, provincia Pinar del Río, que se encontraba ingresado en el Hospital “León Cuervo Rubio”.
+
+Hasta el 1 de abril se reportan 178 países (+3) con casos de COVID-19, con 854 mil 707 casos confirmados (+ 76 908) y 42 mil 162 fallecidos (+ 4 890), para una letalidad de 4,93% (+0,14). Reportando transmisión en 162 países (91%).
+
+En la región de las Américas se reportan 217 mil 466 casos confirmados, el 25,4% del total de casos reportados en el mundo con 4 mil 698 fallecidos y una letalidad de 2,1%. 
