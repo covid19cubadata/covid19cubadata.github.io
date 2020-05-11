@@ -131,7 +131,7 @@ def main():
     path = os.path.join('data', 'paises-info-dias.json')
     json.dump(data, open(path, 'w'))
 
-    print(json.dumps(data, indent=2))
+    #print(json.dumps(data, indent=2))
 
     generate_csv()
     print('CSV generated')
