@@ -1056,9 +1056,9 @@ function run_calculations() {
                         var rangeDiagnosesF = ['Diagnosticados Mujeres'];
                         for (var r in ages) {
                             range.push(r);
-                            rangeDiagnoses.push(ages[r]);
                             rangeDiagnosesM.push(agesM[r]);
                             rangeDiagnosesF.push(agesF[r]);
+                            rangeDiagnoses.push(ages[r]);
                         }
                         c3.generate({
                             bindto: "#ages-info",
@@ -1066,16 +1066,18 @@ function run_calculations() {
                                 x: range[0],
                                 columns: [
                                     range,
-                                    rangeDiagnoses,
                                     rangeDiagnosesM,
-                                    rangeDiagnosesF
+                                    rangeDiagnosesF,
+                                    rangeDiagnoses
                                 ],
                                 groups: [
                                     ['Diagnosticados Hombres', 'Diagnosticados Mujeres']
                                 ],
                                 type: 'bar',
                                 colors: {
-                                    'Diagnosticados': '#B01E22'
+									'Diagnosticados Mujeres': '#B01E22',
+									'Diagnosticados Hombres': '#1C1340',
+                                    'Diagnosticados': '#939393'
                                 }
                             },
                             axis: {
