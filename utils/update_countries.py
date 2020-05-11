@@ -102,7 +102,7 @@ def get_countries_test():
     data2 = io.StringIO(data2.decode('utf8'))
     reader = csv.reader(data2)
     data = defaultdict(lambda : defaultdict(list))
-    next(reader)pr
+    next(reader)
     for i in reader:
         if i[-1]:
             percent = int(i[3])/float(i[11])*100
