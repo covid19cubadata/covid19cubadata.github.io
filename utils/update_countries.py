@@ -25,7 +25,7 @@ def get_oxford_index():
     for day,countries in indexes['data'].items():
         data['data'][day] = {}
         for country in countries:
-            print(day,country,countries[country]['stringency'])
+            #print(day,country,countries[country]['stringency'])
             data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual'], 'stringency_legacy': countries[country]['stringency_legacy'], 'stringency_legacy_disp': countries[country]['stringency_legacy_disp']}
     path = os.path.join('data', 'oxford-indexes.json')
     json.dump(data, open(path, 'w'))
@@ -102,7 +102,7 @@ def get_countries_test():
     data2 = io.StringIO(data2.decode('utf8'))
     reader = csv.reader(data2)
     data = defaultdict(lambda : defaultdict(list))
-    next(reader)
+    next(reader)pr
     for i in reader:
         if i[-1]:
             percent = int(i[3])/float(i[11])*100
