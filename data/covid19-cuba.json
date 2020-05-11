@@ -3465,7 +3465,7 @@
             "dpacode_provincia": "28",
             "lon": -79.5232,
             "lat": 22.1429,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "essp-2": {
@@ -3513,7 +3513,7 @@
             "dpacode_provincia": "29",
             "lon": -79.0068,
             "lat": 22.1505,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "ecav-3": {
@@ -3585,7 +3585,7 @@
             "dpacode_provincia": "32",
             "lon": -75.722647,
             "lat": 20.940798,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "ehol-3": {
