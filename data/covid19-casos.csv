@@ -1753,3 +1753,32 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,21,cu,Matanzas,Matanzas,2020/05/08,,desconocido
 ,hombre,55,cu,Matanzas,Matanzas,2020/05/08,,desconocido
 ,hombre,65,cu,Venezuela,Ciego de Ávila,2020/05/08,,desconocido
+,mujer,85,cu,Bauta,Artemisa,2020/05/09,,desconocido
+,hombre,17,cu,Playa,La Habana,2020/05/09,,desconocido
+,hombre,59,cu,Playa,La Habana,2020/05/09,,secundario
+,hombre,44,cu,Cotorro,La Habana,2020/05/09,,secundario
+,mujer,31,cu,Diez de Octubre,La Habana,2020/05/09,,secundario
+,mujer,20,cu,Habana del Este,La Habana,2020/05/09,,secundario
+,hombre,66,cu,Cerro,La Habana,2020/05/09,,secundario
+,hombre,78,cu,Plaza de la Revolución,La Habana,2020/05/09,,desconocido
+,hombre,6,cu,San Miguel del Padrón,La Habana,2020/05/09,,secundario
+,hombre,67,cu,Santa Clara,Villa Clara,2020/05/09,,secundario
+,mujer,34,cu,Sancti Spíritus,Sancti Spíritus,2020/05/09,,secundario
+,hombre,55,cu,Ciego de Ávila,Ciego de Ávila,2020/05/09,,secundario
+,hombre,75,cu,Cotorro,La Habana,2020/05/10,,secundario
+,hombre,52,cu,Cotorro,La Habana,2020/05/10,,secundario
+,mujer,52,cu,Regla,La Habana,2020/05/10,,secundario
+,hombre,38,cu,Arroyo Naranjo,La Habana,2020/05/10,,secundario
+,hombre,27,cu,Regla,La Habana,2020/05/10,,secundario
+,hombre,43,cu,La Habana Vieja,La Habana,2020/05/10,,secundario
+,hombre,25,cu,Matanzas,Matanzas,2020/05/10,,secundario
+,hombre,25,cu,Matanzas,Matanzas,2020/05/10,,secundario
+,mujer,1,cu,Limonar,Matanzas,2020/05/10,,secundario
+,mujer,46,cu,Santa Clara,Villa Clara,2020/05/10,,secundario
+,hombre,47,cu,Camagüey,Camagüey,2020/05/10,,secundario
+,hombre,40,cu,Camagüey,Camagüey,2020/05/10,,secundario
+,hombre,21,cu,Camagüey,Camagüey,2020/05/10,,secundario
+,mujer,13,cu,Camagüey,Camagüey,2020/05/10,,secundario
+,mujer,34,cu,Camagüey,Camagüey,2020/05/10,,secundario
+,hombre,68,cu,Camagüey,Camagüey,2020/05/10,,secundario
+,hombre,56,cu,Florida,Camagüey,2020/05/10,,desconocido
