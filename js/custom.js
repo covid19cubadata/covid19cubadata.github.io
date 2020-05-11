@@ -784,6 +784,30 @@ function run_calculations() {
                             '80 o más': 0,
                             'Desconocido': 0
                         }
+                        var agesM = {
+                            '0-9': 0,
+                            '10-19': 0,
+                            '20-29': 0,
+                            '30-39': 0,
+                            '40-49': 0,
+                            '50-59': 0,
+                            '60-69': 0,
+                            '70-79': 0,
+                            '80 o más': 0,
+                            'Desconocido': 0
+                        }
+                        var agesF = {
+                            '0-9': 0,
+                            '10-19': 0,
+                            '20-29': 0,
+                            '30-39': 0,
+                            '40-49': 0,
+                            '50-59': 0,
+                            '60-69': 0,
+                            '70-79': 0,
+                            '80 o más': 0,
+                            'Desconocido': 0
+                        }
                         var total_cu = 0;
                         var total_no_cu = 0;
                         var total_unk = 0;
@@ -834,24 +858,74 @@ function run_calculations() {
                                     //ages
                                     if (diag[p].edad == null) {
                                         ages['Desconocido'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['Desconocido'] += 1
+                                        }else{
+                                            agesM['Desconocido'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 0) && (diag[p].edad < 10)) {
                                         ages['0-9'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['0-9'] += 1
+                                        }else{
+                                            agesM['0-9'] += 1
+                                        }
                                     } else if ((diag[p].edad >=10) && (diag[p].edad < 20)) {
                                         ages['10-19'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['10-19'] += 1
+                                        }else{
+                                            agesM['10-19'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 20) && (diag[p].edad < 30)) {
                                         ages['20-29'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['20-29'] += 1
+                                        }else{
+                                            agesM['20-29'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 30) && (diag[p].edad < 40)) {
                                         ages['30-39'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['30-39'] += 1
+                                        }else{
+                                            agesM['30-39'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 40) && (diag[p].edad < 50)) {
                                         ages['40-49'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['40-49'] += 1
+                                        }else{
+                                            agesM['40-49'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 50) && (diag[p].edad < 60)) {
                                         ages['50-59'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['50-59'] += 1
+                                        }else{
+                                            agesM['50-59'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 60) && (diag[p].edad < 70)) {
                                         ages['60-69'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['60-69'] += 1
+                                        }else{
+                                            agesM['60-69'] += 1
+                                        }
                                     } else if ((diag[p].edad >= 70) && (diag[p].edad < 80)) {
                                         ages['70-79'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['70-79'] += 1
+                                        }else{
+                                            agesM['70-79'] += 1
+                                        }
                                     } else {
                                         ages['80 o más'] += 1
+                                        if(diag[p].sexo==='mujer'){
+                                            agesF['80 o más'] += 1
+                                        }else{
+                                            agesM['80 o más'] += 1
+                                        }
                                     }
 
                                     //contagio
@@ -978,9 +1052,13 @@ function run_calculations() {
                         //Bar for ages
                         var range = ['Rango Etario'];
                         var rangeDiagnoses = ['Diagnosticados'];
+                        var rangeDiagnosesM = ['Diagnosticados Hombres'];
+                        var rangeDiagnosesF = ['Diagnosticados Mujeres'];
                         for (var r in ages) {
                             range.push(r);
                             rangeDiagnoses.push(ages[r]);
+                            rangeDiagnosesM.push(agesM[r]);
+                            rangeDiagnosesF.push(agesF[r]);
                         }
                         c3.generate({
                             bindto: "#ages-info",
@@ -988,7 +1066,12 @@ function run_calculations() {
                                 x: range[0],
                                 columns: [
                                     range,
-                                    rangeDiagnoses
+                                    rangeDiagnoses,
+                                    rangeDiagnosesM,
+                                    rangeDiagnosesF
+                                ],
+                                groups: [
+                                    ['Diagnosticados Hombres', 'Diagnosticados Mujeres']
                                 ],
                                 type: 'bar',
                                 colors: {
@@ -997,9 +1080,12 @@ function run_calculations() {
                             },
                             axis: {
                                 x: {
-                                    label: 'Rango etario',
+                                    label: {
+                                        text: 'Rango etario',
+                                        position: 'outer-center',
+                                    },
                                     type: 'categorical',
-                                     tick: {
+                                    tick: {
 										rotate: -30,
 										multiline: false
 									},
