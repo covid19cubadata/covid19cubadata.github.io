@@ -3621,7 +3621,7 @@
             "dpacode_provincia": "35",
             "lon": -74.511464,
             "lat": 20.353737,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "eijv-1": {
@@ -3657,7 +3657,7 @@
             "dpacode_provincia": "34",
             "lon": -75.850496,
             "lat": 20.047420,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "estg-2": {
@@ -3669,7 +3669,7 @@
             "dpacode_provincia": "34",
             "lon": -75.803810,
             "lat": 20.081182,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         }
     },
