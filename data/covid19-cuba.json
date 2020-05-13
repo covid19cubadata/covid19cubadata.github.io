@@ -3429,7 +3429,7 @@
             "dpacode_provincia": "26",
             "lon": -79.6365,
             "lat": 22.4377,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "evcl-3": {
