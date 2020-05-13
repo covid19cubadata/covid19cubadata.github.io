@@ -1803,3 +1803,9 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,52,cu,Playa,La Habana,2020/05/11,,secundario
 ,mujer,38,cu,Limonar,Matanzas,2020/05/11,,secundario
 ,mujer,38,cu,Ciego de Ávila,Ciego de Ávila,2020/05/11,,secundario
+,hombre,53,cu,Cerro,La Habana,2020/05/12,,secundario
+,mujer,25,cu,Plaza de la Revolución,La Habana,2020/05/12,,secundario
+,hombre,31,cu,La Lisa,,2020/05/12,,secundario
+,hombre,40,cu,San Miguel del Padrón,La Habana,2020/05/12,,primario
+,mujer,68,cu,Arroyo Naranjo,La Habana,2020/05/12,,desconocido
+,hombre,39,cu,Bolivia,Ciego de Ávila,2020/05/12,,secundario
