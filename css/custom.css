@@ -82,6 +82,12 @@ body > div {
   background-color: #1c1340;
 }
 
+#boletin-container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 30px;
+}
+
 #apks-info {
   border-radius: 0;
 }
@@ -566,6 +572,7 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
 }
 
 @media (min-width: 768px) {
+  
   #stats-cards > .row > div:nth-child(3n + 1) {
     padding-left: 15px;
     padding-right: 7px;
@@ -614,6 +621,8 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
 }
 
 @media (min-width: 992px) {
+	
+
   #stats-cards .card,
   #stats-cards > .card-deck > .card:nth-of-type(3),
   #stats-cards > .card-deck > .card:nth-of-type(4) {
@@ -641,6 +650,13 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
   .card-deck-3 > .card:nth-of-type(3n + 0) {
     margin-left: 7px !important;
     margin-right: 15px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #boletin-container {
+	margin-left: 2%;
+	margin-right: 2%;
   }
 }
 
