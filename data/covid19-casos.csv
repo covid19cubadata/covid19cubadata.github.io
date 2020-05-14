@@ -1809,3 +1809,23 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,40,cu,San Miguel del Padrón,La Habana,2020/05/12,,primario
 ,mujer,68,cu,Arroyo Naranjo,La Habana,2020/05/12,,desconocido
 ,hombre,39,cu,Bolivia,Ciego de Ávila,2020/05/12,,secundario
+,hombre,27,cu,San Miguel del Padrón,La Habana,2020/05/13,,secundario
+,hombre,6,cu,Sa Miguel del Padrón,La Habana,2020/05/13,,secundario
+,mujer,56,cu,Playa,La Habana,2020/05/13,,secundario
+,mujer,57,cu,Centro Habana,La Habana,2020/05/13,,secundario
+,mujer,39,cu,Centro Habana,La Habana,2020/05/13,,secundario
+,mujer,37,cu,San Miguel del Padrón,La Habana,2020/05/13,,secundario
+,hombre,56,cu,Boyeros,La Habana,2020/05/13,,desconocido
+,hombre,46,cu,Arroyo Naranjo,La Habana,2020/05/13,,secundario
+,mujer,44,cu,Arroyo Naranjo,La Habana,2020/05/13,,secundario
+,hombre,24,cu,La Lisa,La Habana,2020/05/13,,secundario
+,mujer,35,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,hombre,41,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,hombre,25,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,mujer,25,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,mujer,38,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,mujer,45,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,mujer,59,cu,Limonar,Matanzas,2020/05/13,,secundario
+,mujer,46,cu,Matanzas,Matanzas,2020/05/13,,secundario
+,hombre,35,cu,Jovellanos,Matanzas,2020/05/13,,secundario
+,mujer,38,cu,Los Arabos,Matanzas,2020/05/13,,desconocido
