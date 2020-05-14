@@ -107,6 +107,10 @@ body > div {
   min-height: 383px;
 }
 
+#radar-chart, #myChart {
+  min-height: 220px;
+}
+
 #project {
   text-align: center;
 }

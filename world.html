@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="js/datatables/dataTables.bootstrap4.min.css" />
     <link rel="stylesheet" href="js/datatables/fixedHeader.bootstrap4.min.css" />
     <link rel="stylesheet" href="js/datatables/responsive.bootstrap4.min.css" />
+    <link rel="stylesheet" href="css/Chart.min.css" />
     <link href="css/c3.css" rel="stylesheet">
     <link href="css/select2.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -39,6 +40,38 @@
     <div id="navbar"></div>
 
     <div class="container-fluid">
+
+        <div class="container-fluid">
+            <div id="radar" class="card common-bg">
+                <div class="card-header">
+                    Comparación respecto al comportamiento de los Tests realizados.
+                </div>
+                <div class="card-body">
+                    <div class="explain-text">
+                        El gráfico permite comparar a Cuba con distintos paises respecto, a la vez, el porciento de detección de contagiados en base al total de tests realizados y el número de tests por
+                        millón de habitantes.
+                    </div>
+                    <br>
+                    <div id="radar-form">
+                        <p>
+                        Seleccione los países a comparar. Escriba un nombre para añadir alguno o puede eliminar uno de los ya presente.
+                        </p>
+                        <form class="form-inline">
+                            <select id="country_selector_3" class="form-control form-control-sm" name="states[]" style="width: 100%">
+                            </select>
+                        </form>
+                    </div>
+                    <div id="radar-chart">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class="map-quote">
+                        * Datos de los pa&iacute;ses tomados de <a href="https://covid.ourworldindata.org/data/owid-covid-data.csv">Our World in Data.</a>. Los datos de Cuba se calculan
+                        a partir de la propia información que provee este sitio.
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="compari" class="card common-bg">
             <div class="card-header">
                 <form class="form-inline mb-0 mt-1">
@@ -323,6 +356,7 @@
     <script type="text/javascript" src="js/datatables/dataTables.responsive.min.js"></script>
     <script type="text/javascript" src="js/datatables/responsive.bootstrap4.min.js"></script>
     <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/Chart.min.js"></script>
     <script type="text/javascript" src="js/worl.js"></script>
     <script type="text/javascript">
         $("#navbar").load('navbar.html', function(){

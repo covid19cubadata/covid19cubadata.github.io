@@ -108,11 +108,13 @@ def get_countries_test():
             percent = int(i[3])/float(i[11])*100
             data[i[0]]['test_efectivity'].append(percent)
             data[i[0]]['total_tests_per_million'].append(float(i[13])*1000)
+            data[i[0]]['population'].append(int(float(i[16])))
     path = os.path.join('data', 'countries_test.json')
     json.dump(data,open(path,'w'))
     for i in data.keys():
         data[i]['test_efectivity']=data[i]['test_efectivity'][-1]
         data[i]['total_tests_per_million']=data[i]['total_tests_per_million'][-1]
+        data[i]['population']=data[i]['population'][-1]
     return data
 
 

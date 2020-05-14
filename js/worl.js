@@ -748,6 +748,8 @@ function run_calculations() {
                 $('#countrycurve-select').append('<option value="' + cc + '">' + cc + '</option>');
             }
 
+            //console.log(curves_stringency);
+
             var tab_selected = 'confirmados';
             var countryselected = 'Hungría';
             $('#countrycurve-select').val(countryselected);
@@ -982,6 +984,11 @@ function run_calculations() {
                 closeOnSelect: true
             });
 
+            var $country_selector3 = $('#country_selector_3').select2({
+                data: test_countries,
+                closeOnSelect: true
+            });
+
             var test_countries_top=[];
             for (var i = 0; i < countrysorted2.length; i++) {
                 if(countrysorted2[i] in curves_test){
@@ -992,6 +999,7 @@ function run_calculations() {
                 }
             }
             $country_selector2.val(test_countries_top).trigger("change");
+            $country_selector3.val('Estados Unidos').trigger("change");
 
             let selection2 = $('#country_selector_2').select2('data');
 
@@ -1082,6 +1090,49 @@ function run_calculations() {
                 columdata2.push(test_effective);
 
                 curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            });
+
+            let selection3 = $('#country_selector_3').select2('data');
+            var ctx =$('#myChart');
+            var radarChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Stringency Index', 'Test por millón de habitantes', 'Casos por millón de habitantes',
+                            '% test positivos', '% casos fallecidos', '% casos recuperados'],
+                    datasets: [{
+                            label: 'Cuba',
+                            data: [curves_stringency['Cuba'].data[curves_stringency['Cuba'].data.length-1],
+                                    100,//countriesdays.tests['CUB']['total_tests_per_million'],
+                                    Math.round(dailySum[dailySum.length-1]/countriesdays.tests['CUB']['population']*1000000),
+                                    60, 30, 10],
+                            backgroundColor: [
+                                'rgba(176, 30, 40, 0.2)',
+                            ],
+                            borderColor: [
+                                'rgba(176, 30, 40, 1)',
+                            ],
+                            ///borderWidth: 1
+                        },
+                    ]
+                },
+                options: {
+                    tooltips: {
+                        callbacks: {
+                            title: function(tooltipItem, data) {
+                                return data.labels[tooltipItem[0].index];
+                            }
+                        }
+                    },
+                    scale: {
+                        angleLines: {
+                            //display: false
+                        },
+                        ticks: {
+                            suggestedMin: 0,
+                            suggestedMax: 100
+                        }//*/
+                    }
+                }
             });
 
             $.fn.DataTable.ext.pager.numbers_length = 5;
