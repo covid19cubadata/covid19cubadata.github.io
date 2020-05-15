@@ -533,6 +533,17 @@ function load(url, callback) {
       });
 }
 
+function get_last_not_nan(data){
+    let res = 0;
+    for(let i=data.length-1;i>=0;i--){
+        if(data[i]!==null){
+            res=data[i];
+            break;
+        }
+    }
+    return res;
+}
+
 function run_calculations() {
 
     var curves = {};
@@ -983,13 +994,12 @@ function run_calculations() {
                 }
             }
             test_countries.sort();
+            for(let i=0;i<test_countries.length;i++){
+                $('#country_selector_3').append('<option value="' + test_countries[i] + '">' + test_countries[i] + '</option>');
+            }
+            $('#country_selector_3').val('Estados Unidos');
 
             var $country_selector2 = $('#country_selector_2').select2({
-                data: test_countries,
-                closeOnSelect: true
-            });
-
-            var $country_selector3 = $('#country_selector_3').select2({
                 data: test_countries,
                 closeOnSelect: true
             });
@@ -1004,7 +1014,6 @@ function run_calculations() {
                 }
             }
             $country_selector2.val(test_countries_top).trigger("change");
-            $country_selector3.val('Estados Unidos').trigger("change");
 
             let selection2 = $('#country_selector_2').select2('data');
 
@@ -1098,10 +1107,10 @@ function run_calculations() {
             });
 
             var myChart = echarts.init(document.getElementById('radarchart'));
-            let selection3 = $('#country_selector_3').select2('data');
-            
-            var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3[0].id].x[1]));
-            var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000));
+            let selection3 = $('#country_selector_3').val();
+
+            var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3].x[1]));
+            var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3]['data'][curves[selection3]['data'].length-1]/populations[selection3]*1000000));
 
             option = {
                 title: {
@@ -1109,7 +1118,7 @@ function run_calculations() {
                 },
                 tooltip: {},
                 legend: {
-                    data: ['Cuba', selection3[0].id],
+                    data: ['Cuba', selection3],
                     bottom: -5,
                     itemGap: 20
                 },
@@ -1140,7 +1149,7 @@ function run_calculations() {
                     },
                     data: [
                         {
-                            value: [curves_stringency['Cuba'].data[curves_stringency['Cuba'].data.length-1],
+                            value: [get_last_not_nan(curves_stringency['Cuba'].data),
                                 Math.round(test_cases_per_million[1]),
                                 Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),
                                 round(test_effective[1]),
@@ -1149,36 +1158,37 @@ function run_calculations() {
                             name: 'Cuba'
                         },
                         {
-                            value: [curves_stringency[selection3[0].id].data[curves_stringency[selection3[0].id].data.length-1],
-                            Math.round(curves_test[selection3[0].id].x[1]),
-                            Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000),
-                            round(curves_test[selection3[0].id].y[1]),
-                            round(curves_death[selection3[0].id]['data'][curves_death[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100),
-                            round(curves_recover[selection3[0].id]['data'][curves_recover[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100)],
-                            name: selection3[0].id
+                            value: [get_last_not_nan(curves_stringency[selection3].data),
+                            Math.round(curves_test[selection3].x[1]),
+                            Math.round(curves[selection3]['data'][curves[selection3]['data'].length-1]/populations[selection3]*1000000),
+                            round(curves_test[selection3].y[1]),
+                            round(curves_death[selection3]['data'][curves_death[selection3]['data'].length-1]/curves[selection3]['data'][curves[selection3]['data'].length-1]*100),
+                            round(curves_recover[selection3]['data'][curves_recover[selection3]['data'].length-1]/curves[selection3]['data'][curves[selection3]['data'].length-1]*100)],
+                            name: selection3
                         }
                     ]
                 }]
             };
             myChart.setOption(option);
 
-            $("#country_selector_3").on("select2:select", function (evt) {
-                selection3 = $('#country_selector_3').select2('data');
-				var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3[0].id].x[1]));
-			    var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000));
-            
+            $("#country_selector_3").off('change').on('change', function () {
+                let selection3 = $('#country_selector_3').val();
+
+                var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3].x[1]));
+                var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3]['data'][curves[selection3]['data'].length-1]/populations[selection3]*1000000));
+
                 option = {
                     title: {
                         text: ''
                     },
                     tooltip: {},
                     legend: {
-                        data: ['Cuba', selection3[0].id],
+                        data: ['Cuba', selection3],
                         bottom: -5,
                         itemGap: 20
                     },
                     radar: {
-                         //shape: 'circle',
+                        // shape: 'circle',
                         name: {
                             textStyle: {
                                 color: '#fff',
@@ -1204,7 +1214,7 @@ function run_calculations() {
                         },
                         data: [
                             {
-                                value: [curves_stringency['Cuba'].data[curves_stringency['Cuba'].data.length-1],
+                                value: [get_last_not_nan(curves_stringency['Cuba'].data),
                                     Math.round(test_cases_per_million[1]),
                                     Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),
                                     round(test_effective[1]),
@@ -1213,13 +1223,13 @@ function run_calculations() {
                                 name: 'Cuba'
                             },
                             {
-                                value: [curves_stringency[selection3[0].id].data[curves_stringency[selection3[0].id].data.length-1],
-                                Math.round(curves_test[selection3[0].id].x[1]),
-                                Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000),
-                                round(curves_test[selection3[0].id].y[1]),
-                                round(curves_death[selection3[0].id]['data'][curves_death[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100),
-                                round(curves_recover[selection3[0].id]['data'][curves_recover[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100)],
-                                name: selection3[0].id
+                                value: [get_last_not_nan(curves_stringency[selection3].data),
+                                Math.round(curves_test[selection3].x[1]),
+                                Math.round(curves[selection3]['data'][curves[selection3]['data'].length-1]/populations[selection3]*1000000),
+                                round(curves_test[selection3].y[1]),
+                                round(curves_death[selection3]['data'][curves_death[selection3]['data'].length-1]/curves[selection3]['data'][curves[selection3]['data'].length-1]*100),
+                                round(curves_recover[selection3]['data'][curves_recover[selection3]['data'].length-1]/curves[selection3]['data'][curves[selection3]['data'].length-1]*100)],
+                                name: selection3
                             }
                         ]
                     }]
