@@ -982,6 +982,7 @@ function run_calculations() {
                     populations[c_trans]=countriesdays.tests[i].population;
                 }
             }
+            test_countries.sort();
 
             var $country_selector2 = $('#country_selector_2').select2({
                 data: test_countries,
