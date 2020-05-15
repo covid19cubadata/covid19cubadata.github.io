@@ -519,6 +519,10 @@ function scaleY(num) {
     return Math.log10(num);
 }
 
+function round(number, digits=2){
+    return Math.round((number+Number.EPSILON)*10**digits)/10**digits;
+}
+
 function load(url, callback) {
     cache = false;
     $.ajax({
@@ -967,6 +971,7 @@ function run_calculations() {
 
             var test_countries = [];
             var curves_test = {};
+            var populations = {};
 
             for(i in  countriesdays.tests){
                 if(i in countries_codes && i!=='CUB'){
@@ -974,10 +979,17 @@ function run_calculations() {
                     test_countries.push(c_trans);
                     curves_test[c_trans]={x:[c_trans+'-per-million',countriesdays.tests[i]['total_tests_per_million']],
                                         y:[c_trans,countriesdays.tests[i]['test_efectivity']]};
+                    populations[c_trans]=countriesdays.tests[i].population;
                 }
             }
+            test_countries.sort();
 
             var $country_selector2 = $('#country_selector_2').select2({
+                data: test_countries,
+                closeOnSelect: true
+            });
+
+            var $country_selector3 = $('#country_selector_3').select2({
                 data: test_countries,
                 closeOnSelect: true
             });
@@ -992,6 +1004,7 @@ function run_calculations() {
                 }
             }
             $country_selector2.val(test_countries_top).trigger("change");
+            $country_selector3.val('Estados Unidos').trigger("change");
 
             let selection2 = $('#country_selector_2').select2('data');
 
@@ -1082,6 +1095,136 @@ function run_calculations() {
                 columdata2.push(test_effective);
 
                 curve4 = scatter_plot("#scatter-plot", xaxisdata2, columdata2);
+            });
+
+            var myChart = echarts.init(document.getElementById('radarchart'));
+            let selection3 = $('#country_selector_3').select2('data');
+            
+            var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3[0].id].x[1]));
+            var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000));
+
+            option = {
+                title: {
+                    text: ''
+                },
+                tooltip: {},
+                legend: {
+                    data: ['Cuba', selection3[0].id],
+                    bottom: -5,
+                    itemGap: 20
+                },
+                radar: {
+                    // shape: 'circle',
+                    name: {
+                        textStyle: {
+                            color: '#fff',
+                            backgroundColor: '#999',
+                            borderRadius: 3,
+                            padding: [2, 2]
+                        }
+                    },
+                    indicator: [
+                        { name: 'Stringency Index' , max: 100},
+                        { name: 'Test por millón de habitantes', max: mtest_million},
+                        { name: 'Casos por millón de habitantes', max: mcase_million},
+                        { name: '% test positivos', max: 40},
+                        { name: '% casos fallecidos', max: 15},
+                        { name: '% casos recuperados', max: 100}
+                    ]
+                },
+                series: [{
+                    name: '',
+                    type: 'radar',
+                    emphasis: {
+                        areaStyle: {normal: {}}
+                    },
+                    data: [
+                        {
+                            value: [curves_stringency['Cuba'].data[curves_stringency['Cuba'].data.length-1],
+                                Math.round(test_cases_per_million[1]),
+                                Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),
+                                round(test_effective[1]),
+                                round(deadsSum[deadsSum.length-1]/dailySum[dailySum.length-1]*100),
+                                round(recoversSum[deadsSum.length-1]/dailySum[dailySum.length-1]*100)],
+                            name: 'Cuba'
+                        },
+                        {
+                            value: [curves_stringency[selection3[0].id].data[curves_stringency[selection3[0].id].data.length-1],
+                            Math.round(curves_test[selection3[0].id].x[1]),
+                            Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000),
+                            round(curves_test[selection3[0].id].y[1]),
+                            round(curves_death[selection3[0].id]['data'][curves_death[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100),
+                            round(curves_recover[selection3[0].id]['data'][curves_recover[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100)],
+                            name: selection3[0].id
+                        }
+                    ]
+                }]
+            };
+            myChart.setOption(option);
+
+            $("#country_selector_3").on("select2:select", function (evt) {
+                selection3 = $('#country_selector_3').select2('data');
+				var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3[0].id].x[1]));
+			    var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000));
+            
+                option = {
+                    title: {
+                        text: ''
+                    },
+                    tooltip: {},
+                    legend: {
+                        data: ['Cuba', selection3[0].id],
+                        bottom: -5,
+                        itemGap: 20
+                    },
+                    radar: {
+                         //shape: 'circle',
+                        name: {
+                            textStyle: {
+                                color: '#fff',
+                                backgroundColor: '#999',
+                                borderRadius: 3,
+                                padding: [2, 2]
+                            }
+                        },
+                        indicator: [
+                            { name: 'Stringency Index' , max: 100},
+                            { name: 'Test por millón de habitantes', max: mtest_million},
+                            { name: 'Casos por millón de habitantes', max: mcase_million},
+                            { name: '% test positivos', max: 40},
+                            { name: '% casos fallecidos', max: 15},
+                            { name: '% casos recuperados', max: 100}
+                        ]
+                    },
+                    series: [{
+                        name: '',
+                        type: 'radar',
+                        emphasis: {
+                            areaStyle: {normal: {}}
+                        },
+                        data: [
+                            {
+                                value: [curves_stringency['Cuba'].data[curves_stringency['Cuba'].data.length-1],
+                                    Math.round(test_cases_per_million[1]),
+                                    Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),
+                                    round(test_effective[1]),
+                                    round(deadsSum[deadsSum.length-1]/dailySum[dailySum.length-1]*100),
+                                    round(recoversSum[deadsSum.length-1]/dailySum[dailySum.length-1]*100)],
+                                name: 'Cuba'
+                            },
+                            {
+                                value: [curves_stringency[selection3[0].id].data[curves_stringency[selection3[0].id].data.length-1],
+                                Math.round(curves_test[selection3[0].id].x[1]),
+                                Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000),
+                                round(curves_test[selection3[0].id].y[1]),
+                                round(curves_death[selection3[0].id]['data'][curves_death[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100),
+                                round(curves_recover[selection3[0].id]['data'][curves_recover[selection3[0].id]['data'].length-1]/curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]*100)],
+                                name: selection3[0].id
+                            }
+                        ]
+                    }]
+                };
+                myChart.setOption(option);
             });
 
             $.fn.DataTable.ext.pager.numbers_length = 5;

@@ -113,8 +113,17 @@ body > div {
   min-height: 383px;
 }
 
+#radarchart {
+  min-height: 400px;
+}
+
 #project {
   text-align: center;
+}
+
+#country_selector_3 {
+	font-weight: normal;
+	width: 200px;
 }
 
 .rounded {

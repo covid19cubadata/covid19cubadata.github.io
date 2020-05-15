@@ -39,10 +39,35 @@
     <div id="navbar"></div>
 
     <div class="container-fluid">
+
+   
+		<div id="radar" class="card common-bg">
+			<div class="card-header">
+				<label for="country_selector_3">Comparación múltiple de Cuba respecto a</label>
+				<select id="country_selector_3"  class="form-control form-control-sm ml-1" name="states[]" >
+				</select>
+			</div>
+			<div class="card-body">
+				<div class="explain-text">
+					El gráfico de radar permite comparar a Cuba con otro país respecto a múltiples indicadores a la vez. Todos los indicadores
+					fueron dados, según el caso, en la misma escala, en valores porcentuales o normalizados.
+				</div>
+				<div id="radarchart">
+					<!--<canvas id="myChart"></canvas>-->
+				</div>
+				<br>
+				<div class="map-quote">
+					* Datos de los pa&iacute;ses fueron tomados para los tests de <a href="https://covid.ourworldindata.org/data/owid-covid-data.csv">Our World in Data.</a>
+					y el resto de e <a href="https://github.com/pomber/covid19">pomber/covid19</a>. Los datos de Cuba se calculan
+					a partir de la propia información que provee este sitio.
+				</div>
+			</div>
+		</div>
+
         <div id="compari" class="card common-bg">
             <div class="card-header">
                 <form class="form-inline mb-0 mt-1">
-                    <label for="countrycurve-select">Comparaci&oacute;n de Cuba con</label>
+                    <label for="countrycurve-select">Curvas de Cuba respecto a</label>
                     <select id="countrycurve-select" class="form-control form-control-sm ml-1"></select>
                 </form>
                 <ul class="nav nav-tabs nav-justified card-header-tabs">
@@ -323,6 +348,7 @@
     <script type="text/javascript" src="js/datatables/dataTables.responsive.min.js"></script>
     <script type="text/javascript" src="js/datatables/responsive.bootstrap4.min.js"></script>
     <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
     <script type="text/javascript" src="js/worl.js"></script>
     <script type="text/javascript">
         $("#navbar").load('navbar.html', function(){

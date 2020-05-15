@@ -605,7 +605,6 @@
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
-                            "ha",
                             "he",
                             "lc"
                         ],
