@@ -107,8 +107,8 @@ body > div {
   min-height: 383px;
 }
 
-#radar-chart, #myChart {
-  min-height: 220px;
+#radarchart {
+  min-height: 383px;
 }
 
 #project {
