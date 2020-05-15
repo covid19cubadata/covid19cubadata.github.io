@@ -764,7 +764,7 @@ function run_calculations() {
             }
 
             var tab_selected = 'confirmados';
-            var countryselected = 'Hungría';
+            var countryselected = 'Costa Rica';
             $('#countrycurve-select').val(countryselected);
             $('.countries-date').html(countriesdays['dia-actualizacion']);
 
@@ -997,7 +997,7 @@ function run_calculations() {
             for(let i=0;i<test_countries.length;i++){
                 $('#country_selector_3').append('<option value="' + test_countries[i] + '">' + test_countries[i] + '</option>');
             }
-            $('#country_selector_3').val('Estados Unidos');
+            $('#country_selector_3').val(countryselected);
 
             var $country_selector2 = $('#country_selector_2').select2({
                 data: test_countries,
