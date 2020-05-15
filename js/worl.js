@@ -1099,6 +1099,9 @@ function run_calculations() {
 
             var myChart = echarts.init(document.getElementById('radarchart'));
             let selection3 = $('#country_selector_3').select2('data');
+            
+            var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3[0].id].x[1]));
+            var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000));
 
             option = {
                 title: {
@@ -1122,10 +1125,10 @@ function run_calculations() {
                     },
                     indicator: [
                         { name: 'Stringency Index' , max: 100},
-                        { name: 'Test por millón de habitantes', max: 100000},
-                        { name: 'Casos por millón de habitantes', max: 100000},
-                        { name: '% test positivos', max: 100},
-                        { name: '% casos fallecidos', max: 100},
+                        { name: 'Test por millón de habitantes', max: mtest_million},
+                        { name: 'Casos por millón de habitantes', max: mcase_million},
+                        { name: '% test positivos', max: 40},
+                        { name: '% casos fallecidos', max: 15},
                         { name: '% casos recuperados', max: 100}
                     ]
                 },
@@ -1161,7 +1164,9 @@ function run_calculations() {
 
             $("#country_selector_3").on("select2:select", function (evt) {
                 selection3 = $('#country_selector_3').select2('data');
-
+				var mtest_million = 1.1*Math.max(Math.round(test_cases_per_million[1]),Math.round(curves_test[selection3[0].id].x[1]));
+			    var mcase_million = 1.1*Math.max(Math.round(dailySum[dailySum.length-1]/cuba_population*1000000),Math.round(curves[selection3[0].id]['data'][curves[selection3[0].id]['data'].length-1]/populations[selection3[0].id]*1000000));
+            
                 option = {
                     title: {
                         text: ''
@@ -1173,7 +1178,7 @@ function run_calculations() {
                         itemGap: 20
                     },
                     radar: {
-                        // shape: 'circle',
+                         //shape: 'circle',
                         name: {
                             textStyle: {
                                 color: '#fff',
@@ -1184,10 +1189,10 @@ function run_calculations() {
                         },
                         indicator: [
                             { name: 'Stringency Index' , max: 100},
-                            { name: 'Test por millón de habitantes', max: 100000},
-                            { name: 'Casos por millón de habitantes', max: 100000},
-                            { name: '% test positivos', max: 100},
-                            { name: '% casos fallecidos', max: 100},
+                            { name: 'Test por millón de habitantes', max: mtest_million},
+                            { name: 'Casos por millón de habitantes', max: mcase_million},
+                            { name: '% test positivos', max: 40},
+                            { name: '% casos fallecidos', max: 15},
                             { name: '% casos recuperados', max: 100}
                         ]
                     },
