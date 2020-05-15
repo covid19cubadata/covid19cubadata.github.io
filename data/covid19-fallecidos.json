@@ -376,7 +376,7 @@
                         "edad": 80,
                         "sexo": "mujer",
                         "municipio_detección": "Diez de Octubre",
-                        "provincia_detección": "Ciego de Ávila",
+                        "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.09",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [],
@@ -430,12 +430,12 @@
                 "casos": {
                     "f-17": {
                         "id": "f-17",
-                        "id_caso": null,
+                        "id_caso": "cu-592",
                         "pais": "cu",
                         "edad": 88,
                         "sexo": "hombre",
                         "municipio_detección": "Habana del Este",
-                        "provincia_detección": "Matanzas",
+                        "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
@@ -446,7 +446,7 @@
                     },
                     "f-18": {
                         "id": "f-18",
-                        "id_caso": null,
+                        "id_caso": "cu-593",
                         "pais": "cu",
                         "edad": 80,
                         "sexo": "hombre",
@@ -466,7 +466,7 @@
                 "casos": {
                     "f-19": {
                         "id": "f-19",
-                        "id_caso": null,
+                        "id_caso": "cu-306",
                         "pais": "cu",
                         "edad": 62,
                         "sexo": "hombre",
@@ -497,7 +497,7 @@
                     },
                     "f-21": {
                         "id": "f-21",
-                        "id_caso": null,
+                        "id_caso": "cu-666",
                         "pais": "cu",
                         "edad": 75,
                         "sexo": "mujer",
@@ -555,7 +555,7 @@
                     },
                     "f-24": {
                         "id": "f-24",
-                        "id_caso": null,
+                        "id_caso": "cu-758",
                         "pais": "cu",
                         "edad": 88,
                         "sexo": "hombre",
@@ -578,7 +578,7 @@
                 "casos": {
                     "f-25": {
                         "id": "f-25",
-                        "id_caso": null,
+                        "id_caso": "cu-255",
                         "pais": "cu",
                         "edad": 84,
                         "sexo": "hombre",
@@ -666,7 +666,7 @@
                     },
                     "f-30": {
                         "id": "f-30",
-                        "id_caso": null,
+                        "id_caso": "cu-705",
                         "pais": "cu",
                         "edad": 78,
                         "sexo": "hombre",
@@ -690,8 +690,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Las Tunas",
                         "provincia_detección": "Las Tunas",
-                        "dpacode_municipio_deteccion": "34.06",
-                        "dpacode_provincia_deteccion": "34",
+                        "dpacode_municipio_deteccion": "31.05",
+                        "dpacode_provincia_deteccion": "31",
                         "enfermedades": [
                             "sl",
                             "ha",
@@ -727,7 +727,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 44,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "municipio_detección": "Santiago de Cuba",
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
@@ -746,7 +746,7 @@
                  "casos": {
                      "f-34": {
                         "id": "f-34",
-                        "id_caso": null,
+                        "id_caso": "cu-542",
                         "pais": "cu",
                         "edad": 81,
                         "sexo": "hombre",
@@ -830,7 +830,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 85,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "Placetas",
                         "provincia_detección": "Villa Clara",
                         "dpacode_municipio_deteccion": "26.08",
@@ -868,7 +868,7 @@
                  "casos": {
                      "f-40": {
                         "id": "f-40",
-                        "id_caso": null,
+                        "id_caso": "cu-935",
                         "pais": "cu",
                         "edad": 84,
                         "sexo": "hombre",
@@ -890,8 +890,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Santa Clara",
                         "provincia_detección": "Villa Clara",
-                        "dpacode_municipio_deteccion": "23.15",
-                        "dpacode_provincia_deteccion": "23",
+                        "dpacode_municipio_deteccion": "26.09",
+                        "dpacode_provincia_deteccion": "26",
                         "enfermedades": [
                             "ha",
                             "ic",
@@ -963,7 +963,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 67,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "Centro Habana",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.03",
@@ -1144,7 +1144,7 @@
                         "id": "f-55",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 85,
+                        "edad": 53,
                         "sexo": "hombre",
                         "municipio_detección": "Cárdenas",
                         "provincia_detección": "Matanzas",
@@ -1413,8 +1413,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Colón",
                         "provincia_detección": "Matanzas",
-                        "dpacode_municipio_deteccion": "26.05",
-                        "dpacode_provincia_deteccion": "26",
+                        "dpacode_municipio_deteccion": "25.04",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ct",
                             "ip"
@@ -1490,7 +1490,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 92,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "municipio_detección": "Sancti Spíritus",
                         "provincia_detección": "Sancti Spíritus",
                         "dpacode_municipio_deteccion": "28.07",
