@@ -1154,8 +1154,8 @@ function run_calculations() {
                         {name: '% test\npositivos', max: 40},
                         {name: 'Stringency\nIndex', max: 100},
                         {name: 'Casos por millón de habitantes', max: mcase_million},
-                        {name: '% casos\nfallecidos', max: 15},
-                        {name: '% casos\nrecuperados', max: 100}
+                        {name: '% casos\nrecuperados', max: 100},
+                        {name: '% casos\nfallecidos', max: 15}
                     ],
                 },
                 series: [{
@@ -1171,8 +1171,9 @@ function run_calculations() {
                                 round(test_effective[1]),
                                 get_last_not_nan(curves_stringency['Cuba'].data),
                                 Math.round(dailySum[dailySum.length - 1] / cuba_population * 1000000),
-                                round(deadsSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100),
-                                round(recoversSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100)],
+                                round(recoversSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100),
+                                round(deadsSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100)
+                                ],
                             name: 'Cuba'
                         },
                         {
@@ -1181,8 +1182,9 @@ function run_calculations() {
                                 round(curves_test[selection3].y[1]),
                                 get_last_not_nan(curves_stringency[selection3].data),
                                 Math.round(curves[selection3]['data'][curves[selection3]['data'].length - 1] / populations[selection3] * 1000000),
-                                round(curves_death[selection3]['data'][curves_death[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100),
-                                round(curves_recover[selection3]['data'][curves_recover[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100)],
+                                round(curves_recover[selection3]['data'][curves_recover[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100),
+                                round(curves_death[selection3]['data'][curves_death[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100)
+                                ],
                             name: selection3
                         }
                     ]
@@ -1221,8 +1223,8 @@ function run_calculations() {
 							{name: '% test\npositivos', max: 40},
 							{name: 'Stringency\nIndex', max: 100},
 							{name: 'Casos por millón de habitantes', max: mcase_million},
-							{name: '% casos\nfallecidos', max: 15},
-							{name: '% casos\nrecuperados', max: 100}
+							{name: '% casos\nrecuperados', max: 100},
+							{name: '% casos\nfallecidos', max: 15}
                         ]
                     },
                     series: [{
@@ -1238,8 +1240,9 @@ function run_calculations() {
                                     round(test_effective[1]),
                                     get_last_not_nan(curves_stringency['Cuba'].data),
                                     Math.round(dailySum[dailySum.length - 1] / cuba_population * 1000000),
-                                    round(deadsSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100),
-                                    round(recoversSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100)],
+                                    round(recoversSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100),
+                                    round(deadsSum[deadsSum.length - 1] / dailySum[dailySum.length - 1] * 100)
+                                    ],
                                 name: 'Cuba'
                             },
                             {
@@ -1248,8 +1251,9 @@ function run_calculations() {
 	                                round(curves_test[selection3].y[1]),
 	                                get_last_not_nan(curves_stringency[selection3].data),
                                     Math.round(curves[selection3]['data'][curves[selection3]['data'].length - 1] / populations[selection3] * 1000000),
-                                    round(curves_death[selection3]['data'][curves_death[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100),
-                                    round(curves_recover[selection3]['data'][curves_recover[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100)],
+                                    round(curves_recover[selection3]['data'][curves_recover[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100),
+                                    round(curves_death[selection3]['data'][curves_death[selection3]['data'].length - 1] / curves[selection3]['data'][curves[selection3]['data'].length - 1] * 100)
+                                    ],
                                 name: selection3
                             }
                         ]
