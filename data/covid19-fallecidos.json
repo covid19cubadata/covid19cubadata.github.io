@@ -62,7 +62,7 @@
         "up": "ulcera péptica",
         "vi": "vih"
     },
-    "fallecidos": {
+    "casos": {
         "dias": {
             "1": {
                 "fecha": "2020/03/11"
@@ -87,8 +87,8 @@
             },
             "8": {
                 "fecha": "2020/03/18",
-                "casos": {
-                    "f-1": {
+                "fallecidos": [
+                    {
                         "id": "f-1",
                         "id_caso": "it-1",
                         "pais": "it",
@@ -106,7 +106,7 @@
                             "En la noche del día 15 de marzo, uno de los pacientes confirmados, de 61 años, de nacionalidad italiana y con antecedentes de padecer Asma Bronquial, comenzó a presentar manifestaciones clínicas de complicaciones propias de la enfermedad, para las que recibió el tratamiento según el protocolo establecido. Hoy 16 de marzo en el parte de las 12 meridiano, su estado ha continuado deteriorándose, por lo que ha requerido de ventilación artificial, reportándose en estado crítico estable."
                         ]
                     }
-                }
+                ]
             },
             "9": {
                 "fecha": "2020/03/19"
@@ -131,8 +131,8 @@
             },
             "16": {
                 "fecha": "2020/03/26",
-                "casos": {
-                    "f-2": {
+                "fallecidos": [
+                    {
                         "id": "f-2",
                         "id_caso": "ru-1",
                         "pais": "ru",
@@ -147,15 +147,15 @@
                         ],
                         "texto": "En horas de la madrugada de hoy 26 de marzo, falleció el paciente ruso de 45 años de edad, ingresado en el IPK, que se encontraba reportado en estado crítico inestable, ventilado y con antecedentes de Diabetes Mellitus. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "17": {
                 "fecha": "2020/03/27"
             },
             "18": {
                 "fecha": "2020/03/28",
-                "casos": {
-                    "f-3": {
+                "fallecidos": [
+                    {
                         "id": "f-3",
                         "id_caso": "cu-141",
                         "pais": "cu",
@@ -171,7 +171,7 @@
                         ],
                         "texto": "Falleció el paciente de 63 años de edad, residente en el municipio Venezuela, provincia Ciego de Ávila, con antecedentes de diabetes mellitus,e hipertensión arterial. Fue contacto de dos viajeros procedentes de España,  que arribaron al país el día 12 de marzo. En las pesquisas realizadas negó la presencia de síntomas. Acudió el día 28 a consulta médica con un cuadro respiratorio agudo grave, con signos de alarma. Fue ingresado en el Hospital “Dr. Antonio Luaces Iraola” de Ciego de Ávila. Falleció a las 6: 00 p. m. bajo un cuadro clínico hipóxico con cianosis y parada cardiorespiratoria. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-4": {
+                    {
                         "id": "f-4",
                         "id_caso": "cu-72",
                         "pais": "cu",
@@ -187,15 +187,15 @@
                         ],
                         "texto": "El ciudadano cubano de 52 años de edad, de Remedios, Villa Clara, que se encontraba ingresado en el Hospital “Manuel Piti Fajardo” falleció en la madrugada de hoy 28 de marzo, a las 2:15 a. m. Presentaba antecedentes de diabetes mellitus, hipertensión arterial y neumopatía crónica. En horas de la madrugada de hoy presentó un cuadro brusco de distress respiratorio, por lo que tuvo que ser ventilado. No respondió a las maniobras realizadas y falleció. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias. "
                     }
-                }
+                ]
             },
             "19": {
                 "fecha": "2020/03/29"
             },
             "20": {
                 "fecha": "2020/03/30",
-                "casos": {
-                    "f-5": {
+                "fallecidos": [
+                    {
                         "id": "f-5",
                         "id_caso": "cu-2",
                         "pais": "cu",
@@ -213,7 +213,7 @@
                         ],
                         "texto": "Ciudadano cubano de 63 años, ingresado en el IPK, con antecedentes de hipertensión arterial, diabetes mellitus y cardiopatía isquémica, un infarto anterior y dos stent puestos. Se mantuvo en terapia intensiva por nueve días, y falleció en la mañana de ayer por una complicación cardiovascular, arritmias cardiacas y paro cardiaco en asistolia. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-6": {
+                    {
                         "id": "f-6",
                         "id_caso": "cu-151",
                         "pais": "cu",
@@ -230,7 +230,7 @@
                         ],
                         "texto": "Ciudadano Cubano de 75 años de edad, residente en el municipio Plaza de la Revolución, provincia La Habana. Con antecedentes de enfermedad pulmonar obstructiva crónica, hipertensión arterial, aneurisma de la aorta. Contacto de caso confirmado anteriormente. Inicia los síntomas el 20 de marzo. Fue ingresado el 26 con el diagnostico de Neumonía en el Hospital “Manuel Fajardo”, con evolución tórpida, falleciendo en la tarde de ayer. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias. "
                     }
-                }
+                ]
             },
             "21": {
                 "fecha": "2020/03/31"
@@ -240,8 +240,8 @@
             },
             "23": {
                 "fecha": "2020/04/02",
-                "casos": {
-                    "f-7": {
+                "fallecidos": [
+                    {
                         "id": "f-7",
                         "id_caso": "cu-278",
                         "pais": "cu",
@@ -257,15 +257,15 @@
                         ],
                         "texto": "Ciudadano cubano, de 74 años de edad, perteneciente al área de Salud Leonilda Tamayo Matos, Municipio Especial Isla de la Juventud. Jubilado de educación, con antecedentes de fumador inveterado y enfermo de Miastenia grave. El día 2 de abril es atendido en el servicio de emergencia del Hospital Héroes de Baire por falta de aire intensa, se agrava su cuadro respiratorio, falleciendo en insuficiencia respiratoria aguda, ese mismo día, a la hora después de llegar al hospital. Como establece el protocolo, al ser un fallecido por IRA, se realiza estudio para COVID-19 resultando positivo en el día de hoy. Se recoge como antecedente epidemiológico que la esposa del fallecido permaneció en días recientes en La Habana y estuvo en contacto con extranjeros de nacionalidad italiana. Se profundiza en la encuesta epidemiológica. Actualmente se encuentra ingresada para estudio y tratamiento."
                     }
-                }
+                ]
             },
             "24": {
                 "fecha": "2020/04/03"
             },
             "25": {
                 "fecha": "2020/04/04",
-                "casos": {
-                    "f-8": {
+                "fallecidos": [
+                    {
                         "id": "f-8",
                         "id_caso": "cu-35",
                         "pais": "cu",
@@ -278,12 +278,12 @@
                         "enfermedades": [],
                         "texto": "Ciudadana cubana, de 71 años, residente en el municipio Sancti Spíritus. Arribó de España el 20 de marzo. Comenzó con síntomas el 21, se ingresó en el centro de aislamiento de la provincia para vigilancia y toma de muestra de PCR. Al ser positiva la muestra se traslada al Hospital Manuel Piti Fajardo, de Villa Clara. Al sexto día de evolución se traslada a la terapia intensiva por presentar un distress respiratorio severo, un RX de tórax con infiltrado en ambos campos pulmonares, miocarditis con derrame pericárdico, daño múltiple de órganos respiratorio, cardiovascular y renal y fallece en la tarde del 4 de abril"
                     }
-                }
+                ]
             },
             "26": {
                 "fecha": "2020/04/05",
-                "casos": {
-                    "f-9": {
+                "fallecidos": [
+                    {
                         "id": "f-9",
                         "id_caso": "cu-303",
                         "pais": "cu",
@@ -296,12 +296,12 @@
                         "enfermedades": [],
                         "texto": "Falleció el ciudadano cubano de 38 años de edad, residente en el municipio Habana Vieja, provincia La Habana. Tuvo contacto con viajera procedente de Suiza. Presentó evolución tórpida con distress respiratorio y bronconeumonía grave. Fallece el día 5 de abril con diagnóstico de COVID-19 positivo. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "27": {
                 "fecha": "2020/04/06",
-                "casos": {
-                    "f-10": {
+                "fallecidos": [
+                    {
                         "id": "f-10",
                         "id_caso": "cu-246",
                         "pais": "cu",
@@ -314,7 +314,7 @@
                         "enfermedades": [],
                         "texto": "Ciudadana cubana de 101 años, cubana, residía en el municipio de Playa, provincia La Habana. Fue contacto de un caso confirmado anteriormente. Se encontraba ingresada en el Hospital Salvador Allende. Presentó lesiones inflamatorias en ambos campos pulmonares, creatinina elevada e insuficiencia respiratoria ligera. Debutó con un sangramiento digestivo alto, hemodinámicamente inestable y falleció el 6 de abril a las 10.00 a. m. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-11": {
+                    {
                         "id": "f-11",
                         "id_caso": "cu-272",
                         "pais": "cu",
@@ -327,12 +327,12 @@
                         "enfermedades": [],
                         "texto": "Ciudadano cubano de 68 años de edad, residía en el municipio Gibara, provincia de Holguín. Se encontraba ingresado en el Hospital General “Gustavo Aldereguía Lima” de Gibara, con el diagnóstico de una Enfermedad Pulmonar Obstructiva Crónica descompensada a punto de partida de una bronconeumonía. Fue trasladado al Hospital Clínico Quirúrgico “Lucía Íñiguez”, empeoramiento clínico, radiológico y hemodinámicamente inestable. Falleció a las 12:42 a. m. de hoy 7 de abril. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "28": {
                 "fecha": "2020/04/07",
-                "casos": {
-                    "f-12": {
+                "fallecidos": [
+                    {
                         "id": "f-12",
                         "id_caso": "cu-310",
                         "pais": "cu",
@@ -349,12 +349,12 @@
                         ],
                         "texto": "La ciudadana cubana de 62 años de edad, residente en el municipio Morón, provincia Ciego de Ávila falleció en la madrugada de hoy, 8 de abril. Presentaba antecedentes de hipertensión arterial, diabetes mellitus y obesidad. Fue contacto de viajera procedente de Estados Unidos Se encontraba ingresada en el Hospital “Dr. Octavio de la Concepción y de la Pedraja”. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "29": {
                 "fecha": "2020/04/08",
-                "casos": {
-                    "f-13": {
+                "fallecidos": [
+                    {
                         "id": "f-13",
                         "id_caso": "cu-29",
                         "pais": "cu",
@@ -369,7 +369,7 @@
                         ],
                         "texto": "Ciudadano cubano de 49 años de edad, de Taguasco, Sancti Spíritus. Con antecedentes de hipertensión arterial. Arribó al país procedente de República Dominicana. Se encontraba ingresado en el Hospital Manuel Piti Fajardo, provincia Villa Clara. Se encontraba en el día 13 de evolución en la terapia, con lesión neumónica, distress respiratorio severo, disfunción respiratoria, renal y miocárdica, hipotensión arterial y abdomen distendido compatible con íleo paralítico, ventilación mecánica e inestable hemodinámicamente. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-14": {
+                    {
                         "id": "f-14",
                         "id_caso": "cu-451",
                         "pais": "cu",
@@ -382,7 +382,7 @@
                         "enfermedades": [],
                         "texto": "Ciudadana cubana de 80 años, residía en el municipio Diez de Octubre, provincia La Habana. Contacto de caso procedente de México. Ingresó por un cuadro respiratorio agudo con diagnóstico de neumonía en el Hospital Salvador Allende, con una insuficiencia respiratoria aguda y una neumopatía inflamatoria. Presentó una evolución tórpida que llevó al fallecimiento. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-15": {
+                    {
                         "id": "f-15",
                         "id_caso": "cu-477",
                         "pais": "cu",
@@ -399,15 +399,15 @@
                         ],
                         "texto": "Ciudadana cubana de 75 años, residía en el municipio Banes, provincia Holguín. Presentaba antecedentes de diabetes mellitus, cardiopatía isquémica, y encamada por fractura de cadera. Se encontraba ingresada en el Hospital Carlos Font de Banes por linfangitis aguda y presentó síntomas respiratorios estudiándose por una insuficiencia respiratoria aguda, y arrojando resultados positivos a COVID-19. Presentó un distress respiratorio marcado que la llevo al fallecimiento. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "30": {
                 "fecha": "2020/04/09"
             },
             "31": {
                 "fecha": "2020/04/10",
-                "casos": {
-                    "f-16": {
+                "fallecidos": [
+                    {
                         "id": "f-16",
                         "id_caso": "cu-51",
                         "pais": "cu",
@@ -423,12 +423,12 @@
                         ],
                         "texto": "Falleció la ciudadana cubana de 91 años de edad, del municipio Santa Clara, provincia Villa Clara. Fue contacto viajero procedente de Estados Unidos. Se encontraba ingresada en el Hospital Manuel Piti Fajardo, en terapia intensiva, con un distress respiratorio agudo. Presentaba antecedentes de Cardiopatía Isquémica, fallo renal crónico agudizado, inestable hemodinámicamente, con empeoramiento radiológico. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "32": {
                 "fecha": "2020/04/11",
-                "casos": {
-                    "f-17": {
+                "fallecidos": [
+                    {
                         "id": "f-17",
                         "id_caso": "cu-592",
                         "pais": "cu",
@@ -444,7 +444,7 @@
                         ],
                         "texto": "Ciudadano cubano de 88 años, residía en Habana del Este, provincia La Habana. Paciente con antecedentes de hipertensión arterial  y ulcera péptica, para lo cual llevaba tratamiento. Fue remitido al Hospital Calixto García con diagnóstico de Hipertensión Arterial Descompensada e Insuficiencia Cardiaca Congestiva. Durante su ingreso se le diagnosticó una insuficiencia renal por lo que se comenzó la hemodiálisis en la sala de nefrología. Al no presentar mejoraría se trasladó a la sala de terapia intermedia (UCIM). Falleció con un cuadro de insuficiencia renal y cardiovascular. El paciente nunca desarrolló síntomas respiratorios. Resultó positivo a COVID-19 (post mortem), teniendo en cuenta que coincidió en el tiempo del evento que afectó el servicio de terapia de este Hospital. No tiene antecedentes epidemiológicos en la vivienda ni el control de foco arroja casos secundarios. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-18": {
+                    {
                         "id": "f-18",
                         "id_caso": "cu-593",
                         "pais": "cu",
@@ -459,12 +459,12 @@
                         ],
                         "texto": "Ciudadano cubano de 80 años, residía en  Plaza de la Revolución, provincia La Habana. Paciente oncológico con metástasis pulmonar, que es remitido por presentar una Neumopatía Inflamatoria. Fue valorado por el cardiólogo e interpretó una Insuficiencia Cardiaca Congestiva. Se decide su ingreso en el Hospital Oncológico por su patología de base. Durante su estadía en el hospital el cuadro se agrava considerándose una infección respiratoria aguda grave, la que es estudiada atendiendo a los protocolos vigentes. Le realizaron una prueba rápida que resultó negativa, se continuó el estudio con PCR, informándose como caso positivo de COVID-19. El cuadro clínico no mejoró y el paciente falleció con una insuficiencia respiratoria. En el control de foco no se encuentra antecedentes epidemiológicos y no aporta casos secundarios. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "33": {
                 "fecha": "2020/04/12",
-                "casos": {
-                    "f-19": {
+                "fallecidos": [
+                    {
                         "id": "f-19",
                         "id_caso": "cu-306",
                         "pais": "cu",
@@ -479,7 +479,7 @@
                         ],
                         "texto": "Ciudadano cubano de 62 años, residía en el municipio Cárdenas, provincia Matanzas. Antecedentes de Hipertensión Arterial. Ingresado en el Hospital ¨Mario Muñoz Monroy¨. Se encontraba con ventilación mecánica, empeoramiento clínico y respiratorio, elementos de disfunción múltiple de órganos (respiratorio, cardiovascular y renal).  Presentó distress respiratorio severo e inestabilidad hemodinámica. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-20": {
+                    {
                         "id": "f-20",
                         "id_caso": null,
                         "pais": "cu",
@@ -495,7 +495,7 @@
                         "texto": "Ciudadano cubano de 83 años, residía en España. Con antecedentes de enfermedad pulmonar crónica. Presentó cuadro de agravamiento respiratorio y requirió ventilación mecánica, hemodinámicamente inestable y fallo de múltiples órganos. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio y provincia y cambia edad."
                     },
-                    "f-21": {
+                    {
                         "id": "f-21",
                         "id_caso": "cu-666",
                         "pais": "cu",
@@ -510,15 +510,15 @@
                         ],
                         "texto": "Ciudadana cubana de 75 años, cubana, residía en el municipio Cacocum, provincia Holguín. Antecedentes de hipertensión arterial. Diagnosticada con una bronconeumonía, con Rx que impresionaba un derrame pleural o posible neoplasia de pulmón, además sospecha de Enfermedad Cerebrovascular.  Realizó una estadía hospitalaria de más de quince días. Empeoró su cuadro con distress respiratorio marcado, neumonía inflamatoria grave y disfunción múltiple de órganos. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "34": {
                 "fecha": "2020/04/13"
             },
             "35": {
                 "fecha": "2020/04/14",
-                "casos": {
-                    "f-22": {
+                "fallecidos": [
+                    {
                         "id": "f-22",
                         "id_caso": null,
                         "pais": "cu",
@@ -535,7 +535,7 @@
                         "texto": "Ciudadana cubana de 68 años, ingresada en el Instituto Pedro Kourí. Con antecedentes de Hipertensión Arterial y de un evento de sangramiento digestivo alto reciente. Estuvo 11 días en la Terapia Intensiva. Presentó empeoramiento clínico y radiológico, no respondiendo a las medidas tomadas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio y provincia."
                     },
-                    "f-23": {
+                    {
                         "id": "f-23",
                         "id_caso": null,
                         "pais": "cu",
@@ -553,7 +553,7 @@
                         "texto": "Ciudadano cubano de 66 años de edad, residía en el municipio Boyeros, provincia La Habana. Con antecedentes de Hipertensión Arterial, Diabetes Mellitus e insuficiencia cortico suprarrenal. Ingresado en el Hospital Salvador Allende. Estuvo 14 días en la Terapia Intensiva. Presentó deterioro clínico radiológico no respondiendo a las medidas terapéuticas impuestas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Cambia municipio."
                     },
-                    "f-24": {
+                    {
                         "id": "f-24",
                         "id_caso": "cu-758",
                         "pais": "cu",
@@ -571,12 +571,12 @@
                         ],
                         "texto": "Ciudadano cubano de 88 años, residía en el municipio Plaza, provincia La Habana (Consejo Popular “El Carmelo”). Presentaba antecedentes de Enfermedad Pulmonar Obstructiva Crónica, Hipertensión arterial y carcinoma de próstata en estadio terminar. Presentó evolución tórpida que produjo el fallecimiento. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "36": {
                 "fecha": "2020/04/15",
-                "casos": {
-                    "f-25": {
+                "fallecidos": [
+                    {
                         "id": "f-25",
                         "id_caso": "cu-255",
                         "pais": "cu",
@@ -594,7 +594,7 @@
                         ],
                         "texto": "Ciudadano cubano de 84 años, residente en Santa Clara, Villa Clara. Comenzó con los síntomas el día 25, se encontraba ingresado en el Hospital Militar Manuel Piti Fajardo, con antecedentes de Cardiopatía Isquémica, Hipertensión Arterial, Hipotiroidismo y Neuropatías a repetición. Llevaba 12 días de ingreso en la terapia intensiva con ventilación mecánica y por distress respiratorio  severo. Inestable hemodinámicamente con episodios de taquicardia y de disfunción cardiovascular, Rx tórax empeoramiento radiológico y  marcado infiltrado intersticial bilateral y respiratoria. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-26": {
+                    {
                         "id": "f-26",
                         "id_caso": null,
                         "pais": "cu",
@@ -610,7 +610,7 @@
                         ],
                         "texto": "Ciudadano cubano de 58 años de edad, residente en el municipio Centro Habana. Con antecedentes de Cirrosis Hepática y Linfangitis Crónica. Fue remitido con decaimiento y anorexia por el médico de familia hacia el Hospital Calixto García para ingreso por su descompensación. Presentó una agudización de su cuadro hepático. Estando en el hospital, desarrolló un proceso respiratorio, que evoluciona a la gravedad. Fue estudiado por ser casos de infección respiratoria aguda grave resultando positivo a la COVID-19. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-27": {
+                    {
                         "id": "f-27",
                         "id_caso": null,
                         "pais": "cu",
@@ -627,12 +627,12 @@
                         ],
                         "texto": "Ciudadana cubana de 73 años de edad, residente en el municipio: Plaza de la Revolución, Provincia La Habana. Con antecedentes de Insuficiencia Cardíaca, Diabetes Mellitus, así como Insuficiencia Renal Crónica grado IV con tratamiento de hemodiálisis, por lo había realizado estadía hospitalaria en días anteriores. Presentaba disnea y cuadros de insuficiencia cardíaca congestiva frecuentes. Por empeoramiento del cuadro, se sospecha descompensación de su insuficiencia cardiaca y neumonía con derrame pleural. Fue identificada con posible Insuficiencia Respiratoria Aguda grave, con agravamiento del cuadro clínico que condujo al fallecimiento. Por ser casos de IRA grave se estudió para descartar COVID-19 resultando positiva en el día de ayer. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "37": {
                 "fecha": "2020/04/16",
-                "casos": {
-                    "f-28": {
+                "fallecidos": [
+                    {
                         "id": "f-28",
                         "id_caso": null,
                         "pais": "cu",
@@ -648,7 +648,7 @@
                         ],
                         "texto": "Ciudadano cubano de 76 años de edad, residía en el municipio Cerro, La Habana. Antecedentes Hipertensión arterial e Insuficiencia Renal Crónica. Se encontraba hospitalizado para estudio por diagnóstico presuntivo de Adenocarcinoma de próstata y tratamiento quirúrgico, pendiente de resultado de biopsia. Estando ingresado presentó fiebre y evolucionó a una sepsis severa y shock séptico. Se ingreso en la Unidad de Cuidados Progresivos, donde se planteó el diagnóstico de Bronconeumonía asociada a cuidados sanitarios (nosocomial), con abundantes secreciones traqueobronquiales e inestabilidad hemodinámica. Evoluciona desfavorablemente con trastornos graves del medio interno, hemodinámicamente inestable con fallo renal y respiratorio falleciendo. Se realizó PCR resultando positivo. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-29": {
+                    {
                         "id": "f-29",
                         "id_caso": null,
                         "pais": "cu",
@@ -664,7 +664,7 @@
                         ],
                         "texto": "Ciudadana cubana de 72 años de edad, residía en La Habana Vieja. Antecedentes Insuficiencia Renal Crónica Grado IV por Nefropatía Diabética e Hipertensión arterial, se realizaba Hemodiálisis en días alternos en el Hospital Hermanos Ameijeiras. Se ingresó por ser contacto de un caso positivo, resultando ella también positiva al virus. Se realizó hemodiálisis donde presentó un cuadro agudo con toma del estado general relacionado con una sepsis de acceso vascular. Por la comorbilidad asociada se traslada a Unidad de Cuidados Progresivos, presentando una parada cardiorespiratoria que condujo al fallecimiento. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-30": {
+                    {
                         "id": "f-30",
                         "id_caso": "cu-705",
                         "pais": "cu",
@@ -682,7 +682,7 @@
                         ],
                         "texto": "Ciudadano cubano de 78 años de edad, residía en la Lisa, La Habana. Antecedentes de Hipertensión Arterial, Insuficiencia Cardiaca, Diabetes Mellitus, Insuficiencia Renal Crónica Grado IV, Hepatopatía Crónica por Virus C. Se recoge el antecedente de haber presentado sintomatología respiratoria, astenia. En los exámenes de laboratorio presentó leucopenia y trombocitopenia, planteándose la sospecha clínica de Dengue para lo que se adoptó la conducta. Posteriormente se le aisló una Pseudomona, lo que se interpreta como Sepsis de acceso vascular, para lo que se impone tratamiento. Evolutivamente presentó diarrea y en un Rx se identifican signos inflamatorios. Se realiza PCR con resultado positivo. Comenzó de forma brusca con tos seca intensa, haciendo bradicardia extrema, asistolia, se le realiza maniobra de reanimación Cardiopulmonar sin respuesta. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-31": {
+                    {
                         "id": "f-31",
                         "id_caso": null,
                         "pais": "cu",
@@ -701,7 +701,7 @@
                         ],
                         "texto": "Ciudadano cubano de 83 años, residía en el Reparto Velázquez, Las Tunas. Antecedentes de un Síndrome de Leriche con trombosis de la aorta a nivel de la bifurcación de las arterias iliacas, Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Renal Crónica y Cardiopatía Hipertensiva. Se traslado al cuerpo de guardia por cianosis y dolor en ambos miembros inferiores, quedando ingresado en el Hospital Ernesto Guevara para el estudio de la cianosis. Luego presentó cuadro de dificultad respiratoria, por lo que se traslada para el área de atención a los pacientes sospechosos de la COVID-19. Inició tratamiento con protocolo establecido y se toma la muestra de PCR con resultado positivo. Se agravó su estado con evolución tórpida. Presentó parada cardiorespiratoria. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-32": {
+                    {
                         "id": "f-32",
                         "id_caso": null,
                         "pais": "cu",
@@ -717,12 +717,12 @@
                         "texto": "Ciudadano cubano de 35 años de edad, residente en el municipio Cienfuegos, provincia del mismo nombre. Antecedentes patológicos personales de padecer de Carcinoma Epidermoide de Laringe de 3 años de evolución, en etapa terminal de la enfermedad oncológica, con traqueotomía, gastrostomía para su alimentación. Ingreso por falta de aire y mantuvo régimen hospitalario de cuidados paliativos ante el temor familiar de regreso al domicilio. Falleció en la mañana del día 16 de abril en un cuadro de agobio respiratorio. Negativa familiar a la necropsia. Se consulta y se aprueba realización de la prueba PCR al cadáver teniendo en cuenta la evolución de una enfermedad del sistema respiratorio de larga evolución, se realiza PCR al cadáver y se conoce del resultado positivo a COVID-19. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Este caso fue confirmado el 23/4/20 pero realmente falleción el 16/4/20 y se ubicó en esta fecha"
                     }
-                }
+                ]
             },
             "38": {
                 "fecha": "2020/04/17",
-                 "casos": {
-                     "f-33": {
+                "fallecidos": [
+                    {
                         "id": "f-33",
                         "id_caso": null,
                         "pais": "cu",
@@ -739,12 +739,12 @@
                         "texto": "Falleció el ciudadano cubano de 44 años, que regresó de España el pasado mes de marzo. Presentaba antecedentes de Leucemia Mieloide Crónica, y absceso perianal con tratamiento. Presentó sangrado nasal, anemia, ventilación mecánica, con distress respiratorio ligero. Rx tórax con lesiones inflamatorias intersticiales y bloque neumónico de la base derecha. Se encontraba reportado de crítico. Presentó empeoramiento clínico y gasométrico con inestabilidad hemodinámica sin respuesta a las medidas terapéuticas empleadas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio y provincia"
                     }
-                 }
+                ]
             },
             "39": {
                 "fecha": "2020/04/18",
-                 "casos": {
-                     "f-34": {
+                "fallecidos": [
+                    {
                         "id": "f-34",
                         "id_caso": "cu-542",
                         "pais": "cu",
@@ -762,7 +762,7 @@
                         ],
                         "texto": "Ciudadano cubano de 81 años, residía en el municipio Cerro, La Habana. Con antecedentes de Inmunodeficiencia, enfermedad pulmonar obstructiva crónica, Diabetes Mellitus e Insuficiencia Renal Crónica. Se encontraba en el onceno día en Terapia Intensiva, inestable con empeoramiento clínico y gasométrico, con insuficiencia renal crónica agudizada sin respuesta a las medidas terapéuticas y procederes realizados. Falleció con diagnóstico de Distress Respiratorio, Choque Séptico y Bronconeumonía Viral. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-35": {
+                    {
                         "id": "f-35",
                         "id_caso": null,
                         "pais": "cu",
@@ -779,12 +779,12 @@
                         ],
                         "texto": "Ciudadana cubana, de 88 años de edad, residía en el municipio Santa Clara, Villa Clara. Con antecedentes de Cardiopatía Isquémica, Diabetes Mellitus y Obesidad. Fue diagnosticada como caso confirmado a la COVID-19 a punto de partida de la pesquisa realizada en el hogar de ancianos No.3 de Santa Clara, la misma se encontraba asintomática. Permanecía ingresada en el Hospital Manuel Fajardo con evolución favorable. Se le realizó estudios de hemoglobina, leucograma y Rx. siendo todos negativos. En horas de la tarde del 18 de abril comenzó súbitamente con ataque de polipnea, cianosis generalizada, cayendo en paro cardiorrespiratorio el cual no rebasó después de aplicar maniobras de reanimación. Se diagnostica como causa de muerte: tromboembolismo pulmonar. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                 }
+                ]
             },
             "40": {
                 "fecha": "2020/04/19",
-                 "casos": {
-                     "f-36": {
+                "fallecidos": [
+                    {
                         "id": "f-36",
                         "id_caso": null,
                         "pais": "cu",
@@ -802,7 +802,7 @@
                         ],
                         "texto": "Ciudadana cubana de 72 años, residía en el Municipio de Guanabacoa. Antecedentes de Hipertensión Arterial, Diabetes Mellitus, Alzheimer y retinopatía diabética. Comenzó con toma del estado general y decaimiento marcado, además de hiperglucemia por lo que se traslada a la Unidad de Cuidados Intermedios, tuvo una evolución clínica estable hasta que empezó con falta de aire intensa, hiperglucemia y con baja saturación de oxígeno y se traslada a la terapia intensiva con un distress respiratorio agudo. Presentó parada cardiorespiratorio, sin responder a las maniobras de reanimación. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-37": {
+                    {
                         "id": "f-37",
                         "id_caso": null,
                         "pais": "cu",
@@ -820,12 +820,12 @@
                         ],
                         "texto": "Ciudadano cubano de 77 años, residía en el Municipio Contramaestre, Santiago de Cuba. Antecedentes de cardiopatía isquémica, Enfermedad Pulmonar Obstructiva Crónica, Hipertensión Arterial y demencia senil. Presentó un cuadro de distress respiratorio agudo, hemodinámicamente inestable, hizo paro cardiorespiratorio, se reanimó y luego falleció. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                 }
+                ]
             },
             "41": {
                 "fecha": "2020/04/20",
-                 "casos": {
-                     "f-38": {
+                "fallecidos": [
+                    {
                         "id": "f-38",
                         "id_caso": null,
                         "pais": "cu",
@@ -843,7 +843,7 @@
                         ],
                         "texto": "Ciudadana cubana, de 85 años, procedente de Placetas, Villa Clara. Presentaba antecedentes de Hipotiroidismo, Diabetes Mellitus, Insuficiencia Renal Crónica e Hipertensión Arterial. Presentó edemas en miembros inferiores Urocultivo con Cándida, Rx tórax con infiltrado para hiliar bilateral. Hizo cuadro de insuficiencia ventricular aguda por sobrecarga de volumen con empeoramiento clínico sin respuesta a las medidas tomadas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-39": {
+                    {
                         "id": "f-39",
                         "id_caso": null,
                         "pais": "cu",
@@ -861,12 +861,12 @@
                         ],
                         "texto": "Ciudadano cubano de 65 años. Residía en la Habana Vieja, provincia La Habana. Presentaba antecedentes de Hipertensión arterial, glaucoma y carcinoma epidermoide de esófago, gastrectomizado y postrado crónico. Fue recibido el 16 de abril traído por el SIUM con diagnóstico de sospecha de COVID 19, poco cooperativo, refería hacía dos días comenzó con tos húmeda productiva. Al examen físico del ingreso presenta mucosas normocoloreadas, murmullo vesicular disminuido hacia las bases con estertores en ambos campos pulmonares y una desnutrición proteica energética severa. Se diagnosticó como bronconeumonía bacteriana extrahospitalaria hipostática y cáncer de esófago con gastrectomía. Evolucionó tórpidamente en las siguientes horas con un estadio final de su enfermedad de base (cáncer de esófago), hemodinámicamente inestable para lo cual recibió tratamiento y reanimación. Falleció el día 18 de abril habiéndose estudiado para descartar la enfermedad COVID 19 por anatomía patológica (necropsia). El 20 de abril se recibe resultado de los estudios de la necropsia siendo positivo a COVID 19. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                 }
+                ]
             },
             "42": {
                 "fecha": "2020/04/21",
-                 "casos": {
-                     "f-40": {
+                "fallecidos": [
+                    {
                         "id": "f-40",
                         "id_caso": "cu-935",
                         "pais": "cu",
@@ -882,7 +882,7 @@
                         ],
                         "texto": "Ciudadano cubano, de 84 años, procedente del municipio Cárdenas, Matanzas. Tenía antecedentes de Demencia Vascular y Sepsis Respiratoria. Comenzó con un cuadro de insuficiencia respiratoria progresiva. En su 4to día en la Terapia Intensiva se encontraba con polipnea, Rx. tórax con lesiones inflamatorias en ambas bases pulmonares, reportado grave. Presentó empeoramiento clínico con cuadro de insuficiencia respiratoria aguda y parada cardio-respiratoria no respondiendo a las medidas tomadas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-41": {
+                    {
                         "id": "f-41",
                         "id_caso": null,
                         "pais": "cu",
@@ -899,12 +899,12 @@
                         ],
                         "texto": "Ciudadano cubano de 86 años de edad, procedente del Hogar de ancianos No. 3 de Santa Clara. Antecedentes de Hipertensión Arterial, Insuficiencia Cardiaca y Enfermedad Diverticular del Colon. Ingresado en el Hospital Manuel Fajardo. En su 3er día en Terapia Intensiva, se mantenía con ventilación mecánica, distress respiratorio agudo, inestable hemodinámicamente, acidosis metabólica y Rx de tórax con infiltrado intersticial que abarcaba todo el hemitórax izquierdo y el vértice del pulmón derecho. Presentó empeoramiento clínico, hipotermia, choque séptico con disfunción múltiple de órganos (respiratoria, cardiovascular y renal). Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                 }
+                ]
             },
             "43": {
                 "fecha": "2020/04/22",
-                 "casos": {
-                     "f-42": {
+                "fallecidos": [
+                    {
                         "id": "f-42",
                         "id_caso": null,
                         "pais": "cu",
@@ -920,7 +920,7 @@
                         ],
                         "texto": "Ciudadano cubano, de 74 años de edad. Residía en el municipio Cotorro, provincia La Habana. Antecedentes de Enfermedad Pulmonar Obstructiva Crónica y Asma Bronquial. Presentó empeoramiento clínico y gasométrico, inestable hemodinámicamente, sin respuesta a las medidas y procederes realizados. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-43": {
+                    {
                         "id": "f-43",
                         "id_caso": null,
                         "pais": "cu",
@@ -936,7 +936,7 @@
                         ],
                         "texto": "Ciudadana cubana, 86 años de edad. Residía en el municipio Cerro, La Habana.  Antecedentes de asma Bronquial y Demencia senil. Estuvo 7 días en la terapia intensiva, oligúrica, hiperglicemica, hipotensión arterial, ventilación mecánica. Rx tórax signos de enfisema pulmonar, fibrosis y lesiones inflamatorias a predominio de 1/3 inferior derecho. Realizó evento de parada cardio-respiratoria a las 10.00 pm del día 20 de abril, después de reanimada se mantuvo con compromiso respiratorio importante e inestabilidad hemodinámica, sin respuesta a las medidas y procederes realizados, hasta fallecer ayer 22 de abril. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-44": {
+                    {
                         "id": "f-44",
                         "id_caso": null,
                         "pais": "cu",
@@ -953,12 +953,12 @@
                         ],
                         "texto": "Ciudadano cubano de 87 años de edad, residía en el municipio Guantánamo. Antecedentes de Hipertensión Arterial, Cardiopatía Isquémica, Colitis Ulcerativa Idiopática y seguimiento por el servicio de Urología por una sospecha de Carcinoma Prostático. Se ingresó con el diagnóstico de Bronconeumonía Bacteriana Extra-hospitalaria, se le realizó test de COVID-19, resultando positivo y se le toma muestra para PCR. Se encontraba polipneico, hipertenso y con dificultad respiratoria. Comenzó con ansiedad marcada, al intentar incorporarse en la cama pierde el conocimiento, constatándose cianosis, relajación de esfínteres y la presencia de una parada cardiorespiratoria por lo que se realiza reanimación cardiopulmonar, sin respuesta declarándose. Se recibe resultado del PCR positivo a COVID-19. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                 }
+                ]
             },
             "44": {
                 "fecha": "2020/04/23",
-                 "casos": {
-                     "f-45": {
+                "fallecidos": [
+                    {
                         "id": "f-45",
                         "id_caso": null,
                         "pais": "cu",
@@ -974,7 +974,7 @@
                         "texto": "Ciudadana cubana, de 67 años de edad. Antecedentes Patológicos Personales: Asma Bronquial. Paciente que ingresó por presentar disnea, tos, expectoración escasa y fiebre  en sala de sospechosos para lo que conllevó tratamiento con Kaletra Cloroquina y Ceftriaxona. Fue trasladada a terapia intensiva por presentar empeoramiento del cuadro clínico y manifestaciones de insuficiencia respiratoria, se inició ventilación mecánica, necesitando mantenerse con apoyo de aminas vasoactivas  por inestabilidad hemodinámica. Por  evidencias de  sobreinfección bacteriana se modifica la terapéutica   de antibióticos cambiándose a  Meronem y Linezolid. En el día 20 de evolución y  día 12 en la terapia  intensiva presentó un cuadro de hipotensión arterial, frialdad y palidez, se le realiza electrocardiograma, diagnosticándose Infarto del Miocardio en cara postero inferior, con el diagnóstico de choque mixto, Bronconeumonía viral e infarto del miocardio postero inferior. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio."
                     },
-                    "f-46": {
+                    {
                         "id": "f-46",
                         "id_caso": null,
                         "pais": "cu",
@@ -991,7 +991,7 @@
                         "texto": "Ciudadana cubana de 98 años de edad. Antecedentes de Cardiopatía Isquémica y Diabetes Mellitus controlada. Paciente que  ingresó en sala de sospechosos  con cuadro clínico de tos seca, fiebre y disnea ligera. Se adelantó el  tratamiento con Kaletra y Cloroquina. Se ingresó en terapia intensiva  por presentar diarreas y contracción de volumen ligera, sin repercusión hemodinámica. Se mantiene   ventilando  espontáneamente. En el examen físico se auscultan crepitantes en ambos campos pulmonares a predominio hemitórax derecho, manteniendo. Estabilidad hemodinámica. El día 22 hizo un cuadro súbito de dolor precordial, disnea, cianosis, y perdida de la conciencia, corroborándose al examen físico  ausencia de pulso, tensión arterial y frecuencia respiratoria, declarándose en paro cardiorespiratorio. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "El municipio se determinó en base a la edad pues es el único caso con 98 años de edad."
                     },
-                    "f-47": {
+                    {
                         "id": "f-47",
                         "id_caso": null,
                         "pais": "cu",
@@ -1008,7 +1008,7 @@
                         ],
                         "texto": "Ciudadana cubana de 84 años de edad, del municipio Santa Clara, Provincia Villa Clara. Presentaba antecedentes patológicos personales de Hipertensión arterial, Diabetes Mellitus, y bloqueo auriculo-ventricular de primer grado. Fue remitida del centro de aislamiento por PCR positivo. Al ingresar en sala, comenzó con agobio respiratorio y cuadro de shock. Se recibió en la Terapia Intensiva taquicárdica, hipotensa, hipoxémica, oligurica, con gradiente térmico, toma estado de conciencia. El día 23 de abril  hizo episodio de sudoración y presenta dolor precordial, sudoración profusa, hipotensión por lo cual se toman las medias iniciales, de oxigenación y alivio del dolor, administración de volumen y aminas,  se realizó electrocardiograma donde se precisa  imagen sugestiva de infarto del miocardio  en cara posterior y de ventrículo derecho. Hizo parada cardiorrespiratoria, se realizaron maniobras de reanimación que son infructuosas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-48": {
+                    {
                         "id": "f-48",
                         "id_caso": null,
                         "pais": "cu",
@@ -1026,7 +1026,7 @@
                         ],
                         "texto": "Ciudadana cubana de 80 años de edad, residente en el municipio Plaza de la Revolución, provincia La Habana. Presentaba antecedentes patológicos personales: hipertensión arterial, enfermedad pulmonar obstructiva crónica, comunicación interventricular, osteoartrosis. Paciente que ingresó en sala por disnea, fiebre y toma del estado general, con evolución caracterizada por la persistencia de la sintomatología y  los resultados de los  complementarios  se precisó leucocitosis y anemia moderada. Se ingresó en terapia intensiva por empeoramiento de  la  disnea y toma del estado general, así como empeoramiento de los hallazgos al examen físico del aparato respiratorio. Se realizó Rx donde se evidencia empeoramiento  de de las lesiones inflamatoria  en ambos campos pulmonares. Presentó intensificación de la disnea por lo que se decidió intubar y ventilar. Fue necesario apoyo con aminas durante todo el tiempo que duro la ventilación, por inestabilidad hemodinámica. Hizo cuadro de abdomen agudo, quiste de ovario torcido con hemoperitoneo que requirió intervención de urgencia de  manteniéndose ventilada y apoyada con aminas, se agrega a la terapéutica antibiótica Metronidazol. Presentó evento final de sangramiento digestivo alto. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-49": {
+                    {
                         "id": "f-49",
                         "id_caso": null,
                         "pais": "cu",
@@ -1045,12 +1045,12 @@
                         ],
                         "texto": "Ciudadano cubano de 80 años, residente en Camajuaní, provincia Villa Clara. Presentaba antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus tipo 2, fracturas de cadera anterior con anquilosis de la articulación lo que le provocaba una posición fetal forzada, demencia senil y desnutrición severa. Se ingresó con síntomas respiratorios. Se  comenzó tratamiento para corregir la deshidratación y hiperglucemia. Su evolución en sala fue favorable pues disminuye la tos, la fiebre desaparece en el segundo día manteniéndose en cama por su patología de base y sin dificultad respiratoria y las glicemias se estabilizaron. En  el día de ayer súbitamente comenzño con disnea, cianosis central y periférica. Hizo parada cardiorrespiratoria, se realizaron maniobras de resucitación sin respuesta. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                 }
+                ]
             },
             "45": {
                 "fecha": "2020/04/24",
-                "casos": {
-                    "f-50": {
+                "fallecidos": [
+                    {
                         "id": "f-50",
                         "id_caso": null,
                         "pais": "cu",
@@ -1066,7 +1066,7 @@
                         ],
                         "texto": "Ciudadano cubano de 62 años. Residía en la Habana Vieja, provincia La Habana. Con antecedentes de Hipertensión Arterial y Diabetes Mellitus. Comenzó con tos seca persistente, disnea, fiebre y dolor en la espalda, ingresándose en la sala de sospechosos del Hospital Salvador Allende. Aparecieron signos de agravamiento de su cuadro clínico caracterizado por la presencia de sudoración intensa, ansiedad, toma del estado general, fatiga e intensificación de la disnea. En el Rx. se presentaron lesiones bibasales que lo llevaron a presentar cuadro de insuficiencia respiratoria aguda por lo que se decide intubar y ventilar. Durante su evolución se observó la presencia de secreciones bronquiales abundantes y en las imágenes de Rx. empeoramiento de las lesiones inflamatorias, además de mantener una mala saturación de oxigeno, así como descontrol metabólico. Hizo parada cardiorespiratoria, se realizaron maniobras de resucitación sin resultados satisfactorios. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-51": {
+                    {
                         "id": "f-51",
                         "id_caso": null,
                         "pais": "cu",
@@ -1082,12 +1082,12 @@
                         ],
                         "texto": "Ciudadana cubana de 60 años, residía en Marianao, provincia La Habana. Con antecedentes de Diabetes Mellitus y Obesidad mórbida. Comenzó con tos y expectoración blanquecina por lo que fue ingresada en la sala de sospechosos del Hospital Salvador Allende. Presentó intensificación de la disnea y toma del estado general, acompañada de pérdida del apetito y aumento de la fatiga, por lo que se decide intubar y ventilar. Presentó inestabilidad hemodinámica, desajustes hidroelectrolíticos y metabólicos. Hizo parada cardiorespiratoria realizándose maniobras de reanimación cardiopulmonar que fueron infructuosas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "46": {
                 "fecha": "2020/04/25",
-                "casos": {
-                    "f-52": {
+                "fallecidos": [
+                    {
                         "id": "f-52",
                         "id_caso": null,
                         "pais": "cu",
@@ -1100,7 +1100,7 @@
                         "enfermedades": [],
                         "texto": "Ciudadana cubana de 84 años de edad, residía en el municipio Plaza de la Revolución. Paciente que presentó en el electrocardiograma, patrón electrocardiográfico de Bloqueo  Auriculo ventricular de 3er grado, por lo que fue necesario colocación de marcapasos transitorio  externo de emergencia. Continuó en ventilación mecánica en modalidad controlada. Se evidenció la presencia de secreciones bronquiales abundantes, leucocitosis con granulositosis y linfopenia así como  empeoramiento de las lesiones de aspecto inflamatorio en las  radiografías evolutivas. Presentó manifestaciones clínicas compatibles con sépsis generalizada (Shock Séptico). Hizo dos paradas cardiorespiratoria de una duración la primera de 20 minutos, manteniéndose inestable y con trastornos del ritmo cardiaco. Presentó una segunda parada cardiaca a los cinco minutos en fibrilación ventricular, se realizaron maniobras de resucitación que incluyó desfibrilación, de la cual sale con bradicardia sinusal, regulándose la actividad eléctrica nuevamente por el marcapasos. Requirió a partir de este momento apoyo de aminas vasoactivas por inestabilidad hemodinámica y presencia de oligoanuria. En el  día de ayer hizo parada cardiorespiratoria, nuevamente realizan maniobras de reanimación cardiopulmonar que fueron infructuosas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-53": {
+                    {
                         "id": "f-53",
                         "id_caso": null,
                         "pais": "cu",
@@ -1119,7 +1119,7 @@
                         "texto": "Ciudadana cubana de 77 años de edad. Antecedentes Patológicos Personales: Hipertensión Arterial, Insuficiencia Cardiaca, Diabetes Mellitus, Insuficiencia Renal Crónica en régimen dialítico,  Trombosis Venosas Profundas. Paciente que comenzó con tos seca, y disnea, empeora la disnea, en el Rx hay empeoramiento de las lesiones inflamatorias y se decide ingresar en la terapia. Es mantenida con suplementario de oxígeno. Fue lograda estabilidad hemodinámica y fueron realizadas las sesiones de hemodiálisis programadas. Ayer se produce intensificación de la disnea de manera súbita, acompañada de sudoración y frialdad, haciendo parada cardíaca en asistolia, no lográndose reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio."
                     },
-                    "f-54": {
+                    {
                         "id": "f-54",
                         "id_caso": null,
                         "pais": "cu",
@@ -1135,12 +1135,12 @@
                         "texto": "Ciudadano cubano de 73 años. Antecedentes Patológicos Personales: paciente con VIH por 7 años. Paciente que presentó en el examen físico  murmullo vesicular disminuido en hemitórax izquierdo, con estertores crepitantes hasta el tercio medio, además taquicardia con frecuencia cardiaca en 112 latidos por minuto. Se realizaron complementarios,  hemograma con conteo de leucocitos en 9×109/L y hematocrito 0,30, radiografía de tórax donde se observan lesiones inflamatorias en hemitórax izquierdo. Se incrementó la falta de aire y  es trasladado al servicio de Cuidados Intensivos, hizo una parada respiratoria y a pesar de las maniobras deresucitación felleció. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio."
                     }
-                }
+                ]
             },
             "47": {
                 "fecha": "2020/04/26",
-                "casos": {
-                    "f-55": {
+                "fallecidos": [
+                    {
                         "id": "f-55",
                         "id_caso": null,
                         "pais": "cu",
@@ -1157,7 +1157,7 @@
                         ],
                         "texto": "Ciudadano cubano de 53 años de edad. Con antecedentes de Cirrosis Hepática, Diabetes Mellitus, Hipertensión Arterial. Ingresó en el Hospital General Julio Aristegui del municipio Cárdenas, Matanzas con diagnóstico de cirrosis hepática descompensada, que en el curso de su evolución presentó deterioro clínico significativo, presentando epigastralgia, vómitos, deshidratación, agitación y tinte ictérico, hasta llegar a cuadro de  encefalopatía hepatoamoniacal e insuficiencia renal. En su evolución, durante el exámen físico se ausculta murmullo vesicular disminuido y crepitante en hemitórax derecho realizándose RX de Tórax donde se aprecia lesiones inflamatorias, se toman muestras para estudios bacteriológicos y SARSCoV2. Presentó una parada cardiorespiratoria, no respondió a la reanimación y falleció con el diagnóstico de Cirrosis Hepática e Insuficiencia Renal Aguda. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-56": {
+                    {
                         "id": "f-56",
                         "id_caso": null,
                         "pais": "cu",
@@ -1174,12 +1174,12 @@
                         ],
                         "texto": "Ciudadana cubana de 69 años de edad procedente del Hogar de Ancianos No.3 de Villa Clara. Antecedentes personales de hipoacusia moderada y retraso mental. En el momento del ingreso los signos vitales se encontraban en parámetros normales y en el examen físico de la primera evolución médica se describe un murmullo vesicular disminuido en ambas bases pulmonares sin presencia de estertores, signos de deshidratación. El Rx realizado al ingreso se describe sin lesiones pleuropulmonares y en el electrocardiograma se observan signos de hipertrofia ventricular izquierda. En sala la paciente evolucionaba estable en el orden respiratorio con Rx evolutivo donde no se apreció lesiones inflamatorias y el seguimiento gasométrico se mantuvo en parámetros esperados acorde a la edad y reserva cardiorespiratoria de la enfermad. Tuvo tres episodios febriles dos de ellos posterior a la administración del interferón y uno en la noche del día 25 que mejoró con la administración de antipiréticos. La paciente comenzó con una disnea progresiva e intensa y hizo parada cardiorespiratoria sin que se lograra recuperar a pesar de las maniobras de resucitación. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "48": {
                 "fecha": "2020/04/27",
-                "casos": {
-                    "f-57": {
+                "fallecidos": [
+                    {
                         "id": "f-57",
                         "id_caso": null,
                         "pais": "cu",
@@ -1196,7 +1196,7 @@
                         ],
                         "texto": "Ciudadano cubano de 85 años, del municipio Manicaragua, Villa Clara. Con antecedentes de Diabetes Mellitus, Hipertensión Arterial y encamado. Ingresó en el Hospital Celestino Hernández por presentar polipnea y fiebre, durante su hospitalización sufre caída con fractura de cadera. Se encontraba en Terapia Intensiva por presentar cuadro de deshidratación e insuficiencia respiratoria aguda. Tuvo parada cardio-respiratoria y salió de la parada. Se encontraba intubado y ventilado, con inestabilidad hemodinámica. Presentó empeoramiento clínico gasométrico, sin respuesta a las medidas y procederes realizados. Falleció con diagnóstico de Tromboembolismo pulmonar, Choque mixto y Neumonía viral. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-58": {
+                    {
                         "id": "f-58",
                         "id_caso": null,
                         "pais": "cu",
@@ -1212,15 +1212,15 @@
                         ],
                         "texto": "Ciudadano cubano de 63 años, del municipio Santiago de Cuba. Antecedentes de Glaucoma y Esquizofrenia Paranoide para lo cual tenía consulta de seguimiento por psiquiatría y tratamiento normado para su enfermedad de base. Ingresó en el Hospital Psiquiátrico Gustavo Machín, procedente de su domicilio, por descompensación de su enfermedad psiquiátrica de base. Comenzó con síntomas catarrales con abundantes secreciones nasales, tos húmeda y expectoración, afebril. Fue remitido e ingresado en el Hospital Ambrosio Grillo.  Se le constató discreta polipnea, expansibilidad torácica disminuida de forma global fundamentalmente hacia las bases pulmonares, sin cianosis distal u otra sintomatología. Se decidió reportar con Infección Respiratoria Grave por el cuadro clínico presentado. Se realizó test rápido para COVID-19 el cual resultó negativo. Durante su preparación para la valoración y su traslado a la Unidad de cuidados intensivos el paciente colapsa y fallece al no responder a las medidas terapéuticas realizadas. Presentó Rx de tórax con presencia de infiltrado de aspecto inflamatorio en ambos campos pulmonares diseminados, se emite el diagnostico de bronconeumonía extra hospitalaria no hipostática. Se practicó necropsia según protocolo de casos sospechosos de COVID-19 y se tomó muestras de ambos pulmones para estudios virológicos, con resultado positivo. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "49": {
                 "fecha": "2020/04/28"
             },
             "50": {
                 "fecha": "2020/04/29",
-                "casos": {
-                    "f-59": {
+                "fallecidos": [
+                    {
                         "id": "f-59",
                         "id_caso": null,
                         "pais": "cu",
@@ -1239,7 +1239,7 @@
                         "texto": "Ciudadana cubana de 77 años de edad, residía en La Habana. Presentaba antecedentes patológicos personales: insuficiencia cardiaca, diabetes mellitus, enfermedad pulmonar obstructiva crónica, insuficiencia renal crónica (grado III). Fue ingresada por presentar fiebre y falta de aire, cifras tensionales elevadas. Se intensificó la disnea,  se auscultaron crepitantes en ambos campos pulmonares. Presentó estabilidad hemodinámica, edemas en miembros inferiores, ingurgitación yugular, hepatoesplenomegalia, leucocitosis, linfopenia, creatina, urea y ácido úrico elevados. Rx con lesiones intersticiales en ambos campos pulmonares. Evolucionó las primeras horas sin demanda ventilatoria y estabilidad de sus parámetros. Empeoró progresivamente con hipoxemia marcada, hipotensión arterial, disminución del ritmo diurético, hasta llegar a la anuria. Se intuba y ventila en modalidad controlada, apoyada con aminas. El  día 28 de abril continuó en anuria, edemas generalizados  creatina y urea muy elevadas. En el Rx se observó empeoramiento radiológico, lográndose estabilidad de la hemodinámica  a expensas de aminas que  posibilitaron la realización de proceder hemodialitico. Posteriormente se inestabilizó hemodinámicamente, apareciendo compromiso de la oxigenación. En el Rx  de tórax  presentó lesiones inflamatorias a predominio del hemitórax izquierdo. Aparecieron arritmias ventriculares que son tratadas con anti arrítmicos. Hizo fibrilación ventricular que la llevó a  parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que fueron infructuosas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio."
                     },
-                    "f-60": {
+                    {
                         "id": "f-60",
                         "id_caso": null,
                         "pais": "cu",
@@ -1255,7 +1255,7 @@
                         "texto": "Ciudadana cubana de 80 años, residía en La Habana. Antecedentes patológicos personales: cardiopatía isquémica. Ingresó por presentar diarreas y decaimiento. Se trasladó a la terapia por aparición de falta de aire y aumento del decaimiento. Comenzó con disnea súbita e hipotensión arterial, donde se intuba y ventila en modalidad controlada y se apoya con aminas vasoactivas, las que se fueron incrementando las dosis por la escasa respuesta a la terapéutica. Su estancia en terapia intensiva se caracterizó por hipoxemia mantenida, leucocitosis,  disminución de las plaquetas, cifras de lactato elevado, Rx con lesiones de aspecto inflamatorio difuso en ambos campos pulmonares. Falleció en un cuadro de Shock Séptico refractario al tratamiento. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio."
                     },
-                    "f-61": {
+                    {
                         "id": "f-61",
                         "id_caso": null,
                         "pais": "cu",
@@ -1272,12 +1272,12 @@
                         "texto": "Ciudadana cubana de 95 años, residía en La Habana. Antecedentes Patológicos Personales: hipertensión arterial, diabetes mellitus. Se presentó en cuerpo de guardia presentando cuadro de obnubilación, con respuesta a estímulos dolorosos,  no se constata fiebre. Comenzó con cuadro súbito de polipnea, hipotensión  arterial, frialdad y palidez llegando a la parada cardiaca,  haciéndose reanimación cardiopulmonar, la cual fue efectiva. Intubada y ventilada en modalidad controlada, se aísla en cubículo de la terapia por ser  intransportable y no estar en condiciones hemodinámica para el traslado. Permaneció oligoanurica, apoyada con aminas por  la hipotensión arterial mantenida  y continuó en ventilación mecánica. Falleció el 28 de abril de 2020. Fue confirmada por PCR positivo en el día de ayer. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias.",
                         "nota": "Datos verificados con información del MINSAP. Se establece municipio."
                     }
-                }
+                ]
             },
             "51": {
                 "fecha": "2020/04/30",
-                "casos": {
-                    "f-62": {
+                "fallecidos": [
+                    {
                         "id": "f-62",
                         "id_caso": null,
                         "pais": "cu",
@@ -1294,7 +1294,7 @@
                         ],
                         "texto": "Ciudadano cubano de 86 años. Residía en Habana del Este, La Habana. Antecedentes Hipertensión Arterial, Cardiopatía Isquémica y Enfermedad Cerebral Crónica. Ingresó por presentar falta de aire, tos seca persistente, decaimiento, vómitos, diarreas y fiebre. Se intensificó la disnea, se auscultaron crepitantes en ambos campos pulmonares, fiebre elevada, inestabilidad hemodinámica por fibrilación auricular con respuesta ventricular variable y obnubilación, leucocitosis de 18 mil, a predominio de polimorfonucleares. Se intubó y ventiló en modalidad controlada, con persistencia de la inestabilidad hemodinámica, apoyado con aminas a altas dosis. Falleció en shock séptico refractario. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-63": {
+                    {
                         "id": "f-63",
                         "id_caso": null,
                         "pais": "cu",
@@ -1310,7 +1310,7 @@
                         ],
                         "texto": "Ciudadana cubana de 72 años. Residía en La Habana Vieja, La Habana. Antecedentes: Hipertensión Arterial y Diabetes Mellitus. La paciente llegó remitida del hospital Freyre Andrade, presentando disnea, fiebre y desorientada. Presentó empeoramiento clínico progresivo, se intuba y ventila en modalidad controlada. En los complementarios aparece anemia ligera de 9.0 g/l y Leucocitosis de 14 mil a predominio de polimorfonucleares, en el Rx hay lesiones de infiltrado difuso en ambos campos pulmonares. Continuó con empeoramiento progresivo, intensificación de la disnea, inestabilidad hemodinámica. Hizo parada cardio-respiratoria, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-64": {
+                    {
                         "id": "f-64",
                         "id_caso": null,
                         "pais": "cu",
@@ -1325,12 +1325,12 @@
                         ],
                         "texto": "Ciudadano cubano de 58 años. Procedía del Centro de Protección Social en el municipio Cotorro, La Habana.  Deambulante. Con antecedentes de alcoholismo. El 29 se le toma muestra PCR para la detección de la COVID-19 por pertenecer a un centro de alto riesgo, donde se le realizó a todos los usuarios y trabajadores. En horas del mediodía fue llevado al puesto médico por presentar deposiciones liquidas, tos y dificultad respiratoria. Hizo parada cardio-respiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas, declarándose fallecido antes de su traslado. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "52": {
                 "fecha": "2020/05/01",
-                "casos": {
-                    "f-65": {
+                "fallecidos": [
+                    {
                         "id": "f-65",
                         "id_caso": null,
                         "pais": "cu",
@@ -1346,7 +1346,7 @@
                         ],
                         "texto": "Ciudadana cubana de 59 años, residía en el municipio Plaza de la Revolución, provincia La Habana. Antecedentes Patológicos Personales: Asma Bronquial, Obesidad. Ingresó por presentar falta de aire, tos seca persistente, decaimiento y fiebre. En el Rx de tórax se observaron lesiones de infiltrado intersticial en base pulmonar derecha. Presentó intensificación de la disnea, se auscultaron crepitantes en ambos campos pulmonares, fiebre elevada, leucocitosis de 14000, a predominio de polimorfonucleares. Inestable hemodinámicamente apoyada con aminas, intubada y ventilada en posición prono modalidad controlada. Mantuvo hipoxemia refractaria. El día 30 de abril en horas de la mañana hizo parada cardiorespiratoria en asistolia. Se realizaron maniobras de reanimación cardiopulmonar durante 30 minutos. Sale con hipotensión, disminución de la diuresis, taquicardia sostenida, acidemia metabólica, persistiendo la hipoxemia. El día 1 de mayo en horas de la madrugada hizo nueva parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas, declarándose fallecida a  las 2:40 am. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-66": {
+                    {
                         "id": "f-66",
                         "id_caso": null,
                         "pais": "cu",
@@ -1364,12 +1364,12 @@
                         ],
                         "texto": "Ciudadano cubano de 87 años de edad, residía en Holguín. Antecedentes Patológicos Personales: hipertensión arterial, cardiopatía isquémica, fractura de cadera no operada (fijación externa), encamado. Ingresó por presentar tos, expectoración, fiebre y decaimiento, con el diagnostico de Bronconeumonía y sospecha de COVID-19. Presentó empeoramiento de la disnea, persistencia de la fiebre y en el Rx aparecen lesiones inflamatorias en ambos campos pulmonares, trasladándose a la Unidad de Cuidados Intensivos, donde se mantuvo con el tratamiento, ventilando en espontánea y con estabilidad del cuadro clínico. El día 1 de mayo, de forma súbita hizo parada cardiorespiratoria, realizándose maniobras de reanimación cardiopulmonar que no son efectivas. Falleció a las 10:30 am. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "53": {
                 "fecha": "2020/05/02",
-                "casos": {
-                    "f-67": {
+                "fallecidos": [
+                    {
                         "id": "f-67",
                         "id_caso": null,
                         "pais": "cu",
@@ -1385,12 +1385,12 @@
                         ],
                         "texto": "Falleció el ciudadano cubano de 58 años de edad, procedente del Centro de Protección Social, del municipio Cotorro. Presentaba antecedentes patológicos personales de alcoholismo, enfermedad pulmonar obstructiva crónica. Ingresó por presentar diarreas y decaimiento. En el exámen físico, se constató marcado deterioro físico y nutricional, presencia de sibilantes en ambos campos pulmonares, estabilidad hemodinámica. Presentó de forma súbita disnea intensa, bradicardia, hipotensión y cianosis. Hizo parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "54": {
                 "fecha": "2020/05/03",
-                "casos": {
-                    "f-68": {
+                "fallecidos": [
+                    {
                         "id": "f-68",
                         "id_caso": null,
                         "pais": "cu",
@@ -1405,7 +1405,7 @@
                         ],
                         "texto": "Ciudadana cubana de 79 años de edad residente en Marianao, provincia La Habana. Paciente con antecedente de cáncer de pulmón en estadío terminal. Se le realiza Rx de tórax donde se constató derrame pleural, realizándosele dos toracocentesis y extrayéndosele 1200 mls de líquido. Posteriormente fue ingresada en la terapia del Hospital Salvador Allende por presentar disnea ligera, tos seca y decaimiento, en el Rx aparece hemitórax izquierdo velado completamente y lesiones inflamatorias en la base del pulmón derecho. Presentó empeoramiento la disnea, decaimiento y pérdida del apetito. Evolucionó con estabilidad hemodinámica, sin requerir ventilación mecánica ni apoyo de aminas. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-69": {
+                    {
                         "id": "f-69",
                         "id_caso": null,
                         "pais": "cu",
@@ -1421,7 +1421,7 @@
                         ],
                         "texto": "Ciudadano cubano de 82 años de edad, residente en el municipio Colón, provincia Matanzas. Antecedentes patológicos personales: cáncer de próstata e infecciones respiratorias frecuentes.Fue ingresado por presentar disnea, tos, expectoración, anorexia y toma del estado general. En el Rx de tórax hay lesiones inflamatorias en las bases pulmonares. Mantuvo la disnea, tos, decaimiento, presentando fiebre de 38. 5 grados. Posteriormente presentó empeoramiento significativo de la disnea, hizo hipotensión, taquicardia, obnubilación y fiebre elevada. Se decidió intubar y ventilar en modalidad controlada, aminas a altas dosis. El 2 de mayo intubado y ventilado, hipotensión arterial, oligoanuria, son elevadas las aminas a dosis tope para tratar el shock, presenta acidemia metabólica y trastornos hidroelectrolíticos. El 3 de mayo paciente en shock refractario, anuria, ventilado, mantiene apoyo de aminas a altas dosis, hizo parada cardiorespiratoria,realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "55": {
                 "fecha": "2020/05/04"
@@ -1431,8 +1431,8 @@
             },
             "57": {
                 "fecha": "2020/05/06",
-                "casos": {
-                    "f-70": {
+                "fallecidos": [
+                    {
                         "id": "f-70",
                         "id_caso": null,
                         "pais": "cu",
@@ -1449,7 +1449,7 @@
                         ],
                         "texto": "Ciudadano cubano de 83 años de edad, residía en Camajuaní. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Encamado. Comenzó con fiebre, tos seca, expectoración, decaimiento y anorexia. Fue ingresado en la Terapia Intensiva, con acidosis metabólica y elevación de la creatinina. Mantuvo disnea y signos de deshidratación ligera, con compensación del desequilibrio hidroelectrolítico. Presentó polipnea intensa, deterioro de la conciencia, estuporoso, hipoxemia, abundantes secreciones bronquiales, fue intubado y ventilado en modalidad controlada. En la gasometría arterial presentó acidemia respiratoria y en el electrocardiograma fibrilación auricular con respuesta ventricular rápida. Fue tratado con antiarrítmicos, continuó ventilado en modalidad controlada, taquicardia mantenida. Aparece oligoanuria, inestabilidad hemodinámica. El paciente hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-71": {
+                    {
                         "id": "f-71",
                         "id_caso": null,
                         "pais": "cu",
@@ -1468,7 +1468,7 @@
                         ],
                         "texto": "Ciudadano cubano de 79 años de edad, residía en Guanabacoa. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Enfermedad Cerebrovascular, Neoplasia de Esófago, paciente encamado. Fue recibido con polipnea intensa, abundantes secreciones y marcado decaimiento. Llegó hipotenso, bradicardico, y en anuria. Fueron realizados complementarios hemoglobina 9.0 g/l, leucitosis a predominio de polimorfonucleares, gasometría con alcalemia respiratoria. En el Rx. de Tórax se evidencian lesiones de aspecto inflamatorio en base pulmonar derecha. De inmediato fue realizada la reposición de volumen, correcciones del desequilibrio hidroelectrolítico y se incorpora al tratamiento Ceftriaxona. Hizo parada cardiorespiratoria, realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-72": {
+                    {
                         "id": "f-72",
                         "id_caso": null,
                         "pais": "cu",
@@ -1485,7 +1485,7 @@
                         ],
                         "texto": "Ciudadano cubano de 94 años, residía en San Miguel del Padrón. Antecedentes Patológicos Personales: Asma Bronquial, Demencia Senil y encamamiento prolongado. Fue ingresada con astenia, anorexia rinorrea y ligera falta de aire, expectoración amarillenta. En el examen físico se constata palidez y sequedad de piel y mucosas, crepitantes en base derecha y signos de deshidratación ligera. En los complementarios realizados: hemoglobina 9.0g/l, leucograma en 6.7 predominio de polimorfonucleares y en el Rx lesiones inflamatorias en base pulmonar derecha. Continuó con anorexia, oliguria y decaimiento, manteniéndose esquema de hidratación y tratamiento iniciado. La evolución se caracterizó por la persistencia de la anorexia, diuresis escasa y decaimiento, no presencia de fiebre, mejoría de la disnea y estabilidad hemodinámica. El 6 de mayo en la mañana presentó polipnea intensa, palidez, hipotensión arterial, frialdad y gradiente térmico. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     },
-                    "f-73": {
+                    {
                         "id": "f-73",
                         "id_caso": null,
                         "pais": "cu",
@@ -1501,12 +1501,12 @@
                         ],
                         "texto": "Ciudadano cubano de 92 años residía en Sancti Spíritus. Antecedentes Patológicos Personales: Cardiopatía isquémica y Demencia Senil. Fue ingresado por presentar dolor precordial, palidez, sudoración, disnea y tos. Fue ingresando en la terapia por empeoramiento de la disnea, tos, sequedad de piel y mucosas, obnubilación, diuresis escasa, y decaimiento. Hizo episodio de agitación y el propio paciente se retira bruscamente el levine, produciéndose trauma en la orofaringe, lo que ocasionó un Sangramiento profuso que comprometió la hemodinamía. Se profundizó la toma de conciencia lo que requirió la intubación, ventilación mecánica, transfusión de sangre, apoyo con aminas. Fue constatada presión venosa central elevada y aparece en el electrocardiograma trazado compatible con infarto agudo de miocardio. El 6 de mayo persistió el estado de shock cardiogénico con apoyo de aminas a altas dosis, ventilación mecánica hasta que hizo parada cardiorespiratoria que no se logra reanimar. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "58": {
                 "fecha": "2020/05/07",
-                "casos": {
-                    "f-74": {
+                "fallecidos": [
+                    {
                         "id": "f-74",
                         "id_caso": null,
                         "pais": "cu",
@@ -1524,15 +1524,15 @@
                         ],
                         "texto": "Falleció la ciudadana cubana de 77 años de edad, que residía en Plaza de la revolución, provincia La Habana. Presentaba antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Cardiaca, Insuficiencia Renal Crónica (tratamiento dialítico). Hizo cuadro neurológico de toma de conciencia y hemiplejia derecha, se realizó TAC donde aparece área de hemorragia parietal derecha. Fue ingresada en la terapia intensiva, con diagnóstico de Hemorragia Cerebral e Insuficiencia Renal Crónica. Durante la evolución aparecieron secreciones traqueobronquiales. Evolucionó con discreta mejoría del estado de conciencia, manteniendo la hemiparesia derecha, tendencia a la bradicardia, en el Rx lesiones de aspecto congestivo, creatininas elevadas. Se confirmó como positiva a la COVID-19. Presentó tendencia a la hipotensión y bradicardia. En el electrocardiograma aparecieron trastornos de la conducción, con bradicardia. Fue tratada inicialmente con atropina y noradrenalina, por no mejorar el trastorno del ritmo se decide colocar marcapasos transitorio. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "59": {
                 "fecha": "2020/05/08"
             },
             "60": {
                 "fecha": "2020/05/09",
-                "casos": {
-                    "f-75": {
+                "fallecidos": [
+                    {
                         "id": "f-75",
                         "id_caso": null,
                         "pais": "cu",
@@ -1549,52 +1549,52 @@
                             "dn"
                         ],
                         "texto": "Ciudadano cubano de 53 años de edad, procedente del Centro de Protección Social del Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Trastornos Psiquiátricos (Esquizofrenia Paranoide), Alcohólico, Diabetes Mellitus, Desnutrición Crónica. Luego de estar hospitalizado, presentó cuadro de agitación psicomotriz, recibiendo medicación. Hizo depresión respiratoria, fue intubado y ventilado. Presentó en el Rx de tórax, lesiones de infiltrado intersticial en ambos campos pulmonares, en los complementarios, anemia ligera, albumina y proteínas totales bajas. Hizo hipotensión arterial, polipnea, empeoramiento radiológico con signos de distres respiratorio. En ventilación mecánica en modalidad controlada, apoyado con aminas, fue realizado ecocardiograma apareciendo signos de pericarditis aguda, mantuvo tendencia a la hipotensión, lo que requirió elevación de las dosis de aminas vasoactivas. El 9 de mayo en ventilación mecánica, con inestabilidad hemodinámica y oliguria. Hizo parada cardiaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
+                    },
+                    {
+                        "id": "f-76",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 59,
+                        "sexo": "hombre",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ac",
+                            "fc"
+                        ],
+                        "texto": "Ciudadano cubano de 59 años de edad, residía en el municipio Habana Vieja, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Alcoholico, Fractura de Cadera Antigua. Fue ingresado por diarreas, dolor abdominal y signos deshidratación, es tratado con reposición de volumen y electrolitos, además Interferón, Oseltamivir y Azitromicina. Evolucionó con mejoría clínica, estabilidad hemodinámica, tratamiento según protocolo. Sufrió caída con fractura de fémur no quirúrgica, fue colocada tracción esquelética, manteniendo el tratamiento según protocolo. Presentó episodio de disnea súbita, taquicardia, cianosis, hipotensión arterial, fue trasladado a la terapia intensiva donde se intuba y ventila en modalidad controlada, fue apoyado con aminas vasoactivas, planteándose el diagnóstico de tromboembolismo pulmonar. El 9 de mayo a las 2:30 am hizo parada cardiorespiratoria, lográndose reanimación efectiva, manteniéndose inestable, por lo que fueron elevadas las dosis de aminas vasopresoras. Hizo nueva parada cardiorespiratoria a las 11:30 am, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
+                    },
+                    {
+                        "id": "f-77",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "hombre",
+                        "municipio_detección": "Venezuela",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.09",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ep",
+                            "ci",
+                            "dm",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano de 64 años de edad, residía en el municipio Venezuela, provincia Ciego de Ávila. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Cardiopatía Isquémica, Diabetes Mellitus, Enfermedad Cerebrovascular Crónica. Ingresó por presentar tos, expectoración, fiebre, decaimiento y se impuso tratamiento con Azitromicina y Oseltamivir. En su evolución hizo episodio de taquicardia auricular, que requirió cardioversión eléctrica sincronizada, salió en ritmo sinusal y con estabilidad hemodinámica. En el exámen físico presentó estertores crepitantes en ambos campos pulmonares, los complementarios con leucocitosis y linfopenia, gasometría ligera alcalosis respiratoria. El 9 de mayo evolucionó con estabilidad hemodinámica, a las 12 del mediodía, presentó cuadro de desorientación, aumento de la disnea, cianosis distal con gradiente térmico. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                },
-                "f-76": {
-                    "id": "f-76",
-                    "id_caso": null,
-                    "pais": "cu",
-                    "edad": 59,
-                    "sexo": "hombre",
-                    "municipio_detección": "La Habana Vieja",
-                    "provincia_detección": "La Habana",
-                    "dpacode_municipio_deteccion": "23.04",
-                    "dpacode_provincia_deteccion": "23",
-                    "enfermedades": [
-                        "ha",
-                        "dm",
-                        "ac",
-                        "fc"
-                    ],
-                    "texto": "Ciudadano cubano de 59 años de edad, residía en el municipio Habana Vieja, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Alcoholico, Fractura de Cadera Antigua. Fue ingresado por diarreas, dolor abdominal y signos deshidratación, es tratado con reposición de volumen y electrolitos, además Interferón, Oseltamivir y Azitromicina. Evolucionó con mejoría clínica, estabilidad hemodinámica, tratamiento según protocolo. Sufrió caída con fractura de fémur no quirúrgica, fue colocada tracción esquelética, manteniendo el tratamiento según protocolo. Presentó episodio de disnea súbita, taquicardia, cianosis, hipotensión arterial, fue trasladado a la terapia intensiva donde se intuba y ventila en modalidad controlada, fue apoyado con aminas vasoactivas, planteándose el diagnóstico de tromboembolismo pulmonar. El 9 de mayo a las 2:30 am hizo parada cardiorespiratoria, lográndose reanimación efectiva, manteniéndose inestable, por lo que fueron elevadas las dosis de aminas vasopresoras. Hizo nueva parada cardiorespiratoria a las 11:30 am, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
-                },
-                "f-77": {
-                    "id": "f-77",
-                    "id_caso": null,
-                    "pais": "cu",
-                    "edad": 64,
-                    "sexo": "hombre",
-                    "municipio_detección": "Venezuela",
-                    "provincia_detección": "Ciego de Ávila",
-                    "dpacode_municipio_deteccion": "29.09",
-                    "dpacode_provincia_deteccion": "29",
-                    "enfermedades": [
-                        "ep",
-                        "ci",
-                        "dm",
-                        "ev"
-                    ],
-                    "texto": "Ciudadano cubano de 64 años de edad, residía en el municipio Venezuela, provincia Ciego de Ávila. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Cardiopatía Isquémica, Diabetes Mellitus, Enfermedad Cerebrovascular Crónica. Ingresó por presentar tos, expectoración, fiebre, decaimiento y se impuso tratamiento con Azitromicina y Oseltamivir. En su evolución hizo episodio de taquicardia auricular, que requirió cardioversión eléctrica sincronizada, salió en ritmo sinusal y con estabilidad hemodinámica. En el exámen físico presentó estertores crepitantes en ambos campos pulmonares, los complementarios con leucocitosis y linfopenia, gasometría ligera alcalosis respiratoria. El 9 de mayo evolucionó con estabilidad hemodinámica, a las 12 del mediodía, presentó cuadro de desorientación, aumento de la disnea, cianosis distal con gradiente térmico. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
-                }
+                ]
             },
             "61": {
                 "fecha": "2020/05/10"
             },
             "62": {
                 "fecha": "2020/05/11",
-                "casos": {
-                    "f-78": {
+                "fallecidos": [
+                    {
                         "id": "f-78",
                         "id_caso": null,
                         "pais": "cu",
@@ -1609,12 +1609,12 @@
                         ],
                         "texto": "Falleció el ciudadano cubano de 58 años, residía en Matanzas. Antecedentes Patológicos Personales: Neoplasia de Pulmón con tres años de evolución. Paciente que fue ingresado en sala por Ictero obstructivo, infección urinaria para estudio. Fue diagnosticada una colangitis aguda, realizándose intervención quirúrgica de urgencia. Posteriormente fue ingresado en la terapia por empeoramiento, apareció elevación de la creatinina y leucocitosis de 17000, planteándose infección generalizada. Se realizó hemodiálisis y tratamiento antibiótico con Meronem y Linezolid. Presentó fiebre elevada, escalofríos, taquicardia, que se incrementó con presencia de polipnea, hipotensión arterial, oligoanuria, en los complementarios acidemia metabólica, creatininas elevadas leucocitosis. Fue intubado y ventilado en modalidad controlada, apoyado con aminas vasoactivas. Hizo parada cardiaca en asistolia, fue realizada reanimación cardiopulmonar que no resultó efectiva. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "63": {
                 "fecha": "2020/05/12",
-                "casos": {
-                    "f-79": {
+                "fallecidos": [
+                    {
                         "id": "f-79",
                         "id_caso": null,
                         "pais": "cu",
@@ -1631,13 +1631,19 @@
                         ],
                         "texto": "Falleció la ciudadana cubana de 83 años de edad, del municipio Bauta, Artemisa. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebrovascular. Fue ingresada por tos seca, disnea ligera y decaimiento en sala de sospechosos. Posteriormente se trasladó a la terapia por empeoramiento de la disnea. En los complementarios resultaron leucocitosis con linfopenia, Rx de tórax con lesiones de infiltrado intersticial en ambas bases pulmonares. Fue trasladada al Hospital Iván Portuondo por presentar PCR negativo. Se trasladó a Terapia Intensiva por presentar deterioro de su cuadro clínico, polipnea intensa, hipotensión arterial, taquicárdica. Fue intubada y ventilada en modalidad controlada, apoyada con aminas. Evolucionó con inestabilidad hemodinámica, oligoanúrica, manteniendo ventilación mecánica en modalidad controlada. Fue recibido nuevo estudio de PCR realizado que fue positivo. El 12 de mayo hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación que no resultaron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
-                }
+                ]
             },
             "64": {
                 "fecha": "2020/05/13"
             },
             "65": {
                 "fecha": "2020/05/14"
+            },
+            "66": {
+                "fecha": "2020/05/15"
+            },
+            "67": {
+                "fecha": "2020/05/16"
             }
         }
     }
