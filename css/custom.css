@@ -176,7 +176,8 @@ body > div {
 #tests-line-info,
 #cases-pie-info,
 #daily-actalt-info,
-#daily-actaltday-info {
+#daily-actaltday-info,
+#fsex-info {
   height: 220px;
 }
 

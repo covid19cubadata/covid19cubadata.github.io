@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Covid19 - Dashboard Cuba </title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <meta property="og:title" content="Covid19 - Dashboard Cuba" />
+    <meta property="og:description" content="Visualice los datos relacionados con Covid19 en Cuba a partir de la informaci&oacute;n oficial del MINSAP que es reportada al d&iacute;a siguiente." />
+    <meta property="og:image" content="http://www.acn.cu/images/2020/ABRIL/0-10-cubadata.jpg" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://covid19cubadata.github.io" />
+
+    <link rel="icon" href="favico.jpeg">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link href="css/fontawesome-5.8.2/css/all.css" rel="stylesheet">
+    <link href="css/c3.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <div id="general" class="container-fluid">
+        <form class="card form-inline">
+            <div class="card-body" style="padding: 6px 5px">
+                <div class="form-group mb-0">
+                    <label for="location-select">Seleccione una regi&oacute;n</label>
+                    <select id="location-select" class="form-control text-center ml-md-1" style="margin-top: 0px">
+                        <option value="cuba">Cuba</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+        <div class="d-block d-sm-none">
+            <table class="table">
+                <tr class="bg-light">
+                    <th>Actualizaci&oacute;n</th>
+                    <td data-content="update"><i class="fa fa-spinner fa-spin"></i></td>
+                </tr>
+                <tr class="bg-dark text-white">
+                    <th>Fallecidos</th>
+                    <td data-content="fallec"><i class="fa fa-spinner fa-spin"></i></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="stats-cards" class="d-none d-sm-block">
+            <div class="card-deck">
+                <section class="card text-center">
+                    <div class="card-body" data-content="update">
+                        <i class="fa fa-spinner fa-spin"></i>
+                    </div>
+                    <h2 class="card-header h5">
+                        Actualizaci&oacute;n
+                    </h2>
+                </section>
+
+                <section class="card text-center bg-dark text-white">
+                    <div class="card-body" data-content="fallec">
+                        <i class="fa fa-spinner fa-spin"></i>
+                    </div>
+                    <h2 class="card-header h5">
+                        Fallecidos
+                    </h2>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div id="top-row" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="geodist" class="card common-bg">
+                    <div class="card-header">
+                        <form class="form-inline my-0">
+                            <label for="select-map" class="mr-1">Distribuci&oacute;n de fallecidos por</label>
+                            <select id="select-map" class="form-control form-control-sm">
+                                <option select value="map-mun">Municipios</option>
+                                <option value="map-pro">Provincias</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="card-body p-0 pt-1 pb-1">
+                        <div id="map-container">
+                            <div id="map-mun"></div>
+                            <div id="map-legend-container">
+                                <div class="map-legend">
+                                    0 casos
+                                    <i id="cases0" class="main-text fa fa-square"></i>
+                                    <i id="cases1" class="main-text fa fa-square"></i>
+                                    <i id="cases2" class="main-text fa fa-square"></i>
+                                    <i id="cases3" class="main-text fa fa-square"></i>
+                                    <i id="cases4" class="main-text fa fa-square"></i>
+                                    <i id="cases5" class="main-text fa fa-square"></i>
+                                    <span id="cases">#</span> casos
+                                </div>
+                            </div>
+                            <div class="map-quote">
+                                * el cuadrado representa a aquellos casos que por distintas razones no tengan localizaci&oacute;n
+                                conocida <br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+
+
+    <div id="line-charts" class="container-fluid">
+		<div class="card-deck card-deck-2">
+			 <section id="casdist" class="card common-bg">
+                <div class="card-header">Evoluci&oacute;n de fallecidos por d&iacute;as</div>
+                <div class="card-body">
+                    <div id="daily-single-info"></div>
+                </div>
+            </section>
+			 
+			<div class="w-100 d-none d-sm-block d-lg-none"></div>
+			<section id="sexdist" class="card common-bg">
+                        <div class="card-header">Fallecidos por Sexo</div>
+                        <div class="card-body">
+                            <div id="fsex-info"></div>
+                        </div>
+			</section>
+            <div class="w-100 d-none d-sm-block"></div>
+            <section id="agedist" class="card common-bg ">
+                <div class="card-header">Distribuci&oacute;n de fallecidos por rangos etarios</div>
+                <div class="card-body">
+                    <div id="ages-info"></div>
+                </div>
+            </section>
+             <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <section id="homdist" class="card common-bg ">
+                <div class="card-header">Fallecidos por nacionalidad</div>
+                <div class="card-body">
+                    <div id="countries-info-pie"></div>
+                </div>
+            </section>
+			<div class="w-100 d-none d-sm-block"></div>
+            <section id="topprov" class="card common-bg ">
+                <div class="card-header">Provincias Afectadas</div>
+                <div class="card-body p-0">
+                    <table id="table-pro" class="table table-striped table-sm mb-0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Provincia</th>
+                                <th>Casos</th>
+                                <th>% del total de casos</th>
+                                <th>Tasa (por 100 mil hab.)</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <div class="map-quote">
+                        * los datos de poblaci&oacute;n son los del Anuario Estad&iacute;stico de Cuba 2018 ed. 2019
+                    </div>
+                </div>
+            </section>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <section id="topmuni" class="card common-bg ">
+                <div class="card-header">Top - Municipios Afectados</div>
+                <div class="card-body p-0">
+                    <table id="table-mun" class="table table-striped table-sm mb-0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Municipio</th>
+                                <th>Casos</th>
+                                <th>% del total de casos</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+   
+
+    <div id="national-comparison" class="container-fluid">
+        <div class="card-deck">
+            <section id="proscurves" class="card common-bg">
+                <div class="card-header">
+                    <form action="" class="my-0">
+                        <p class="mb-1">Comparaci&oacute;n de los fallecidos acumulados por provincias</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <select id="proscurve-select1" class="form-control form-control-sm mr-1"></select>
+                            </div>
+                            <div class="col-6">
+                                <select id="proscurve-select2" class="form-control form-control-sm ml-1"></select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-body">
+                    <div id="provinces-curve"></div>
+                </div>
+            </section>
+            <section id="munscurves" class="card common-bg">
+                <div class="card-header">
+                    <p class="mb-1">Comparaci&oacute;n de los fallecidos acumulados por municipios</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <select id="munscurve-select1" class="form-control form-control-sm"></select>
+                        </div>
+                        <div class="col-6">
+                            <select id="munscurve-select2" class="form-control form-control-sm"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div id="municipalyties-curve"></div>
+                </div>
+         </section>
+           </div>
+     
+     <!--  -->  
+      
+    </div>
+
+</div>
+    <div id="footer"></div>
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write('<script type="text/javascript" src="js/jquery.min.js"><\/script>')
+    </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript" src="js/c3.js"></script>
+    <script type="text/javascript" src="js/deceases.js"></script>
+    <script type="text/javascript">
+        $("#navbar").load('navbar.html', function(){
+            $(".nav-item").removeClass("active");
+            $("#fallecidos").addClass("active")
+        })
+        $("#footer").load('footer.html')
+    </script>
+</body>
+
+</html>
