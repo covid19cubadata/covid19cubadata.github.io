@@ -1139,7 +1139,7 @@ function run_calculations() {
                 radar: {
                     // shape: 'circle',
                     nameGap: 5,
-                    radius: 103,
+                    radius: '58%',
                     name: {
                         textStyle: {
                             color: '#fff',
