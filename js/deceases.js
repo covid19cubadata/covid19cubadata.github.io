@@ -316,6 +316,8 @@ function run_calculations() {
                         var total_cu = 0;
                         var total_no_cu = 0;
                         var total_unk = 0;
+                        var morbilities = {};
+                        var total_morb = {};
 
                         for (var day in data.casos.dias) {
                             if ('fallecidos' in data.casos.dias[day]) {
@@ -329,6 +331,27 @@ function run_calculations() {
 
                                     muns[dead[p].dpacode_municipio_deteccion].total++;
                                     pros[dead[p].dpacode_provincia_deteccion].total++;
+                                    
+                                    if ('enfermedades' in dead[p]){
+										for(var e in dead[p].enfermedades){
+											if (dead[p].enfermedades[e] in morbilities) {
+												morbilities[dead[p].enfermedades[e]]+=1;
+											} else {
+												morbilities[dead[p].enfermedades[e]]=1;
+											}	
+										}
+										if (dead[p].enfermedades.length in total_morb){
+											total_morb[dead[p].enfermedades.length]+=1;		
+										} else {
+											total_morb[dead[p].enfermedades.length] = 1;			
+										}	
+									} else {
+											if (0 in total_morb) {
+												total_morb[0]+=1;	
+											} else {
+												total_morb[0] = 1;		
+											}
+										}
 
                                     //cuban/no cuban
                                     if (dead[p].pais === 'cu') {
@@ -429,9 +452,38 @@ function run_calculations() {
                             }
                         }
                         
-
+                        tmorb_a = []
+                        for(var e in total_morb){
+							var key = e+' enfermedades';
+							if (e==0){
+								key = "ninguna";
+							} else {
+								if (e==1){
+									key = "1 enfermedad";
+								}
+							}
+							tmorb_a.push([key,total_morb[e]]);	
+						}
                         
 
+                       
+                        
+                        var morb_a = [];
+                        for(var m in morbilities){
+							morb_a.push([data.enfermedades[m],morbilities[m]]);	
+						}
+						morb_a.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1]});
+						
+						var mrange = ['Enfermedades'];
+						var mfalle = ['Fallecidos'];
+						
+						for(var i=0;(i<morb_a.length)&&(i<8);i++){
+							mrange.push(morb_a[i][0]);
+							mfalle.push(morb_a[i][1]);	
+						}	
+                        
+                        
+						
 
                         //Lines for contagio evolution
                         var dates = ['Fecha'];
@@ -515,6 +567,58 @@ function run_calculations() {
                                     'Mujeres': '#B01E22',
                                     'Hombres': '#1C1340',
                                     'No reportado': '#1A8323'
+                                }
+                            }
+                        });
+                        
+                        c3.generate({
+                            bindto: "#dis-bar",
+                            data: {
+                                x: mrange[0],
+                                columns: [
+                                    mrange,
+                                    mfalle
+                                ],
+                                type: 'bar',
+                                colors: {
+                                    'Fallecidos': '#B01E22'
+                                }
+                            },
+                            legend: {
+								show: false
+							},
+                            axis: {
+                                x: {
+                                    label: {
+                                        text: 'Enfermedades'
+                                    },
+                                    type: 'categorical',
+                                    tick: {
+										rotate: -45,
+										multiline: false
+									},
+									height: 120
+                                },
+                                y: {
+                                    label: 'Fallecidos',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
+                        
+                         //Pie for disease quantity
+                        c3.generate({
+                            bindto: "#dis-quantity-pie",
+                            data: {
+                                columns: tmorb_a,
+                                type: 'pie',
+                                colors: {
+                                    'ninguna': '#1A8323',
+                                    '1 enfermedad': '#B01E22',
+                                    '2 enfermedades': '#1C1340',
+                                    '3 enfermedades' : '#CA9F31',
+                                    '4 enfermedades' : '#00AEEF',
+                                    '5 enfermedades' : '#939393'
                                 }
                             }
                         });
@@ -695,7 +799,7 @@ function run_calculations() {
                         $('#munscurve-select1').off('change').on('change', function () {
                             var val = $('#munscurve-select1').val();
                             municipalitylectd1 = val;
-                            console.log(munscurves)
+                            
 							if (municipalitylectd1 in munscurves){ 
 								comparison3 = c3.generate({
 									bindto: "#municipalyties-curve",
