@@ -105,6 +105,7 @@ def get_countries_test():
     next(reader)
     for i in reader:
         if i[15]:
+			print(i[3],i[11])
             percent = int(i[3])/float(i[11])*100
             data[i[0]]['test_efectivity'].append(percent)
             data[i[0]]['total_tests_per_million'].append(float(i[13])*1000)
