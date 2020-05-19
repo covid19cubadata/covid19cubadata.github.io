@@ -884,7 +884,7 @@
                     },
                     {
                         "id": "f-41",
-                        "id_caso": null,
+                        "id_caso": "cu-942",
                         "pais": "cu",
                         "edad": 86,
                         "sexo": "hombre",
@@ -906,7 +906,7 @@
                 "fallecidos": [
                     {
                         "id": "f-42",
-                        "id_caso": null,
+                        "id_caso": "cu-1110",
                         "pais": "cu",
                         "edad": 74,
                         "sexo": "hombre",
@@ -938,7 +938,7 @@
                     },
                     {
                         "id": "f-44",
-                        "id_caso": null,
+                        "id_caso": "cu-1204",
                         "pais": "cu",
                         "edad": 87,
                         "sexo": "hombre",
@@ -976,7 +976,7 @@
                     },
                     {
                         "id": "f-46",
-                        "id_caso": null,
+                        "id_caso": "cu-513",
                         "pais": "cu",
                         "edad": 98,
                         "sexo": "mujer",
@@ -1010,7 +1010,7 @@
                     },
                     {
                         "id": "f-48",
-                        "id_caso": null,
+                        "id_caso": "cu-741",
                         "pais": "cu",
                         "edad": 80,
                         "sexo": "mujer",
@@ -1068,7 +1068,7 @@
                     },
                     {
                         "id": "f-51",
-                        "id_caso": null,
+                        "id_caso": "cu-539",
                         "pais": "cu",
                         "edad": 60,
                         "sexo": "mujer",
@@ -1102,7 +1102,7 @@
                     },
                     {
                         "id": "f-53",
-                        "id_caso": null,
+                        "id_caso": "cu-1193",
                         "pais": "cu",
                         "edad": 77,
                         "sexo": "mujer",
@@ -1121,7 +1121,7 @@
                     },
                     {
                         "id": "f-54",
-                        "id_caso": null,
+                        "id_caso": "cu-1311",
                         "pais": "cu",
                         "edad": 73,
                         "sexo": "hombre",
@@ -1159,7 +1159,7 @@
                     },
                     {
                         "id": "f-56",
-                        "id_caso": null,
+                        "id_caso": "cu-938",
                         "pais": "cu",
                         "edad": 69,
                         "sexo": "mujer",
@@ -1198,7 +1198,7 @@
                     },
                     {
                         "id": "f-58",
-                        "id_caso": null,
+                        "id_caso": "cu-1407",
                         "pais": "cu",
                         "edad": 63,
                         "sexo": "hombre",
@@ -1222,7 +1222,7 @@
                 "fallecidos": [
                     {
                         "id": "f-59",
-                        "id_caso": null,
+                        "id_caso": "cu-1267",
                         "pais": "cu",
                         "edad": 77,
                         "sexo": "mujer",
@@ -1241,7 +1241,7 @@
                     },
                     {
                         "id": "f-60",
-                        "id_caso": null,
+                        "id_caso": "cu-741",
                         "pais": "cu",
                         "edad": 80,
                         "sexo": "mujer",
@@ -1257,7 +1257,7 @@
                     },
                     {
                         "id": "f-61",
-                        "id_caso": null,
+                        "id_caso": "cu-1442",
                         "pais": "cu",
                         "edad": 95,
                         "sexo": "mujer",
@@ -1296,7 +1296,7 @@
                     },
                     {
                         "id": "f-63",
-                        "id_caso": null,
+                        "id_caso": "cu-1482",
                         "pais": "cu",
                         "edad": 72,
                         "sexo": "mujer",
@@ -1332,7 +1332,7 @@
                 "fallecidos": [
                     {
                         "id": "f-65",
-                        "id_caso": null,
+                        "id_caso": "cu-765",
                         "pais": "cu",
                         "edad": 59,
                         "sexo": "mujer",
@@ -1348,7 +1348,7 @@
                     },
                     {
                         "id": "f-66",
-                        "id_caso": null,
+                        "id_caso": "cu-1576",
                         "pais": "cu",
                         "edad": 87,
                         "sexo": "hombre",
@@ -1392,7 +1392,7 @@
                 "fallecidos": [
                     {
                         "id": "f-68",
-                        "id_caso": null,
+                        "id_caso": "cu-1273",
                         "pais": "cu",
                         "edad": 79,
                         "sexo": "mujer",
@@ -1407,7 +1407,7 @@
                     },
                     {
                         "id": "f-69",
-                        "id_caso": null,
+                        "id_caso": "cu-1392",
                         "pais": "cu",
                         "edad": 82,
                         "sexo": "hombre",
@@ -1434,7 +1434,7 @@
                 "fallecidos": [
                     {
                         "id": "f-70",
-                        "id_caso": null,
+                        "id_caso": "cu-1650",
                         "pais": "cu",
                         "edad": 83,
                         "sexo": "hombre",
@@ -1451,7 +1451,7 @@
                     },
                     {
                         "id": "f-71",
-                        "id_caso": null,
+                        "id_caso": "cu-1687",
                         "pais": "cu",
                         "edad": 79,
                         "sexo": "hombre",
@@ -1508,7 +1508,7 @@
                 "fallecidos": [
                     {
                         "id": "f-74",
-                        "id_caso": null,
+                        "id_caso": "cu-1614",
                         "pais": "cu",
                         "edad": 77,
                         "sexo": "mujer",
