@@ -3225,7 +3225,7 @@
             "dpacode_provincia": "23",
             "lon": -82.252791,
             "lat": 23.041131,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-5": {
@@ -3321,7 +3321,7 @@
             "dpacode_provincia": "23",
             "lon": -82.430944,
             "lat": 23.065716,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "elha-13": {
@@ -3357,7 +3357,7 @@
             "dpacode_provincia": "23",
             "lon": -82.374755,
             "lat": 23.118224,
-            "abierto": false,
+            "abierto": true,
             "chequeado": true
         },
         "emay-1": {
@@ -3597,7 +3597,7 @@
             "dpacode_provincia": "32",
             "lon": -76.252168,
             "lat": 20.870663,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "ehol-4": {
