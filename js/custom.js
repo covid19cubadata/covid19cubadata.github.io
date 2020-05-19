@@ -526,6 +526,9 @@ $.walker = {
             $('[data-content=fallec]').html('<i class="fa fa-spinner fa-spin"></i>');
             $('[data-content=evacua]').html('<i class="fa fa-spinner fa-spin"></i>');
             $('[data-content=recupe]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=tasa]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=nocasod]').html('<i class="fa fa-spinner fa-spin"></i>');
+            $('[data-content=nofallecd]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
             let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt');
@@ -1139,6 +1142,8 @@ function run_calculations() {
                         var evac = 0;
                         var munscurves = {};
                         var proscurves = {};
+                        var nocasod = 0;
+                        var nodeathd = 0;
                         for (const j in muns) {
                             munscurves[j] = {data: [0]};
                         }
@@ -1178,6 +1183,7 @@ function run_calculations() {
                                 total += report_day;
                             } else {
                                 dailySingle.push(0);
+                                nocasod+=1;
                             }
                             if ('tests_total' in data.casos.dias[i] && general_view) {
                                 test_days.push(data.casos.dias[i].fecha.replace('2020/', ''));
@@ -1192,10 +1198,12 @@ function run_calculations() {
                                 recoversSingle.push(0);
                             }
                             if ('muertes_numero' in data.casos.dias[i] && general_view) {
+                                if(data.casos.dias[i].muertes_numero===0)nodeathd+=1;
                                 deads += data.casos.dias[i].muertes_numero;
                                 deadsSingle.push(data.casos.dias[i].muertes_numero);
                             } else {
                                 deadsSingle.push(0);
+                                nodeathd+=1;
                             }
                             if ('evacuados_numero' in data.casos.dias[i] && general_view) {
                                 evac += data.casos.dias[i].evacuados_numero;
@@ -1541,8 +1549,8 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
+
+
 
                         let porciento = [
                             ntest_days,
@@ -1629,7 +1637,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#daily-actalt-info",
                             data: {
@@ -1657,7 +1665,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#daily-actaltday-info",
                             data: {
@@ -1733,7 +1741,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         //Donut for cases info
 						c3.generate({
 							bindto: "#cases-pie-info",
@@ -1750,9 +1758,11 @@ function run_calculations() {
 							donut: {
 								title: Object.keys(cases).length + " casos",
 							}
-						});
+                        });
 
-                        return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
+                        let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];
+
+                        return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown, 'last15days': last15days, 'nocasod': nocasod, 'nodeathd': nodeathd};
                     }
 
                     var globalInfo = getAllCasesAndSimpleGraphics();
@@ -1845,6 +1855,9 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
+                    $('[data-content=tasa]').html(globalInfo.last15days ? Math.round(globalInfo.last15days/population['cuba']*10**5) : '-');
+                    $('[data-content=nocasod]').html(globalInfo.nocasod ? globalInfo.nocasod : '-');
+                    $('[data-content=nofallecd]').html(globalInfo.nodeathd ? globalInfo.nodeathd : '-');
 
 
                     function getMunProfile(code, mun, pro) {
@@ -1894,7 +1907,6 @@ function run_calculations() {
                     }, {'sticky': true});
 
                     factor = 1.5*10**(Math.floor(Math.log10(genInfo.max_pros)));
-                    console.log(factor);
 
                     geojsonM.bindPopup(function (layer) {
                         var mcode = layer.feature.properties.DPA_municipality_code;
@@ -1973,7 +1985,7 @@ $('[data-class]').each(function () {
     $(this).data('class', $(this).attr('class'));
 });
 
-let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe]').parent();
+let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe],[data-content=tasa],[data-content=nocasod],[data-content=nofallecd]').parent();
 $locator.change(function () {
     $.walker.view.update();
     if (!start_selection)
