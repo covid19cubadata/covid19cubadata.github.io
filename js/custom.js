@@ -114,6 +114,10 @@ var geojsonM = null, geojsonP = null, start_selection = window.location.hash.rep
 map_mun.zoomControl.setPosition('topright');
 var markers = {};
 
+function round(number, digits = 2) {
+    return Math.round((number + Number.EPSILON) * 10 ** digits) / 10 ** digits;
+}
+
 $.walker = {
     loaded: {},
     map: {
@@ -838,7 +842,8 @@ function run_calculations() {
                                         proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'][tt - 1]++;
                                     }
                                 }
-
+                                if(report_day===0){nocasod+=1;}
+                                else{nocasod=0;}
                                 dailySingle.push(report_day);
                                 total += report_day;
                             } else {
@@ -858,7 +863,8 @@ function run_calculations() {
                                 recoversSingle.push(0);
                             }
                             if ('muertes_numero' in data.casos.dias[i] && general_view) {
-                                if(data.casos.dias[i].muertes_numero===0)nodeathd+=1;
+                                if(data.casos.dias[i].muertes_numero===0){nodeathd+=1;}
+                                else{nodeathd=0;}
                                 deads += data.casos.dias[i].muertes_numero;
                                 deadsSingle.push(data.casos.dias[i].muertes_numero);
                             } else {
@@ -1515,9 +1521,11 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
-                    $('[data-content=tasa]').html(globalInfo.last15days ? Math.round(globalInfo.last15days/population['cuba']*10**5) : '-');
-                    $('[data-content=nocasod]').html(globalInfo.nocasod ? globalInfo.nocasod : '-');
-                    $('[data-content=nofallecd]').html(globalInfo.nodeathd ? globalInfo.nodeathd : '-');
+                    console.log(population[general_view? 'cuba' : provinces_codes[province_id]]);
+                    console.log(globalInfo.last15days);
+                    $('[data-content=tasa]').html(globalInfo.last15days!==null ? round(globalInfo.last15days/population[general_view? 'cuba' : provinces_codes[province_id]]*10**5) : '-');
+                    $('[data-content=nocasod]').html(globalInfo.nocasod!=null ? globalInfo.nocasod : '-');
+                    $('[data-content=nofallecd]').html(globalInfo.nodeathd!=null ? globalInfo.nodeathd : '-');
 
 
                     function getMunProfile(code, mun, pro) {
@@ -1645,7 +1653,7 @@ $('[data-class]').each(function () {
     $(this).data('class', $(this).attr('class'));
 });
 
-let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe],[data-content=tasa],[data-content=nocasod],[data-content=nofallecd]').parent();
+let $cards = $('[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe],[data-content=nofallecd]').parent();
 $locator.change(function () {
     $.walker.view.update();
     if (!start_selection)

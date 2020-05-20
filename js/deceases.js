@@ -527,6 +527,8 @@ function run_calculations() {
 
                                 dailySingle.push(report_day);
                                 total += report_day;
+                                if(report_day===0){nodeathd+=1;}
+                                else{nodeathd=0;}
                             } else {
                                 dailySingle.push(0);
                                 nodeathd+=1;
