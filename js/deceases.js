@@ -331,25 +331,24 @@ function run_calculations() {
 
                                     muns[dead[p].dpacode_municipio_deteccion].total++;
                                     pros[dead[p].dpacode_provincia_deteccion].total++;
-                                    
                                     if ('enfermedades' in dead[p]){
 										for(var e in dead[p].enfermedades){
 											if (dead[p].enfermedades[e] in morbilities) {
 												morbilities[dead[p].enfermedades[e]]+=1;
 											} else {
 												morbilities[dead[p].enfermedades[e]]=1;
-											}	
+											}
 										}
 										if (dead[p].enfermedades.length in total_morb){
-											total_morb[dead[p].enfermedades.length]+=1;		
+											total_morb[dead[p].enfermedades.length]+=1;
 										} else {
-											total_morb[dead[p].enfermedades.length] = 1;			
-										}	
+											total_morb[dead[p].enfermedades.length] = 1;
+										}
 									} else {
 											if (0 in total_morb) {
-												total_morb[0]+=1;	
+												total_morb[0]+=1;
 											} else {
-												total_morb[0] = 1;		
+												total_morb[0] = 1;
 											}
 										}
 
@@ -451,7 +450,6 @@ function run_calculations() {
                                 }
                             }
                         }
-                        
                         tmorb_a = []
                         for(var e in total_morb){
 							var key = e+' enfermedades';
@@ -462,28 +460,22 @@ function run_calculations() {
 									key = "1 enfermedad";
 								}
 							}
-							tmorb_a.push([key,total_morb[e]]);	
+							tmorb_a.push([key,total_morb[e]]);
 						}
-                        
 
-                       
-                        
                         var morb_a = [];
                         for(var m in morbilities){
-							morb_a.push([data.enfermedades[m],morbilities[m]]);	
+							morb_a.push([data.enfermedades[m],morbilities[m]]);
 						}
 						morb_a.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1]});
-						
+
 						var mrange = ['Enfermedades'];
 						var mfalle = ['Fallecidos'];
-						
+
 						for(var i=0;(i<morb_a.length)&&(i<8);i++){
 							mrange.push(morb_a[i][0]);
-							mfalle.push(morb_a[i][1]);	
-						}	
-                        
-                        
-						
+							mfalle.push(morb_a[i][1]);
+						}
 
                         //Lines for contagio evolution
                         var dates = ['Fecha'];
@@ -492,7 +484,8 @@ function run_calculations() {
                         var dailySum = ['Fallecidos acumulados'];
 
                         var total = 0;
-                        
+                        var nodeathd=0;
+
                         var munscurves = {};
                         var proscurves = {};
                         for (const j in muns) {
@@ -501,8 +494,8 @@ function run_calculations() {
                         for (const j in pros) {
                             proscurves[j] = {data: [0]};
                         }
-                        
-                        
+
+
 
                         for (var i = 1; i <= Object.keys(data.casos.dias).length; i++) {
                             dias.push('Día ' + i);
@@ -536,15 +529,17 @@ function run_calculations() {
                                 total += report_day;
                             } else {
                                 dailySingle.push(0);
+                                nodeathd+=1;
                             }
-                            
+
                             dailySum.push(total);
                         }
-                        
+
                         fallecContent = total ? total : '0';
-                    
-						$('[data-content=fallec]').html(fallecContent);
-						
+
+                        $('[data-content=fallec]').html(fallecContent);
+                        $('[data-content=nofallecd]').html(nodeathd);
+
 						if (fallecContent==='0') {
 							$('#top-row').hide();
 							$('#line-charts').hide();
@@ -553,10 +548,10 @@ function run_calculations() {
 							factor = 100;
 							$('#top-row').show();
 							$('#line-charts').show();
-							$('#national-comparison').show();	
+							$('#national-comparison').show();
 						}
-                        
-                        
+
+
                         //Pie for sex
                         c3.generate({
                             bindto: "#fsex-info",
@@ -570,7 +565,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#dis-bar",
                             data: {
@@ -605,7 +600,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                          //Pie for disease quantity
                         c3.generate({
                             bindto: "#dis-quantity-pie",
@@ -689,10 +684,10 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
 
-                       
+
+
+
                         for (const j in muns) {
                             const municipality = $.walker.municipality.matchByField('DPA_municipality_code', j).properties;
                             munscurves[j]['data'][0] = municipality.municipality;
@@ -799,8 +794,8 @@ function run_calculations() {
                         $('#munscurve-select1').off('change').on('change', function () {
                             var val = $('#munscurve-select1').val();
                             municipalitylectd1 = val;
-                            
-							if (municipalitylectd1 in munscurves){ 
+
+							if (municipalitylectd1 in munscurves){
 								comparison3 = c3.generate({
 									bindto: "#municipalyties-curve",
 									data: {
@@ -826,7 +821,7 @@ function run_calculations() {
 								});
 							}
 						});
-						
+
 
                         $('#munscurve-select2').off('change').on('change', function () {
                             var val = $('#munscurve-select2').val();
@@ -868,7 +863,7 @@ function run_calculations() {
                             dailySum,
                         ];
 
-        
+
 
                         c3.generate({
                             bindto: "#daily-single-info",
@@ -890,11 +885,6 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
-
-                        
-
 
                         comparison2 = c3.generate({
                             bindto: "#provinces-curve",
@@ -919,7 +909,7 @@ function run_calculations() {
                                 }
                             }
                         });
-						
+
 						if (municipalitylectd1 in munscurves) {
 	                        comparison3 = c3.generate({
 	                            bindto: "#municipalyties-curve",
@@ -945,13 +935,13 @@ function run_calculations() {
 	                            }
 	                        });
 						}
-                       
+
                         return { "total": total, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown};
                     }
 
                     var globalInfo = getAllCasesAndSimpleGraphics();
-                    
-                   
+
+
 
                     function resumeCases() {
                         var max_muns = 0;
@@ -980,7 +970,7 @@ function run_calculations() {
                     }
 
                     genInfo = resumeCases();
-                    
+
                     var MAX_LISTS = 16;
 
                     muns_array = [];
@@ -1033,8 +1023,8 @@ function run_calculations() {
                         pro_ranking += 1;
                     });
 
-                    
-                    
+
+
 
 
                     function getMunProfile(code, mun, pro) {

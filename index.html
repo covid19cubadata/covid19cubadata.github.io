@@ -123,6 +123,52 @@
                 </section>
             </div>
         </div>
+
+        <div class="d-block d-sm-none">
+            <table class="table">
+                <tr class="bg-danger text-white">
+                    <th>Tasa últimos 15 días</th>
+                    <td data-content="tasa"><i class="fa fa-spinner fa-spin"></i></td>
+                </tr>
+                <tr class="bg-warning text-white">
+                    <th>Días sin casos</th>
+                    <td data-content="nocasod"><i class="fa fa-spinner fa-spin"></i></td>
+                </tr>
+                <tr class="bg-success text-white">
+                    <th>Días sin fallecidos</th>
+                    <td data-content="nofallecd"><i class="fa fa-spinner fa-spin"></i></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="stats-cards" class="d-none d-sm-block">
+            <div class="card-deck">
+                <section class="card text-center bg-danger text-white">
+                    <div class="card-body" data-content="tasa">
+                        <i class="fa fa-spinner fa-spin"></i>
+                    </div>
+                    <h2 class="card-header h5">
+                        Tasa últimos 15 días
+                    </h2>
+                </section>
+                <section class="card text-center bg-success text-white">
+                    <div class="card-body" data-content="nocasod">
+                        <i class="fa fa-spinner fa-spin"></i>
+                    </div>
+                    <h2 class="card-header h5">
+                        Días sin casos
+                    </h2>
+                </section>
+                <section class="card text-center bg-warning text-white">
+                    <div class="card-body" data-content="nofallecd">
+                        <i class="fa fa-spinner fa-spin"></i>
+                    </div>
+                    <h2 class="card-header h5">
+                        Días sin fallecidos
+                    </h2>
+                </section>
+            </div>
+        </div>
     </div>
 
     <div id="top-row" class="container-fluid">
