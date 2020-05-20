@@ -1,5 +1,5 @@
 Parte de cierre del 19 de mayo a las 12 de la noche
-POR REDACCIÓN MINSAP · 20 MAYO 2020
+POR REDACCIÓN MINSAP · PUBLICADA 20 MAYO 2020 · ACTUALIZADO 20 MAYO 2020
 
 
 Al cierre del día de ayer, 19 de mayo, se encuentran ingresados en hospitales para vigilancia clínica epidemiológica 817 pacientes. Otras mil 889 personas se vigilan en sus hogares, desde la Atención Primaria de Salud.
@@ -9,7 +9,7 @@ Para COVID-19 se estudiaron mil 732 muestras, resultando positivas 13 muestras. 
 
 Los 13 nuevos casos confirmados fueron cubanos. De ellos nueve (69,2%) fueron contactos de casos confirmados y no se precisa la fuente de infección de cuatro (30,8%).
 
-De los 13 casos diagnosticados, 4 (30,8%) fueron mujeres y 9 (69,2%) hombres. Por grupos de edades los más afectados fueron: menor de 40 años con 9 (69,2%) y entre 40 y 60 años con cuatro (30,8%). El 61,5% (4) de los casos positivos fueron asintomáticos.
+De los 13 casos diagnosticados, 4 (30,8%) fueron mujeres y 9 (69,2%) hombres. Por grupos de edades los más afectados fueron: menor de 40 años con 9 (69,2%) y entre 40 y 60 años con cuatro (30,8%). El 61,5% (8) de los casos positivos fueron asintomáticos.
 
 Detalles de los 13 nuevos casos confirmados:
 
@@ -17,19 +17,19 @@ La Habana: 8 casos
 
 Ciudadana cubana de 59 años de edad, residente en el municipio Centro Habana, provincia La Habana. Se desconoce la fuente de infección. Se mantienen en vigilancia 18 contactos.
 Ciudadana cubana de 26 años de edad, residente en el municipio Habana Vieja, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 17 contactos.
-Ciudadana cubana de 37 años de edad, residente en el municipio Arroyo Naranjo, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 15 contactos.
-Ciudadana cubana de 48 años de edad, residente en el municipio Arroyo Naranjo, provincia La Habana. Se desconoce la fuente de infección. Se mantienen en vigilancia 13 contactos.
+Ciudadano cubano de 37 años de edad, residente en el municipio Arroyo Naranjo, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 15 contactos.
+Ciudadano cubano de 48 años de edad, residente en el municipio Arroyo Naranjo, provincia La Habana. Se desconoce la fuente de infección. Se mantienen en vigilancia 13 contactos.
 Ciudadana cubana de 21 años de edad, residente en el municipio Cerro, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 26 contactos.
-Ciudadana cubana de 31 años de edad, residente en el municipio Cerro, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 26 contactos.
-Ciudadana cubana de 39 años de edad, residente en el municipio Playa, provincia La Habana. Se desconoce la fuente de infección. Se mantienen en vigilancia 17 contactos.
-Ciudadana cubana de 48 años de edad, residente en el municipio Playa, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 18 contactos.
+Ciudadano cubano de 31 años de edad, residente en el municipio Cerro, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 26 contactos.
+Ciudadano cubano de 39 años de edad, residente en el municipio Playa, provincia La Habana. Se desconoce la fuente de infección. Se mantienen en vigilancia 17 contactos.
+Ciudadano cubano de 19 años de edad, residente en el municipio Playa, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 18 contactos.
 Matanzas: 5 casos
 
 Ciudadana cubana de 43 años de edad, residente en el municipio Calimete, provincia Matanzas. Se desconoce la fuente de infección. Se mantienen en vigilancia 10 contactos.
-Ciudadana cubana de 55 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 10 contactos.
-Ciudadana cubana de 8 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 19 contactos.
-Ciudadana cubana de 12 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 19 contactos.
-Ciudadana cubana de 34 años de edad, residente en el municipio Cárdenas, provincia Matanzas. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 17 contactos.
+Ciudadano cubano de 55 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 10 contactos.
+Ciudadano cubano de 8 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 19 contactos.
+Ciudadano cubano de 12 años de edad, residente en el municipio Matanzas, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 19 contactos.
+Ciudadano cubano de 34 años de edad, residente en el municipio Cárdenas, provincia Matanzas. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 17 contactos.
 
 De los mil 900 pacientes diagnosticados con la enfermedad, se mantienen ingresados confirmados 246, y de ellos 238 (97%) presentan evolución clínica estable. Se acumulan 79 fallecidos (ninguno en el día), dos evacuados y mil 573 pacientes recuperados (83%) (35 en el día de ayer). Se reportan dos pacientes en estado crítico y seis pacientes en estado grave.
 
