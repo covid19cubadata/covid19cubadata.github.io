@@ -104,11 +104,11 @@ def get_countries_test():
     data = defaultdict(lambda : defaultdict(list))
     next(reader)
     for i in reader:
-        if i[15]:
+        if i[17] and i[3] and i[11] and i[19]:
             percent = int(i[3])/float(i[11])*100
             data[i[0]]['test_efectivity'].append(percent)
-            data[i[0]]['total_tests_per_million'].append(float(i[13])*1000)
-            data[i[0]]['population'].append(int(float(i[16])))
+            data[i[0]]['total_tests_per_million'].append(float(i[11])*1000000/float(i[19]))
+            data[i[0]]['population'].append(int(float(i[19])))
     path = os.path.join('data', 'countries_test.json')
     json.dump(data,open(path,'w'))
     for i in data.keys():
@@ -120,8 +120,8 @@ def get_countries_test():
 
 def main():
 
-    indexs = get_oxford_index()
-    #indexs = load_index_backup()
+    #indexs = get_oxford_index()
+    indexs = load_index_backup()
     print('Oxford Index generated')
 
     tests = get_countries_test()
