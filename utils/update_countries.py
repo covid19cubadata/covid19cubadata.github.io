@@ -120,8 +120,8 @@ def get_countries_test():
 
 def main():
 
-    #indexs = get_oxford_index()
-    indexs = load_index_backup()
+    indexs = get_oxford_index()
+    #indexs = load_index_backup()
     print('Oxford Index generated')
 
     tests = get_countries_test()
