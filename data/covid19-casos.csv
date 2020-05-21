@@ -1899,3 +1899,11 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,8,cu,Matanzas,Matanzas,2020/05/19,,secundario
 ,hombre,12,cu,Matanzas,Matanzas,2020/05/19,,secundario
 ,hombre,34,cu,Cárdenas,Matanzas,2020/05/19,,secundario
+,mujer,57,cu,San Miguel del Padrón,La Habana,2020/05/20,,secundario
+,hombre,20,cu,La Habana Vieja,La Habana,2020/05/20,,secundario
+,hombre,44,cu,Boyeros,La Habana,2020/05/20,,secundario
+,mujer,68,cu,Centro Habana,La Habana,2020/05/20,,secundario
+,hombre,57,cu,Habana del Este,La Habana,2020/05/20,,desconocido
+,hombre,50,cu,Arroyo Naranjo,La Habana,2020/05/20,,secundario
+,mujer,26,cu,Matanzas,Matanzas,2020/05/20,,secundario
+,mujer,1,cu,Matanzas,Matanzas,2020/05/20,,secundario
