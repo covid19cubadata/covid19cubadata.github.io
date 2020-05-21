@@ -1653,6 +1653,30 @@
             },
             "70": {
                 "fecha": "2020/05/19"
+            },
+            "71": {
+                "fecha": "2020/05/20",
+                "fallecidos": [
+                    {
+                        "id": "f-80",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ep",
+                            "np",
+                            "dn"
+                        ],
+                        "texto": "Falleció ciudadano cubano de 78 años de edad, deambulante procedente del Centro de Protección Social del municipio Cotorro. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica, Neoplasia de Pulmón, desnutrición proteico calórica severa. El 6 de mayo se traslada e ingresa en el Hospital ¨Luis Díaz Soto¨ manteniendo tratamiento según protocolo, evolución estable en sala. El 17 de mayo el PCR evolutivo es negativo pero se mantiene ingresado para continuar tratamiento de la desnutrición proteico calórica. El 20 de mayo presentó disnea súbita, cianosis, hemoptisis masiva, hipotensión y bradicardia. Fue trasladado a la terapia, intubado y ventilado en modalidad controlada, apoyado con aminas. Se realiza reposición de volumen con sangre. Hizo parada cardiorespiratoria realizándose maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos nuestras más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
