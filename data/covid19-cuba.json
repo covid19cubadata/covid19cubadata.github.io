@@ -3211,7 +3211,7 @@
             "dpacode_provincia": "23",
             "lon": -82.361671,
             "lat": 23.090854,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-7": {
