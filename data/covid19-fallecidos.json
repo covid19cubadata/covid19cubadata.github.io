@@ -1677,6 +1677,28 @@
                         "texto": "Falleció ciudadano cubano de 78 años de edad, deambulante procedente del Centro de Protección Social del municipio Cotorro. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica, Neoplasia de Pulmón, desnutrición proteico calórica severa. El 6 de mayo se traslada e ingresa en el Hospital ¨Luis Díaz Soto¨ manteniendo tratamiento según protocolo, evolución estable en sala. El 17 de mayo el PCR evolutivo es negativo pero se mantiene ingresado para continuar tratamiento de la desnutrición proteico calórica. El 20 de mayo presentó disnea súbita, cianosis, hemoptisis masiva, hipotensión y bradicardia. Fue trasladado a la terapia, intubado y ventilado en modalidad controlada, apoyado con aminas. Se realiza reposición de volumen con sangre. Hizo parada cardiorespiratoria realizándose maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos nuestras más sentidas condolencias."
                     }
                 ]
+            },
+            "72": {
+                "fecha": "2020/05/21",
+                "fallecidos": [
+                    {
+                        "id": "f-81",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ir"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 56 años de edad que residía en el municipio Matanzas, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Renal Crónica (grado IV). El 17 de mayo fue ingresado en la terapia por presentar fiebre, tos, disnea y decaimiento. El 18 de mayo hizo edema agudo del pulmón y emergencia hipertensiva, por lo que es intubado y ventilado en modalidad controlada, y fue tratado con hipotensores endovenosos. El 19 de mayo se realizó hemodiálisis por presentar acidemia metabólica y anuria. En el Rx se observaron lesiones congestivas y de distres respiratorio. Fue realizada hemodiálisis; y después del proceder presentó inestabilidad hemodinámica y elevación del potasio sérico por lo que fue apoyado con aminas vasoactivas y tratamiento para la corrección del desequilibrio hidroelectrolítico. Hizo parada cardiorespiratoria en asistolia y son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
