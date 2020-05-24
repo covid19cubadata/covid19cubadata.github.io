@@ -1930,3 +1930,13 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,42,cu,Guanabacoa,La Habana,2020/05/22,,secundario
 ,hombre,52,cu,Matanzas,Matanzas,2020/05/22,,secundario
 ,hombre,24,cu,Morón,Ciego de Ávila,2020/05/22,,secundario
+,mujer,21,cu,La Habana Vieja,La Habana,2020/05/23,,secundario
+,mujer,51,cu,Centro Habana,La Habana,2020/05/23,,secundario
+,hombre,30,cu,Arroyo Naranjo,La Habana,2020/05/23,,secundario
+,mujer,25,cu,Centro Habana,La Habana,2020/05/23,,secundario
+,mujer,36,cu,Boyeros,La Habana,2020/05/23,,secundario
+,hombre,1,cu,Matanzas,Matanzas,2020/05/23,,secundario
+,mujer,24,cu,Jovellanos,Matanzas,2020/05/23,,secundario
+,mujer,62,cu,Matanzas,Matanzas,2020/05/23,,secundario
+,mujer,47,cu,Matanzas,Matanzas,2020/05/23,,secundario
+,mujer,58,cu,Guisa,Granma,2020/05/23,,primario
