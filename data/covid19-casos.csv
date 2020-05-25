@@ -1940,3 +1940,9 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,62,cu,Matanzas,Matanzas,2020/05/23,,secundario
 ,mujer,47,cu,Matanzas,Matanzas,2020/05/23,,secundario
 ,mujer,58,cu,Guisa,Granma,2020/05/23,,primario
+,mujer,47,cu,Diez de Octubre,La Habana,2020/05/24,,secundario
+,hmobre,44,cu,Cerro,La Habana,2020/05/24,,desconocido
+,hombre,39,cu,Cerro,La Habana,2020/05/24,,desconocido
+,hombre,84,cu,La Habana Vieja,La Habana,2020/05/24,,desconocido
+,mujer,30,cu,Centro Habana,La Habana,2020/05/24,,desconocido
+,mujer,53,cu,Morón,Ciego de Ávila,2020/05/24,,desconocido
