@@ -3127,7 +3127,7 @@
             "dpacode_provincia": "21",
             "lon": -84.087038,
             "lat": 22.202105,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "eart-1": {
@@ -3319,7 +3319,7 @@
             "dpacode_provincia": "23",
             "lon": -82.374755,
             "lat": 23.118224,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "emay-1": {
@@ -3595,7 +3595,7 @@
             "dpacode_provincia": "40.01",
             "lon": -82.811626,
             "lat": 21.886638,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "eijv-3": {
