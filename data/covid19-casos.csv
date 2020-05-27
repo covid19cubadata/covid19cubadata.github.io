@@ -1962,3 +1962,14 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,25,cu,Matanzas,Matanzas,2020/05/25,,secundario
 ,mujer,20,cu,Matanzas,Matanzas,2020/05/25,,secundario
 ,hombre,72,cu,Matanzas,Matanzas,2020/05/25,,secundario
+,hombre,33,cu,Bauta,Artemisa,2020/05/26,,secundario
+,mujer,44,cu,Cotorro,La Habana,2020/05/26,,secundario
+,hombre,60,cu,Playa,La Habana,2020/05/26,,secundario
+,mujer,87,cu,Cerro,La Habana,2020/05/26,,secundario
+,mujer,44,cu,Habana del Este,La Habana,2020/05/26,,secundario
+,hombre,63,cu,Playa,La Habana,2020/05/26,,desconocido
+,mujer,26,cu,Habana del Este,La Habana,2020/05/26,,secundario
+,hombre,59,cu,La Habana Vieja,La Habana,2020/05/26,,secundario
+,mujer,40,cu,La Lisa,La Habana,2020/05/26,,secundario
+,mujer,7,cu,La Lisa,La Habana,2020/05/26,,secundario
+,mujer,33,cu,Morón,Ciego de Ávila,2020/05/26,,secundario
