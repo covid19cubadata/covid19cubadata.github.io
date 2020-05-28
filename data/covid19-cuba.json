@@ -3367,7 +3367,7 @@
             "dpacode_provincia": "25",
             "lon": -81.206305,
             "lat": 23.036355,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "evcl-1": {
