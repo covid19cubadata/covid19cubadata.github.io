@@ -3571,7 +3571,7 @@
             "dpacode_provincia": "32",
             "lon": -75.725901,
             "lat": 20.961779,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "egtm-1": {
@@ -3607,7 +3607,7 @@
             "dpacode_provincia": "40.01",
             "lon": -82.753945,
             "lat": 21.745226,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "estg-1": {
