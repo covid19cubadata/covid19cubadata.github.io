@@ -1738,6 +1738,30 @@
             },
             "79": {
                 "fecha": "2020/05/28"
+            },
+            "80": {
+                "fecha": "2020/05/29",
+                "fallecidos": [
+                    {
+                        "id": "f-83",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 77,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "ir",
+                            "ds",
+                            "dn"
+
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 77 años procedente del Centro de Protección Social del Cotorro. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Insuficiencia Renal Crónica, Demencia Senil, Desnutrición Crónica. Presentó diarreas líquidas y crepitantes en base pulmonar derecha. Ingresó en terapia, es impuesto tratamiento con hidratación parenteral y Ceftriaxona. Posteriormente presentó disnea intensa, cianosis, hipotensión arterial por lo que fue intubada, ventilada y apoyada con aminas. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a sus familiares y amigos. "
+                    }
+                ]
             }
         }
     }
