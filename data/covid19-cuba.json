@@ -3989,7 +3989,8 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "sujetos_riesgo": 389
+                "sujetos_riesgo": 389,
+                "criticos_numero": 1
             },
             "7": {
                 "fecha": "2020/03/17",
@@ -4039,7 +4040,8 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "sujetos_riesgo": 356
+                "sujetos_riesgo": 356,
+                "criticos_numero": 1
             },
             "8": {
                 "fecha": "2020/03/18",
@@ -4466,7 +4468,8 @@
                 "evacuados_id": [
                     "us-1"
                 ],
-                "graves_numero": 3,
+                "graves_numero": 1,
+                "criticos_numero": 2,
                 "graves_id": [
                     "it-4",
                     "cu-4"
@@ -4695,7 +4698,9 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "sujetos_riesgo": 954
+                "sujetos_riesgo": 954,
+                "graves_numero": 1,
+                "criticos_numero": 2
             },
             "12": {
                 "fecha": "2020/03/22",
@@ -4813,7 +4818,9 @@
                     }
                 ],
                 "sujetos_riesgo": 1036,
-                "tests_total": 518
+                "tests_total": 518,
+                "graves_numero": 1,
+                "criticos_numero": 2
             },
             "13": {
                 "fecha": "2020/03/23",
@@ -5001,7 +5008,9 @@
                 "recuperados_id": [
                     "cu-1"
                 ],
-                "tests_total": 625
+                "tests_total": 625,
+                "graves_numero": 1,
+                "criticos_numero": 2
             },
             "14": {
                 "fecha": "2020/03/24",
@@ -5208,7 +5217,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1479,
-                "graves_numero": 2,
+                "criticos_numero": 2,
                 "tests_total": 738
             },
             "15": {
@@ -5433,7 +5442,8 @@
                     }
                 ],
                 "sujetos_riesgo": 1603,
-                "graves_numero": 2,
+                "graves_numero": 1,
+                "criticos_numero": 1,
                 "tests_total": 893
             },
             "16": {
@@ -5725,7 +5735,9 @@
                 "muertes_id": [
                     "ru-1"
                 ],
-                "tests_total": 1039
+                "tests_total": 1039,
+                "criticos_numero": 1,
+                "graves_numero": 2
             },
             "17": {
                 "fecha": "2020/03/27",
@@ -6573,6 +6585,8 @@
                 ],
                 "sujetos_riesgo": 2000,
                 "muertes_numero": 0,
+                "criticos_numero": 1,
+                "graves_numero": 2,
                 "tests_total": 1368,
                 "nota_general": "El paciente reportado como fallecido en el parte del 27 correspondía realmente con la fecha del 28 por eso se cambió de fecha"
             },
@@ -7007,6 +7021,7 @@
                 "sujetos_riesgo": 2317,
                 "tests_total": 1665,
                 "graves_numero": 5,
+                "criticos_numero": 3,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-72",
@@ -7683,6 +7698,8 @@
                 "sujetos_riesgo": 2681,
                 "tests_total": 2007,
                 "muertes_numero": 0,
+                "graves_numero": 5,
+                "criticos_numero": 3,
                 "nota_general": "El paciente reportado como fallecido en este parte fue confirmado en esta fecha pero realmente falleció el día anterior y se reubicó allí"
             },
             "20": {
@@ -8048,7 +8065,8 @@
                     "cu-151",
                     "cu-2"
                 ],
-                "graves_numero": 6,
+                "graves_numero": 3,
+                "criticos_numero": 3,
                 "recuperados_numero": 4,
                 "nota_general": "Existen inconsistencias respecto al fallecido cu-151, no coincide el reporte del parte con respecto a datos del MINSAP. Se dejó acorde al parte hasta que se pueda discernir mejor."
             },
@@ -8605,7 +8623,8 @@
                 ],
                 "tests_total": 2766,
                 "recuperados_numero": 4,
-                "graves_numero": 5,
+                "graves_numero": 1,
+                "criticos_numero": 4,
                 "sujetos_riesgo": 2742
             },
             "22": {
@@ -9049,7 +9068,8 @@
                 "sujetos_riesgo": 2320,
                 "tests_total": 3342,
                 "recuperados_numero": 1,
-                "graves_numero": 7
+                "graves_numero": 2,
+                "criticos_numero": 5
             },
             "23": {
                 "fecha": "2020/04/02",
@@ -9800,7 +9820,8 @@
                 "sujetos_riesgo": 3241,
                 "tests_total": 4145,
                 "recuperados_numero": 2,
-                "graves_numero": 8,
+                "graves_numero": 2,
+                "criticos_numero": 6,
                 "muertes_numero": 1,
                 "muertes_id": [
                     "cu-278"
@@ -10211,7 +10232,8 @@
                 ],
                 "sujetos_riesgo": 3343,
                 "tests_total": 5202,
-                "graves_numero": 11
+                "graves_numero": 3,
+                "criticos_numero": 8
             },
             "25": {
                 "fecha": "2020/04/04",
@@ -10880,6 +10902,8 @@
                     "ca-3"
                 ],
                 "muertes_numero": 1,
+                "graves_numero": 4,
+                "criticos_numero": 8,
                 "muertes_id": [
                     "cu-35"
                 ],
@@ -11507,6 +11531,8 @@
                 "sujetos_riesgo": 1718,
                 "recuperados_numero": 3,
                 "muertes_numero": 1,
+                "graves_numero": 4,
+                "criticos_numero": 8,
                 "muertes_id": [
                     "cu-303"
                 ],
@@ -12452,6 +12478,8 @@
                 "sujetos_riesgo": 1752,
                 "recuperados_numero": 9,
                 "muertes_numero": 2,
+                "graves_numero": 3,
+                "criticos_numero": 12,
                 "muertes_id": [
                     "cu-246",
                     "cu-272"
@@ -13707,6 +13735,8 @@
                 ],
                 "sujetos_riesgo": 1732,
                 "muertes_numero": 1,
+                "graves_numero": 6,
+                "criticos_numero": 10,
                 "muertes_id": [
                     "cu-310"
                 ],
@@ -14917,7 +14947,8 @@
                     "cu-451",
                     "cu-477"
                 ],
-                "graves_numero": 16,
+                "graves_numero": 8,
+                "criticos_numero": 8,
                 "nota_general": "Las fechas de muertes muestran aglunas diferencias con datos del MINSAP y se dejaron tal cual aparecen en el parte del propio MINSAP"
             },
             "30": {
@@ -15915,7 +15946,8 @@
                 "sujetos_riesgo": 1867,
                 "tests_total": 12023,
                 "recuperados_numero": 23,
-                "graves_numero": 11
+                "graves_numero": 5,
+                "criticos_numero": 6
             },
             "31": {
                 "fecha": "2020/04/10",
@@ -17055,7 +17087,8 @@
                 "sujetos_riesgo": 2415,
                 "tests_total": 13162,
                 "recuperados_numero": 26,
-                "graves_numero": 12,
+                "graves_numero": 7,
+                "criticos_numero": 5,
                 "muertes_numero": 1,
                 "muertes_id": [
                     "cu-51"
@@ -18048,7 +18081,8 @@
                 "sujetos_riesgo": 2302,
                 "tests_total": 15057,
                 "recuperados_numero": 15,
-                "graves_numero": 14,
+                "graves_numero": 6,
+                "criticos_numero": 9,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-592",
@@ -19205,7 +19239,8 @@
                 "sujetos_riesgo": 2305,
                 "tests_total": 17133,
                 "recuperados_numero": 29,
-                "graves_numero": 14,
+                "graves_numero": 7,
+                "criticos_numero": 7,
                 "muertes_numero": 3,
                 "muertes_id": [
                     "cu-306",
@@ -20024,7 +20059,8 @@
                 "sujetos_riesgo": 2501,
                 "tests_total": 18767,
                 "recuperados_numero": 11,
-                "graves_numero": 12,
+                "graves_numero": 3,
+                "criticos_numero": 9,
                 "nota_general": "En el parte del día inicialmente no coincidió la suma de los tests con los números reportados previamente. Entonces asumimos los tests reportados en el día 1634 y sumados al total previo 17133. Posteriormente, el parte fue modificados y coincidió con nuestros números "
             },
             "35": {
@@ -20994,7 +21030,8 @@
                 "sujetos_riesgo": 2466,
                 "tests_total": 20451,
                 "recuperados_numero": 19,
-                "graves_numero": 15,
+                "graves_numero": 7,
+                "criticos_numero": 8,
                 "muertes_numero": 3,
                 "muertes_id": [
                     "cu-240",
@@ -21971,7 +22008,8 @@
                 "sujetos_riesgo": 2629,
                 "tests_total": 21837,
                 "recuperados_numero": 20,
-                "graves_numero": 16,
+                "graves_numero": 6,
+                "criticos_numero": 10,
                 "muertes_numero": 3,
                 "muertes_id": [
                     "cu-255",
@@ -23205,7 +23243,8 @@
                 "sujetos_riesgo": 2734,
                 "tests_total": 23317,
                 "recuperados_numero": 21,
-                "graves_numero": 17,
+                "graves_numero": 7,
+                "criticos_numero": 10,
                 "muertes_numero": 5,
                 "muertes_id": [
                     "cu-1251"
@@ -24479,7 +24518,8 @@
                 "sujetos_riesgo": 2866,
                 "tests_total": 25212,
                 "recuperados_numero": 35,
-                "graves_numero": 15,
+                "graves_numero": 5,
+                "criticos_numero": 10,
                 "muertes_numero": 1,
                 "nota_general": "En el parte se reportó un total de 25309 muestras y se estudiaron ayer 1895. Sin embargo, el total reportado el día previo, 23317, sumado a los reportados en el parte, 1895, da como suma 25212 que es diferente a 25309. Por tanto, se reporta como total 25212 hasta que se tenga una nueva aclaración por el  MINSAP"
             },
@@ -25470,7 +25510,8 @@
                 "sujetos_riesgo": 3037,
                 "tests_total": 26982,
                 "recuperados_numero": 28,
-                "graves_numero": 16,
+                "graves_numero": 7,
+                "criticos_numero": 9,
                 "muertes_numero": 2
             },
             "40": {
@@ -26522,7 +26563,8 @@
                 "sujetos_riesgo": 3232,
                 "tests_total": 28598,
                 "recuperados_numero": 30,
-                "graves_numero": 20,
+                "graves_numero": 11,
+                "criticos_numero": 9,
                 "muertes_numero": 2
             },
             "41": {
@@ -27532,7 +27574,8 @@
                 "sujetos_riesgo": 2279,
                 "tests_total": 30416,
                 "recuperados_numero": 24,
-                "graves_numero": 18,
+                "graves_numero": 10,
+                "criticos_numero": 8,
                 "muertes_numero": 2
             },
             "42": {
@@ -28582,7 +28625,8 @@
                 "sujetos_riesgo": 3425,
                 "tests_total": 32276,
                 "recuperados_numero": 32,
-                "graves_numero": 16,
+                "graves_numero": 7,
+                "criticos_numero": 9,
                 "muertes_numero": 2
             },
             "43": {
@@ -29513,7 +29557,8 @@
                 "sujetos_riesgo": 3359,
                 "tests_total": 34243,
                 "recuperados_numero": 24,
-                "graves_numero": 14,
+                "graves_numero": 4,
+                "criticos_numero": 10,
                 "muertes_numero": 3,
                 "muertes_id": []
             },
@@ -30524,7 +30569,8 @@
                 "sujetos_riesgo": 3393,
                 "tests_total": 36134,
                 "recuperados_numero": 51,
-                "graves_numero": 11,
+                "graves_numero": 4,
+                "criticos_numero": 7,
                 "muertes_numero": 5,
                 "muertes_id": [
                     "cu-596",
@@ -31582,7 +31628,8 @@
                 "sujetos_riesgo": 3462,
                 "tests_total": 37991,
                 "recuperados_numero": 21,
-                "graves_numero": 11,
+                "graves_numero": 5,
+                "criticos_numero": 6,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-375",
@@ -32236,7 +32283,8 @@
                 "sujetos_riesgo": 3461,
                 "tests_total": 39828,
                 "recuperados_numero": 64,
-                "graves_numero": 12,
+                "graves_numero": 6,
+                "criticos_numero": 6,
                 "muertes_numero": 3,
                 "muertes_id": [
                     "cu-770",
@@ -32651,7 +32699,8 @@
                 "sujetos_riesgo": 3546,
                 "tests_total": 41651,
                 "recuperados_numero": 24,
-                "graves_numero": 12,
+                "graves_numero": 6,
+                "criticos_numero": 6,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-1358",
@@ -33626,7 +33675,8 @@
                 "sujetos_riesgo": 3330,
                 "tests_total": 43508,
                 "recuperados_numero": 50,
-                "graves_numero": 12,
+                "graves_numero": 5,
+                "criticos_numero": 7,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-1407"
@@ -34239,7 +34289,8 @@
                 "sujetos_riesgo": 3068,
                 "tests_total": 45344,
                 "recuperados_numero": 42,
-                "graves_numero": 14,
+                "graves_numero": 7,
+                "criticos_numero": 7,
                 "muertes_numero": 0
             },
             "50": {
@@ -34929,7 +34980,8 @@
                 "sujetos_riesgo": 2954,
                 "tests_total": 47347,
                 "recuperados_numero": 64,
-                "graves_numero": 10,
+                "graves_numero": 4,
+                "criticos_numero": 6,
                 "muertes_numero": 3
             },
             "51": {
@@ -35659,7 +35711,8 @@
                 "sujetos_riesgo": 2897,
                 "tests_total": 49409,
                 "recuperados_numero": 33,
-                "graves_numero": 10,
+                "graves_numero": 4,
+                "criticos_numero": 6,
                 "muertes_numero": 3
             },
             "52": {
@@ -37149,7 +37202,8 @@
                 "sujetos_riesgo": 2792,
                 "tests_total": 51506,
                 "recuperados_numero": 51,
-                "graves_numero": 11,
+                "graves_numero": 7,
+                "criticos_numero": 4,
                 "muertes_numero": 2,
                 "muertes_id": [
                     "cu-765",
@@ -37923,7 +37977,8 @@
                 "sujetos_riesgo": 2744,
                 "tests_total": 53545,
                 "recuperados_numero": 62,
-                "graves_numero": 13,
+                "graves_numero": 8,
+                "criticos_numero": 5,
                 "muertes_numero": 1
             },
             "54": {
@@ -38315,7 +38370,8 @@
                 "sujetos_riesgo": 2543,
                 "tests_total": 55542,
                 "recuperados_numero": 49,
-                "graves_numero": 9,
+                "graves_numero": 6,
+                "criticos_numero": 3,
                 "muertes_numero": 2
             },
             "55": {
@@ -38665,7 +38721,8 @@
                 "sujetos_riesgo": 2267,
                 "tests_total": 57711,
                 "recuperados_numero": 78,
-                "graves_numero": 8,
+                "graves_numero": 5,
+                "criticos_numero": 3,
                 "muertes_numero": 0
             },
             "56": {
@@ -39041,7 +39098,8 @@
                 "sujetos_riesgo": 2341,
                 "tests_total": 59648,
                 "recuperados_numero": 47,
-                "graves_numero": 14,
+                "graves_numero": 10,
+                "criticos_numero": 4,
                 "muertes_numero": 0
             },
             "57": {
@@ -39571,7 +39629,8 @@
                 "sujetos_riesgo": 2370,
                 "tests_total": 61613,
                 "recuperados_numero": 30,
-                "graves_numero": 8,
+                "graves_numero": 3,
+                "criticos_numero": 5,
                 "muertes_numero": 4
             },
             "58": {
@@ -39821,7 +39880,8 @@
                 "sujetos_riesgo": 1947,
                 "tests_total": 63560,
                 "recuperados_numero": 47,
-                "graves_numero": 8,
+                "graves_numero": 3,
+                "criticos_numero": 5,
                 "muertes_numero": 1
             },
             "59": {
@@ -40093,7 +40153,8 @@
                 "sujetos_riesgo": 1824,
                 "tests_total": 65509,
                 "recuperados_numero": 62,
-                "graves_numero": 8,
+                "graves_numero": 4,
+                "criticos_numero": 4,
                 "muertes_numero": 0
             },
             "60": {
@@ -40343,7 +40404,8 @@
                 "sujetos_riesgo": 1894,
                 "tests_total": 67335,
                 "recuperados_numero": 53,
-                "graves_numero": 6,
+                "graves_numero": 5,
+                "criticos_numero": 6,
                 "muertes_numero": 3
             },
             "61": {
@@ -40693,7 +40755,8 @@
                 "sujetos_riesgo": 1533,
                 "tests_total": 69182,
                 "recuperados_numero": 36,
-                "graves_numero": 7,
+                "graves_numero": 6,
+                "criticos_numero": 1,
                 "muertes_numero": 0
             },
             "62": {
@@ -41123,7 +41186,8 @@
                 "sujetos_riesgo": 1148,
                 "tests_total": 71157,
                 "recuperados_numero": 48,
-                "graves_numero": 4,
+                "graves_numero": 2,
+                "criticos_numero": 2,
                 "muertes_numero": 1
             },
             "63": {
@@ -41253,7 +41317,8 @@
                 "sujetos_riesgo": 1053,
                 "tests_total": 73129,
                 "recuperados_numero": 49,
-                "graves_numero": 7,
+                "graves_numero": 4,
+                "criticos_numero": 3,
                 "muertes_numero": 1
             },
             "64": {
@@ -41663,7 +41728,8 @@
                 "sujetos_riesgo": 1046,
                 "tests_total": 75142,
                 "recuperados_numero": 57,
-                "graves_numero": 9,
+                "graves_numero": 6,
+                "criticos_numero": 3,
                 "muertes_numero": 0
             },
             "65": {
@@ -41873,7 +41939,8 @@
                 "sujetos_riesgo": 913,
                 "tests_total": 77374,
                 "recuperados_numero": 42,
-                "graves_numero": 9,
+                "graves_numero": 6,
+                "criticos_numero": 3,
                 "muertes_numero": 0
             },
             "66": {
@@ -42323,7 +42390,8 @@
                 "sujetos_riesgo": 981,
                 "tests_total": 79834,
                 "recuperados_numero": 35,
-                "graves_numero": 7,
+                "graves_numero": 5,
+                "criticos_numero": 2,
                 "muertes_numero": 0
             },
             "67": {
@@ -42533,7 +42601,8 @@
                 "sujetos_riesgo": 1048,
                 "tests_total": 81917,
                 "recuperados_numero": 35,
-                "graves_numero": 10,
+                "graves_numero": 7,
+                "criticos_numero": 10,
                 "muertes_numero": 0
             },
             "68": {
@@ -42723,7 +42792,8 @@
                 "sujetos_riesgo": 970,
                 "tests_total": 83868,
                 "recuperados_numero": 10,
-                "graves_numero": 9,
+                "graves_numero": 7,
+                "criticos_numero": 2,
                 "muertes_numero": 0
             },
             "69": {
@@ -42853,7 +42923,8 @@
                 "sujetos_riesgo": 824,
                 "tests_total": 85556,
                 "recuperados_numero": 33,
-                "graves_numero": 8,
+                "graves_numero": 7,
+                "criticos_numero": 1,
                 "muertes_numero": 0
             },
             "70": {
@@ -43123,7 +43194,8 @@
                 "sujetos_riesgo": 817,
                 "tests_total": 87288,
                 "recuperados_numero": 35,
-                "graves_numero": 8,
+                "graves_numero": 6,
+                "criticos_numero": 2,
                 "muertes_numero": 0
             },
             "71": {
@@ -43293,7 +43365,8 @@
                 "sujetos_riesgo": 689,
                 "tests_total": 89031,
                 "recuperados_numero": 30,
-                "graves_numero": 5,
+                "graves_numero": 4,
+                "criticos_numero": 1,
                 "muertes_numero": 1
             },
             "72": {
@@ -43463,7 +43536,8 @@
                 "sujetos_riesgo": 669,
                 "tests_total": 90911,
                 "recuperados_numero": 28,
-                "graves_numero": 4,
+                "graves_numero": 3,
+                "criticos_numero": 1,
                 "muertes_numero": 1
             },
             "73": {
@@ -43773,7 +43847,8 @@
                 "sujetos_riesgo": 631,
                 "tests_total": 92629,
                 "recuperados_numero": 40,
-                "graves_numero": 4,
+                "graves_numero": 3,
+                "criticos_numero": 1,
                 "muertes_numero": 0
             },
             "74": {

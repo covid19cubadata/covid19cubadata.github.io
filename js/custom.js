@@ -195,7 +195,7 @@ $.walker = {
             $('[data-content=nofallecd]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -479,6 +479,10 @@ function run_calculations() {
                         var total_no_cu = 0;
                         var total_unk = 0;
                         var total_tests = 0;
+                        var total_graves = 0;
+                        var total_criticos = 0;
+                        var graves = ['Graves'];
+                        var criticos = ['Críticos'];
 
                         for (var day in data.casos.dias) {
                             if ('diagnosticados' in data.casos.dias[day]) {
@@ -613,6 +617,17 @@ function run_calculations() {
                             if ('recuperados_numero' in data.casos.dias[day] && general_view) {
                                 recov += data.casos.dias[day].recuperados_numero;
                             }
+                            var join_g_c = 0;
+                            if ('graves_numero' in data.casos.dias[day] && general_view) {
+                                graves.push(data.casos.dias[day].graves_numero);
+                            } else {
+							    graves.push(0);
+							}
+                            if ('criticos_numero' in data.casos.dias[day] && general_view) {
+                                criticos.push(data.casos.dias[day].criticos_numero);
+                            } else {
+                                criticos.push(0);
+							}
 
                             if ('tests_total' in data.casos.dias[day] && general_view) {
                                 if (total_tests <= data.casos.dias[day].tests_total) {
@@ -945,6 +960,9 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        
+                        
 
                         let index_days = [];
                         for(var d in oxford_index.data){
@@ -1215,7 +1233,71 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        c3.generate({
+                            bindto: "#graves-evol-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+									dates,
+									criticos,
+									graves,
+									
+                                ],
+                                groups: [
+                                    ['Críticos','Graves']
+                                ],
+                                type: 'area',
+                                colors: {
+									"Graves": '#D0797C',
+									"Críticos": '#B11116'	
+								}
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
 
+						var percent_graves = ['Porciento de casos graves y críticos'];
+						for(var i=1;i<criticos.length;i++){
+							var percent = ((criticos[i]+graves[i])*100/dailyActive[i]).toFixed(2);
+							percent_graves.push(percent);	
+						}
+						
+						 c3.generate({
+                            bindto: "#graves-percent-evol",
+                            data: {
+                                x: dates[0],
+                                columns: [
+									dates,
+									percent_graves
+									
+                                ],
+                                type: 'area-step',
+                                colors: {
+									'Porciento de casos graves y críticos': '#1C1340'	
+								}
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Por ciento (%)',
+                                    position: 'outer-middle',
+                                }
+                            }
+                        });
 
 
                         let porciento = [

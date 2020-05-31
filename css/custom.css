@@ -177,7 +177,9 @@ body > div {
 #cases-pie-info,
 #daily-actalt-info,
 #daily-actaltday-info,
-#fsex-info {
+#fsex-info,
+#graves-evol-info,
+#graves-percent-evol {
   height: 220px;
 }
 
