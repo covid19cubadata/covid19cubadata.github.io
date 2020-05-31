@@ -323,6 +323,7 @@ function logx(base, x) {
 }
 
 function run_calculations() {
+	factor = 180;
     let province_id = $locator.val();
     let general_view = $locator.val() === 'cuba';
     if (general_view)
