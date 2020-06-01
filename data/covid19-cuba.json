@@ -45810,7 +45810,7 @@
                     {
                         "id": "cu-1979",
                         "pais": "cu",
-                        "edad": null,
+                        "edad": 34,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
