@@ -1604,8 +1604,7 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
-                    console.log(population[general_view? 'cuba' : provinces_codes[province_id]]);
-                    console.log(globalInfo.last15days);
+                    
                     $('[data-content=tasa]').html(globalInfo.last15days!==null ? round(globalInfo.last15days/population[general_view? 'cuba' : provinces_codes[province_id]]*10**5) : '-');
                     $('[data-content=nocasod]').html(globalInfo.nocasod!=null ? globalInfo.nocasod : '-');
                     $('[data-content=nofallecd]').html(globalInfo.nodeathd!=null ? globalInfo.nodeathd : '-');
