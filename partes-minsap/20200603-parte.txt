@@ -1,0 +1,42 @@
+Parte de cierre del día 2 de junio a las 12 de la noche
+
+por Redacción MINSAP · 3 junio 2020
+
+Al cierre del día de ayer, 2 de junio, se encuentran ingresados en hospitales para vigilancia clínica epidemiológica 507 pacientes. Otras mil 973 personas se vigilan en sus hogares, desde la Atención Primaria de Salud.
+
+Para COVID-19 se estudiaron mil 960 muestras, resultando 15 muestras positivas. El país acumula 110 mil 349 muestras realizadas y 2 mil 107 positivas (1,9%). Por tanto, al cierre del día de ayer se confirman 15 nuevos casos, para un acumulado de 2 mil 107 en el país.
+
+Los 15 casos confirmados fueron cubanos. De ellos el 100% fueron contactos de casos confirmados.
+
+De los 15 casos diagnosticados, 9 (60%) fueron mujeres y 6 (40%) hombres. El grupo de edad más afectado fue el de 40 a 60 años con 11 casos (73,3%). El 73,3% (11) de los casos positivos fueron asintomáticos.
+
+Detalles de los 15 nuevos casos confirmados:
+
+    Ciudadano cubano de 49 años de edad, residente en el municipio Cotorro de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 12 contactos.
+    Ciudadano cubano de 39 años de edad, residente en el municipio Boyeros de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 10 contactos.
+    Ciudadano cubano de 41 años de edad, residente en el municipio Boyeros de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 33 contactos.
+    Ciudadano cubano de 45 años de edad, residente en el municipio Marianao de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 14 contactos.
+    Ciudadana cubana de 46 años de edad, residente en el municipio Marianao de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 18 contactos.
+    Ciudadano cubano de 46 años de edad, residente en el municipio Marianao de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 15 contactos.
+    Ciudadano cubano de 56 años de edad, residente en el municipio La Lisa de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 14 contactos.
+    Ciudadana cubana de 51 años de edad, residente en el municipio La Lisa de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 11 contactos.
+    Ciudadano cubano de 41 años de edad, residente en el municipio Playa de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 19 contactos.
+    Ciudadana cubana de 34 años de edad, residente en el municipio Centro Habana de la provincia La Habana. Contacto de caso confirmados anteriormente. Se mantienen en vigilancia 12 contactos.
+    Ciudadana cubana de 60 años de edad, residente en el municipio Centro Habana de la provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 17 contactos.
+    Ciudadano cubano de 46 años de edad, residente en el municipio Cerro de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 14 contactos.
+    Ciudadana cubana de 49 años de edad, residente en el municipio Playa de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 9 contactos.
+    Ciudadana cubana de 61 años de edad, residente en el municipio Regla de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 9 contactos.
+    Ciudadano cubano de 62 años de edad, residente en el municipio Regla de la provincia La Habana. Contacto de caso confirmados, relacionado al evento de los Laboratorios AICA. Se mantienen en vigilancia 9 contactos. 
+
+De los 2 mil 107 pacientes diagnosticados con la enfermedad, se mantienen ingresados confirmados 192 y de ellos 188 (97,9%) presentan evolución clínica estable. Se acumulan 83 fallecidos (ninguno del día), dos evacuados y mil 830 pacientes recuperados (3 altas médicas en el día de ayer). Se reportan cuatro pacientes en estado grave.
+
+Pacientes reportados en estado grave:
+
+    Ciudadana cubana de 87 años, procedente del municipio Cerro. Antecedentes de Cardiopatía Isquémica. Comenzó con falta de aire y bradicardia sinusal, por lo que se decidió pasar a Terapia Intensiva. Se encuentra afebril, ventilando espontáneamente. Estable hemodinámicamente. Electrocardiograma con bloqueo completo de rama izquierda y bloqueo Auriculo Ventricular de primer grado. Rx tórax evidente mejoría de las lesiones inflamatorias en base derecha, imágenes areolares sugestivas de bronquiectasias. Se reporta en estado grave.
+    Ciudadano cubano de 84 años. Procede del municipio Habana Vieja. Antecedentes de Hipertensión Arterial, Diabetes Mellitus y Cardiopatía Isquémica. Comenzó con vómitos, diarreas y manifestaciones de deshidratación por lo que se traslada para la Terapia Intensiva. Se encuentra afebril, mantiene falta de aire moderada y la auscultación estertores crepitantes en ambos campos pulmonares, con ventilación no invasiva. Estable hemodinámicamente. Rx tórax sin cambios, aumento de las lesiones inflamatorias que ascienden y ocupan todo el hemitórax derecho y base izquierda. Se reporta en estado grave.
+    Ciudadana cubana de 75 años procedente de la provincia de Las Tunas. Antecedentes Patológicos Personales de Hipertensión Arterial y Leucemia Mieloide Crónica en estudio. Comenzó con decaimiento, anorexia y fiebre, fue ingresado y, por comorbilidades y radiografía patológica se traslada para la Terapia Intensiva. Se encuentra afebril, espontáneamente ventilando. Estable hemodinámicamente. Rx de tórax con lesiones inflamatorias en 2/3 inferiores de ambos campos pulmonares. Se reporta en estado grave.
+    Ciudadana cubana de 73 años, procedente del municipio Playa. Antecedentes de Hipertensión Arterial y Cardiopatía Isquémica. En horas de la mañana de hoy, comenzó con bradicardia e hipotensión arterial por lo que se traslada para la Terapia Intensiva. Se encuentra en Terapia Intensiva, afebril, sin síntomas respiratorios, ventilando espontáneamente. Inestable hemodinámicamente. Electrocardiograma con bloqueo Aurículo Ventricular de tercer grado. Rx Tórax sin alteraciones pleuropulmonares. Se reporta en estado grave.
+
+Hasta el 2 de junio se reportan 185 países con casos de COVID-19, con 6 millones 245 mil 352 casos confirmados  (+ 109 mil 267) y 376 mil 427 fallecidos (+ 4 mil 570) con una letalidad de 6,03% (-0,03).
+
+En la región de las Américas se reportan 2 millones 956 mil 532 casos confirmados (+ 51 mil 966), el 47,34% del total de casos reportados en el mundo, con 165 mil 262 fallecidos (+ mil 981) y una letalidad de 5,59%  (-0,03).
