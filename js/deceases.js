@@ -565,7 +565,14 @@ function run_calculations() {
                                     'Hombres': '#1C1340',
                                     'No reportado': '#1A8323'
                                 }
-                            }
+                            },
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
                         });
 
                         c3.generate({
@@ -617,7 +624,14 @@ function run_calculations() {
                                     '4 enfermedades' : '#00AEEF',
                                     '5 enfermedades' : '#939393'
                                 }
-                            }
+                            },
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
                         });
 
 
@@ -632,7 +646,14 @@ function run_calculations() {
                                     'extranjeros': '#1C1340',
                                     'no reportado': '#1A8323'
                                 }
-                            }
+                            },
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
                         });
 
 

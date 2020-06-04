@@ -432,6 +432,7 @@ function run_calculations() {
                     }
 
                     function getAllCasesAndSimpleGraphics() {
+						var check_cases={};
                         var cases = {};
                         var deaths = 0;
                         var gone = 0;
@@ -489,6 +490,12 @@ function run_calculations() {
                             if ('diagnosticados' in data.casos.dias[day]) {
                                 var diag = data.casos.dias[day].diagnosticados;
                                 for (var p in diag) {
+									if (diag[p].id in check_cases){
+										check_cases[diag[p].id]+=1;
+									} else {
+										check_cases[diag[p].id]=1;	
+									}
+									
                                     cases[diag[p].id] = diag[p];
                                     cases[diag[p].id]['fecha'] = data.casos.dias[day].fecha;
 
@@ -698,7 +705,14 @@ function run_calculations() {
                                     'Hombres': '#1C1340',
                                     'No reportado': '#1A8323'
                                 }
-                            }
+                            },
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
                         });
 
 
@@ -713,7 +727,14 @@ function run_calculations() {
                                     'extranjeros': '#1C1340',
                                     'no reportado': '#1A8323'
                                 }
-                            }
+                            },
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
                         });
 
                         //Donut for tests
@@ -729,7 +750,14 @@ function run_calculations() {
                             },
                             donut: {
                                 title: total_tests + " tests",
-                            }
+                            },
+							tooltip: {
+							format:{
+								value: function(value,r, id,index) {
+									return value +' ('+(r*100).toFixed(2)+'%)';       
+								}
+							}
+							}
                         });
 
                         //Bar for ages
@@ -795,7 +823,14 @@ function run_calculations() {
                                     'Autóctono': '#1A8323',
                                     'Desconocido': '#CA9F31'
                                 }
-                            }
+							},
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
                         });
 
                         //Lines for contagio evolution
@@ -1506,10 +1541,18 @@ function run_calculations() {
 							},
 							donut: {
 								title: Object.keys(cases).length + " casos",
+							},
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
 							}
                         });
 
                         let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];
+                        
 
                         return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown, 'last15days': last15days, 'nocasod': nocasod, 'nodeathd': nodeathd};
                     }
