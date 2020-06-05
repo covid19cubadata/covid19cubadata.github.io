@@ -104,11 +104,11 @@ def get_countries_test():
     data = defaultdict(lambda : defaultdict(list))
     next(reader)
     for i in reader:
-        if i[17] and i[3] and i[11] and i[19]:
-            percent = int(i[3])/float(i[11])*100
+        if i[18] and i[4] and i[12] and i[20]:
+            percent = int(i[4])/float(i[12])*100
             data[i[0]]['test_efectivity'].append(percent)
-            data[i[0]]['total_tests_per_million'].append(float(i[11])*1000000/float(i[19]))
-            data[i[0]]['population'].append(int(float(i[19])))
+            data[i[0]]['total_tests_per_million'].append(float(i[12])*1000000/float(i[20]))
+            data[i[0]]['population'].append(int(float(i[20])))
     path = os.path.join('data', 'countries_test.json')
     json.dump(data,open(path,'w'))
     for i in data.keys():
