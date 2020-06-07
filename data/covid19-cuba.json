@@ -312,7 +312,7 @@
             "dpacode_provincia": "26",
             "lon": -79.933302,
             "lat": 22.430672,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "essp-1": {
