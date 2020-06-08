@@ -12753,7 +12753,7 @@
                     {
                         "id": "cu-358",
                         "pais": "cu",
-                        "edad": 55,
+                        "edad": 1,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
@@ -12766,7 +12766,7 @@
                         "centro_aislamiento": "hag",
                         "centro_diagnostico": "lsc",
                         "posible_procedencia_contagio": [],
-                        "info": "Ciudadana cubana de 55 días de edad, residente en el municipio Santiago de Cuba. Es contacto de un caso confirmado anteriormente. Mantiene evolución satisfactoria. (caso371)",
+                        "info": "Ciudadana cubana de 55 días de edad, residente en el municipio Santiago de Cuba. Es contacto de un caso confirmado anteriormente. Mantiene evolución satisfactoria.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": []
                     },
@@ -31165,7 +31165,7 @@
                     {
                         "id": "cu-1265",
                         "pais": "cu",
-                        "edad": 20,
+                        "edad": 1,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
@@ -40137,7 +40137,7 @@
                     {
                         "id": "cu-1705",
                         "pais": "cu",
-                        "edad": 27,
+                        "edad": 57,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
@@ -40150,9 +40150,10 @@
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lvc",
                         "posible_procedencia_contagio": [],
-                        "info": "Ciudadana cubana de 27 años de edad, residente en el municipio Corralillo, provincia Villa Clara. Contacto de casos confirmados anteriormente. Se mantienen en vigilancia 12 contactos.",
+                        "info": "Ciudadana cubana de 57 años de edad, residente en el municipio Corralillo, provincia Villa Clara. Contacto de casos confirmados anteriormente. Se mantienen en vigilancia 12 contactos. ",
                         "provincias_visitadas": [],
-                        "dpacode_provincias_visitadas": []
+                        "dpacode_provincias_visitadas": [],
+                        "nota": "El parte fue actualizado posteriormente a la publicación de los datos. En la actualización cambó la edad de este caso y por tanto su ficha. Lo cual corregimos cuando lo notamos."
                     },
                     {
                         "id": "cu-1706",
