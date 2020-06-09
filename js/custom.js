@@ -933,6 +933,145 @@ function run_calculations() {
                             cuba.push(total);
                         }
 
+                        // Tasa de confirmados por provincia
+                        
+                        let pcurves2 = {};
+                        var pprovincename = [];
+                        
+                        for (const p in $.walker.province.list.features) {
+                            const province = $.walker.province.list.features[p].properties;
+                            if (province.DPA_province_code !== '00') {
+                                var ppopulation = population[province.DPA_province_code];                                                     
+                                var pdays = [province.province];
+                                var paccum = [province.province];
+                                for (var i = 1; i < proscurves[province.DPA_province_code]['data'].length; i++) {
+                                    pdays.push(i);
+                                    paccum.push((proscurves[province.DPA_province_code]['data'][i] / (ppopulation / 100000)).toFixed(2));
+                                }
+                                pcurves2[province.province] = {'pname': province.province,'pdays': pdays, 'cummulative_sum': paccum, 'ptotal': paccum[paccum.length - 1]};
+                                pprovincename.push(province.province);
+                            }
+                        }
+
+                        pprovincename.sort((a, b) => pcurves2[b]['ptotal'] - pcurves2[a]['ptotal']);
+
+                        let pcolumdata = [];
+                        let pxaxisdata = {};
+
+                        for (const p in pprovincename) {
+                            pxaxisdata[pprovincename[p]] = pprovincename[p];
+                            pcolumdata.push(pcurves2[pprovincename[p]]['pdays']);
+                            pcolumdata.push(pcurves2[pprovincename[p]]['cummulative_sum'])
+                        }
+                        
+                        curve3 = c3.generate({
+                            bindto: "#curves-province-confirmed-normalized",
+                            data: {
+                                xs: pxaxisdata[0],
+                                columns: pcolumdata,
+                                type: 'line',
+                                colors: {
+                                    'Pinar del Río': '#125e41',
+                                    'Isla de la Juventud': '#547b78',
+                                    'Villa Clara': '#f98857',
+                                    'La Habana': '#090db8',
+                                    'Ciego de Ávila': '#92caff',
+                                    'Sancti Spíritus': '#ff7982',
+                                    'Matanzas': '#ff2a2a',
+                                    'Mayabeque': '#740301',
+                                    'Holguín': '#80a6ba',
+                                    'Artemisa': '#c17e86',
+                                    'Camagüey': '#7e8798',
+                                    'Santiago de Cuba': '#9f242a',
+                                    'Cienfuegos': '#1ab369',
+                                    'Guantánamo': '#9b7324',
+                                    'Las Tunas': '#358e61',
+                                    'Granma': '#6aacea',
+                                }
+                            },
+                            tooltip: {
+                                show: true
+                            },
+                            axis: {
+                                x: {
+                                    label: "Días",
+                                },
+                                y: {
+                                    label: 'Confirmados x 100 000 habitantes',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
+                        // Tasa de confirmados por municipio
+
+                        $.walker.load("data/municipality-by-population.json", function (pmunicipality) {
+                            
+                            let mcurves2 = {};
+                            var mmunicipalityname = [];
+                            
+                            for (const p in pmunicipality) {
+                                const municipality = pmunicipality[p];                                
+                                var code = '00';
+                                var mpopulation = municipality.population;
+                                var features = $.walker.municipality.list.features;
+                                for (const pa in features) {                                    
+                                    if (features[pa].properties.municipality === municipality.municipality) {
+                                        code = features[pa].properties.DPA_municipality_code;
+                                    }
+                                }
+                                if (code !== '00') {
+                                    var mdays = [municipality.municipality];
+                                    var maccum = [municipality.municipality];
+                                    for (var i = 1; i < munscurves[code]['data'].length; i++) {
+                                        mdays.push(i);
+                                        maccum.push((munscurves[code]['data'][i] / (mpopulation / 100000)).toFixed(2));
+                                    }
+                                    mcurves2[municipality.municipality] = {'mname': municipality.municipality,'mdays': mdays, 'cummulative_sum': maccum, 'mtotal': maccum[maccum.length - 1]};
+                                    mmunicipalityname.push(municipality.municipality);
+                                    }
+                            }
+    
+                            mmunicipalityname.sort((a, b) => mcurves2[b]['mtotal'] - mcurves2[a]['mtotal']);
+
+                            let mcolumdata = [];
+                            let mxaxisdata = {};
+                            var mcont = 0;
+                            var mtopn = 15;
+    
+                            for (const p in mmunicipalityname) {
+                                mxaxisdata[mmunicipalityname[p]] = mmunicipalityname[p];
+                                mcolumdata.push(mcurves2[mmunicipalityname[p]]['mdays']);
+                                mcolumdata.push(mcurves2[mmunicipalityname[p]]['cummulative_sum'])
+                                
+                                if (mcont === mtopn - 1) {
+                                    break;
+                                }
+                                mcont += 1;
+                            }
+                            
+                            curve3 = c3.generate({
+                                bindto: "#curves-municipality-confirmed-normalized",
+                                data: {
+                                    xs: mxaxisdata[0],
+                                    columns: mcolumdata,
+                                    type: 'line'
+                                },
+                                tooltip: {
+                                    show: true
+                                },
+                                axis: {
+                                    x: {
+                                        label: "Días",
+                                    },
+                                    y: {
+                                        label: 'Confirmados x 100 000 habitantes',
+                                        position: 'outer-middle'
+                                    }
+                                }
+                            });
+                        });
+
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {
