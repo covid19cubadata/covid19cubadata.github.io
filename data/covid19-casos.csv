@@ -2199,3 +2199,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,33,cu,La Lisa,La Habana,2020/06/07,,secundario
 ,mujer,77,cu,La Lisa,La Habana,2020/06/07,,secundario
 ,hombre,28,cu,Holguín,Holguín,2020/06/07,,primario
+,hombre,58,cu,Centro Habana,La Habana,2020/06/08,,secundario
+,hombre,49,cu,Cotorro,La Habana,2020/06/08,,secundario
+,hombre,24,cu,Boyeros,La Habana,2020/06/08,,secundario
+,mujer,22,cu,La Lisa,La Habana,2020/06/08,,secundario
+,mujer,29,cu,Santa Clara,Villa Clara,2020/06/08,,primario
