@@ -732,14 +732,16 @@ function run_calculations() {
                         index_values_cuba.push(val);
                         index_last_value = val;
                     } else {
-                        index_values_cuba.push(null);
+                        //index_values_cuba.push(null);
+                        index_values_cuba.push(index_values_cuba[index_values_cuba.length-1]);
                     }
                 }
                 if ('CUB' in countriesdays.indexes.data[idx]) {
                     var val = countriesdays.indexes.data[idx].CUB.stringency;
                     index_values_cuba_all.push(val);
                 } else {
-                    index_values_cuba_all.push(null);
+                    //index_values_cuba_all.push(null);
+                    index_values_cuba_all.push(index_values_cuba_all[index_values_cuba_all.length-1]);
                 }
                 for (var j = 0; j < stringency_countries.length; j++) {
                     let code = stringency_countries[j];
