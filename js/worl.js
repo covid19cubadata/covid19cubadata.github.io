@@ -416,6 +416,7 @@ function paint_curve(label, c1, c2, c3, lines_data, y_conf = null) {
             }
         }
     });
+    console.log(c1, c2, c3);
     return curve;
 }
 
@@ -463,6 +464,7 @@ function paint_comparison_countries(label, x_data, col_data, type_plot = 'line',
             y: yconfig
         }
     });
+    
     return comparison;
 }
 
@@ -757,9 +759,9 @@ function run_calculations() {
                     }
                 }
             }
-            for (var cid in curves_stringency) {
-                curves_stringency[cid]['data'] = curves_stringency[cid]['data'].slice(1);
-            }
+            //for (var cid in curves_stringency) {
+              //  curves_stringency[cid]['data'] = curves_stringency[cid]['data'].slice(1);
+            //}
 
             for (var c = 0; c < countrysorted.length; c++) {
                 let cc = curves[countrysorted[c]]['data'][0];
