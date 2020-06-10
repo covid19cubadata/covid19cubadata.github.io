@@ -1876,7 +1876,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,40,cu,La Habana Vieja,La Habana,2020/05/17,,secundario
 ,hombre,39,cu,La Habana Vieja,La Habana,2020/05/17,,secundario
 ,mujer,36,cu,Matanzas,Matanzas,2020/05/17,,secundario
-,hombre,22,cu,Ranchuelo,Villa Clara,2020/05/17,,desconocido
+,hombre,1,cu,Ranchuelo,Villa Clara,2020/05/17,,desconocido
 ,mujer,30,cu,Ranchuelo,Villa Clara,2020/05/17,,desconocido
 ,mujer,30,cu,Ranchuelo,Villa Clara,2020/05/17,,desconocido
 ,mujer,87,cu,Manatí,Las Tunas,2020/05/17,,desconocido
