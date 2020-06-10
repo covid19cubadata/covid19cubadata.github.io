@@ -192,7 +192,7 @@
             "dpacode_provincia": "23",
             "lon": -82.290896,
             "lat": 23.013804,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "elha-14": {
