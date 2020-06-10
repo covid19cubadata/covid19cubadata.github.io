@@ -46518,8 +46518,8 @@
                     {
                         "id": "cu-2180",
                         "pais": "cu",
-                        "edad": null,
-                        "sexo": "",
+                        "edad": 22,
+                        "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Boyeros",
