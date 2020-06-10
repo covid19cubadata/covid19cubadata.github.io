@@ -2207,6 +2207,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,80,cu,Arroyo Naranjo,La Habana,2020/06/09,,secundario
 ,mujer,13,cu,Arroyo Naranjo,La Habana,2020/06/09,,secundario
 ,mujer,44,cu,Arroyo Naranjo,La Habana,2020/06/09,,secundario
-,,,cu,Boyeros,La Habana,2020/06/09,,desconocido
+,mujer,22,cu,Boyeros,La Habana,2020/06/09,,desconocido
 ,mujer,60,cu,Boyeros,La Habana,2020/06/09,,desconocido
 ,mujer,50,cu,Santa Clara,Villa Clara,2020/06/09,,primario
