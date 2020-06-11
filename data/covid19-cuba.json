@@ -42707,7 +42707,7 @@
                     {
                         "id": "cu-1997",
                         "pais": "cu",
-                        "edad": null,
+                        "edad": 34,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
