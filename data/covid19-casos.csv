@@ -2210,3 +2210,11 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,22,cu,Boyeros,La Habana,2020/06/09,,desconocido
 ,mujer,60,cu,Boyeros,La Habana,2020/06/09,,desconocido
 ,mujer,50,cu,Santa Clara,Villa Clara,2020/06/09,,primario
+,hombre,53,cu,Centro Habana,La Habana,2020/06/10,,desconocido
+,mujer,24,cu,Centro Habana,La Habana,2020/06/10,,desconocido
+,hombre,55,cu,La Habana Vieja,La Habana,2020/06/10,,desconocido
+,hombre,61,cu,La Habana Vieja,La Habana,2020/06/10,,desconocido
+,mujer,38,cu,La Lisa,La Habana,2020/06/10,,desconocido
+,hombre,86,cu,Boyeros,La Habana,2020/06/10,,secundario
+,mujer,7,cu,Cotorro,La Habana,2020/06/10,,secundario
+,mujer,21,cu,Holguín,Holguín,2020/06/10,,primario
