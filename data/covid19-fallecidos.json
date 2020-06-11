@@ -45,6 +45,7 @@
         "iv": "insuficiencia venosa periférica",
         "lc": "linfangitis crónica",
         "lm": "leucemia mielodide crónica",
+        "md": "miocardiopatía dilatada",
         "mg": "miastenia grave",
         "mp": "metástasis pulmonar",
         "nc": "neumopatía crónica",
@@ -1795,6 +1796,28 @@
             },
             "91": {
                 "fecha": "2020/06/09"
+            },
+            "92": {
+                "fecha": "2020/06/10",
+                "fallecidos": [
+                    {
+                        "id": "f-84",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "md",
+                            "ir"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 80 años procedente del municipio Arroyo Naranjo, de la provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Miocardiopatía Dilatada e Insuficiencia Renal Crónica. Fue ingresado en la sala de terapia por las comorbilidades. Presentó disnea moderada. Se realizó Rx de tórax apareciendo lesiones de aspecto congestivo. Ecocardiograma donde se precisa una fracción de eyección cardiaca del 20%. Empeoró la disnea y apareció la hipotensión arterial. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a sus familiares y amigos."
+                    }
+                ]
             }
         }
     }
