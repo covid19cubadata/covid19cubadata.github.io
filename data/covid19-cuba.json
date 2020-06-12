@@ -3720,6 +3720,18 @@
             "abierto": false,
             "chequeado": true
         },
+        "elha-16": {
+            "id": "elha-16",
+            "identificador": "Unidad Constructora Militar #4 'Antonio Lamoru Pistero'",
+            "municipio": "La Lisa",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.12",
+            "dpacode_provincia": "23",
+            "lon": -82.481549,
+            "lat": 23.049497, 
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
