@@ -2232,3 +2232,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,22,cu,La Lisa,La Habana,2020/06/11,,secundario
 ,hombre,32,cu,La Lisa,La Habana,2020/06/11,,secundario
 ,hombre,36,cu,La Lisa,La Habana,2020/06/11,,secundario
+,hombre,37,cu,Marianao,La Habana,2020/06/12,,secundario
+,hombre,51,cu,Arroyo Naranjo,La Habana,2020/06/12,,secundario
+,hombre,62,cu,Centro Habana,La Habana,2020/06/12,,desconocido
+,mujer,6,cu,Habana del Este,La Habana,2020/06/12,,secundario
+,hombre,29,cu,Matanzas,Matanzas,2020/06/12,,secundario
