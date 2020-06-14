@@ -1,0 +1,767 @@
+{
+    "medicamentos": {
+        "azitromicina": {
+            "id": "azitromicina",
+            "nombre": "Azitromicina",
+            "nombre-corto": "Azitromicina",
+            "categoría": "",
+            "descripción": ""
+        },
+        "biomodulina": {
+            "id": "biomodulina",
+            "nombre": "Biomodulina T",
+            "nombre-corto": "Biomodulina T",
+            "categoría": "nacional",
+            "descripción": ""
+        },
+        "cigb258": {
+            "id": "cigb258",
+            "nombre": "CIGB-258",
+            "nombre-corto": "CIGB-258",
+            "categoría": "nacional",
+            "descripción": ""
+        },
+        "ceftriaxona": {
+            "id": "ceftriaxona",
+            "nombre": "Ceftriaxona",
+            "nombre-corto": "Ceftriaxona",
+            "categoría": "",
+            "descripción": ""
+        },
+        "cloroquina": {
+            "id": "cloroquina",
+            "nombre": "Cloroquina",
+            "nombre-corto": "Cloroquina",
+            "categoría": "producido",
+            "descripción": ""
+        },
+        "eritropoyetina": {
+            "id": "eritropoyetina ",
+            "nombre": "Eritropoyetina ",
+            "nombre-corto": "Eritropoyetina ",
+            "categoría": "",
+            "descripción": ""
+        },
+        "factor": {
+            "id": "factor",
+            "nombre": "Factor de Transferencia",
+            "nombre-corto": "Factor de Transferencia",
+            "categoría": "nacional",
+            "descripción": ""
+        },
+        "heparina": {
+            "id": "heparina",
+            "nombre": "Heparina",
+            "nombre-corto": "Heparina",
+            "categoría": "producido",
+            "descripción": ""
+        },
+        "hidrocortisona": {
+            "id": "hidrocortisona ",
+            "nombre": "Hidrocortisona ",
+            "nombre-corto": "Hidrocortisona ",
+            "categoría": "",
+            "descripción": ""
+        },
+        "interferon": {
+            "id": "interferon",
+            "nombre": "Interferón alfa 2b",
+            "nombre-corto": "Interferón alfa 2b",
+            "categoría": "nacional",
+            "descripción": ""
+        },
+        "itolizumab": {
+            "id": "itolizumab",
+            "nombre": "Anticuerpo Monoclonal Itolizumab",
+            "nombre-corto": "Itolizumab",
+            "categoría": "nacional",
+            "descripción": ""
+        },
+        "kaletra": {
+            "id": "kaletra",
+            "nombre": "Kaletra",
+            "nombre-corto": "Kaletra",
+            "categoría": "importado",
+            "descripción": ""
+        },
+        "metilprednisolona": {
+            "id": "metilprednisolona",
+            "nombre": "Metilprednisolona",
+            "nombre-corto": "Metilprednisolona",
+            "categoría": "",
+            "descripción": ""
+        },
+        "oseltamivir": {
+            "id": "oseltamivir",
+            "nombre": "Oseltamivir",
+            "nombre-corto": "Oseltamivir",
+            "categoría": "",
+            "descripción": ""
+        },
+        "plasma": {
+            "id": "plasma",
+            "nombre": "Plasma",
+            "nombre-corto": "Plasma",
+            "categoría": "producido",
+            "descripción": ""
+        },
+        "prevenghovir": {
+            "id": "prevenghovir",
+            "nombre": "PrevengHo®Vir",
+            "nombre-corto": "PrevengHo®Vir",
+            "categoría": "nacional",
+            "descripción": ""
+        },
+        "surfacen": {
+            "id": "surfacen",
+            "nombre": "Surfacen",
+            "nombre-corto": "Surfacen",
+            "categoría": "producido",
+            "descripción": ""
+        },
+        "tocilizumab": {
+            "id": "tocilizumab",
+            "nombre": "Tocilizumab",
+            "nombre-corto": "Tocilizumab",
+            "categoría": "importado",
+            "descripción": ""
+        },
+        "vancomicina": {
+            "id": "vancomicina",
+            "nombre": "Vancomicina",
+            "nombre-corto": "Vancomicina",
+            "categoría": "",
+            "descripción": ""
+        }
+    },
+    "escenarios": {
+        "poblacion": {
+            "id": "poblacion",
+            "orden": 10,
+            "nombre": "Población General",
+            "nombre-corto": "Población",
+            "categoria": "comunidad",
+            "abreviatura": "Pob."
+
+        },
+        "instituciones": {
+            "id": "instituciones",
+            "orden": 20,
+            "nombre": "Instituciones Sociales",
+            "nombre-corto": "Instituciones",
+            "categoria": "comunidad",
+            "abreviatura": "Ins."
+        },
+        "viajeros": {
+            "id": "viajeros",
+            "orden": 40,
+            "nombre": "Vigilancia a viajeros",
+            "nombre-corto": "Viajeros",
+            "categoria": "aislamiento",
+            "abreviatura": "Via."
+        },
+        "contactos": {
+            "id": "contactos",
+            "orden": 50,
+            "nombre": "Aislamiento a contactos",
+            "nombre-corto": "Contactos",
+            "categoria": "aislamiento",
+            "abreviatura": "Ais."
+        },
+        "sospechosos": {
+            "id": "sospechosos",
+            "orden": 60,
+            "nombre": "Atención a sospechosos",
+            "nombre-corto": "Sospechosos",
+            "categoria": "hospital",
+            "abreviatura": "Sos."
+        },
+        "confirmados": {
+            "id": "confirmados",
+            "orden": 70,
+            "nombre": "Pacientes confirmados",
+            "nombre-corto": "Confirmados",
+            "categoria": "hospital",
+            "abreviatura": "Con."
+
+        },
+        "graves": {
+            "id": "graves",
+            "orden": 80,
+            "nombre": "Pacientes graves/críticos",
+            "nombre-corto": "Graves",
+            "categoria": "hospital",
+            "abreviatura": "Gra."
+        }
+    },
+    "protocolos": {
+        "1": {
+            "id": "1",
+            "nombre": "Manejo clínico de COVID 19",
+            "fecha": "",
+            "version": 1,
+            "indicaciones": {
+                "general": {
+                    "oseltamivir": {
+                        "orden": 1,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "azitromicina": {
+                        "orden": 2,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "kaletra": {
+                        "orden": 3,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "cloroquina": {
+                        "orden": 4,
+                        "escenarios": {
+                            "confirmados": [
+                                "alternativa terapéutica"
+                            ],
+                            "graves": [
+                                "alternativa terapéutica"
+                            ]
+                        }
+                    },
+                    "interferon": {
+                        "orden": 5,
+                        "escenarios": {
+                            "confirmados": [
+                                "alternativa terapéutica"
+                            ],
+                            "graves": [
+                                "alternativa terapéutica"
+                            ]
+                        }
+                    },
+                    "surfacen": {
+                        "orden": 6,
+                        "escenarios": {
+                            "confirmados": [
+                                "alternativa terapéutica"
+                            ],
+                            "graves": [
+                                "alternativa terapéutica"
+                            ]
+                        }
+                    },
+                    "ceftriaxona": {
+                        "orden": 7,
+                        "escenarios": {
+                            "confirmados": [
+                                "infección bacteriana"
+                            ],
+                            "graves": [
+                                "infección bacteriana"
+                            ]
+                        }
+                    },
+                    "vancomicina": {
+                        "orden": 8,
+                        "escenarios": {
+                            "confirmados": [
+                                "infección bacteriana"
+                            ],
+                            "graves": [
+                                "infección bacteriana"
+                            ]
+                        }
+                    },
+                    "metilprednisolona": {
+                        "orden": 9,
+                        "escenarios": {
+                            "confirmados": [
+                                "alternativa terapéutica"
+                            ],
+                            "graves": [
+                                "alternativa terapéutica"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2": {
+            "id": "2",
+            "nombre": "Protocolo Nacional MINSAP vs COVID-19",
+            "fecha": "2020/04/04",
+            "version": 2,
+            "indicaciones": {
+                "general": {
+                    "prevenghovir": {
+                        "orden": 1,
+                        "escenarios": {
+                            "instituciones": [
+                                "hogar de ancianos - grupos vulnerables",
+                                "hogares maternos"
+                            ]
+                        }
+                    },
+                    "biomodulina": {
+                        "orden": 2,
+                        "escenarios": {
+                            "instituciones": [
+                                "hogar de ancianos - grupos vulnerables"
+                            ],
+                            "viajeros": [
+                                "mayores de 60 años"
+                            ]
+                        }
+                    },
+                    "factor": {
+                        "orden": 3,
+                        "escenarios": {
+                            "viajeros": [
+                                "menores de 60 años"
+                            ]
+                        }
+                    },
+                    "oseltamivir": {
+                        "orden": 4,
+                        "escenarios": {
+                            "sospechosos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "azitromicina": {
+                        "orden": 5,
+                        "escenarios": {
+                            "sospechosos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "kaletra": {
+                        "orden": 6,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "cloroquina": {
+                        "orden": 7,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "interferon": {
+                        "orden": 8,
+                        "escenarios": {
+                            "contactos": [
+                                "tratamiento regular"
+                            ],
+                            "sospechosos": [
+                                "tratamiento regular"
+                            ],
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "surfacen": {
+                        "orden": 9,
+                        "escenarios": {
+                            "graves": [
+                                "alternativa terapéutica"
+                            ]
+                        }
+                    },
+                    "ceftriaxona": {
+                        "orden": 10,
+                        "escenarios": {
+                            "graves": [
+                                "infección bacteriana"
+                            ]
+                        }
+                    },
+                    "itolizumab": {
+                        "orden": 11,
+                        "escenarios": {
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "3": {
+            "id": "3",
+            "nombre": "Protocolo de Actuación Nacional para la COVID-19",
+            "fecha": "2020/05/15",
+            "version": 3,
+            "indicaciones": {
+                "general": {
+                    "prevenghovir": {
+                        "orden": 1,
+                        "escenarios": {
+                            "poblacion": [
+                                "tratamiento regular"
+                            ],
+                            "instituciones": [
+                                "hogar de ancianos",
+                                "grupos vulnerables",
+                                "hogares maternos"
+                            ],
+                            "viajeros": [
+                                "menores de 60 años"
+                            ],
+                            "contactos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "biomodulina": {
+                        "orden": 2,
+                        "escenarios": {
+                            "instituciones": [
+                                "hogar de ancianos"
+                            ],
+                            "viajeros": [
+                                "mayores de 60 años"
+                            ]
+                        }
+                    },
+                    "factor": {
+                        "orden": 3,
+                        "escenarios": {
+                            "viajeros": [
+                                "menores de 60 años"
+                            ]
+                        }
+                    },
+                    "oseltamivir": {
+                        "orden": 4,
+                        "escenarios": {
+                            "sospechosos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "azitromicina": {
+                        "orden": 5,
+                        "escenarios": {
+                            "sospechosos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "kaletra": {
+                        "orden": 6,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "cloroquina": {
+                        "orden": 7,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "interferon": {
+                        "orden": 8,
+                        "escenarios": {
+                            "sospechosos": [
+                                "tratamiento regular"
+                            ],
+                            "confirmados": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "plasma": {
+                        "orden": 9,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "surfacen": {
+                        "orden": 10,
+                        "escenarios": {
+                            "graves": [
+                                "síndrome de distrés respiratorio agudo"
+                            ]
+                        }
+                    },
+                    "ceftriaxona": {
+                        "orden": 11,
+                        "escenarios": {
+                            "graves": [
+                                "infección bacteriana"
+                            ]
+                        }
+                    },
+                    "itolizumab": {
+                        "orden": 12,
+                        "escenarios": {
+                            "graves": [
+                                "empeoramiento de la actividad pulmonar"
+                            ]
+                        }
+                    },
+                    "cigb258": {
+                        "orden": 13,
+                        "escenarios": {
+                            "graves": [
+                                "estado previo a la hiperinflamatoria",
+                                "fase hiperinflamatoria"
+                            ]
+                        }
+                    },
+                    "heparina": {
+                        "orden": 14,
+                        "escenarios": {
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "metilprednisolona": {
+                        "orden": 15,
+                        "escenarios": {
+                            "graves": [
+                                "fase hiperinflamatoria"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "4": {
+            "id": "4",
+            "nombre": "Protocolo de Actuación Nacional para la COVID-19",
+            "fecha": "2020/05/01",
+            "version": 4,
+            "indicaciones": {
+                "general": {
+                    "prevenghovir": {
+                        "orden": 1,
+                        "escenarios": {
+                            "poblacion": [
+                                "tratamiento regular"
+                            ],
+                            "instituciones": [
+                                "hogar de ancianos",
+                                "grupos vulnerables",
+                                "hogares maternos"
+                            ],
+                            "viajeros": [
+                                "menores de 60 años"
+                            ],
+                            "contactos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "biomodulina": {
+                        "orden": 2,
+                        "escenarios": {
+                            "instituciones": [
+                                "hogar de ancianos",
+                                "grupos vulnerables"
+                            ],
+                            "viajeros": [
+                                "mayores de 60 años"
+                            ]
+                        }
+                    },
+                    "factor": {
+                        "orden": 3,
+                        "escenarios": {
+                            "viajeros": [
+                                "menores de 60 años"
+                            ]
+                        }
+                    },
+                    "oseltamivir": {
+                        "orden": 4,
+                        "escenarios": {
+                            "sospechosos": [
+                                "sospechosos de bajo riesgo",
+                                "sospechosos de alto riesgo"
+                            ]
+                        }
+                    },
+                    "azitromicina": {
+                        "orden": 5,
+                        "escenarios": {
+                            "sospechosos": [
+                                "sospechosos de bajo riesgo",
+                                "sospechosos de alto riesgo"
+                            ]
+                        }
+                    },
+                    "kaletra": {
+                        "orden": 6,
+                        "escenarios": {
+                            "sospechosos": [
+                                "sospechosos de alto riesgo"
+                            ],
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "cloroquina": {
+                        "orden": 7,
+                        "escenarios": {
+                            "sospechosos": [
+                                "sospechosos de alto riesgo"
+                            ],
+                            "confirmados": [
+                                "tratamiento regular"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "interferon": {
+                        "orden": 8,
+                        "escenarios": {
+                            "sospechosos": [
+                                "sospechosos de bajo riesgo",
+                                "sospechosos de alto riesgo"
+                            ],
+                            "confirmados": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "plasma": {
+                        "orden": 9,
+                        "escenarios": {
+                            "confirmados": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "surfacen": {
+                        "orden": 10,
+                        "escenarios": {
+                            "graves": [
+                                "síndrome de distrés respiratorio agudo"
+                            ]
+                        }
+                    },
+                    "ceftriaxona": {
+                        "orden": 11,
+                        "escenarios": {
+                            "graves": [
+                                "infección bacteriana"
+                            ]
+                        }
+                    },
+                    "itolizumab": {
+                        "orden": 12,
+                        "escenarios": {
+                            "graves": [
+                                "empeoramiento de la actividad pulmonar"
+                            ]
+                        }
+                    },
+                    "cigb258": {
+                        "orden": 13,
+                        "escenarios": {
+                            "graves": [
+                                "estado previo a la hiperinflamatoria",
+                                "fase hiperinflamatoria"
+                            ]
+                        }
+                    },
+                    "heparina": {
+                        "orden": 14,
+                        "escenarios": {
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "metilprednisolona": {
+                        "orden": 15,
+                        "escenarios": {
+                            "graves": [
+                                "fase hiperinflamatoria"
+                            ]
+                        }
+                    },
+                    "tocilizumab": {
+                        "orden": 16,
+                        "escenarios": {
+                            "graves": [
+                                "crítico con necesidad de ventilación invasiva"
+                            ]
+                        }
+                    },
+                    "hidrocortisona": {
+                        "orden": 17,
+                        "escenarios": {
+                            "graves": [
+                                "fase hiperinflamatoria e hiperglicemia"
+                            ]
+                        }
+                    },
+                    "eritropoyetina": {
+                        "orden": 18,
+                        "escenarios": {
+                            "graves": [
+                                "profiláxis de los eventos trombóticos"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
