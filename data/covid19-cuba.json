@@ -4884,7 +4884,8 @@
                     "it-4",
                     "cu-4"
                 ],
-                "sujetos_riesgo": 716
+                "sujetos_riesgo": 716,
+                "vigilancia_hogar": 28139
             },
             "11": {
                 "fecha": "2020/03/21",
@@ -5109,6 +5110,7 @@
                     }
                 ],
                 "sujetos_riesgo": 954,
+                "vigilancia_hogar": 30773,
                 "graves_numero": 1,
                 "criticos_numero": 2
             },
@@ -5228,6 +5230,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1036,
+                "vigilancia_hogar": 37788,
                 "tests_total": 518,
                 "graves_numero": 1,
                 "criticos_numero": 2
@@ -5414,6 +5417,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1229,
+                "vigilancia_hogar": 33132,
                 "recuperados_numero": 1,
                 "recuperados_id": [
                     "cu-1"
@@ -5627,6 +5631,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1479,
+                "vigilancia_hogar": 36526,
                 "criticos_numero": 2,
                 "tests_total": 738
             },
@@ -5852,6 +5857,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1603,
+                "vigilancia_hogar": 36056,
                 "graves_numero": 1,
                 "criticos_numero": 1,
                 "tests_total": 893
@@ -6140,6 +6146,8 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
+                "sujetos_riesgo": 1851,
+                "vigilancia_hogar": 34216,
                 "recuperados_numero": 3,
                 "muertes_numero": 1,
                 "muertes_id": [
@@ -6994,6 +7002,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2000,
+                "vigilancia_hogar": 31347,
                 "muertes_numero": 0,
                 "criticos_numero": 1,
                 "graves_numero": 2,
@@ -7429,6 +7438,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2317,
+                "vigilancia_hogar": 30642,
                 "tests_total": 1665,
                 "graves_numero": 5,
                 "criticos_numero": 3,
@@ -8106,6 +8116,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2681,
+                "vigilancia_hogar": 29885,
                 "tests_total": 2007,
                 "muertes_numero": 0,
                 "graves_numero": 5,
@@ -8469,6 +8480,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2837,
+                "vigilancia_hogar": 27139,
                 "tests_total": 2322,
                 "muertes_numero": 2,
                 "muertes_id": [
@@ -9032,6 +9044,7 @@
                     }
                 ],
                 "tests_total": 2766,
+                "vigilancia_hogar": 26278,
                 "recuperados_numero": 4,
                 "graves_numero": 1,
                 "criticos_numero": 4,
@@ -9476,6 +9489,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2320,
+                "vigilancia_hogar": 25920,
                 "tests_total": 3342,
                 "recuperados_numero": 1,
                 "graves_numero": 2,
@@ -10228,6 +10242,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3241,
+                "vigilancia_hogar": 26587,
                 "tests_total": 4145,
                 "recuperados_numero": 2,
                 "graves_numero": 2,
@@ -10641,6 +10656,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3343,
+                "vigilancia_hogar": 18314,
                 "tests_total": 5202,
                 "graves_numero": 3,
                 "criticos_numero": 8
@@ -11306,6 +11322,7 @@
                     }
                 ],
                 "tests_total": 6403,
+                "vigilancia_hogar": 16306,
                 "sujetos_riesgo": 1887,
                 "evacuados_numero": 1,
                 "evacuados_id": [
@@ -11939,6 +11956,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1718,
+                "vigilancia_hogar": 18434,
                 "recuperados_numero": 3,
                 "muertes_numero": 1,
                 "graves_numero": 4,
@@ -12886,6 +12904,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1752,
+                "vigilancia_hogar": 15762,
                 "recuperados_numero": 9,
                 "muertes_numero": 2,
                 "graves_numero": 3,
@@ -14144,6 +14163,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1732,
+                "vigilancia_hogar": 9414,
                 "muertes_numero": 1,
                 "graves_numero": 6,
                 "criticos_numero": 10,
@@ -15349,6 +15369,7 @@
                     }
                 ],
                 "tests_total": 10725,
+                "vigilancia_hogar": 9087,
                 "sujetos_riesgo": 1860,
                 "recuperados_numero": 1,
                 "muertes_numero": 3,
@@ -16354,6 +16375,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1867,
+                "vigilancia_hogar": 9761,
                 "tests_total": 12023,
                 "recuperados_numero": 23,
                 "graves_numero": 5,
@@ -17495,6 +17517,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2415,
+                "vigilancia_hogar": 7128,
                 "tests_total": 13162,
                 "recuperados_numero": 26,
                 "graves_numero": 7,
@@ -18489,6 +18512,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2302,
+                "vigilancia_hogar": 8348,
                 "tests_total": 15057,
                 "recuperados_numero": 15,
                 "graves_numero": 6,
@@ -19647,6 +19671,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2305,
+                "vigilancia_hogar": 8360,
                 "tests_total": 17133,
                 "recuperados_numero": 29,
                 "graves_numero": 7,
@@ -20467,6 +20492,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2501,
+                "vigilancia_hogar": 7167,
                 "tests_total": 18767,
                 "recuperados_numero": 11,
                 "graves_numero": 3,
@@ -21438,6 +21464,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2466,
+                "vigilancia_hogar": 6572,
                 "tests_total": 20451,
                 "recuperados_numero": 19,
                 "graves_numero": 7,
@@ -22416,6 +22443,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2629,
+                "vigilancia_hogar": 5960,
                 "tests_total": 21837,
                 "recuperados_numero": 20,
                 "graves_numero": 6,
@@ -23651,6 +23679,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2734,
+                "vigilancia_hogar": 7373,
                 "tests_total": 23317,
                 "recuperados_numero": 21,
                 "graves_numero": 7,
@@ -24926,6 +24955,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2866,
+                "vigilancia_hogar": 7592,
                 "tests_total": 25212,
                 "recuperados_numero": 35,
                 "graves_numero": 5,
@@ -25918,6 +25948,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3037,
+                "vigilancia_hogar": 8134,
                 "tests_total": 26982,
                 "recuperados_numero": 28,
                 "graves_numero": 7,
@@ -26971,6 +27002,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3232,
+                "vigilancia_hogar": 7059,
                 "tests_total": 28598,
                 "recuperados_numero": 30,
                 "graves_numero": 11,
@@ -27982,6 +28014,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2279,
+                "vigilancia_hogar": 7337,
                 "tests_total": 30416,
                 "recuperados_numero": 24,
                 "graves_numero": 10,
@@ -29033,6 +29066,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3425,
+                "vigilancia_hogar": 5497,
                 "tests_total": 32276,
                 "recuperados_numero": 32,
                 "graves_numero": 7,
@@ -29965,6 +29999,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3359,
+                "vigilancia_hogar": 5681,
                 "tests_total": 34243,
                 "recuperados_numero": 24,
                 "graves_numero": 4,
@@ -30977,6 +31012,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3393,
+                "vigilancia_hogar": 6727,
                 "tests_total": 36134,
                 "recuperados_numero": 51,
                 "graves_numero": 4,
@@ -32036,6 +32072,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3462,
+                "vigilancia_hogar": 6560,
                 "tests_total": 37991,
                 "recuperados_numero": 21,
                 "graves_numero": 5,
@@ -32691,6 +32728,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3461,
+                "vigilancia_hogar": 5876,
                 "tests_total": 39828,
                 "recuperados_numero": 64,
                 "graves_numero": 6,
@@ -33107,6 +33145,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3546,
+                "vigilancia_hogar": 5556,
                 "tests_total": 41651,
                 "recuperados_numero": 24,
                 "graves_numero": 6,
@@ -34083,6 +34122,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3330,
+                "vigilancia_hogar": 6742,
                 "tests_total": 43508,
                 "recuperados_numero": 50,
                 "graves_numero": 5,
@@ -34697,6 +34737,7 @@
                     }
                 ],
                 "sujetos_riesgo": 3068,
+                "vigilancia_hogar": 6839,
                 "tests_total": 45344,
                 "recuperados_numero": 42,
                 "graves_numero": 7,
@@ -35388,6 +35429,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2954,
+                "vigilancia_hogar": 6972,
                 "tests_total": 47347,
                 "recuperados_numero": 64,
                 "graves_numero": 4,
@@ -36119,6 +36161,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2897,
+                "vigilancia_hogar": 3892,
                 "tests_total": 49409,
                 "recuperados_numero": 33,
                 "graves_numero": 4,
@@ -37610,6 +37653,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2792,
+                "vigilancia_hogar": 3796,
                 "tests_total": 51506,
                 "recuperados_numero": 51,
                 "graves_numero": 7,
@@ -38385,6 +38429,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2744,
+                "vigilancia_hogar": 6515,
                 "tests_total": 53545,
                 "recuperados_numero": 62,
                 "graves_numero": 8,
@@ -38778,6 +38823,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2543,
+                "vigilancia_hogar": 6188,
                 "tests_total": 55542,
                 "recuperados_numero": 49,
                 "graves_numero": 6,
@@ -39129,6 +39175,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2267,
+                "vigilancia_hogar": 6047,
                 "tests_total": 57711,
                 "recuperados_numero": 78,
                 "graves_numero": 5,
@@ -39506,6 +39553,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2341,
+                "vigilancia_hogar": 5992,
                 "tests_total": 59648,
                 "recuperados_numero": 47,
                 "graves_numero": 10,
@@ -40037,6 +40085,7 @@
                     }
                 ],
                 "sujetos_riesgo": 2370,
+                "vigilancia_hogar": 6362,
                 "tests_total": 61613,
                 "recuperados_numero": 30,
                 "graves_numero": 3,
@@ -40289,6 +40338,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1947,
+                "vigilancia_hogar": 5264,
                 "tests_total": 63560,
                 "recuperados_numero": 47,
                 "graves_numero": 3,
@@ -40562,6 +40612,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1824,
+                "vigilancia_hogar": 5266,
                 "tests_total": 65509,
                 "recuperados_numero": 62,
                 "graves_numero": 4,
@@ -40813,6 +40864,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1894,
+                "vigilancia_hogar": 4081,
                 "tests_total": 67335,
                 "recuperados_numero": 53,
                 "graves_numero": 5,
@@ -41164,6 +41216,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1533,
+                "vigilancia_hogar": 3900,
                 "tests_total": 69182,
                 "recuperados_numero": 36,
                 "graves_numero": 6,
@@ -41595,6 +41648,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1148,
+                "vigilancia_hogar": 3907,
                 "tests_total": 71157,
                 "recuperados_numero": 48,
                 "graves_numero": 2,
@@ -41726,6 +41780,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1053,
+                "vigilancia_hogar": 3256,
                 "tests_total": 73129,
                 "recuperados_numero": 49,
                 "graves_numero": 4,
@@ -42137,6 +42192,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1046,
+                "vigilancia_hogar": 2794,
                 "tests_total": 75142,
                 "recuperados_numero": 57,
                 "graves_numero": 6,
@@ -42348,6 +42404,7 @@
                     }
                 ],
                 "sujetos_riesgo": 913,
+                "vigilancia_hogar": 2947,
                 "tests_total": 77374,
                 "recuperados_numero": 42,
                 "graves_numero": 6,
@@ -42799,6 +42856,7 @@
                     }
                 ],
                 "sujetos_riesgo": 981,
+                "vigilancia_hogar": 3365,
                 "tests_total": 79834,
                 "recuperados_numero": 35,
                 "graves_numero": 5,
@@ -43010,6 +43068,7 @@
                     }
                 ],
                 "sujetos_riesgo": 1048,
+                "vigilancia_hogar": 3242,
                 "tests_total": 81917,
                 "recuperados_numero": 35,
                 "graves_numero": 7,
@@ -43201,6 +43260,7 @@
                     }
                 ],
                 "sujetos_riesgo": 970,
+                "vigilancia_hogar": 2293,
                 "tests_total": 83868,
                 "recuperados_numero": 10,
                 "graves_numero": 7,
@@ -43332,6 +43392,7 @@
                     }
                 ],
                 "sujetos_riesgo": 824,
+                "vigilancia_hogar": 2053,
                 "tests_total": 85556,
                 "recuperados_numero": 33,
                 "graves_numero": 7,
@@ -43603,6 +43664,7 @@
                     }
                 ],
                 "sujetos_riesgo": 817,
+                "vigilancia_hogar": 1899,
                 "tests_total": 87288,
                 "recuperados_numero": 35,
                 "graves_numero": 6,
@@ -43774,6 +43836,7 @@
                     }
                 ],
                 "sujetos_riesgo": 689,
+                "vigilancia_hogar": 1697,
                 "tests_total": 89031,
                 "recuperados_numero": 30,
                 "graves_numero": 4,
@@ -43945,6 +44008,7 @@
                     }
                 ],
                 "sujetos_riesgo": 669,
+                "vigilancia_hogar": 1790,
                 "tests_total": 90911,
                 "recuperados_numero": 28,
                 "graves_numero": 3,
@@ -44256,6 +44320,7 @@
                     }
                 ],
                 "sujetos_riesgo": 631,
+                "vigilancia_hogar": 1699,
                 "tests_total": 92629,
                 "recuperados_numero": 40,
                 "graves_numero": 3,
@@ -44469,6 +44534,7 @@
                     }
                 ],
                 "sujetos_riesgo": 585,
+                "vigilancia_hogar": 1704,
                 "tests_total": 94060,
                 "recuperados_numero": 18,
                 "graves_numero": 3,
@@ -44599,6 +44665,7 @@
                     }
                 ],
                 "sujetos_riesgo": 445,
+                "vigilancia_hogar": 1996,
                 "tests_total": 95511,
                 "recuperados_numero": 15,
                 "graves_numero": 5,
@@ -44929,6 +44996,7 @@
                     }
                 ],
                 "sujetos_riesgo": 434,
+                "vigilancia_hogar": 1823,
                 "tests_total": 97003,
                 "recuperados_numero": 5,
                 "graves_numero": 4,
@@ -45159,6 +45227,7 @@
                     }
                 ],
                 "sujetos_riesgo": 467,
+                "vigilancia_hogar": 1627,
                 "tests_total": 98381,
                 "recuperados_numero": 15,
                 "graves_numero": 2,
@@ -45349,6 +45418,7 @@
                     }
                 ],
                 "sujetos_riesgo": 555,
+                "vigilancia_hogar": 1684,
                 "tests_total": 99745,
                 "recuperados_numero": 10,
                 "graves_numero": 1,
@@ -45799,6 +45869,7 @@
                     }
                 ],
                 "sujetos_riesgo": 569,
+                "vigilancia_hogar": 1815,
                 "tests_total": 101108,
                 "recuperados_numero": 26,
                 "graves_numero": 3,
@@ -46209,6 +46280,7 @@
                     }
                 ],
                 "sujetos_riesgo": 448,
+                "vigilancia_hogar": 1617,
                 "tests_total": 103123,
                 "recuperados_numero": 35,
                 "graves_numero": 3,
@@ -46619,6 +46691,7 @@
                     }
                 ],
                 "sujetos_riesgo": 414,
+                "vigilancia_hogar": 1748,
                 "tests_total": 105274,
                 "recuperados_numero": 14,
                 "graves_numero": 4,
@@ -47389,6 +47462,7 @@
                     }
                 ],
                 "sujetos_riesgo": 429,
+                "vigilancia_hogar": 1728,
                 "tests_total": 107037,
                 "recuperados_numero": 17,
                 "graves_numero": 3,
@@ -47579,6 +47653,7 @@
                     }
                 ],
                 "sujetos_riesgo": 444,
+                "vigilancia_hogar": 1736,
                 "tests_total": 108389,
                 "recuperados_numero": 1,
                 "graves_numero": 4,
@@ -47889,6 +47964,7 @@
                     }
                 ],
                 "sujetos_riesgo": 507,
+                "vigilancia_hogar": 1973,
                 "tests_total": 110349,
                 "recuperados_numero": 3,
                 "graves_numero": 4,
@@ -48139,6 +48215,7 @@
                     }
                 ],
                 "sujetos_riesgo": 527,
+                "vigilancia_hogar": 1955,
                 "tests_total": 112449,
                 "recuperados_numero": 9,
                 "graves_numero": 4,
@@ -48429,6 +48506,7 @@
                     }
                 ],
                 "sujetos_riesgo": 521,
+                "vigilancia_hogar": 2036,
                 "tests_total": 114464,
                 "recuperados_numero": 9,
                 "graves_numero": 3,
@@ -49287,6 +49365,7 @@
                     }
                 ],
                 "sujetos_riesgo": 553,
+                "vigilancia_hogar": 1817,
                 "tests_total": 116468,
                 "recuperados_numero": 7,
                 "graves_numero": 3,
@@ -49657,6 +49736,7 @@
                     }
                 ],
                 "sujetos_riesgo": 556,
+                "vigilancia_hogar": 1180,
                 "tests_total": 118488,
                 "recuperados_numero": 7,
                 "graves_numero": 3,
@@ -49847,6 +49927,7 @@
                     }
                 ],
                 "sujetos_riesgo": 499,
+                "vigilancia_hogar": 1642,
                 "tests_total": 120536,
                 "recuperados_numero": 6,
                 "graves_numero": 3,
@@ -49957,6 +50038,7 @@
                     }
                 ],
                 "sujetos_riesgo": 515,
+                "vigilancia_hogar": 607,
                 "tests_total": 122603,
                 "recuperados_numero": 12,
                 "graves_numero": 1,
@@ -50095,6 +50177,7 @@
                     }
                 ],
                 "sujetos_riesgo": 561,
+                "vigilancia_hogar": 454,
                 "tests_total": 124947,
                 "recuperados_numero": 6,
                 "graves_numero": 1,
@@ -50275,6 +50358,7 @@
                     }
                 ],
                 "sujetos_riesgo": 540,
+                "vigilancia_hogar": 423,
                 "tests_total": 127042,
                 "recuperados_numero": 7,
                 "graves_numero": 1,
@@ -50579,6 +50663,7 @@
                     }
                 ],
                 "sujetos_riesgo": 558,
+                "vigilancia_hogar": 445,
                 "tests_total": 129132,
                 "recuperados_numero": 9,
                 "graves_numero": 4,
@@ -50694,6 +50779,7 @@
                     }
                 ],
                 "sujetos_riesgo": 445,
+                "vigilancia_hogar": 1538,
                 "tests_total": 131628,
                 "recuperados_numero": 21,
                 "graves_numero": 5,
@@ -50916,6 +51002,7 @@
                     }
                 ],
                 "sujetos_riesgo": 435,
+                "vigilancia_hogar": 1501,
                 "tests_total": 133763,
                 "recuperados_numero": 25,
                 "graves_numero": 5,
