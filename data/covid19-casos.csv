@@ -2237,3 +2237,13 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,62,cu,Centro Habana,La Habana,2020/06/12,,desconocido
 ,mujer,6,cu,Habana del Este,La Habana,2020/06/12,,secundario
 ,hombre,29,cu,Matanzas,Matanzas,2020/06/12,,secundario
+,mujer,50,cu,San Miguel del Padrón,La Habana,2020/06/13,,secundario
+,mujer,27,cu,Arroyo Naranjo,La Habana,2020/06/13,,secundario
+,hombre,59,cu,Arroyo Naranjo,La Habana,2020/06/13,,secundario
+,mujer,57,cu,Arroyo Naranjo,La Habana,2020/06/13,,secundario
+,hombre,49,cu,Habana del Este,La Habana,2020/06/13,,secundario
+,hombre,49,cu,Marianao,La Habana,2020/06/13,,secundario
+,hombre,43,cu,La Lisa,La Habana,2020/06/13,,desconocido
+,mujer,49,cu,Arroyo Naranjo,La Habana,2020/06/13,,desconocido
+,hombre,35,cu,San Miguel del Padrón,La Habana,2020/06/13,,desconocido
+,mujer,57,cu,Camagüey,Camagüey,2020/06/13,,primario
