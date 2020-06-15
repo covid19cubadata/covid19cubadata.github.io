@@ -4332,7 +4332,7 @@
                     }
                 ],
                 "sujetos_riesgo": 30,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "2": {
                 "fecha": "2020/03/12"
@@ -4363,7 +4363,7 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "4": {
                 "fecha": "2020/03/14"
@@ -4404,7 +4404,7 @@
                 ],
                 "sujetos_riesgo": 389,
                 "criticos_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "7": {
                 "fecha": "2020/03/17",
@@ -4456,7 +4456,7 @@
                 ],
                 "sujetos_riesgo": 356,
                 "criticos_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "8": {
                 "fecha": "2020/03/18",
@@ -4556,7 +4556,7 @@
                     "it-1"
                 ],
                 "sujetos_riesgo": 389,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "9": {
                 "fecha": "2020/03/19",
@@ -4675,7 +4675,7 @@
                     }
                 ],
                 "sujetos_riesgo": 523,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "10": {
                 "fecha": "2020/03/20",
@@ -4893,7 +4893,7 @@
                 ],
                 "sujetos_riesgo": 716,
                 "vigilancia_hogar": 28139,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "11": {
                 "fecha": "2020/03/21",
@@ -5121,7 +5121,7 @@
                 "vigilancia_hogar": 30773,
                 "graves_numero": 1,
                 "criticos_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "12": {
                 "fecha": "2020/03/22",
@@ -5243,7 +5243,7 @@
                 "tests_total": 518,
                 "graves_numero": 1,
                 "criticos_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "13": {
                 "fecha": "2020/03/23",
@@ -5435,7 +5435,7 @@
                 "tests_total": 625,
                 "graves_numero": 1,
                 "criticos_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "14": {
                 "fecha": "2020/03/24",
@@ -5645,7 +5645,7 @@
                 "vigilancia_hogar": 36526,
                 "criticos_numero": 2,
                 "tests_total": 738,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "15": {
                 "fecha": "2020/03/25",
@@ -5873,7 +5873,7 @@
                 "graves_numero": 1,
                 "criticos_numero": 1,
                 "tests_total": 893,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "16": {
                 "fecha": "2020/03/26",
@@ -6169,7 +6169,7 @@
                 "tests_total": 1039,
                 "criticos_numero": 1,
                 "graves_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "17": {
                 "fecha": "2020/03/27",
@@ -7022,7 +7022,7 @@
                 "graves_numero": 2,
                 "tests_total": 1368,
                 "nota_general": "El paciente reportado como fallecido en el parte del 27 correspondía realmente con la fecha del 28 por eso se cambió de fecha",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 1
             },
             "18": {
                 "fecha": "2020/03/28",
@@ -7463,7 +7463,7 @@
                     "cu-141"
                 ],
                 "nota_general": "El fallecido cu-72 aquí fue reubicado en esta fecha acorde a la información del MINSAP mientras que cu-141 también falleció en esta fecha pero fue confirmado el día siguiente",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 1
             },
             "19": {
                 "fecha": "2020/03/29",
@@ -8138,7 +8138,7 @@
                 "graves_numero": 5,
                 "criticos_numero": 3,
                 "nota_general": "El paciente reportado como fallecido en este parte fue confirmado en esta fecha pero realmente falleció el día anterior y se reubicó allí",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "20": {
                 "fecha": "2020/03/30",
@@ -8508,7 +8508,7 @@
                 "criticos_numero": 3,
                 "recuperados_numero": 4,
                 "nota_general": "Existen inconsistencias respecto al fallecido cu-151, no coincide el reporte del parte con respecto a datos del MINSAP. Se dejó acorde al parte hasta que se pueda discernir mejor.",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "21": {
                 "fecha": "2020/03/31",
@@ -9067,7 +9067,7 @@
                 "graves_numero": 1,
                 "criticos_numero": 4,
                 "sujetos_riesgo": 2742,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "22": {
                 "fecha": "2020/04/01",
@@ -9513,7 +9513,7 @@
                 "recuperados_numero": 1,
                 "graves_numero": 2,
                 "criticos_numero": 5,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 3
             },
             "23": {
                 "fecha": "2020/04/02",
@@ -10272,7 +10272,7 @@
                     "cu-278"
                 ],
                 "nota_general": "El paciente cu-278 fue confirmado el día 4 pero en el parte se reporta que realmente falleció el día 2, que muestra inconsistencia con otra información del MINSAP. Hasta que no se pueda discernir quedará acorde al parte.",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 1
             },
             "24": {
                 "fecha": "2020/04/03",
@@ -10681,7 +10681,7 @@
                 "tests_total": 5202,
                 "graves_numero": 3,
                 "criticos_numero": 8,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 0
             },
             "25": {
                 "fecha": "2020/04/04",
@@ -11357,7 +11357,7 @@
                     "cu-35"
                 ],
                 "nota_general": "En el parte se reportó 5234 muestras como total y en el día 1201 casos. Esto es inconsistente con lo reportado el día anterior. Entonces se asume el número de muestras reportadas en el día y el total asciende a 6403. El paciente cu-278 reportado este día falleció días antes, sin embargo la fecha no coincide entre el parte e información del MINSAP, por tanto se reubicó y se dejó con la fecha de fallecimiento del parte: 2 de abril.",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 10
             },
             "26": {
                 "fecha": "2020/04/05",
@@ -11988,8 +11988,8 @@
                     "cu-303"
                 ],
                 "tests_total": 7167,
-                "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy. El paciente cu-303 muestra inconsistencias con respecto a la fecha de fallecimiento con respecto a otra información y, por tanto, se dejó la información del parte hasta que se pueda discernir",
-                "asintomaticos_numero": null
+                "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy. El paciente cu-303 muestra inconsistencias con respecto a la fecha de fallecimiento con respecto a otra información y, por tanto, se dejó la información del parte hasta que se pueda discernir.",
+                "asintomaticos_numero": 9
             },
             "27": {
                 "fecha": "2020/04/06",
@@ -12939,7 +12939,7 @@
                 ],
                 "tests_total": 8223,
                 "nota_general": "Continua incoherente en el parte  el total de pruebas entonces sumamos a las de ayer el total de hoy. En el parte del día siguiente se cambió el status de un paciente reportado como evacuado a alta médica",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 24
             },
             "28": {
                 "fecha": "2020/04/07",
@@ -14197,7 +14197,7 @@
                 ],
                 "tests_total": 9410,
                 "nota_general": "Hoy fue rectificado el número total de pruebas en el parte y la rectificación es coherente con las cifras que habíamos mantenido días previos ",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 34
             },
             "29": {
                 "fecha": "2020/04/08",
@@ -15407,7 +15407,7 @@
                 "graves_numero": 8,
                 "criticos_numero": 8,
                 "nota_general": "Las fechas de muertes muestran aglunas diferencias con datos del MINSAP y se dejaron tal cual aparecen en el parte del propio MINSAP",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 23
             },
             "30": {
                 "fecha": "2020/04/09",
