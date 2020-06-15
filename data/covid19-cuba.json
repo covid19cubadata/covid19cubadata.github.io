@@ -1,4 +1,4 @@
-﻿{
+{
     "schema-version": 7,
     "note-text": "",
     "numero-reproductivo": {
@@ -16407,7 +16407,7 @@
                 "recuperados_numero": 23,
                 "graves_numero": 5,
                 "criticos_numero": 6,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 26
             },
             "31": {
                 "fecha": "2020/04/10",
@@ -17554,7 +17554,7 @@
                 "muertes_id": [
                     "cu-51"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 31
             },
             "32": {
                 "fecha": "2020/04/11",
@@ -18552,7 +18552,7 @@
                     "cu-593"
                 ],
                 "nota_general": "No existe coincidencia entre varias informaciones del minsap, por lo que se dejó el día del parte hasta que se pueda discernir",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 22
             },
             "33": {
                 "fecha": "2020/04/12",
@@ -19712,7 +19712,7 @@
                     "cu-666"
                 ],
                 "nota_general": "Aun no es posible identificar el fallecido cubano de 83 años residente en España",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 36
             },
             "34": {
                 "fecha": "2020/04/13",
@@ -20529,7 +20529,7 @@
                 "graves_numero": 3,
                 "criticos_numero": 9,
                 "nota_general": "En el parte del día inicialmente no coincidió la suma de los tests con los números reportados previamente. Entonces asumimos los tests reportados en el día 1634 y sumados al total previo 17133. Posteriormente, el parte fue modificados y coincidió con nuestros números ",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 8
             },
             "35": {
                 "fecha": "2020/04/14",
@@ -21507,7 +21507,7 @@
                     "cu-290",
                     "cu-758"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 20
             },
             "36": {
                 "fecha": "2020/04/15",
@@ -22486,7 +22486,7 @@
                     "cu-255",
                     "cu-806"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 23
             },
             "37": {
                 "fecha": "2020/04/16",
@@ -23723,7 +23723,7 @@
                     "cu-1251"
                 ],
                 "nota_general": "El día 24 de abril se reportaron 6 fallecidos pero uno de ellos falleció el día 16 de abril pero fue confirmado este día. Por ese motivo se incrementaron en uno los fallecidos en esta fecha",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 41
             },
             "38": {
                 "fecha": "2020/04/17",
@@ -24997,7 +24997,7 @@
                 "criticos_numero": 10,
                 "muertes_numero": 1,
                 "nota_general": "En el parte se reportó un total de 25309 muestras y se estudiaron ayer 1895. Sin embargo, el total reportado el día previo, 23317, sumado a los reportados en el parte, 1895, da como suma 25212 que es diferente a 25309. Por tanto, se reporta como total 25212 hasta que se tenga una nueva aclaración por el  MINSAP",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 51
             },
             "39": {
                 "fecha": "2020/04/18",
@@ -25990,7 +25990,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 9,
                 "muertes_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 25
             },
             "40": {
                 "fecha": "2020/04/19",
@@ -27045,7 +27045,7 @@
                 "graves_numero": 11,
                 "criticos_numero": 9,
                 "muertes_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 17
             },
             "41": {
                 "fecha": "2020/04/20",
@@ -28058,7 +28058,7 @@
                 "graves_numero": 10,
                 "criticos_numero": 8,
                 "muertes_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 31
             },
             "42": {
                 "fecha": "2020/04/21",
@@ -29111,7 +29111,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 9,
                 "muertes_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 33
             },
             "43": {
                 "fecha": "2020/04/22",
@@ -30046,7 +30046,7 @@
                 "criticos_numero": 10,
                 "muertes_numero": 3,
                 "muertes_id": [],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 30
             },
             "44": {
                 "fecha": "2020/04/23",
@@ -31067,7 +31067,7 @@
                     "cu-513"
                 ],
                 "nota_general": "Para este día se reportaron 6 fallecidos pero uno de ellos falleció el día 16 de abril pero fue confirmado este día. Por ese motivo se reportaron 5 fallecidos este día y el fallecido el día 16 fue ajustado en la cuenta de este día",
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 36
             },
             "45": {
                 "fecha": "2020/04/24",
@@ -32124,7 +32124,7 @@
                     "cu-375",
                     "cu-539"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 28
             },
             "46": {
                 "fecha": "2020/04/25",
@@ -32782,7 +32782,7 @@
                     "cu-1311",
                     "cu-1193"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 12
             },
             "47": {
                 "fecha": "2020/04/26",
@@ -33199,7 +33199,7 @@
                     "cu-1358",
                     "cu-938"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 13
             },
             "48": {
                 "fecha": "2020/04/27",
@@ -34176,7 +34176,7 @@
                 "muertes_id": [
                     "cu-1407"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 28
             },
             "49": {
                 "fecha": "2020/04/28",
@@ -34789,7 +34789,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 7,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 11
             },
             "50": {
                 "fecha": "2020/04/29",
@@ -35482,7 +35482,7 @@
                 "graves_numero": 4,
                 "criticos_numero": 6,
                 "muertes_numero": 3,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 23
             },
             "51": {
                 "fecha": "2020/04/30",
@@ -36215,7 +36215,7 @@
                 "graves_numero": 4,
                 "criticos_numero": 6,
                 "muertes_numero": 3,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 24
             },
             "52": {
                 "fecha": "2020/05/01",
@@ -37712,7 +37712,7 @@
                     "cu-765",
                     "cu-1576"
                 ],
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 65
             },
             "53": {
                 "fecha": "2020/05/02",
@@ -38485,7 +38485,7 @@
                 "graves_numero": 8,
                 "criticos_numero": 5,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 34
             },
             "54": {
                 "fecha": "2020/05/03",
@@ -38880,7 +38880,7 @@
                 "graves_numero": 6,
                 "criticos_numero": 3,
                 "muertes_numero": 2,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 16
             },
             "55": {
                 "fecha": "2020/05/04",
@@ -39233,7 +39233,7 @@
                 "graves_numero": 5,
                 "criticos_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 8
             },
             "56": {
                 "fecha": "2020/05/05",
@@ -39612,7 +39612,7 @@
                 "graves_numero": 10,
                 "criticos_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 14
             },
             "57": {
                 "fecha": "2020/05/06",
@@ -40145,7 +40145,7 @@
                 "graves_numero": 3,
                 "criticos_numero": 5,
                 "muertes_numero": 4,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 16
             },
             "58": {
                 "fecha": "2020/05/07",
@@ -40399,7 +40399,7 @@
                 "graves_numero": 3,
                 "criticos_numero": 5,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 9
             },
             "59": {
                 "fecha": "2020/05/08",
@@ -40674,7 +40674,7 @@
                 "graves_numero": 4,
                 "criticos_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 9
             },
             "60": {
                 "fecha": "2020/05/09",
@@ -40927,7 +40927,7 @@
                 "graves_numero": 5,
                 "criticos_numero": 6,
                 "muertes_numero": 3,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 4
             },
             "61": {
                 "fecha": "2020/05/10",
@@ -41280,7 +41280,7 @@
                 "graves_numero": 6,
                 "criticos_numero": 1,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 15
             },
             "62": {
                 "fecha": "2020/05/11",
@@ -41713,7 +41713,7 @@
                 "graves_numero": 2,
                 "criticos_numero": 2,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 17
             },
             "63": {
                 "fecha": "2020/05/12",
@@ -41846,7 +41846,7 @@
                 "graves_numero": 4,
                 "criticos_numero": 3,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 4
             },
             "64": {
                 "fecha": "2020/05/13",
@@ -42259,7 +42259,7 @@
                 "graves_numero": 6,
                 "criticos_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 17
             },
             "65": {
                 "fecha": "2020/05/14",
@@ -42472,7 +42472,7 @@
                 "graves_numero": 6,
                 "criticos_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "66": {
                 "fecha": "2020/05/15",
@@ -42925,7 +42925,7 @@
                 "graves_numero": 5,
                 "criticos_numero": 2,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 18
             },
             "67": {
                 "fecha": "2020/05/16",
@@ -43138,7 +43138,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 10,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "68": {
                 "fecha": "2020/05/17",
@@ -43331,7 +43331,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 2,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 8
             },
             "69": {
                 "fecha": "2020/05/18",
@@ -43464,7 +43464,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 1,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 4
             },
             "70": {
                 "fecha": "2020/05/19",
@@ -43737,7 +43737,7 @@
                 "graves_numero": 6,
                 "criticos_numero": 2,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 8
             },
             "71": {
                 "fecha": "2020/05/20",
@@ -43910,7 +43910,7 @@
                 "graves_numero": 4,
                 "criticos_numero": 1,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 3
             },
             "72": {
                 "fecha": "2020/05/21",
@@ -44083,7 +44083,7 @@
                 "graves_numero": 3,
                 "criticos_numero": 1,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 4
             },
             "73": {
                 "fecha": "2020/05/22",
@@ -44396,7 +44396,7 @@
                 "graves_numero": 3,
                 "criticos_numero": 1,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 9
             },
             "74": {
                 "fecha": "2020/05/23",
@@ -44610,7 +44610,7 @@
                 "recuperados_numero": 18,
                 "graves_numero": 3,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "75": {
                 "fecha": "2020/05/24",
@@ -44742,7 +44742,7 @@
                 "recuperados_numero": 15,
                 "graves_numero": 5,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 5
             },
             "76": {
                 "fecha": "2020/05/25",
@@ -45074,7 +45074,7 @@
                 "recuperados_numero": 5,
                 "graves_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 14
             },
             "77": {
                 "fecha": "2020/05/26",
@@ -45306,7 +45306,7 @@
                 "recuperados_numero": 15,
                 "graves_numero": 2,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 8
             },
             "78": {
                 "fecha": "2020/05/27",
@@ -45498,7 +45498,7 @@
                 "recuperados_numero": 10,
                 "graves_numero": 1,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 4
             },
             "79": {
                 "fecha": "2020/05/28",
@@ -45950,7 +45950,7 @@
                 "recuperados_numero": 26,
                 "graves_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 16
             },
             "80": {
                 "fecha": "2020/05/29",
@@ -46362,7 +46362,7 @@
                 "recuperados_numero": 35,
                 "graves_numero": 3,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 16
             },
             "81": {
                 "fecha": "2020/05/30",
@@ -46774,7 +46774,7 @@
                 "recuperados_numero": 14,
                 "graves_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 18
             },
             "82": {
                 "fecha": "2020/05/31",
@@ -47546,7 +47546,7 @@
                 "recuperados_numero": 17,
                 "graves_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 33
             },
             "83": {
                 "fecha": "2020/06/01",
@@ -47738,7 +47738,7 @@
                 "recuperados_numero": 1,
                 "graves_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "84": {
                 "fecha": "2020/06/02",
@@ -48050,7 +48050,7 @@
                 "recuperados_numero": 3,
                 "graves_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 11
             },
             "85": {
                 "fecha": "2020/06/03",
@@ -48302,7 +48302,7 @@
                 "recuperados_numero": 9,
                 "graves_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 7
             },
             "86": {
                 "fecha": "2020/06/04",
@@ -48594,7 +48594,7 @@
                 "recuperados_numero": 9,
                 "graves_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 13
             },
             "87": {
                 "fecha": "2020/06/05",
@@ -49454,7 +49454,7 @@
                 "recuperados_numero": 7,
                 "graves_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 13
             },
             "88": {
                 "fecha": "2020/06/06",
@@ -49826,7 +49826,7 @@
                 "recuperados_numero": 7,
                 "graves_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 17
             },
             "89": {
                 "fecha": "2020/06/07",
@@ -50018,7 +50018,7 @@
                 "recuperados_numero": 6,
                 "graves_numero": 3,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "90": {
                 "fecha": "2020/06/08",
@@ -50130,7 +50130,7 @@
                 "recuperados_numero": 12,
                 "graves_numero": 1,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 3
             },
             "91": {
                 "fecha": "2020/06/09",
@@ -50270,7 +50270,7 @@
                 "recuperados_numero": 6,
                 "graves_numero": 1,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "92": {
                 "fecha": "2020/06/10",
@@ -50452,7 +50452,7 @@
                 "recuperados_numero": 7,
                 "graves_numero": 1,
                 "muertes_numero": 1,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 6
             },
             "93": {
                 "fecha": "2020/06/11",
@@ -50758,7 +50758,7 @@
                 "recuperados_numero": 9,
                 "graves_numero": 4,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 14
             },
             "94": {
                 "fecha": "2020/06/12",
@@ -50875,7 +50875,7 @@
                 "recuperados_numero": 21,
                 "graves_numero": 5,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 3
             },
             "95": {
                 "fecha": "2020/06/13",
@@ -51099,7 +51099,7 @@
                 "recuperados_numero": 25,
                 "graves_numero": 5,
                 "muertes_numero": 0,
-                "asintomaticos_numero": null
+                "asintomaticos_numero": 8
             },
             "96": {
                 "fecha": "2020/06/14",
