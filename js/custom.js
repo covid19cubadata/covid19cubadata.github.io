@@ -195,7 +195,7 @@ $.walker = {
             $('[data-content=nofallecd]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent, #asyminfo, #asymbar, #asymperday, #asympertot');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -485,6 +485,9 @@ function run_calculations() {
                         var total_criticos = 0;
                         var graves = ['Graves'];
                         var criticos = ['Críticos'];
+                        var asymTotal = 0;
+                        var asymCases = ['Casos asintomáticos'];
+                        var asymTotalCases = ['Total de casos asintomáticos'];
 
                         for (var day in data.casos.dias) {
                             if ('diagnosticados' in data.casos.dias[day]) {
@@ -613,6 +616,8 @@ function run_calculations() {
                                     } else {
                                         contagio[diag[p].contagio] += 1;
                                     }
+                                    
+                                    
 
                                 }
                             }
@@ -642,7 +647,21 @@ function run_calculations() {
                                     total_tests = data.casos.dias[day].tests_total;
                                 }
                             }
+                            
+                            
+                            //asymtomatics
+							if ('asintomaticos_numero' in data.casos.dias[day]) {
+								asymTotal += data.casos.dias[day].asintomaticos_numero;
+								asymCases.push(data.casos.dias[day].asintomaticos_numero);
+								asymTotalCases.push(asymTotal);
+							} else {
+								asymTotal += 0;
+								asymCases.push(0);
+								asymTotalCases.push(asymTotal);
+							}
+                            
                         }
+                        
 
                         //Bar for countries
                         var country = ['País'];
@@ -736,6 +755,8 @@ function run_calculations() {
 								}
 							}
                         });
+                        
+                        
 
                         //Donut for tests
                         c3.generate({
@@ -933,6 +954,140 @@ function run_calculations() {
                             cuba.push(total);
                         }
 
+                        //Pie for symptoms/asymptoms
+                        c3.generate({
+                            bindto: "#asym-info-pie",
+                            data: {
+                                columns: [['Sintomáticos', total-asymTotal], ['Asintomáticos', asymTotal]],
+                                type: 'pie',
+                                colors: {
+                                    'Sintomáticos': '#B01E22',
+                                    'Asintomáticos': '#1C1340'
+                                }
+                            },
+							tooltip: {
+								format:{
+									value: function(value,r, id,index) {
+										return value +' ('+(r*100).toFixed(2)+'%)';       
+									}
+								}
+							}
+                        });
+                        
+                        //var asymTotalCases = ['Total de casos asintomáticos'];
+                        
+                        var symCases = ['Casos sintomáticos'];
+                        var pasymCases = ['% casos asintomáticos'];
+                        var psymCases = ['% casos sintomáticos'];
+                        var tasymCases = ['% casos asintomáticos'];
+                        var tsymCases = ['% casos sintomáticos'];
+                        for(var i=1;i<asymCases.length;i++){
+							symCases.push(dailySingle[i]-asymCases[i]);
+							var tpercent = (asymTotalCases[i]*100/dailySum[i]).toFixed(2);
+							tasymCases.push(tpercent);
+							tsymCases.push(100-tpercent);	
+							if (dailySingle[i]==0){
+								pasymCases.push(null);
+								psymCases.push(null);	
+							} else {
+								var percent = (asymCases[i]*100/dailySingle[i]).toFixed(2);
+								pasymCases.push(percent);
+								psymCases.push(100-percent);
+							}
+						}
+                        
+                        //Bar for symptoms/asymptoms
+                        c3.generate({
+                            bindto: "#asymcases-bar-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    asymCases,
+                                    symCases
+                                ],
+                                type: 'area',
+                                groups: [['Casos asintomáticos', 'Casos sintomáticos']],
+                                colors: {
+                                    'Casos sintomáticos': '#B01E22',
+                                    'Casos asintomáticos': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos en el día',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        
+                        //Are day percent for symptoms/asymptoms
+                        c3.generate({
+                            bindto: "#asymcases-day-percent",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    pasymCases,
+                                    psymCases
+                                ],
+                                type: 'area',
+                                groups: [['% casos asintomáticos', '% casos sintomáticos']],
+                                colors: {
+                                    '% casos sintomáticos': '#B01E22',
+                                    '% casos asintomáticos': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: '% casos en el día',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        //Area total percent for symptoms/asymptoms
+                        c3.generate({
+                            bindto: "#asymcases-total-percent",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    tasymCases,
+                                    tsymCases
+                                ],
+                                type: 'area',
+                                groups: [['% casos asintomáticos', '% casos sintomáticos']],
+                                colors: {
+                                    '% casos sintomáticos': '#B01E22',
+                                    '% casos asintomáticos': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: '% casos acumulados',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {

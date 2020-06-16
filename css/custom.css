@@ -249,7 +249,11 @@ body > div {
 #daily-actaltday-info,
 #fsex-info,
 #graves-evol-info,
-#graves-percent-evol {
+#graves-percent-evol,
+#asym-info-pie,
+#asymcases-bar-info,
+#asymcases-day-percent,
+#asymcases-total-percent {
   height: 220px;
 }
 
