@@ -15,7 +15,8 @@ var domains = {
     'pe': 'Perú',
     'tz': 'Tanzania',
     'pa': 'Panamá',
-    'bo': 'Bolivia'
+    'bo': 'Bolivia',
+    'cg': 'Congo'
 };
 
 
