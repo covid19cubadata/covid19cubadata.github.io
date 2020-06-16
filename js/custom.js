@@ -985,14 +985,14 @@ function run_calculations() {
 							symCases.push(dailySingle[i]-asymCases[i]);
 							var tpercent = (asymTotalCases[i]*100/dailySum[i]).toFixed(2);
 							tasymCases.push(tpercent);
-							tsymCases.push(100-tpercent);	
+							tsymCases.push((100-tpercent).toFixed(2));	
 							if (dailySingle[i]==0){
 								pasymCases.push(null);
 								psymCases.push(null);	
 							} else {
 								var percent = (asymCases[i]*100/dailySingle[i]).toFixed(2);
 								pasymCases.push(percent);
-								psymCases.push(100-percent);
+								psymCases.push((100-percent).toFixed(2));
 							}
 						}
                         
