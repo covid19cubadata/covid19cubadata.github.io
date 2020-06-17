@@ -2272,3 +2272,10 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,20,cu,Centro Habana,La Habana,2020/06/15,,desconocido
 ,hombre,76,cu,Cerro,La Habana,2020/06/15,,desconocido
 ,mujer,51,cu,La Lisa,La Habana,2020/06/15,,secundario
+,mujer,52,cu,Cotorro,La Habana,2020/06/16,,secundario
+,mujer,24,cu,Cerro,La Habana,2020/06/16,,desconocido
+,mujer,62,cu,La Lisa,La Habana,2020/06/16,,secundario
+,mujer,22,cu,Cotorro,La Habana,2020/06/16,,desconocido
+,hombre,42,cu,Boyeros,La Habana,2020/06/16,,secundario
+,hombre,58,cu,Habana del Este,La Habana,2020/06/16,,secundario
+,mujer,25,cu,La Lisa,La Habana,2020/06/16,,secundario
