@@ -2302,5 +2302,5 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,59,cu,San Miguel del Padrón,La Habana,2020/06/18,,secundario
 ,mujer,59,cu,Centro Habana,La Habana,2020/06/18,,desconocido
 ,mujer,51,cu,Guanabacoa,La Habana,2020/06/18,,desconocido
-,mujer,25,cu,Boyeros,La Habana,2020/06/18,,desconocido
-,mujer,51,cu,Diez de Octubre,La Habana,2020/06/18,,desconocido
+,hombre,25,cu,Boyeros,La Habana,2020/06/18,,desconocido
+,hombre,51,cu,Diez de Octubre,La Habana,2020/06/18,,desconocido
