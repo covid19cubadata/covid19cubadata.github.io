@@ -2304,3 +2304,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,51,cu,Guanabacoa,La Habana,2020/06/18,,desconocido
 ,hombre,25,cu,Boyeros,La Habana,2020/06/18,,desconocido
 ,hombre,51,cu,Diez de Octubre,La Habana,2020/06/18,,desconocido
+,hombre,75,cu,Arroyo Naranjo,La Habana,2020/06/19,,secundario
+,mujer,45,cu,Arroyo Naranjo,La Habana,2020/06/19,,secundario
+,mujer,31,cu,La Lisa,La Habana,2020/06/19,,secundario
+,hombre,20,cu,La Lisa,La Habana,2020/06/19,,secundario
