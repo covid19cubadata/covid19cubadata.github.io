@@ -2308,6 +2308,9 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,45,cu,Arroyo Naranjo,La Habana,2020/06/19,,secundario
 ,mujer,31,cu,La Lisa,La Habana,2020/06/19,,secundario
 ,hombre,20,cu,La Lisa,La Habana,2020/06/19,,secundario
-,mujer,66,cu,Cerro,La Habana,2020/06/21,,secundario
-,mujer,46,cu,Cotorro,La Habana,2020/06/21,,secundario
-,mujer,22,cu,Cotorro,La Habana,2020/06/21,,secundario
+,mujer,66,cu,Cerro,La Habana,2020/06/20,,secundario
+,mujer,46,cu,Cotorro,La Habana,2020/06/20,,secundario
+,mujer,22,cu,Cotorro,La Habana,2020/06/20,,secundario
+,hombre,22,cu,Arroyo Naranjo,La Habana,2020/06/21,,secundario
+,hombre,28,cu,Cotorro,La Habana,2020/06/21,,secundario
+,mujer,46,cu,Habana del Este,La Habana,2020/06/21,,secundario
