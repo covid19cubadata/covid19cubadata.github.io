@@ -2314,3 +2314,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,22,cu,Arroyo Naranjo,La Habana,2020/06/21,,secundario
 ,hombre,28,cu,Cotorro,La Habana,2020/06/21,,secundario
 ,mujer,46,cu,Habana del Este,La Habana,2020/06/21,,secundario
+,mujer,43,cu,Cerro,La Habana,2020/06/22,,desconocido
+,hombre,64,cu,Cerro,La Habana,2020/06/22,,secundario
+,mujer,18,cu,Guanabacoa,La Habana,2020/06/22,,desconocido
