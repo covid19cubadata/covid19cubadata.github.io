@@ -3897,7 +3897,7 @@
             "dpacode_provincia": "29",
             "lon": -78.615591,
             "lat": 22.269206,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "ecav-4": {
@@ -52688,6 +52688,40 @@
                 "graves_numero": 0,
                 "muertes_numero": 0,
                 "asintomaticos_numero": 1
+            },
+            "105": {
+                "fecha": "2020/06/23",
+                "diagnosticados": [
+                    {
+                        "id": "cu-2290",
+                        "pais": "cu",
+                        "edad": 43,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 14,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 43 años de edad, residente en el municipio Centro Habana, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantiene en vigilancia 14 contactos. ",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 214,
+                "vigilancia_hogar": 250,
+                "tests_total": 157387,
+                "recuperados_numero": 7,
+                "criticos_numero": 1,
+                "graves_numero": 0,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 0
             }
         }
     }
