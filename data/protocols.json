@@ -4,7 +4,7 @@
             "id": "azitromicina",
             "nombre": "Azitromicina",
             "nombre-corto": "Azitromicina",
-            "categoría": "",
+            "categoría": "producido",
             "descripción": ""
         },
         "biomodulina": {
@@ -25,7 +25,7 @@
             "id": "ceftriaxona",
             "nombre": "Ceftriaxona",
             "nombre-corto": "Ceftriaxona",
-            "categoría": "",
+            "categoría": "importado",
             "descripción": ""
         },
         "cloroquina": {
@@ -39,7 +39,7 @@
             "id": "eritropoyetina ",
             "nombre": "Eritropoyetina ",
             "nombre-corto": "Eritropoyetina ",
-            "categoría": "",
+            "categoría": "producido",
             "descripción": ""
         },
         "factor": {
@@ -60,7 +60,7 @@
             "id": "hidrocortisona ",
             "nombre": "Hidrocortisona ",
             "nombre-corto": "Hidrocortisona ",
-            "categoría": "",
+            "categoría": "importado",
             "descripción": ""
         },
         "interferon": {
@@ -88,14 +88,14 @@
             "id": "metilprednisolona",
             "nombre": "Metilprednisolona",
             "nombre-corto": "Metilprednisolona",
-            "categoría": "",
+            "categoría": "producido",
             "descripción": ""
         },
         "oseltamivir": {
             "id": "oseltamivir",
             "nombre": "Oseltamivir",
             "nombre-corto": "Oseltamivir",
-            "categoría": "",
+            "categoría": "producido",
             "descripción": ""
         },
         "plasma": {
@@ -130,7 +130,7 @@
             "id": "vancomicina",
             "nombre": "Vancomicina",
             "nombre-corto": "Vancomicina",
-            "categoría": "",
+            "categoría": "producido",
             "descripción": ""
         }
     },
