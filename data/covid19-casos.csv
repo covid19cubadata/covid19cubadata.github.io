@@ -2320,3 +2320,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,43,cu,Centro Habana,La Habana,2020/06/23,,secundario
 ,mujer,30,cu,Habana del Este,La Habana,2020/06/24,,secundario
 ,mujer,50,cu,Arroyo Naranjo,La Habana,2020/06/24,,secundario
+,hombre,41,cu,Cotorro,La Habana,2020/06/25,,secundario
+,mujer,58,cu,Cotorro,La Habana,2020/06/25,,secundario
+,mujer,63,cu,Cotorro,La Habana,2020/06/25,,desconocido
+,hombre,61,cu,San José de las Lajas,Mayabeque,2020/06/25,,desconocido
