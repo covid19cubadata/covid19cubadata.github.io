@@ -1882,6 +1882,26 @@
             },
             "107": {
                 "fecha": "2020/06/25"
+            },
+            "108": {
+                "fecha": "2020/06/26",
+                "fallecidos": [
+                    {
+                        "id": "f-86",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 78 años de edad, procedente del municipio Cotorro. Antecedentes Patológicos Personales: Hipertensión Arterial. Tuvo una estadía hospitalaria de 23 días. Fue ingresada en terapia por presentar disnea ligera y decaimiento. Se incrementó la disnea y el agotamiento, fue intubada y ventilada en modalidad controlada. En el Rx se observaron lesiones inflamatoria bibasales. El 22 de junio se mantuvo ventilada en modalidad controlada, y presentó sangramiento por tubo orotraqueal. La evolución se caracterizó por la persistencia de distres respiratorio a pesar de las acciones y maniobras de soporte ventilatorio realizadas. Presentó Bloqueo Completo de Rama Izquierda Agudo, signo indirecto de Infarto Agudo del Miocardio, hace parada cardiorespiratoria inicial y son realizadas maniobras de reanimación cardiopulmonar. Salió de la parada cardiorespiratoria con hemodinamía inestable. Hace segunda parada cardiorespiratoria, son realizadas maniobras de reanimación que no son efectivas. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a sus familiares y amigos."
+                    }
+                ]
             }
         }
     }
