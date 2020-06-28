@@ -2329,3 +2329,5 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,65,cu,San José de las Lajas,Mayabeque,2020/06/26,,secundario
 ,hombre,18,cu,San José de las Lajas,Mayabeque,2020/06/26,,secundario
 ,hombre,51,cu,Cienfuegos,Cienfuegos,2020/06/26,,primario
+,hombre,4,cu,Cotorro,La Habana,2020/06/27,,secundario
+,mujer,50,cu,Centro Habana,La Habana,2020/06/27,,secundario
