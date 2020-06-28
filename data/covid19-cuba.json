@@ -52992,6 +52992,61 @@
                 "graves_numero": 0,
                 "muertes_numero": 1,
                 "asintomaticos_numero": 4
+            },
+            "109": {
+                "fecha": "2020/06/27",
+                "diagnosticados": [
+                    {
+                        "id": "cu-2302",
+                        "pais": "cu",
+                        "edad": 4,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 26,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 4 años de edad, residente en el municipio Cotorro, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 26 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-2303",
+                        "pais": "cu",
+                        "edad": 50,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 17,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 50 años de edad, residente en el municipio Centro Habana, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 17 contactos. ",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 98,
+                "vigilancia_hogar": 84,
+                "tests_total": 166335,
+                "recuperados_numero": 14,
+                "criticos_numero": 0,
+                "graves_numero": 0,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 1
             }
         }
     }
