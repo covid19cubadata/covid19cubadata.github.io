@@ -11,6 +11,14 @@ $.getJSON("data/protocols.json",function(protocols){
 	$('#slider-max').html(prots.length);
 	$('#last-version').html(prots.length);
 	
+	var vertext = "";
+	for(var version in prots){
+		console.log(version);
+		var indic = protocols.protocolos[prots[version]]
+		vertext +='<li><a href="protocolos/"'+indic.file+'>'+indic.nombre+' (protocolo versión '+indic.version+')</a></li>';	
+	}
+	$('#protocolos-files').html(vertext);
+	
 	
 	function setProtocol(ver){
 		var version = $('#slider').val();

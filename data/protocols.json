@@ -197,6 +197,7 @@
     "protocolos": {
         "1": {
             "id": "1",
+            "file": "protocolo-version-1.pdf",
             "nombre": "Manejo clínico de COVID 19",
             "fecha": "",
             "version": 1,
@@ -306,6 +307,7 @@
         },
         "2": {
             "id": "2",
+            "file": "protocolo-version-2.pdf",
             "nombre": "Protocolo Nacional MINSAP vs COVID-19",
             "fecha": "2020/04/04",
             "version": 2,
@@ -423,6 +425,7 @@
         },
         "3": {
             "id": "3",
+            "file": "protocolo-version-3.pdf",
             "nombre": "Protocolo de Actuación Nacional para la COVID-19",
             "fecha": "2020/05/15",
             "version": 3,
@@ -577,6 +580,7 @@
         },
         "4": {
             "id": "4",
+            "file": "protocolo-version-4.pdf",
             "nombre": "Protocolo de Actuación Nacional para la COVID-19",
             "fecha": "2020/05/01",
             "version": 4,

@@ -40,6 +40,11 @@ body > div {
 	font-size: 15px;
 }
 
+#protocolos-legend {
+	margin-top: 15px;
+	text-align: center;
+}
+
 .new  {
   border-bottom-style: solid;
   border-color: #B11116;
@@ -58,6 +63,22 @@ body > div {
 
 .importado {
 	background-color: #CA9F31;
+}
+
+.tnacional {
+	color: #D0797C;
+}
+
+.tproducido {
+	color: #1A8323;
+}
+
+.timportado {
+	color: #CA9F31;
+}
+
+.tnone {
+	color: #FFFFFF;
 }
 
 .selection {
