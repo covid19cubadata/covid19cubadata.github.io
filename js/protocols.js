@@ -15,7 +15,7 @@ $.getJSON("data/protocols.json",function(protocols){
 	for(var version in prots){
 		console.log(version);
 		var indic = protocols.protocolos[prots[version]]
-		vertext +='<li><a href="protocolos/"'+indic.file+'>'+indic.nombre+' (protocolo versión '+indic.version+')</a></li>';	
+		vertext +='<li><a href="protocolos/'+indic.file+'">'+indic.nombre+' (protocolo versión '+indic.version+')</a></li>';	
 	}
 	$('#protocolos-files').html(vertext);
 	
@@ -25,6 +25,8 @@ $.getJSON("data/protocols.json",function(protocols){
 		$('#slider-value').html(version);
 		if (version!=1){
 			$('#date').html('Fecha: '+protocols.protocolos[version].fecha+' -');
+		} else {
+			$('#date').html('');
 		}
 		var text = '<table class="table table-striped table-sm mb-0">';
 		var textp = '';
@@ -33,7 +35,7 @@ $.getJSON("data/protocols.json",function(protocols){
 		
 		for(var i in escen){
 			var clas = 'class="escenario  '+protocols.escenarios[escen[i]].categoria+'"';
-			text += '<td '+clas+'>'+protocols.escenarios[escen[i]]['nombre-corto']+'</td>';	
+			text += '<td '+clas+' title="'+protocols.escenarios[escen[i]]['nombre']+'">'+protocols.escenarios[escen[i]]['nombre-corto']+'</td>';	
 		};
 		
 		text += '</tr></thead><tbody>';
@@ -66,7 +68,7 @@ $.getJSON("data/protocols.json",function(protocols){
 					var clas = 'class="center"';
 					var clasp ='class="med '+nw+'"'
 					text += '<td '+clas+'><span><i class="fa fa-square selection'+nw+'"></i><span></td>';
-					textp += '&nbsp;<span '+clasp+'>'+protocols.escenarios[escen[j]].abreviatura+'</span>';
+					textp += '&nbsp;<span '+clasp+' title="'+protocols.escenarios[escen[j]]['nombre']+'">'+protocols.escenarios[escen[j]].abreviatura+'</span>';
 				} else {
 					text += '<td></td>';	
 				}
