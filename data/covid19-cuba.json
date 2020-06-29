@@ -53201,8 +53201,8 @@
                     {
                         "id": "cu-2311",
                         "pais": "cu",
-                        "edad": null,
-                        "sexo": "hombre",
+                        "edad": 58,
+                        "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Diez de Octubre",
