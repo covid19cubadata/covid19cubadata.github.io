@@ -2331,3 +2331,11 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,51,cu,Cienfuegos,Cienfuegos,2020/06/26,,primario
 ,hombre,4,cu,Cotorro,La Habana,2020/06/27,,secundario
 ,mujer,50,cu,Centro Habana,La Habana,2020/06/27,,secundario
+,mujer,24,cu,Cotorro,La Habana,2020/06/28,,secundario
+,hombre,49,cu,Cotorro,La Habana,2020/06/28,,secundario
+,hombre,4,cu,Cotorro,La Habana,2020/06/28,,secundario
+,mujer,55,cu,Cotorro,La Habana,2020/06/28,,secundario
+,hombre,9,cu,Cotorro,La Habana,2020/06/28,,secundario
+,mujer,53,cu,Plaza de la Revolución,La Habana,2020/06/28,,desconocido
+,hombre,39,cu,San Miguel del Padrón,La Habana,2020/06/28,,secundario
+,hombre,,cu,Diez de Octubre,La Habana,2020/06/28,,desconocido
