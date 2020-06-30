@@ -3729,7 +3729,7 @@
             "dpacode_provincia": "23",
             "lon": -82.481549,
             "lat": 23.049497,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "emay-1": {
