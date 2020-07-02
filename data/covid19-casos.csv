@@ -2347,3 +2347,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,18,cu,Cotorro,La Habana,2020/06/30,,secundario
 ,mujer,16,cu,San José de las Lajas,Mayabeque,2020/06/30,,secundario
 ,hombre,47,cu,Puerto Padre,Las Tunas,2020/06/30,,primario
+,mujer,43,cu,San Miguel del Padrón,La Habana,2020/07/01,,secundario
+,hombre,16,cu,San Miguel del Padrón,La Habana,2020/07/01,,secundario
+,mujer,8,cu,Cerro,La Habana,2020/07/01,,desconocido
+,hombre,45,cu,Cerro,La Habana,2020/07/01,,secundario
+,hombre,52,cu,Cotorro,La Habana,2020/07/01,,secundario
