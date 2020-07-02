@@ -1,6 +1,6 @@
 {
     "schema-version": 7,
-    "note-text": "",
+    "note-text": "Por un error de codificación el mes de la fecha es incorrecto pues debería decir julio. Esto será subsanado en la próxima versión.",
     "numero-reproductivo": {
         "27": {
             "value": [
