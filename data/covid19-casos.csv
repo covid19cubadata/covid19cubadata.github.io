@@ -2398,3 +2398,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,15,cu,Cotorro,La Habana,2020/07/07,,secundario
 ,mujer,27,cu,Diez de Octubre,La Habana,2020/07/07,,secundario
 ,mujer,42,cu,Cotorro,La Habana,2020/07/07,,secundario
+,hombre,49,cu,Centro Habana,La Habana,2020/07/08,,secundario
+,hombre,15,cu,Centro Habana,La Habana,2020/07/08,,secundario
+,mujer,57,cu,Diez de Octubre,La Habana,2020/07/08,,secundario
+,mujer,41,cu,Cerro,La Habana,2020/07/08,,secundario
