@@ -231,6 +231,18 @@
             "abierto": false,
             "chequeado": true
         },
+        "elha-17": {
+            "id": "elha-17",
+            "identificador": "San Joaquín",
+            "municipio": "Cerro",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.10",
+            "dpacode_provincia": "23",
+            "lon": -82.367417,
+            "lat": 23.115723,
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
