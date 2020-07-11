@@ -2412,3 +2412,10 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,62,cu,Diez de Octubre,La Habana,2020/07/09,,secundario
 ,mujer,59,cu,Diez de Octubre,La Habana,2020/07/09,,secundario
 ,mujer,45,cu,Cerro,La Habana,2020/07/09,,desconocido
+,hombre,45,cu,Centro Habana,La Habana,2020/07/10,,secundario
+,hombre,54,cu,Habana del Este,La Habana,2020/07/10,,desconocido
+,mujer,52,cu,Diez de Octubre,La Habana,2020/07/10,,primario
+,mujer,49,cu,Arroyo Naranjo,La Habana,2020/07/10,,primario
+,hombre,68,cu,Cerro,La Habana,2020/07/10,,secundario
+,hombre,41,cu,,Villa Clara,2020/07/10,,primario
+,mujer,60,cu,,Santiago de Cuba,2020/07/10,,primario
