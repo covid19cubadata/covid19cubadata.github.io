@@ -1937,10 +1937,31 @@
                 "fecha": "2020/07/07"
             },
             "120": {
-                "fecha": "2020/07/08"
+                "fecha": "2020/07/08",
+                "fallecidos": [
+                    {
+                        "id": "f-87",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 68 años de edad, residía en el municipio Cerro, provincia La Habana. Paciente con domicilio relacionado con el control de foco del evento San Joaquín del municipio Cerro. Antecedentes Patológicos Personales: Hipertensión Arterial. El pasado 29 de junio el paciente con fiebre alta, mialgia, hiperestesia del cuero cabelludo, se mantuvo en la casa sin mejoría hasta el 1 de julio que acude al Policlínico Abel Santamaría, es evaluado por el médico de la consulta de Infección Respiratoria Aguda y el clínico jefe de la comisión evaluadora, le hacen un test rápido, Rx tórax ambos resultaron negativos y deciden remitirlo al Hospital Joaquín Albarrán, donde fue ingresado evoluciona favorablemente y el 3 de julio le realizan IgM que resultó no reactivo y le dan el alta. El día 5 de julio, comienza con tos seca y falta de aire, que fue empeorando progresivamente y el día 8 de julio acude al Servicio de Urgencias de Hospital Clínico Quirúrgico Diez de Octubre de Octubre. Lo reciben a las 9.00 am  con falta de aire intensa, tos seca y fiebre de 38.50C. Fue trasladado para Cuidados Especiales, le canalizan vena lo hidratan, le dan aerosol de salbutamol, le indican ceftriaxone 1g EV, le toman muestra de sangre para estudio y se realiza el PCR. A las 11:50 am hace una parada cardíaca,  de la que no se recupera  después de 45 min de reanimación, fue declarado fallecido a las 12:40 pm del 8 de julio. Se le realiza necropsia, le toman muestra de pulmón que resultó positivo a COVID-19 en el día de ayer. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos nuestras más sentidas condolencias. ",
+                        "nota": "El fallecido fue reportado en el parte correspondiente al día 10 de julio (que se publica el día 11) pero como se especifica en el texto su fallecimiento ocurrió el día 8 de de julio"
+                    }
+                ]
             },
             "121": {
                 "fecha": "2020/07/09"
+            },
+            "122": {
+                "fecha": "2020/07/10"
             }
         }
     }
