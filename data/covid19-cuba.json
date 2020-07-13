@@ -55811,6 +55811,61 @@
                 "graves_numero": 1,
                 "muertes_numero": 0,
                 "asintomaticos_numero": 5
+            },
+            "124": {
+                "fecha": "2020/07/12",
+                "diagnosticados": [
+                    {
+                        "id": "cu-2398",
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 84 años de edad, residente en el municipio Cerro, provincia La Habana. Contacto de casos confirmados anteriormente. Se mantienen en vigilancia 11 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-2399",
+                        "pais": "cu",
+                        "edad": 67,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Placetas",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.08",
+                        "dpacode_provincia_deteccion": "26",
+                        "contagio": "importado",
+                        "contacto_focal": 19,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 67 años de edad, residente en el municipio Placetas, provincia Villa Clara. Viajera procedente de Estados Unidos que arribó al país el 10 de julio. Se mantienen en vigilancia 19 contactos. ",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 249,
+                "vigilancia_hogar": 233,
+                "tests_total": 208098,
+                "recuperados_numero": 10,
+                "criticos_numero": 0,
+                "graves_numero": 1,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 2
             }
         }
     }
