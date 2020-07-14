@@ -2427,3 +2427,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,35,cu,Cerro,La Habana,2020/07/11,,secundario
 ,hombre,84,cu,Cerro,La Habana,2020/07/12,,secundario
 ,mujer,67,cu,Placetas,Villa Clara,2020/07/12,,primario
+,mujer,41,cu,Centro Habana,La Habana,2020/07/13,,secundario
+,hombre,51,cu,Habana del Este,La Habana,2020/07/13,,secundario
+,hombre,56,cu,Habana del Este,La Habana,2020/07/13,,secundario
+,hombre,44,cu,Cotorro,La Habana,2020/07/13,,secundario
