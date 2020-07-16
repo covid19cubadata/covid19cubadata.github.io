@@ -4324,6 +4324,18 @@
             "abierto": true,
             "chequeado": true
         },
+        "elha-18": {
+            "id": "elha-18",
+            "identificador": "Colón",
+            "municipio": "Centro Habana",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.03",
+            "dpacode_provincia": "23",
+            "lon": -82.359812,
+            "lat": 23.1412384,
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
@@ -56102,6 +56114,61 @@
                 "graves_numero": 1,
                 "muertes_numero": 0,
                 "asintomaticos_numero": 5
+            },
+            "127": {
+                "fecha": "2020/07/15",
+                "diagnosticados": [
+                    {
+                        "id": "cu-2410",
+                        "pais": "cu",
+                        "edad": 28,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 13,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 28 años de edad. Residente en el municipio Cotorro, provincia La Habana. Contacto de casos confirmados anteriormente. Se mantienen en vigilancia 13 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-2411",
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 14,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 56 años de edad. Residente en el municipio 10 de Octubre, provincia La Habana. Contacto de casos confirmados anteriormente. Se mantienen en vigilancia 14 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 251,
+                "vigilancia_hogar": 130,
+                "tests_total": 217560,
+                "recuperados_numero": 8,
+                "criticos_numero": 0,
+                "graves_numero": 1,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 2
             }
         }
     }
