@@ -2439,3 +2439,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,46,cu,Diez de Octubre,La Habana,2020/07/14,,secundario
 ,hombre,28,cu,Cotorro,La Habana,2020/07/15,,secundario
 ,mujer,56,cu,Diez de Octubre,La Habana,2020/07/15,,secundario
+,hombre,45,cu,La Lisa,La Habana,2020/07/16,,secundario
+,mujer,29,cu,Diez de Octubre,La Habana,2020/07/16,,secundario
+,mujer,31,cu,Arroyo Naranjo,La Habana,2020/07/16,,secundario
+,mujer,64,cu,Boyeros,La Habana,2020/07/16,,secundario
