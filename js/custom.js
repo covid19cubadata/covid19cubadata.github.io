@@ -196,7 +196,7 @@ $.walker = {
             $('[data-content=nofallecd]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent, #asyminfo, #asymbar, #asymperday, #asympertot');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent, #asyminfo, #asymbar, #asymperday, #asympertot, #homehospday, #hospday');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -489,6 +489,9 @@ function run_calculations() {
                         var asymTotal = 0;
                         var asymCases = ['Casos asintomáticos'];
                         var asymTotalCases = ['Total de casos asintomáticos'];
+                        
+                        var hosp = ['Hospitalizados'];
+                        var hogar = ['Vigilancia en el hogar'];
 
                         for (var day in data.casos.dias) {
                             if ('diagnosticados' in data.casos.dias[day]) {
@@ -660,8 +663,26 @@ function run_calculations() {
 								asymCases.push(0);
 								asymTotalCases.push(asymTotal);
 							}
+							
+							if ('vigilancia_hogar' in data.casos.dias[day]) {
+								hogar.push(data.casos.dias[day].vigilancia_hogar);
+							} else {
+								hogar.push(null);
+							}
+							
+							if ('sujetos_riesgo' in data.casos.dias[day]) {
+								hosp.push(data.casos.dias[day].sujetos_riesgo);
+							} else {
+								hosp.push(null);
+							}
                             
                         }
+                        
+                        for(var i in check_cases){
+							if (check_cases[i]>1){
+								console.log(i);	
+							}	
+						}
                         
 
                         //Bar for countries
@@ -1089,6 +1110,79 @@ function run_calculations() {
                         });
                         
                         
+                      
+                        //Hospitalización y Vigilancia hogar
+                        c3.generate({
+                            bindto: "#home-hosp-evol",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    hosp,
+                                    hogar
+                                ],
+                                type: 'area',
+                                groups: [['Hospitalizados', 'Vigilancia en el hogar']],
+                                colors: {
+                                    'Hospitalizados': '#B01E22',
+                                    'Vigilancia en el hogar': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Personas en vigilancia',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        var hosp_no_conf = ['Hospitalizados no confirmados'];
+                        var hosp_conf = ['Hospitalizados confirmados'];
+                        for(var i=1;i<dailyActive.length;i++){
+							hosp_conf.push(dailyActive[i]);
+							if (hosp[i]!=null){
+								hosp_no_conf.push(hosp[i]-dailyActive[i]);	
+							} else {
+								hosp_no_conf.push(null);		
+							}
+						}
+						
+						//Hospitalización
+                        c3.generate({
+                            bindto: "#hosp-evol",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    hosp_no_conf,
+                                    hosp_conf
+                                ],
+                                type: 'area',
+                                groups: [['Hospitalizados no confirmados', 'Hospitalizados confirmados']],
+                                colors: {
+                                    'Hospitalizados confirmados': '#B01E22',
+                                    'Hospitalizados no confirmados': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Personas hospitalizadas',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {
@@ -1121,6 +1215,8 @@ function run_calculations() {
                         }
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
+                        
+                        console.log(ntest_days,ntest_cases);
 
                         tests = c3.generate({
                             bindto: "#tests-line-info",
