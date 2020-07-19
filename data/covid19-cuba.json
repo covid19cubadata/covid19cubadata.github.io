@@ -56300,6 +56300,42 @@
                 "graves_numero": 0,
                 "muertes_numero": 0,
                 "asintomaticos_numero": 0
+            },
+            "130": {
+                "fecha": "2020/07/18",
+                "diagnosticados": [
+                    {
+                        "id": "cu-2417",
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Yara",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "23.05",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "importado",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [
+
+                        ],
+                        "info": "Ciudadana cubana de 72 años de edad. Residente en el municipio Yara, provincia Granma. Fuente de infección en el extranjero, caso importado. Se mantienen en vigilancia 11 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 187,
+                "vigilancia_hogar": 190,
+                "tests_total": 226443,
+                "recuperados_numero": 4,
+                "criticos_numero": 0,
+                "graves_numero": 0,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 0
             }
         }
     }
