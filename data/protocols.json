@@ -132,6 +132,13 @@
             "nombre-corto": "Vancomicina",
             "categoría": "producido",
             "descripción": ""
+        },
+        "heberferon": {
+            "id": "heberferon",
+            "nombre": "Heberferón",
+            "nombre-corto": "heberferon",
+            "categoría": "nacional",
+            "descripción": ""
         }
     },
     "escenarios": {
@@ -711,7 +718,8 @@
                         "orden": 12,
                         "escenarios": {
                             "graves": [
-                                "empeoramiento de la actividad pulmonar"
+                                "empeoramiento de la actividad pulmonar",
+                                "sospecha de síndrome de activación de macrófagos"
                             ]
                         }
                     },
