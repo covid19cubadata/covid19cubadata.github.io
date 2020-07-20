@@ -56336,6 +56336,17 @@
                 "graves_numero": 0,
                 "muertes_numero": 0,
                 "asintomaticos_numero": 0
+            },
+            "131": {
+                "fecha": "2020/07/19",
+                "sujetos_riesgo": 123,
+                "vigilancia_hogar": 135,
+                "tests_total": 229357,
+                "recuperados_numero": 11,
+                "criticos_numero": 0,
+                "graves_numero": 0,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 0
             }
         }
     }
