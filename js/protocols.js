@@ -78,7 +78,7 @@ $.getJSON("data/protocols.json",function(protocols){
 		}
 		
 		text += '</tbody></table>'
-		$('#protocolos').html(text);
+		$('#protocolost').html(text);
 		$('#protocolos-resp').html(textp);
 	}
 	
