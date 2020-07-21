@@ -2445,3 +2445,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,64,cu,Boyeros,La Habana,2020/07/16,,secundario
 ,hombre,21,cu,Regla,La Habana,2020/07/17,,desconocido
 ,mujer,72,cu,Yara,Granma,2020/07/18,,primario
+,mujer,53,cu,Bauta,Artemisa,2020/07/20,,desconocido
+,hombre,34,cu,Arroyo Naranjo,La Habana,2020/07/20,,secundario
+,mujer,24,cu,Plaza de la Revolución,La Habana,2020/07/20,,primario
