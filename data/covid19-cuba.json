@@ -56347,6 +56347,86 @@
                 "graves_numero": 0,
                 "muertes_numero": 0,
                 "asintomaticos_numero": 0
+            },
+            "132": {
+                "fecha": "2020/07/20",
+                "diagnosticados": [
+                    {
+                        "id": "cu-2418",
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Bauta",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.05",
+                        "dpacode_provincia_deteccion": "22",
+                        "contagio": null,
+                        "contacto_focal": 20,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 53 años de edad, perteneciente al municipio Bauta, provincia Artemisa. Se investiga la fuente de infección. Se mantienen en vigilancia 20 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-2419",
+                        "pais": "cu",
+                        "edad": 34,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 17,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [
+
+                        ],
+                        "info": "Ciudadano cubano de 34 años de edad, perteneciente al municipio Arroyo Naranjo, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 17 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-2420",
+                        "pais": "cu",
+                        "edad": 24,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "33.05",
+                        "dpacode_provincia_deteccion": "33",
+                        "contagio": "importado",
+                        "contacto_focal": 2,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
+                        "info": "Ciudadana cubana de 24 años de edad, perteneciente al municipio Plaza, provincia La Habana. Viajera procedente de México. Se mantienen en vigilancia 2 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 136,
+                "vigilancia_hogar": 146,
+                "tests_total": 232103,
+                "recuperados_numero": 2,
+                "criticos_numero": 1,
+                "graves_numero": 0,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 1
             }
         }
     }
