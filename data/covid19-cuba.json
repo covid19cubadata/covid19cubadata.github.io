@@ -4120,6 +4120,18 @@
             "abierto": false,
             "chequeado": true
         },
+        "eart-2": {
+            "id": "eart-2",
+            "identificador": "Área de salud 'Pedro Esperón'",
+            "municipio": "Bauta",
+            "provincia": "Artemisa",
+            "dpacode_municipio": "22.05",
+            "dpacode_provincia": "22",
+            "lon": -82.548233,
+            "lat": 22.979996,
+            "abierto": true,
+            "chequeado": true
+        },
         "elha-1": {
             "id": "elha-1",
             "identificador": "Consejo Popular El Carmelo",
