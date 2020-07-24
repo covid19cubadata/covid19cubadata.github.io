@@ -2465,3 +2465,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,30,cu,Arroyo Naranjo,La Habana,2020/07/22,,secundario
 ,mujer,21,cu,Arroyo Naranjo,La Habana,2020/07/22,,secundario
 ,mujer,19,cu,La Lisa,La Habana,2020/07/22,,desconocido
+,mujer,61,cu,Bauta,Artemisa,2020/07/23,,secundario
+,hombre,27,cu,Regla,La Habana,2020/07/23,,desconocido
+,hombre,43,cu,Cerro,La Habana,2020/07/23,,primario
