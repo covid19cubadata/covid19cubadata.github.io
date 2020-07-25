@@ -16,7 +16,8 @@ var domains = {
     'tz': 'Tanzania',
     'pa': 'Panamá',
     'bo': 'Bolivia',
-    'cg': 'Congo'
+    'cg': 'Congo',
+    'bs': 'Bahamas'
 };
 
 
