@@ -57453,9 +57453,9 @@
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
-                        "municipio_detección": null,
+                        "municipio_detección": "Camagüey",
                         "provincia_detección": "Camagüey",
-                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
                         "contagio": "importado",
                         "contacto_focal": 41,
@@ -57464,7 +57464,7 @@
                         "posible_procedencia_contagio": [
                             "ve"
                         ],
-                        "info": "Ciudadana cubana de 67 años de edad. Reside en el municipio Oeste, provincia Camagüey. Viajera procedente de Venezuela. Se mantienen en vigilancia 41 contactos. ",
+                        "info": "Ciudadana cubana de 67 años de edad. Reside en el municipio Camagüey, provincia del mismo nombre. Viajera procedente de Venezuela. Se mantienen en vigilancia 41 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
