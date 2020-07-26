@@ -2493,4 +2493,4 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,8,cu,La Lisa,La Habana,2020/07/25,,secundario
 ,mujer,47,cu,Cruces,Cienfuegos,2020/07/25,,primario
 ,mujer,66,cu,Venezuela,Ciego de Ávila,2020/07/25,,primario
-,mujer,67,cu,,Camagüey,2020/07/25,,primario
+,mujer,67,cu,Camagüey,Camagüey,2020/07/25,,primario
