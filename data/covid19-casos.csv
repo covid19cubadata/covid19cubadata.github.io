@@ -2477,3 +2477,20 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,28,cu,Centro Habana,La Habana,2020/07/24,,secundario
 ,mujer,60,cu,Cienfuegos,Cienfuegos,2020/07/24,,primario
 ,hombre,35,cu,Manzanillo,Granma,2020/07/24,,primario
+,mujer,24,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,29,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,23,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,34,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,27,cu,Bauta,Artemisa,2020/07/25,,secundario
+,mujer,32,cu,Bauta,Artemisa,2020/07/25,,secundario
+,mujer,32,cu,Bauta,Artemisa,2020/07/25,,secundario
+,mujer,22,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,24,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,20,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,22,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,hombre,37,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,42,cu,La Lisa,La Habana,2020/07/25,,secundario
+,hombre,8,cu,La Lisa,La Habana,2020/07/25,,secundario
+,mujer,47,cu,Cruces,Cienfuegos,2020/07/25,,primario
+,mujer,66,cu,Venezuela,Ciego de Ávila,2020/07/25,,primario
+,mujer,67,cu,,Camagüey,2020/07/25,,primario
