@@ -4348,6 +4348,18 @@
             "abierto": true,
             "chequeado": true
         },
+        "elha-19": {
+            "id": "elha-19",
+            "identificador": "Manzana 180 del Policlínico 'Antonio Pulido Humarán'",
+            "municipio": "La Lisa",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.12",
+            "dpacode_provincia": "23",
+            "lon": -82.467208,
+            "lat": 23.039465,
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
