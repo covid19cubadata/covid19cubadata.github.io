@@ -4132,6 +4132,18 @@
             "abierto": true,
             "chequeado": true
         },
+        "eart-3": {
+            "id": "eart-3",
+            "identificador": "Baracoa",
+            "municipio": "Bauta",
+            "provincia": "Artemisa",
+            "dpacode_municipio": "22.05",
+            "dpacode_provincia": "22",
+            "lon": -82.558287,
+            "lat": 23.049569,
+            "abierto": true,
+            "chequeado": true
+        },
         "elha-1": {
             "id": "elha-1",
             "identificador": "Consejo Popular El Carmelo",
