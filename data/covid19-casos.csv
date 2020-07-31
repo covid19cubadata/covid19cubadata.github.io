@@ -2596,3 +2596,14 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,50,cu,Arroyo Naranjo,La Habana,2020/07/29,,primario
 ,mujer,54,cu,Boyeros,La Habana,2020/07/29,,primario
 ,hombre,18,cu,La Lisa,La Habana,2020/07/29,,secundario
+,hombre,23,cu,Marianao,La Habana,2020/07/30,,secundario
+,hombre,16,cu,Plaza de la Revolución,La Habana,2020/07/30,,secundario
+,hombre,24,cu,Diez de Octubre,La Habana,2020/07/30,,secundario
+,hombre,36,cu,Playa,La Habana,2020/07/30,,secundario
+,mujer,57,cu,Bauta,Artemisa,2020/07/30,,secundario
+,hombre,48,cu,Bauta,Artemisa,2020/07/30,,secundario
+,hombre,41,cu,Bauta,Artemisa,2020/07/30,,secundario
+,mujer,20,cu,Bauta,Artemisa,2020/07/30,,secundario
+,mujer,57,cu,Bauta,Artemisa,2020/07/30,,secundario
+,mujer,1,cu,Camajuaní,Villa Clara,2020/07/30,,desconocido
+,mujer,23,cu,Camajuaní,Villa Clara,2020/07/30,,secundario
