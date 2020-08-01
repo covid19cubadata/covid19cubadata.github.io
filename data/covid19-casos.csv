@@ -2607,3 +2607,28 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,57,cu,Bauta,Artemisa,2020/07/30,,secundario
 ,mujer,1,cu,Camajuaní,Villa Clara,2020/07/30,,desconocido
 ,mujer,23,cu,Camajuaní,Villa Clara,2020/07/30,,secundario
+,hombre,21,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,31,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,41,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,75,cu,Bauta,Artemisa,2020/07/31,,secundario
+,hombre,78,cu,Bauta,Artemisa,2020/07/31,,secundario
+,hombre,65,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,61,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,65,cu,Sanata Cruz del Norte,Mayabeque,2020/07/31,,primario
+,mujer,19,cu,Playa,La Habana,2020/07/31,,secundario
+,hombre,43,fr,Playa,La Habana,2020/07/31,,secundario
+,mujer,48,cu,Plaza de la Revolución,La Habana,2020/07/31,,secundario
+,hombre,19,cu,Plaza de la Revolución,La Habana,2020/07/31,,secundario
+,mujer,67,cu,Arroyo Naranjo,La Habana,2020/07/31,,secundario
+,mujer,63,cu,Arroyo Naranjo,La Habana,2020/07/31,,secundario
+,hombre,64,cu,Marianao,La Habana,2020/07/31,,secundario
+,mujer,34,cu,Marianao,La Habana,2020/07/31,,secundario
+,mujer,70,cu,Habana del Este,La Habana,2020/07/31,,secundario
+,hombre,20,cu,Habana del Este,La Habana,2020/07/31,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/07/31,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/07/31,,secundario
+,hombre,50,cu,Cabaiguán,Sancti Spíritus,2020/07/31,,primario
+,hombre,65,cu,Bayamo,Granma,2020/07/31,,primario
+,mujer,66,cu,Santiago de Cuba,Santiago de Cuba,2020/07/31,,primario
+,hombre,52,cu,Santiago de Cuba,Santiago de Cuba,2020/07/31,,primario
+,mujer,65,cu,Guantánamo,Guantánamo,2020/07/31,,primario
