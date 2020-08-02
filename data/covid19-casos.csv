@@ -2632,3 +2632,16 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,66,cu,Santiago de Cuba,Santiago de Cuba,2020/07/31,,primario
 ,hombre,52,cu,Santiago de Cuba,Santiago de Cuba,2020/07/31,,primario
 ,mujer,65,cu,Guantánamo,Guantánamo,2020/07/31,,primario
+,mujer,2,cu,San Antonio de los Baños,Artemisa,2020/08/01,,secundario
+,mujer,26,cu,Guane,Pinar del Río,2020/08/01,,primario
+,hombre,61,cu,Pinar del Río,Pinar del Río,2020/08/01,,primario
+,mujer,47,cu,Minas de Matahambre,Pinar del Río,2020/08/01,,primario
+,mujer,50,cu,San Luis,Pinar del Río,2020/08/01,,primario
+,mujer,58,cu,Pinar del Río,Pinar del Río,2020/08/01,,primario
+,mujer,41,cu,Pinar del Río,Pinar del Río,2020/08/01,,primario
+,mujer,53,cu,La Lisa,La Habana,2020/08/01,,secundario
+,mujer,24,cu,Marianao,La Habana,2020/08/01,,secundario
+,hombre,29,cu,Marianao,La Habana,2020/08/01,,secundario
+,mujer,47,cu,Playa,La Habana,2020/08/01,,secundario
+,hombre,25,cu,Playa,La Habana,2020/08/01,,secundario
+,hombre,45,cu,Habana del Este,La Habana,2020/08/01,,secundario
