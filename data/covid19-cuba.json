@@ -4372,6 +4372,18 @@
             "abierto": true,
             "chequeado": true
         },
+        "elha-20": {
+            "id": "elha-20",
+            "identificador": "Santa Felicia",
+            "municipio": "Marianao",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.11",
+            "dpacode_provincia": "23",
+            "lon": -82.424428,
+            "lat": 23.087178,
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
