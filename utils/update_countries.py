@@ -102,13 +102,18 @@ def get_countries_test():
     data2 = io.StringIO(data2.decode('utf8'))
     reader = csv.reader(data2)
     data = defaultdict(lambda : defaultdict(list))
-    next(reader)
+    headers = next(reader)
+    headers = {j:i for i,j in enumerate(headers)}
     for i in reader:
-        if i[18] and i[4] and i[13] and i[20]:
-            percent = float(i[4])/float(i[13])*100
-            data[i[0]]['test_efectivity'].append(percent)
-            data[i[0]]['total_tests_per_million'].append(float(i[13])*1000000/float(i[20]))
-            data[i[0]]['population'].append(int(float(i[20])))
+        total_cases = i[headers['total_cases']]
+        total_tests = i[headers['total_tests']]
+        population = i[headers['population']]
+        iso_code = i[headers['iso_code']]
+        if i[headers['tests_units']] and total_cases and total_tests and population:
+            percent = float(total_cases)/float(total_tests)*100
+            data[iso_code]['test_efectivity'].append(percent)
+            data[iso_code]['total_tests_per_million'].append(float(total_tests)*1000000/float(population))
+            data[iso_code]['population'].append(int(float(population)))
     path = os.path.join('data', 'countries_test.json')
     json.dump(data,open(path,'w'))
     for i in data.keys():
