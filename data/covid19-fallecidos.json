@@ -2031,6 +2031,24 @@
             },
             "145": {
                 "fecha": "2020/08/02"
+            },
+            "146": {
+                "fecha": "2020/08/03",
+                "fallecidos": [
+                    {
+                        "id": "f-88",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [],
+                        "texto": "Falleció el ciudadano cubano de 84 años de edad, residente en el municipio Diez de Octubre, provincia La Habana. Paciente que fue ingresado por presentar fiebre. Presentó empeoramiento de la disnea, trastornos de conciencia, hipotensión arterial y anuria y fue trasladado a terapia intensiva donde es intubado y ventilado en modalidad controlada. En los exámenes complementarios se precisaron leucocitosis y cifras de glicemia elevada, en el Rx aparecieron lesiones de aspecto inflamatorio en ambos campos pulmonares. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Fue realizada necropsia donde se confirma el diagnostico de COVID-19. Lamentamos profundamente lo ocurrido y transmitimos las condolencias a familiares y amigos."
+                    }
+                ]
             }
         }
     }
