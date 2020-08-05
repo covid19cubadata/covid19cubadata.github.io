@@ -2700,3 +2700,28 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,33,cu,Holguín,Holguín,2020/08/03,,primario
 ,hombre,45,cu,Holguín,Holguín,2020/08/03,,primario
 ,mujer,45,cu,Jiguaní,Granma,2020/08/03,,primario
+,hombre,43,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,43,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,9,cu,Bauta,Artemisa,2020/08/04,,secundario
+,mujer,58,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,59,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,30,cu,Caimito,Artemisa,2020/08/04,,secundario
+,hombre,49,cu,San Antonio de los Baños,Artemisa,2020/08/04,,secundario
+,hombre,24,cu,San Antonio de los Baños,Artemisa,2020/08/04,,secundario
+,hombre,32,cu,Artemisa,Artemisa,2020/08/04,,secundario
+,hombre,29,cu,San Antonio de los Baños,Artemisa,2020/08/04,,secundario
+,mujer,55,cu,Mariel,Artemisa,2020/08/04,,secundario
+,mujer,58,cu,San Cristóbal,Artemisa,2020/08/04,,secundario
+,hombre,55,cu,San Cristóbal,Artemisa,2020/08/04,,secundario
+,hombre,23,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,22,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,54,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,24,cu,Marianao,La Habana,2020/08/04,,secundario
+,mujer,30,cu,Habana del Este,La Habana,2020/08/04,,secundario
+,mujer,28,cu,Marianao,La Habana,2020/08/04,,secundario
+,mujer,50,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,25,cu,Plaza de la Revolución,La Habana,2020/08/04,,desconocido
+,hombre,63,cu,Boyeros,La Habana,2020/08/04,,desconocido
+,mujer,19,cu,Habana del Este,La Habana,2020/08/04,,secundario
+,mujer,53,cu,Cienfuegos,Cienfuegos,2020/08/04,,primario
+,hombre,28,cu,Guantánamo,Guantánamo,2020/08/04,,primario
