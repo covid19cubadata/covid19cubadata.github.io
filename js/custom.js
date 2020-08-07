@@ -17,7 +17,8 @@ var domains = {
     'pa': 'Panamá',
     'bo': 'Bolivia',
     'cg': 'Congo',
-    'bs': 'Bahamas'
+    'bs': 'Bahamas',
+    'mx': 'México'
 };
 
 
