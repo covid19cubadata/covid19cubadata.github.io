@@ -2780,8 +2780,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,47,cu,Artemisa,Artemisa,2020/08/06,,secundario
 ,hombre,44,cu,Boyeros,La Habana,2020/08/06,,secundario
 ,mujer,60,cu,Boyeros,La Habana,2020/08/06,,secundario
-,mujer,59,cu,La Habana Vieja,La Habana ,2020/08/06,,primario
-,36,hombre,cu,Centro Habana,La Habana,2020/08/06,,primario
+,mujer,59,cu,La Habana Vieja,La Habana,2020/08/06,,primario
+,hombre,36,cu,Centro Habana,La Habana,2020/08/06,,primario
 ,mujer,27,mx,Plaza de la Revolución,La Habana,2020/08/06,,primario
 ,hombre,28,mx,Plaza de la Revolución,La Habana,2020/08/06,,primario
 ,mujer,52,cu,Habana del Este,La Habana,2020/08/06,,secundario
