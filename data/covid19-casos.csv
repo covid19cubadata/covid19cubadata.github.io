@@ -2870,7 +2870,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,48,cu,,Santiago de Cuba,2020/08/07,,primario
 ,mujer,37,cu,,Santiago de Cuba,2020/08/07,,primario
 ,mujer,48,cu,,Santiago de Cuba,2020/08/07,,primario
-,mujer,46,cu,,Guantánamo,2020/08/07,,primario
+,mujer,46,cu,,Granma,2020/08/07,,primario
 ,mujer,39,cu,,Granma,2020/08/07,,primario
 ,mujer,43,cu,,Granma,2020/08/07,,primario
 ,hombre,41,cu,,Granma,2020/08/07,,primario
@@ -2884,6 +2884,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,42,cu,,Guantánamo,2020/08/07,,primario
 ,hombre,38,cu,,Guantánamo,2020/08/07,,primario
 ,hombre,41,cu,,Guantánamo,2020/08/07,,primario
-,hombre,45,cu,,Guantánamo,2020/08/07,,primario
+,mujer,45,cu,,Guantánamo,2020/08/07,,primario
 ,hombre,31,cu,,Pinar del Río,2020/08/07,,primario
 ,mujer,48,cu,,Pinar del Río,2020/08/07,,primario
