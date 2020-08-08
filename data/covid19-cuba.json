@@ -4261,7 +4261,7 @@
             "dpacode_provincia": "23",
             "lon": -82.371030,
             "lat": 23.129591,
-            "abierto": true,
+            "abierto": false,
             "chequeado": false
         },
         "elha-10": {
@@ -4357,7 +4357,7 @@
             "dpacode_provincia": "23",
             "lon": -82.367417,
             "lat": 23.115723,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-18": {
@@ -4369,7 +4369,7 @@
             "dpacode_provincia": "23",
             "lon": -82.359812,
             "lat": 23.1412384,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "elha-19": {
@@ -4393,6 +4393,42 @@
             "dpacode_provincia": "23",
             "lon": -82.424428,
             "lat": 23.087178,
+            "abierto": true,
+            "chequeado": true
+        },
+        "elha-21": {
+            "id": "elha-21",
+            "identificador": "Tarará",
+            "municipio": "Habana del Este",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.06",
+            "dpacode_provincia": "23",
+            "lon": -82.205415,
+            "lat": 23.175457,
+            "abierto": true,
+            "chequeado": true
+        },
+        "elha-22": {
+            "id": "elha-22",
+            "identificador": "Mégano",
+            "municipio": "Habana del Este",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.06",
+            "dpacode_provincia": "23",
+            "lon": -82.196748,
+            "lat": 23.174473,
+            "abierto": true,
+            "chequeado": true
+        },
+        "elha-23": {
+            "id": "elha-23",
+            "identificador": "Guanabo",
+            "municipio": "Habana del Este",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.06",
+            "dpacode_provincia": "23",
+            "lon": -82.144399,
+            "lat": 23.165774,
             "abierto": true,
             "chequeado": true
         },
@@ -4490,6 +4526,18 @@
             "lon": -79.933302,
             "lat": 22.430672,
             "abierto": false,
+            "chequeado": true
+        },
+        "evcl-5": {
+            "id": "evcl-5",
+            "identificador": "Camajuaní",
+            "municipio": "Camajuaní",
+            "provincia": "Villa Clara",
+            "dpacode_municipio": "26.05",
+            "dpacode_provincia": "26",
+            "lon": -79.723267,
+            "lat": 22.468899,
+            "abierto": true,
             "chequeado": true
         },
         "essp-1": {
