@@ -4432,6 +4432,30 @@
             "abierto": true,
             "chequeado": true
         },
+        "elha-24": {
+            "id": "elha-24",
+            "identificador": "La Lisa",
+            "municipio": "La Lisa",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.12",
+            "dpacode_provincia": "23",
+            "lon": -82.465954,
+            "lat": 23.056496,
+            "abierto": true,
+            "chequeado": true
+        },
+        "elha-25": {
+            "id": "elha-25",
+            "identificador": "1rq y 70",
+            "municipio": "Playa",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.01",
+            "dpacode_provincia": "23",
+            "lon": -82.438637,
+            "lat": 23.112460, 
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
