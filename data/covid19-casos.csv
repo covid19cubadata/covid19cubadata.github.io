@@ -2417,7 +2417,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,52,cu,Diez de Octubre,La Habana,2020/07/10,,primario
 ,mujer,49,cu,Arroyo Naranjo,La Habana,2020/07/10,,primario
 ,hombre,68,cu,Cerro,La Habana,2020/07/10,,secundario
-,hombre,41,cu,,Villa Clara,2020/07/10,,primario
+,hombre,41,cu,Manicaragua,Villa Clara,2020/07/10,,primario
 ,mujer,60,cu,,Santiago de Cuba,2020/07/10,,primario
 ,mujer,2,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,mujer,39,cu,Centro Habana,La Habana,2020/07/11,,secundario
@@ -2834,8 +2834,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,45,cu,San Cristóbal,Artemisa,2020/08/07,,secundario
 ,hombre,26,cu,San Miguel del Padrón,La Habana,2020/08/07,,secundario
 ,mujer,42,cu,San Miguel del Padrón,La Habana,2020/08/07,,secundario
-,mujer,39,cu,,La Habana,2020/08/07,,primario
-,mujer,36,cu,,La Habana,2020/08/07,,primario
+,mujer,39,cu,Cerro,La Habana,2020/08/07,,primario
+,mujer,36,cu,Boyeros,La Habana,2020/08/07,,primario
 ,mujer,56,cu,Boyeros,La Habana,2020/08/07,,secundario
 ,mujer,29,cu,Boyeros,La Habana,2020/08/07,,secundario
 ,mujer,24,cu,Boyeros,La Habana,2020/08/07,,secundario
@@ -3045,3 +3045,50 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,38,cu,Holguín,Holguín,2020/08/09,,primario
 ,mujer,52,cu,Holguín,Holguín,2020/08/09,,primario
 ,mujer,39,cu,Isla de la Juventud,Isla de la Juventud,2020/08/09,,primario
+,mujer,47,cu,Artemisa,Artemisa,2020/08/10,,secundario
+,hombre,40,cu,Caimito,Artemisa,2020/08/10,,secundario
+,hombre,49,cu,Mariel,Artemisa,2020/08/10,,secundario
+,mujer,53,cu,Mariel,Artemisa,2020/08/10,,secundario
+,mujer,46,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,hombre,2,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,mujer,44,cu,Boyeros,La Habana,2020/08/10,,secundario
+,mujer,52,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,hombre,27,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,mujer,57,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,hombre,32,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,hombre,41,cu,La Lisa,La Habana,2020/08/10,,desconocido
+,hombre,42,cu,La Lisa,La Habana,2020/08/10,,secundario
+,hombre,29,cu,La Lisa,La Habana,2020/08/10,,desconocido
+,mujer,48,cu,La Lisa,La Habana,2020/08/10,,desconocido
+,mujer,35,cu,La Lisa,La Habana,2020/08/10,,secundario
+,mujer,52,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,mujer,19,cu,Diez de Octubre,La Habana,2020/08/10,,desconocido
+,hombre,49,cu,Marianao,La Habana,2020/08/10,,secundario
+,mujer,43,cu,Boyeros,La Habana,2020/08/10,,desconocido
+,hombre,69,cu,Boyeros,La Habana,2020/08/10,,secundario
+,mujer,24,cu,Boyeros,La Habana,2020/08/10,,secundario
+,mujer,52,cu,Arroyo Naranjo,La Habana,2020/08/10,,desconocido
+,mujer,29,cu,Marianao,La Habana,2020/08/10,,secundario
+,hombre,57,cu,Arroyo Naranjo,La Habana,2020/08/10,,secundario
+,hombre,53,cu,Plaza de la Revolución,La Habana,2020/08/10,,desconocido
+,hombre,24,cu,Cerro,La Habana,2020/08/10,,secundario
+,hombre,49,cu,La Habana Vieja,La Habana,2020/08/10,,desconocido
+,mujer,80,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
+,hombre,35,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,mujer,30,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
+,hombre,20,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
+,hombre,9,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,mujer,48,cu,Plaza de la Revolución,La Habana,2020/08/10,,desconocido
+,mujer,27,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,mujer,54,cu,La Lisa,La Habana,2020/08/10,,secundario
+,hombre,23,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
+,hombre,31,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
+,hombre,25,cu,Playa,La Habana,2020/08/10,,desconocido
+,hombre,39,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,hombre,21,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,hombre,22,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,mujer,55,cu,San Miguel del Padrón,La Habana,2020/08/10,,secundario
+,mujer,54,cu,Camajuaní,Villa Clara,2020/08/10,,secundario
+,hombre,42,cu,Camajuaní,Villa Clara,2020/08/10,,secundario
+,hombre,72,cu,Camajuaní,Villa Clara,2020/08/10,,secundario
+,hombre,31,cu,Manicaragua,Villa Clara,2020/08/10,,secundario
