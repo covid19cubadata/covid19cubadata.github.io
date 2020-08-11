@@ -2418,7 +2418,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,49,cu,Arroyo Naranjo,La Habana,2020/07/10,,primario
 ,hombre,68,cu,Cerro,La Habana,2020/07/10,,secundario
 ,hombre,41,cu,Manicaragua,Villa Clara,2020/07/10,,primario
-,mujer,60,cu,,Santiago de Cuba,2020/07/10,,primario
+,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/07/10,,primario
 ,mujer,2,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,mujer,39,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,hombre,43,cu,Centro Habana,La Habana,2020/07/11,,secundario
@@ -3078,7 +3078,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,30,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
 ,hombre,20,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
 ,hombre,9,cu,Habana del Este,La Habana,2020/08/10,,secundario
-,mujer,48,cu,Plaza de la Revolución,La Habana,2020/08/10,,desconocido
+,mujer,48,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
 ,mujer,27,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
 ,mujer,54,cu,La Lisa,La Habana,2020/08/10,,secundario
 ,hombre,23,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
