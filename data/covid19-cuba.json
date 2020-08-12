@@ -4452,7 +4452,7 @@
             "dpacode_municipio": "23.01",
             "dpacode_provincia": "23",
             "lon": -82.438637,
-            "lat": 23.112460, 
+            "lat": 23.112460,
             "abierto": true,
             "chequeado": true
         },
@@ -63073,7 +63073,7 @@
                         "dpacode_municipio_deteccion": "22.11",
                         "dpacode_provincia_deteccion": "22",
                         "contagio": "introducido",
-                        "contacto_focal": 10 ,
+                        "contacto_focal": 10,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
                         "posible_procedencia_contagio": [],
@@ -63580,7 +63580,9 @@
                         "contacto_focal": 3,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadano cubano de 29 años residente en Marianao, provincia La Habana. Viajero procedente en México. Se mantienen en vigilancia 3 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63601,7 +63603,9 @@
                         "contacto_focal": 2,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadano cubano de 34 años residente en San José de Las Lajas, provincia Mayabeque. Viajero procedente de México. Se mantienen en vigilancia 2 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63622,7 +63626,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadana cubana de 42 años residente en Jovellanos, provincia Matanzas. Viajero procedente de México. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63664,7 +63670,9 @@
                         "contacto_focal": 15,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["cr"],
+                        "posible_procedencia_contagio": [
+                            "cr"
+                        ],
                         "info": "Ciudadano cubano de 29 años residente en Holguín, provincia Holguín. Viajera procedente de Costa Rica. Se mantienen en vigilancia 15 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63685,7 +63693,9 @@
                         "contacto_focal": 25,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 41 años residente en Manzanillo, provincia Granma. Viajera procedente de Venezuela. Se mantienen en vigilancia 25 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63706,7 +63716,9 @@
                         "contacto_focal": 25,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 56 años residente en Manzanillo, provincia Granma. Viajera procedente de Venezuela. Se mantienen en vigilancia 25 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63908,7 +63920,9 @@
                         "contacto_focal": 170,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadana mexicana de 27 años residente en el municipio Plaza de la Revolución, provincia La Habana. Caso con fuente de infección en el extranjero. Se mantienen en vigilancia 170 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -63929,7 +63943,9 @@
                         "contacto_focal": 170,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadano mexicano de 28 años residente en el municipio Plaza de la Revolución, provincia La Habana. Caso con fuente de infección en el extranjero. Se mantienen en vigilancia 170 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -64816,8 +64832,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                      },
-                      {
+                    },
+                    {
                         "id": "cu-2797",
                         "pais": "cu",
                         "edad": 23,
@@ -64837,8 +64853,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                      },
-                      {
+                    },
+                    {
                         "id": "cu-2798",
                         "pais": "cu",
                         "edad": 10,
@@ -64858,7 +64874,7 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                      }
+                    }
                 ],
                 "sujetos_riesgo": 686,
                 "vigilancia_hogar": 11351,
@@ -64867,8 +64883,7 @@
                 "graves_numero": 6,
                 "criticos_numero": 0,
                 "muertes_numero": 0,
-                "asintomaticos_numero": 40     
-
+                "asintomaticos_numero": 40
             },
             "150": {
                 "fecha": "2020/08/07",
@@ -65014,7 +65029,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 39 años de edad. Reside en la provincia La Habana. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65036,7 +65053,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 36 años de edad. Reside en la provincia La Habana. Viajera procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65310,7 +65329,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 42 años. Reside en la provincia Matanzas. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65331,7 +65352,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 39 años. Reside en la provincia Matanzas. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65352,7 +65375,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 38 años de edad. Reside en la provincia Villa Clara. Viajera procedente de Venezuela.  Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65373,7 +65398,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 36 años. Reside en la provincia Villa Clara. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65394,7 +65421,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 49 años de edad. Reside en la provincia Villa Clara. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65415,7 +65444,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 39 años. Reside en la provincia Villa Clara. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65436,7 +65467,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 43 años de edad. Reside en la provincia Villa Clara.  Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65457,7 +65490,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 46 años de edad. Reside en la provincia Villa Clara. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65478,7 +65513,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 42 años. Reside en la provincia Cienfuegos. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65499,7 +65536,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 35 años. Reside en la provincia Cienfuegos. Viajera procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65520,7 +65559,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 33 años. Reside en la provincia Cienfuegos. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65541,7 +65582,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 42 años. Reside en la provincia Sancti Spiritus. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65562,7 +65605,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 40 años. Reside en la provincia Sancti Spiritus. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65583,7 +65628,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 41 años. Reside en la provincia Ciego de Ávila. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65604,7 +65651,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 49 años. Reside en la provincia Camagüey. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65625,7 +65674,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 47 años. Reside en la provincia Camagüey. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65646,7 +65697,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 36 años de edad. Reside en la provincia Camagüey. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65667,7 +65720,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 41 años de edad. Reside en la provincia Las Tunas. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65688,7 +65743,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 39 años de edad. Reside en la provincia Santiago de Cuba. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65709,7 +65766,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 48 años. Reside en la provincia Santiago de Cuba. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65730,7 +65789,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 37 años. Reside en la provincia Santiago de Cuba. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65751,7 +65812,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 48 años. Reside en la provincia Santiago de Cuba. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65772,7 +65835,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 46 años. Reside en la provincia Granma. Viajera procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65793,7 +65858,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 39 años. Reside en la provincia Granma. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65814,7 +65881,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 43 años de edad. Reside en la provincia Granma. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65835,7 +65904,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 41 años de edad. Reside en la provincia Granma. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65856,7 +65927,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 35 años de edad. Reside en la provincia Granma. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65877,7 +65950,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 40 años de edad. Reside en la provincia Granma. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65898,7 +65973,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 39 años. Reside en la provincia Holguín. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65919,7 +65996,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 37 años. Reside en la provincia Holguín. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65940,7 +66019,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 48 años. Reside en la provincia Holguín. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65961,7 +66042,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 49 años. Reside en la provincia Holguín. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -65982,7 +66065,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 32 años. Reside en la provincia Guantánamo. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66003,7 +66088,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 42 años. Reside en la provincia Guantánamo. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66024,7 +66111,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 38 años de edad. Reside en la provincia Guantánamo. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66045,7 +66134,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 41 años de edad. Reside en la provincia Guantánamo. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66066,7 +66157,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 45 años de edad. Reside en la provincia Guantánamo. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66087,7 +66180,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 31 años de edad. Reside en la provincia Pinar del Río. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66108,7 +66203,9 @@
                         "contacto_focal": 180,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 48 años. Reside en la provincia Pinar del Río. Viajero procedente de Venezuela. Se mantienen en vigilancia 180 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66122,7 +66219,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 0,
                 "muertes_numero": 0,
-                "asintomaticos_numero": 50        
+                "asintomaticos_numero": 50
             },
             "151": {
                 "fecha": "2020/08/08",
@@ -66166,7 +66263,9 @@
                         "contacto_focal": 7,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "•  Ciudadana cubana de 40 años de edad. Reside en el municipio Candelaria, provincia Artemisa. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia siete contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66188,7 +66287,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "•  Ciudadano cubano de 35 años de edad. Reside en el municipio San Antonio de los Baños, provincia Artemisa. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia seis contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66618,7 +66719,7 @@
                     {
                         "id": "cu-2881",
                         "pais": "cu",
-                        "edad":28 ,
+                        "edad": 28,
                         "sexo": "hombre",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
@@ -66798,7 +66899,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 35 años de edad. Reside en el municipio Marianao, provincia La Habana. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia seis contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66820,7 +66923,9 @@
                         "contacto_focal": 5,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["es"],
+                        "posible_procedencia_contagio": [
+                            "es"
+                        ],
                         "info": "Ciudadana cubana de 68 años de edad. Reside en el municipio Plaza de la Revolución, provincia La Habana. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia cinco contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66842,7 +66947,9 @@
                         "contacto_focal": 5,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 57 años de edad. Reside en el municipio Plaza de la Revolución, provincia La Habana. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia cinco contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66864,7 +66971,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadano cubano de 34 años de edad. Reside en el municipio San Miguel del Padrón, provincia La Habana. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia seis contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -66886,7 +66995,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 57 años de edad. Reside en el municipio Habana Vieja, provincia La Habana. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia ocho contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67139,7 +67250,9 @@
                         "contacto_focal": 5,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 23 años de edad. Reside en el municipio San Nicolás, provincia Mayabeque. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia cinco contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67161,7 +67274,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 60 años de edad. Reside en el municipio Colón, provincia Matanzas. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia seis contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67288,7 +67403,9 @@
                         "contacto_focal": 7,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 36 años de edad. Reside en el municipio Manicaragua, provincia Villa Clara. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia siete contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67310,7 +67427,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 30 años de edad. Reside en el municipio Santa Clara, provincia Villa Clara. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia 10 contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67332,7 +67451,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadano cubano de 33 años de edad. Reside en el municipio Cabaiguán, provincia Sancti Spíritus. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia seis contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67354,7 +67475,9 @@
                         "contacto_focal": 6,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lvc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 35 años de edad. Reside en el municipio Vertientes, provincia Camagüey. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia seis contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67376,7 +67499,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 65 años de edad. Reside en el municipio Las Tunas, provincia del mismo nombre. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia 10 contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67419,7 +67544,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 29 años de edad. Reside en el municipio Las Tunas, provincia del mismo nombre. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia ocho contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67441,7 +67568,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 28 años de edad. Reside en el municipio Mayarí, provincia Holguín. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia 10 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67463,7 +67592,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 40 años de edad. Reside en el municipio San Luis, provincia Santiago de Cuba. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia ocho contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67485,7 +67616,9 @@
                         "contacto_focal": 10,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["us"],
+                        "posible_procedencia_contagio": [
+                            "us"
+                        ],
                         "info": "Ciudadana cubana de 53 años de edad. Reside en el municipio Palma Soriano, provincia Santiago de Cuba. Contacto con fuente de infección en el extranjero.  Se mantienen en vigilancia 10 contactos. ",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67507,7 +67640,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": "lsc",
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 35 años de edad. Reside en el municipio Guantánamo, provincia del mismo nombre. Contacto con fuente de infección en el extranjero. Se mantienen en vigilancia ocho contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -67522,7 +67657,7 @@
                 "graves_numero": 7,
                 "criticos_numero": 0,
                 "muertes_numero": 0,
-                "asintomaticos_numero": 51            
+                "asintomaticos_numero": 51
             },
             "152": {
                 "fecha": "2020/08/09",
@@ -67874,7 +68009,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "contagio": "introducido", 
+                        "contagio": "introducido",
                         "contacto_focal": 10,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
@@ -67946,7 +68081,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-2942",
                         "pais": "cu",
                         "edad": 58,
@@ -68155,7 +68291,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-2952",
                         "pais": "cu",
                         "edad": 26,
@@ -68364,7 +68501,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-2962",
                         "pais": "cu",
                         "edad": 46,
@@ -68573,7 +68711,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-2972",
                         "pais": "cu",
                         "edad": 17,
@@ -68782,7 +68921,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-2982",
                         "pais": "cu",
                         "edad": 55,
@@ -68965,7 +69105,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 69 años residente en el municipio Marianao, provincia La Habana. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -68987,13 +69129,16 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 30 años residente en el municipio Playa, provincia La Habana. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null,
                         "nota": "Procedencia contagio determinada con información provista por el MINSAP"
-                    },{
+                    },
+                    {
                         "id": "cu-2992",
                         "pais": "cu",
                         "edad": 60,
@@ -69008,7 +69153,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 60 años residente en el municipio Playa, provincia La Habana. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -69030,7 +69177,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["mx"],
+                        "posible_procedencia_contagio": [
+                            "mx"
+                        ],
                         "info": "Ciudadano cubano de 64 años residente en el municipio Plaza de la Revolución, provincia La Habana. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -69204,7 +69353,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-3002",
                         "pais": "cu",
                         "edad": 21,
@@ -69345,7 +69495,9 @@
                         "contacto_focal": 18,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 52 años de edad residente en el municipio Ciro Redondo, provincia Ciego de Ávila. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 18 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -69367,7 +69519,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 45 años de edad residente en el municipio Ciego de Ávila, provincia del mismo nombre. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -69410,7 +69564,9 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 23 años residente en el municipio Las Tunas, provincia del mismo nombre. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
@@ -69432,14 +69588,16 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadano cubano de 38 años de edad residente en el municipio Holguín, provincia del mismo nombre. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null,
                         "nota": "Procedencia contagio determinada con información provista por el MINSAP"
-                     },
-                     {
+                    },
+                    {
                         "id": "cu-3013",
                         "pais": "cu",
                         "edad": 52,
@@ -69454,14 +69612,16 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 52 años de edad residente en el municipio Holguín, provincia del mismo nombre. Caso con fuente de infección en el exterior. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null,
                         "nota": "Procedencia contagio determinada con información provista por el MINSAP"
-                     },
-                     {
+                    },
+                    {
                         "id": "cu-3014",
                         "pais": "cu",
                         "edad": 39,
@@ -69476,13 +69636,15 @@
                         "contacto_focal": 8,
                         "centro_aislamiento": null,
                         "centro_diagnostico": null,
-                        "posible_procedencia_contagio": ["ve"],
+                        "posible_procedencia_contagio": [
+                            "ve"
+                        ],
                         "info": "Ciudadana cubana de 39 años residente en el municipio especial Isla de la Juventud. Caso con fuente de infección en el extranjero. Se mantienen en vigilancia 8 contactos.",
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null,
                         "nota": "Procedencia contagio determinada con información provista por el MINSAP"
-                      }
+                    }
                 ],
                 "sujetos_riesgo": 959,
                 "vigilancia_hogar": 11501,
@@ -69491,7 +69653,7 @@
                 "graves_numero": 4,
                 "criticos_numero": 2,
                 "muertes_numero": 0,
-                "asintomaticos_numero": 62              
+                "asintomaticos_numero": 62
             },
             "153": {
                 "fecha": "2020/08/10",
@@ -69499,7 +69661,7 @@
                     {
                         "id": "cu-3015",
                         "pais": "cu",
-                        "edad":47 ,
+                        "edad": 47,
                         "sexo": "mujer",
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
@@ -69747,7 +69909,8 @@
                         "provincias_visitadas": [],
                         "dpacode_provincias_visitadas": [],
                         "sintomas": null
-                    },{
+                    },
+                    {
                         "id": "cu-3027",
                         "pais": "cu",
                         "edad": 42,
@@ -70490,7 +70653,755 @@
                 "graves_numero": 4,
                 "criticos_numero": 2,
                 "muertes_numero": 0,
-                "asintomaticos_numero": 29              
+                "asintomaticos_numero": 29
+            },
+            "154": {
+                "fecha": "2020/08/11",
+                "diagnosticados": [
+                    {
+                        "id": "cu-3061",
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Mariel",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.02",
+                        "dpacode_provincia_deteccion": "22",
+                        "contagio": "introducido",
+                        "contacto_focal": 12,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 70 años residente en el municipio Mariel, provincia Artemisa. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 12 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3062",
+                        "pais": "cu",
+                        "edad": 23,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Mariel",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.02",
+                        "dpacode_provincia_deteccion": "22",
+                        "contagio": "introducido",
+                        "contacto_focal": 29,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 23 años residente en el municipio Mariel, provincia Artemisa. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 29 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3063",
+                        "pais": "cu",
+                        "edad": 31,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 16,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 31 años residente en el municipio Plaza de la Revolución, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 16 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3064",
+                        "pais": "cu",
+                        "edad": 59,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "LA Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 10,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 59 años residente en el municipio Plaza de la Revolución, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 10 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3065",
+                        "pais": "cu",
+                        "edad": 19,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 18,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 19 años residente en el municipio Habana del Este, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 18 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3066",
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 14,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 55 años residente en el municipio Habana del Este, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 14 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3067",
+                        "pais": "cu",
+                        "edad": 4,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 27,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 4 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 27 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3068",
+                        "pais": "cu",
+                        "edad": 18,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 12,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 18 años residente en el municipio La Lisa, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 12 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3069",
+                        "pais": "cu",
+                        "edad": 5,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 12,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 5 años residente en el municipio Plaza de La Revolución, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 12 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3070",
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 9,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 56 años residente en el municipio Arroyo Naranjo, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 9 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3071",
+                        "pais": "cu",
+                        "edad": 48,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 17,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 48 años residente en el municipio Diez de Octubre, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 17 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3072",
+                        "pais": "cu",
+                        "edad": 43,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 43 años residente en el municipio Diez de Octubre, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 11 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3073",
+                        "pais": "cu",
+                        "edad": 30,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 9,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 30 años residente en el municipio Boyeros, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 9 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3074",
+                        "pais": "cu",
+                        "edad": 40,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 10,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 40 años residente en el municipio Cerro, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 10 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3075",
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 7,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 65 años residente en el municipio Cerro, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 7 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3076",
+                        "pais": "cu",
+                        "edad": 32,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 7,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 32 años residente en el municipio Plaza de la Revolución, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 7 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3077",
+                        "pais": "cu",
+                        "edad": 24,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 7,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 24 años residente en el municipio Plaza de la Revolución, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 7 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3078",
+                        "pais": "cu",
+                        "edad": 47,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 13,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 47 años residente en el municipio Marianao, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 13 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3079",
+                        "pais": "cu",
+                        "edad": 29,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 35,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 29 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 35 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3080",
+                        "pais": "cu",
+                        "edad": 29,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 15,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 29 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 15 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3081",
+                        "pais": "cu",
+                        "edad": 45,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 45 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 11 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3082",
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "intorducido",
+                        "contacto_focal": 35,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 72 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 35 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3083",
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 35,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 64 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 35 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3084",
+                        "pais": "cu",
+                        "edad": 29,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 35,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 29 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 35 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3085",
+                        "pais": "cu",
+                        "edad": 35,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 18,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 35 años residente en el municipio San Miguel del Padrón, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 18 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3086",
+                        "pais": "cu",
+                        "edad": 27,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 21,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 27 años residente en el municipio Playa, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 21 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3087",
+                        "pais": "cu",
+                        "edad": 7,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 11,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 7 años residente en el municipio La Lisa, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 11 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3088",
+                        "pais": "cu",
+                        "edad": 47,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 15,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 47 años residente en el municipio La Lisa, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 15 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3089",
+                        "pais": "cu",
+                        "edad": 29,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 15,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 29 años residente en el municipio La Lisa, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 15 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3090",
+                        "pais": "cu",
+                        "edad": 22,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": "introducido",
+                        "contacto_focal": 18,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 22 años residente en el municipio La Lisa, provincia La Habana. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 18 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3091",
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "contagio": null,
+                        "contacto_focal": 9,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 66 años residente en el municipio Diez de Octubre, provincia La Habana. Se investiga la fuente de infección. Se mantienen en vigilancia 9 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3092",
+                        "pais": "cu",
+                        "edad": 22,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "contagio": null,
+                        "contacto_focal": 7,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 22 años residente en el municipio Matanzas, provincia del mismo nombre. Se investiga la fuente de infección. Se mantienen en vigilancia 7 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3093",
+                        "pais": "cu",
+                        "edad": 3,
+                        "sexo": "mujer",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Camajuaní",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.05",
+                        "dpacode_provincia_deteccion": "26",
+                        "contagio": "introducido",
+                        "contacto_focal": 25,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadana cubana de 3 años residente en el municipio Camajuaní, provincia Villa Clara. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 25 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3094",
+                        "pais": "cu",
+                        "edad": 33,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Manicaragua",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.13",
+                        "dpacode_provincia_deteccion": "26",
+                        "contagio": "introducido",
+                        "contacto_focal": 19,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 33 años residente en el municipio Manicaragua, provincia Villa Clara. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 19 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    },
+                    {
+                        "id": "cu-3095",
+                        "pais": "cu",
+                        "edad": 48,
+                        "sexo": "hombre",
+                        "arribo_a_cuba_foco": null,
+                        "consulta_medico": null,
+                        "municipio_detección": "Moa",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.14",
+                        "dpacode_provincia_deteccion": "32",
+                        "contagio": null,
+                        "contacto_focal": 13,
+                        "centro_aislamiento": null,
+                        "centro_diagnostico": null,
+                        "posible_procedencia_contagio": [],
+                        "info": "Ciudadano cubano de 40 años residente en el municipio Moa, provincia Holguín. Se investiga la fuente de infección. Se mantienen en vigilancia 13 contactos.",
+                        "provincias_visitadas": [],
+                        "dpacode_provincias_visitadas": [],
+                        "sintomas": null
+                    }
+                ],
+                "sujetos_riesgo": 1135,
+                "vigilancia_hogar": null,
+                "tests_total": 309908,
+                "recuperados_numero": 32,
+                "graves_numero": 4,
+                "criticos_numero": 2,
+                "muertes_numero": 0,
+                "asintomaticos_numero": 19
             }
         }
     }
