@@ -3095,7 +3095,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,70,cu,Mariel,Artemisa,2020/08/11,,secundario
 ,hombre,23,cu,Mariel,Artemisa,2020/08/11,,secundario
 ,hombre,31,cu,Plaza de la Revolución,La Habana,2020/08/11,,secundario
-,mujer,59,cu,Plaza de la Revolución,LA Habana,2020/08/11,,secundario
+,mujer,59,cu,Plaza de la Revolución,La Habana,2020/08/11,,secundario
 ,mujer,19,cu,Habana del Este,La Habana,2020/08/11,,secundario
 ,mujer,55,cu,Habana del Este,La Habana,2020/08/11,,secundario
 ,hombre,4,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
@@ -3113,7 +3113,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,29,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
 ,hombre,29,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
 ,hombre,45,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
-,hombre,72,cu,San Miguel del Padrón,La Habana,2020/08/11,,desconocido
+,hombre,72,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
 ,mujer,64,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
 ,mujer,29,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
 ,mujer,35,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
