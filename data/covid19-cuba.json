@@ -4456,6 +4456,19 @@
             "abierto": true,
             "chequeado": true
         },
+        "elha-26": {
+            "id": "elha-26",
+            "identificador": "Puentes Grandes",
+            "municipio": "Plaza de la Revolución",
+            "provincia": "La Habana",
+            "dpacode_municipio": "23.02",
+            "dpacode_provincia": "23",
+             
+            "lon": -82.396560,
+            "lat": 23.106439,
+            "abierto": true,
+            "chequeado": true
+        },
         "emay-1": {
             "id": "emay-1",
             "identificador": "Comunidad La Ruda",
