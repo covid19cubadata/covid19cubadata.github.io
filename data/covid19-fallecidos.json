@@ -28,6 +28,7 @@
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
         "ev": "enfermedad cerebrovascular",
+        "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
         "fu": "fumador",
         "gc": "glaucoma",
@@ -55,6 +56,7 @@
         "oa": "osteoartrosis",
         "oc": "enfermedad pulmonar obstructiva crónica",
         "ob": "obesidad",
+        "po": "postrado",
         "rd": "retinopatía diabética",
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
@@ -859,7 +861,8 @@
                             "ha",
                             "gc",
                             "ce",
-                            "en"
+                            "en",
+                            "po"
                         ],
                         "texto": "Ciudadano cubano de 65 años. Residía en la Habana Vieja, provincia La Habana. Presentaba antecedentes de Hipertensión arterial, glaucoma y carcinoma epidermoide de esófago, gastrectomizado y postrado crónico. Fue recibido el 16 de abril traído por el SIUM con diagnóstico de sospecha de COVID 19, poco cooperativo, refería hacía dos días comenzó con tos húmeda productiva. Al examen físico del ingreso presenta mucosas normocoloreadas, murmullo vesicular disminuido hacia las bases con estertores en ambos campos pulmonares y una desnutrición proteica energética severa. Se diagnosticó como bronconeumonía bacteriana extrahospitalaria hipostática y cáncer de esófago con gastrectomía. Evolucionó tórpidamente en las siguientes horas con un estadio final de su enfermedad de base (cáncer de esófago), hemodinámicamente inestable para lo cual recibió tratamiento y reanimación. Falleció el día 18 de abril habiéndose estudiado para descartar la enfermedad COVID 19 por anatomía patológica (necropsia). El 20 de abril se recibe resultado de los estudios de la necropsia siendo positivo a COVID 19. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
@@ -2073,6 +2076,30 @@
             },
             "154": {
                 "fecha": "2020/08/11"
+            },
+            "155": {
+                "fecha": "2020/08/12",
+                "fallecidos": [
+                    {
+                        "id": "f-89",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "fa",
+                            "ec",
+                            "ds",
+                            "po"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 82 años que residía en Centro Habana. Antecedentes de Hipertensión Arterial, Fibrilación Auricular Crónica, Enfermedad Cerebrovascular, Demencia Senil y postrado hace ocho años. Fue atendido en el Servicio de Urgencias del Hospital Freyre de Andrade, por presentar tos, expectoración y falta de aire, ante la sospecha de presentar la COVID 19, fue remitido al Hospital Salvador Allende. Fue ingresado en terapia intensiva y tratado con todos los medicamentos establecidos según protocolo. Mantuvo evolución con estabilidad hemodinámica sin demanda ventilatoria. El día 12 de agosto en la mañana, hizo episodio de agobio respiratorio súbito, es intubado y ventilado. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente su fallecimiento y transmitimos las condolencias a sus familiares y amigos. "
+                    }
+                ]
             }
         }
     }
