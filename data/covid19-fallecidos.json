@@ -2079,27 +2079,10 @@
             },
             "155": {
                 "fecha": "2020/08/12",
-                "fallecidos": [
-                    {
-                        "id": "f-89",
-                        "id_caso": null,
-                        "pais": "cu",
-                        "edad": 82,
-                        "sexo": "hombre",
-                        "municipio_detección": "Centro Habana",
-                        "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.03",
-                        "dpacode_provincia_deteccion": "23",
-                        "enfermedades": [
-                            "ha",
-                            "fa",
-                            "ec",
-                            "ds",
-                            "po"
-                        ],
-                        "texto": "Falleció el ciudadano cubano de 82 años que residía en Centro Habana. Antecedentes de Hipertensión Arterial, Fibrilación Auricular Crónica, Enfermedad Cerebrovascular, Demencia Senil y postrado hace ocho años. Fue atendido en el Servicio de Urgencias del Hospital Freyre de Andrade, por presentar tos, expectoración y falta de aire, ante la sospecha de presentar la COVID 19, fue remitido al Hospital Salvador Allende. Fue ingresado en terapia intensiva y tratado con todos los medicamentos establecidos según protocolo. Mantuvo evolución con estabilidad hemodinámica sin demanda ventilatoria. El día 12 de agosto en la mañana, hizo episodio de agobio respiratorio súbito, es intubado y ventilado. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente su fallecimiento y transmitimos las condolencias a sus familiares y amigos. "
-                    }
-                ]
+                "nota": "En este día originalmente se reportó un fallecido. Pero al día siguiente se verificó que su muerte no fue por covid y se eliminó de la serie de fallecidos y por tanto lo eliminamos de la db."
+            },
+            "156": {
+                "fecha": "2020/08/13"
             }
         }
     }
