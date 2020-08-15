@@ -1,5 +1,5 @@
 Parte de cierre del día 14 de agosto a las 12 de la noche
-POR REDACCIÓN MINSAP · 15 AGOSTO 2020
+POR REDACCIÓN MINSAP · PUBLICADA 15 AGOSTO 2020 · ACTUALIZADO 15 AGOSTO 2020
 
 
 Al cierre del día de ayer, 14 de agosto, se encuentran ingresados en hospitales para vigilancia clínica epidemiológica mil 544 pacientes, de ellos: en vigilancia 59, sospechosos 851 y confirmados 634.
@@ -44,7 +44,6 @@ Detalles de los 63 casos confirmados:
 
 Artemisa
 
-Ciudadano cubano de 1 año de edad, residente en el municipio Artemisa, provincia del mismo nombre. Se investiga la fuente de infección. Se mantienen en vigilancia nueve contactos.
 Ciudadana cubana de 43 años de edad, residente en el municipio Artemisa, provincia del mismo nombre. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 10 contactos.
 Ciudadano cubano de 29 años de edad, residente en el municipio San Cristóbal, provincia Artemisa. Contacto de caso confirmado anteriormente. Se mantienen en vigilancia 15 contactos.
 La Habana:
@@ -132,3 +131,4 @@ Ciudadano cubano de 58 años de edad. Procede del Municipio Habana del Este, pro
 Hasta el 14 de agosto se reportan 185 países con casos de COVID-19, asciende a 20 millones 900 mil 763 los casos confirmados (+286 mil 749) y 759 mil 358 fallecidos (+9 mil 914) para una letalidad de 3,63% (-0,01).
 
 La región de las Américas reporta 11 millones 291 mil 921 casos confirmados (+158 mil 091), el 54,02% del total de casos reportados en el mundo, con 411 mil 129 fallecido (+7 mil 632) para una letalidad de 3,64% (+0,02).
+
