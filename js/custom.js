@@ -18,7 +18,8 @@ var domains = {
     'bo': 'Bolivia',
     'cg': 'Congo',
     'bs': 'Bahamas',
-    'mx': 'México'
+    'mx': 'México',
+    "ni": "Nicaragua"
 };
 
 

@@ -18,7 +18,8 @@ let domains = {
     'pa': 'Panamá',
     'bo': 'Bolivia',
     'cg': 'Congo',
-    'mx': 'México'
+    'mx': 'México',
+    "ni": "Nicaragua"
 };
 
 $(function () {
