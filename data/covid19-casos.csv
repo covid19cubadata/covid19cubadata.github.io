@@ -3074,7 +3074,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,24,cu,Cerro,La Habana,2020/08/10,,secundario
 ,hombre,49,cu,La Habana Vieja,La Habana,2020/08/10,,desconocido
 ,mujer,80,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
-,hombre,35,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,hombre,35,ni,Centro Habana,La Habana,2020/08/10,,desconocido
 ,mujer,30,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
 ,hombre,20,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
 ,hombre,9,cu,Habana del Este,La Habana,2020/08/10,,secundario
