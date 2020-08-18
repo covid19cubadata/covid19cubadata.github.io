@@ -2417,8 +2417,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,52,cu,Diez de Octubre,La Habana,2020/07/10,,primario
 ,mujer,49,cu,Arroyo Naranjo,La Habana,2020/07/10,,primario
 ,hombre,68,cu,Cerro,La Habana,2020/07/10,,secundario
-,hombre,41,cu,,Villa Clara,2020/07/10,,primario
-,mujer,60,cu,,Santiago de Cuba,2020/07/10,,primario
+,hombre,41,cu,Manicaragua,Villa Clara,2020/07/10,,primario
+,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/07/10,,primario
 ,mujer,2,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,mujer,39,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,hombre,43,cu,Centro Habana,La Habana,2020/07/11,,secundario
@@ -2477,3 +2477,889 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,28,cu,Centro Habana,La Habana,2020/07/24,,secundario
 ,mujer,60,cu,Cienfuegos,Cienfuegos,2020/07/24,,primario
 ,hombre,35,cu,Manzanillo,Granma,2020/07/24,,primario
+,mujer,24,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,29,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,23,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,34,cu,Bauta,Artemisa,2020/07/25,,secundario
+,hombre,27,cu,Bauta,Artemisa,2020/07/25,,secundario
+,mujer,32,cu,Bauta,Artemisa,2020/07/25,,secundario
+,mujer,32,cu,Bauta,Artemisa,2020/07/25,,secundario
+,mujer,22,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,24,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,20,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,22,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,hombre,37,cu,Habana del Este,La Habana,2020/07/25,,secundario
+,mujer,42,cu,La Lisa,La Habana,2020/07/25,,secundario
+,hombre,8,cu,La Lisa,La Habana,2020/07/25,,secundario
+,mujer,47,cu,Cruces,Cienfuegos,2020/07/25,,primario
+,mujer,66,cu,Venezuela,Ciego de Ávila,2020/07/25,,primario
+,mujer,67,cu,Camagüey,Camagüey,2020/07/25,,primario
+,hombre,27,cu,Bauta,Artemisa,2020/07/26,,secundario
+,hombre,40,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,70,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,48,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,84,cu,Bauta,Artemisa,2020/07/26,,secundario
+,hombre,17,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,73,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,27,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,3,cu,Bauta,Artemisa,2020/07/26,,secundario
+,mujer,42,cu,Bauta,Artemisa,2020/07/26,,secundario
+,hombre,4,cu,La Lisa,La Habana,2020/07/26,,secundario
+,hombre,7,cu,La Lisa,La Habana,2020/07/26,,secundario
+,hombre,25,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/07/26,,secundario
+,hombre,10,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,50,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,4,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,67,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,53,cu,La Lisa,La Habana,2020/07/26,,secundario
+,hombre,45,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/07/26,,secundario
+,hombre,46,cu,La Lisa,La Habana,2020/07/26,,secundario
+,hombre,48,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,48,cu,La Lisa,La Habana,2020/07/26,,secundario
+,mujer,48,cu,Habana del Este,La Habana,2020/07/26,,secundario
+,mujer,17,cu,Marianao,La Habana,2020/07/26,,secundario
+,hombre,40,cu,Diez de Octubre,La Habana,2020/07/26,,primario
+,hombre,54,cu,Diez de Octubre,La Habana,2020/07/26,,primario
+,hombre,47,cu,Marianao,La Habana,2020/07/26,,primario
+,hombre,47,cu,Arroyo Naranjo,La Habana,2020/07/26,,primario
+,hombre,57,cu,Habana del Este,La Habana,2020/07/26,,primario
+,hombre,58,cu,San Miguel del Padrón,La Habana,2020/07/26,,primario
+,hombre,51,cu,Centro Habana,La Habana,2020/07/26,,primario
+,hombre,63,cu,Habana del Este,La Habana,2020/07/26,,primario
+,hombre,58,cu,Cerro,La Habana,2020/07/26,,primario
+,hombre,58,cu,Centro Habana,La Habana,2020/07/26,,primario
+,mujer,45,cu,Isla de la Juventud,Isla de la Juventud,2020/07/26,,primario
+,hombre,68,cu,San Luis,Pinar del Río,2020/07/27,,primario
+,mujer,57,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,23,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,12,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,9,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,35,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,4,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,30,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,52,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,68,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,30,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,48,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,59,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,64,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,22,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,48,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,6,cu,Bauta,Artemisa,2020/07/27,,secundario
+,mujer,58,cu,Bauta,Artemisa,2020/07/27,,secundario
+,hombre,20,cu,Marianao,La Habana,2020/07/27,,secundario
+,hombre,27,cu,Habana del Este,La Habana,2020/07/27,,secundario
+,hombre,57,cu,Centro Habana,La Habana,2020/07/27,,secundario
+,hombre,37,cu,Centro Habana,La Habana,2020/07/27,,secundario
+,hombre,21,cu,La Lisa,La Habana,2020/07/27,,secundario
+,mujer,26,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,55,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,19,cu,Bauta,Artemisa,2020/07/28,,secundario
+,hombre,39,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,20,cu,Bauta,Artemisa,2020/07/28,,secundario
+,hombre,43,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,10,cu,Bauta,Artemisa,2020/07/28,,secundario
+,hombre,84,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,20,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,57,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,61,cu,Bauta,Artemisa,2020/07/28,,secundario
+,hombre,54,cu,Bauta,Artemisa,2020/07/28,,secundario
+,mujer,55,cu,Caimito,Artemisa,2020/07/28,,secundario
+,hombre,70,cu,Plaza de la Revolución,La Habana,2020/07/28,,desconocido
+,hombre,58,cu,Plaza de la Revolución,La Habana,2020/07/28,,secundario
+,hombre,42,cu,Boyeros,La Habana,2020/07/28,,primario
+,hombre,1,cu,Centro Habana,La Habana,2020/07/28,,secundario
+,mujer,8,cu,Centro Habana,La Habana,2020/07/28,,secundario
+,hombre,48,cu,La Lisa,La Habana,2020/07/28,,secundario
+,mujer,19,cu,Plaza de la Revolución,La Habana,2020/07/28,,secundario
+,mujer,48,cu,Marianao,La Habana,2020/07/28,,secundario
+,mujer,49,cu,La Lisa,La Habana,2020/07/28,,secundario
+,hombre,13,cu,Marianao,La Habana,2020/07/28,,secundario
+,hombre,35,cu,Marianao,La Habana,2020/07/28,,secundario
+,mujer,9,cu,Marianao,La Habana,2020/07/28,,secundario
+,hombre,17,cu,Plaza de la Revolución,La Habana,2020/07/28,,secundario
+,mujer,18,cu,Diez de Octubre,La Habana,2020/07/28,,desconocido
+,hombre,37,cu,Yaguajay,Sancti Spíritus,2020/07/28,,primario
+,mujer,50,cu,Palma Soriano,Santiago de Cuba,2020/07/28,,primario
+,mujer,48,cu,Santiago de Cuba,Santiago de Cuba,2020/07/28,,primario
+,hombre,55,cu,Santiago de Cuba,Santiago de Cuba,2020/07/28,,primario
+,hombre,32,cu,Guantánamo,Guantánamo,2020/07/28,,primario
+,mujer,53,cu,Guantánamo,Guantánamo,2020/07/28,,primario
+,mujer,22,cu,Habana del Este,La Habana,2020/07/29,,secundario
+,mujer,74,cu,La Lisa,La Habana,2020/07/29,,secundario
+,hombre,47,cu,Habana del Este,La Habana,2020/07/29,,secundario
+,mujer,36,cu,Guanabacoa,La Habana,2020/07/29,,secundario
+,mujer,10,cu,Guanabacoa,La Habana,2020/07/29,,secundario
+,mujer,50,cu,San Miguel del Padrón,La Habana,2020/07/29,,primario
+,hombre,50,cu,Arroyo Naranjo,La Habana,2020/07/29,,primario
+,mujer,54,cu,Boyeros,La Habana,2020/07/29,,primario
+,hombre,18,cu,La Lisa,La Habana,2020/07/29,,secundario
+,hombre,23,cu,Marianao,La Habana,2020/07/30,,secundario
+,hombre,16,cu,Plaza de la Revolución,La Habana,2020/07/30,,secundario
+,hombre,24,cu,Diez de Octubre,La Habana,2020/07/30,,secundario
+,hombre,36,cu,Playa,La Habana,2020/07/30,,secundario
+,mujer,57,cu,Bauta,Artemisa,2020/07/30,,secundario
+,hombre,48,cu,Bauta,Artemisa,2020/07/30,,secundario
+,hombre,41,cu,Bauta,Artemisa,2020/07/30,,secundario
+,mujer,20,cu,Bauta,Artemisa,2020/07/30,,secundario
+,mujer,57,cu,Bauta,Artemisa,2020/07/30,,secundario
+,mujer,1,cu,Camajuaní,Villa Clara,2020/07/30,,desconocido
+,mujer,23,cu,Camajuaní,Villa Clara,2020/07/30,,secundario
+,hombre,21,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,31,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,41,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,75,cu,Bauta,Artemisa,2020/07/31,,secundario
+,hombre,78,cu,Bauta,Artemisa,2020/07/31,,secundario
+,hombre,65,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,61,cu,Bauta,Artemisa,2020/07/31,,secundario
+,mujer,65,cu,Santa Cruz del Norte,Mayabeque,2020/07/31,,primario
+,mujer,19,cu,Playa,La Habana,2020/07/31,,secundario
+,hombre,43,fr,Playa,La Habana,2020/07/31,,secundario
+,mujer,48,cu,Plaza de la Revolución,La Habana,2020/07/31,,secundario
+,hombre,19,cu,Plaza de la Revolución,La Habana,2020/07/31,,secundario
+,mujer,67,cu,Arroyo Naranjo,La Habana,2020/07/31,,desconocido
+,mujer,63,cu,Arroyo Naranjo,La Habana,2020/07/31,,secundario
+,hombre,64,cu,Marianao,La Habana,2020/07/31,,secundario
+,mujer,34,cu,Marianao,La Habana,2020/07/31,,secundario
+,mujer,70,cu,Habana del Este,La Habana,2020/07/31,,secundario
+,hombre,20,cu,Habana del Este,La Habana,2020/07/31,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/07/31,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/07/31,,secundario
+,hombre,50,cu,Cabaiguán,Sancti Spíritus,2020/07/31,,primario
+,hombre,65,cu,Bayamo,Granma,2020/07/31,,primario
+,mujer,66,cu,Santiago de Cuba,Santiago de Cuba,2020/07/31,,primario
+,hombre,52,cu,Santiago de Cuba,Santiago de Cuba,2020/07/31,,primario
+,mujer,65,cu,Guantánamo,Guantánamo,2020/07/31,,primario
+,mujer,2,cu,San Antonio de los Baños,Artemisa,2020/08/01,,secundario
+,mujer,26,cu,Guane,Pinar del Río,2020/08/01,,primario
+,hombre,61,cu,Pinar del Río,Pinar del Río,2020/08/01,,primario
+,mujer,47,cu,Minas de Matahambre,Pinar del Río,2020/08/01,,primario
+,mujer,50,cu,San Luis,Pinar del Río,2020/08/01,,primario
+,mujer,58,cu,Pinar del Río,Pinar del Río,2020/08/01,,primario
+,mujer,41,cu,Pinar del Río,Pinar del Río,2020/08/01,,primario
+,mujer,53,cu,La Lisa,La Habana,2020/08/01,,secundario
+,mujer,24,cu,Marianao,La Habana,2020/08/01,,secundario
+,hombre,29,cu,Marianao,La Habana,2020/08/01,,secundario
+,mujer,47,cu,Playa,La Habana,2020/08/01,,secundario
+,hombre,25,cu,Playa,La Habana,2020/08/01,,secundario
+,hombre,45,cu,Habana del Este,La Habana,2020/08/01,,secundario
+,hombre,56,cu,San Luis,Pinar del Río,2020/08/02,,primario
+,mujer,60,cu,Bauta,Artemisa,2020/08/02,,secundario
+,mujer,81,cu,Bauta,Artemisa,2020/08/02,,secundario
+,mujer,52,cu,Bauta,Artemisa,2020/08/02,,secundario
+,hombre,59,cu,Bauta,Artemisa,2020/08/02,,secundario
+,mujer,60,cu,Bauta,Artemisa,2020/08/02,,secundario
+,mujer,58,cu,Bauta,Artemisa,2020/08/02,,secundario
+,hombre,34,cu,Bauta,Artemisa,2020/08/02,,secundario
+,mujer,22,cu,San Antonio de los Baños,Artemisa,2020/08/02,,secundario
+,hombre,26,cu,San Cristóbal,Artemisa,2020/08/02,,secundario
+,mujer,11,cu,Guanabacoa,La Habana,2020/08/02,,secundario
+,mujer,54,cu,Plaza de la Revolución,La Habana,2020/08/02,,secundario
+,hombre,54,cu,Cerro,La Habana,2020/08/02,,desconocido
+,hombre,42,cu,Diez de Octubre,La Habana,2020/08/02,,secundario
+,mujer,34,cu,La Lisa,La Habana,2020/08/02,,secundario
+,mujer,23,cu,Arroyo Naranjo,La Habana,2020/08/02,,secundario
+,hombre,33,cu,Arroyo Naranjo,La Habana,2020/08/02,,desconocido
+,mujer,78,cu,La Lisa,La Habana,2020/08/02,,desconocido
+,mujer,21,cu,Marianao,La Habana,2020/08/02,,secundario
+,mujer,51,cu,Marianao,La Habana,2020/08/02,,secundario
+,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/08/02,,primario
+,mujer,56,cu,Santiago de Cuba,Santiago de Cuba,2020/08/02,,primario
+,hombre,62,cu,Songo La Maya,Santiago de Cuba,2020/08/02,,primario
+,mujer,47,cu,San Luis,Santiago de Cuba,2020/08/02,,primario
+,hombre,37,cu,Pinar del Río,Pinar del Río,2020/08/03,,secundario
+,hombre,53,cu,Pinar del Río,Pinar del Río,2020/08/03,,primario
+,hombre,41,cu,Mariel,Artemisa,2020/08/03,,secundario
+,mujer,52,cu,Bauta,Artemisa,2020/08/03,,secundario
+,hombre,40,cu,Bauta,Artemisa,2020/08/03,,secundario
+,mujer,44,cu,Bauta,Artemisa,2020/08/03,,secundario
+,hombre,10,cu,Bauta,Artemisa,2020/08/03,,secundario
+,hombre,47,cu,Bauta,Artemisa,2020/08/03,,secundario
+,mujer,55,cu,Artemisa,Artemisa,2020/08/03,,primario
+,mujer,22,cu,Plaza de la Revolución,La Habana,2020/08/03,,secundario
+,hombre,56,cu,La Lisa,La Habana,2020/08/03,,secundario
+,mujer,36,cu,La Lisa,La Habana,2020/08/03,,secundario
+,hombre,76,cu,La Lisa,La Habana,2020/08/03,,secundario
+,hombre,39,cu,La Lisa,La Habana,2020/08/03,,secundario
+,hombre,84,cu,La Lisa,La Habana,2020/08/03,,secundario
+,mujer,97,cu,La Lisa,La Habana,2020/08/03,,secundario
+,mujer,35,cu,Marianao,La Habana,2020/08/03,,desconocido
+,mujer,37,cu,Marianao,La Habana,2020/08/03,,secundario
+,hombre,49,cu,La Lisa,La Habana,2020/08/03,,secundario
+,hombre,78,cu,La Lisa,La Habana,2020/08/03,,secundario
+,hombre,83,cu,Habana del Este,La Habana,2020/08/03,,desconocido
+,hombre,83,cu,Playa,La Habana,2020/08/03,,desconocido
+,hombre,35,cu,Playa,La Habana,2020/08/03,,desconocido
+,hombre,41,cu,Cerro,La Habana,2020/08/03,,primario
+,hombre,67,cu,La Lisa,La Habana,2020/08/03,,primario
+,mujer,38,cu,Boyeros,La Habana,2020/08/03,,primario
+,mujer,31,cu,Sancti Spíritus,Sancti Spíritus,2020/08/03,,primario
+,hombre,48,cu,Morón,Ciego de Ávila,2020/08/03,,primario
+,mujer,33,cu,Holguín,Holguín,2020/08/03,,primario
+,hombre,45,cu,Holguín,Holguín,2020/08/03,,primario
+,mujer,45,cu,Jiguaní,Granma,2020/08/03,,primario
+,hombre,43,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,43,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,9,cu,Bauta,Artemisa,2020/08/04,,secundario
+,mujer,58,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,59,cu,Bauta,Artemisa,2020/08/04,,secundario
+,hombre,30,cu,Caimito,Artemisa,2020/08/04,,secundario
+,hombre,49,cu,San Antonio de los Baños,Artemisa,2020/08/04,,secundario
+,hombre,24,cu,San Antonio de los Baños,Artemisa,2020/08/04,,secundario
+,hombre,32,cu,Artemisa,Artemisa,2020/08/04,,secundario
+,hombre,29,cu,San Antonio de los Baños,Artemisa,2020/08/04,,secundario
+,mujer,55,cu,Mariel,Artemisa,2020/08/04,,secundario
+,mujer,58,cu,San Cristóbal,Artemisa,2020/08/04,,secundario
+,hombre,55,cu,San Cristóbal,Artemisa,2020/08/04,,secundario
+,hombre,23,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,22,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,54,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,24,cu,Marianao,La Habana,2020/08/04,,secundario
+,mujer,30,cu,Habana del Este,La Habana,2020/08/04,,secundario
+,mujer,28,cu,Marianao,La Habana,2020/08/04,,secundario
+,mujer,50,cu,La Lisa,La Habana,2020/08/04,,secundario
+,hombre,25,cu,Plaza de la Revolución,La Habana,2020/08/04,,desconocido
+,hombre,63,cu,Boyeros,La Habana,2020/08/04,,desconocido
+,mujer,19,cu,Habana del Este,La Habana,2020/08/04,,secundario
+,mujer,53,cu,Cienfuegos,Cienfuegos,2020/08/04,,primario
+,hombre,28,cu,Guantánamo,Guantánamo,2020/08/04,,primario
+,mujer,19,cu,Bauta,Artemisa,2020/08/05,,secundario
+,hombre,69,cu,Mariel,Artemisa,2020/08/05,,secundario
+,hombre,20,cu,Artemisa,Artemisa,2020/08/05,,secundario
+,hombre,41,cu,San Cristóbal,Artemisa,2020/08/05,,secundario
+,hombre,57,cu,Bahía Honda,Artemisa,2020/08/05,,secundario
+,hombre,43,cu,Artemisa,Artemisa,2020/08/05,,secundario
+,mujer,55,cu,Mariel,Artemisa,2020/08/05,,secundario
+,hombre,20,cu,Mariel,Artemisa,2020/08/05,,secundario
+,mujer,20,cu,Mariel,Artemisa,2020/08/05,,secundario
+,mujer,42,cu,Mariel,Artemisa,2020/08/05,,secundario
+,hombre,39,cu,Artemisa,Artemisa,2020/08/05,,secundario
+,hombre,31,cu,Bahía Honda,Artemisa,2020/08/05,,secundario
+,hombre,24,cu,Bahía Honda,Artemisa,2020/08/05,,secundario
+,hombre,64,cu,Artemisa,Artemisa,2020/08/05,,secundario
+,hombre,56,cu,Mariel,Artemisa,2020/08/05,,secundario
+,hombre,58,cu,San Cristóbal,Artemisa,2020/08/05,,secundario
+,hombre,25,cu,Caimito,Artemisa,2020/08/05,,secundario
+,hombre,22,cu,San Cristóbal,Artemisa,2020/08/05,,secundario
+,hombre,51,cu,San Cristóbal,Artemisa,2020/08/05,,secundario
+,hombre,20,cu,La Lisa,La Habana,2020/08/05,,secundario
+,hombre,18,cu,Habana del Este,La Habana,2020/08/05,,secundario
+,mujer,18,cu,Habana del Este,La Habana,2020/08/05,,secundario
+,hombre,30,cu,Habana del Este,La Habana,2020/08/05,,secundario
+,hombre,31,cu,Marianao,La Habana,2020/08/05,,secundario
+,hombre,30,cu,Habana del Este,La Habana,2020/08/05,,secundario
+,mujer,19,cu,La Lisa,La Habana,2020/08/05,,desconocido
+,hombre,31,cu,Boyeros,La Habana,2020/08/05,,secundario
+,mujer,20,cu,Marianao,La Habana,2020/08/05,,secundario
+,hombre,64,cu,Marianao,La Habana,2020/08/05,,secundario
+,mujer,71,cu,Marianao,La Habana,2020/08/05,,secundario
+,mujer,46,cu,Marianao,La Habana,2020/08/05,,secundario
+,mujer,59,cu,Diez de Octubre,La Habana,2020/08/05,,desconocido
+,hombre,19,cu,Habana del Este,La Habana,2020/08/05,,secundario
+,hombre,58,cu,Habana del Este,La Habana,2020/08/05,,secundario
+,mujer,23,cu,Playa,La Habana,2020/08/05,,secundario
+,hombre,27,cu,Playa,La Habana,2020/08/05,,secundario
+,mujer,21,cu,Playa,La Habana,2020/08/05,,secundario
+,mujer,17,cu,Diez de Octubre,La Habana,2020/08/05,,secundario
+,mujer,43,cu,Cerro,La Habana,2020/08/05,,secundario
+,hombre,49,cu,Plaza de la Revolución,La Habana,2020/08/05,,secundario
+,mujer,21,cu,Plaza de la Revolución,La Habana,2020/08/05,,secundario
+,mujer,35,cu,Playa,La Habana,2020/08/05,,secundario
+,hombre,29,cu,Marianao,La Habana,2020/08/05,,primario
+,hombre,34,cu,San José de las Lajas,Mayabeque,2020/08/05,,primario
+,mujer,42,cu,Jovellanos,Matanzas,2020/08/05,,primario
+,mujer,19,cu,Camajuaní,Villa Clara,2020/08/05,,secundario
+,hombre,29,cu,Holguín,Holguín,2020/08/05,,primario
+,hombre,41,cu,Manzanillo,Granma,2020/08/05,,primario
+,mujer,56,cu,Manzanillo,Granma,2020/08/05,,primario
+,mujer,26,cu,Bauta,Artemisa,2020/08/06,,secundario
+,hombre,56,cu,Mariel,Artemisa,2020/08/06,,secundario
+,hombre,27,cu,Artemisa,Artemisa,2020/08/06,,secundario
+,hombre,47,cu,Artemisa,Artemisa,2020/08/06,,secundario
+,hombre,44,cu,Boyeros,La Habana,2020/08/06,,secundario
+,mujer,60,cu,Boyeros,La Habana,2020/08/06,,secundario
+,mujer,59,cu,La Habana Vieja,La Habana,2020/08/06,,primario
+,hombre,36,cu,Centro Habana,La Habana,2020/08/06,,primario
+,mujer,27,mx,Plaza de la Revolución,La Habana,2020/08/06,,primario
+,hombre,28,mx,Plaza de la Revolución,La Habana,2020/08/06,,primario
+,mujer,52,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,35,cu,Boyeros,La Habana,2020/08/06,,secundario
+,hombre,71,cu,Playa,La Habana,2020/08/06,,secundario
+,mujer,56,cu,La Lisa,La Habana,2020/08/06,,secundario
+,hombre,19,cu,Diez de Octubre,La Habana,2020/08/06,,secundario
+,hombre,22,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,28,cu,Guanabacoa,La Habana,2020/08/06,,secundario
+,hombre,76,cu,La Lisa,La Habana,2020/08/06,,secundario
+,mujer,21,cu,Diez de Octubre,La Habana,2020/08/06,,secundario
+,mujer,82,cu,Diez de Octubre,La Habana,2020/08/06,,secundario
+,mujer,46,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,22,cu,Plaza de la Revolución,La Habana,2020/08/06,,secundario
+,hombre,51,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,27,cu,Guanabacoa,La Habana,2020/08/06,,secundario
+,mujer,24,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,22,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,30,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,42,cu,Marianao,La Habana,2020/08/06,,secundario
+,mujer,3,cu,Marianao,La Habana,2020/08/06,,secundario
+,mujer,22,cu,Marianao,La Habana,2020/08/06,,secundario
+,mujer,78,cu,Marianao,La Habana,2020/08/06,,secundario
+,mujer,28,cu,Marianao,La Habana,2020/08/06,,secundario
+,hombre,58,cu,Plaza de la Revolución,La Habana,2020/08/06,,secundario
+,mujer,66,cu,Boyeros,La Habana,2020/08/06,,secundario
+,mujer,18,cu,La Habana Vieja,La Habana,2020/08/06,,primario
+,mujer,22,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,21,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,23,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,23,cu,Centro Habana,La Habana,2020/08/06,,secundario
+,hombre,19,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,57,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,33,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,mujer,42,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,52,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,41,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,18,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,36,cu,Habana del Este,La Habana,2020/08/06,,secundario
+,hombre,37,cu,Jagüey Grande,Matanzas,2020/08/06,,primario
+,hombre,24,cu,Camajuaní,Villa Clara,2020/08/06,,secundario
+,hombre,20,cu,Camajuaní,Villa Clara,2020/08/06,,secundario
+,mujer,59,cu,Santa Clara,Villa Clara,2020/08/06,,secundario
+,mujer,23,cu,Camajuaní,Villa Clara,2020/08/06,,secundario
+,hombre,23,cu,Camajuaní,Villa Clara,2020/08/06,,secundario
+,mujer,10,cu,Camajuaní,Villa Clara,2020/08/06,,secundario
+,hombre,40,cu,Mariel,Artemisa,2020/08/07,,secundario
+,mujer,27,cu,Mariel,Artemisa,2020/08/07,,secundario
+,hombre,20,cu,Mariel,Artemisa,2020/08/07,,secundario
+,mujer,45,cu,San Cristóbal,Artemisa,2020/08/07,,secundario
+,hombre,26,cu,San Miguel del Padrón,La Habana,2020/08/07,,secundario
+,mujer,42,cu,San Miguel del Padrón,La Habana,2020/08/07,,secundario
+,mujer,39,cu,Cerro,La Habana,2020/08/07,,primario
+,mujer,36,cu,Boyeros,La Habana,2020/08/07,,primario
+,mujer,56,cu,Boyeros,La Habana,2020/08/07,,secundario
+,mujer,29,cu,Boyeros,La Habana,2020/08/07,,secundario
+,mujer,24,cu,Boyeros,La Habana,2020/08/07,,secundario
+,hombre,50,cu,Habana del Este,La Habana,2020/08/07,,secundario
+,mujer,45,cu,Habana del Este,La Habana,2020/08/07,,secundario
+,hombre,32,cu,La Lisa,La Habana,2020/08/07,,desconocido
+,hombre,57,cu,Guanabacoa,La Habana,2020/08/07,,secundario
+,mujer,53,cu,Playa,La Habana,2020/08/07,,desconocido
+,hombre,52,cu,Diez de Octubre,La Habana,2020/08/07,,secundario
+,mujer,51,cu,Diez de Octubre,La Habana,2020/08/07,,secundario
+,mujer,55,cu,Habana del Este,La Habana,2020/08/07,,secundario
+,hombre,55,cu,Habana del Este,La Habana,2020/08/07,,secundario
+,mujer,42,cu,,Matanzas,2020/08/07,,primario
+,mujer,39,cu,,Matanzas,2020/08/07,,primario
+,mujer,38,cu,,Villa Clara,2020/08/07,,primario
+,hombre,26,cu,,Villa Clara,2020/08/07,,primario
+,mujer,49,cu,,Villa Clara,2020/08/07,,primario
+,hombre,39,cu,,Villa Clara,2020/08/07,,secundario
+,hombre,43,cu,,Villa Clara,2020/08/07,,primario
+,hombre,46,cu,,Villa Clara,2020/08/07,,primario
+,mujer,42,cu,,Cienfuegos,2020/08/07,,primario
+,mujer,35,cu,,Cienfuegos,2020/08/07,,primario
+,hombre,33,cu,,Cienfuegos,2020/08/07,,primario
+,hombre,42,cu,,Sancti Spíritus,2020/08/07,,primario
+,mujer,40,cu,,Sancti Spíritus,2020/08/07,,primario
+,mujer,41,cu,,Ciego de Ávila,2020/08/07,,primario
+,hombre,49,cu,,Camagüey,2020/08/07,,primario
+,hombre,47,cu,,Camagüey,2020/08/07,,primario
+,mujer,36,cu,,Camagüey,2020/08/07,,primario
+,hombre,41,cu,,Las Tunas,2020/08/07,,primario
+,hombre,39,cu,,Santiago de Cuba,2020/08/07,,primario
+,hombre,48,cu,,Santiago de Cuba,2020/08/07,,primario
+,mujer,37,cu,,Santiago de Cuba,2020/08/07,,primario
+,mujer,48,cu,,Santiago de Cuba,2020/08/07,,primario
+,mujer,46,cu,,Granma,2020/08/07,,primario
+,mujer,39,cu,,Granma,2020/08/07,,primario
+,mujer,43,cu,,Granma,2020/08/07,,primario
+,hombre,41,cu,,Granma,2020/08/07,,primario
+,mujer,35,cu,,Granma,2020/08/07,,primario
+,mujer,40,cu,,Granma,2020/08/07,,primario
+,hombre,39,cu,,Holguín,2020/08/07,,primario
+,hombre,37,cu,,Holguín,2020/08/07,,primario
+,hombre,48,cu,,Holguín,2020/08/07,,primario
+,mujer,49,cu,,Holguín,2020/08/07,,primario
+,hombre,32,cu,,Guantánamo,2020/08/07,,primario
+,hombre,42,cu,,Guantánamo,2020/08/07,,primario
+,hombre,38,cu,,Guantánamo,2020/08/07,,primario
+,hombre,41,cu,,Guantánamo,2020/08/07,,primario
+,mujer,45,cu,,Guantánamo,2020/08/07,,primario
+,hombre,31,cu,,Pinar del Río,2020/08/07,,primario
+,mujer,48,cu,,Pinar del Río,2020/08/07,,primario
+,hombre,47,cu,Guane,Pinar del Río,2020/08/08,,primario
+,mujer,40,cu,Candelaria,Artemisa,2020/08/08,,primario
+,hombre,35,cu,San Antonio de los Baños,Artemisa,2020/08/08,,primario
+,hombre,42,cu,Caimito,Artemisa,2020/08/08,,secundario
+,hombre,31,cu,Mariel,Artemisa,2020/08/08,,secundario
+,hombre,51,cu,Candelaria,Artemisa,2020/08/08,,secundario
+,hombre,60,cu,San Cristóbal,Artemisa,2020/08/08,,secundario
+,hombre,38,cu,Bahía Honda,Artemisa,2020/08/08,,secundario
+,hombre,59,cu,Mariel,Artemisa,2020/08/08,,secundario
+,hombre,32,cu,Mariel,Artemisa,2020/08/08,,secundario
+,mujer,54,cu,San Cristóbal,Artemisa,2020/08/08,,secundario
+,mujer,47,cu,Bauta,Artemisa,2020/08/08,,secundario
+,hombre,57,cu,Mariel,Artemisa,2020/08/08,,secundario
+,hombre,42,cu,Bauta,Artemisa,2020/08/08,,secundario
+,hombre,28,cu,Mariel,Artemisa,2020/08/08,,secundario
+,hombre,60,cu,San Cristóbal,Artemisa,2020/08/08,,secundario
+,hombre,55,cu,Caimito,Artemisa,2020/08/08,,secundario
+,hombre,39,cu,Mariel,Artemisa,2020/08/08,,secundario
+,mujer,52,cu,Arroyo Naranjo,La Habana,2020/08/08,,secundario
+,mujer,23,cu,Habana del Este,La Habana,2020/08/08,,secundario
+,hombre,21,cu,Centro Habana,La Habana,2020/08/08,,secundario
+,hombre,67,cu,Arroyo Naranjo,La Habana,2020/08/08,,secundario
+,hombre,49,cu,La Lisa,La Habana,2020/08/08,,secundario
+,hombre,28,cu,Playa,La Habana,2020/08/08,,secundario
+,mujer,56,cu,Playa,La Habana,2020/08/08,,secundario
+,hombre,42,cu,Boyeros,La Habana,2020/08/08,,secundario
+,hombre,14,cu,La Lisa,La Habana,2020/08/08,,desconocido
+,mujer,23,cu,Guanabacoa,La Habana,2020/08/08,,secundario
+,mujer,76,cu,Habana del Este,La Habana,2020/08/08,,desconocido
+,hombre,53,cu,La Lisa,La Habana,2020/08/08,,desconocido
+,hombre,33,cu,La Habana Vieja,La Habana,2020/08/08,,desconocido
+,hombre,35,cu,Marianao,La Habana,2020/08/08,,primario
+,mujer,68,cu,Plaza de la Revolución,La Habana,2020/08/08,,primario
+,mujer,57,cu,Plaza de la Revolución,La Habana,2020/08/08,,primario
+,hombre,34,cu,San Miguel del Padrón,La Habana,2020/08/08,,primario
+,mujer,57,cu,La Habana Vieja,La Habana,2020/08/08,,primario
+,hombre,41,fr,Playa,La Habana,2020/08/08,,secundario
+,hombre,52,cu,Habana del Este,La Habana,2020/08/08,,secundario
+,hombre,38,cu,Diez de Octubre,La Habana,2020/08/08,,secundario
+,mujer,57,cu,Plaza de la Revolución,La Habana,2020/08/08,,secundario
+,mujer,49,cu,Plaza de la Revolución,La Habana,2020/08/08,,secundario
+,mujer,38,cu,Boyeros,La Habana,2020/08/08,,secundario
+,hombre,20,cu,Playa,La Habana,2020/08/08,,secundario
+,hombre,53,cu,Marianao,La Habana,2020/08/08,,desconocido
+,hombre,52,cu,Marianao,La Habana,2020/08/08,,desconocido
+,hombre,49,cu,Diez de Octubre,La Habana,2020/08/08,,desconocido
+,hombre,57,cu,Marianao,La Habana,2020/08/08,,secundario
+,mujer,23,cu,San Nicolás,Mayabeque,2020/08/08,,primario
+,mujer,60,cu,Colón,Matanzas,2020/08/08,,primario
+,mujer,30,cu,Camajuaní,Villa Clara,2020/08/08,,secundario
+,mujer,55,cu,Camajuaní,Villa Clara,2020/08/08,,secundario
+,mujer,73,cu,Camajuaní,Villa Clara,2020/08/08,,secundario
+,hombre,55,cu,Camajuaní,Villa Clara,2020/08/08,,secundario
+,mujer,57,cu,Camajuaní,Villa Clara,2020/08/08,,secundario
+,hombre,36,cu,Manicaragua,Villa Clara,2020/08/08,,primario
+,mujer,30,cu,Santa Clara,Villa Clara,2020/08/08,,primario
+,hombre,33,cu,Cabaiguán,Sancti Spíritus,2020/08/08,,primario
+,hombre,35,cu,Vertientes,Camagüey,2020/08/08,,primario
+,hombre,65,cu,Las Tunas,Las Tunas,2020/08/08,,primario
+,hombre,3,cu,Las Tunas,Las Tunas,2020/08/08,,secundario
+,mujer,29,cu,Las Tunas,Las Tunas,2020/08/08,,primario
+,mujer,28,cu,Mayarí,Holguín,2020/08/08,,primario
+,mujer,40,cu,San Luis,Santiago de Cuba,2020/08/08,,primario
+,mujer,53,cu,Palma Soriano,Santiago de Cuba,2020/08/08,,primario
+,mujer,35,cu,Guantánamo,Guantánamo,2020/08/08,,primario
+,hombre,30,cu,Artemisa,Artemisa,2020/08/09,,secundario
+,mujer,21,cu,Mariel,Artemisa,2020/08/09,,secundario
+,hombre,62,cu,Artemisa,Artemisa,2020/08/09,,secundario
+,hombre,20,cu,Candelaria,Artemisa,2020/08/09,,secundario
+,hombre,23,cu,San Cristóbal,Artemisa,2020/08/09,,secundario
+,hombre,28,cu,Mariel,Artemisa,2020/08/09,,secundario
+,mujer,55,cu,Mariel,Artemisa,2020/08/09,,secundario
+,mujer,32,cu,Guanajay,Artemisa,2020/08/09,,secundario
+,mujer,19,cu,Mariel,Artemisa,2020/08/09,,secundario
+,mujer,52,cu,Bahía Honda,Artemisa,2020/08/09,,secundario
+,mujer,77,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,mujer,34,cu,Playa,La Habana,2020/08/09,,secundario
+,mujer,34,cu,Guanabacoa,La Habana,2020/08/09,,secundario
+,mujer,46,cu,Playa,La Habana,2020/08/09,,secundario
+,hombre,2,cu,Playa,La Habana,2020/08/09,,secundario
+,hombre,48,cu,Plaza de la Revolución,La Habana,2020/08/09,,desconocido
+,mujer,39,cu,Marianao,La Habana,2020/08/09,,secundario
+,mujer,21,cu,Marianao,La Habana,2020/08/09,,secundario
+,hombre,20,cu,Cotorro,La Habana,2020/08/09,,secundario
+,hombre,41,cu,Arroyo Naranjo,La Habana,2020/08/09,,secundario
+,hombre,58,cu,Cerro,La Habana,2020/08/09,,secundario
+,mujer,51,cu,Marianao,La Habana,2020/08/09,,secundario
+,hombre,60,cu,La Lisa,La Habana,2020/08/09,,desconocido
+,hombre,32,cu,La Lisa,La Habana,2020/08/09,,secundario
+,mujer,44,cu,Marianao,La Habana,2020/08/09,,secundario
+,mujer,36,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,46,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,25,cu,Arroyo Naranjo,La Habana,2020/08/09,,desconocido
+,mujer,25,cu,Arroyo Naranjo,La Habana,2020/08/09,,secundario
+,mujer,54,cu,Arroyo Naranjo,La Habana,2020/08/09,,desconocido
+,hombre,26,cu,Arroyo Naranjo,La Habana,2020/08/09,,secundario
+,hombre,58,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,52,cu,Habana del Este,La Habana,2020/08/09,,desconocido
+,mujer,69,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,mujer,69,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,28,cu,Habana del Este,La Habana,2020/08/09,,desconocido
+,mujer,67,cu,Habana del Este,La Habana,2020/08/09,,desconocido
+,mujer,58,cu,Habana del Este,La Habana,2020/08/09,,desconocido
+,hombre,57,cu,La Lisa,La Habana,2020/08/09,,secundario
+,mujer,20,cu,La Lisa,La Habana,2020/08/09,,secundario
+,mujer,46,cu,La Lisa,La Habana,2020/08/09,,desconocido
+,hombre,35,cu,La Lisa,La Habana,2020/08/09,,secundario
+,hombre,55,cu,La Lisa,La Habana,2020/08/09,,secundario
+,mujer,64,cu,La Lisa,La Habana,2020/08/09,,desconocido
+,hombre,81,cu,Boyeros,La Habana,2020/08/09,,desconocido
+,hombre,23,cu,Boyeros,La Habana,2020/08/09,,desconocido
+,mujer,38,cu,Boyeros,La Habana,2020/08/09,,desconocido
+,hombre,94,cu,Cerro,La Habana,2020/08/09,,secundario
+,mujer,79,cu,Centro Habana,La Habana,2020/08/09,,desconocido
+,hombre,30,cu,Centro Habana,La Habana,2020/08/09,,desconocido
+,mujer,17,cu,Marianao,La Habana,2020/08/09,,secundario
+,mujer,8,cu,Marianao,La Habana,2020/08/09,,secundario
+,mujer,13,cu,Diez de Octubre,La Habana,2020/08/09,,secundario
+,mujer,7,cu,Diez de Octubre,La Habana,2020/08/09,,secundario
+,mujer,14,cu,Diez de Octubre,La Habana,2020/08/09,,secundario
+,mujer,61,cu,Diez de Octubre,La Habana,2020/08/09,,desconocido
+,hombre,46,cu,Playa,La Habana,2020/08/09,,secundario
+,mujer,18,cu,Playa,La Habana,2020/08/09,,desconocido
+,hombre,68,cu,Playa,La Habana,2020/08/09,,secundario
+,hombre,26,cu,Plaza de la Revolución,La Habana,2020/08/09,,desconocido
+,hombre,55,cu,Plaza de la Revolución,La Habana,2020/08/09,,desconocido
+,mujer,56,cu,Plaza de la Revolución,La Habana,2020/08/09,,secundario
+,hombre,25,cu,Plaza de la Revolución,La Habana,2020/08/09,,desconocido
+,hombre,35,cu,San Miguel del Padrón,La Habana,2020/08/09,,secundario
+,hombre,21,cu,Guanabacoa,La Habana,2020/08/09,,desconocido
+,mujer,64,cu,Marianao,La Habana,2020/08/09,,secundario
+,mujer,33,cu,Diez de Octubre,La Habana,2020/08/09,,desconocido
+,hombre,26,cu,Diez de Octubre,La Habana,2020/08/09,,desconocido
+,hombre,69,cu,Marianao,La Habana,2020/08/09,,primario
+,hombre,30,cu,Playa,La Habana,2020/08/09,,primario
+,hombre,60,cu,Playa,La Habana,2020/08/09,,primario
+,hombre,64,cu,Plaza de la Revolución,La Habana,2020/08/09,,primario
+,hombre,31,cu,Diez de Octubre,La Habana,2020/08/09,,desconocido
+,hombre,24,cu,La Lisa,La Habana,2020/08/09,,secundario
+,mujer,22,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,mujer,22,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,24,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,22,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,mujer,23,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,22,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,21,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,19,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,47,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,mujer,53,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,mujer,20,cu,Habana del Este,La Habana,2020/08/09,,secundario
+,hombre,9,cu,La Lisa,La Habana,2020/08/09,,desconocido
+,mujer,52,cu,Ciro Redondo,Ciego de Ávila,2020/08/09,,primario
+,hombre,45,cu,Ciego de Ávila,Ciego de Ávila,2020/08/09,,primario
+,mujer,30,cu,Las Tunas,Las Tunas,2020/08/09,,secundario
+,hombre,23,cu,Las Tunas,Las Tunas,2020/08/09,,primario
+,hombre,38,cu,Holguín,Holguín,2020/08/09,,primario
+,mujer,52,cu,Holguín,Holguín,2020/08/09,,primario
+,mujer,39,cu,Isla de la Juventud,Isla de la Juventud,2020/08/09,,primario
+,mujer,47,cu,Artemisa,Artemisa,2020/08/10,,secundario
+,hombre,40,cu,Caimito,Artemisa,2020/08/10,,secundario
+,hombre,49,cu,Mariel,Artemisa,2020/08/10,,secundario
+,mujer,53,cu,Mariel,Artemisa,2020/08/10,,secundario
+,mujer,46,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,hombre,2,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,mujer,44,cu,Boyeros,La Habana,2020/08/10,,secundario
+,mujer,52,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,hombre,27,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,mujer,57,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,hombre,32,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,hombre,41,cu,La Lisa,La Habana,2020/08/10,,desconocido
+,hombre,42,cu,La Lisa,La Habana,2020/08/10,,secundario
+,hombre,29,cu,La Lisa,La Habana,2020/08/10,,desconocido
+,mujer,48,cu,La Lisa,La Habana,2020/08/10,,desconocido
+,mujer,35,cu,La Lisa,La Habana,2020/08/10,,secundario
+,mujer,52,cu,Centro Habana,La Habana,2020/08/10,,desconocido
+,mujer,19,cu,Diez de Octubre,La Habana,2020/08/10,,desconocido
+,hombre,49,cu,Marianao,La Habana,2020/08/10,,secundario
+,mujer,43,cu,Boyeros,La Habana,2020/08/10,,desconocido
+,hombre,69,cu,Boyeros,La Habana,2020/08/10,,secundario
+,mujer,24,cu,Boyeros,La Habana,2020/08/10,,secundario
+,mujer,52,cu,Arroyo Naranjo,La Habana,2020/08/10,,desconocido
+,mujer,29,cu,Marianao,La Habana,2020/08/10,,secundario
+,hombre,57,cu,Arroyo Naranjo,La Habana,2020/08/10,,secundario
+,hombre,53,cu,Plaza de la Revolución,La Habana,2020/08/10,,desconocido
+,hombre,24,cu,Cerro,La Habana,2020/08/10,,secundario
+,hombre,49,cu,La Habana Vieja,La Habana,2020/08/10,,desconocido
+,mujer,80,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
+,hombre,35,ni,Centro Habana,La Habana,2020/08/10,,desconocido
+,mujer,30,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
+,hombre,20,cu,San Miguel del Padrón,La Habana,2020/08/10,,desconocido
+,hombre,9,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,mujer,48,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,mujer,27,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,mujer,54,cu,La Lisa,La Habana,2020/08/10,,secundario
+,hombre,23,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
+,hombre,31,cu,Diez de Octubre,La Habana,2020/08/10,,secundario
+,hombre,25,cu,Playa,La Habana,2020/08/10,,desconocido
+,hombre,39,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,hombre,21,cu,Plaza de la Revolución,La Habana,2020/08/10,,secundario
+,hombre,22,cu,Habana del Este,La Habana,2020/08/10,,secundario
+,mujer,55,cu,San Miguel del Padrón,La Habana,2020/08/10,,secundario
+,mujer,54,cu,Camajuaní,Villa Clara,2020/08/10,,secundario
+,hombre,42,cu,Camajuaní,Villa Clara,2020/08/10,,secundario
+,hombre,72,cu,Camajuaní,Villa Clara,2020/08/10,,secundario
+,hombre,31,cu,Manicaragua,Villa Clara,2020/08/10,,secundario
+,mujer,70,cu,Mariel,Artemisa,2020/08/11,,secundario
+,hombre,23,cu,Mariel,Artemisa,2020/08/11,,secundario
+,hombre,31,cu,Plaza de la Revolución,La Habana,2020/08/11,,secundario
+,mujer,59,cu,Plaza de la Revolución,La Habana,2020/08/11,,secundario
+,mujer,19,cu,Habana del Este,La Habana,2020/08/11,,secundario
+,mujer,55,cu,Habana del Este,La Habana,2020/08/11,,secundario
+,hombre,4,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,mujer,18,cu,La Lisa,La Habana,2020/08/11,,desconocido
+,mujer,5,cu,Plaza de la Revolución,La Habana,2020/08/11,,desconocido
+,hombre,56,cu,Arroyo Naranjo,La Habana,2020/08/11,,secundario
+,mujer,48,cu,Diez de Octubre,La Habana,2020/08/11,,desconocido
+,mujer,43,cu,Diez de Octubre,La Habana,2020/08/11,,secundario
+,hombre,30,cu,Boyeros,La Habana,2020/08/11,,secundario
+,hombre,40,cu,Cerro,La Habana,2020/08/11,,secundario
+,mujer,65,cu,Cerro,La Habana,2020/08/11,,secundario
+,hombre,32,cu,Plaza de la Revolución,La Habana,2020/08/11,,secundario
+,mujer,24,cu,Plaza de la Revolución,La Habana,2020/08/11,,desconocido
+,hombre,47,cu,Marianao,La Habana,2020/08/11,,desconocido
+,mujer,29,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,hombre,29,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,hombre,45,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,hombre,72,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,mujer,64,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,mujer,29,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,mujer,35,cu,San Miguel del Padrón,La Habana,2020/08/11,,secundario
+,hombre,27,cu,Playa,La Habana,2020/08/11,,secundario
+,hombre,7,cu,La Lisa,La Habana,2020/08/11,,secundario
+,mujer,47,cu,La Lisa,La Habana,2020/08/11,,desconocido
+,mujer,29,cu,La Lisa,La Habana,2020/08/11,,secundario
+,hombre,22,cu,La Lisa,La Habana,2020/08/11,,secundario
+,hombre,66,cu,Diez de Octubre,La Habana,2020/08/11,,desconocido
+,hombre,22,cu,Matanzas,Matanzas,2020/08/11,,desconocido
+,mujer,3,cu,Camajuaní,Villa Clara,2020/08/11,,secundario
+,hombre,33,cu,Manicaragua,Villa Clara,2020/08/11,,secundario
+,hombre,48,cu,Moa,Holguín,2020/08/11,,desconocido
+,mujer,46,cu,Consolación del Sur,Pinar del Río,2020/08/12,,secundario
+,hombre,57,cu,La Palma,Pinar del Río,2020/08/12,,secundario
+,hombre,30,cu,Minas de Matahambre,Pinar del Río,2020/08/12,,secundario
+,mujer,42,cu,San Antonio de los Baños,Artemisa,2020/08/12,,secundario
+,mujer,32,cu,Mariel,Artemisa,2020/08/12,,secundario
+,mujer,60,cu,Mariel,Artemisa,2020/08/12,,secundario
+,hombre,32,cu,Bahía Honda,Artemisa,2020/08/12,,secundario
+,hombre,62,cu,Mariel,Artemisa,2020/08/12,,secundario
+,hombre,10,cu,San Miguel del Padrón,La Habana,2020/08/12,,secundario
+,hombre,29,cu,Regla,La Habana,2020/08/12,,secundario
+,hombre,56,cu,Centro Habana,La Habana,2020/08/12,,secundario
+,mujer,79,cu,Centro Habana,La Habana,2020/08/12,,secundario
+,mujer,23,cu,Habana del Este,La Habana,2020/08/12,,secundario
+,mujer,49,cu,Centro Habana,La Habana,2020/08/12,,secundario
+,hombre,11,cu,Habana del Este,La Habana,2020/08/12,,secundario
+,mujer,25,cu,Cerro,La Habana,2020/08/12,,secundario
+,hombre,24,cu,Boyeros,La Habana,2020/08/12,,secundario
+,mujer,50,cu,Guanabacoa,La Habana,2020/08/12,,secundario
+,hombre,56,cu,Playa,La Habana,2020/08/12,,secundario
+,mujer,26,cu,Boyeros,La Habana,2020/08/12,,secundario
+,mujer,24,cu,Habana del Este,La Habana,2020/08/12,,secundario
+,hombre,40,cu,Centro Habana,La Habana,2020/08/12,,secundario
+,mujer,33,cu,Habana del Este,La Habana,2020/08/12,,secundario
+,mujer,54,cu,Cerro,La Habana,2020/08/12,,desconocido
+,hombre,36,co,Plaza de la Revolución,La Habana,2020/08/12,,secundario
+,mujer,28,cu,La Lisa,La Habana,2020/08/12,,secundario
+,mujer,26,cu,Playa,La Habana,2020/08/12,,primario
+,hombre,35,cu,Habana del Este,La Habana,2020/08/12,,primario
+,hombre,53,cu,Boyeros,La Habana,2020/08/12,,primario
+,hombre,49,cu,Cotorro,La Habana,2020/08/12,,secundario
+,hombre,33,cu,Cotorro,La Habana,2020/08/12,,secundario
+,mujer,38,cu,La Lisa,La Habana,2020/08/12,,secundario
+,mujer,16,cu,Cotorro,La Habana,2020/08/12,,secundario
+,hombre,34,cu,Cotorro,La Habana,2020/08/12,,secundario
+,mujer,49,cu,La Lisa,La Habana,2020/08/12,,secundario
+,mujer,45,cu,Habana del Este,La Habana,2020/08/12,,secundario
+,hombre,60,cu,Guanabacoa,La Habana,2020/08/12,,secundario
+,hombre,26,cu,Boyeros,La Habana,2020/08/12,,secundario
+,hombre,21,cu,La Lisa,La Habana,2020/08/12,,secundario
+,hombre,36,cu,Plaza de la Revolución,La Habana,2020/08/12,,secundario
+,hombre,41,cu,Habana del Este,La Habana,2020/08/12,,secundario
+,hombre,57,cu,La Lisa,La Habana,2020/08/12,,secundario
+,mujer,66,cu,San Nicolás,Mayabeque,2020/08/12,,secundario
+,mujer,45,cu,Camajuaní,Villa Clara,2020/08/12,,secundario
+,hombre,26,cu,Camajuaní,Villa Clara,2020/08/12,,secundario
+,hombre,51,cu,La Palma,Pinar del Río,2020/08/13,,secundario
+,hombre,14,cu,Bauta,Artemisa,2020/08/13,,secundario
+,mujer,51,cu,Bauta,Artemisa,2020/08/13,,secundario
+,hombre,63,cu,Bahía Honda,Artemisa,2020/08/13,,secundario
+,mujer,49,cu,Caimito,Artemisa,2020/08/13,,secundario
+,mujer,44,cu,Guanajay,Artemisa,2020/08/13,,secundario
+,mujer,46,cu,San Antonio de los Baños,Artemisa,2020/08/13,,secundario
+,mujer,50,cu,Mariel,Artemisa,2020/08/13,,secundario
+,mujer,36,cu,Mariel,Artemisa,2020/08/13,,secundario
+,hombre,36,cu,Mariel,Artemisa,2020/08/13,,secundario
+,hombre,47,cu,Mariel,Artemisa,2020/08/13,,secundario
+,hombre,53,cu,Mariel,Artemisa,2020/08/13,,secundario
+,mujer,55,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,hombre,21,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,hombre,23,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,hombre,21,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,hombre,19,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,mujer,58,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,mujer,17,cu,Artemisa,Artemisa,2020/08/13,,secundario
+,mujer,37,cu,Bahía Honda,Artemisa,2020/08/13,,secundario
+,hombre,35,cu,Habana del Este,La Habana,2020/08/13,,secundario
+,hombre,55,cu,Habana del Este,La Habana,2020/08/13,,secundario
+,hombre,21,cu,Plaza de la Revolución,La Habana,2020/08/13,,desconocido
+,hombre,31,cu,Boyeros,La Habana,2020/08/13,,secundario
+,mujer,35,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,36,cu,La Lisa,La Habana,2020/08/13,,secundario
+,mujer,1,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,56,cu,Diez de Octubre,La Habana,2020/08/13,,secundario
+,mujer,36,cu,San Miguel del Padrón,La Habana,2020/08/13,,secundario
+,hombre,63,cu,Boyeros,La Habana,2020/08/13,,secundario
+,mujer,21,cu,San Miguel del Padrón,La Habana,2020/08/13,,secundario
+,hombre,58,cu,Habana del Este,La Habana,2020/08/13,,desconocido
+,mujer,21,cu,Playa,La Habana,2020/08/13,,secundario
+,hombre,21,cu,Regla,La Habana,2020/08/13,,secundario
+,hombre,23,cu,San Miguel del Padrón,La Habana,2020/08/13,,secundario
+,mujer,51,cu,Diez de Octubre,La Habana,2020/08/13,,secundario
+,mujer,58,cu,Playa,La Habana,2020/08/13,,secundario
+,mujer,54,cu,Habana del Este,La Habana,2020/08/13,,secundario
+,mujer,55,cu,La Lisa,La Habana,2020/08/13,,secundario
+,mujer,50,cu,Habana del Este,La Habana,2020/08/13,,secundario
+,mujer,59,cu,Cerro,La Habana,2020/08/13,,primario
+,hombre,33,cu,La Lisa,La Habana,2020/08/13,,secundario
+,mujer,41,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,7,cu,La Lisa,La Habana,2020/08/13,,secundario
+,mujer,24,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,33,cu,La Lisa,La Habana,2020/08/13,,secundario
+,mujer,2,cu,La Lisa,La Habana,2020/08/13,,secundario
+,mujer,41,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,58,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,58,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,72,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,58,cu,La Lisa,La Habana,2020/08/13,,secundario
+,hombre,45,cu,Marianao,La Habana,2020/08/13,,secundario
+,hombre,6,cu,Caibarién,Villa Clara,2020/08/13,,secundario
+,hombre,13,cu,Caibarién,Villa Clara,2020/08/13,,secundario
+,mujer,53,cu,Santiago de Cuba,Santiago de Cuba,2020/08/13,,primario
+,hombre,1,cu,Artemisa,Artemisa,2020/08/14,,desconocido
+,mujer,43,cu,Artemisa,Artemisa,2020/08/14,,secundario
+,hombre,29,cu,San Cristóbal,Artemisa,2020/08/14,,secundario
+,hombre,27,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,39,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,20,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,hombre,31,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,16,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,30,cu,Centro Habana,La Habana,2020/08/14,,secundario
+,mujer,59,cu,Guanabacoa,La Habana,2020/08/14,,secundario
+,hombre,20,cu,Diez de Octubre,La Habana,2020/08/14,,secundario
+,hombre,55,cu,Cotorro,La Habana,2020/08/14,,secundario
+,hombre,52,cu,Diez de Octubre,La Habana,2020/08/14,,desconocido
+,mujer,63,cu,Diez de Octubre,La Habana,2020/08/14,,secundario
+,mujer,41,cu,Arroyo Naranjo,La Habana,2020/08/14,,secundario
+,mujer,28,cu,Cerro,La Habana,2020/08/14,,secundario
+,mujer,59,cu,San Miguel del Padrón,La Habana,2020/08/14,,secundario
+,mujer,7,cu,Cerro,La Habana,2020/08/14,,secundario
+,mujer,27,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,49,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,33,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,76,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,42,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,25,cu,Plaza de la Revolución,La Habana,2020/08/14,,secundario
+,mujer,52,cu,San Miguel del Padrón,La Habana,2020/08/14,,secundario
+,mujer,80,cu,Centro Habana,La Habana,2020/08/14,,secundario
+,mujer,25,cu,Habana del Este,La Habana,2020/08/14,,desconocido
+,hombre,66,cu,Centro Habana,La Habana,2020/08/14,,secundario
+,mujer,35,cu,Habana del Este,La Habana,2020/08/14,,secundario
+,mujer,78,cu,La Lisa,La Habana,2020/08/14,,secundario
+,hombre,8,cu,Boyeros,La Habana,2020/08/14,,secundario
+,mujer,32,cu,Cerro,La Habana,2020/08/14,,secundario
+,mujer,30,cu,Playa,La Habana,2020/08/14,,secundario
+,hombre,39,fr,Playa,La Habana,2020/08/14,,secundario
+,mujer,40,cu,Playa,La Habana,2020/08/14,,secundario
+,mujer,50,cu,Playa,La Habana,2020/08/14,,secundario
+,hombre,28,cu,Playa,La Habana,2020/08/14,,secundario
+,mujer,65,cu,Playa,La Habana,2020/08/14,,secundario
+,hombre,33,co,Playa,La Habana,2020/08/14,,secundario
+,mujer,47,cu,La Lisa,La Habana,2020/08/14,,secundario
+,hombre,20,cu,La Lisa,La Habana,2020/08/14,,secundario
+,mujer,2,cu,La Lisa,La Habana,2020/08/14,,secundario
+,hombre,32,cu,La Lisa,La Habana,2020/08/14,,secundario
+,hombre,53,cu,Boyeros,La Habana,2020/08/14,,secundario
+,mujer,24,cu,Boyeros,La Habana,2020/08/14,,secundario
+,mujer,24,cu,Boyeros,La Habana,2020/08/14,,secundario
+,mujer,3,cu,Boyeros,La Habana,2020/08/14,,secundario
+,mujer,31,cu,Boyeros,La Habana,2020/08/14,,secundario
+,mujer,73,cu,La Lisa,La Habana,2020/08/14,,secundario
+,mujer,36,cu,Diez de Octubre,La Habana,2020/08/14,,secundario
+,mujer,56,cu,Habana del Este,La Habana,2020/08/14,,secundario
+,hombre,36,cu,Cerro,La Habana,2020/08/14,,secundario
+,mujer,1,cu,Guanabacoa,La Habana,2020/08/14,,desconocido
+,mujer,46,cu,Playa,La Habana,2020/08/14,,secundario
+,mujer,53,cu,La Lisa,La Habana,2020/08/14,,secundario
+,hombre,19,cu,San Miguel del Padrón,La Habana,2020/08/14,,secundario
+,hombre,45,cu,Manicaragua,Villa Clara,2020/08/14,,secundario
+,hombre,37,cu,Manicaragua,Villa Clara,2020/08/14,,secundario
+,mujer,63,cu,Santa Clara,Villa Clara,2020/08/14,,secundario
+,mujer,41,cu,Pinar del Río,Pinar del Río,2020/08/14,,desconocido
+,hombre,56,cu,Cienfuegos,Cienfuegos,2020/08/14,,primario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/08/14,,primario
+,mujer,60,cu,Camagüey,Camagüey,2020/08/14,,primario
+,hombre,27,cu,Mariel,Artemisa,2020/08/15,,secundario
+,mujer,19,cu,Plaza de la Revolución,La Habana,2020/08/15,,secundario
+,mujer,68,cu,Habana del Este,La Habana,2020/08/15,,secundario
+,mujer,35,cu,Arroyo Naranjo,La Habana,2020/08/15,,secundario
+,hombre,56,cu,Arroyo Naranjo,La Habana,2020/08/15,,secundario
+,mujer,35,cu,Arroyo Naranjo,La Habana,2020/08/15,,secundario
+,mujer,2,cu,Boyeros,La Habana,2020/08/15,,secundario
+,mujer,59,cu,Boyeros,La Habana,2020/08/15,,secundario
+,hombre,30,cu,San Miguel del Padrón,La Habana,2020/08/15,,secundario
+,mujer,30,cu,San Miguel del Padrón,La Habana,2020/08/15,,secundario
+,mujer,51,cu,San Miguel del Padrón,La Habana,2020/08/15,,secundario
+,mujer,21,cu,Cerro,La Habana,2020/08/15,,secundario
+,mujer,25,cu,Marianao,La Habana,2020/08/15,,secundario
+,mujer,47,cu,Marianao,La Habana,2020/08/15,,secundario
+,mujer,17,cu,San Miguel del Padrón,La Habana,2020/08/15,,secundario
+,mujer,73,cu,Plaza de la Revolución,La Habana,2020/08/15,,desconocido
+,mujer,34,cu,La Habana Vieja,La Habana,2020/08/15,,secundario
+,mujer,79,cu,Cerro,La Habana,2020/08/15,,desconocido
+,hombre,57,cu,La Lisa,La Habana,2020/08/15,,secundario
+,mujer,52,cu,Arroyo Naranjo,La Habana,2020/08/15,,secundario
+,mujer,24,cu,Arroyo Naranjo,La Habana,2020/08/15,,secundario
+,hombre,39,cu,Boyeros,La Habana,2020/08/15,,secundario
+,mujer,24,cu,Playa,La Habana,2020/08/15,,secundario
+,mujer,79,cu,Cárdenas,Matanzas,2020/08/15,,desconocido
+,mujer,55,cu,La Palma,Pinar del Río,2020/08/16,,secundario
+,mujer,26,cu,La Palma,Pinar del Río,2020/08/16,,secundario
+,mujer,44,cu,Mariel,Artemisa,2020/08/16,,secundario
+,mujer,38,cu,Bahía Honda,Artemisa,2020/08/16,,secundario
+,mujer,75,cu,Habana del Este,La Habana,2020/08/16,,secundario
+,hombre,26,cu,San Miguel del Padrón,La Habana,2020/08/16,,secundario
+,mujer,10,cu,Marianao,La Habana,2020/08/16,,secundario
+,mujer,44,cu,Diez de Octubre,La Habana,2020/08/16,,secundario
+,hombre,16,cu,Diez de Octubre,La Habana,2020/08/16,,secundario
+,mujer,46,cu,Diez de Octubre,La Habana,2020/08/16,,secundario
+,mujer,36,cu,Centro Habana,La Habana,2020/08/16,,secundario
+,mujer,6,cu,Centro Habana,La Habana,2020/08/16,,secundario
+,mujer,26,cu,San Miguel del Padrón,La Habana,2020/08/16,,secundario
+,hombre,53,cu,San Miguel del Padrón,La Habana,2020/08/16,,secundario
+,hombre,41,cu,Habana del Este,La Habana,2020/08/16,,secundario
+,hombre,37,cu,Plaza de la Revolución,La Habana,2020/08/16,,secundario
+,hombre,52,cu,Diez de Octubre,La Habana,2020/08/16,,secundario
+,hombre,2,cu,Playa,La Habana,2020/08/16,,secundario
+,hombre,1,cu,Playa,La Habana,2020/08/16,,secundario
+,mujer,33,cu,Boyeros,La Habana,2020/08/16,,secundario
+,hombre,67,cu,Plaza de la Revolución,La Habana,2020/08/16,,desconocido
+,hombre,31,cu,Plaza de la Revolución,La Habana,2020/08/16,,secundario
+,hombre,37,cu,Guanabacoa,La Habana,2020/08/16,,secundario
+,hombre,28,cu,Cerro,La Habana,2020/08/16,,secundario
+,mujer,46,cu,La Habana Vieja,La Habana,2020/08/16,,secundario
+,mujer,71,cu,La Habana Vieja,La Habana,2020/08/16,,desconocido
+,hombre,20,cu,Diez de Octubre,La Habana,2020/08/16,,secundario
+,mujer,29,cu,Centro Habana,La Habana,2020/08/16,,secundario
+,hombre,50,cu,Centro Habana,La Habana,2020/08/16,,secundario
+,hombre,30,cu,Centro Habana,La Habana,2020/08/16,,secundario
+,mujer,33,cu,Arroyo Naranjo,La Habana,2020/08/16,,secundario
+,mujer,63,cu,Arroyo Naranjo,La Habana,2020/08/16,,desconocido
+,hombre,32,cu,Arroyo Naranjo,La Habana,2020/08/16,,secundario
+,hombre,26,cu,La Lisa,La Habana,2020/08/16,,desconocido
+,hombre,56,cu,Diez de Octubre,La Habana,2020/08/16,,desconocido
+,hombre,39,cu,La Lisa,La Habana,2020/08/16,,desconocido
+,mujer,29,cu,Diez de Octubre,La Habana,2020/08/16,,secundario
+,mujer,74,cu,Diez de Octubre,La Habana,2020/08/16,,desconocido
+,mujer,51,cu,Arroyo Naranjo,La Habana,2020/08/16,,desconocido
+,mujer,44,cu,Boyeros,La Habana,2020/08/16,,secundario
+,mujer,19,cu,Boyeros,La Habana,2020/08/16,,secundario
+,hombre,20,cu,Boyeros,La Habana,2020/08/16,,secundario
+,mujer,54,cu,Diez de Octubre,La Habana,2020/08/16,,desconocido
+,mujer,28,cu,Boyeros,La Habana,2020/08/16,,secundario
+,hombre,57,cu,Boyeros,La Habana,2020/08/16,,secundario
+,hombre,32,cu,Boyeros,La Habana,2020/08/16,,secundario
+,hombre,40,cu,Habana del Este,La Habana,2020/08/16,,secundario
+,mujer,55,cu,Camajuaní,Villa Clara,2020/08/16,,secundario

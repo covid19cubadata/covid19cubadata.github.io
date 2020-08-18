@@ -17,7 +17,9 @@ let domains = {
     'tz': 'Tanzania',
     'pa': 'Panamá',
     'bo': 'Bolivia',
-    'cg': 'Congo'
+    'cg': 'Congo',
+    'mx': 'México',
+    "ni": "Nicaragua"
 };
 
 $(function () {

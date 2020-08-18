@@ -23,7 +23,7 @@ $.getJSON("data/protocols.json",function(protocols){
 	function setProtocol(ver){
 		var version = $('#slider').val();
 		$('#slider-value').html(version);
-		if (version!=1){
+		if (version!=''){
 			$('#date').html('Fecha: '+protocols.protocolos[version].fecha+' -');
 		} else {
 			$('#date').html('');

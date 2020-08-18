@@ -28,6 +28,7 @@
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
         "ev": "enfermedad cerebrovascular",
+        "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
         "fu": "fumador",
         "gc": "glaucoma",
@@ -55,6 +56,7 @@
         "oa": "osteoartrosis",
         "oc": "enfermedad pulmonar obstructiva crónica",
         "ob": "obesidad",
+        "po": "postrado",
         "rd": "retinopatía diabética",
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
@@ -859,7 +861,8 @@
                             "ha",
                             "gc",
                             "ce",
-                            "en"
+                            "en",
+                            "po"
                         ],
                         "texto": "Ciudadano cubano de 65 años. Residía en la Habana Vieja, provincia La Habana. Presentaba antecedentes de Hipertensión arterial, glaucoma y carcinoma epidermoide de esófago, gastrectomizado y postrado crónico. Fue recibido el 16 de abril traído por el SIUM con diagnóstico de sospecha de COVID 19, poco cooperativo, refería hacía dos días comenzó con tos húmeda productiva. Al examen físico del ingreso presenta mucosas normocoloreadas, murmullo vesicular disminuido hacia las bases con estertores en ambos campos pulmonares y una desnutrición proteica energética severa. Se diagnosticó como bronconeumonía bacteriana extrahospitalaria hipostática y cáncer de esófago con gastrectomía. Evolucionó tórpidamente en las siguientes horas con un estadio final de su enfermedad de base (cáncer de esófago), hemodinámicamente inestable para lo cual recibió tratamiento y reanimación. Falleció el día 18 de abril habiéndose estudiado para descartar la enfermedad COVID 19 por anatomía patológica (necropsia). El 20 de abril se recibe resultado de los estudios de la necropsia siendo positivo a COVID 19. Lamentamos profundamente lo ocurrido y trasmitimos a sus familiares y amigos nuestras más sentidas condolencias."
                     }
@@ -2004,6 +2007,91 @@
             },
             "136": {
                 "fecha": "2020/07/24"
+            },
+            "137": {
+                "fecha": "2020/07/25"
+            },
+            "138": {
+                "fecha": "2020/07/26"
+            },
+            "139": {
+                "fecha": "2020/07/27"
+            },
+            "140": {
+                "fecha": "2020/07/28"
+            },
+            "141": {
+                "fecha": "2020/07/29"
+            },
+            "142": {
+                "fecha": "2020/07/30"
+            },
+            "143": {
+                "fecha": "2020/07/31"
+            },
+            "144": {
+                "fecha": "2020/08/01"
+            },
+            "145": {
+                "fecha": "2020/08/02"
+            },
+            "146": {
+                "fecha": "2020/08/03",
+                "fallecidos": [
+                    {
+                        "id": "f-88",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [],
+                        "texto": "Falleció el ciudadano cubano de 84 años de edad, residente en el municipio Diez de Octubre, provincia La Habana. Paciente que fue ingresado por presentar fiebre. Presentó empeoramiento de la disnea, trastornos de conciencia, hipotensión arterial y anuria y fue trasladado a terapia intensiva donde es intubado y ventilado en modalidad controlada. En los exámenes complementarios se precisaron leucocitosis y cifras de glicemia elevada, en el Rx aparecieron lesiones de aspecto inflamatorio en ambos campos pulmonares. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Fue realizada necropsia donde se confirma el diagnostico de COVID-19. Lamentamos profundamente lo ocurrido y transmitimos las condolencias a familiares y amigos."
+                    }
+                ]
+            },
+            "147": {
+                "fecha": "2020/08/04"
+            },
+            "148": {
+                "fecha": "2020/08/05"
+            },
+            "149": {
+                "fecha": "2020/08/06"
+            },
+            "150": {
+                "fecha": "2020/08/07"
+            },
+            "151": {
+                "fecha": "2020/08/08"
+            },
+            "152": {
+                "fecha": "2020/08/09"
+            },
+            "153": {
+                "fecha": "2020/08/10"
+            },
+            "154": {
+                "fecha": "2020/08/11"
+            },
+            "155": {
+                "fecha": "2020/08/12",
+                "nota": "En este día originalmente se reportó un fallecido. Pero al día siguiente se verificó que su muerte no fue por covid y se eliminó de la serie de fallecidos y por tanto lo eliminamos de la db."
+            },
+            "156": {
+                "fecha": "2020/08/13"
+            },
+            "157": {
+                "fecha": "2020/08/14"
+            },
+            "158": {
+                "fecha": "2020/08/15"
+            },
+            "159": {
+                "fecha": "2020/08/16"
             }
         }
     }
