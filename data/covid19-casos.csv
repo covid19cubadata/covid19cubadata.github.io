@@ -3488,7 +3488,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,31,cu,Mariel,Artemisa,2020/08/20,,secundario
 ,mujer,32,cu,Mariel,Artemisa,2020/08/20,,secundario
 ,hombre,42,cu,Caimito,Artemisa,2020/08/20,,secundario
-,hombre,67,cu,Santa Curz del Norte,Mayabeque,2020/08/20,,secundario
+,hombre,67,cu,Santa Cruz del Norte,Mayabeque,2020/08/20,,secundario
 ,hombre,77,cu,Cerro,La Habana,2020/08/20,,desconocido
 ,hombre,58,cu,Cerro,La Habana,2020/08/20,,desconocido
 ,mujer,55,cu,Cerro,La Habana,2020/08/20,,secundario
@@ -3556,7 +3556,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,60,cu,Quemado de Güines,Villa Clara,2020/08/20,,primario
 ,mujer,33,cu,Manicaragua,Villa Clara,2020/08/20,,primario
 ,hombre,71,cu,Manicaragua,Villa Clara,2020/08/20,,secundario
-,mujer,32,cu,Amancio Rodríguez,Las Tunas,2020/08/20,,primario
+,mujer,32,cu,Amancio,Las Tunas,2020/08/20,,primario
 ,mujer,64,cu,Holguín,Holguín,2020/08/20,,primario
 ,mujer,63,cu,Rafael Freyre,Holguín,2020/08/20,,primario
 ,hombre,62,cu,Buey Arriba,Granma,2020/08/20,,primario
