@@ -3564,3 +3564,20 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,62,cu,Santiago de Cuba,Santiago de Cuba,2020/08/19,,primario
 ,hombre,63,cu,Santiago de Cuba,Santiago de Cuba,2020/08/19,,primario
 ,mujer,63,cu,Guantánamo,Guantánamo,2020/08/19,,primario
+,mujer,20,cu,Caimito,Artemisa,2020/08/20,,secundario
+,mujer,12,cu,Alquízar,Artemisa,2020/08/20,,secundario
+,mujer,35,cu,Mariel,Artemisa,2020/08/20,,secundario
+,mujer,7,cu,Mariel,Artemisa,2020/08/20,,secundario
+,mujer,28,cu,San Cristóbal,Artemisa,2020/08/20,,desconocido
+,mujer,25,cu,Arroyo Naranjo,La Habana,2020/08/20,,secundario
+,hombre,32,fr,Playa,La Habana,2020/08/20,,secundario
+,hombre,32,cu,Playa,La Habana,2020/08/20,,secundario
+,mujer,23,cu,Playa,La Habana,2020/08/20,,desconocido
+,hombre,36,cu,Arroyo Naranjo,La Habana,2020/08/20,,secundario
+,hombre,34,cu,Cárdenas,Matanzas,2020/08/20,,secundario
+,mujer,16,cu,Las Tunas,Las Tunas,2020/08/20,,secundario
+,mujer,42,cu,Las Tunas,Las Tunas,2020/08/20,,secundario
+,hombre,26,ve,,,2020/08/20,,primario
+,hombre,36,ve,,,2020/08/20,,primario
+,hombre,26,ve,,,2020/08/20,,desconocido
+,mujer,27,ve,,,2020/08/20,,desconocido
