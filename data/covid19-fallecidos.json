@@ -2103,7 +2103,27 @@
                 "fecha": "2020/08/19"
             },
             "163": {
-                "fecha": "2020/08/20"
+                "fecha": "2020/08/20",
+                "fallecidos": [
+                    {
+                        "id": "f-89",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 67,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "HA"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 67 años de edad, residía en el municipio Arroyo Naranjo. Antecedentes Patológicos Personales: Hipertensión Arterial. La paciente comenzó con decaimiento marcado e inapetencia, a lo que posteriormente se le suma falta de aire y tos húmeda. Comenzó con disnea ligera, al ser confirmada a la COVID-19 se le ingresa en la Terapia Intensiva. Presentó polipnea intensa, agobio respiratorio y cianosis, hizo parada cardiorespiratoria, fue reanimada, intubada y ventilada en modalidad controlada, apoyada con aminas. En horas de la mañana, hizo  nueva parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "164": {
+                "fecha": "2020/08/21"
             }
         }
     }
