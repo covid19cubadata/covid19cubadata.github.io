@@ -3581,3 +3581,38 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,36,ve,,,2020/08/20,,primario
 ,hombre,26,ve,,,2020/08/20,,desconocido
 ,mujer,27,ve,,,2020/08/20,,desconocido
+,hombre,31,cu,Mariel,Artemisa,2020/08/21,,secundario
+,hombre,62,cu,Mariel,Artemisa,2020/08/21,,secundario
+,mujer,14,cu,Mariel,Artemisa,2020/08/21,,secundario
+,mujer,53,cu,Mariel,Artemisa,2020/08/21,,secundario
+,hombre,35,cu,San Antonio de los Baños,Artemisa,2020/08/21,,desconocido
+,hombre,20,cu,Habana del Este,La Habana,2020/08/21,,secundario
+,hombre,19,cu,Habana del Este,La Habana,2020/08/21,,secundario
+,mujer,17,cu,Habana del Este,La Habana,2020/08/21,,secundario
+,hombre,63,cu,Marianao,La Habana,2020/08/21,,secundario
+,hombre,35,cu,Marianao,La Habana,2020/08/21,,secundario
+,mujer,56,cu,Marianao,La Habana,2020/08/21,,secundario
+,mujer,4,cu,Marianao,La Habana,2020/08/21,,secundario
+,hombre,35,fr,Playa,La Habana,2020/08/21,,secundario
+,hombre,53,cu,Playa,La Habana,2020/08/21,,secundario
+,mujer,79,cu,Guanabacoa,La Habana,2020/08/21,,secundario
+,hombre,40,cu,Regla,La Habana,2020/08/21,,desconocido
+,mujer,59,cu,Centro Habana,La Habana,2020/08/21,,desconocido
+,mujer,92,cu,La Lisa,La Habana,2020/08/21,,desconocido
+,mujer,56,cu,La Lisa,La Habana,2020/08/21,,secundario
+,mujer,92,cu,Boyeros,La Habana,2020/08/21,,desconocido
+,mujer,47,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,hombre,59,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,mujer,79,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,mujer,52,cu,Boyeros,La Habana,2020/08/21,,secundario
+,mujer,54,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,hombre,30,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,hombre,48,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,mujer,54,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,mujer,47,cu,Arroyo Naranjo,La Habana,2020/08/21,,secundario
+,mujer,36,cu,Boyeros,La Habana,2020/08/21,,secundario
+,mujer,29,cu,Boyeros,La Habana,2020/08/21,,secundario
+,hombre,47,cu,La Lisa,La Habana,2020/08/21,,secundario
+,mujer,44,cu,La Lisa,La Habana,2020/08/21,,secundario
+,mujer,6,cu,Boyeros,La Habana,2020/08/21,,secundario
+,hombre,38,cu,Cerro,La Habana,2020/08/21,,secundario
