@@ -19,7 +19,8 @@ let domains = {
     'bo': 'Bolivia',
     'cg': 'Congo',
     'mx': 'México',
-    "ni": "Nicaragua"
+    "ni": "Nicaragua",
+    "ve": "Venezuela"
 };
 
 $(function () {
