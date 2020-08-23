@@ -5,6 +5,7 @@
         "ac": "alcoholismo",
         "ap": "absceso perianal",
         "al": "alzheimer",
+        "ar": "artritis reumatoide",
         "ba": "bloqueo aurículo-ventricular",
         "ca": "cáncer",
         "ch": "cardiopatía hipertensiva",
@@ -2124,6 +2125,47 @@
             },
             "164": {
                 "fecha": "2020/08/21"
+            },
+            "165": {
+                "fecha": "2020/08/22",
+                "fallecidos": [
+                    {
+                        "id": "f-90",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "fa",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años, que residía en Centro Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica (Bloqueo Completo de Rama Izquierda) Fibrilación Auricular Crónica y Demencia Senil. Comenzó con tos seca y falta de aire, fue llevada al hospital Fajardo por los familiares e ingresada con diagnóstico de bronconeumonía bacteriana. Su evolución se caracterizó por presentar somnolencia, disnea ligera, decaimiento manteniendo con estabilidad hemodinámica. En los estudios radiológicos se encontró presencia de lesiones inflamatoria en ambos campos pulmonares y en los electrocardiográficos imágenes de Bloqueo de Rama Izquierda y Fibrilación Auricular Crónica. El día 22 de agosto en la tarde, hizo fibrilación ventricular que la lleva a la parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a sus familiares y amigos. "
+                    },
+                    {
+                        "id": "f-91",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep",
+                            "ar",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 71 años, que residía en el municipio Centro Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Artritis Reumatoide, Enfermedad Cerebrovascular. La paciente es llevada por los familiares al Hospital Freyre Andrade por presentar síntomas neurológicos, disartria y perdida de la fuerza muscular del hemicuerpo derecho, diagnosticándose Accidente Vascular Encefálico, además se constata tos seca y disnea. Posteriormente mantuvo disnea moderada, con estabilidad hemodinámica y se detectan cifras elevadas de creatinina, es evaluada por Nefrología, decidiéndose realización de hemodiálisis. Posteriormente fue realizado proceder hemodialítico, manteniendo, polipnea y estabilidad hemodinámica. El 22 de agosto hizo en horas de la tarde manifestaciones clínicas de shock severo por lo que fue intubada y ventilada en modalidad controlada y apoyada con altas dosis de aminas, pasando al reporte de crítica inestable. Hizo parada cardiorespiratoria, realizando maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a sus familiares y amigos."
+                    }
+                ]
             }
         }
     }
