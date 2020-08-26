@@ -3743,3 +3743,18 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,10,cu,Cárdenas,Matanzas,2020/08/24,,secundario
 ,hombre,42,cu,Cárdenas,Matanzas,2020/08/24,,secundario
 ,hombre,46,cu,Manicaragua,Villa Clara,2020/08/24,,secundario
+,mujer,22,cu,Mariel,Artemisa,2020/08/25,,secundario
+,hombre,52,cu,San Cristóbal,Artemisa,2020/08/25,,secundario
+,hombre,85,cu,San Cristóbal,Artemisa,2020/08/25,,desconocido
+,hombre,31,fr,La Habana Vieja,La Habana,2020/08/25,,secundario
+,hombre,52,cu,La Habana Vieja,La Habana,2020/08/25,,secundario
+,hombre,11,cu,Arroyo Naranjo,La Habana,2020/08/25,,secundario
+,hombre,25,cu,Arroyo Naranjo,La Habana,2020/08/25,,secundario
+,mujer,30,cu,Boyeros,La Habana,2020/08/25,,secundario
+,hombre,29,cu,Regla,La Habana,2020/08/25,,secundario
+,mujer,48,cu,Arroyo Naranjo,La Habana,2020/08/25,,secundario
+,mujer,63,cu,Arroyo Naranjo,La Habana,2020/08/25,,secundario
+,hombre,60,cu,Arroyo Naranjo,La Habana,2020/08/25,,secundario
+,mujer,49,cu,Plaza de la Revolución,La Habana,2020/08/25,,secundario
+,mujer,53,cu,Boyeros,La Habana,2020/08/25,,secundario
+,mujer,38,cu,Manicaragua,Villa Clara,2020/08/25,,secundario
