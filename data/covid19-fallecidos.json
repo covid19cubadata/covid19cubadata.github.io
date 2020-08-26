@@ -2172,6 +2172,27 @@
             },
             "167": {
                 "fecha": "2020/08/24"
+            },
+            "168": {
+                "fecha": "2020/08/25",
+                "fallecidos": [
+                    {
+                        "id": "f-92",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ds"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 80 años, que residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Demencia Senil. Se mantuvo asintomática, recibiendo tratamiento según protocolo hasta que posteriormente comenzó a presentar diarreas y decaimiento. En el Rx se mostraron lesiones inflamatorias. Su evolución en terapia se caracterizó por mantener polipnea dependiente de oxígeno suplementario, tos seca, decaimiento, trastornos hidroelectrolíticos, y empeoramiento radiológico. El día 18 de agosto incrementa la disnea, fue oxigenada en posición prona, manteniendo tratamiento según protocolo y se añadió plasma hiperinmune. El día 24 de agosto presentó agravamiento del cuadro clínico, fue ventilada. Se apoyó con aminas por mostrar inestabilidad hemodinámica. En el día de ayer hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
