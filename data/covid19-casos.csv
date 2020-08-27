@@ -3801,7 +3801,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,20,cu,Venezuela,Ciego de Ávila,2020/08/26,,secundario
 ,hombre,50,cu,Venezuela,Ciego de Ávila,2020/08/26,,desconocido
 ,mujer,27,cu,Florida,Camagüey,2020/08/26,,desconocido
-,hombre,39,cu,Las Tunas,Las Tunas,2020/08/26,,desconocido
+,hombre,39,cu,Las Tunas,Las Tunas,2020/08/26,,secundario
 ,hombre,13,cu,Las Tunas,Las Tunas,2020/08/26,,secundario
 ,mujer,21,cu,Las Tunas,Las Tunas,2020/08/26,,secundario
 ,mujer,22,cu,Las Tunas,Las Tunas,2020/08/26,,secundario
