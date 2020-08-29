@@ -3865,3 +3865,62 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,43,cu,San Antonio del Sur,Guantánamo,2020/08/27,,primario
 ,hombre,30,cu,Guantánamo,Guantánamo,2020/08/27,,primario
 ,mujer,28,cu,Manuel Tames,Guantánamo,2020/08/27,,primario
+,mujer,32,cu,Pinar del Río,Pinar del Río,2020/08/28,,primario
+,hombre,65,cu,Pinar del Río,Pinar del Río,2020/08/28,,primario
+,hombre,31,cu,Artemisa,Artemisa,2020/08/28,,primario
+,hombre,20,cu,Mariel,Artemisa,2020/08/28,,secundario
+,hombre,31,cu,Regla,La Habana,2020/08/28,,secundario
+,hombre,27,cu,Habana del Este,La Habana,2020/08/28,,secundario
+,mujer,86,cu,Boyeros,La Habana,2020/08/28,,secundario
+,hombre,82,cu,Centro Habana,La Habana,2020/08/28,,secundario
+,mujer,35,cu,Centro Habana,La Habana,2020/08/28,,secundario
+,mujer,36,cu,La Habana Vieja,La Habana,2020/08/28,,secundario
+,hombre,58,cu,Marianao,La Habana,2020/08/28,,secundario
+,hombre,56,cu,Boyeros,La Habana,2020/08/28,,primario
+,mujer,37,cu,Marianao,La Habana,2020/08/28,,secundario
+,mujer,58,cu,San Miguel del Padrón,La Habana,2020/08/28,,secundario
+,mujer,28,cu,Marianao,La Habana,2020/08/28,,secundario
+,hombre,26,cu,La Lisa,La Habana,2020/08/28,,secundario
+,hombre,54,cu,La Lisa,La Habana,2020/08/28,,secundario
+,mujer,55,cu,Arroyo Naranjo,La Habana,2020/08/28,,secundario
+,mujer,21,cu,Arroyo Naranjo,La Habana,2020/08/28,,secundario
+,hombre,42,cu,Habana del Este,La Habana,2020/08/28,,secundario
+,hombre,35,cu,Arroyo Naranjo,La Habana,2020/08/28,,secundario
+,hombre,55,cu,Marianao,La Habana,2020/08/28,,secundario
+,hombre,29,cu,Arroyo Naranjo,La Habana,2020/08/28,,secundario
+,hombre,24,cu,Marianao,La Habana,2020/08/28,,secundario
+,mujer,26,cu,Plaza de la Revolución,La Habana,2020/08/28,,secundario
+,mujer,48,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,hombre,49,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,hombre,32,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,hombre,32,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,hombre,37,cu,La Lisa,La Habana,2020/08/28,,secundario
+,mujer,54,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,hombre,78,cu,La Lisa,La Habana,2020/08/28,,secundario
+,mujer,13,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,mujer,46,cu,Diez de Octubre,La Habana,2020/08/28,,secundario
+,mujer,9,cu,Marianao,La Habana,2020/08/28,,secundario
+,hombre,53,cu,Marianao,La Habana,2020/08/28,,secundario
+,hombre,38,cu,Plaza de la Revolución,La Habana,2020/08/28,,secundario
+,mujer,32,cu,Habana del Este,La Habana,2020/08/28,,secundario
+,mujer,26,cu,Boyeros,La Habana,2020/08/28,,secundario
+,hombre,53,cu,Habana del Este,La Habana,2020/08/28,,secundario
+,mujer,26,cu,Plaza de la Revolución,La Habana,2020/08/28,,secundario
+,mujer,3,cu,Centro Habana,La Habana,2020/08/28,,secundario
+,hombre,23,cu,La Lisa,La Habana,2020/08/28,,secundario
+,hombre,62,cu,La Lisa,La Habana,2020/08/28,,secundario
+,hombre,58,cu,Arroyo Naranjo,La Habana,2020/08/28,,secundario
+,mujer,53,cu,La Lisa,La Habana,2020/08/28,,secundario
+,hombre,52,cu,Boyeros,La Habana,2020/08/28,,secundario
+,mujer,69,cu,Arroyo Naranjo,La Habana,2020/08/28,,secundario
+,hombre,25,cu,Boyeros,La Habana,2020/08/28,,secundario
+,hombre,89,cu,Cerro,La Habana,2020/08/28,,secundario
+,hombre,29,cu,Jovellanos,Matanzas,2020/08/28,,primario
+,hombre,7,cu,Cárdenas,Matanzas,2020/08/28,,secundario
+,hombre,48,cu,Santa Clara,Villa Clara,2020/08/28,,primario
+,hombre,45,cu,Sancti Spíritus,Sancti Spíritus,2020/08/28,,primario
+,hombre,3,cu,Venezuela,Ciego de Ávila,2020/08/28,,secundario
+,mujer,30,cu,Ciego de Ávila,Ciego de Ávila,2020/08/28,,secundario
+,hombre,26,cu,Florida,Camagüey,2020/08/28,,primario
+,hombre,56,cu,Manzanillo,Granma,2020/08/28,,primario
+,mujer,38,cu,Gibara,Holguín,2020/08/28,,primario
