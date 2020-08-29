@@ -29,6 +29,7 @@
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
         "ev": "enfermedad cerebrovascular",
+        "er": "enfermedad renal crónica",
         "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
         "fu": "fumador",
@@ -62,6 +63,7 @@
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
         "sd": "sangramiento digestivo",
+        "so": "síndrome de down",
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
         "up": "ulcera péptica",
@@ -2199,6 +2201,44 @@
             },
             "170": {
                 "fecha": "2020/08/27"
+            },
+            "171": {
+                "fecha": "2020/08/28",
+                "fallecidos": [
+                    {
+                        "id": "f-93",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep",
+                            "ic"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 78 años de edad, que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Cardiaca. Durante su evolución presentó vómitos y hace broncoaspiración, por lo que se intubó y ventiló en modalidad controlada. Posteriormente se observó mejoría de los parámetros ventilatorios y el paciente es extubado, manteniendo buena estabilidad hemodinámica y oxigenación. Se mantuvo con evolución clínica favorable y gasometrías normales. En el día de ayer hace parada cardiaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-93",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "so",
+                            "dm",
+                            "er"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 56 años de edad, que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Síndrome de Down, Diabetes Mellitus, Enfermedad Renal Crónica. Se mantuvo estable hemodinámicamente, con gasometrías normales y buena saturación de oxígeno. Se valoró la Enfermedad Renal Crónica que presentaba el paciente por Nefrología, decidiéndose seguimiento clínico y humoral. En el día de ayer, de manera súbita, hace una parada cardíaca por fibrilación ventricular. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas y el paciente fallece."
+                    }
+                ]
             }
         }
     }
