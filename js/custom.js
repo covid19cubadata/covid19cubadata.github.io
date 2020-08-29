@@ -19,7 +19,8 @@ var domains = {
     'cg': 'Congo',
     'bs': 'Bahamas',
     'mx': 'México',
-    "ni": "Nicaragua"
+    "ni": "Nicaragua",
+    "ve": "Venezuela"
 };
 
 

@@ -110,10 +110,13 @@ def get_countries_test():
         population = i[headers['population']]
         iso_code = i[headers['iso_code']]
         if i[headers['tests_units']] and total_cases and total_tests and population:
-            percent = float(total_cases)/float(total_tests)*100
-            data[iso_code]['test_efectivity'].append(percent)
-            data[iso_code]['total_tests_per_million'].append(float(total_tests)*1000000/float(population))
-            data[iso_code]['population'].append(int(float(population)))
+            try:
+                percent = float(total_cases)/float(total_tests)*100
+                data[iso_code]['test_efectivity'].append(percent)
+                data[iso_code]['total_tests_per_million'].append(float(total_tests)*1000000/float(population))
+                data[iso_code]['population'].append(int(float(population)))
+            except ZeroDivisionError:
+                pass
     path = os.path.join('data', 'countries_test.json')
     json.dump(data,open(path,'w'))
     for i in data.keys():
