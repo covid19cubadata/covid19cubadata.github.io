@@ -8,6 +8,7 @@
         "ar": "artritis reumatoide",
         "ba": "bloqueo aurículo-ventricular",
         "ca": "cáncer",
+        "cb": "carcinoma basocelular",
         "ch": "cardiopatía hipertensiva",
         "ci": "cardiopatía isquémica",
         "ce": "carcinoma epidermoide de esófago",
@@ -2222,7 +2223,7 @@
                         "texto": "Falleció el ciudadano cubano de 78 años de edad, que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Cardiaca. Durante su evolución presentó vómitos y hace broncoaspiración, por lo que se intubó y ventiló en modalidad controlada. Posteriormente se observó mejoría de los parámetros ventilatorios y el paciente es extubado, manteniendo buena estabilidad hemodinámica y oxigenación. Se mantuvo con evolución clínica favorable y gasometrías normales. En el día de ayer hace parada cardiaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     },
                     {
-                        "id": "f-93",
+                        "id": "f-94",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 56,
@@ -2245,6 +2246,27 @@
             },
             "173": {
                 "fecha": "2020/08/30"
+            },
+            "174": {
+                "fecha": "2020/08/31",
+                "fallecidos": [
+                    {
+                        "id": "f-95",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "cb"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 84 años de edad, residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, carcinoma basocelular. Ingresó por mialgias y dolores articulares, con sospecha de dengue. Se confirmó PCR positivo y posteriormente comenzó con disnea moderada y decaimiento. En el Rx se aprecia empeoramiento de las lesiones inflamatorias. Fue trasladado al Servicio de Terapia Intensiva y se le añade al tratamiento oxígeno suplementario, esteroides y Ceftriaxona. Enpeoró la disnea y presentó bajo gasto cardiaco, con bloqueo auriculo-ventricular de 3er grado, por lo que se le  implantó marcapaso transitorio, se intubó y ventiló en modalidad controlada. En la evolución presentó distres moderado, siendo cambiado el antibiótico por Meronem y Linezolid, además se administró plasma hiperinmune. Se mantenía intubado y ventilado en modalidad controlada, inestable hemodinámicamente, trastornos del equilibrio acido básico, fue realizada corrección la acidemia metabólica y apoyado con aminas. En los siguientes días continuó inestable hemodinámicamente. El 31 de agosto hizo parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
