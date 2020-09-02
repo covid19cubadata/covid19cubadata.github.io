@@ -64,6 +64,7 @@
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
         "sd": "sangramiento digestivo",
+        "sm": "secuelas motoras de enfermedad cerebrovascular",
         "so": "síndrome de down",
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
@@ -2254,8 +2255,8 @@
                         "id": "f-95",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 80,
-                        "sexo": "mujer",
+                        "edad": 84,
+                        "sexo": "hombre",
                         "municipio_detección": "Marianao",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
@@ -2265,6 +2266,59 @@
                             "cb"
                         ],
                         "texto": "Falleció el ciudadano cubano de 84 años de edad, residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, carcinoma basocelular. Ingresó por mialgias y dolores articulares, con sospecha de dengue. Se confirmó PCR positivo y posteriormente comenzó con disnea moderada y decaimiento. En el Rx se aprecia empeoramiento de las lesiones inflamatorias. Fue trasladado al Servicio de Terapia Intensiva y se le añade al tratamiento oxígeno suplementario, esteroides y Ceftriaxona. Enpeoró la disnea y presentó bajo gasto cardiaco, con bloqueo auriculo-ventricular de 3er grado, por lo que se le  implantó marcapaso transitorio, se intubó y ventiló en modalidad controlada. En la evolución presentó distres moderado, siendo cambiado el antibiótico por Meronem y Linezolid, además se administró plasma hiperinmune. Se mantenía intubado y ventilado en modalidad controlada, inestable hemodinámicamente, trastornos del equilibrio acido básico, fue realizada corrección la acidemia metabólica y apoyado con aminas. En los siguientes días continuó inestable hemodinámicamente. El 31 de agosto hizo parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "175": {
+                "fecha": "2020/09/01",
+                "fallecidos": [
+                    {
+                        "id": "f-96",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 94,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 94 años de edad, residente en el municipio La Lisa. Antecedentes Patológicos Personales: Cardiopatía Isquémica. Fue ingresada por presentar pérdida del apetito, fiebre y decaimiento. Fue ingresada en Cuidados Intensivos luego de confirmarse con COVID-19. Se administra tratamiento según protocolo. Presentó empeoramiento de la disnea, es intubada y ventilada en modalidad controlada. Se mantuvo en ventilación mecánica, modalidad controlada. Durante su evolución, presentó inestabilidad hemodinámica, empeoramiento de las lesiones inflamatorias y del distres respiratorio, por lo que fue necesario apoyarla con aminas. El día 31 de agosto tuvo empeoramiento del cuadro clínico, apareciendo sangramiento por los sitios de punturas, lo que requirió administración de hemoderivados. El día 1 de septiembre hace parada cardíaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas y la paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos. "
+                    },
+                    {
+                        "id": "f-97",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "hombre",
+                        "municipio_detección": null,
+                        "provincia_detección": null,
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "00",
+                        "enfermedades": [
+                            "dm",
+                            "sm",
+                            "dn"
+                        ],
+                        "texto": "Ciudadano cubano de 65 años de edad, deambulante. Antecedentes Patológicos Personales: Diabetes Mellitus, Etilismo, Secuelas motoras de Enfermedad Cerebrovascular, desnutrición proteico calórica. Fue ingresado por presentar fiebre, tos y decaimiento. Fue ingresado en el Servicio de Cuidados Intensivos por las comorbilidades luego de ser confirmado con COVID-19. Se impuso tratamiento según protocolo. El día 30 de agosto por mantener evolución favorable: estabilidad hemodinámica, afebril, examen físico, Rx y gasometrías normales, es reportado de Cuidado. El día 31 de agosto hizo de forma súbita parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-98",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 65 años de edad, residente en el municipio La Lisa, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. Fue ingresada por presentar fiebre, tos y decaimiento. Se impuso tratamiento según protocolo luego de ser confirmada positiva a la COVID-19. Presentó empeoramiento de la disnea, llegando al agobio respiratorio, por lo que fue intubada y ventilada en modalidad controlada. Durante su evolución mantuvo distress respiratorio moderado y fue realizada traqueostomía.El día 31 de agosto tuvo un agravamiento del distress respiratorio que hace necesario modificación de parámetros ventilatorios y fue apoyada con aminas. El día 1 de septiembre hace parada cardiaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos."
                     }
                 ]
             }
