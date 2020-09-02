@@ -4075,7 +4075,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,15,cu,Plaza de la Revolución,La Habana,2020/09/01,,secundario
 ,mujer,36,cu,Marianao,La Habana,2020/09/01,,secundario
 ,mujer,29,cu,Diez de Octubre,La Habana,2020/09/01,,secundario
-,mujer,36,cu,Habana de Este,LA Habana,2020/09/01,,secundario
+,mujer,36,cu,Habana del Este,La Habana,2020/09/01,,secundario
 ,mujer,37,cu,Cotorro,La Habana,2020/09/01,,secundario
 ,mujer,33,cu,Cerro,La Habana,2020/09/01,,secundario
 ,mujer,75,cu,Cerro,La Habana,2020/09/01,,secundario
@@ -4113,12 +4113,12 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,47,cu,Centro Habana,La Habana,2020/09/01,,secundario
 ,hombre,44,cu,Diez de Octubre,La Habana,2020/09/01,,desconocido
 ,mujer,36,cu,Mariel,Artemisa,2020/09/01,,secundario
-,mujer,54,cu,San Cristóbal,La Habana,2020/09/01,,secundario
-,mujer,30,cu,San Cristóbal,La Habana,2020/09/01,,secundario
-,mujer,21,cu,San Cristóbal,La Habana,2020/09/01,,secundario
-,mujer,33,cu,Candelaria,La Habana,2020/09/01,,secundario
-,hombre,32,cu,Candelaria,La Habana,2020/09/01,,desconocido
-,mujer,56,cu,San Cristóbal,La Habana,2020/09/01,,secundario
+,mujer,54,cu,San Cristóbal,Artemisa,2020/09/01,,secundario
+,mujer,30,cu,San Cristóbal,Artemisa,2020/09/01,,secundario
+,mujer,21,cu,San Cristóbal,Artemisa,2020/09/01,,secundario
+,mujer,33,cu,Candelaria,Artemisa,2020/09/01,,secundario
+,hombre,32,cu,Candelaria,Artemisa,2020/09/01,,desconocido
+,mujer,56,cu,San Cristóbal,Artemisa,2020/09/01,,secundario
 ,hombre,85,cu,Majagua,Ciego de Ávila,2020/09/01,,secundario
 ,hombre,74,cu,Venezuela,Ciego de Ávila,2020/09/01,,secundario
 ,hombre,52,cu,Ciego de Ávila,Ciego de Ávila,2020/09/01,,desconocido
