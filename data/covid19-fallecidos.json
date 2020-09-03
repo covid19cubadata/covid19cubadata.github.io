@@ -26,6 +26,7 @@
         "dv": "demencia vascular",
         "ec": "enfermedad cerebral crónica",
         "ed": "enfermedad diverticular del colon",
+        "ei": "enfermedad cerebrovascular isquémica",
         "en": "encamado",
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
@@ -69,6 +70,7 @@
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
         "up": "ulcera péptica",
+        "ur": "úlceras por presión",
         "vi": "vih"
     },
     "casos": {
@@ -2319,6 +2321,45 @@
                             "ep"
                         ],
                         "texto": "Ciudadana cubana de 65 años de edad, residente en el municipio La Lisa, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. Fue ingresada por presentar fiebre, tos y decaimiento. Se impuso tratamiento según protocolo luego de ser confirmada positiva a la COVID-19. Presentó empeoramiento de la disnea, llegando al agobio respiratorio, por lo que fue intubada y ventilada en modalidad controlada. Durante su evolución mantuvo distress respiratorio moderado y fue realizada traqueostomía.El día 31 de agosto tuvo un agravamiento del distress respiratorio que hace necesario modificación de parámetros ventilatorios y fue apoyada con aminas. El día 1 de septiembre hace parada cardiaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos."
+                    }
+                ]
+            },
+            "176": {
+                "fecha": "2020/09/02",
+                "fallecidos": [
+                    {
+                        "id": "f-99",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Cristóbal",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.11",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ei",
+                            "fc",
+                            "ur",
+                            "dn"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad, residente en San Cristóbal, Artemisa. Antecedentes Patológicos Personales: Enfermedad Cerebrovascular isquémica a repetición, Fractura de cadera no operada de dos meses de evolución, úlceras por presión Grado II – III postrado crónico, desnutrición proteico calórica. Fue ingresado por presentar fiebre, falta de aire y decaimiento. Fue tratado como una Bronconeumonía Bacteriana y se tomó muestra para PCR. Al ser positivo a la COVID-19, se impuso tratamiento según protocolo. Presentó empeoramiento de la falta de aire, se trasladó a Cuidados Intensivos. Evolucionó con estabilidad hemodinámica, ventilando espontáneamente con oxígeno suplementario y las gasometrías en valores normales. El día 1 de septiembre presentó agobio respiratorio, es intubado, ventilado en modalidad controlada y pasa del reporte de grave a crítico. El 2 de septiembre presentó fibrilación ventricular, parada cardíaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-100",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 87 años, residente en el Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Demencia Senil. El día 1 de septiembre como parte de un control de foco y el seguimiento a las personas de la comunidad, se identifica a la  paciente de referencia, quien presentaba un cuadro de desorientación y decaimiento marcado, decidiéndose su  traslado hospitalario, donde llegó con falta de aire intensa, agitación y sudoración profusa. De inmediato fue ingresada de forma directa en el Servicio de Cuidados Intensivos, siendo intubada y ventilada desde la llegada. Pocos minutos después hizo parada cardíaca en asistolia presenciada, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Es realizada necropsia y tomada muestra para PCR, fue confirmada positiva post-mortem. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
                     }
                 ]
             }
