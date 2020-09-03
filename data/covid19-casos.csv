@@ -4125,3 +4125,91 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,46,cu,Ciego de Ávila,Ciego de Ávila,2020/09/01,,desconocido
 ,hombre,53,cu,Ciego de Ávila,Ciego de Ávila,2020/09/01,,secundario
 ,hombre,55,cu,Ciego de Ávila,Ciego de Ávila,2020/09/01,,desconocido
+,mujer,29,cu,San Cristóbal,Artemisa,2020/09/02,,secundario
+,mujer,4,cu,San Cristóbal,Artemisa,2020/09/02,,secundario
+,mujer,57,cu,San Cristóbal,Artemisa,2020/09/02,,secundario
+,mujer,44,cu,San Cristóbal,Artemisa,2020/09/02,,secundario
+,mujer,63,cu,San Cristóbal,Artemisa,2020/09/02,,secundario
+,mujer,47,cu,Mariel,Artemisa,2020/09/02,,secundario
+,mujer,27,cu,Alquízar,Artemisa,2020/09/02,,secundario
+,mujer,72,cu,Caimito,Artemisa,2020/09/02,,secundario
+,mujer,54,cu,Alquízar,Artemisa,2020/09/02,,secundario
+,mujer,57,cu,Alquízar,Artemisa,2020/09/02,,secundario
+,hombre,31,cu,Alquízar,Artemisa,2020/09/02,,secundario
+,hombre,1,cu,Alquízar,Artemisa,2020/09/02,,secundario
+,mujer,60,cu,Candelaria,Artemisa,2020/09/02,,secundario
+,hombre,63,cu,Candelaria,Artemisa,2020/09/02,,secundario
+,hombre,35,cu,Cotorro,La Habana,2020/09/02,,secundario
+,hombre,35,cu,Cotorro,La Habana,2020/09/02,,secundario
+,mujer,68,cu,Cotorro,La Habana,2020/09/02,,secundario
+,hombre,12,cu,Cotorro,La Habana,2020/09/02,,secundario
+,hombre,37,cu,Cotorro,La Habana,2020/09/02,,secundario
+,mujer,14,cu,Cotorro,La Habana,2020/09/02,,secundario
+,hombre,25,cu,Regla,La Habana,2020/09/02,,secundario
+,hombre,39,cu,Regla,La Habana,2020/09/02,,secundario
+,mujer,56,cu,Regla,La Habana,2020/09/02,,secundario
+,mujer,39,cu,Regla,La Habana,2020/09/02,,secundario
+,hombre,13,cu,Regla,La Habana,2020/09/02,,secundario
+,hombre,24,cu,Guanabacoa,La Habana,2020/09/02,,secundario
+,mujer,57,cu,Cerro,La Habana,2020/09/02,,secundario
+,hombre,49,cu,Regla,La Habana,2020/09/02,,desconocido
+,hombre,37,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,hombre,48,cu,La Habana Vieja,La Habana,2020/09/02,,secundario
+,hombre,53,cu,La Habana Vieja,La Habana,2020/09/02,,secundario
+,hombre,12,cu,Habana del Este,La Habana,2020/09/02,,secundario
+,hombre,27,cu,Habana del Este,La Habana,2020/09/02,,secundario
+,hombre,44,cu,Habana del Este,La Habana,2020/09/02,,secundario
+,hombre,1,cu,Cotorro,La Habana,2020/09/02,,secundario
+,hombre,33,cu,San Miguel del Padrón,La Habana,2020/09/02,,secundario
+,hombre,44,mx,Playa,La Habana,2020/09/02,,secundario
+,mujer,34,cu,Marianao,La Habana,2020/09/02,,desconocido
+,mujer,47,cu,Plaza de la Revolución,La Habana,2020/09/02,,secundario
+,hombre,1,cu,Guanabacoa,La Habana,2020/09/02,,secundario
+,hombre,65,cu,Cerro,La Habana,2020/09/02,,desconocido
+,hombre,28,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,mujer,9,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,hombre,49,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,hombre,53,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,hombre,19,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,hombre,58,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,mujer,20,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,mujer,25,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,mujer,47,cu,Diez de Octubre,La Habana,2020/09/02,,secundario
+,hombre,6,cu,Regla,La Habana,2020/09/02,,desconocido
+,hombre,66,cu,Boyeros,La Habana,2020/09/02,,secundario
+,mujer,32,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,38,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,27,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,18,cu,Boyeros,La Habana,2020/09/02,,secundario
+,mujer,18,cu,Boyeros,La Habana,2020/09/02,,secundario
+,mujer,53,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,29,cu,Boyeros,La Habana,2020/09/02,,secundario
+,mujer,54,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,62,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,71,cu,Boyeros,La Habana,2020/09/02,,secundario
+,mujer,13,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,37,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,10,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,mujer,57,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,hombre,27,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,mujer,27,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,hombre,49,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,hombre,44,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,mujer,28,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,hombre,44,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,mujer,35,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,hombre,5,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,hombre,50,cu,Regla,La Habana,2020/09/02,,secundario
+,mujer,75,cu,Boyeros,La Habana,2020/09/02,,desconocido
+,mujer,63,cu,Boyeros,La Habana,2020/09/02,,secundario
+,hombre,62,cu,Boyeros,La Habana,2020/09/02,,secundario
+,mujer,23,cu,Arroyo Naranjo,La Habana,2020/09/02,,secundario
+,mujer,87,cu,Cotorro,La Habana,2020/09/02,,secundario
+,mujer,56,cu,Centro Habana,La Habana,2020/09/02,,desconocido
+,mujer,57,cu,Centro Habana,La Habana,2020/09/02,,desconocido
+,hombre,45,cu,Marianao,La Habana,2020/09/02,,secundario
+,mujer,45,cu,Ciego de Ávila,Ciego de Ávila,2020/09/02,,secundario
+,mujer,47,cu,Ciego de Ávila,La Habana,2020/09/02,,secundario
+,mujer,50,cu,Ciego de Ávila,Ciego de Ávila,2020/09/02,,desconocido
+,mujer,69,cu,Ciego de Ávila,Ciego de Ávila,2020/09/02,,secundario
+,mujer,74,cu,Ciego de Ávila,Ciego de Ávila,2020/09/02,,desconocido
