@@ -2368,6 +2368,27 @@
             },
             "178": {
                 "fecha": "2020/09/04"
+            },
+            "179": {
+                "fecha": "2020/09/05",
+                "fallecidos": [
+                    {
+                        "id": "f-101",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "rm"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 56 años de edad que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Retraso mental. Se mantuvo asintomático hasta el día 30 de agosto donde es trasladado a cuidados intensivos por presentar fiebre, falta de aire, decaimiento, diarreas e hipotensión. Se incrementa la polipnea. Presentó hipotensión arterial por lo que es administrado oxígeno suplementario y se apoya con aminas. Evolucionó con inestabilidad hemodinámica, siendo intubado y ventilado en modalidad controlada. En el Rx de tórax se observó un aumento de las lesiones inflamatorias en ambos campos pulmonares. Se mantuvo ventilado y fueron modificados parámetros ventilatorios por acidemia respiratoria e hipoxemia, empeoramiento clínico, gasométrico y radiológico. En el día de ayer presentó parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ]
             }
         }
     }
