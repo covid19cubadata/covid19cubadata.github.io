@@ -2360,8 +2360,25 @@
                             "ds"
                         ],
                         "texto": "Ciudadana cubana de 87 años, residente en el Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Demencia Senil. El día 1 de septiembre como parte de un control de foco y el seguimiento a las personas de la comunidad, se identifica a la  paciente de referencia, quien presentaba un cuadro de desorientación y decaimiento marcado, decidiéndose su  traslado hospitalario, donde llegó con falta de aire intensa, agitación y sudoración profusa. De inmediato fue ingresada de forma directa en el Servicio de Cuidados Intensivos, siendo intubada y ventilada desde la llegada. Pocos minutos después hizo parada cardíaca en asistolia presenciada, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Es realizada necropsia y tomada muestra para PCR, fue confirmada positiva post-mortem. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-102",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 54 años de edad, que residía en el municipio Ciego de Ávila, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. El día 29 de agosto comenzó con tos, secreción nasal y decaimiento, siendo atendido por su hija que es médico sin sospechar de la COVID- 19. El día 2 de septiembre  presentó falta de aire, aumenta el decaimiento, es llevado por la familia en horas de la noche al Hospital Antonio Luaces donde se trata con oxígeno suplementario y antibióticos. Se traslada al Hospital Roberto Rodríguez, donde se recibe con agobio respiratorio e inestabilidad hemodinámicas por lo que se realiza traslado directo al Servicio de Cuidados Intensivos. Se intuba y administran aminas, a pesar de ello, minutos después presenta parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
                     }
-                ]
+                ],
+                "nota_general": "El día 7 de septiembre, se reportó, con los datos del día 6,  un fallecido y caso confirmado cuya muerte ocurrió el día 2. Por ese motivo se incrementó en 1 los fallecidos de este día."
             },
             "177": {
                 "fecha": "2020/09/03"
@@ -2389,6 +2406,10 @@
                         "texto": "Falleció el ciudadano cubano de 56 años de edad que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Retraso mental. Se mantuvo asintomático hasta el día 30 de agosto donde es trasladado a cuidados intensivos por presentar fiebre, falta de aire, decaimiento, diarreas e hipotensión. Se incrementa la polipnea. Presentó hipotensión arterial por lo que es administrado oxígeno suplementario y se apoya con aminas. Evolucionó con inestabilidad hemodinámica, siendo intubado y ventilado en modalidad controlada. En el Rx de tórax se observó un aumento de las lesiones inflamatorias en ambos campos pulmonares. Se mantuvo ventilado y fueron modificados parámetros ventilatorios por acidemia respiratoria e hipoxemia, empeoramiento clínico, gasométrico y radiológico. En el día de ayer presentó parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
                     }
                 ]
+            },
+            "180": {
+                "fecha": "2020/09/06",
+                "nota_general": "Para este día se reportó un fallecido y confirmado cuya muerte ocurrió realmente el día 2. Por ese motivo los datos fueron ubicados ese día."
             }
         }
     }
