@@ -4297,3 +4297,14 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/09/04,,secundario
 ,hombre,51,cu,Ciego de Ávila,Ciego de Ávila,2020/09/04,,secundario
 ,mujer,36,cu,Ciego de Ávila,Ciego de Ávila,2020/09/04,,secundario
+,hombre,27,cu,San Cristóbal,Artemisa,2020/09/05,,secundario
+,mujer,11,cu,Regla,La Habana,2020/09/05,,secundario
+,mujer,18,cu,Boyeros,La Habana,2020/09/05,,desconocido
+,mujer,7,cu,Arroyo Naranjo,La Habana,2020/09/05,,secundario
+,mujer,33,cu,Arroyo Naranjo,La Habana,2020/09/05,,secundario
+,mujer,35,cu,Regla,La Habana,2020/09/05,,secundario
+,mujer,42,cu,Venezuela,Ciego de Ávila,2020/09/05,,secundario
+,hombre,28,cu,Morón,Ciego de Ávila,2020/09/05,,desconocido
+,mujer,13,cu,Majagua,Ciego de Ávila,2020/09/05,,secundario
+,mujer,67,cu,Venezuela,Ciego de Ávila,2020/09/05,,secundario
+,hombre,31,cu,Camagüey,Camagüey,2020/09/05,,primario
