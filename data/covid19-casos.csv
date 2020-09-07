@@ -4309,7 +4309,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,67,cu,Venezuela,Ciego de Ávila,2020/09/05,,secundario
 ,hombre,31,cu,Camagüey,Camagüey,2020/09/05,,primario
 ,mujer,19,cu,Pinar del Río,Pinar del Río,2020/09/06,,secundario
-,mujer,55,cu,Pinar del Río,pinar del Río,2020/09/06,,secundario
+,mujer,55,cu,Pinar del Río,Pinar del Río,2020/09/06,,secundario
 ,hombre,60,cu,Pinar del Río,Pinar del Río,2020/09/06,,secundario
 ,mujer,88,cu,Pinar del Río,Pinar del Río,2020/09/06,,secundario
 ,hombre,7,cu,Mariel,Artemisa,2020/09/06,,secundario
