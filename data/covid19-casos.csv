@@ -446,7 +446,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,16,cu,Cabaiguán,Sancti Spíritus,2020/04/07,,secundario
 ,mujer,80,cu,Cabaiguán,Sancti Spíritus,2020/04/07,,primario
 ,hombre,59,cu,Florida,Camagüey,2020/04/07,,secundario
-,mujer,31,cu,Florida,Camagüey,2020/04/07,,secundario
+,mujer,31,cu,Esmeralda,Camagüey,2020/04/07,,secundario
 ,mujer,39,cu,Gibara,Holguín,2020/04/07,,secundario
 ,hombre,8,cu,Gibara,Holguín,2020/04/07,,secundario
 ,hombre,36,cu,Gibara,Holguín,2020/04/07,,secundario
@@ -1533,7 +1533,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,75,cu,Matanzas,Matanzas,2020/04/30,,desconocido
 ,mujer,51,cu,Jovellanos,Matanzas,2020/04/30,,secundario
 ,mujer,53,cu,Manicaragua,Villa Clara,2020/04/30,,secundario
-,hombre,30,cu,Sancti Spíritus,Sancti Spíritus,2020/04/30,,secundario
+,hombre,30,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
 ,hombre,64,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
 ,hombre,31,cu,Cabaiguán,Sancti Spíritus,2020/04/30,,secundario
 ,hombre,74,cu,Cotorro,La Habana,2020/05/01,,secundario
@@ -1712,7 +1712,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,32,cu,Habana del Este,La Habana,2020/05/06,,secundario
 ,hombre,55,cu,Centro Habana,La Habana,2020/05/06,,desconocido
 ,hombre,19,cu,Habana del Este,La Habana,2020/05/06,,secundario
-,hombre,42,cu,Habana del Este,La Habana,2020/05/06,,secundario
+,hombre,21,cu,Habana del Este,La Habana,2020/05/06,,secundario
 ,hombre,42,cu,Marianao,La Habana,2020/05/06,,desconocido
 ,mujer,70,cu,Habana del Este,La Habana,2020/05/06,,secundario
 ,hombre,79,cu,Guanabacoa,La Habana,2020/05/06,,secundario
@@ -2420,7 +2420,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,41,cu,Manicaragua,Villa Clara,2020/07/10,,primario
 ,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/07/10,,primario
 ,mujer,2,cu,Centro Habana,La Habana,2020/07/11,,secundario
-,mujer,39,cu,Centro Habana,La Habana,2020/07/11,,secundario
+,mujer,39,cu,Habana del Este,La Habana,2020/07/11,,secundario
 ,hombre,43,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,mujer,51,cu,Centro Habana,La Habana,2020/07/11,,secundario
 ,mujer,28,cu,Centro Habana,La Habana,2020/07/11,,secundario
@@ -2684,7 +2684,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,76,cu,La Lisa,La Habana,2020/08/03,,secundario
 ,hombre,39,cu,La Lisa,La Habana,2020/08/03,,secundario
 ,hombre,84,cu,La Lisa,La Habana,2020/08/03,,secundario
-,mujer,97,cu,La Lisa,La Habana,2020/08/03,,secundario
+,mujer,97,cu,Cerro,La Habana,2020/08/03,,secundario
 ,mujer,35,cu,Marianao,La Habana,2020/08/03,,desconocido
 ,mujer,37,cu,Marianao,La Habana,2020/08/03,,secundario
 ,hombre,49,cu,La Lisa,La Habana,2020/08/03,,secundario
@@ -3566,7 +3566,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,63,cu,Guantánamo,Guantánamo,2020/08/19,,primario
 ,mujer,20,cu,Caimito,Artemisa,2020/08/20,,secundario
 ,mujer,12,cu,Alquízar,Artemisa,2020/08/20,,secundario
-,mujer,35,cu,Mariel,Artemisa,2020/08/20,,secundario
+,mujer,55,cu,Mariel,Artemisa,2020/08/20,,secundario
 ,mujer,7,cu,Mariel,Artemisa,2020/08/20,,secundario
 ,mujer,28,cu,San Cristóbal,Artemisa,2020/08/20,,desconocido
 ,mujer,25,cu,Arroyo Naranjo,La Habana,2020/08/20,,secundario
@@ -4351,3 +4351,28 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,51,cu,Ciego de Ávila,Ciego de Ávila,2020/09/06,,desconocido
 ,hombre,54,cu,Ciego de Ávila,Ciego de Ávila,2020/09/06,,desconocido
 ,hombre,67,cu,Ciego de Ávila,Ciego de Ávila,2020/09/06,,desconocido
+,hombre,61,cu,Candelaria,Artemisa,2020/09/07,,secundario
+,hombre,11,cu,Arroyo Naranjo,La Habana,2020/09/07,,secundario
+,hombre,40,cu,La Habana Vieja,La Habana,2020/09/07,,secundario
+,mujer,54,cu,Habana del Este,La Habana,2020/09/07,,desconocido
+,mujer,62,cu,Cerro,La Habana,2020/09/07,,primario
+,hombre,36,cu,Diez de Octubre,La Habana,2020/09/07,,secundario
+,hombre,14,cu,Diez de Octubre,La Habana,2020/09/07,,secundario
+,mujer,15,cu,Boyeros,La Habana,2020/09/07,,desconocido
+,mujer,49,cu,Boyeros,La Habana,2020/09/07,,secundario
+,mujer,54,cu,Diez de Octubre,La Habana,2020/09/07,,secundario
+,mujer,79,cu,Diez de Octubre,La Habana,2020/09/07,,secundario
+,mujer,56,cu,Diez de Octubre,La Habana,2020/09/07,,secundario
+,mujer,54,cu,Diez de Octubre,La Habana,2020/09/07,,secundario
+,hombre,49,cu,San José de las Lajas,Mayabeque,2020/09/07,,secundario
+,hombre,17,cu,,,2020/09/07,,secundario
+,mujer,8,cu,Matanzas,Matanzas,2020/09/07,,secundario
+,hombre,53,cu,Perico,Matanzas,2020/09/07,,secundario
+,hombre,32,cu,Matanzas,Matanzas,2020/09/07,,secundario
+,mujer,53,cu,Ciego de Ávila,Ciego de Ávila,2020/09/07,,secundario
+,mujer,50,cu,Morón,Ciego de Ávila,2020/09/07,,secundario
+,mujer,53,cu,Majagua,Ciego de Ávila,2020/09/07,,secundario
+,mujer,47,cu,Majagua,Ciego de Ávila,2020/09/07,,secundario
+,mujer,73,cu,Majagua,Ciego de Ávila,2020/09/07,,secundario
+,hombre,55,cu,Venezuela,Ciego de Ávila,2020/09/07,,secundario
+,mujer,19,cu,Ciego de Ávila,Ciego de Ávila,2020/09/07,,secundario
