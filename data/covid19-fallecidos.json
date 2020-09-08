@@ -27,6 +27,7 @@
         "ec": "enfermedad cerebral crónica",
         "ed": "enfermedad diverticular del colon",
         "ei": "enfermedad cerebrovascular isquémica",
+        "el": "epilepsia",
         "en": "encamado",
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
@@ -71,7 +72,8 @@
         "sl": "síndrome de leriche",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
-        "vi": "vih"
+        "vi": "vih",
+        "vm": "valvulopatía mitral"
     },
     "casos": {
         "dias": {
@@ -2410,6 +2412,44 @@
             "180": {
                 "fecha": "2020/09/06",
                 "nota_general": "Para este día se reportó un fallecido y confirmado cuya muerte ocurrió realmente el día 2. Por ese motivo los datos fueron ubicados ese día."
+            },
+            "181": {
+                "fecha": "2020/09/07",
+                "fallecidos": [
+                    {
+                        "id": "f-103",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "el",
+                            "ir",
+                            "vm"
+                        ],
+                        "texto": "Ciudadano cubano de 84 años de edad, que residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Epilepsia, Insuficiencia Renal Crónica, Valvulopatía Mitral. El día 3 de septiembre durante la pesquisa el médico de familia lo encuentra con marcado decaimiento, decidiendo por su enfermedad cardiovascular remitir al Instituto de Cardiología, es valorado y realizado test rápido que es positivo, por lo que se traslada al Hospital Salvador Allende.  Fue ingresado por presentar tos y decaimiento marcado en sala de sospechosos. Los día 4 y 5 de septiembre persisten el decaimiento marcado y la tos, estabilidad hemodinámica, cumpliendo el tratamiento según protocolo. El día 6 de septiembre se recibe PCR confirmado. En horas de la noche aumenta la disnea, signos de deshidratación, hipotensión arterial, diuresis escasa, por lo que es trasladado al Servicio de Cuidados Intensivos. En el Rx de tórax se observan lesiones inflamatorias en ambos campos pulmonares. El día 7 de septiembre presenta agobio respiratorio, hipotensión arterial, es intubado y ventilado en modalidad controlada, se elevan las dosis de aminas. Hace parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las mas sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-104",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Majagua",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.07",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 85 años de edad, que residía en el municipio Majagua, provincia Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión arterial. El día 30 de agosto es ingresada en un Centro de aislamiento y al ser confirmada se traslada para el Hospital General Roberto Rodríguez, donde por los riesgos se ingresa en el servicio de cuidados intensivos. El día 3 de septiembre es trasladada para el Hospital Militar de Camagüey e ingresada en cuidados intensivos. El día 4 de septiembre presenta disnea moderada, en el Rx de Tórax presentaba lesiones inflamatorias en ambos campos pulmonares. Se añade al tratamiento oxígeno suplementario, esteroides, Ceftriaxona, Heparina de bajo peso molecular a dosis terapéutica y CIGB 258. Los días 5 y 6 de septiembre mantiene disnea y estabilidad hemodinámica. El día 7 de septiembre hace agobio respiratorio, inestabilidad hemodinámica por lo que es intubada y ventilada en modalidad controlada, apoyada con aminas y se cambian antibióticos a Meronem y Vancomicina.  En horas de la noche hace parada cardiaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las mas sentidas condolencias a familiares y amigos."
+                    }
+                ]
             }
         }
     }
