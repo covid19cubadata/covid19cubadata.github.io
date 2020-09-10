@@ -2386,7 +2386,27 @@
                 "fecha": "2020/09/03"
             },
             "178": {
-                "fecha": "2020/09/04"
+                "fecha": "2020/09/04",
+                "fallecidos": [
+                    {
+                        "id": "f-105",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "fa"
+                        ],
+                        "texto": "Ciudadana cubana de 90 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus, Fibrilación Auricular Crónica. El día 24 de agosto es llevada al cuerpo de guardia del Hospital Antonio Luaces Iraola por presentar pérdida de la conciencia y movimientos involuntarios, sin signos de focalización neurológica, hizo broncoaspiración de contenido gástrico. Fue ingresada en la sala de terapia intermedia. Es tratada con antibióticos, digitálicos, heparina de bajo peso molecular a dosis profiláctica, teniendo en consideración los antecedentes de fibrilación auricular crónica. El día 27 de agosto en el exámen físico aparecen crepitantes en ambos campos pulmonares, en el ultrasonido se encuentra derrame pleural derecho, se añade otro antibiótico a la terapéutica. Durante los días del 28 de agosto al 1 de septiembre la paciente muestra deterioro gradual del cuadro clínico, aparecen signos de deshidratación y disnea, siendo necesario el aporte suplementario de oxígeno, soluciones parenterales y electrolitos. El 2 y 3 de septiembre empeora estado neurológico, profundiza la toma de conciencia y en la auscultación incrementan  los crepitantes en ambos campos pulmonares. El día 4 de septiembre presenta inestabilidad hemodinámica, disnea moderada, abundantes secreciones bronquiales, hace bradicardia extrema, hasta llegar a la parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos. "
+                    }
+                ],
+                "nota_general": "Para este día no se reportaron fallecidos, sin embargo para el día 9 de septiembre (reporte del 10) uno de los fallecidos realmente murió el día 4 de septiembre y se ubicó en esta fecha (caso f-105)"
             },
             "179": {
                 "fecha": "2020/09/05",
@@ -2453,6 +2473,27 @@
             },
             "182": {
                 "fecha": "2020/09/08"
+            },
+            "183": {
+                "fecha": "2020/09/09",
+                "fallecidos": [
+                    {
+                        "id": "f-106",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad, residente en Ciego de Ávila. Antecedentes patológicos personales: Hipertensión Arterial. El día 3 de septiembre comienza con fiebre, falta de aire al caminar y decaimiento. El día 6 de septiembre fue llevado por los familiares al Servicio  de Urgencias del Hospital Antonio Luaces donde fue evaluado y se le realizaron estudios complementarios. En el Rx presentaba lesiones inflamatorias en ambos campos pulmonares. Fue ingresado en sala para atención a las infecciones respiratorias agudas, planteándose el diagnóstico de Bronconeumonía Bacteriana Extrahospitalarias, es indicado tratamiento con oxígeno suplementario, antibióticos, esteroides e hidratación parenteral. El día 7 de septiembre de forma súbita, presenta agobio respiratorio, inestabilidad hemodinámica, por lo que es intubado y ventilado en modalidad controlada y apoyado con aminas. En horas de la madrugada del día 8 de septiembre es constatada actividad eléctrica sin pulso y parada cardíaca, son aplicadas maniobras de reanimación cardiopulmonar que fueron efectivas, una hora después, presenta nueva parada cardiaca, son realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ],
+                "nota_general": "Para este día se reportaron dos fallecidos, sin embargo uno de ellos falleció realmente el día 4 de septiembre y se ubicó en esta fecha (caso f-105)"
             }
         }
     }
