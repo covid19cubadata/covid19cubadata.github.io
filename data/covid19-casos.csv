@@ -4652,3 +4652,34 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,46,cu,Manzanillo,Granma,2020/09/11,,primario
 ,mujer,51,cu,Santiago de Cuba,Santiago de Cuba,2020/09/11,,primario
 ,mujer,41,cu,Contramaestre,Santiago de Cuba,2020/09/11,,primario
+,hombre,23,cu,Candelaria,Artemisa,2020/09/12,,secundario
+,hombre,48,cu,Nueva Paz,Mayabeque,2020/09/12,,secundario
+,mujer,45,cu,San José de las Lajas,Mayabeque,2020/09/12,,secundario
+,mujer,35,cu,Plaza de la Revolución,La Habana,2020/09/12,,desconocido
+,mujer,16,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
+,mujer,54,cu,Cotorro,La Habana,2020/09/12,,secundario
+,mujer,19,cu,Marianao,La Habana,2020/09/12,,secundario
+,hombre,33,cu,Regla,La Habana,2020/09/12,,desconocido
+,mujer,51,cu,Regla,La Habana,2020/09/12,,desconocido
+,mujer,36,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
+,mujer,55,cu,Centro Habana,La Habana,2020/09/12,,secundario
+,hombre,59,cu,Boyeros,La Habana,2020/09/12,,secundario
+,hombre,75,cu,Diez de Octubre,La Habana,2020/09/12,,desconocido
+,mujer,73,cu,Diez de Octubre,La Habana,2020/09/12,,secundario
+,hombre,58,cu,Cotorro,La Habana,2020/09/12,,secundario
+,hombre,35,cu,Guanabacoa,La Habana,2020/09/12,,secundario
+,mujer,64,cu,Regla,La Habana,2020/09/12,,secundario
+,hombre,33,cu,Regla,La Habana,2020/09/12,,secundario
+,hombre,29,cu,Diez de Octubre,La Habana,2020/09/12,,secundario
+,mujer,21,cu,Diez de Octubre,La Habana,2020/09/12,,desconocido
+,hombre,64,cu,La Lisa,La Habana,2020/09/12,,secundario
+,hombre,66,cu,Cotorro,La Habana,2020/09/12,,secundario
+,hombre,55,cu,Boyeros,La Habana,2020/09/12,,secundario
+,hombre,29,cu,Boyeros,La Habana,2020/09/12,,secundario
+,,55,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
+,mujer,24,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
+,hombre,1,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
+,mujer,30,cu,Boyeros,La Habana,2020/09/12,,secundario
+,hombre,57,cu,Trinidad,Sancti Spíritus,2020/09/12,,secundario
+,mujer,24,cu,,,2020/09/12,,secundario
+,hombre,38,cu,Sancti Spíritus,Sancti Spíritus,2020/09/12,,secundario
