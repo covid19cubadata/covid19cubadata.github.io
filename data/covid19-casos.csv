@@ -4676,10 +4676,10 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,66,cu,Cotorro,La Habana,2020/09/12,,secundario
 ,hombre,55,cu,Boyeros,La Habana,2020/09/12,,secundario
 ,hombre,29,cu,Boyeros,La Habana,2020/09/12,,secundario
-,,55,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
+,mujer,55,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
 ,mujer,24,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
 ,hombre,1,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
 ,mujer,30,cu,Boyeros,La Habana,2020/09/12,,secundario
 ,hombre,57,cu,Trinidad,Sancti Spíritus,2020/09/12,,secundario
-,mujer,24,cu,,,2020/09/12,,secundario
+,mujer,24,cu,Yaguajay,Sancti Spíritus,2020/09/12,,secundario
 ,hombre,38,cu,Sancti Spíritus,Sancti Spíritus,2020/09/12,,secundario
