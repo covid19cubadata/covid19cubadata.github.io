@@ -20,7 +20,8 @@ var domains = {
     'bs': 'Bahamas',
     'mx': 'México',
     "ni": "Nicaragua",
-    "ve": "Venezuela"
+    "ve": "Venezuela",
+    "ma": "Marruecos",
 };
 
 
