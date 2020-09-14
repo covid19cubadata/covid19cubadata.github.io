@@ -8,6 +8,7 @@
         "ar": "artritis reumatoide",
         "ba": "bloqueo aurículo-ventricular",
         "ca": "cáncer",
+        "cb": "carcinoma basocelular",
         "ch": "cardiopatía hipertensiva",
         "ci": "cardiopatía isquémica",
         "ce": "carcinoma epidermoide de esófago",
@@ -25,10 +26,13 @@
         "dv": "demencia vascular",
         "ec": "enfermedad cerebral crónica",
         "ed": "enfermedad diverticular del colon",
+        "ei": "enfermedad cerebrovascular isquémica",
+        "el": "epilepsia",
         "en": "encamado",
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
         "ev": "enfermedad cerebrovascular",
+        "er": "enfermedad renal crónica",
         "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
         "fu": "fumador",
@@ -62,10 +66,14 @@
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
         "sd": "sangramiento digestivo",
+        "sm": "secuelas motoras de enfermedad cerebrovascular",
+        "so": "síndrome de down",
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
         "up": "ulcera péptica",
-        "vi": "vih"
+        "ur": "úlceras por presión",
+        "vi": "vih",
+        "vm": "valvulopatía mitral"
     },
     "casos": {
         "dias": {
@@ -2199,6 +2207,341 @@
             },
             "170": {
                 "fecha": "2020/08/27"
+            },
+            "171": {
+                "fecha": "2020/08/28",
+                "fallecidos": [
+                    {
+                        "id": "f-93",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep",
+                            "ic"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 78 años de edad, que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Cardiaca. Durante su evolución presentó vómitos y hace broncoaspiración, por lo que se intubó y ventiló en modalidad controlada. Posteriormente se observó mejoría de los parámetros ventilatorios y el paciente es extubado, manteniendo buena estabilidad hemodinámica y oxigenación. Se mantuvo con evolución clínica favorable y gasometrías normales. En el día de ayer hace parada cardiaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-94",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "so",
+                            "dm",
+                            "er"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 56 años de edad, que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Síndrome de Down, Diabetes Mellitus, Enfermedad Renal Crónica. Se mantuvo estable hemodinámicamente, con gasometrías normales y buena saturación de oxígeno. Se valoró la Enfermedad Renal Crónica que presentaba el paciente por Nefrología, decidiéndose seguimiento clínico y humoral. En el día de ayer, de manera súbita, hace una parada cardíaca por fibrilación ventricular. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas y el paciente fallece."
+                    }
+                ]
+            },
+            "172": {
+                "fecha": "2020/08/29"
+            },
+            "173": {
+                "fecha": "2020/08/30"
+            },
+            "174": {
+                "fecha": "2020/08/31",
+                "fallecidos": [
+                    {
+                        "id": "f-95",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "cb"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 84 años de edad, residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, carcinoma basocelular. Ingresó por mialgias y dolores articulares, con sospecha de dengue. Se confirmó PCR positivo y posteriormente comenzó con disnea moderada y decaimiento. En el Rx se aprecia empeoramiento de las lesiones inflamatorias. Fue trasladado al Servicio de Terapia Intensiva y se le añade al tratamiento oxígeno suplementario, esteroides y Ceftriaxona. Enpeoró la disnea y presentó bajo gasto cardiaco, con bloqueo auriculo-ventricular de 3er grado, por lo que se le  implantó marcapaso transitorio, se intubó y ventiló en modalidad controlada. En la evolución presentó distres moderado, siendo cambiado el antibiótico por Meronem y Linezolid, además se administró plasma hiperinmune. Se mantenía intubado y ventilado en modalidad controlada, inestable hemodinámicamente, trastornos del equilibrio acido básico, fue realizada corrección la acidemia metabólica y apoyado con aminas. En los siguientes días continuó inestable hemodinámicamente. El 31 de agosto hizo parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "175": {
+                "fecha": "2020/09/01",
+                "fallecidos": [
+                    {
+                        "id": "f-96",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 94,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 94 años de edad, residente en el municipio La Lisa. Antecedentes Patológicos Personales: Cardiopatía Isquémica. Fue ingresada por presentar pérdida del apetito, fiebre y decaimiento. Fue ingresada en Cuidados Intensivos luego de confirmarse con COVID-19. Se administra tratamiento según protocolo. Presentó empeoramiento de la disnea, es intubada y ventilada en modalidad controlada. Se mantuvo en ventilación mecánica, modalidad controlada. Durante su evolución, presentó inestabilidad hemodinámica, empeoramiento de las lesiones inflamatorias y del distres respiratorio, por lo que fue necesario apoyarla con aminas. El día 31 de agosto tuvo empeoramiento del cuadro clínico, apareciendo sangramiento por los sitios de punturas, lo que requirió administración de hemoderivados. El día 1 de septiembre hace parada cardíaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas y la paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos. "
+                    },
+                    {
+                        "id": "f-97",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "hombre",
+                        "municipio_detección": null,
+                        "provincia_detección": null,
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "00",
+                        "enfermedades": [
+                            "dm",
+                            "sm",
+                            "dn"
+                        ],
+                        "texto": "Ciudadano cubano de 65 años de edad, deambulante. Antecedentes Patológicos Personales: Diabetes Mellitus, Etilismo, Secuelas motoras de Enfermedad Cerebrovascular, desnutrición proteico calórica. Fue ingresado por presentar fiebre, tos y decaimiento. Fue ingresado en el Servicio de Cuidados Intensivos por las comorbilidades luego de ser confirmado con COVID-19. Se impuso tratamiento según protocolo. El día 30 de agosto por mantener evolución favorable: estabilidad hemodinámica, afebril, examen físico, Rx y gasometrías normales, es reportado de Cuidado. El día 31 de agosto hizo de forma súbita parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-98",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 65 años de edad, residente en el municipio La Lisa, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. Fue ingresada por presentar fiebre, tos y decaimiento. Se impuso tratamiento según protocolo luego de ser confirmada positiva a la COVID-19. Presentó empeoramiento de la disnea, llegando al agobio respiratorio, por lo que fue intubada y ventilada en modalidad controlada. Durante su evolución mantuvo distress respiratorio moderado y fue realizada traqueostomía.El día 31 de agosto tuvo un agravamiento del distress respiratorio que hace necesario modificación de parámetros ventilatorios y fue apoyada con aminas. El día 1 de septiembre hace parada cardiaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos."
+                    }
+                ]
+            },
+            "176": {
+                "fecha": "2020/09/02",
+                "fallecidos": [
+                    {
+                        "id": "f-99",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Cristóbal",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.11",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ei",
+                            "fc",
+                            "ur",
+                            "dn"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad, residente en San Cristóbal, Artemisa. Antecedentes Patológicos Personales: Enfermedad Cerebrovascular isquémica a repetición, Fractura de cadera no operada de dos meses de evolución, úlceras por presión Grado II – III postrado crónico, desnutrición proteico calórica. Fue ingresado por presentar fiebre, falta de aire y decaimiento. Fue tratado como una Bronconeumonía Bacteriana y se tomó muestra para PCR. Al ser positivo a la COVID-19, se impuso tratamiento según protocolo. Presentó empeoramiento de la falta de aire, se trasladó a Cuidados Intensivos. Evolucionó con estabilidad hemodinámica, ventilando espontáneamente con oxígeno suplementario y las gasometrías en valores normales. El día 1 de septiembre presentó agobio respiratorio, es intubado, ventilado en modalidad controlada y pasa del reporte de grave a crítico. El 2 de septiembre presentó fibrilación ventricular, parada cardíaca, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-100",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 87 años, residente en el Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Demencia Senil. El día 1 de septiembre como parte de un control de foco y el seguimiento a las personas de la comunidad, se identifica a la  paciente de referencia, quien presentaba un cuadro de desorientación y decaimiento marcado, decidiéndose su  traslado hospitalario, donde llegó con falta de aire intensa, agitación y sudoración profusa. De inmediato fue ingresada de forma directa en el Servicio de Cuidados Intensivos, siendo intubada y ventilada desde la llegada. Pocos minutos después hizo parada cardíaca en asistolia presenciada, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Es realizada necropsia y tomada muestra para PCR, fue confirmada positiva post-mortem. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-102",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 54 años de edad, que residía en el municipio Ciego de Ávila, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. El día 29 de agosto comenzó con tos, secreción nasal y decaimiento, siendo atendido por su hija que es médico sin sospechar de la COVID- 19. El día 2 de septiembre  presentó falta de aire, aumenta el decaimiento, es llevado por la familia en horas de la noche al Hospital Antonio Luaces donde se trata con oxígeno suplementario y antibióticos. Se traslada al Hospital Roberto Rodríguez, donde se recibe con agobio respiratorio e inestabilidad hemodinámicas por lo que se realiza traslado directo al Servicio de Cuidados Intensivos. Se intuba y administran aminas, a pesar de ello, minutos después presenta parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ],
+                "nota_general": "El día 7 de septiembre, se reportó, con los datos del día 6,  un fallecido y caso confirmado cuya muerte ocurrió el día 2. Por ese motivo se incrementó en 1 los fallecidos de este día."
+            },
+            "177": {
+                "fecha": "2020/09/03"
+            },
+            "178": {
+                "fecha": "2020/09/04",
+                "fallecidos": [
+                    {
+                        "id": "f-105",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "fa"
+                        ],
+                        "texto": "Ciudadana cubana de 90 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus, Fibrilación Auricular Crónica. El día 24 de agosto es llevada al cuerpo de guardia del Hospital Antonio Luaces Iraola por presentar pérdida de la conciencia y movimientos involuntarios, sin signos de focalización neurológica, hizo broncoaspiración de contenido gástrico. Fue ingresada en la sala de terapia intermedia. Es tratada con antibióticos, digitálicos, heparina de bajo peso molecular a dosis profiláctica, teniendo en consideración los antecedentes de fibrilación auricular crónica. El día 27 de agosto en el exámen físico aparecen crepitantes en ambos campos pulmonares, en el ultrasonido se encuentra derrame pleural derecho, se añade otro antibiótico a la terapéutica. Durante los días del 28 de agosto al 1 de septiembre la paciente muestra deterioro gradual del cuadro clínico, aparecen signos de deshidratación y disnea, siendo necesario el aporte suplementario de oxígeno, soluciones parenterales y electrolitos. El 2 y 3 de septiembre empeora estado neurológico, profundiza la toma de conciencia y en la auscultación incrementan  los crepitantes en ambos campos pulmonares. El día 4 de septiembre presenta inestabilidad hemodinámica, disnea moderada, abundantes secreciones bronquiales, hace bradicardia extrema, hasta llegar a la parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos. "
+                    }
+                ],
+                "nota_general": "Para este día no se reportaron fallecidos, sin embargo para el día 9 de septiembre (reporte del 10) uno de los fallecidos realmente murió el día 4 de septiembre y se ubicó en esta fecha (caso f-105)"
+            },
+            "179": {
+                "fecha": "2020/09/05",
+                "fallecidos": [
+                    {
+                        "id": "f-101",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "rm"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 56 años de edad que residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Retraso mental. Se mantuvo asintomático hasta el día 30 de agosto donde es trasladado a cuidados intensivos por presentar fiebre, falta de aire, decaimiento, diarreas e hipotensión. Se incrementa la polipnea. Presentó hipotensión arterial por lo que es administrado oxígeno suplementario y se apoya con aminas. Evolucionó con inestabilidad hemodinámica, siendo intubado y ventilado en modalidad controlada. En el Rx de tórax se observó un aumento de las lesiones inflamatorias en ambos campos pulmonares. Se mantuvo ventilado y fueron modificados parámetros ventilatorios por acidemia respiratoria e hipoxemia, empeoramiento clínico, gasométrico y radiológico. En el día de ayer presentó parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ]
+            },
+            "180": {
+                "fecha": "2020/09/06",
+                "nota_general": "Para este día se reportó un fallecido y confirmado cuya muerte ocurrió realmente el día 2. Por ese motivo los datos fueron ubicados ese día."
+            },
+            "181": {
+                "fecha": "2020/09/07",
+                "fallecidos": [
+                    {
+                        "id": "f-103",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "el",
+                            "ir",
+                            "vm"
+                        ],
+                        "texto": "Ciudadano cubano de 84 años de edad, que residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Epilepsia, Insuficiencia Renal Crónica, Valvulopatía Mitral. El día 3 de septiembre durante la pesquisa el médico de familia lo encuentra con marcado decaimiento, decidiendo por su enfermedad cardiovascular remitir al Instituto de Cardiología, es valorado y realizado test rápido que es positivo, por lo que se traslada al Hospital Salvador Allende.  Fue ingresado por presentar tos y decaimiento marcado en sala de sospechosos. Los día 4 y 5 de septiembre persisten el decaimiento marcado y la tos, estabilidad hemodinámica, cumpliendo el tratamiento según protocolo. El día 6 de septiembre se recibe PCR confirmado. En horas de la noche aumenta la disnea, signos de deshidratación, hipotensión arterial, diuresis escasa, por lo que es trasladado al Servicio de Cuidados Intensivos. En el Rx de tórax se observan lesiones inflamatorias en ambos campos pulmonares. El día 7 de septiembre presenta agobio respiratorio, hipotensión arterial, es intubado y ventilado en modalidad controlada, se elevan las dosis de aminas. Hace parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las mas sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-104",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "mujer",
+                        "municipio_detección": "Majagua",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.07",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 85 años de edad, que residía en el municipio Majagua, provincia Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión arterial. El día 30 de agosto es ingresada en un Centro de aislamiento y al ser confirmada se traslada para el Hospital General Roberto Rodríguez, donde por los riesgos se ingresa en el servicio de cuidados intensivos. El día 3 de septiembre es trasladada para el Hospital Militar de Camagüey e ingresada en cuidados intensivos. El día 4 de septiembre presenta disnea moderada, en el Rx de Tórax presentaba lesiones inflamatorias en ambos campos pulmonares. Se añade al tratamiento oxígeno suplementario, esteroides, Ceftriaxona, Heparina de bajo peso molecular a dosis terapéutica y CIGB 258. Los días 5 y 6 de septiembre mantiene disnea y estabilidad hemodinámica. El día 7 de septiembre hace agobio respiratorio, inestabilidad hemodinámica por lo que es intubada y ventilada en modalidad controlada, apoyada con aminas y se cambian antibióticos a Meronem y Vancomicina.  En horas de la noche hace parada cardiaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las mas sentidas condolencias a familiares y amigos."
+                    }
+                ]
+            },
+            "182": {
+                "fecha": "2020/09/08"
+            },
+            "183": {
+                "fecha": "2020/09/09",
+                "fallecidos": [
+                    {
+                        "id": "f-106",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad, residente en Ciego de Ávila. Antecedentes patológicos personales: Hipertensión Arterial. El día 3 de septiembre comienza con fiebre, falta de aire al caminar y decaimiento. El día 6 de septiembre fue llevado por los familiares al Servicio  de Urgencias del Hospital Antonio Luaces donde fue evaluado y se le realizaron estudios complementarios. En el Rx presentaba lesiones inflamatorias en ambos campos pulmonares. Fue ingresado en sala para atención a las infecciones respiratorias agudas, planteándose el diagnóstico de Bronconeumonía Bacteriana Extrahospitalarias, es indicado tratamiento con oxígeno suplementario, antibióticos, esteroides e hidratación parenteral. El día 7 de septiembre de forma súbita, presenta agobio respiratorio, inestabilidad hemodinámica, por lo que es intubado y ventilado en modalidad controlada y apoyado con aminas. En horas de la madrugada del día 8 de septiembre es constatada actividad eléctrica sin pulso y parada cardíaca, son aplicadas maniobras de reanimación cardiopulmonar que fueron efectivas, una hora después, presenta nueva parada cardiaca, son realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ],
+                "nota_general": "Para este día se reportaron dos fallecidos, sin embargo uno de ellos falleció realmente el día 4 de septiembre y se ubicó en esta fecha (caso f-105)"
+            },
+            "184": {
+                "fecha": "2020/09/10"
+            },
+            "185": {
+                "fecha": "2020/09/11",
+                "fallecidos": [
+                    {
+                        "id": "f-107",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci",
+                            "ir"
+                        ],
+                        "texto": "Ciudadana cubana de 74 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus, Cardiopatía Isquémica, Insuficiencia Renal Crónica. El día 29 de agosto fue ingresada en sala de medicina por presentar nausea, vómitos, fiebre, orinas colúricas e Ictero. El día 1 de septiembre es trasladada al servicio de terapia intermedia, fue valorada por Nefrología y Cirugía la cual realizó estudio de ultrasonografía diagnosticándose colangitis por litiasis coledociana, considerándose no necesaria intervención quirúrgica de urgencia, e iniciar tratamiento médico. El día 2 de septiembre es evaluada nuevamente por Nefrología por aparecer manifestaciones clínicas y de laboratorio de agudización de la Insuficiencia Renal Crónica por lo que fue necesario iniciar tratamiento dialítico. Los días 3, 4 y 5 de septiembre se mantiene con tendencia a la hipertensión arterial y disnea que mejora después del tratamiento hemodialítico. El día 6 de septiembre se le realiza PCR, estabilidad hemodinámica, continúa con hemodiálisis. Presentó posteriormente disnea ligera, edemas en miembros inferiores, estabilidad hemodinámica, afebril, y decaimiento. El día 11 de septiembre en horas de la madrugada presenta intensificación de la disnea de manera súbita, cianosis, sudoración y taquicardia, presenta parada cardiorespiratoria en asistolia, como causa probable de la misma es planteado un Tromboembolismo Pulmonar, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-108",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 91,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 91 años de edad, residente en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad pulmonar Obstructiva Crónica. Fue ingresado en el Centro de aislamiento por ser contacto de caso confirmado, ingresa clínicamente asintomático. Posteriormente presentó tos y falta de aire por lo que es trasladado a una unidad de cuidados intensivos reportado de grave, ligera disnea en el exámen físico del aparato respiratorio murmullo vesicular disminuido no estertores, en el Rx no lesiones pleuropulmonares. En monitorización se identifica bradicardia sinusal sin repercusión hemodinámica, razón por la que no son utilizados Kaletra y Cloroquina.  El día 7 de septiembre presentó tos escasa y disnea, ventilando en espontánea, con estabilidad hemodinámica. Los días 8 al 10 de septiembre se mantuvo con menos disnea, estable termodinámicamente, con estudios radiológicos negativos y evolución favorable. El día 11 de septiembre en horas de la tarde presenta parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ]
+            },
+            "186": {
+                "fecha": "2020/09/12"
+            },
+            "187": {
+                "fecha": "2020/09/13"
             }
         }
     }
