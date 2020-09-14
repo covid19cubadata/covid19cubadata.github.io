@@ -20,7 +20,8 @@ let domains = {
     'cg': 'Congo',
     'mx': 'México',
     "ni": "Nicaragua",
-    "ve": "Venezuela"
+    "ve": "Venezuela",
+    "ma": "Marruecos",
 };
 
 $(function () {
@@ -194,7 +195,7 @@ $(function () {
                             });
                         }
                     });
-
+                    //console.log(dataSet)
                     $datatable.clear();
                     $datatable.rows.add(dataSet);
                     $datatable.draw();
