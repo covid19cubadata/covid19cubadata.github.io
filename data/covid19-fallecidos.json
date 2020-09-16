@@ -2545,6 +2545,28 @@
             },
             "188": {
                 "fecha": "2020/09/14"
+            },
+            "189": {
+                "fecha": "2020/09/15",
+                 "fallecidos": [
+                    {
+                        "id": "f-109",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ep"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 71 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. El día 6 de septiembre comienza con tos seca y falta de aire, por lo que es ingresado en Centro de Sospechosos al ser contacto de caso confirmado. El día 8 de septiembre es confirmado y trasladado a la unidad de cuidados intensivos. Presentó agobio respiratorio e hipotensión arterial, por lo que es intubado y ventilado en modalidad controlada y apoyado con aminas. El día 9 septiembre se mantiene intubado y ventilado en modalidad controlada. En el examen físico son auscultados estertores crepitantes en ambas bases pulmonares, en el Rx lesiones de aspecto inflamatorio en ambos hemitórax. El 11 y 12 de septiembre continúa intubado y ventilado, estabilidad hemodinámica con apoyo de aminas. El 14 de septiembre, se mantiene intubado, sin cambios clínicos y radiológicos. El 15 de septiembre, presenta parada cardiorespiratoria en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ]
             }
         }
     }
