@@ -4659,7 +4659,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,16,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
 ,mujer,54,cu,Cotorro,La Habana,2020/09/12,,secundario
 ,mujer,19,cu,Marianao,La Habana,2020/09/12,,secundario
-,hombre,33,cu,Regla,La Habana,2020/09/12,,desconocido
+,hombre,33,in,Regla,La Habana,2020/09/12,,desconocido
 ,mujer,51,cu,Regla,La Habana,2020/09/12,,desconocido
 ,mujer,36,cu,Arroyo Naranjo,La Habana,2020/09/12,,secundario
 ,mujer,55,cu,Centro Habana,La Habana,2020/09/12,,secundario
@@ -4802,3 +4802,76 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,61,cu,Sibanicú,Camagüey,2020/09/14,,desconocido
 ,hombre,44,cu,Vertientes,Camagüey,2020/09/14,,desconocido
 ,hombre,39,cu,Florida,Camagüey,2020/09/14,,desconocido
+,hombre,54,cu,Candelaria,Artemisa,2020/09/15,,secundario
+,mujer,35,cu,San Antonio de los Baños,Artemisa,2020/09/15,,secundario
+,hombre,27,cu,San Cristóbal,Artemisa,2020/09/15,,secundario
+,hombre,56,cu,Artemisa,Artemisa,2020/09/15,,secundario
+,hombre,27,cu,Arroyo Naranjo,La Habana,2020/09/15,,secundario
+,hombre,39,cu,San Miguel del Padrón,La Habana,2020/09/15,,secundario
+,mujer,46,cu,Cerro,La Habana,2020/09/15,,desconocido
+,mujer,6,cu,Regla,La Habana,2020/09/15,,secundario
+,hombre,58,cu,Boyeros,La Habana,2020/09/15,,secundario
+,hombre,52,cu,Guanabacoa,La Habana,2020/09/15,,secundario
+,mujer,30,cu,San Miguel del Padrón,La Habana,2020/09/15,,secundario
+,mujer,57,cu,Diez de Octubre,La Habana,2020/09/15,,desconocido
+,hombre,39,cu,Boyeros,La Habana,2020/09/15,,secundario
+,hombre,64,cu,Diez de Octubre,La Habana,2020/09/15,,desconocido
+,hombre,61,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
+,hombre,24,cu,La Lisa,La Habana,2020/09/15,,secundario
+,hombre,9,cu,Arroyo Naranjo,La Habana,2020/09/15,,secundario
+,hombre,52,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
+,hombre,31,cu,Regla,La Habana,2020/09/15,,secundario
+,hombre,59,cu,Guanabacoa,La Habana,2020/09/15,,secundario
+,hombre,32,cu,Arroyo Naranjo,La Habana,2020/09/15,,secundario
+,hombre,26,cu,Guanabacoa,La Habana,2020/09/15,,secundario
+,hombre,33,cu,Cotorro,La Habana,2020/09/15,,secundario
+,hombre,75,cu,Cotorro,La Habana,2020/09/15,,secundario
+,mujer,32,cu,La Lisa,La Habana,2020/09/15,,secundario
+,hombre,50,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,33,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,43,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,59,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,43,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,32,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,36,in,Regla,Regla,2020/09/15,,secundario
+,hombre,36,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,31,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,32,in,Regla,la Habana,2020/09/15,,secundario
+,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,40,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,35,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,42,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,41,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,31,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,38,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,33,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,26,in,Regla,La Habana,2020/09/15,,secundario
+,mujer,54,cu,Diez de octubre,La Habana,2020/09/15,,secundario
+,hombre,4,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
+,hombre,29,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
+,hombre,36,in,Regla,La Habana,2020/09/15,,secundario
+,hombre,54,cu,San José de las Lajas,Mayabeque,2020/09/15,,secundario
+,hombre,54,cu,Matanzas,Matanzas,2020/09/15,,secundario
+,hombre,41,cu,Yaguajay,Sancti Spíritus,2020/09/15,,secundario
+,mujer,44,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,hombre,59,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,mujer,35,cu,Baraguá,Ciego de Ávila,2020/09/15,,secundario
+,mujer,36,cu,Morón,Ciego de Ávila,2020/09/15,,secundario
+,mujer,30,cu,Baraguá,Ciego de Ávila,2020/09/15,,secundario
+,mujer,3,cu,Venezuela,Ciego de Ávila,2020/09/15,,secundario
+,mujer,68,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,mujer,40,cu,Morón,Ciego de Ávila,2020/09/15,,secundario
+,mujer,49,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,mujer,51,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,hombre,33,cu,Morón,Ciego de Ávila,2020/09/15,,secundario
+,hombre,43,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,mujer,29,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
+,mujer,44,cu,Baraguá,Ciego de Ávila,2020/09/15,,secundario
+,mujer,35,cu,Baraguá,Ciego de Ávila,2020/09/15,,secundario
+,hombre,8,cu,Morón,Ciego de Ávila,2020/09/15,,secundario
+,hombre,12,cu,Morón,Ciego de Ávila,2020/09/15,,secundario
+,mujer,31,cu,Morón,Ciego de Ávila,2020/09/15,,secundario
+,mujer,42,cu,Ciego de Ávila,Ciego de Ávila,2020/09/15,,secundario
