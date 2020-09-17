@@ -4833,13 +4833,13 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,59,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,43,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,32,in,Regla,La Habana,2020/09/15,,secundario
-,hombre,36,in,Regla,Regla,2020/09/15,,secundario
+,hombre,36,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,36,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,31,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
-,hombre,32,in,Regla,la Habana,2020/09/15,,secundario
+,hombre,32,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,39,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,40,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,35,in,Regla,La Habana,2020/09/15,,secundario
@@ -4849,7 +4849,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,38,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,33,in,Regla,La Habana,2020/09/15,,secundario
 ,hombre,26,in,Regla,La Habana,2020/09/15,,secundario
-,mujer,54,cu,Diez de octubre,La Habana,2020/09/15,,secundario
+,mujer,54,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
 ,hombre,4,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
 ,hombre,29,cu,Diez de Octubre,La Habana,2020/09/15,,secundario
 ,hombre,36,in,Regla,La Habana,2020/09/15,,secundario
