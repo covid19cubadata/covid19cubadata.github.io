@@ -70,6 +70,7 @@
         "so": "síndrome de down",
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
+        "ti": "tuberculosis intestinal",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
         "vi": "vih",
@@ -2570,6 +2571,42 @@
             },
             "190": {
                 "fecha": "2020/09/16"
+            },
+            "191": {
+                "fecha": "2020/09/17",
+                 "fallecidos": [
+                    {
+                        "id": "f-110",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ab",
+                            "ep"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 80 años de edad. Residente de la provincia La Habana. Antecedentes Patológicos Personales: Asma Bronquial, Enfermedad Pulmonar Obstructiva Crónica. El día 6 de septiembre comienza con tos seca y decaimiento, es ingresada en Centro de sospechosos al ser contacto de caso confirmado. El día 8 de septiembre es confirmada e ingresada en la Unidad de Cuidados Intensivos. Presenta agobio respiratorio, hipotensión arterial por lo que es intubada y ventilada en modalidad controlada y apoyada con aminas. Los días 9 al 11 de septiembre se mantuvo intubada y ventilada en modalidad controlada, en el exámen físico son auscultados estertores crepitantes en ambos campos pulmonares, en el Rx lesiones de aspecto inflamatorio en ambos campos pulmonares. Los días 12, 13 y 14 de septiembre continúa intubada y ventilada, presentó enfisema subcutáneo, fue colocada sonda de pleurotomía, mantiene estabilidad hemodinámica con apoyo de aminas. El 15 de septiembre, se mantiene ventilada en modalidad controlada con empeoramiento clínico, gasométrico y radiológico con distres moderado. El 16 de septiembre empeoramiento clínico con hipotensión arterial e hipoxemia severa, son elevadas las dosis de aminas y se modifican parámetros ventilatorios. El 17 se septiembre presenta parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-111",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 41,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ti"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 41 años de edad. Residente de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Tuberculosis Intestinal. El día 21 de agosto es intervenido quirúrgicamente por diagnóstico de Abdomen Agudo, diagnosticándose Tuberculosis intestinal, para lo cual fue impuesto tratamiento. Durante su evolución presentó múltiples complicaciones quirúrgicas por lo cual fue reintervenido en varias ocasiones, evolucionado en sala de Cirugía y posteriormente en la Unidad de Cuidados Intensivos.El 6 de septiembre se le realiza PCR por la pesquisa que se realizaba en el hospital, confirmándose el 8 de septiembre, no fue remitido, por ser un paciente intubado y ventilado en modalidad controlada, apoyado con aminas a dosis elevadas y con técnica de abdomen semiabierto para realización de lavados peritoneales por su enfermedad de base. Durante su evolución en terapia intensiva se mantuvo intubado y ventilado en modalidad controlada, apoyado con aminas y cumpliendo tratamiento según y para la Tuberculosis Intestinal con los medicamentos establecidos. El día 14 de septiembre permanece intubado y ventilado con apoyo de aminas, aparece Sangramiento Digestivo que responde a tratamiento médico. El día 16 de septiembre presenta empeoramiento clínico, gasométrico y radiológico por lo que se modificaron parámetros ventilatorios, se realiza lavado abdominal programado. El día 17 de septiembre continúa el empeoramiento clínico por lo que se modifican parámetros ventilatorios y se elevan las dosis de aminas. Hace parada cardiaca y son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas, fue intubado, ventilado y apoyado con aminas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ]
             }
         }
     }
