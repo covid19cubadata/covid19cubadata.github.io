@@ -2607,6 +2607,42 @@
                         "texto": "Falleció el ciudadano cubano de 41 años de edad. Residente de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Tuberculosis Intestinal. El día 21 de agosto es intervenido quirúrgicamente por diagnóstico de Abdomen Agudo, diagnosticándose Tuberculosis intestinal, para lo cual fue impuesto tratamiento. Durante su evolución presentó múltiples complicaciones quirúrgicas por lo cual fue reintervenido en varias ocasiones, evolucionado en sala de Cirugía y posteriormente en la Unidad de Cuidados Intensivos.El 6 de septiembre se le realiza PCR por la pesquisa que se realizaba en el hospital, confirmándose el 8 de septiembre, no fue remitido, por ser un paciente intubado y ventilado en modalidad controlada, apoyado con aminas a dosis elevadas y con técnica de abdomen semiabierto para realización de lavados peritoneales por su enfermedad de base. Durante su evolución en terapia intensiva se mantuvo intubado y ventilado en modalidad controlada, apoyado con aminas y cumpliendo tratamiento según y para la Tuberculosis Intestinal con los medicamentos establecidos. El día 14 de septiembre permanece intubado y ventilado con apoyo de aminas, aparece Sangramiento Digestivo que responde a tratamiento médico. El día 16 de septiembre presenta empeoramiento clínico, gasométrico y radiológico por lo que se modificaron parámetros ventilatorios, se realiza lavado abdominal programado. El día 17 de septiembre continúa el empeoramiento clínico por lo que se modifican parámetros ventilatorios y se elevan las dosis de aminas. Hace parada cardiaca y son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas, fue intubado, ventilado y apoyado con aminas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
                     }
                 ]
+            },
+            "192": {
+                "fecha": "2020/09/18",
+                 "fallecidos": [
+                    {
+                        "id": "f-112",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "municipio_detección": "Antilla",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.04",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 49 años, residente en Antilla, Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial. El día 14 de septiembre fue ingresado por presentar tos seca, secreción nasal y falta de aire, es tratado con broncodilatores y antibióticos. Durante su estancia en esta institución presentó también dolor torácico con electrocardiograma normal. Mantuvo disnea ligera y cefalea, en el Rx lesiones de aspecto inflamatorio en hemitórax izquierdo, fue tratado con esteroides, aerosoles y son incorporados al tratamiento Meronem y Moxifloxacino. En horas de la noche hizo parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Fue realizada necropsia. En el estudio macroscópico de la necropsia  se informa cardiomegalia, angioesclerosis y placas de ateromas en la Aorta. El estudio de PCR de pulmón fue positivo. Lamentamos profundamente lo sucedido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-113",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "fa"
+                        ],
+                        "texto": "Ciudadano cubano de 80 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial, Fibrilación Auricular Crónica. El día 6 de septiembre comienza con secreción nasal, tos seca, falta de aire y decaimiento, fue atendido en los servicios de salud hospitalarios. El 10 de septiembre presenta agobio respiratorio, hipotensión arterial, fue trasladado a la Unidad de Cuidados Intensivos donde se intuba y ventila en modalidad controlada. Durante su evolución en cuidados intensivos se mantuvo intubado y ventilado en modalidad controlada, apoyado con aminas y cumpliendo tratamiento según protocolo. El 15 de septiembre presenta empeoramiento clínico, gasométrico y radiológico por lo que se modificaron parámetros ventilatorios, son elevadas las dosis de aminas. El 16 y 17 de septiembre presenta inestabilidad hemodinámica y acidemia metabólica, son realizas correcciones del desequilibrio ácido básico. El 18 de septiembre continúa el empeoramiento clínico por lo que se modifican parámetros ventilatorios y se elevan las dosis de aminas, presenta bradicardia extrema, asistolia, y parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo sucedido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ]
             }
         }
     }
