@@ -22,7 +22,8 @@ let domains = {
     "ni": "Nicaragua",
     "ve": "Venezuela",
     "ma": "Marruecos",
-    "in": "India"
+    "in": "India",
+    "jm": "Jamaica"
 };
 
 $(function () {
