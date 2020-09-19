@@ -5003,3 +5003,54 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,27,cu,Morón,Ciego de Ávila,2020/09/17,,primario
 ,mujer,28,cu,Camagüey,Camagüey,2020/09/17,,primario
 ,mujer,32,cu,Jiguaní,Granma,2020/09/17,,secundario
+,mujer,33,cu,San Cristóbal,Artemisa,2020/09/18,,secundario
+,mujer,34,cu,Playa,La Habana,2020/09/18,,secundario
+,hombre,22,cu,Playa,La Habana,2020/09/18,,secundario
+,mujer,42,ve,Playa,La Habana,2020/09/18,,secundario
+,hombre,22,cu,La Habana Vieja,La Habana,2020/09/18,,secundario
+,mujer,87,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,mujer,4,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,hombre,9,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,hombre,57,cu,Boyeros,La Habana,2020/09/18,,secundario
+,hombre,26,cu,Centro Habana,La Habana,2020/09/18,,secundario
+,mujer,25,cu,Diez de Octubre,La Habana,2020/09/18,,secundario
+,mujer,63,cu,Diez de Octubre,La Habana,2020/09/18,,secundario
+,hombre,39,cu,Habana del Este,La Habana,2020/09/18,,secundario
+,hombre,81,cu,Habana del Este,La Habana,2020/09/18,,secundario
+,hombre,32,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,mujer,9,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,hombre,1,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,hombre,22,cu,Boyeros,La Habana,2020/09/18,,desconocido
+,hombre,42,jm,Plaza de la Revolución,La Habana,2020/09/18,,desconocido
+,mujer,15,cu,La Habana Vieja,La Habana,2020/09/18,,secundario
+,hombre,38,cu,La Lisa,La Habana,2020/09/18,,secundario
+,mujer,49,cu,La Lisa,La Habana,2020/09/18,,desconocido
+,mujer,54,cu,Centro Habana,La Habana,2020/09/18,,desconocido
+,mujer,28,cu,La Habana Vieja,La Habana,2020/09/18,,secundario
+,hombre,5,cu,San Miguel del Padrón,La Habana,2020/09/18,,secundario
+,hombre,26,cu,Regla,La Habana,2020/09/18,,secundario
+,hombre,51,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,mujer,5,cu,Regla,La Habana,2020/09/18,,secundario
+,mujer,45,cu,Regla,La Habana,2020/09/18,,desconocido
+,hombre,40,in,Regla,La Habana,2020/09/18,,secundario
+,hombre,21,cu,Arroyo Naranjo,La Habana,2020/09/18,,secundario
+,hombre,51,cu,La Habana Vieja,La Habana,2020/09/18,,secundario
+,hombre,48,cu,Cerro,La Habana,2020/09/18,,secundario
+,mujer,26,cu,Cerro,La Habana,2020/09/18,,secundario
+,mujer,33,cu,San José de las Lajas,Mayabeque,2020/09/18,,secundario
+,hombre,55,cu,San José de las Lajas,Mayabeque,2020/09/18,,secundario
+,hombre,33,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,mujer,38,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,36,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,22,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,35,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,37,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,52,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,31,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,28,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,56,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,24,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,22,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,49,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,43,cu,Cárdenas,Matanzas,2020/09/18,,secundario
+,hombre,49,cu,Antilla,Holguín,2020/09/18,,desconocido
