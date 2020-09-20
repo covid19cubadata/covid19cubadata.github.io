@@ -24,6 +24,7 @@
         "dn": "desnutrición",
         "ds": "demencia senil",
         "dv": "demencia vascular",
+        "ea": "estenosis aórtica severa",
         "ec": "enfermedad cerebral crónica",
         "ed": "enfermedad diverticular del colon",
         "ei": "enfermedad cerebrovascular isquémica",
@@ -2545,13 +2546,31 @@
                 "fecha": "2020/09/13"
             },
             "188": {
-                "fecha": "2020/09/14"
+                "fecha": "2020/09/14",
+                 "fallecidos": [
+                    {
+                        "id": "f-112",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "municipio_detección": "Antilla",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.04",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 49 años, residente en Antilla, Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial. El día 14 de septiembre fue ingresado por presentar tos seca, secreción nasal y falta de aire, es tratado con broncodilatores y antibióticos. Durante su estancia en esta institución presentó también dolor torácico con electrocardiograma normal. Mantuvo disnea ligera y cefalea, en el Rx lesiones de aspecto inflamatorio en hemitórax izquierdo, fue tratado con esteroides, aerosoles y son incorporados al tratamiento Meronem y Moxifloxacino. En horas de la noche hizo parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Fue realizada necropsia. En el estudio macroscópico de la necropsia  se informa cardiomegalia, angioesclerosis y placas de ateromas en la Aorta. El estudio de PCR de pulmón fue positivo. Lamentamos profundamente lo sucedido y transmitimos las más sentidas condolencias a familiares y amigos."
+                    }
+                ],
+                "nota_general": "El día 18 (parte del 19) se reportaron dos fallecidos, sin embargo uno de ellos falleció realmente el día 14 de septiembre y se ubicó en esta fecha (caso f-112)"
             },
             "189": {
                 "fecha": "2020/09/15",
                  "fallecidos": [
                     {
-                        "id": "f-109",
+                        "id": "f-114",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 71,
@@ -2567,10 +2586,28 @@
                         ],
                         "texto": "Falleció el ciudadano cubano de 71 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. El día 6 de septiembre comienza con tos seca y falta de aire, por lo que es ingresado en Centro de Sospechosos al ser contacto de caso confirmado. El día 8 de septiembre es confirmado y trasladado a la unidad de cuidados intensivos. Presentó agobio respiratorio e hipotensión arterial, por lo que es intubado y ventilado en modalidad controlada y apoyado con aminas. El día 9 septiembre se mantiene intubado y ventilado en modalidad controlada. En el examen físico son auscultados estertores crepitantes en ambas bases pulmonares, en el Rx lesiones de aspecto inflamatorio en ambos hemitórax. El 11 y 12 de septiembre continúa intubado y ventilado, estabilidad hemodinámica con apoyo de aminas. El 14 de septiembre, se mantiene intubado, sin cambios clínicos y radiológicos. El 15 de septiembre, presenta parada cardiorespiratoria en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos las más sentidas condolencias a familiares y amigos."
                     }
-                ]
+                ],
+                "nota_general": "El día 19 (parte del 20) se reportaron dos fallecidos, sin embargo uno de ellos falleció realmente el día 16 de septiembre y se ubicó en esta fecha (caso f-114)"
             },
             "190": {
-                "fecha": "2020/09/16"
+                "fecha": "2020/09/16",
+                "fallecidos": [
+                    {
+                        "id": "f-109",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 94,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "fc"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 94 años de edad, residía en el municipio Marianao, provincia La Habana. El día 15 de septiembre en horas de la noche es llevado por los familiares al hospital por caída e imposibilidad de movilización por dolor en la cadera izquierda, discreta falta de aire. Fue diagnosticada fractura de cadera y remitido por sospecha de COVID-19. El 16 de septiembre es ingresado en la Unidad de Cuidados Intensivos Especiales. Fueron realizados complementarios y el Rx en el control preoperatorio fueron precisadas discretas lesiones inflamatorias en ambos campos pulmonares. En el hemograma con diferencial aparece leucocitosis ligera a predominio de polimorfonucleares, el resto de los complementarios en valores normales. Es tratado con oxígeno suplementario y Ceftriaxona. En espera de la intervención quirúrgica de urgencia, presenta parada cardiaca en asistolia. Son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. En el estudio post-mortem de PCR de pulmón, fue positivo a COVID-19. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             },
             "191": {
                 "fecha": "2020/09/17",
@@ -2612,21 +2649,6 @@
                 "fecha": "2020/09/18",
                  "fallecidos": [
                     {
-                        "id": "f-112",
-                        "id_caso": null,
-                        "pais": "cu",
-                        "edad": 49,
-                        "sexo": "hombre",
-                        "municipio_detección": "Antilla",
-                        "provincia_detección": "Holguín",
-                        "dpacode_municipio_deteccion": "32.04",
-                        "dpacode_provincia_deteccion": "32",
-                        "enfermedades": [
-                            "ha"
-                        ],
-                        "texto": "Ciudadano cubano de 49 años, residente en Antilla, Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial. El día 14 de septiembre fue ingresado por presentar tos seca, secreción nasal y falta de aire, es tratado con broncodilatores y antibióticos. Durante su estancia en esta institución presentó también dolor torácico con electrocardiograma normal. Mantuvo disnea ligera y cefalea, en el Rx lesiones de aspecto inflamatorio en hemitórax izquierdo, fue tratado con esteroides, aerosoles y son incorporados al tratamiento Meronem y Moxifloxacino. En horas de la noche hizo parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Fue realizada necropsia. En el estudio macroscópico de la necropsia  se informa cardiomegalia, angioesclerosis y placas de ateromas en la Aorta. El estudio de PCR de pulmón fue positivo. Lamentamos profundamente lo sucedido y transmitimos las más sentidas condolencias a familiares y amigos."
-                    },
-                    {
                         "id": "f-113",
                         "id_caso": null,
                         "pais": "cu",
@@ -2642,7 +2664,31 @@
                         ],
                         "texto": "Ciudadano cubano de 80 años de edad, residente en Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial, Fibrilación Auricular Crónica. El día 6 de septiembre comienza con secreción nasal, tos seca, falta de aire y decaimiento, fue atendido en los servicios de salud hospitalarios. El 10 de septiembre presenta agobio respiratorio, hipotensión arterial, fue trasladado a la Unidad de Cuidados Intensivos donde se intuba y ventila en modalidad controlada. Durante su evolución en cuidados intensivos se mantuvo intubado y ventilado en modalidad controlada, apoyado con aminas y cumpliendo tratamiento según protocolo. El 15 de septiembre presenta empeoramiento clínico, gasométrico y radiológico por lo que se modificaron parámetros ventilatorios, son elevadas las dosis de aminas. El 16 y 17 de septiembre presenta inestabilidad hemodinámica y acidemia metabólica, son realizas correcciones del desequilibrio ácido básico. El 18 de septiembre continúa el empeoramiento clínico por lo que se modifican parámetros ventilatorios y se elevan las dosis de aminas, presenta bradicardia extrema, asistolia, y parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo sucedido y transmitimos las más sentidas condolencias a familiares y amigos."
                     }
-                ]
+                ],
+                "nota_general": "Este día se reportaron dos fallecidos, sin embargo uno de ellos falleció realmente el día 14 de septiembre y se ubicó en esta fecha (caso f-112)"
+            },
+            "193": {
+                "fecha": "2020/09/19",
+                 "fallecidos": [
+                    {
+                        "id": "f-115",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "ir",
+                            "ea"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 82 años de edad, que residía en el municipio cabecera de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión Arterial, Estenosis Aórtica Severa, Insuficiencia Renal Crónica. El 9 de septiembre es ingresado en centro de sospechosos por presentar falta de aire. El día 13 de septiembre se traslada para ser evaluado por Nefrología. Fueron realizados complementarios recibiéndose una creatinina elevada, también se recibe confirmación a la COVID-19, por lo que se decide remitir, y ese mismo día es ingresado, presentando manifestaciones de Insuficiencia Ventricular Izquierda, con inestabilidad hemodinámica, por lo que es tratado con oxígeno a alto flujo, diuréticos, opiáceos. El 14 y 15 de septiembre se mantiene con oxígeno suplementario, diuréticos, y le realizan proceder hemodialítico. El 16 de septiembre presenta Edema Agudo del Pulmón, que fue tratado, inestable hemodinámicamente, es apoyado con aminas. En el Rx lesiones inflamatorias y congestivas en ambos campos pulmonares. El 17 de Septiembre permanece con oxígeno suplementario, inestabilidad hemodinámica y diuresis escasa por lo que fue necesario elevar dosis de aminas. El 18 de septiembre persiste la inestabilidad en la hemodinámia, muestra manifestaciones de Shock Cardiogénico por lo que es intubado, ventilado en modalidad controlada y son administradas aminas a altas dosis. El 19 de septiembre presenta bradicardia extrema, asistolia, y parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ],
+                "nota_general": "Este día se reportaron dos fallecidos, sin embargo uno de ellos falleció realmente el día 16 de septiembre y se ubicó en esta fecha (caso f-114)"
             }
         }
     }
