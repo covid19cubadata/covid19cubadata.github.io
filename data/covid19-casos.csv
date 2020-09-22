@@ -5140,3 +5140,84 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,44,cu,Ciego de Ávila,Ciego de Ávila,2020/09/20,,desconocido
 ,hombre,53,cu,Jimaguayú,Camagüey,2020/09/20,,desconocido
 ,hombre,59,cu,Jimaguayú,Camagüey,2020/09/20,,desconocido
+,hombre,56,cu,Plaza de la Revolución,La Habana,2020/09/21,,secundario
+,mujer,40,cu,Marianao,La Habana,2020/09/21,,secundario
+,mujer,41,cu,Marianao,La Habana,2020/09/21,,secundario
+,mujer,5,cu,Marianao,La Habana,2020/09/21,,secundario
+,mujer,21,cu,La Lisa,La Habana,2020/09/21,,secundario
+,mujer,39,cu,Boyeros,La Habana,2020/09/21,,secundario
+,hombre,10,cu,Boyeros,La Habana,2020/09/21,,secundario
+,mujer,37,cu,Boyeros,La Habana,2020/09/21,,secundario
+,hombre,31,cu,Arroyo Naranjo,La Habana,2020/09/21,,secundario
+,mujer,53,cu,Arroyo Naranjo,La Habana,2020/09/21,,secundario
+,hombre,38,cu,Arroyo Naranjo,La Habana,2020/09/21,,secundario
+,hombre,28,cu,Arroyo Naranjo,La Habana,2020/09/21,,secundario
+,mujer,23,cu,Arroyo Naranjo,La Habana,2020/09/21,,secundario
+,hombre,42,cu,Arroyo Naranjo,La Habana,2020/09/21,,secundario
+,hombre,33,cu,Cotorro,La Habana,2020/09/21,,secundario
+,hombre,65,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,hombre,45,cu,Regla,La Habana,2020/09/21,,secundario
+,mujer,30,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,mujer,52,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,hombre,58,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,hombre,20,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,mujer,54,cu,Cerro,La Habana,2020/09/21,,secundario
+,mujer,54,cu,Marianao,La Habana,2020/09/21,,secundario
+,mujer,4,cu,Diez de Octubre,La Habana,2020/09/21,,secundario
+,hombre,38,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,hombre,52,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,hombre,38,cu,Playa,La Habana,2020/09/21,,secundario
+,hombre,29,cu,Centro Habana,La Habana,2020/09/21,,secundario
+,mujer,52,cu,Diez de Octubre,La Habana,2020/09/21,,secundario
+,mujer,21,cu,Marianao,La Habana,2020/09/21,,secundario
+,mujer,53,cu,Marianao,La Habana,2020/09/21,,secundario
+,mujer,3,cu,Cerro,La Habana,2020/09/21,,secundario
+,mujer,23,cu,Cerro,La Habana,2020/09/21,,secundario
+,mujer,29,cu,La Habana Vieja,La Habana,2020/09/21,,secundario
+,hombre,41,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,43,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,45,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,27,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,36,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,33,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,30,in,Regla,La Habana,2020/09/21,,secundario
+,hombre,50,in,Regla,La Habana,2020/09/21,,secundario
+,mujer,11,cu,Jovellanos,Matanzas,2020/09/21,,secundario
+,hombre,22,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,39,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,47,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,24,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,53,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,66,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,38,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,34,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,28,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,32,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,29,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,34,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,50,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,45,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,28,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,28,cu,Cárdenas,La Habana,2020/09/21,,desconocido
+,hombre,27,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,38,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,31,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,53,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,mujer,39,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,26,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,21,cu,Cárdenas,Matanzas,2020/09/21,,secundario
+,hombre,43,cu,Jatibonico,Sancti Spíritus,2020/09/21,,secundario
+,mujer,43,cu,Ciego de Ávila,Ciego de Ávila,2020/09/21,,secundario
+,mujer,8,cu,Ciego de Ávila,Ciego de Ávila,2020/09/21,,secundario
+,mujer,62,cu,Majagua,Ciego de Ávila,2020/09/21,,secundario
+,mujer,30,cu,Majagua,Ciego de Ávila,2020/09/21,,secundario
+,hombre,68,cu,Majagua,Ciego de Ávila,2020/09/21,,secundario
+,mujer,15,cu,Majagua,Ciego de Ávila,2020/09/21,,secundario
+,hombre,53,cu,Majagua,Ciego de Ávila,2020/09/21,,secundario
+,hombre,23,cu,Ciego de Ávila,Ciego de Ávila,2020/09/21,,secundario
+,hombre,29,cu,Bolivia,Ciego de Ávila,2020/09/21,,secundario
+,hombre,10,cu,Bolivia,Ciego de Ávila,2020/09/21,,secundario
+,hombre,11,cu,Bolivia,Ciego de Ávila,2020/09/21,,secundario
+,hombre,7,cu,Bolivia,Ciego de Ávila,2020/09/21,,secundario
+,hombre,30,cu,Bolivia,Ciego de Ávila,2020/09/21,,secundario
+,hombre,22,cu,Holguín,Holguín,2020/09/21,,secundario
