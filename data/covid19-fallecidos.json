@@ -2710,6 +2710,26 @@
                         "texto": "Falleció la ciudadana cubana de 50 años de edad, que residía en el municipio Ciro Redondo de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Leucemia Mieloide Aguda, Asma Bronquial. El 24 de agosto es ingresada para tratamiento de su enfermedad, recibe terapéutica con citostáticos. Fue realizado PCR, como parte del control del evento del Hospital. El 9 de septiembre se recibe PCR positivo y es trasladada pues presentaba disnea, fiebre elevada y somnolencia.El 10 de septiembre aparece íctero, petequias y equimosis generalizados. En estudios de laboratorio se comprueba presencia de aplasia medular.El 11 de septiembre se continuó en ventilación espontánea con oxígeno suplementario y estabilidad hemodinámica. Fue evaluada por Hematología, y son incorporados medicamentos para tratamiento de la Aplasia Medular. El día 12 y 13 de septiembre persiste la disnea ligera y estabilidad hemodinámica, presentando picos febriles. En el Rx lesiones inflamatorias en ambos campos pulmonares. El día 14 de septiembre sin cambios significativos en la evolución clínica. Los días 15 y 16 de septiembre aumenta la disnea, por lo que es utilizada Ventilación No Invasiva. Mantuvo estabilidad hemodinámica. El día 17 de septiembre hace parada cardiaca en horas de la mañana, son realizadas maniobras de reanimación cardiopulmonar, que fueron efectivas; es intubada, ventilada y apoyada con aminas. Los días 18 y 19 de septiembre presenta inestabilidad hemodinámica, y acidemia metabólica, son realizadas correcciones del desequilibrio ácido básico. El 20 de septiembre continúa el empeoramiento clínico por lo que se modifican parámetros ventilatorios y se elevan las dosis de aminas. Presenta una fibrilación ventricular y parada cardiorespiratoria; son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
                     }
                 ]
+            },
+            "195": {
+                "fecha": "2020/09/21",
+                 "fallecidos": [
+                    {
+                        "id": "f-117",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 63,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "dm"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 63 años de edad, que residía en el municipio cabecera de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Diabetes Mellitus. El 11 septiembre es ingresado por la noche en centro de aislamiento al ser contacto de caso confirmado, se encontraba asintomático. El 14 de septiembre es trasladado al hospital e ingresado en sala de confirmados, clínicamente no presentaba síntomas. El 19 de septiembre muestra manifestaciones de decaimiento intenso, agobio respiratorio, hipotensión arterial, por lo que es trasladado a la unidad de cuidados intensivos. Se inicia ventilación no invasiva en decúbito prono. Presentaba cifras elevadas de glicemia y acidemia metabólica. El 20 de septiembre presenta inestabilidad hemodinámica con empeoramiento clínico, gasométrico y radiológico. En el Rx lesiones inflamatorias diseminadas en ambos campos pulmonares, fue intubado y ventilado en modalidad controlada y apoyado con aminas, son modificados parámetros ventilatorios y elevadas las dosis de aminas. El 21 de septiembre presenta bradicardia extrema, asistolia. Hace parada cardiorespiratoria, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
