@@ -2759,6 +2759,45 @@
             },
             "198": {
                 "fecha": "2020/09/24"
+            },
+            "199": {
+                "fecha": "2020/09/22",
+                 "fallecidos": [
+                    {
+                        "id": "f-119",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "mujer",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana, de 53 años de edad,  que residía en el municipio Ciego de Ávila, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial obesidad mórbida. Ingresó en sala de sospechosos por referir síntomas, y se le realiza PCR, que resulta positivo. Durante su ingreso le indican estudios hematológicos donde los marcadores humorales de sepsis estaban alterados y el Rx de tórax con discreto infiltrado inflamatorio en ambas bases pulmonares. Comienzan tratamiento según protocolo. Posteriormente incrementó la falta de aire asociado a hipoxemia con cianosis distal. Es evaluada por los intensivistas y deciden trasladarla a ese servicio. Llega a la terapia en franco agobio respiratorio por lo que es necesario ventilar en la modalidad asisto controlada y apoyarla con aminas vaso activa por la inestabilidad hemodinámica. El día 23 hay elementos de mejoría clínica y radiológica que permitió disminuir el apoyo amínico. En la mañana del 25 de septiembre, durante el baño en cama hace un evento súbito de falta de aire minutos más tardes una parada cardíaca de la que no se recupera a pesar de las maniobras de reanimación. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    },
+                    {
+                        "id": "f-120",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "fc",
+                            "ev"
+                        ],
+                        "texto": "ciudadano cubano, de 75 años de edad, que residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Fractura de cadera operado. Enfermedad Cerebro Vascular. En la noche del 13 de agosto inicia con síntomas y se remite para al hospital, como sospechoso, donde se le realiza PCR  que resulta positivo a la COVID-19. Por sus antecedentes patológicos se decide ingresar en Terapia Intensiva. Recibió tratamiento según protocolo y se incorporaron todos los medicamentos necesarios para las complicaciones. El 16 de agosto comienza con dificultad respiratoria y empeoramiento radiológico por lo que se decide intubar y ventilar. Después días de evolución y la dificultad para el destete, se decide realizar traqueotomía. Presentó múltiples complicaciones respiratorias, cardíacas, neurológicas, metabólicas y una encefalopatía hipóxica, para las cuales se administraron los medicamentos específicos en cada momento. Se diagnosticó una fístula traqueo esofágica que motivó su traslado a otro hospital, realizándose una gastrostomía. Después de 38 días de evolución de la enfermedad, con siete PCR evolutivo negativos, el día 22 de septiembre se  traslada a un cubículo aislado en la terapia intensiva para garantizar aislamiento epidemiológico de los pacientes positivos y continuar tratamiento de las complicaciones y comorbilidades asociadas. En el día 39 de evolución y día 36 en la Terapia Intensiva, con manifestaciones de encefalopatía hipóxica, en ventilación mecánica a través de traqueotomía,  modalidad asistida controlada, Hemodinámicamente inestable con apoyo con aminas vasoactivas.  En la tarde del 23 de septiembre continuó con deterioro progresivo mantenido de las funciones vitales; presenta una parada cardiorespiratoria, de la cual no se logra revertir a pesar de los esfuerzos. Le realizan necropsia y se toman muestra de tejido de pulmón cuyo resultado fue informado por el IPK como positivo en la tarde del día 25 de septiembre. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
