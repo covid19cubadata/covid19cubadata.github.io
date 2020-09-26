@@ -5349,3 +5349,65 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,51,cu,Ciego de Ávila,Ciego de Ávila,2020/09/24,,secundario
 ,hombre,45,cu,Ciego de Ávila,Ciego de Ávila,2020/09/24,,secundario
 ,hombre,47,cu,Ciego de Ávila,Ciego de Ávila,2020/09/24,,secundario
+,hombre,30,in,Regla,La Habana,2020/09/25,,secundario
+,hombre,29,in,Regla,La Habana,2020/09/25,,secundario
+,hombre,40,in,Regla,La Habana,2020/09/25,,secundario
+,hombre,34,in,Regla,La Habana,2020/09/25,,secundario
+,mujer,38,cu,Centro Habana,La Habana,2020/09/25,,secundario
+,hombre,34,cu,Plaza de la Revolución,La Habana,2020/09/25,,secundario
+,hombre,1,cu,Centro Habana,La Habana,2020/09/25,,secundario
+,hombre,34,cu,La Habana Vieja,La Habana,2020/09/25,,secundario
+,mujer,38,cu,La Habana Vieja,La Habana,2020/09/25,,secundario
+,mujer,49,cu,Habana del Este,La Habana,2020/09/25,,secundario
+,mujer,57,cu,San Miguel del Padrón,La Habana,2020/09/25,,secundario
+,hombre,31,cu,Habana del Este,La Habana,2020/09/25,,secundario
+,hombre,23,cu,Diez de Octubre,La Habana,2020/09/25,,secundario
+,hombre,19,cu,Diez de Octubre,La Habana,2020/09/25,,secundario
+,hombre,78,cu,Plaza de la Revolución,La Habana,2020/09/25,,secundario
+,mujer,57,cu,Plaza de la Revolución,La Habana,2020/09/25,,secundario
+,mujer,77,cu,Marianao,La Habana,2020/09/25,,secundario
+,mujer,29,cu,Marianao,La Habana,2020/09/25,,secundario
+,hombre,44,cu,La Habana Vieja,La Habana,2020/09/25,,secundario
+,hombre,48,cu,Diez de Octubre,La Habana,2020/09/25,,secundario
+,mujer,56,cu,Regla,La Habana,2020/09/25,,secundario
+,mujer,40,cu,Arroyo Naranjo,La Habana,2020/09/25,,secundario
+,mujer,13,cu,Regla,La Habana,2020/09/25,,secundario
+,hombre,64,cu,Arroyo Naranjo,La Habana,2020/09/25,,desconocido
+,hombre,24,cu,Arroyo Naranjo,La Habana,2020/09/25,,desconocido
+,hombre,61,cu,Boyeros,La Habana,2020/09/25,,secundario
+,mujer,30,cu,Marianao,La Habana,2020/09/25,,secundario
+,mujer,65,cu,San José de las Lajas,Mayabeque,2020/09/25,,desconocido
+,hombre,59,cu,San José de las Lajas,Mayabeque,2020/09/25,,desconocido
+,mujer,55,cu,Güines,Mayabeque,2020/09/25,,desconocido
+,mujer,55,cu,Güines,Mayabeque,2020/09/25,,desconocido
+,mujer,13,cu,Güines,Mayabeque,2020/09/25,,desconocido
+,mujer,47,cu,Güines,Mayabeque,2020/09/25,,desconocido
+,mujer,70,cu,Cárdenas,Matanzas,2020/09/25,,secundario
+,hombre,43,cu,Sancti Spíritus,Sancti Spíritus,2020/09/25,,desconocido
+,mujer,39,cu,Sancti Spíritus,Sancti Spíritus,2020/09/25,,secundario
+,mujer,12,cu,Sancti Spíritus,Sancti Spíritus,2020/09/25,,secundario
+,hombre,48,cu,Taguasco,Sancti Spíritus,2020/09/25,,secundario
+,mujer,48,cu,Taguasco,Sancti Spíritus,2020/09/25,,secundario
+,hombre,20,cu,Taguasco,Sancti Spíritus,2020/09/25,,secundario
+,hombre,75,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,desconocido
+,hombre,47,cu,Majagua,Ciego de Ávila,2020/09/25,,secundario
+,hombre,47,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,hombre,17,cu,Venezuela,Ciego de Ávila,2020/09/25,,secundario
+,mujer,30,cu,Venezuela,Ciego de Ávila,2020/09/25,,secundario
+,mujer,5,cu,Venezuela,Ciego de Ávila,2020/09/25,,secundario
+,mujer,8,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,mujer,62,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,mujer,70,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,hombre,21,cu,Ciro Redondo,Ciego de Ávila,2020/09/25,,desconocido
+,hombre,60,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,desconocido
+,mujer,60,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,mujer,36,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,hombre,12,cu,Venezuela,Ciego de Ávila,2020/09/25,,secundario
+,mujer,52,cu,Venezuela,Ciego de Ávila,2020/09/25,,secundario
+,hombre,24,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,mujer,51,cu,Florencia,Ciego de Ávila,2020/09/25,,secundario
+,mujer,24,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,mujer,36,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
+,mujer,49,cu,Ciego de Ávila,Ciego de Ávila,2020/09/25,,secundario
