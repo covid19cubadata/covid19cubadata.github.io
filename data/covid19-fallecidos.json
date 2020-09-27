@@ -52,6 +52,7 @@
         "iv": "insuficiencia venosa periférica",
         "lc": "linfangitis crónica",
         "lm": "leucemia mielodide",
+        "ll": "leucemia linfoide",
         "md": "miocardiopatía dilatada",
         "mg": "miastenia grave",
         "mp": "metástasis pulmonar",
@@ -2761,7 +2762,7 @@
                 "fecha": "2020/09/24"
             },
             "199": {
-                "fecha": "2020/09/22",
+                "fecha": "2020/09/25",
                  "fallecidos": [
                     {
                         "id": "f-119",
@@ -2796,6 +2797,44 @@
                             "ev"
                         ],
                         "texto": "ciudadano cubano, de 75 años de edad, que residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Fractura de cadera operado. Enfermedad Cerebro Vascular. En la noche del 13 de agosto inicia con síntomas y se remite para al hospital, como sospechoso, donde se le realiza PCR  que resulta positivo a la COVID-19. Por sus antecedentes patológicos se decide ingresar en Terapia Intensiva. Recibió tratamiento según protocolo y se incorporaron todos los medicamentos necesarios para las complicaciones. El 16 de agosto comienza con dificultad respiratoria y empeoramiento radiológico por lo que se decide intubar y ventilar. Después días de evolución y la dificultad para el destete, se decide realizar traqueotomía. Presentó múltiples complicaciones respiratorias, cardíacas, neurológicas, metabólicas y una encefalopatía hipóxica, para las cuales se administraron los medicamentos específicos en cada momento. Se diagnosticó una fístula traqueo esofágica que motivó su traslado a otro hospital, realizándose una gastrostomía. Después de 38 días de evolución de la enfermedad, con siete PCR evolutivo negativos, el día 22 de septiembre se  traslada a un cubículo aislado en la terapia intensiva para garantizar aislamiento epidemiológico de los pacientes positivos y continuar tratamiento de las complicaciones y comorbilidades asociadas. En el día 39 de evolución y día 36 en la Terapia Intensiva, con manifestaciones de encefalopatía hipóxica, en ventilación mecánica a través de traqueotomía,  modalidad asistida controlada, Hemodinámicamente inestable con apoyo con aminas vasoactivas.  En la tarde del 23 de septiembre continuó con deterioro progresivo mantenido de las funciones vitales; presenta una parada cardiorespiratoria, de la cual no se logra revertir a pesar de los esfuerzos. Le realizan necropsia y se toman muestra de tejido de pulmón cuyo resultado fue informado por el IPK como positivo en la tarde del día 25 de septiembre. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
+            },
+            "200": {
+                "fecha": "2020/09/26",
+                 "fallecidos": [
+                    {
+                        "id": "f-121",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "hombre",
+                        "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "er"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 68 años de edad, que residía en el municipio cabecera de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Hipertensión arterial, Cardiopatía Isquémica, Diabetes Mellitus y Enfermedad Renal Crónica en régimen dialítico. Se identifica mediante la pesquisa realizada y fue ingresado por un absceso perianal, siendo operado por un absceso retro peritoneal con pus en cavidad. El 6 de septiembre, encontrándose ingresado le toman muestra para el PCR y se recibe el resultado positivo. Es remitido con toma del estado general, íctero, taquicárdico, palidez cutánea mucosa, se decide hemodializar y trasladar para la Terapia Intensiva. Continuó séptico, tanto clínico como humoral, con dehiscencia parcial de sutura y poca respuesta al tratamiento antibiótico. El día 22 de septiembre le realizan una TAC donde se informa una colección retro peritoneal izquierda. Se da seguimiento por ultrasonido y el 23 de septiembre lo llevan al salón para reparación de herida quirúrgica. El 25 se repite TAC de abdomen e informan una colección líquida intraperitoneal, anunciándose para laparotomía exploradora. En la exploración quirúrgica encuentran una perforación del colón descendente, un hematoma parieto cólico derecho y absceso en reabsorción sub hepático. Fue realizado el lavado amplio de la cavidad, es reparada la lesión del colon y se cierra la cavidad. El paciente sale del salón extubado y con parámetros vitales estables.El día 26 de septiembre hace súbitamente un cuadro de depresión respiratoria con caída de la tensión arterial, se intuba. Presentó una parada cardíaca en asistolia. Se reanima y no son efectivas las maniobras, por lo que se declara fallecido. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    },
+                    {
+                        "id": "f-122",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 48,
+                        "sexo": "mujer",
+                         "municipio_detección": "Ciego de Ávila",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ll"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 48 años de edad, que residía en el municipio cabecera de la provincia Ciego de Ávila. Antecedentes Patológicos Personales: Leucemia Linfoide Aguda. Paciente que hace 2 meses se le diagnostica la Leucemia Linfoide Aguda. Recibió tratamiento con quimioterapia en los meses de julio y agosto. Durante ese tiempo le hicieron tres PCR, todos resultaron negativos. Mantenía cuadros de decaimiento, anorexia, con petequias y tos. El 21 de septiembre comienza con falta de aire y dificultad respiratoria que fue en incremento progresivamente. El 22 de septiembre acude al hospital por empeoramiento del cuadro clínico y deciden remitirla como sospechosa de COVID-19, ingresando en la sala de Cuidados Intermedios. Se inicia tratamiento según protocolo. A pesar del tratamiento continuó deteriorándose clínicamente. El 23 de septiembre presentó evento de hipotensión arterial e insuficiencia respiratoria, se traslada para el Servicio de Cuidados Intensivos, donde se comienza con ventilación mecánica en la modalidad de volumen control. Terminado el procedimiento para el inicio de la ventilación presentó una parada cardiorespiratoria de 25 minutos. Se realizó reanimación, que resultó efectiva, saliendo en taquicardia sinusal y necesidad de apoyo con aminas vasoactivas. Durante su estancia en la terapia tuvo un sangramiento por sitios de punturas, nariz, tubo endotraqueal levine. Se trató con plasma fresco, glóbulos, factores de la coagulación, ácido Tranexámico, sulfato de protamina. Los días 24, 25 y 26 continúan en shock mixto, con dosis máximas de aminas, sin dejar de sangrar a pesar del tratamiento. Mantuvo fiebre de 400C resistente a los antipiréticos. El día 26 de septiembre hace una parada cardíaca de la que no sale a pesar de los esfuerzos por recuperarla, declarándose fallecida. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
                     }
                 ]
             }
