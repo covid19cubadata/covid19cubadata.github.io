@@ -244,7 +244,7 @@ $.walker = {
                     prob_set[province.DPA_province_code]=0;
                     //$.walker.view.addOptionToSelect('#proscurve-select1', province.DPA_province_code, province.province);
                 }
-                remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0};
+                remaining[$.walker.province.list.features[i].properties.DPA_province_code] = {"total": 0, "importados": 0};
             }
             // $('#proscurve-select1').find('option').remove();
             sorteddata.sort(function (a, b) {
@@ -287,7 +287,7 @@ $.walker = {
                 const municipality = $.walker.municipality.list.features[i].properties;
                 if (municipality.province_id === province_id || province_id === 'map-pro' || province_id === 'map-mun') {
                     features.push($.walker.municipality.list.features[i]);
-                    remaining[municipality.DPA_municipality_code] = {"total": 0};
+                    remaining[municipality.DPA_municipality_code] = {"total": 0, "importados": 0};
                     if ( !(municipality.DPA_municipality_code in set_mun) && municipality.municipality !== 'Desconocido') {
                         sorteddata.push($.walker.municipality.list.features[i].properties);
                         set_mun[municipality.DPA_municipality_code]=0;
@@ -496,7 +496,7 @@ function run_calculations() {
                         var asymTotal = 0;
                         var asymCases = ['Casos asintomáticos'];
                         var asymTotalCases = ['Total de casos asintomáticos'];
-                        
+
                         var hosp = ['Hospitalizados'];
                         var hogar = ['Vigilancia en el hogar'];
 
@@ -507,9 +507,9 @@ function run_calculations() {
 									if (diag[p].id in check_cases){
 										check_cases[diag[p].id]+=1;
 									} else {
-										check_cases[diag[p].id]=1;	
+										check_cases[diag[p].id]=1;
 									}
-									
+
                                     cases[diag[p].id] = diag[p];
                                     cases[diag[p].id]['fecha'] = data.casos.dias[day].fecha;
 
@@ -518,6 +518,10 @@ function run_calculations() {
 
                                     muns[diag[p].dpacode_municipio_deteccion].total++;
                                     pros[diag[p].dpacode_provincia_deteccion].total++;
+                                    if( diag[p].contagio === "importado" ){
+                                        muns[diag[p].dpacode_municipio_deteccion].importados++;
+                                        pros[diag[p].dpacode_provincia_deteccion].importados++;
+                                    }
 
                                     //cuban/no cuban
                                     if (diag[p].pais === 'cu') {
@@ -627,8 +631,8 @@ function run_calculations() {
                                     } else {
                                         contagio[diag[p].contagio] += 1;
                                     }
-                                    
-                                    
+
+
 
                                 }
                             }
@@ -658,8 +662,8 @@ function run_calculations() {
                                     total_tests = data.casos.dias[day].tests_total;
                                 }
                             }
-                            
-                            
+
+
                             //asymtomatics
 							if ('asintomaticos_numero' in data.casos.dias[day]) {
 								asymTotal += data.casos.dias[day].asintomaticos_numero;
@@ -670,27 +674,27 @@ function run_calculations() {
 								asymCases.push(0);
 								asymTotalCases.push(asymTotal);
 							}
-							
+
 							if ('vigilancia_hogar' in data.casos.dias[day]) {
 								hogar.push(data.casos.dias[day].vigilancia_hogar);
 							} else {
 								hogar.push(null);
 							}
-							
+
 							if ('sujetos_riesgo' in data.casos.dias[day]) {
 								hosp.push(data.casos.dias[day].sujetos_riesgo);
 							} else {
 								hosp.push(null);
 							}
-                            
+
                         }
-                        
+
                         for(var i in check_cases){
 							if (check_cases[i]>1){
-								console.log(i);	
-							}	
+								console.log(i);
+							}
 						}
-                        
+
 
                         //Bar for countries
                         var country = ['País'];
@@ -757,7 +761,7 @@ function run_calculations() {
 							tooltip: {
 								format:{
 									value: function(value,r, id,index) {
-										return value +' ('+(r*100).toFixed(2)+'%)';       
+										return value +' ('+(r*100).toFixed(2)+'%)';
 									}
 								}
 							}
@@ -779,13 +783,13 @@ function run_calculations() {
 							tooltip: {
 								format:{
 									value: function(value,r, id,index) {
-										return value +' ('+(r*100).toFixed(2)+'%)';       
+										return value +' ('+(r*100).toFixed(2)+'%)';
 									}
 								}
 							}
                         });
-                        
-                        
+
+
 
                         //Donut for tests
                         c3.generate({
@@ -804,7 +808,7 @@ function run_calculations() {
 							tooltip: {
 							format:{
 								value: function(value,r, id,index) {
-									return value +' ('+(r*100).toFixed(2)+'%)';       
+									return value +' ('+(r*100).toFixed(2)+'%)';
 								}
 							}
 							}
@@ -877,7 +881,7 @@ function run_calculations() {
 							tooltip: {
 								format:{
 									value: function(value,r, id,index) {
-										return value +' ('+(r*100).toFixed(2)+'%)';       
+										return value +' ('+(r*100).toFixed(2)+'%)';
 									}
 								}
 							}
@@ -892,6 +896,8 @@ function run_calculations() {
                         var dailyPorcientoPositivoAcumulado = ['% de Tests Positivos Acumulados'];
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var cuba = ['Cuba'];
+                        var importados = [];
+                        var imported = 0;
                         var deadsSum = ['Total de fallecidos'];
                         var deadsSingle = ['Fallecidos en el día'];
                         var recoversSum = ['Altas acumuladas'];
@@ -932,11 +938,15 @@ function run_calculations() {
 
                             if ('diagnosticados' in data.casos.dias[i]) {
                                 let report_day = 0;
+                                let import_day = 0;
                                 for (const j in data.casos.dias[i].diagnosticados) {
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion in muns) {
                                         report_day++;
                                         let tt = munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'].length;
                                         munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'][tt - 1]++;
+                                        if(data.casos.dias[i].diagnosticados[j].contagio === "importado"){
+                                            import_day++;
+                                        }
                                     }
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion in pros) {
                                         let tt = proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'].length;
@@ -947,6 +957,7 @@ function run_calculations() {
                                 else{nocasod=0;}
                                 dailySingle.push(report_day);
                                 total += report_day;
+                                imported += import_day;
                             } else {
                                 dailySingle.push(0);
                                 nocasod+=1;
@@ -981,6 +992,7 @@ function run_calculations() {
                             recoversSum.push(recover);
                             deadsSum.push(deads);
                             cuba.push(total);
+                            importados.push(imported);
                         }
 
                         //Pie for symptoms/asymptoms
@@ -997,14 +1009,14 @@ function run_calculations() {
 							tooltip: {
 								format:{
 									value: function(value,r, id,index) {
-										return value +' ('+(r*100).toFixed(2)+'%)';       
+										return value +' ('+(r*100).toFixed(2)+'%)';
 									}
 								}
 							}
                         });
-                        
+
                         //var asymTotalCases = ['Total de casos asintomáticos'];
-                        
+
                         var symCases = ['Casos sintomáticos'];
                         var pasymCases = ['% casos asintomáticos'];
                         var psymCases = ['% casos sintomáticos'];
@@ -1014,17 +1026,17 @@ function run_calculations() {
 							symCases.push(dailySingle[i]-asymCases[i]);
 							var tpercent = (asymTotalCases[i]*100/dailySum[i]).toFixed(2);
 							tasymCases.push(tpercent);
-							tsymCases.push((100-tpercent).toFixed(2));	
+							tsymCases.push((100-tpercent).toFixed(2));
 							if (dailySingle[i]==0){
 								pasymCases.push(null);
-								psymCases.push(null);	
+								psymCases.push(null);
 							} else {
 								var percent = (asymCases[i]*100/dailySingle[i]).toFixed(2);
 								pasymCases.push(percent);
 								psymCases.push((100-percent).toFixed(2));
 							}
 						}
-                        
+
                         //Bar for symptoms/asymptoms
                         c3.generate({
                             bindto: "#asymcases-bar-info",
@@ -1054,8 +1066,8 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
+
+
                         //Are day percent for symptoms/asymptoms
                         c3.generate({
                             bindto: "#asymcases-day-percent",
@@ -1085,7 +1097,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         //Area total percent for symptoms/asymptoms
                         c3.generate({
                             bindto: "#asymcases-total-percent",
@@ -1115,9 +1127,9 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
-                      
+
+
+
                         //Hospitalización y Vigilancia hogar
                         c3.generate({
                             bindto: "#home-hosp-evol",
@@ -1147,18 +1159,18 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         var hosp_no_conf = ['Hospitalizados no confirmados'];
                         var hosp_conf = ['Hospitalizados confirmados'];
                         for(var i=1;i<dailyActive.length;i++){
 							hosp_conf.push(dailyActive[i]);
 							if (hosp[i]!=null){
-								hosp_no_conf.push(hosp[i]-dailyActive[i]);	
+								hosp_no_conf.push(hosp[i]-dailyActive[i]);
 							} else {
-								hosp_no_conf.push(null);		
+								hosp_no_conf.push(null);
 							}
 						}
-						
+
 						//Hospitalización
                         c3.generate({
                             bindto: "#hosp-evol",
@@ -1188,8 +1200,8 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
+
+
                         // Por ciento de Tests Positivos en el Día y Acumulado
 
                         for (var i = 1; i < test_days.length; i++) {
@@ -1222,8 +1234,8 @@ function run_calculations() {
                         }
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
-                        
-                        console.log(ntest_days,ntest_cases);
+
+                        // console.log(ntest_days,ntest_cases);
 
                         tests = c3.generate({
                             bindto: "#tests-line-info",
@@ -1255,9 +1267,9 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        
-                        
+
+
+
 
                         let index_days = [];
                         for(var d in oxford_index.data){
@@ -1528,7 +1540,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         c3.generate({
                             bindto: "#graves-evol-info",
                             data: {
@@ -1537,7 +1549,7 @@ function run_calculations() {
 									dates,
 									criticos,
 									graves,
-									
+
                                 ],
                                 groups: [
                                     ['Críticos','Graves']
@@ -1545,7 +1557,7 @@ function run_calculations() {
                                 type: 'area',
                                 colors: {
 									"Graves": '#D0797C',
-									"Críticos": '#B11116'	
+									"Críticos": '#B11116'
 								}
                             },
                             axis: {
@@ -1564,9 +1576,9 @@ function run_calculations() {
 						var percent_graves = ['Porciento de casos graves y críticos'];
 						for(var i=1;i<criticos.length;i++){
 							var percent = ((criticos[i]+graves[i])*100/dailyActive[i]).toFixed(2);
-							percent_graves.push(percent);	
+							percent_graves.push(percent);
 						}
-						
+
 						 c3.generate({
                             bindto: "#graves-percent-evol",
                             data: {
@@ -1574,11 +1586,11 @@ function run_calculations() {
                                 columns: [
 									dates,
 									percent_graves
-									
+
                                 ],
                                 type: 'area-step',
                                 colors: {
-									'Porciento de casos graves y críticos': '#1C1340'	
+									'Porciento de casos graves y críticos': '#1C1340'
 								}
                             },
                             axis: {
@@ -1804,16 +1816,17 @@ function run_calculations() {
 							tooltip: {
 								format:{
 									value: function(value,r, id,index) {
-										return value +' ('+(r*100).toFixed(2)+'%)';       
+										return value +' ('+(r*100).toFixed(2)+'%)';
 									}
 								}
 							}
                         });
 
-                        let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];
-                        
+                        // let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];
+                        let last15days = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
 
-                        return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown, 'last15days': last15days, 'nocasod': nocasod, 'nodeathd': nodeathd};
+
+                        return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown, 'last15days': last15days, 'nocasod': nocasod, 'nodeathd': nodeathd };
                     }
 
                     var globalInfo = getAllCasesAndSimpleGraphics();
@@ -1878,7 +1891,7 @@ function run_calculations() {
 
                     let pros_array = [];
                     for (var m in pros) {
-                        pros_array.push({cod: m, total: pros[m].total});
+                        pros_array.push({cod: m, total: pros[m].total, importados: pros[m].importados});
                     }
                     pros_array.sort(function (a, b) {
                         return b.total - a.total
@@ -1896,7 +1909,7 @@ function run_calculations() {
                             .replace("{cod}", $.walker.province.matchByField('DPA_province_code', item.cod).properties.province)
                             .replace('{total}', item.total)
                             .replace('{rate}', (item.total * 100 / genInfo.total).toFixed(2))
-                            .replace('{tasa}', (item.total * 100000 / population[item.cod]).toFixed(2));
+                            .replace('{tasa}', ((item.total-item.importados) * 100000 / population[item.cod]).toFixed(2));
                         $table_pro.append(row);
                         pro_ranking += 1;
                     });
@@ -1906,7 +1919,7 @@ function run_calculations() {
                     $('[data-content=fallec]').html(genInfo.deaths ? genInfo.deaths : '-');
                     $('[data-content=evacua]').html(genInfo.gone ? genInfo.gone : '-');
                     $('[data-content=recupe]').html(genInfo.recov ? genInfo.recov : '-');
-                    
+
                     $('[data-content=tasa]').html(globalInfo.last15days!==null ? round(globalInfo.last15days/population[general_view? 'cuba' : provinces_codes[province_id]]*10**5) : '-');
                     $('[data-content=nocasod]').html(globalInfo.nocasod!=null ? globalInfo.nocasod : '-');
                     $('[data-content=nofallecd]').html(globalInfo.nodeathd!=null ? globalInfo.nodeathd : '-');
