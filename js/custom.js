@@ -897,6 +897,7 @@ function run_calculations() {
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var cuba = ['Cuba'];
                         var importados = [];
+                        var tasas = ['Tasa (por 100 mil)']
                         var imported = 0;
                         var deadsSum = ['Total de fallecidos'];
                         var deadsSingle = ['Fallecidos en el día'];
@@ -993,6 +994,10 @@ function run_calculations() {
                             deadsSum.push(deads);
                             cuba.push(total);
                             importados.push(imported);
+                            if(cuba.length>15){
+                                let num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
+                                tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                            }
                         }
 
                         //Pie for symptoms/asymptoms
@@ -1820,6 +1825,35 @@ function run_calculations() {
 									}
 								}
 							}
+                        });
+                        let dates15 = [dates[0],...dates.slice(15)];
+                        console.log(tasas.length);
+                        console.log(dates15.length);
+                        console.log(tasas);
+                        console.log(dates15);
+                        console.log(dates);
+                        c3.generate({
+                            bindto: "#tasas-info",
+                            data: {
+                                x: dates15[0],
+                                columns: [
+                                    dates15,
+                                    tasas
+                                ],
+                                type: 'line',
+                                colors: colors
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle',
+                                }
+                            }
                         });
 
                         // let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];
