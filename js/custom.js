@@ -1826,11 +1826,27 @@ function run_calculations() {
 							}
                         });
                         let dates15 = [dates[0],...dates.slice(15)];
-                        /*console.log(tasas.length);
-                        console.log(dates15.length);
-                        console.log(tasas);
-                        console.log(dates15);
-                        console.log(dates);*/
+                        var alines_hab = [
+							                {value: 20, text: 'Fase I'},
+							                {value: 15, text: 'Fase II'},
+							                {value: 10, text: 'Fase III'},
+							                {value: 5, text: 'Nueva Normalidad'}
+							            ];
+                        var alines_nhab = [
+							                {value: 10, text: 'Fase I'},
+							                {value: 8, text: 'Fase II'},
+							                {value: 4, text: 'Fase III'},
+							                {value: 2, text: 'Nueva Normalidad'}
+							            ];
+                        var alines = [];
+
+                        //if (nre_id!='cu'){
+							//if (nre_id=='23') {
+								//alines = alines_hab;
+							//} else {
+								//alines = alines_nhab;
+							//}
+						//}
                         c3.generate({
                             bindto: "#tasas-info",
                             data: {
@@ -1849,10 +1865,15 @@ function run_calculations() {
                                     show: false
                                 },
                                 y: {
-                                    label: 'Casos',
+                                    label: 'Tasa de Incidencia',
                                     position: 'outer-middle',
                                 }
-                            }
+                            },
+							    grid: {
+							        y: {
+							            lines: alines
+							        }
+							    }
                         });
 
                         // let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];

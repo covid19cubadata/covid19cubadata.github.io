@@ -5514,15 +5514,15 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,7,cu,Centro Habana,La Habana,2020/09/28,,secundario
 ,hombre,54,cu,Cárdenas,Matanzas,2020/09/28,,secundario
 ,hombre,25,cu,Cárdenas,Matanzas,2020/09/28,,secundario
-,mujer,51,cu,Sancti Spirítus,Sancti Spirítus,2020/09/28,,secundario
-,mujer,17,cu,Taguasco,Sancti Spirítus,2020/09/28,,secundario
-,mujer,13,cu,Taguasco,Sancti Spirítus,2020/09/28,,secundario
-,mujer,74,cu,Taguasco,Sancti Spirítus,2020/09/28,,secundario
-,mujer,73,cu,Sancti Spirítus,Sancti Spirítus,2020/09/28,,secundario
-,mujer,58,cu,Yaguajay,Sancti Spirítus,2020/09/28,,secundario
-,mujer,39,cu,Sancti Spirítus,Sancti Spirítus,2020/09/28,,secundario
-,hombre,73,cu,Sancti Spirítus,Sancti Spirítus,2020/09/28,,secundario
-,mujer,43,cu,Sancti Spirítus,Sancti Spirítus,2020/09/28,,secundario
+,mujer,51,cu,Sancti Spíritus,Sancti Spíritus,2020/09/28,,secundario
+,mujer,17,cu,Taguasco,Sancti Spíritus,2020/09/28,,secundario
+,mujer,13,cu,Taguasco,Sancti Spíritus,2020/09/28,,secundario
+,mujer,74,cu,Taguasco,Sancti Spíritus,2020/09/28,,secundario
+,mujer,73,cu,Sancti Spíritus,Sancti Spíritus,2020/09/28,,secundario
+,mujer,58,cu,Yaguajay,Sancti Spíritus,2020/09/28,,secundario
+,mujer,39,cu,Sancti Spíritus,Sancti Spíritus,2020/09/28,,secundario
+,hombre,73,cu,Sancti Spíritus,Sancti Spíritus,2020/09/28,,secundario
+,mujer,43,cu,Sancti Spíritus,Sancti Spíritus,2020/09/28,,secundario
 ,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/09/28,,secundario
 ,hombre,24,cu,Venezuela,Ciego de Ávila,2020/09/28,,secundario
 ,mujer,42,cu,Ciego de Ávila,Ciego de Ávila,2020/09/28,,secundario
@@ -5530,3 +5530,69 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,8,cu,Morón,Ciego de Ávila,2020/09/28,,secundario
 ,mujer,52,cu,Morón,Ciego de Ávila,2020/09/28,,secundario
 ,mujer,51,cu,Morón,Ciego de Ávila,2020/09/28,,secundario
+,mujer,45,cu,Regla,La Habana,2020/09/30,,secundario
+,hombre,59,cu,Diez de Octubre,La Habana,2020/09/30,,secundario
+,hombre,29,cu,Cerro,La Habana,2020/09/30,,secundario
+,hombre,54,cu,Habana del Este,La Habana,2020/09/30,,desconocido
+,mujer,60,cu,Centro Habana,La Habana,2020/09/30,,secundario
+,mujer,19,cu,Centro Habana,La Habana,2020/09/30,,desconocido
+,hombre,41,cu,San Miguel del Padrón,La Habana,2020/09/30,,secundario
+,hombre,39,cu,La Lisa,La Habana,2020/09/30,,desconocido
+,hombre,52,fr,,,2020/09/30,,desconocido
+,hombre,28,cu,La Habana Vieja,La Habana,2020/09/30,,secundario
+,hombre,49,cu,Cárdenas,Matanzas,2020/09/30,,secundario
+,mujer,5,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,mujer,56,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,hombre,43,cu,Trinidad,Sancti Spíritus,2020/09/30,,secundario
+,mujer,23,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,mujer,30,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,hombre,43,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,hombre,43,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,hombre,38,cu,Sancti Spíritus,Sancti Spíritus,2020/09/30,,secundario
+,mujer,8,cu,Yaguajay,Sancti Spíritus,2020/09/30,,secundario
+,hombre,52,cu,Yaguajay,Sancti Spíritus,2020/09/30,,secundario
+,hombre,13,cu,Yaguajay,Sancti Spíritus,2020/09/30,,secundario
+,mujer,68,cu,Taguasco,Sancti Spíritus,2020/09/30,,secundario
+,hombre,46,cu,Trinidad,Sancti Spíritus,2020/09/30,,secundario
+,hombre,55,cu,Trinidad,Sancti Spíritus,2020/09/30,,secundario
+,hombre,45,cu,Venezuela,Ciego de Ávila,2020/09/30,,secundario
+,mujer,46,cu,Baraguá,Ciego de Ávila,2020/09/30,,secundario
+,mujer,60,cu,Venezuela,Ciego de Ávila,2020/09/30,,secundario
+,mujer,60,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,53,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,44,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,45,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,57,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,41,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,48,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,46,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,25,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,46,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,53,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,28,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,51,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,47,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,60,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,54,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,57,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,52,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,32,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,48,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,47,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,58,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,32,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,24,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,49,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,53,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,49,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,34,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/09/30,,secundario
+,mujer,32,cu,Jiguaní,Granma,2020/09/30,,primario
