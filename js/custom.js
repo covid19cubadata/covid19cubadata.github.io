@@ -23,7 +23,8 @@ var domains = {
     "ve": "Venezuela",
     "ma": "Marruecos",
     "in": "India",
-    "jm": "Jamaica"
+    "jm": "Jamaica",
+    "ro": "Rumania"
 };
 
 
