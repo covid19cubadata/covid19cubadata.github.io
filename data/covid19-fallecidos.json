@@ -2858,6 +2858,28 @@
             },
             "207": {
                 "fecha": "2020/10/03"
+            },
+            "208": {
+                "fecha": "2020/10/04",
+                 "fallecidos": [
+                    
+                    {
+                        "id": "f-123",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "mujer",
+                         "municipio_detección": "Cárdenas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ep",
+                            "fu"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 70 años de edad que residía en el municipio Cárdenas, provincia de Matanzas. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Fumadora. Ingresó en sala de sospechosos por referir síntomas, y se le realiza PCR, que resulta positivo. Presentó empeoramiento clínico y fue trasladada para Terapia Intensiva. Continúo muy inestable hemodinámicamente atribuido al Shock séptico, con una fracción de eyección del 35% y manifestaciones iníciales de hipoperfusión periférica. Se mantuvo inestable hemodinámicamente, distresada, con episodios de hipoxemia,  elementos de Insuficiencia Ranal aguda y empeoramiento radiológico, se hicieron reajustes ventilatorios y del tratamiento. El 1 de Octubre se agravan las manifestaciones de   hipoperfusión y aparece gradiente térmico en manos y pies con lesiones de vasculitis en los dedos. Al día siguiente presentó sangramiento ligero por la nariz y traqueotomía. Posteriormente aparecieron manifestaciones de insuficiencia hepáticas con enzimas elevadas. En el día de ayer realizó una parada cardíaca de la que no se recupera después de 40 minutos a pesar de las maniobras de reanimación. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
