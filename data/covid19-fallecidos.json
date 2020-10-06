@@ -2548,7 +2548,7 @@
             },
             "188": {
                 "fecha": "2020/09/14",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-112",
                         "id_caso": null,
@@ -2569,7 +2569,7 @@
             },
             "189": {
                 "fecha": "2020/09/15",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-114",
                         "id_caso": null,
@@ -2612,7 +2612,7 @@
             },
             "191": {
                 "fecha": "2020/09/17",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-110",
                         "id_caso": null,
@@ -2648,7 +2648,7 @@
             },
             "192": {
                 "fecha": "2020/09/18",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-113",
                         "id_caso": null,
@@ -2670,7 +2670,7 @@
             },
             "193": {
                 "fecha": "2020/09/19",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-115",
                         "id_caso": null,
@@ -2693,7 +2693,7 @@
             },
             "194": {
                 "fecha": "2020/09/20",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-116",
                         "id_caso": null,
@@ -2714,7 +2714,7 @@
             },
             "195": {
                 "fecha": "2020/09/21",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-117",
                         "id_caso": null,
@@ -2734,7 +2734,7 @@
             },
             "196": {
                 "fecha": "2020/09/22",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-118",
                         "id_caso": null,
@@ -2763,7 +2763,7 @@
             },
             "199": {
                 "fecha": "2020/09/25",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-119",
                         "id_caso": null,
@@ -2802,7 +2802,7 @@
             },
             "200": {
                 "fecha": "2020/09/26",
-                 "fallecidos": [
+                "fallecidos": [
                     {
                         "id": "f-121",
                         "id_caso": null,
@@ -2827,7 +2827,7 @@
                         "pais": "cu",
                         "edad": 48,
                         "sexo": "mujer",
-                         "municipio_detección": "Ciego de Ávila",
+                        "municipio_detección": "Ciego de Ávila",
                         "provincia_detección": "Ciego de Ávila",
                         "dpacode_municipio_deteccion": "29.08",
                         "dpacode_provincia_deteccion": "29",
@@ -2861,15 +2861,14 @@
             },
             "208": {
                 "fecha": "2020/10/04",
-                 "fallecidos": [
-                    
+                "fallecidos": [
                     {
                         "id": "f-123",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 70,
                         "sexo": "mujer",
-                         "municipio_detección": "Cárdenas",
+                        "municipio_detección": "Cárdenas",
                         "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.02",
                         "dpacode_provincia_deteccion": "25",
@@ -2880,6 +2879,9 @@
                         "texto": "Falleció la ciudadana cubana de 70 años de edad que residía en el municipio Cárdenas, provincia de Matanzas. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Fumadora. Ingresó en sala de sospechosos por referir síntomas, y se le realiza PCR, que resulta positivo. Presentó empeoramiento clínico y fue trasladada para Terapia Intensiva. Continúo muy inestable hemodinámicamente atribuido al Shock séptico, con una fracción de eyección del 35% y manifestaciones iníciales de hipoperfusión periférica. Se mantuvo inestable hemodinámicamente, distresada, con episodios de hipoxemia,  elementos de Insuficiencia Ranal aguda y empeoramiento radiológico, se hicieron reajustes ventilatorios y del tratamiento. El 1 de Octubre se agravan las manifestaciones de   hipoperfusión y aparece gradiente térmico en manos y pies con lesiones de vasculitis en los dedos. Al día siguiente presentó sangramiento ligero por la nariz y traqueotomía. Posteriormente aparecieron manifestaciones de insuficiencia hepáticas con enzimas elevadas. En el día de ayer realizó una parada cardíaca de la que no se recupera después de 40 minutos a pesar de las maniobras de reanimación. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
                     }
                 ]
+            },
+            "209": {
+                "fecha": "2020/10/05"
             }
         }
     }
