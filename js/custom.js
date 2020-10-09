@@ -499,7 +499,7 @@ function run_calculations() {
 
                         var hosp = ['Hospitalizados'];
                         var hogar = ['Vigilancia en el hogar'];
-
+                        let prcode = provinces_codes[province_id];
                         for (var day in data.casos.dias) {
                             if ('diagnosticados' in data.casos.dias[day]) {
                                 var diag = data.casos.dias[day].diagnosticados;
@@ -513,13 +513,18 @@ function run_calculations() {
                                     cases[diag[p].id] = diag[p];
                                     cases[diag[p].id]['fecha'] = data.casos.dias[day].fecha;
 
-                                    if (!(diag[p].dpacode_municipio_deteccion in muns))
+                                    if (!(diag[p].dpacode_municipio_deteccion in muns) && diag[p].dpacode_municipio_deteccion!=="00.00"){
                                         continue;
-
-                                    muns[diag[p].dpacode_municipio_deteccion].total++;
+                                    }else{
+                                        if(diag[p].dpacode_provincia_deteccion!==prcode && general_view===false)
+                                            continue;
+                                    }
+                                    if(diag[p].dpacode_municipio_deteccion!=="00.00")
+                                        muns[diag[p].dpacode_municipio_deteccion].total++;
                                     pros[diag[p].dpacode_provincia_deteccion].total++;
                                     if( diag[p].contagio === "importado" ){
-                                        muns[diag[p].dpacode_municipio_deteccion].importados++;
+                                        if(diag[p].dpacode_municipio_deteccion!=="00.00")
+                                            muns[diag[p].dpacode_municipio_deteccion].importados++;
                                         pros[diag[p].dpacode_provincia_deteccion].importados++;
                                     }
 
@@ -1893,12 +1898,12 @@ function run_calculations() {
                             if (max_muns < muns[m].total) {
                                 max_muns = muns[m].total;
                             }
-                            total += muns[m].total;
                         }
                         for (var p in pros) {
                             if (max_pros < pros[p].total) {
                                 max_pros = pros[p].total;
                             }
+                            total += pros[p].total;
                         }
 
                         return {
