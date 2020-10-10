@@ -954,6 +954,15 @@ function run_calculations() {
                                         if(data.casos.dias[i].diagnosticados[j].contagio === "importado"){
                                             import_day++;
                                         }
+                                    }else{
+                                        if(data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion==="00.00"){
+                                            if(general_view===false && data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion===prcode){
+                                                report_day++;
+                                                if(data.casos.dias[i].diagnosticados[j].contagio === "importado"){
+                                                    import_day++;
+                                                }
+                                            }
+                                        }
                                     }
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion in pros) {
                                         let tt = proscurves[data.casos.dias[i].diagnosticados[j].dpacode_provincia_deteccion]['data'].length;
@@ -1529,9 +1538,9 @@ function run_calculations() {
                             colors['Casos activos'] = '#B11116';
                             columns.push(dailyActive);
                         }
-                        
-                        console.log(dailyActive)
-                        console.log(dailySingle)
+
+                        //console.log(dailyActive)
+                        //console.log(dailySingle)
 
                         c3.generate({
                             bindto: "#daily-single-info",
@@ -1677,8 +1686,8 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
-                        console.log(recoversSingle)
+
+                        //console.log(recoversSingle)
 
                         c3.generate({
                             bindto: "#daily-recovers-info",
