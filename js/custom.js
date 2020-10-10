@@ -23,7 +23,8 @@ var domains = {
     "ve": "Venezuela",
     "ma": "Marruecos",
     "in": "India",
-    "jm": "Jamaica"
+    "jm": "Jamaica",
+    "ro": "Rumania"
 };
 
 
@@ -1528,6 +1529,9 @@ function run_calculations() {
                             colors['Casos activos'] = '#B11116';
                             columns.push(dailyActive);
                         }
+                        
+                        console.log(dailyActive)
+                        console.log(dailySingle)
 
                         c3.generate({
                             bindto: "#daily-single-info",
@@ -1673,6 +1677,8 @@ function run_calculations() {
                                 }
                             }
                         });
+                        
+                        console.log(recoversSingle)
 
                         c3.generate({
                             bindto: "#daily-recovers-info",
@@ -1832,26 +1838,26 @@ function run_calculations() {
                         });
                         let dates15 = [dates[0],...dates.slice(15)];
                         var alines_hab = [
+							                {value: 25, text: 'Fase I'},
+							                {value: 20, text: 'Fase II'},
+							                {value: 15, text: 'Fase III'},
+							                {value: 10, text: 'Nueva Normalidad'}
+							            ];
+                        var alines_nhab = [
 							                {value: 20, text: 'Fase I'},
 							                {value: 15, text: 'Fase II'},
 							                {value: 10, text: 'Fase III'},
 							                {value: 5, text: 'Nueva Normalidad'}
 							            ];
-                        var alines_nhab = [
-							                {value: 10, text: 'Fase I'},
-							                {value: 8, text: 'Fase II'},
-							                {value: 4, text: 'Fase III'},
-							                {value: 2, text: 'Nueva Normalidad'}
-							            ];
                         var alines = [];
 
-                        //if (nre_id!='cu'){
-							//if (nre_id=='23') {
-								//alines = alines_hab;
-							//} else {
-								//alines = alines_nhab;
-							//}
-						//}
+                        if (nre_id!='cu'){
+							if (nre_id=='23') {
+								alines = alines_hab;
+							} else {
+								alines = alines_nhab;
+							}
+						}
                         c3.generate({
                             bindto: "#tasas-info",
                             data: {
