@@ -1009,10 +1009,14 @@ function run_calculations() {
                             deadsSum.push(deads);
                             cuba.push(total);
                             importados.push(imported);
-                            if(cuba.length>15){
-                                let num = (cuba[cuba.length-1]-cuba[cuba.length-15]) - (importados[importados.length-1]-importados[importados.length-15]);
-                                tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
-                            }
+                            if(cuba.length===16){
+                                 let num = cuba[cuba.length-1] - importados[importados.length-1];
+                                 tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                             }
+                             if(cuba.length>16){
+                                 let num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
+                                 tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                             }
                         }
                         //Pie for symptoms/asymptoms
                         c3.generate({
@@ -1897,7 +1901,7 @@ function run_calculations() {
                         });
 
                         // let last15days = cuba[cuba.length-1]-cuba[cuba.length-16];
-                        let last15days = (cuba[cuba.length-1]-cuba[cuba.length-15]) - (importados[importados.length-1]-importados[importados.length-15]);
+                        let last15days = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
 
 
                         return {"cases": cases, "deaths": deaths, "gone": gone, "recov": recov, "female": sex_female, "male": sex_male, "unknownsex": sex_unknown, 'last15days': last15days, 'nocasod': nocasod, 'nodeathd': nodeathd };
