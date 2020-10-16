@@ -5947,3 +5947,117 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,18,cu,Sancti Spíritus,Sancti Spíritus,2020/10/09,,secundario
 ,mujer,48,cu,Trinidad,Sancti Spíritus,2020/10/09,,secundario
 ,mujer,42,cu,Ciego de Ávila,Ciego de Ávila,2020/10/09,,secundario
+,hombre,35,cu,Bahía Honda,Artemisa,2020/10/10,,primario
+,mujer,57,cu,San Miguel del Padrón,La Habana,2020/10/10,,primario
+,hombre,23,cu,Regla,La Habana,2020/10/10,,secundario
+,hombre,46,cu,Regla,La Habana,2020/10/10,,secundario
+,mujer,78,cu,Regla,La Habana,2020/10/10,,secundario
+,hombre,15,cu,Regla,La Habana,2020/10/10,,secundario
+,hombre,65,cu,Arroyo Naranjo,La Habana,2020/10/10,,secundario
+,mujer,43,cu,Guanabacoa,La Habana,2020/10/10,,secundario
+,hombre,42,cu,Habana del Este,La Habana,2020/10/10,,desconocido
+,mujer,59,cu,San Miguel del Padrón,La Habana,2020/10/10,,desconocido
+,mujer,38,cu,Matanzas,Matanzas,2020/10/10,,primario
+,hombre,21,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,56,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,hombre,66,cu,Cabaiguán,Sancti Spíritus,2020/10/10,,desconocido
+,hombre,47,cu,Trinidad,Sancti Spíritus,2020/10/10,,secundario
+,hombre,35,cu,Trinidad,Sancti Spíritus,2020/10/10,,secundario
+,mujer,58,cu,Trinidad,Sancti Spíritus,2020/10/10,,secundario
+,hombre,15,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,27,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,hombre,35,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,78,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,34,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,hombre,40,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,52,cu,Sancti Spíritus,Sancti Spíritus,2020/10/10,,secundario
+,mujer,51,cu,Cacocum,Holguín,2020/10/10,,primario
+,mujer,26,cu,Cauto Cristo,Granma,2020/10/10,,primario
+,mujer,38,cu,Bayamo,Granma,2020/10/10,,primario
+,mujer,48,cu,Mella,Santiago de Cuba,2020/10/10,,primario
+,mujer,47,cu,Guantánamo,Guantánamo,2020/10/10,,primario
+,mujer,38,cu,Guane,Pinar del Río,2020/10/11,,secundario
+,hombre,23,cu,Cotorro,La Habana,2020/10/11,,secundario
+,mujer,64,cu,Cotorro,La Habana,2020/10/11,,secundario
+,hombre,22,cu,San Miguel del Padrón,La Habana,2020/10/11,,secundario
+,mujer,55,cu,Arroyo Naranjo,La Habana,2020/10/11,,secundario
+,hombre,73,cu,Diez de Octubre,La Habana,2020/10/11,,desconocido
+,mujer,55,cu,Cotorro,La Habana,2020/10/11,,secundario
+,mujer,68,cu,Ciego de Ávila,Ciego de Ávila,2020/10/11,,secundario
+,mujer,44,ca,Morón,Ciego de Ávila,2020/10/11,,primario
+,hombre,49,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,57,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,mujer,20,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,18,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,50,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,mujer,48,cu,Trinidad,Sancti Spíritus,2020/10/11,,secundario
+,mujer,35,cu,Trinidad,Sancti Spíritus,2020/10/11,,secundario
+,hombre,53,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,37,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,38,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,44,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,16,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,7,cu,Sancti Spíritus,Sancti Spíritus,2020/10/11,,secundario
+,hombre,27,cu,Guane,Pinar del Río,2020/10/12,,secundario
+,mujer,59,cu,Guane,Pinar del Río,2020/10/12,,secundario
+,hombre,72,cu,Guane,Pinar del Río,2020/10/12,,secundario
+,mujer,38,cu,Guane,Pinar del Río,2020/10/12,,secundario
+,hombre,35,cu,Guane,Pinar del Río,2020/10/12,,secundario
+,hombre,3,cu,Guane,Pinar del Río,2020/10/12,,secundario
+,hombre,39,cu,Centro Habana,La Habana,2020/10/12,,secundario
+,mujer,60,cu,Centro Habana,La Habana,2020/10/12,,desconocido
+,hombre,58,cu,La Lisa,La Habana,2020/10/12,,desconocido
+,hombre,16,cu,Regla,La Habana,2020/10/12,,secundario
+,mujer,34,cu,Regla,La Habana,2020/10/12,,secundario
+,mujer,33,cu,Regla,La Habana,2020/10/12,,secundario
+,mujer,47,cu,Regla,La Habana,2020/10/12,,secundario
+,hombre,16,cu,Regla,La Habana,2020/10/12,,secundario
+,mujer,48,cu,Arroyo Naranjo,La Habana,2020/10/12,,secundario
+,mujer,74,cu,Marianao,La Habana,2020/10/12,,desconocido
+,hombre,66,cu,Yaguajay,Sancti Spíritus,2020/10/12,,secundario
+,hombre,22,cu,Centro Habana,La Habana,2020/10/13,,secundario
+,mujer,35,cu,Cotorro,La Habana,2020/10/13,,desconocido
+,hombre,89,cu,Habana del Este,La Habana,2020/10/13,,desconocido
+,hombre,22,cu,Habana del Este,La Habana,2020/10/13,,desconocido
+,hombre,66,cu,Cerro,La Habana,2020/10/13,,secundario
+,hombre,27,cu,Cotorro,La Habana,2020/10/13,,secundario
+,mujer,13,cu,Cotorro,La Habana,2020/10/13,,secundario
+,hombre,84,cu,San Miguel del Padrón,La Habana,2020/10/13,,desconocido
+,hombre,40,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,56,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,32,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,32,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,mujer,35,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,hombre,54,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,mujer,27,cu,Ciego de Ávila,Ciego de Ávila,2020/10/13,,secundario
+,mujer,30,cu,Arroyo Naranjo,La Habana,2020/10/14,,secundario
+,hombre,30,cu,Cotorro,La Habana,2020/10/14,,secundario
+,mujer,40,cu,Trinidad,Sancti Spíritus,2020/10/14,,secundario
+,mujer,22,cu,Trinidad,Sancti Spíritus,2020/10/14,,secundario
+,hombre,51,cu,Trinidad,Sancti Spíritus,2020/10/14,,secundario
+,mujer,37,cu,Cabaiguán,Sancti Spíritus,2020/10/14,,secundario
+,hombre,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,9,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,35,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,1,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,56,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,27,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,21,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,70,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,61,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,24,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,50,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,31,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,7,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,51,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,29,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,51,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,44,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,mujer,21,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,80,cu,Sancti Spíritus,Sancti Spíritus,2020/10/14,,secundario
+,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/14,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/10/14,,secundario
