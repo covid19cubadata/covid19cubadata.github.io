@@ -49,7 +49,7 @@
         "ip": "infecciones respiratorias",
         "ir": "insuficiencia renal crónica",
         "is": "insuficiencia córtico suprarrenal",
-        "iv": "insuficiencia venosa periférica",
+        "iv": "insuficiencia venosa",
         "lc": "linfangitis crónica",
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
@@ -2909,6 +2909,26 @@
             },
             "218": {
                 "fecha": "2020/10/14"
+            },
+            "219": {
+                "fecha": "2020/10/15",
+                "fallecidos": [
+                    {
+                        "id": "f-124",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "iv"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 74 años de edad que residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Insuficiencia Venosa. Ingresó con  fiebre y dolor lumbar. Comienza con tos y falta de aire, es indicado PCR y trasladada de hospital e ingresada en sala de sospechosos, hasta que su PCR resulta positivo. Fue trasladada a la unidad de cuidados intensivos por agobio respiratorio, intubada y ventilada en modalidad controlada, y tratada según protocolo de tratamiento. Se mantuvo intubada y ventilada en modalidad controlada, inestable hemodinámicamente y fue apoyada con aminas. Presenta empeoramiento clínico gasométrico y radiológico, inestabilidad hemodinámica, son elevadas las dosis de aminas y modificados parámetros ventilatorios. Se mantuvo intubada y ventilada, apoyada con aminas, hace parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
