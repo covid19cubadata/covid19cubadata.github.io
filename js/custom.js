@@ -1846,7 +1846,7 @@ function run_calculations() {
 							}
                         });
                         let dates15 = [dates[0],...dates.slice(15)];
-                        console.log(dates15);
+                        //console.log(dates15);
                         var alines_hab = [
 							                {value: 25, text: 'Fase I'},
 							                {value: 20, text: 'Fase II'},
