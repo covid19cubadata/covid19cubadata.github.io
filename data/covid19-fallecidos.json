@@ -2929,6 +2929,27 @@
                         "texto": "Falleció la ciudadana cubana de 74 años de edad que residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Insuficiencia Venosa. Ingresó con  fiebre y dolor lumbar. Comienza con tos y falta de aire, es indicado PCR y trasladada de hospital e ingresada en sala de sospechosos, hasta que su PCR resulta positivo. Fue trasladada a la unidad de cuidados intensivos por agobio respiratorio, intubada y ventilada en modalidad controlada, y tratada según protocolo de tratamiento. Se mantuvo intubada y ventilada en modalidad controlada, inestable hemodinámicamente y fue apoyada con aminas. Presenta empeoramiento clínico gasométrico y radiológico, inestabilidad hemodinámica, son elevadas las dosis de aminas y modificados parámetros ventilatorios. Se mantuvo intubada y ventilada, apoyada con aminas, hace parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
                     }
                 ]
+            },
+            "220": {
+                "fecha": "2020/10/16",
+                "fallecidos": [
+                    {
+                        "id": "f-125",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "hombre",
+                        "municipio_detección": "Taguasco",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.03",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 53 años de edad que residía en el municipio Taguasco, provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión Arterial y Obesidad. Comenzó con dolor de cabeza, tos seca y febrícula, por lo que fue evaluado en su área de salud, remitido e ingresado en un centro de aislamiento. Se le realizó PCR resultando positivo, se trasladó e ingresó en sala de confirmados donde se le inició tratamiento según los protocolos establecidos. Se mantuvo afebril,  disnea ligera intermitente y estabilidad hemodinámica. Manifiesta disnea moderada, fue trasladado a sala de pacientes confirmados de alto riesgo. Rx con lesiones inflamatorias discretas, es tratado con oxígeno suplementario en posición prono y continúa con tratamiento según protocolos. De forma súbita  presentó pérdida de conciencia, relajación de esfínteres, cianosis intensa en tórax y  cuello, hace parada cardiorespiratoria en asistolia, es intubado y trasladado a la unidad de cuidados intensivos. Fueron realizadas las maniobras de reanimación cardiopulmonar pero no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos a sus familiares y amigos las más sentidas condolencias."
+                    }
+                ]
             }
         }
     }
