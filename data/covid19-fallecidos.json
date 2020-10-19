@@ -2953,6 +2953,42 @@
             },
             "221": {
                 "fecha": "2020/10/17"
+            },
+            "222": {
+                "fecha": "2020/10/18",
+                "fallecidos": [
+                    {
+                        "id": "f-126",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "hombre",
+                        "municipio_detección": "Sancti Spíritus",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.07",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ep",
+                            "ir"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 64 años de edad, procedente del municipio Sancti Spiritus, d ela provincia del mismo nombre. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Renal Crónica Agudizada. El día 4 de octubre comienza con decaimiento, por lo que es remitido de su área de salud e ingresado en centro de aislamiento. Presentó tos seca y falta de aire ligera, por lo que es remitido e ingresado en sala de confirmados, al ser positivo a la COVID-19. El día 6 de octubre es trasladado a la unidad de cuidados intensivos por presentar agobio respiratorio donde es intubado y ventilado en modalidad controlada. Es tratado según protocolo. En el Rx lesiones de aspecto inflamatorio en ambos campos pulmonares. Se mantiene intubado y ventilado lográndose discreta mejoría en la oxigenación, con estabilidad hemodinámica. El día 10 de octubre se mantiene intubado y ventilado, presenta hipotensión arterial, caída de la diuresis y signos de shock cardiogénico. Es realizado electrocardiograma donde se diagnostica Infarto Agudo del Miocardio, siendo trombolizado y apoyado con aminas a altas dosis. Se mantuvo atención por comisión de expertos multidisciplinaria, que incluyó cardiología. Se mantuvo intubado y ventilado, con empeoramiento de la función cardíaca, renal, que necesitaron de apoyo con aminas y corrección de los desequilibrios hidroelectrolíticos.  El 16 de octubre, presenta bradicardia sinusal, que requirió la colocación de marcapaso transitorio. El día 17 de octubre el paciente muestra empeoramiento gasométrico y de la función cardiovascular, se agrava la bradicardia, es activado nuevamente el marcapaso transitorio y se continúan las correcciones del desequilibrio electrolítico. El día 18 de octubre presenta bradicardia extrema, hasta la parada cardiaca, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-127",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Luis",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.09",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 84 años de edad, procedente del municipio San Luis, en la provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía isquémica. El día 10 de octubre comienza con fiebre y falta de aire. El día 13 aumenta la falta de aire, es llevada por los familiares al Policlínico de su área de salud, donde se atendió en el Área Intensiva Municipal. Se le realiza Rx precisándose lesiones inflamatorias. Fue tratada con oxígeno suplementario, antibióticos y broncodilatadores, decidiéndose traslado e ingreso. Los días siguientes persiste la falta de aire, tos y expectoración. Presentó agobio respiratorio, es trasladada a la Unidad de Cuidados Intensivos, se intuba y ventila en modalidad controlada y apoyada con aminas. Hace parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas, la paciente fallece. Se toman muestras de pulmón post-mortem para PCR, resultando positivo."
+                    }
+                ]
             }
         }
     }
