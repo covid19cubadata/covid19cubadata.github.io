@@ -1010,13 +1010,13 @@ function run_calculations() {
                             cuba.push(total);
                             importados.push(imported);
                             if(cuba.length===16){
-                                let num = cuba[cuba.length-1] - importados[importados.length-1];
-                                tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
-                            }
-                            if(cuba.length>16){
-                                let num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
-                                tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
-                            }
+                                 let num = cuba[cuba.length-1] - importados[importados.length-1];
+                                 tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                             }
+                             if(cuba.length>16){
+                                 let num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
+                                 tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                             }
                         }
                         //console.log(cuba);
                         //console.log(importados);
