@@ -6304,3 +6304,66 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
 ,hombre,52,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
 ,hombre,52,cu,Cabaiguán,Sancti Spíritus,2020/10/19,,secundario
+,hombre,18,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,17,cu,Los Palacios,Pinar del Río,2020/10/20,,desconocido
+,hombre,17,cu,Pinar del Río,Pinar del Río,2020/10/20,,desconocido
+,mujer,52,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,51,cu,Pinar del Río,Pinar del Río,2020/10/20,,desconocido
+,mujer,32,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,50,cu,Consolación del Sur,Pinar del Río,2020/10/20,,desconocido
+,mujer,88,cu,San Juan y Martínez,Pinar del Río,2020/10/20,,secundario
+,mujer,65,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,hombre,50,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,hombre,34,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,43,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,21,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,31,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,40,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,33,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,70,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,40,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,40,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,17,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,34,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,68,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,47,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,69,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,18,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,68,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,58,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,59,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,52,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,19,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,96,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,36,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,27,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,74,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,56,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,56,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,56,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,10,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,10,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,33,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,20,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,hombre,24,cu,Arroyo Naranjo,La Habana,2020/10/20,,secundario
+,hombre,46,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,60,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,60,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,22,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,76,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,48,cu,Marianao,La Habana,2020/10/20,,secundario
+,mujer,70,cu,Marianao,La Habana,2020/10/20,,secundario
+,hombre,31,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,hombre,38,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,hombre,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,mujer,27,cu,Cabaiguán,Sancti Spíritus,2020/10/20,,secundario
+,mujer,65,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,mujer,41,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,hombre,44,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,35,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,25,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,24,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
