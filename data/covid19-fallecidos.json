@@ -2995,6 +2995,25 @@
             },
             "224": {
                 "fecha": "2020/10/20"
+            },
+            "225": {
+                "fecha": "2020/10/21",
+                "fallecidos": [
+                    {
+                        "id": "f-128",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guane",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.11",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                        ],
+                        "texto": "Falleció ciudadano cubano de 88 años de edad. Residía en municipio Guane, provincia Pinar del Río. Comenzó con tos, falta de aire y decaimiento por lo que fue remitido por su área de salud e ingresado en el Área intensiva. Fue tratado con antibióticos y broncodilatadores. El día 11 de octubre comienza con disnea súbita y crepitantes en ambos campos pulmonares es realizado su traslado de hospital, fue recibido en agobio respiratorio. Es ingresado en la unidad de cuidados intensivos, fue intubado y ventilado en modalidad controlada. Se realizaron cambios en  la terapéutica antibiótica. El día 13 de octubre se mantiene intubado y ventilado en modalidad controlada. Rx lesiones de aspecto inflamatorio en ambos campos pulmonares, mantiene tratamiento con antibióticos.  El 15 de octubre es confirmado a la Covid 19, fue trasladado a la unidad de cuidados intensivos de hospital habilitado para atender a  estos pacientes e iniciado tratamiento según protocolo. Se mantuvo intubado y ventilado, con empeoramiento de la función  respiratoria, cardíaca y renal, que necesitaron de apoyo con aminas. Fue necesario colocación de marcapaso por presentar bradicardia, mantiene empeoramiento clínico, gasométrico y radiológico. Continuó el deterioro de la función respiratoria cardiovascular y renal, siendo modificados los parámetros ventilatorios y elevada la dosis de aminas. El 21 de octubre presenta bradicardia extrema, hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas, declarándose fallecido el paciente."
+                    }
+                ]
             }
         }
     }
