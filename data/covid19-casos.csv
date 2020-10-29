@@ -6257,3 +6257,511 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/10/18,,secundario
 ,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/10/18,,secundario
 ,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/18,,secundario
+,hombre,48,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,25,cu,Guane,Pinar del Río,2020/10/19,,secundario
+,hombre,52,cu,San Luis,Pinar del Río,2020/10/19,,secundario
+,hombre,19,cu,Pinar del Río,Pinar del Río,2020/10/19,,desconocido
+,mujer,59,cu,Guane,Pinar del Río,2020/10/19,,secundario
+,hombre,18,cu,Guane,Pinar del Río,2020/10/19,,secundario
+,mujer,23,cu,Guane,Pinar del Río,2020/10/19,,secundario
+,hombre,42,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,34,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,28,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,34,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,47,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,25,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,49,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,33,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,26,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,39,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,37,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,30,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,41,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,30,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,42,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,29,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,42,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,22,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,27,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,52,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,53,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,54,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,50,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,2,cu,Pinar del Río,Pinar del Río,2020/10/19,,secundario
+,hombre,54,cu,Cabaiguán,Sancti Spíritus,2020/10/19,,secundario
+,mujer,48,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,hombre,57,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,hombre,30,cu,Cabaiguán,Sancti Spíritus,2020/10/19,,secundario
+,hombre,53,cu,Cabaiguán,Sancti Spíritus,2020/10/19,,secundario
+,mujer,25,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,mujer,54,cu,Cabaiguán,Sancti Spíritus,2020/10/19,,secundario
+,hombre,12,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,hombre,1,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,hombre,78,cu,Trinidad,Sancti Spíritus,2020/10/19,,desconocido
+,hombre,59,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,mujer,83,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,mujer,56,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,mujer,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,hombre,52,cu,Sancti Spíritus,Sancti Spíritus,2020/10/19,,secundario
+,hombre,52,cu,Cabaiguán,Sancti Spíritus,2020/10/19,,secundario
+,hombre,18,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,17,cu,Los Palacios,Pinar del Río,2020/10/20,,desconocido
+,hombre,17,cu,Pinar del Río,Pinar del Río,2020/10/20,,desconocido
+,mujer,52,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,51,cu,Pinar del Río,Pinar del Río,2020/10/20,,desconocido
+,mujer,32,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,50,cu,Consolación del Sur,Pinar del Río,2020/10/20,,desconocido
+,mujer,88,cu,San Juan y Martínez,Pinar del Río,2020/10/20,,secundario
+,mujer,65,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,hombre,50,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,hombre,34,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,43,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,21,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,31,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,40,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,33,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,70,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,40,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,40,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,17,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,34,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,68,cu,Pinar del Río,Pinar del Río,2020/10/20,,secundario
+,hombre,47,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,69,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,18,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,68,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,58,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,59,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,52,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,19,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,96,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,mujer,36,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,27,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,74,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,56,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,56,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,56,cu,Guane,Pinar del Río,2020/10/20,,secundario
+,hombre,10,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,10,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,33,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,mujer,20,cu,Consolación del Sur,Pinar del Río,2020/10/20,,secundario
+,hombre,24,cu,Arroyo Naranjo,La Habana,2020/10/20,,secundario
+,hombre,46,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,60,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,60,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,22,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,76,cu,San Miguel del Padrón,La Habana,2020/10/20,,secundario
+,hombre,48,cu,Marianao,La Habana,2020/10/20,,secundario
+,mujer,70,cu,Marianao,La Habana,2020/10/20,,secundario
+,hombre,31,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,hombre,38,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,hombre,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,mujer,27,cu,Cabaiguán,Sancti Spíritus,2020/10/20,,secundario
+,mujer,65,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,mujer,41,cu,Sancti Spíritus,Sancti Spíritus,2020/10/20,,secundario
+,hombre,44,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,35,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,25,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,24,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/10/20,,secundario
+,hombre,39,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,19,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,19,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,21,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,35,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,38,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,51,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,30,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,San Juan y Martínez,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,San Juan y Martínez,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Guane,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,hombre,20,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,20,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,20,cu,Viñales,Pinar del Río,2020/10/21,,secundario
+,hombre,20,cu,Mantua,Pinar del Río,2020/10/21,,secundario
+,hombre,20,cu,Mantua,Pinar del Río,2020/10/21,,secundario
+,hombre,19,cu,Sandino,Pinar del Río,2020/10/21,,secundario
+,hombre,19,cu,Mantua,Pinar del Río,2020/10/21,,secundario
+,mujer,19,cu,San Luis,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Minas de Matahambre,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Guane,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Minas de Matahambre,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,La Palma,Pinar del Río,2020/10/21,,secundario
+,mujer,18,cu,Mantua,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Los Palacios,Pinar del Río,2020/10/21,,secundario
+,hombre,19,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,La Palma,Pinar del Río,2020/10/21,,secundario
+,hombre,54,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,mujer,51,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,mujer,47,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,mujer,33,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,hombre,13,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,hombre,41,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,mujer,4,cu,Consolación del Sur,Pinar del Río,2020/10/21,,secundario
+,hombre,18,cu,Pinar del Río,Pinar del Río,2020/10/21,,secundario
+,hombre,52,cu,San Miguel del Padrón,La Habana,2020/10/21,,secundario
+,hombre,32,cu,San Miguel del Padrón,La Habana,2020/10/21,,secundario
+,hombre,48,cu,San Miguel del Padrón,La Habana,2020/10/21,,secundario
+,hombre,43,fr,Playa,La Habana,2020/10/21,,primario
+,hombre,43,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,mujer,26,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,mujer,28,cu,Cabaiguán,Sancti Spíritus,2020/10/21,,secundario
+,mujer,51,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,mujer,57,cu,Cabaiguán,Sancti Spíritus,2020/10/21,,secundario
+,hombre,1,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,hombre,5,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,mujer,36,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,hombre,30,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,mujer,58,cu,Sancti Spíritus,Sancti Spíritus,2020/10/21,,secundario
+,hombre,76,cu,Ciego de Ávila,Ciego de Ávila,2020/10/21,,secundario
+,hombre,17,cu,San Juan y Martínez,Pinar del Río,2020/10/22,,secundario
+,hombre,43,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,71,cu,San Luis,Pinar del Río,2020/10/22,,secundario
+,mujer,44,cu,Pinar del Río,Pinar del Río,2020/10/22,,secundario
+,mujer,50,cu,Consolación del Sur,Pinar del Río,2020/10/22,,secundario
+,hombre,84,cu,Pinar del Río,Pinar del Río,2020/10/22,,secundario
+,hombre,79,cu,Consolación del Sur,Pinar del Río,2020/10/22,,secundario
+,hombre,76,cu,Sandino,Pinar del Río,2020/10/22,,secundario
+,hombre,43,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,82,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,58,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,73,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,72,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,65,cu,Sandino,Pinar del Río,2020/10/22,,secundario
+,hombre,65,cu,Consolación del Sur,Pinar del Río,2020/10/22,,secundario
+,hombre,67,cu,Consolación del Sur,Pinar del Río,2020/10/22,,secundario
+,hombre,60,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,4,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,7,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,72,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,32,cu,Pinar del Río,Pinar del Río,2020/10/22,,secundario
+,hombre,26,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,51,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,55,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,31,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,36,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,hombre,7,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,44,cu,Guane,Pinar del Río,2020/10/22,,secundario
+,mujer,26,cu,Pinar del Río,Pinar del Río,2020/10/22,,secundario
+,hombre,20,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,20,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,17,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,21,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,20,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,19,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,19,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/22,,secundario
+,mujer,59,cu,Cabaiguán,Sancti Spíritus,2020/10/22,,secundario
+,mujer,64,cu,Sancti Spíritus,Sancti Spíritus,2020/10/22,,secundario
+,hombre,45,cu,Sancti Spíritus,Sancti Spíritus,2020/10/22,,secundario
+,mujer,47,cu,Sancti Spíritus,Sancti Spíritus,2020/10/22,,desconocido
+,mujer,7,cu,Cabaiguán,Sancti Spíritus,2020/10/22,,secundario
+,hombre,18,cu,Sancti Spíritus,Sancti Spíritus,2020/10/22,,secundario
+,hombre,14,cu,Sancti Spíritus,Sancti Spíritus,2020/10/22,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/10/22,,secundario
+,hombre,40,cu,Ciego de Ávila,Ciego de Ávila,2020/10/22,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/10/22,,secundario
+,hombre,30,cu,Pinar del Río,Pinar del Río,2020/10/23,,secundario
+,hombre,42,cu,Guane,Pinar del Río,2020/10/23,,secundario
+,mujer,71,cu,Pinar del Río,Pinar del Río,2020/10/23,,secundario
+,hombre,38,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,mujer,22,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,mujer,59,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,hombre,48,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,hombre,54,cu,Sandino,Pinar del Río,2020/10/23,,secundario
+,hombre,31,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,hombre,76,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,hombre,24,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,mujer,59,cu,Consolación del Sur,Pinar del Río,2020/10/23,,secundario
+,hombre,58,cu,Regla,La Habana,2020/10/23,,secundario
+,mujer,18,cu,Cotorro,La Habana,2020/10/23,,secundario
+,hombre,44,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,57,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,43,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,61,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,61,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,45,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,36,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,44,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,28,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,60,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,61,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,55,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,60,ve,Matanzas,Matanzas,2020/10/23,,secundario
+,hombre,57,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,48,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,26,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,46,ve,Matanzas,Matanzas,2020/10/23,,primario
+,hombre,66,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,90,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,75,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,56,cu,Cabaiguán,Sancti Spíritus,2020/10/23,,secundario
+,hombre,49,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,26,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,mujer,90,cu,Fomento,Sancti Spíritus,2020/10/23,,secundario
+,hombre,49,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,20,cu,Cabaiguán,Sancti Spíritus,2020/10/23,,desconocido
+,hombre,63,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,14,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,hombre,83,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,mujer,31,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,mujer,36,cu,Sancti Spíritus,Sancti Spíritus,2020/10/23,,secundario
+,mujer,49,cu,Cabaiguán,Sancti Spíritus,2020/10/23,,secundario
+,mujer,24,cu,Cabaiguán,Sancti Spíritus,2020/10/23,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/10/23,,secundario
+,hombre,48,cu,Ciego de Ávila,Ciego de Ávila,2020/10/23,,secundario
+,hombre,23,cu,Ciego de Ávila,Ciego de Ávila,2020/10/23,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/10/23,,secundario
+,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/10/23,,secundario
+,hombre,21,cu,Ciro Redondo,Ciego de Ávila,2020/10/23,,secundario
+,hombre,34,cu,Ciego de Ávila,Ciego de Ávila,2020/10/23,,secundario
+,mujer,37,cu,Mayarí,Holguín,2020/10/23,,secundario
+,hombre,37,cu,Guane,Pinar del Río,2020/10/24,,secundario
+,mujer,1,cu,Guane,Pinar del Río,2020/10/24,,secundario
+,mujer,35,cu,Guane,Pinar del Río,2020/10/24,,secundario
+,hombre,56,cu,Pinar del Río,Pinar del Río,2020/10/24,,secundario
+,hombre,56,cu,Pinar del Río,Pinar del Río,2020/10/24,,secundario
+,hombre,8,cu,Pinar del Río,Pinar del Río,2020/10/24,,secundario
+,hombre,16,cu,Consolación del Sur,Pinar del Río,2020/10/24,,secundario
+,hombre,50,cu,Viñales,Pinar del Río,2020/10/24,,secundario
+,hombre,54,cu,Guane,Pinar del Río,2020/10/24,,secundario
+,hombre,23,cu,Consolación del Sur,Pinar del Río,2020/10/24,,secundario
+,hombre,40,cu,Consolación del Sur,Pinar del Río,2020/10/24,,secundario
+,hombre,31,cu,Consolación del Sur,Pinar del Río,2020/10/24,,secundario
+,hombre,30,cu,Consolación del Sur,Pinar del Río,2020/10/24,,secundario
+,mujer,27,cu,Centro Habana,La Habana,2020/10/24,,secundario
+,hombre,41,cu,Cerro,La Habana,2020/10/24,,secundario
+,hombre,38,ve,Matanzas,Matanzas,2020/10/24,,primario
+,hombre,55,ve,Matanzas,Matanzas,2020/10/24,,primario
+,hombre,47,ve,Matanzas,Matanzas,2020/10/24,,primario
+,hombre,55,ve,Matanzas,Matanzas,2020/10/24,,primario
+,mujer,47,cu,Cabaiguán,Sancti Spíritus,2020/10/24,,secundario
+,mujer,47,cu,Cabaiguán,Sancti Spíritus,2020/10/24,,secundario
+,mujer,31,cu,Sancti Spíritus,Sancti Spíritus,2020/10/24,,desconocido
+,mujer,50,cu,Sancti Spíritus,Sancti Spíritus,2020/10/24,,secundario
+,mujer,13,cu,Sancti Spíritus,Sancti Spíritus,2020/10/24,,secundario
+,hombre,49,cu,Trinidad,Sancti Spíritus,2020/10/24,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,45,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,57,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,35,cu,Ciego de Ávila,Ciego de Ávila,2020/10/24,,secundario
+,hombre,43,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,hombre,26,cu,Sandino,Pinar del Río,2020/10/25,,secundario
+,mujer,59,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,mujer,74,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,mujer,59,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,mujer,62,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,mujer,81,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,hombre,86,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,mujer,29,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,mujer,98,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,hombre,68,cu,Pinar del Río,Pinar del Río,2020/10/25,,secundario
+,hombre,26,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,29,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,19,cu,Caimito,Artemisa,2020/10/25,,secundario
+,mujer,18,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,20,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,19,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,20,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,38,cu,Caimito,Artemisa,2020/10/25,,secundario
+,hombre,33,cu,Sancti Spíritus,Sancti Spíritus,2020/10/25,,primario
+,hombre,33,cu,Sancti Spíritus,Sancti Spíritus,2020/10/25,,secundario
+,mujer,81,cu,Trinidad,Sancti Spíritus,2020/10/25,,desconocido
+,mujer,95,cu,Cabaiguán,Sancti Spíritus,2020/10/25,,desconocido
+,hombre,54,cu,Ciego de Ávila,Ciego de Ávila,2020/10/25,,secundario
+,hombre,47,cu,Ciego de Ávila,Ciego de Ávila,2020/10/25,,secundario
+,hombre,57,cu,Puerto Padre,Las Tunas,2020/10/25,,primario
+,hombre,49,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,hombre,48,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,mujer,51,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,mujer,55,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,mujer,42,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,mujer,28,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,21,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,mujer,49,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,28,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,mujer,54,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,mujer,69,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,28,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,hombre,28,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,hombre,10,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,17,cu,Los Palacios,Pinar del Río,2020/10/26,,secundario
+,hombre,44,cu,Los Palacios,Pinar del Río,2020/10/26,,secundario
+,hombre,60,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,53,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,43,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,64,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,49,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,68,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,51,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,63,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,48,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,50,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,37,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,54,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,29,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,41,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,48,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,66,cu,San Luis,Pinar del Río,2020/10/26,,secundario
+,mujer,3,cu,San Luis,Pinar del Río,2020/10/26,,secundario
+,mujer,46,cu,Pinar del Río,Pinar del Río,2020/10/26,,secundario
+,hombre,45,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,mujer,60,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,hombre,60,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,hombre,30,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,hombre,49,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,hombre,43,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,mujer,60,cu,Consolación del Sur,Pinar del Río,2020/10/26,,secundario
+,hombre,23,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,hombre,52,cu,Guane,Pinar del Río,2020/10/26,,secundario
+,hombre,23,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,25,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,49,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,21,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,mujer,45,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,mujer,13,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,mujer,55,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,48,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,55,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,23,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,23,cu,Sandino,Pinar del Río,2020/10/26,,secundario
+,hombre,20,cu,Caimito,Artemisa,2020/10/26,,secundario
+,mujer,20,cu,Caimito,Artemisa,2020/10/26,,secundario
+,hombre,24,cu,Caimito,Artemisa,2020/10/26,,secundario
+,mujer,24,cu,Caimito,Artemisa,2020/10/26,,secundario
+,hombre,18,cu,Marianao,La Habana,2020/10/26,,secundario
+,hombre,27,cu,Centro Habana,La Habana,2020/10/26,,primario
+,mujer,48,cu,Centro Habana,La Habana,2020/10/26,,primario
+,hombre,57,cu,Centro Habana,La Habana,2020/10/26,,secundario
+,mujer,53,cu,Centro Habana,La Habana,2020/10/26,,secundario
+,mujer,35,cu,Cabaiguán,Sancti Spíritus,2020/10/26,,secundario
+,hombre,30,cu,Taguasco,Sancti Spíritus,2020/10/26,,secundario
+,mujer,54,cu,Sancti Spíritus,Sancti Spíritus,2020/10/26,,secundario
+,mujer,46,cu,Sancti Spíritus,Sancti Spíritus,2020/10/26,,secundario
+,mujer,57,cu,Sancti Spíritus,Sancti Spíritus,2020/10/26,,secundario
+,hombre,55,cu,Sancti Spíritus,Sancti Spíritus,2020/10/26,,secundario
+,hombre,6,cu,Cabaiguán,Sancti Spíritus,2020/10/26,,secundario
+,hombre,6,cu,Cabaiguán,Sancti Spíritus,2020/10/26,,secundario
+,hombre,9,cu,Sancti Spíritus,Sancti Spíritus,2020/10/26,,secundario
+,mujer,16,cu,Trinidad,Sancti Spíritus,2020/10/26,,secundario
+,hombre,52,cu,Cabaiguán,Sancti Spíritus,2020/10/26,,secundario
+,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,hombre,47,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,hombre,25,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,hombre,33,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,hombre,46,cu,Ciego de Ávila,Ciego de Ávila,2020/10/26,,secundario
+,mujer,1,cu,Ciro Redondo,Ciego de Ávila,2020/10/26,,secundario
+,mujer,20,cu,Ciro Redondo,Ciego de Ávila,2020/10/26,,secundario
+,hombre,39,cu,Pinar del Río,Pinar del Río,2020/10/27,,secundario
+,hombre,21,cu,Pinar del Río,Pinar del Río,2020/10/27,,secundario
+,hombre,50,cu,Pinar del Río,Pinar del Río,2020/10/27,,secundario
+,mujer,39,cu,Consolación del Sur,Pinar del Río,2020/10/27,,secundario
+,mujer,29,cu,Sandino,Pinar del Río,2020/10/27,,secundario
+,mujer,68,cu,Guane,Pinar del Río,2020/10/27,,secundario
+,hombre,62,cu,Pinar del Río,Pinar del Río,2020/10/27,,secundario
+,hombre,59,cu,Sandino,Pinar del Río,2020/10/27,,secundario
+,hombre,21,cu,Sandino,Pinar del Río,2020/10/27,,secundario
+,mujer,60,cu,Consolación del Sur,Pinar del Río,2020/10/27,,secundario
+,mujer,28,cu,Consolación del Sur,Pinar del Río,2020/10/27,,secundario
+,hombre,1,cu,Consolación del Sur,Pinar del Río,2020/10/27,,secundario
+,mujer,30,cu,Consolación del Sur,Pinar del Río,2020/10/27,,desconocido
+,mujer,62,cu,Consolación del Sur,Pinar del Río,2020/10/27,,secundario
+,hombre,60,cu,Minas de Matahambre,Pinar del Río,2020/10/27,,secundario
+,mujer,52,cu,San Luis,Pinar del Río,2020/10/27,,secundario
+,hombre,47,cu,Pinar del Río,Pinar del Río,2020/10/27,,secundario
+,mujer,51,cu,San Luis,Pinar del Río,2020/10/27,,secundario
+,hombre,35,cu,Sandino,Pinar del Río,2020/10/27,,secundario
+,hombre,5,cu,Sandino,Pinar del Río,2020/10/27,,secundario
+,mujer,12,cu,Sandino,Pinar del Río,2020/10/27,,secundario
+,hombre,65,cu,Guane,Pinar del Río,2020/10/27,,secundario
+,hombre,66,cu,Caimito,Artemisa,2020/10/27,,secundario
+,hombre,58,uk,Cárdenas,Matanzas,2020/10/27,,primario
+,hombre,34,uk,Cárdenas,Matanzas,2020/10/27,,primario
+,hombre,49,cu,Cotorro,La Habana,2020/10/27,,primario
+,mujer,40,cu,Cabaiguán,Sancti Spíritus,2020/10/27,,secundario
+,mujer,23,cu,Cabaiguán,Sancti Spíritus,2020/10/27,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,41,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,37,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,27,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,42,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,31,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,40,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,26,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,40,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,48,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,42,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,53,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,24,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,48,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,39,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,55,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,23,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,hombre,25,cu,Ciego de Ávila,Ciego de Ávila,2020/10/27,,secundario
+,mujer,50,cu,Campechuela,Granma,2020/10/27,,secundario
+,hombre,11,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,7,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,56,cu,Sandino,Pinar del Río,2020/10/28,,desconocido
+,hombre,48,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,hombre,55,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,hombre,93,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,mujer,62,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,19,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,hombre,13,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,mujer,39,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,42,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,hombrre,65,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,61,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,55,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,68,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,65,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,48,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,47,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,53,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
+,hombre,33,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,19,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,35,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,mujer,13,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,30,cu,Matanzas,Matanzas,2020/10/28,,secundario
+,hombre,30,ve,,Matanzas,2020/10/28,,primario
+,hombre,38,ve,,Matanzas,2020/10/28,,primario
+,hombre,54,ve,,Matanzas,2020/10/28,,primario
+,hombre,33,ve,,Matanzas,2020/10/28,,primario
+,hombre,25,ve,,Matanzas,2020/10/28,,primario
+,hombre,46,ve,,Matanzas,2020/10/28,,primario
+,hombre,27,ve,,Matanzas,2020/10/28,,primario
+,mujer,32,ve,,Matanzas,2020/10/28,,primario
+,mujer,77,cu,Sancti Spíritus,Sancti Spíritus,2020/10/28,,secundario
+,mujer,34,cu,Sancti Spíritus,Sancti Spíritus,2020/10/28,,secundario
+,hombre,51,cu,Sancti Spíritus,Sancti Spíritus,2020/10/28,,secundario
+,hombre,35,cu,Sancti Spíritus,Sancti Spíritus,2020/10/28,,secundario
+,mujer,67,cu,Ciro Redondo,Ciego de Ávila,2020/10/28,,secundario
+,hombre,47,cu,Ciro Redondo,Ciego de Ávila,2020/10/28,,secundario
+,mujer,45,cu,Ciro Redondo,Ciego de Ávila,2020/10/28,,secundario
