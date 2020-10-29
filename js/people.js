@@ -24,7 +24,8 @@ let domains = {
     "ma": "Marruecos",
     "in": "India",
     "jm": "Jamaica",
-    "ro": "Rumania"
+    "ro": "Rumania",
+    "uk": "Reino Unido"
 };
 
 $(function () {
@@ -198,7 +199,7 @@ $(function () {
                             });
                         }
                     });
-                    //console.log(dataSet)
+                   //console.log(dataSet);
                     $datatable.clear();
                     $datatable.rows.add(dataSet);
                     $datatable.draw();
