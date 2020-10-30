@@ -24,7 +24,8 @@ var domains = {
     "ma": "Marruecos",
     "in": "India",
     "jm": "Jamaica",
-    "ro": "Rumania"
+    "ro": "Rumania",
+    "uk": "Reino Unido"
 };
 
 
