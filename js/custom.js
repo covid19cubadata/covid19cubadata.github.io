@@ -521,12 +521,22 @@ function run_calculations() {
                                         if(diag[p].dpacode_provincia_deteccion!==prcode && general_view===false)
                                             continue;
                                     }
-                                    if(diag[p].dpacode_municipio_deteccion!=="00.00")
+                                    if(diag[p].dpacode_municipio_deteccion!=="00.00"){
                                         muns[diag[p].dpacode_municipio_deteccion].total++;
+                                    }else{
+                                        if(general_view===true){
+                                            muns[diag[p].dpacode_municipio_deteccion].total++;
+                                        }
+                                    }
                                     pros[diag[p].dpacode_provincia_deteccion].total++;
                                     if( diag[p].contagio === "importado" ){
-                                        if(diag[p].dpacode_municipio_deteccion!=="00.00")
+										if(diag[p].dpacode_municipio_deteccion!=="00.00"){
                                             muns[diag[p].dpacode_municipio_deteccion].importados++;
+                                        }else{
+                                            if(general_view===true){
+                                                muns[diag[p].dpacode_municipio_deteccion].importados++;
+                                            }
+                                        }
                                         pros[diag[p].dpacode_provincia_deteccion].importados++;
                                     }
 
