@@ -6737,7 +6737,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,13,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
 ,mujer,39,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
 ,hombre,42,cu,Pinar del Río,Pinar del Río,2020/10/28,,secundario
-,hombrre,65,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
+,hombre,65,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
 ,mujer,61,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
 ,mujer,55,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
 ,mujer,68,cu,Consolación del Sur,Pinar del Río,2020/10/28,,secundario
@@ -6884,5 +6884,5 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/10/30,,secundario
 ,hombre,20,cu,Camagüey,Camagüey,2020/10/30,,secundario
 ,hombre,40,cu,Mayarí,Holguín,2020/10/30,,primario
-,hombre,43,cu,Songo la Maya,Santiago de Cuba,2020/10/30,,primario
+,hombre,43,cu,Songo La Maya,Santiago de Cuba,2020/10/30,,primario
 ,hombre,33,cu,Guantánamo,Guantánamo,2020/10/30,,primario
