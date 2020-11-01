@@ -25,7 +25,8 @@ let domains = {
     "in": "India",
     "jm": "Jamaica",
     "ro": "Rumania",
-    "uk": "Reino Unido"
+    "uk": "Reino Unido",
+    "sk": "Eslovaquia"
 };
 
 $(function () {
