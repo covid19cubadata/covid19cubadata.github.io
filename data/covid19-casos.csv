@@ -6934,3 +6934,38 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,39,cu,Florida,Camagüey,2020/10/31,,primario
 ,mujer,29,cu,Guantánamo,Guantánamo,2020/10/31,,primario
 ,mujer,1,cu,Guantánamo,Guantánamo,2020/10/31,,primario
+,mujer,54,cu,San Luis,Pinar del Río,2020/11/01,,secundario
+,mujer,38,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,mujer,47,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,mujer,31,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,mujer,65,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,hombre,56,cu,Sandino,Pinar del Río,2020/11/01,,secundario
+,mujer,47,cu,Sandino,Pinar del Río,2020/11/01,,secundario
+,hombre,51,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,hombre,27,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,hombre,14,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,mujer,24,cu,Sandino,Pinar del Río,2020/11/01,,secundario
+,hombre,15,cu,Sandino,Pinar del Río,2020/11/01,,secundario
+,mujer,46,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,hombre,19,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,hombre,18,cu,Pinar del Río,Pinar del Río,2020/11/01,,desconocido
+,hombre,55,cu,Los Palacios,Pinar del Río,2020/11/01,,secundario
+,mujer,69,cu,Los Palacios,Pinar del Río,2020/11/01,,secundario
+,mujer,46,cu,Los Palacios,Pinar del Río,2020/11/01,,secundario
+,hombre,37,cu,Los Palacios,Pinar del Río,2020/11/01,,secundario
+,mujer,42,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,mujer,39,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,mujer,35,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,hombre,59,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,mujer,24,cu,Minas de Matahambre,Pinar del Río,2020/11/01,,secundario
+,mujer,62,cu,Guane,Pinar del Río,2020/11/01,,secundario
+,hombre,55,cu,Pinar del Río,Pinar del Río,2020/11/01,,secundario
+,mujer,49,cu,Pinar del Río,Pinar del Río,2020/11/01,,desconocido
+,mujer,52,cu,Consolación del Sur,Pinar del Río,2020/11/01,,secundario
+,hombre,52,cu,Pinar del Río,Pinar del Río,2020/11/01,,desconocido
+,hombre,25,cu,La Palma,Pinar del Río,2020/11/01,,secundario
+,hombre,18,cu,Caimito,Artemisa,2020/11/01,,secundario
+,hombre,50,cu,Sancti Spíritus,Sancti Spíritus,2020/11/01,,secundario
+,mujer,48,cu,Sancti Spíritus,Sancti Spíritus,2020/11/01,,secundario
+,hombre,53,cu,Sancti Spíritus,Sancti Spíritus,2020/11/01,,secundario
+,mujer,13,cu,Sancti Spíritus,Sancti Spíritus,2020/11/01,,secundario
