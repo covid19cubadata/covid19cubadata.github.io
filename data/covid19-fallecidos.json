@@ -43,6 +43,7 @@
         "he": "cirrosis hepática",
         "hm": "hipoacusia moderada",
         "ht": "hipotiroidismo",
+        "hp": "hiperplasia prostática",
         "ia": "infarto anterior",
         "ic": "insuficiencia cardiaca",
         "id": "inmunodeficiencia",
@@ -3044,6 +3045,28 @@
             },
             "235": {
                 "fecha": "2020/10/31"
+            },
+            "236": {
+                "fecha": "2020/11/01",
+                "fallecidos": [
+                    {
+                        "id": "f-129",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Trinidad",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.06",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "hp"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 78 años de edad, procedente del municipio Trinidad, provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica e Hiperplasia Prostática. El 14 de octubre es ingresado por descompensación de su enfermedad cardiovascular. El día 16 de octubre comenzó con síntomas respiratorios, se realiza PCR y es remitido e ingresado en sala de confirmados, y se inicia tratamiento establecido. El 21 de octubre presentó dificultad respiratoria con agitación, por lo que fue trasladado para la Terapia Intensiva y tratado con oxigenación en posición prono, manteniendo el resto de los medicamentos según protocolo. En los días siguientes mantuvo estabilidad hemodinámica, afebril, diuresis normal, sin disnea y con mejoría de la oxigenación. El día 26 de octubre se decidió su traslado a sala de confirmados por evolución estable y mejoría clínica. El día 29 de octubre permaneció con estabilidad clínica en la sala de confirmados. Se realizó PCR evolutivo, siendo positivo. Los días 30 y 31 de octubre evolucionó estable clínicamente en sala de confirmados. El día 1 de noviembre de forma súbita presentó disnea intensa, agobio respiratorio, cianosis, hipotensión arterial sudoración y parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas y el paciente fallece."
+                    }
+                ]
             }
         }
     }
