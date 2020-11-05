@@ -7096,20 +7096,20 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,27,cu,Ciego de Ávila,Ciego de Ávila,2020/11/03,,secundario
 ,hombre,23,cu,Ciego de Ávila,Ciego de Ávila,2020/11/03,,secundario
 ,hombre,30,cu,Ciego de Ávila,Ciego de Ávila,2020/11/03,,secundario
-,mujer,54,cu,Sancti Spiritus,Sancti Spiritus,2020/11/03,,secundario
+,mujer,54,cu,Sancti Spíritus,Sancti Spíritus,2020/11/03,,secundario
 ,mujer,25,cu,Cabaiguán,Sancti Spíritus,2020/11/03,,secundario
 ,hombre,58,cu,Trinidad,Sancti Spíritus,2020/11/03,,secundario
 ,mujer,80,cu,Cabaiguán,Sancti Spíritus,2020/11/03,,secundario
 ,mujer,30,cu,Cabaiguán,Sancti Spíritus,2020/11/03,,secundario
 ,mujer,81,cu,Cabaiguán,Sancti Spíritus,2020/11/03,,secundario
-,mujer,57,cu,Sancti Spiritus,Sancti Spiritus,2020/11/03,,secundario
-,mujer,8,cu,Sancti Spiritus,Sancti Spiritus,2020/11/03,,secundario
+,mujer,57,cu,Sancti Spíritus,Sancti Spíritus,2020/11/03,,secundario
+,mujer,8,cu,Sancti Spíritus,Sancti Spíritus,2020/11/03,,secundario
 ,hombre,31,cu,Cabaiguán,Sancti Spíritus,2020/11/03,,secundario
 ,hombre,30,cu,Cabaiguán,Sancti Spíritus,2020/11/03,,secundario
-,hombre,64,cu,Sancti Spiritus,Sancti Spiritus,2020/11/03,,secundario
+,hombre,64,cu,Sancti Spíritus,Sancti Spíritus,2020/11/03,,secundario
 ,hombre,34,cu,Camagüey,Camagüey,2020/11/03,,primario
 ,hombre,39,cu,Florida,Camagüey,2020/11/03,,primario
-,hombre,61,cu,La Tunas,La Tunas,2020/11/03,,primario
+,hombre,61,cu,Las Tunas,Las Tunas,2020/11/03,,primario
 ,mujer,29,cu,Las Tunas,Las Tunas,2020/11/03,,primario
 ,mujer,36,cu,Las Tunas,Las Tunas,2020/11/03,,primario
 ,mujer,28,cu,Sagua de Tánamo,Holguín,2020/11/03,,primario
@@ -7117,7 +7117,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,44,cu,Urbano Noris,Holguín,2020/11/03,,primario
 ,mujer,52,cu,Moa,Holguín,2020/11/03,,primario
 ,mujer,51,cu,Holguín,Holguín,2020/11/03,,primario
-,mujer,29,cu,Bane,Holguín,2020/11/03,,primario
+,mujer,29,cu,Banes,Holguín,2020/11/03,,primario
 ,hombre,37,cu,Báguanos,Holguín,2020/11/03,,primario
 ,mujer,45,cu,Antilla,Holguín,2020/11/03,,primario
 ,mujer,47,cu,Banes,Holguín,2020/11/03,,primario
