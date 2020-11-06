@@ -7183,3 +7183,47 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,30,cu,Sancti Spíritus,Sancti Spíritus,2020/11/04,,secundario
 ,hombre,48,cu,Ciego de Ávila,Ciego de Ávila,2020/11/04,,secundario
 ,hombre,46,cu,Ciego de Ávila,Ciego de Ávila,2020/11/04,,secundario
+,mujer,26,cu,Pinar del Río,Pinar del Río,2020/11/05,,secundario
+,hombre,31,cu,Pinar del Río,Pinar del Río,2020/11/05,,secundario
+,hombre,57,cu,Pinar del Río,Pinar del Río,2020/11/05,,desconocido
+,hombre,42,cu,Guane,Pinar del Río,2020/11/05,,secundario
+,mujer,49,cu,Sandino,Pinar del Río,2020/11/05,,desconocido
+,hombre,42,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,mujer,20,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,mujer,16,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,mujer,53,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,mujer,35,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,mujer,51,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,hombre,98,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,hombre,50,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,hombre,35,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,hombre,27,cu,Sandino,Pinar del Río,2020/11/05,,secundario
+,mujer,49,cu,Pinar del Río,Pinar del Río,2020/11/05,,secundario
+,mujer,72,cu,Pinar del Río,Pinar del Río,2020/11/05,,secundario
+,mujer,40,cu,Pinar del Río,Pinar del Río,2020/11/05,,secundario
+,mujer,81,cu,Consolación del Sur,Pinar del Río,2020/11/05,,secundario
+,hombre,26,cu,Consolación del Sur,Pinar del Río,2020/11/05,,secundario
+,mujer,56,cu,Consolación del Sur,Pinar del Río,2020/11/05,,secundario
+,hombre,25,cu,Consolación del Sur,Pinar del Río,2020/11/05,,secundario
+,mujer,23,cu,Consolación del Sur,Pinar del Río,2020/11/05,,secundario
+,mujer,23,cu,Plaza de la Revolución,La Habana,2020/11/05,,primario
+,hombre,27,cu,Playa,La Habana,2020/11/05,,primario
+,hombre,37,cu,Diez de Octubre,La Habana,2020/11/05,,primario
+,hombre,27,cu,Cabaiguán,Sancti Spíritus,2020/11/05,,secundario
+,mujer,48,cu,Trinidad,Sancti Spíritus,2020/11/05,,secundario
+,hombre,27,cu,Sancti Spíritus,Sancti Spíritus,2020/11/05,,secundario
+,hombre,42,cu,Trinidad,Sancti Spíritus,2020/11/05,,secundario
+,hombre,54,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,37,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,42,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,62,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,47,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,41,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,51,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,mujer,41,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,mujer,45,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,mujer,40,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,mujer,28,ru,Morón,Ciego de Ávila,2020/11/05,,primario
+,hombre,32,cu,Florida,Camagüey,2020/11/05,,primario
+,mujer,68,cu,Camagüey,Camagüey,2020/11/05,,primario
+,mujer,65,cu,Guáimaro,Camagüey,2020/11/05,,primario
