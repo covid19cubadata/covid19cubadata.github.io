@@ -26,7 +26,9 @@ var domains = {
     "jm": "Jamaica",
     "ro": "Rumania",
     "uk": "Reino Unido",
-    "sk": "Eslovaquia"
+    "sk": "Eslovaquia",
+    "pl": "Polonia",
+    "ch": "Suiza"
 };
 
 
