@@ -7486,3 +7486,57 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,16,cu,Mayarí,Holguín,2020/11/11,,primario
 ,mujer,23,cu,Mayarí,Holguín,2020/11/11,,primario
 ,hombre,25,cu,Santiago de Cuba,Santiago de Cuba,2020/11/11,,secundario
+,mujer,49,cu,Guane,Pinar del Río,2020/11/12,,secundario
+,hombre,9,cu,Guane,Pinar del Río,2020/11/12,,secundario
+,hombre,4,cu,Guane,Pinar del Río,2020/11/12,,secundario
+,hombre,51,cu,Guane,Pinar del Río,2020/11/12,,secundario
+,hombre,9,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,hombre,1,cu,Pinar del Río,Pinar del Río,2020/11/12,,desconocido
+,mujer,8,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,hombre,24,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,mujer,72,cu,Pinar del Río,Pinar del Río,2020/11/12,,desconocido
+,mujer,42,cu,Pinar del Río,Pinar del Río,2020/11/12,,desconocido
+,mujer,31,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,hombre,18,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,hombre,68,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,mujer,30,cu,Pinar del Río,Pinar del Río,2020/11/12,,secundario
+,mujer,28,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,hombre,39,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,hombre,52,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,mujer,41,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,mujer,69,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,hombre,79,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,hombre,19,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,hombre,19,cu,Sandino,Pinar del Río,2020/11/12,,secundario
+,mujer,52,cu,Consolación del Sur,Pinar del Río,2020/11/12,,secundario
+,mujer,18,cu,Consolación del Sur,Pinar del Río,2020/11/12,,secundario
+,mujer,52,cu,Playa,La Habana,2020/11/12,,secundario
+,hombre,87,cu,Playa,La Habana,2020/11/12,,secundario
+,mujer,73,cu,Playa,La Habana,2020/11/12,,secundario
+,hombre,23,cu,Cotorro,La Habana,2020/11/12,,desconocido
+,hombre,46,cu,Arroyo Naranjo,La Habana,2020/11/12,,secundario
+,mujer,37,de,Cárdenas,Matanzas,2020/11/12,,primario
+,hombre,42,de,Cárdenas,Matanzas,2020/11/12,,primario
+,hombre,54,cu,Cienfuegos,Cienfuegos,2020/11/12,,primario
+,hombre,20,cu,Sancti Spíritus,Sancti Spíritus,2020/11/12,,secundario
+,mujer,36,cu,Sancti Spíritus,Sancti Spíritus,2020/11/12,,secundario
+,hombre,17,cu,Jatibonico,Sancti Spíritus,2020/11/12,,secundario
+,mujer,45,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,mujer,11,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,hombre,27,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,mujer,61,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,mujer,22,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,mujer,34,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,mujer,39,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,hombre,39,ru,Morón,Ciego de Ávila,2020/11/12,,primario
+,hombre,56,cu,Mayarí,Holguín,2020/11/12,,primario
+,mujer,56,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,secundario
+,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,secundario
+,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,secundario
+,hombre,44,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,secundario
+,hombre,55,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,primario
+,hombre,50,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,primario
+,hombre,39,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,primario
+,hombre,23,cu,Contramaestre,Santiago de Cuba,2020/11/12,,secundario
+,hombre,40,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,secundario
+,mujer,27,cu,Santiago de Cuba,Santiago de Cuba,2020/11/12,,secundario
