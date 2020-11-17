@@ -533,11 +533,7 @@ function run_calculations() {
                                     }
                                     pros[diag[p].dpacode_provincia_deteccion].total++;
                                     if( diag[p].contagio === "importado" ){
-<<<<<<< HEAD
-                                        if(diag[p].dpacode_municipio_deteccion!=="00.00"){
-=======
 										if(diag[p].dpacode_municipio_deteccion!=="00.00"){
->>>>>>> 06c910081ff97c421163c43494abea518a452fd6
                                             muns[diag[p].dpacode_municipio_deteccion].importados++;
                                         }else{
                                             if(general_view===true){
