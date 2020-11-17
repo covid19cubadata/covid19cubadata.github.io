@@ -5,10 +5,13 @@
         "ac": "alcoholismo",
         "ap": "absceso perianal",
         "al": "alzheimer",
+        "ao": "adenocarcinoma de próstata",
         "ar": "artritis reumatoide",
+        "at": "aneurisma trombosado de la aorta abdominal",
         "ba": "bloqueo aurículo-ventricular",
         "ca": "cáncer",
         "cb": "carcinoma basocelular",
+        "cc": "cirrosis hepática",
         "ch": "cardiopatía hipertensiva",
         "ci": "cardiopatía isquémica",
         "ce": "carcinoma epidermoide de esófago",
@@ -43,6 +46,7 @@
         "he": "cirrosis hepática",
         "hm": "hipoacusia moderada",
         "ht": "hipotiroidismo",
+        "hp": "hiperplasia prostática",
         "ia": "infarto anterior",
         "ic": "insuficiencia cardiaca",
         "id": "inmunodeficiencia",
@@ -3035,6 +3039,123 @@
             },
             "232": {
                 "fecha": "2020/10/28"
+            },
+            "233": {
+                "fecha": "2020/10/29"
+            },
+            "234": {
+                "fecha": "2020/10/30"
+            },
+            "235": {
+                "fecha": "2020/10/31"
+            },
+            "236": {
+                "fecha": "2020/11/01",
+                "fallecidos": [
+                    {
+                        "id": "f-129",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Trinidad",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.06",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "hp"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 78 años de edad, procedente del municipio Trinidad, provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica e Hiperplasia Prostática. El 14 de octubre es ingresado por descompensación de su enfermedad cardiovascular. El día 16 de octubre comenzó con síntomas respiratorios, se realiza PCR y es remitido e ingresado en sala de confirmados, y se inicia tratamiento establecido. El 21 de octubre presentó dificultad respiratoria con agitación, por lo que fue trasladado para la Terapia Intensiva y tratado con oxigenación en posición prono, manteniendo el resto de los medicamentos según protocolo. En los días siguientes mantuvo estabilidad hemodinámica, afebril, diuresis normal, sin disnea y con mejoría de la oxigenación. El día 26 de octubre se decidió su traslado a sala de confirmados por evolución estable y mejoría clínica. El día 29 de octubre permaneció con estabilidad clínica en la sala de confirmados. Se realizó PCR evolutivo, siendo positivo. Los días 30 y 31 de octubre evolucionó estable clínicamente en sala de confirmados. El día 1 de noviembre de forma súbita presentó disnea intensa, agobio respiratorio, cianosis, hipotensión arterial sudoración y parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas y el paciente fallece."
+                    }
+                ]
+            },
+            "237": {
+                "fecha": "2020/11/02"
+            },
+            "238": {
+                "fecha": "2020/11/03"
+            },
+            "239": {
+                "fecha": "2020/11/04"
+            },
+            "240": {
+                "fecha": "2020/11/05",
+                "fallecidos": [
+                    {
+                        "id": "f-130",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Sancti Spíritus",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.07",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ir",
+                            "ao",
+                            "at"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 89 años de edad, residente del municipio cabecera de la provincia Sancti Spiritus. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Insuficiencia Renal Crónica, Aneurisma Trombosado de la Aorta Abdominal y Adenocarcinoma de Próstata. El día 27 de octubre es ingresado por presentar fiebre y enrojecimiento de miembro inferior y se diagnostica Linfangitis aguda. El día 28 de octubre comienza con falta de aire y mantiene fiebre, se realiza PCR, es ingresado en sala de sospechosos. El día 30 de octubre es confirmado a la COVID-19 y fue remitido e ingresado en sala de confirmados. Se inicia protocolo de tratamiento. El día 1ro de noviembre presentó dificultad respiratoria, cianosis distal y agitación, por lo que fue traslado para la Terapia Intensiva, intubado y ventilado en modalidad controlada, manteniendo el resto de los medicamentos según protocolo. Los días siguientes se mantiene con ventilación en modalidad controlada con estabilidad hemodinámica. El día 5 de noviembre presenta hipotensión arterial, que no responde a la administración de volumen y aminas, sudoración intensa, cianosis generalizada, hace parada cardiaca en asistolia. Son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas y fallece. "
+                    }
+                ]
+            },
+            "241": {
+                "fecha": "2020/11/06"
+            },
+            "242": {
+                "fecha": "2020/11/07"
+            },
+            "243": {
+                "fecha": "2020/11/08"
+            },
+            "244": {
+                "fecha": "2020/11/09"
+            },
+            "245": {
+                "fecha": "2020/11/10"
+            },
+            "246": {
+                "fecha": "2020/11/11",
+                "fallecidos": [
+                    {
+                        "id": "f-131",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Consolación del Sur",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.07",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "cc",
+                            "ir"
+                        ],
+                        "texto": "Falleció ciudadano cubano de 58 años de edad. Procede del municipio Consolación del Sur, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cirrosis hepática, Insuficiencia Renal crónica (tratamiento con hemodiálisis). Ingresa en centro de aislamiento por ser contacto de caso confirmado y se le realiza PCR que resultó negativo. Posteriormente comenzó con tos seca, falta de aire y rinorrea, es realizado PCR que resulta positivo para COVID-19. Se trasladó  al hospital  y es  ingresado en sala de confirmados.  Se pone tratamiento según protocolos de atención para estos pacientes.  En su evolución presentó decaimiento, obnubilación, íctero, sudoración y relajación de esfínteres, fue trasladado a la unidad de cuidados intensivos, es diagnosticada hipoglicemia y presencia de ascitis. En el Rx lesiones inflamatorias en ambos campos pulmonares.  Durante los cinco días posteriores mantuvo estabilidad hemodinámica, con oxígeno suplementario, realizándose hemodiálisis diaria y cumpliendo tratamiento según protocolo. Presentó empeoramiento clínico, radiológico y gasométrico, aparecen edemas generalizados, anuria, mantiene régimen de hemodiálisis diaria, cumpliendo el protocolo de tratamiento. El día 10 de noviembre presenta deterioro neurológico, hipoglucemia, midriasis bilateral, hipotensión arterial, acidemia metabólica, es apoyado con aminas y decidida realización de hemodiálisis de urgencia. El día 11 de noviembre muestra agobio respiratorio, es intubado y ventilado en modalidad controlada, elevada las dosis de aminas. Hace bradicardia extrema, hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Paciente fallece. Es realizada necropsia."
+                    }
+                ]
+            },
+            "247": {
+                "fecha": "2020/11/12"
+            },
+            "248": {
+                "fecha": "2020/11/13"
+            },
+            "249": {
+                "fecha": "2020/11/14"
+            },
+            "250": {
+                "fecha": "2020/11/15"
+            },
+            "251": {
+                "fecha": "2020/11/16"
             }
         }
     }
