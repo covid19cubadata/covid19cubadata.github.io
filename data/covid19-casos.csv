@@ -7703,3 +7703,24 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,6,cu,Holguín,Holguín,2020/11/17,,primario
 ,hombre,38,cu,Palma Soriano,Santiago de Cuba,2020/11/17,,primario
 ,hombre,50,cu,Santiago de Cuba,Santiago de Cuba,2020/11/17,,secundario
+,hombre,10,cu,Mantua,Pinar del Río,2020/11/18,,secundario
+,mujer,31,cu,Sandino,Pinar del Río,2020/11/18,,primario
+,mujer,56,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,hombre,26,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,mujer,38,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,hombre,45,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,mujer,26,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,mujer,70,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,mujer,78,cu,Pinar del Río,Pinar del Río,2020/11/18,,secundario
+,hombre,43,cu,Pinar del Río,Pinar del Río,2020/11/18,,desconocido
+,hombre,3,cu,Consolación del Sur,Pinar del Río,2020/11/18,,primario
+,mujer,50,cu,Cerro,La Habana,2020/11/18,,secundario
+,hombre,50,cu,Boyeros,La Habana,2020/11/18,,primario
+,hombre,40,cu,La Lisa,La Habana,2020/11/18,,primario
+,mujer,51,cu,Cárdenas,Matanzas,2020/11/18,,primario
+,hombre,38,cu,Aguada de Pasajero,Cienfuegos,2020/11/18,,primario
+,mujer,29,cu,Puerto Padre,Las Tunas,2020/11/18,,secundario
+,mujer,55,cu,Las Tunas,Las Tunas,2020/11/18,,primario
+,hombre,64,cu,Urbano Noris,Holguín,2020/11/18,,secundario
+,mujer,34,cu,Urbano Noris,Holguín,2020/11/18,,secundario
+,mujer,3,cu,Urbano Noris,Holguín,2020/11/18,,secundario
