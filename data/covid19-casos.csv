@@ -7718,7 +7718,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,50,cu,Boyeros,La Habana,2020/11/18,,primario
 ,hombre,40,cu,La Lisa,La Habana,2020/11/18,,primario
 ,mujer,51,cu,Cárdenas,Matanzas,2020/11/18,,primario
-,hombre,38,cu,Aguada de Pasajero,Cienfuegos,2020/11/18,,primario
+,hombre,38,cu,Aguada de Pasajeros,Cienfuegos,2020/11/18,,primario
 ,mujer,29,cu,Puerto Padre,Las Tunas,2020/11/18,,secundario
 ,mujer,55,cu,Las Tunas,Las Tunas,2020/11/18,,primario
 ,hombre,64,cu,Urbano Noris,Holguín,2020/11/18,,secundario
