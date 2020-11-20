@@ -919,6 +919,8 @@ function run_calculations() {
                         var dailyPorcientoPositivo = ['% de Tests Positivos en el Día'];
                         var cuba = ['Cuba'];
                         var importados = [];
+                        var dailyImported = ['Casos importados en el día'];
+                        var dailyImportedForeing = ['Casos importados de extranjeros en el día'];
                         var tasas = ['Tasa (por 100 mil)']
                         var imported = 0;
                         var deadsSum = ['Total de fallecidos'];
@@ -962,6 +964,7 @@ function run_calculations() {
                             if ('diagnosticados' in data.casos.dias[i]) {
                                 let report_day = 0;
                                 let import_day = 0;
+                                let import_day_foreing = 0;
                                 for (const j in data.casos.dias[i].diagnosticados) {
                                     if (data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion in muns) {
                                         report_day++;
@@ -969,6 +972,9 @@ function run_calculations() {
                                         munscurves[data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion]['data'][tt - 1]++;
                                         if(data.casos.dias[i].diagnosticados[j].contagio === "importado"){
                                             import_day++;
+                                            if (data.casos.dias[i].diagnosticados[j].pais !== 'cu') {
+                                                import_day_foreing++;
+                                            }
                                         }
                                     }else{
                                         if(data.casos.dias[i].diagnosticados[j].dpacode_municipio_deteccion==="00.00"){
@@ -976,6 +982,9 @@ function run_calculations() {
                                                 report_day++;
                                                 if(data.casos.dias[i].diagnosticados[j].contagio === "importado"){
                                                     import_day++;
+                                                    if (data.casos.dias[i].diagnosticados[j].pais !== 'cu') {
+                                                        import_day_foreing++;
+                                                    }
                                                 }
                                             }
                                         }
@@ -990,8 +999,12 @@ function run_calculations() {
                                 dailySingle.push(report_day);
                                 total += report_day;
                                 imported += import_day;
+                                dailyImported.push(import_day);
+                                dailyImportedForeing.push(import_day_foreing);
                             } else {
                                 dailySingle.push(0);
+                                dailyImported.push(0);
+                                dailyImportedForeing.push(0);
                                 nocasod+=1;
                             }
                             if ('tests_total' in data.casos.dias[i] && general_view) {
@@ -1034,9 +1047,7 @@ function run_calculations() {
                                  tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
                              }
                         }
-                        //console.log(cuba);
-                        //console.log(importados);
-                        //console.log(tasas);
+
                         //Pie for symptoms/asymptoms
                         c3.generate({
                             bindto: "#asym-info-pie",
@@ -1055,6 +1066,67 @@ function run_calculations() {
 									}
 								}
 							}
+                        });
+
+                        // dayly imported and national cases
+                        c3.generate({
+                            bindto: "#daily-acthome-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    ['Casos nacionales en el día',...dailySingle.slice(1).map((day, index) => day-dailyImported[index+1])],
+                                    dailyImported
+                                ],
+                                type: 'area',
+                                groups: [['Casos nacionales en el día', 'Casos importados en el día']],
+                                colors: {
+                                    'Casos nacionales en el día': '#1C1340',
+                                    'Casos importados en el día': '#B01E22'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
+                        console.log(dailyImportedForeing, dailyImported);
+                        // dayly imported cubans and foreing
+                        c3.generate({
+                            bindto: "#daily-actimp-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    ['Casos importados de cubanos en el día', ...dailyImported.slice(1).map((day, index) => day-dailyImportedForeing[index+1])],
+                                    dailyImportedForeing
+                                ],
+                                type: 'area',
+                                groups: [['Casos importados de cubanos en el día', 'Casos importados de extranjeros en el día']],
+                                colors: {
+                                    'Casos importados de cubanos en el día': '#1C1340',
+                                    'Casos importados de extranjeros en el día': '#B01E22'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            }
                         });
 
                         //var asymTotalCases = ['Total de casos asintomáticos'];
