@@ -709,8 +709,6 @@ function run_calculations() {
 
                         }
 
-                        //console.log(muns);
-
                         for(var i in check_cases){
 							if (check_cases[i]>1){
 								console.log(i);
@@ -1098,7 +1096,6 @@ function run_calculations() {
                             }
                         });
 
-                        console.log(dailyImportedForeing, dailyImported);
                         // dayly imported cubans and foreing
                         c3.generate({
                             bindto: "#daily-actimp-info",
@@ -1348,8 +1345,6 @@ function run_calculations() {
                         }
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
-
-                        // console.log(ntest_days,ntest_cases);
 
                         tests = c3.generate({
                             bindto: "#tests-line-info",
@@ -1634,9 +1629,6 @@ function run_calculations() {
                             columns.push(dailyActive);
                         }
 
-                        //console.log(dailyActive)
-                        //console.log(dailySingle)
-
                         c3.generate({
                             bindto: "#daily-single-info",
                             data: {
@@ -1781,8 +1773,6 @@ function run_calculations() {
                                 }
                             }
                         });
-
-                        //console.log(recoversSingle)
 
                         c3.generate({
                             bindto: "#daily-recovers-info",
@@ -1941,8 +1931,6 @@ function run_calculations() {
 							}
                         });
                         let dates15 = [dates[0],...dates.slice(15)];
-                        //console.log(dates15);
-                        //console.log(dates);
                         var alines_hab = [
 							                {value: 25, text: 'Fase I'},
 							                {value: 20, text: 'Fase II'},
