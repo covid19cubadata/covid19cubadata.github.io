@@ -28,7 +28,8 @@ let domains = {
     "uk": "Reino Unido",
     "sk": "Eslovaquia",
     "pl": "Polonia",
-    "ch": "Suiza"
+    "ch": "Suiza",
+    "de": "Alemania"
 };
 
 $(function () {
