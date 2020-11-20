@@ -7750,7 +7750,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,34,cu,Madruga,Mayabeque,2020/11/19,,primario
 ,hombre,49,cu,San José de las Lajas,Mayabeque,2020/11/19,,primario
 ,hombre,69,cu,Jovellanos,Matanzas,2020/11/19,,primario
-,hombre,66,cu,Sagua la Grande,Villa Clara,2020/11/19,,primario
+,hombre,66,cu,Sagua La Grande,Villa Clara,2020/11/19,,primario
 ,hombre,32,cu,Santa Clara,Villa Clara,2020/11/19,,primario
 ,hombre,35,ru,Morón,Ciego de Ávila,2020/11/19,,primario
 ,hombre,30,ru,Morón,Ciego de Ávila,2020/11/19,,primario
@@ -7760,5 +7760,5 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,42,cu,Ciego de Ávila,Ciego de Ávila,2020/11/19,,secundario
 ,mujer,62,cu,Las Tunas,Las Tunas,2020/11/19,,primario
 ,mujer,31,cu,Las Tunas,Las Tunas,2020/11/19,,primario
-,mujer,42,cu,Songo la Maya,Santigo de Cuba,2020/11/19,,primario
-,hombre,48,cu,Songo la Maya,Santiago de Cuba,2020/11/19,,primario
+,mujer,42,cu,Songo La Maya,Santiago de Cuba,2020/11/19,,primario
+,hombre,48,cu,Songo La Maya,Santiago de Cuba,2020/11/19,,primario
