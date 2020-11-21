@@ -3165,6 +3165,27 @@
             },
             "254": {
                 "fecha": "2020/11/19"
+            },
+            "255": {
+                "fecha": "2020/11/20",
+                "fallecidos": [
+                    {
+                        "id": "f-132",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ci",
+                            "ep"
+                        ],
+                        "texto": "Falleció ciudadano cubano de 80 años de edad que residía municipio Santiago de Cuba, provincia del mismo nombre. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Enfermedad Pulmonar Obstructiva Crónica. Comienza con tos seca y expectoración, es ingresado el día  13 de noviembre en sala de sospechosos. Se realiza PCR y es confirmado positivo a la COVID-19. Fue trasladado a sala de confirmados, es tratado según protocolo para estos pacientes . Los cuatro dias posteriores mantiene estabilidad hemodinámica, se le mantuvo tratamiento según protocolo. El día 19 de noviembre presentó vómitos y diarreas, mantiene estabilidad hemodinámica. El día 20 de noviembre en horas de la madrugada presenta agobio respiratorio, hipotensión arterial y sudoración, es trasladado a la unidad de cuidados intensivos, fue intubado y ventilado en modalidad controlada y apoyado con altas dosis de aminas. Se ajusta tratamiento de acuerdo a los nuevos síntomas que presentó. Presentó parada cardiaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas., el paciente fallece. Es realizada necropsia. "
+                    }
+                ]
             }
         }
     }
