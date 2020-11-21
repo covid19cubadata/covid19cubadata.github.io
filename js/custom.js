@@ -29,7 +29,8 @@ var domains = {
     "sk": "Eslovaquia",
     "pl": "Polonia",
     "ch": "Suiza",
-    "de": "Alemania"
+    "de": "Alemania",
+    "pr": "Puerto Rico"
 };
 
 
