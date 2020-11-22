@@ -30,7 +30,8 @@ let domains = {
     "pl": "Polonia",
     "ch": "Suiza",
     "de": "Alemania",
-    "pr": "Puerto Rico"
+    "pr": "Puerto Rico",
+    "ar": "Argentina"
 };
 
 $(function () {
