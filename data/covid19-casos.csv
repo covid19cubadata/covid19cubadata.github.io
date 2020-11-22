@@ -7797,3 +7797,51 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,62,cu,Urbano Noris,Holguín,2020/11/20,,primario
 ,mujer,90,cu,Urbano Noris,Holguín,2020/11/20,,secundario
 ,mujer,50,cu,Santiago de Cuba,Santiago de Cuba,2020/11/20,,secundario
+,hombre,78,cu,Pinar del Río,Pinar del Río,2020/11/21,,secundario
+,mujer,40,cu,Pinar del Río,Pinar del Río,2020/11/21,,secundario
+,hombre,60,cu,Sandino,Pinar del Río,2020/11/21,,secundario
+,mujer,9,cu,Pinar del Río,Pinar del Río,2020/11/21,,secundario
+,mujer,29,cu,San Cristóbal,Artemisa,2020/11/21,,primario
+,hombre,34,cu,San Cirstóbal,Artemisa,2020/11/21,,primario
+,mujer,72,cu,Artemisa,Artemisa,2020/11/21,,primario
+,hombre,46,ar,Playa,La Habana,2020/11/21,,primario
+,mujer,32,cu,Guanabacoa,La Habana,2020/11/21,,primario
+,hombre,3,us,Guanabacoa,La Habana,2020/11/21,,primario
+,hombre,16,cu,Boyeros,La Habana,2020/11/21,,primario
+,hombre,68,cu,Habana del Este,La Habana,2020/11/21,,primario
+,mujer,44,cu,San Miguel del Padrón,La Habana,2020/11/21,,primario
+,hombre,59,cu,Cerro,La Habana,2020/11/21,,primario
+,mujer,50,cu,La Lisa,La Habana,2020/11/21,,primario
+,hombre,34,cu,Arroyo Naranjo,La Habana,2020/11/21,,primario
+,mujer,50,cu,Pedro Betancourt,Matanzas,2020/11/21,,primario
+,hombre,36,de,Cárdenas,Matanzas,2020/11/21,,primario
+,mujer,38,de,Cárdenas,Matanzas,2020/11/21,,primario
+,hombre,25,cu,Santa Clara,Villa Clara,2020/11/21,,primario
+,hombre,54,cu,Manicaragua,Villa Clara,2020/11/21,,primario
+,hombre,40,cu,Trinidad,Sancti Spíritus,2020/11/21,,primario
+,mujer,63,ru,Morón,Ciego de Ávila,2020/11/21,,primario
+,hombre,42,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,primario
+,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,secundario
+,hombre,24,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,secundario
+,hombre,42,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,secundario
+,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,secundario
+,hombre,55,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,secundario
+,hombre,46,cu,Ciego de Ávila,Ciego de Ávila,2020/11/21,,secundario
+,hombre,11,cu,Camagüey,Camagüey,2020/11/21,,secundario
+,hombre,23,cu,Camagüey,Camagüey,2020/11/21,,secundario
+,hombre,20,cu,Camagüey,Camagüey,2020/11/21,,secundario
+,mujer,43,cu,Urbano Noris,Holguín,2020/11/21,,secundario
+,hombre,8,cu,Calixto García,Holguín,2020/11/21,,primario
+,mujer,18,cu,Calixto García,Holguín,2020/11/21,,primario
+,mujer,35,cu,Calixto García,Holguín,2020/11/21,,primario
+,hombre,28,cu,Las Tunas,Las Tunas,2020/11/21,,secundario
+,mujer,49,cu,Manatí,Las Tunas,2020/11/21,,primario
+,hombre,47,cu,Bayamo,Granma,2020/11/21,,primario
+,hombre,17,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,primario
+,mujer,13,cu,Sango la Maya,Santiago de Cuba,2020/11/21,,secundario
+,hombre,40,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,primario
+,hombre,3,cu,Palma Soriano,Santiago de Cuba,2020/11/21,,secundario
+,mujer,62,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,secundario
+,hombre,20,cu,San Luis,Santiago de Cuba,2020/11/21,,desconocido
+,mujer,51,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,primario
+,mujer,50,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,secundario
