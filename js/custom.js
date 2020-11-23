@@ -1068,7 +1068,36 @@ function run_calculations() {
 								}
 							}
                         });
-
+                        
+                        dailyNotImported = ['Casos no importados en el día',...dailySingle.slice(1).map((day, index) => day-dailyImported[index+1])];
+						dailyImportedCuban = ['Casos importados de cubanos en el día', ...dailyImported.slice(1).map((day, index) => day-dailyImportedForeing[index+1])];
+						
+						percentImported = ['% de casos importados en el día'];
+						percentNotImported = ['% de casos no importados en el día'];
+						percentImportedForeing = ['% de casos importados de extranjeros en el día'];
+						percentImportedCuban = ['% de casos importados de cubanos en el día'];
+						for(var i=1;i<dailyImported.length;i++){
+							var casesTotal = dailyNotImported[i] + dailyImported[i];
+							if (casesTotal!=0){
+								var _percentImported = (dailyImported[i]*100/casesTotal).toFixed(2);
+								var _percentNotImported = (100 - _percentImported).toFixed(2);
+								percentImported.push(_percentImported);
+								percentNotImported.push(_percentNotImported);
+							} else {
+								percentImported.push(null);
+								percentNotImported.push(null);
+							}
+							if (dailyImported[i]!=0){
+								var _percentImportedCuban = (dailyImportedCuban[i]*100/dailyImported[i]).toFixed(2);
+								var _percentImportedForeing = (100 - _percentImportedCuban).toFixed(2);
+								percentImportedCuban.push(_percentImportedCuban);
+								percentImportedForeing.push(_percentImportedForeing);
+							} else {
+								percentImportedForeing.push(null);
+								percentImportedCuban.push(null);
+							}
+						}
+						
                         // dayly imported and national cases
                         c3.generate({
                             bindto: "#daily-acthome-info",
@@ -1076,14 +1105,14 @@ function run_calculations() {
                                 x: dates[0],
                                 columns: [
                                     dates,
-                                    ['Casos no importados en el día',...dailySingle.slice(1).map((day, index) => day-dailyImported[index+1])],
+                                    dailyNotImported,
                                     dailyImported
                                 ],
                                 type: 'area',
                                 groups: [['Casos nacionales en el día', 'Casos importados en el día']],
                                 colors: {
-                                    'Casos no importados en el día': '#1C1340',
-                                    'Casos importados en el día': '#B01E22'
+                                    'Casos no importados en el día': '#B01E22',
+                                    'Casos importados en el día': '#1C1340'
                                 }
                             },
                             axis: {
@@ -1106,14 +1135,14 @@ function run_calculations() {
                                 x: dates[0],
                                 columns: [
                                     dates,
-                                    ['Casos importados de cubanos en el día', ...dailyImported.slice(1).map((day, index) => day-dailyImportedForeing[index+1])],
+                                    dailyImportedCuban,
                                     dailyImportedForeing
                                 ],
                                 type: 'area',
                                 groups: [['Casos importados de cubanos en el día', 'Casos importados de extranjeros en el día']],
                                 colors: {
-                                    'Casos importados de cubanos en el día': '#1C1340',
-                                    'Casos importados de extranjeros en el día': '#B01E22'
+                                    'Casos importados de cubanos en el día': '#B01E22',
+                                    'Casos importados de extranjeros en el día': '#1C1340'
                                 }
                             },
                             axis: {
@@ -1124,6 +1153,66 @@ function run_calculations() {
                                 },
                                 y: {
                                     label: 'Casos',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+                        
+                        // percent dayly imported and national cases
+                        c3.generate({
+                            bindto: "#pdaily-acthome-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    percentNotImported,
+                                    percentImported
+                                ],
+                                type: 'area',
+                                groups: [['% de casos importados en el día', '% de casos no importados en el día']],
+                                colors: {
+                                    '% de casos no importados en el día': '#B01E22',
+                                    '% de casos importados en el día': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Porciento',
+                                    position: 'outer-middle'
+                                }
+                            }
+                        });
+
+                        // percent dayly imported cubans and foreing
+                        c3.generate({
+                            bindto: "#pdaily-actimp-info",
+                            data: {
+                                x: dates[0],
+                                columns: [
+                                    dates,
+                                    percentImportedCuban,
+                                    percentImportedForeing
+                                ],
+                                type: 'area',
+                                groups: [['% de casos importados de cubanos en el día', '% de casos importados de extranjeros en el día']],
+                                colors: {
+                                    '% de casos importados de cubanos en el día': '#B01E22',
+                                    '% de casos importados de extranjeros en el día': '#1C1340'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    show: false
+                                },
+                                y: {
+                                    label: 'Porciento',
                                     position: 'outer-middle'
                                 }
                             }
