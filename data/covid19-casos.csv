@@ -7845,3 +7845,36 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,20,cu,San Luis,Santiago de Cuba,2020/11/21,,desconocido
 ,mujer,51,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,primario
 ,mujer,50,cu,Santiago de Cuba,Santiago de Cuba,2020/11/21,,secundario
+,mujer,39,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,mujer,27,cu,Sandino,Pinar del Río,2020/11/22,,secundario
+,mujer,30,cu,Minas de Matahambre,Pinar del Río,2020/11/22,,secundario
+,mujer,3,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,mujer,29,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,mujer,70,cu,Los Palacios,Pinar del Río,2020/11/22,,primario
+,mujer,3,cu,Sandino,Pinar del Río,2020/11/22,,secundario
+,mujer,21,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,hombre,11,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,mujer,57,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,hombre,66,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,hombre,38,cu,Pinar del Río,Pinar del Río,2020/11/22,,primario
+,hombre,59,cu,Pinar del Río,Pinar del Río,2020/11/22,,secundario
+,mujer,37,cu,San Cristóbal,Artemisa,2020/11/22,,primario
+,mujer,37,cu,Centro Habana,La Habana,2020/11/22,,primario
+,mujer,64,cu,Arroyo Naranjo,La Habana,2020/11/22,,primario
+,hombre,36,cu,Boyeros,La Habana,2020/11/22,,primario
+,hombre,27,cu,Cárdenas,Matanzas,2020/11/22,,primario
+,mujer,32,cu,Matanzas,Matanzas,2020/11/22,,primario
+,hombre,42,cu,Santo Domingo,Villa Clara,2020/11/22,,primario
+,hombre,44,cu,Cienfuegos,Cienfuegos,2020/11/22,,primario
+,hombre,26,cu,Cienfuegos,Cienfuegos,2020/11/22,,primario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,hombre,46,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,hombre,50,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,hombre,36,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,hombre,58,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,mujer,56,cu,Ciego de Ávila,Ciego de Ávila,2020/11/22,,secundario
+,hombre,37,cu,Santiago de Cuba,Santiago de Cuba,2020/11/22,,primario
+,hombre,3,cu,Sango La Maya,Santiago de Cuba,2020/11/22,,secundario
+,mujer,31,cu,Songo La Maya,Santiago de Cuba,2020/11/22,,secundario
+,hombre,29,cu,Songo La Maya,Santiago de Cuba,2020/11/22,,secundario
