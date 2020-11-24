@@ -7894,7 +7894,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,35,cu,Sandino,Pinar del Río,2020/11/23,,secundario
 ,mujer,29,cu,Sandino,Pinar del Río,2020/11/23,,secundario
 ,hombre,41,cu,Viñales,Pinar del Río,2020/11/23,,secundario
-,mujer,31,cu,Guanes,Pinar del Río,2020/11/23,,secundario
+,mujer,31,cu,Guane,Pinar del Río,2020/11/23,,secundario
 ,hombre,68,cu,Pinar del Río,Pinar del Río,2020/11/23,,secundario
 ,mujer,8,cu,Sandino,Pinar del Río,2020/11/23,,secundario
 ,hombre,27,cu,Sandino,Pinar del Río,2020/11/23,,primario
@@ -7925,7 +7925,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,71,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
 ,hombre,14,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
 ,hombre,65,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
-,mujer,56,cu,"Aguada de Pasajeros,",Cienfuegos,2020/11/23,,secundario
+,mujer,56,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
 ,mujer,8,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
 ,hombre,4,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
 ,hombre,4,cu,Cienfuegos,Cienfuegos,2020/11/23,,primario
@@ -7944,7 +7944,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,59,cu,Camagüey,Camagüey,2020/11/23,,primario
 ,hombre,63,cu,Camagüey,Camagüey,2020/11/23,,primario
 ,mujer,50,cu,Camagüey,Camagüey,2020/11/23,,primario
-,hombre,66,cu,Sango La Maya,Santiago de Cuba,2020/11/23,,secundario
+,hombre,66,cu,Songo La Maya,Santiago de Cuba,2020/11/23,,secundario
 ,mujer,18,cu,Songo La Maya,Santiago de Cuba,2020/11/23,,secundario
 ,mujer,29,cu,Songo La Maya,Santiago de Cuba,2020/11/23,,secundario
 ,hombre,33,cu,Santiago de Cuba,Santiago de Cuba,2020/11/23,,primario
