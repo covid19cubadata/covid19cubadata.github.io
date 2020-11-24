@@ -7878,3 +7878,74 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,3,cu,Songo La Maya,Santiago de Cuba,2020/11/22,,secundario
 ,mujer,31,cu,Songo La Maya,Santiago de Cuba,2020/11/22,,secundario
 ,hombre,29,cu,Songo La Maya,Santiago de Cuba,2020/11/22,,secundario
+,mujer,54,cu,Pinar del Río,Pinar del Río,2020/11/23,,secundario
+,hombre,85,cu,Pinar del Río,Pinar del Río,2020/11/23,,secundario
+,mujer,16,cu,Pinar del Río,Pinar del Río,2020/11/23,,desconocido
+,hombre,67,cu,Pinar del Río,Pinar del Río,2020/11/23,,secundario
+,mujer,30,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,mujer,30,cu,Sandino,Pinar del Río,2020/11/23,,primario
+,mujer,21,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,mujer,44,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,hombre,2,cu,Sandino,Pinar del Río,2020/11/23,,primario
+,mujer,53,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,mujer,6,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,mujer,56,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,hombre,60,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,hombre,35,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,mujer,29,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,hombre,41,cu,Viñales,Pinar del Río,2020/11/23,,secundario
+,mujer,31,cu,Guanes,Pinar del Río,2020/11/23,,secundario
+,hombre,68,cu,Pinar del Río,Pinar del Río,2020/11/23,,secundario
+,mujer,8,cu,Sandino,Pinar del Río,2020/11/23,,secundario
+,hombre,27,cu,Sandino,Pinar del Río,2020/11/23,,primario
+,hombre,37,cu,Arroyo Naranjo,La Habana,2020/11/23,,primario
+,hombre,31,cu,Cerro,La Habana,2020/11/23,,primario
+,mujer,74,cu,Centro Habana,La Habana,2020/11/23,,primario
+,hombre,35,cu,La Lisa,La Habana,2020/11/23,,primario
+,mujer,58,cu,San Miguel del Padrón,La Habana,2020/11/23,,primario
+,hombre,35,cu,Habana del Este,La Habana,2020/11/23,,secundario
+,mujer,58,cu,San Miguel del Padrón,La Habana,2020/11/23,,primario
+,mujer,30,cu,Plaza de la Revolución,La Habana,2020/11/23,,primario
+,hombre,40,cu,Centro Habana,La Habana,2020/11/23,,primario
+,hombre,59,cu,Playa,La Habana,2020/11/23,,primario
+,hombre,44,cu,Martí,Matanzas,2020/11/23,,primario
+,mujer,1,cu,Cárdenas,Matanzas,2020/11/23,,secundario
+,hombre,48,cu,Matanzas,Matanzas,2020/11/23,,primario
+,mujer,57,cu,Cárdenas,Matanzas,2020/11/23,,primario
+,mujer,33,cu,Cárdenas,Matanzas,2020/11/23,,secundario
+,mujer,44,cu,Jovellanos,Matanzas,2020/11/23,,secundario
+,mujer,37,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,12,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,mujer,41,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,45,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,mujer,16,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,mujer,34,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,36,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,23,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,71,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,14,cu,Santo Domingo,Villa Clara,2020/11/23,,secundario
+,hombre,65,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
+,mujer,56,cu,"Aguada de Pasajeros,",Cienfuegos,2020/11/23,,secundario
+,mujer,8,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
+,hombre,4,cu,Aguada de Pasajeros,Cienfuegos,2020/11/23,,secundario
+,hombre,4,cu,Cienfuegos,Cienfuegos,2020/11/23,,primario
+,hombre,32,cu,Cienfuegos,Cienfuegos,2020/11/23,,primario
+,mujer,53,cu,Sancti Spíritus,Sancti Spíritus,2020/11/23,,secundario
+,hombre,39,ru,Morón,Ciego de Ávila,2020/11/23,,primario
+,hombre,55,ru,Morón,Ciego de Ávila,2020/11/23,,primario
+,mujer,33,ru,Morón,Ciego de Ávila,2020/11/23,,primario
+,mujer,58,ru,Morón,Ciego de Ávila,2020/11/23,,primario
+,hombre,59,ru,Morón,Ciego de Ávila,2020/11/23,,primario
+,hombre,54,cu,Morón,Ciego de Ávila,2020/11/23,,secundario
+,mujer,31,cu,Florida,Camagüey,2020/11/23,,secundario
+,hombre,45,cu,Camagüey,Camagüey,2020/11/23,,primario
+,mujer,23,cu,Florida,Camagüey,2020/11/23,,primario
+,hombre,32,cu,Camagüey,Camagüey,2020/11/23,,secundario
+,hombre,59,cu,Camagüey,Camagüey,2020/11/23,,primario
+,hombre,63,cu,Camagüey,Camagüey,2020/11/23,,primario
+,mujer,50,cu,Camagüey,Camagüey,2020/11/23,,primario
+,hombre,66,cu,Sango La Maya,Santiago de Cuba,2020/11/23,,secundario
+,mujer,18,cu,Songo La Maya,Santiago de Cuba,2020/11/23,,secundario
+,mujer,29,cu,Songo La Maya,Santiago de Cuba,2020/11/23,,secundario
+,hombre,33,cu,Santiago de Cuba,Santiago de Cuba,2020/11/23,,primario
+,mujer,33,cu,Isla de la Juventud,Isla de la Juventud,2020/11/23,,primario
