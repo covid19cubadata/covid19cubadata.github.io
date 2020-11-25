@@ -7949,3 +7949,79 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,29,cu,Songo La Maya,Santiago de Cuba,2020/11/23,,secundario
 ,hombre,33,cu,Santiago de Cuba,Santiago de Cuba,2020/11/23,,primario
 ,mujer,33,cu,Isla de la Juventud,Isla de la Juventud,2020/11/23,,primario
+,mujer,34,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,hombre,53,cu,Guane,Pinar del Río,2020/11/24,,secundario
+,mujer,33,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,hombre,60,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,33,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,hombre,26,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,46,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,24,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,hombre,6,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,66,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,hombre,73,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,30,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,8,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,hombre,32,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,mujer,78,cu,Consolación del Sur,Pinar del Río,2020/11/24,,secundario
+,mujer,57,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,64,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,2,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,37,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,70,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,48,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,hombre,10,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,17,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,hombre,28,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,mujer,61,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,hombre,29,cu,Consolación del Sur,Pinar del Río,2020/11/24,,secundario
+,mujer,66,cu,Sandino,Pinar del Río,2020/11/24,,secundario
+,hombre,1,cu,Pinar del Río,Pinar del Río,2020/11/24,,secundario
+,hombre,68,cu,Bauta,Artemisa,2020/11/24,,primario
+,mujer,56,mx,Candelaria,Artemisa,2020/11/24,,primario
+,mujer,63,cu,Caimito,Artemisa,2020/11/24,,primario
+,hombre,46,cu,Cerro,La Habana,2020/11/24,,primario
+,hombre,42,cu,Habana del Este,La Habana,2020/11/24,,primario
+,mujer,30,cu,Habana del Este,La Habana,2020/11/24,,primario
+,mujer,48,cu,La Lisa,La Habana,2020/11/24,,primario
+,hombre,50,cu,Cienfuegos,Cienfuegos,2020/11/24,,primario
+,hombre,31,cu,Cienfuegos,Cienfuegos,2020/11/24,,primario
+,hombre,,cu,Palmira,Cienfuegos,2020/11/24,,primario
+,hombre,32,ru,Morón,Ciego de Ávila,2020/11/24,,primario
+,hombre,30,ru,Morón,Ciego de Ávila,2020/11/24,,secundario
+,mujer,59,cu,Baraguá,Ciego de Ávila,2020/11/24,,primario
+,mujer,62,cu,Urbano Noris,Holguín,2020/11/24,,secundario
+,mujer,57,cu,Urbano Noris,Holguí,2020/11/24,,primario
+,hombre,45,cu,Holguín,Holguín,2020/11/24,,primario
+,mujer,68,cu,Urbano Noris,Holguín,2020/11/24,,secundario
+,mujer,60,cu,Urbano Noris,Holguín,2020/11/24,,secundario
+,mujer,36,cu,Urbano Noris,Holguín,2020/11/24,,secundario
+,mujer,53,cu,Bayamo,Granma,2020/11/24,,primario
+,hombre,18,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,mujer,21,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,hombre,45,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,primario
+,hombre,29,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,hombre,24,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,hombre,24,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,5,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,84,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,34,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,41,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,35,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,27,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,5,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,18,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,18,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,37,cu,Palma Soriano,Santiago de Cuba,2020/11/24,,secundario
+,hombre,38,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,hombre,50,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,48,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,mujer,39,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,mujer,45,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
+,mujer,57,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,desconocido
+,mujer,19,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,desconocido
+,mujer,45,cu,Palma Soriano,Santiago de Cuba,2020/11/24,,desconocido
+,mujer,37,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,desconocido
+,mujer,33,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,65,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,desconocido
