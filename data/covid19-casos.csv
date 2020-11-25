@@ -7991,7 +7991,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,30,ru,Morón,Ciego de Ávila,2020/11/24,,secundario
 ,mujer,59,cu,Baraguá,Ciego de Ávila,2020/11/24,,primario
 ,mujer,62,cu,Urbano Noris,Holguín,2020/11/24,,secundario
-,mujer,57,cu,Urbano Noris,Holguí,2020/11/24,,primario
+,mujer,57,cu,Urbano Noris,Holguín,2020/11/24,,primario
 ,hombre,45,cu,Holguín,Holguín,2020/11/24,,primario
 ,mujer,68,cu,Urbano Noris,Holguín,2020/11/24,,secundario
 ,mujer,60,cu,Urbano Noris,Holguín,2020/11/24,,secundario
@@ -8003,16 +8003,16 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,29,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
 ,hombre,24,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
 ,mujer,60,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
-,hombre,24,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,5,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,84,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,34,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,41,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,35,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,27,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,5,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,18,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
-,hombre,18,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,24,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,5,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,84,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,34,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,41,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,35,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,27,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,5,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,18,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
+,hombre,18,cu,Songo La Maya,Santiago de Cuba,2020/11/24,,secundario
 ,hombre,37,cu,Palma Soriano,Santiago de Cuba,2020/11/24,,secundario
 ,hombre,38,cu,Santiago de Cuba,Santiago de Cuba,2020/11/24,,secundario
 ,hombre,50,cu,Songo la Maya,Santiago de Cuba,2020/11/24,,secundario
