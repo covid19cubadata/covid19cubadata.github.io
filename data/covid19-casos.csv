@@ -7986,7 +7986,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,48,cu,La Lisa,La Habana,2020/11/24,,primario
 ,hombre,50,cu,Cienfuegos,Cienfuegos,2020/11/24,,primario
 ,hombre,31,cu,Cienfuegos,Cienfuegos,2020/11/24,,primario
-,hombre,,cu,Palmira,Cienfuegos,2020/11/24,,primario
+,hombre,32,cu,Palmira,Cienfuegos,2020/11/24,,primario
 ,hombre,32,ru,Morón,Ciego de Ávila,2020/11/24,,primario
 ,hombre,30,ru,Morón,Ciego de Ávila,2020/11/24,,secundario
 ,mujer,59,cu,Baraguá,Ciego de Ávila,2020/11/24,,primario
