@@ -8074,3 +8074,38 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,34,cu,Santiago de Cuba,Santiago de Cuba,2020/11/25,,primario
 ,hombre,35,cu,Caimanera,Guantánamo,2020/11/25,,primario
 ,hombre,51,cu,Guantánamo,Guantánamo,2020/11/25,,primario
+,hombre,25,cu,Pinar del Río,Pinar del Río,2020/11/26,,primario
+,mujer,53,cu,Artemisa,Artemisa,2020/11/26,,primario
+,hombre,43,cu,Guanabacoa,La Habana,2020/11/26,,primario
+,hombre,47,cu,Arroyo Naranjo,La Habana,2020/11/26,,primario
+,hombre,32,cu,Cotorro,La Habana,2020/11/26,,primario
+,hombre,51,cu,Cerro,La Habana,2020/11/26,,primario
+,mujer,49,cu,La Lisa,La Habana,2020/11/26,,primario
+,mujer,13,cu,La Lisa,La Habana,2020/11/26,,secundario
+,hombre,7,cu,La Lisa,La Habana,2020/11/26,,secundario
+,hombre,47,cu,Marianao,La Habana,2020/11/26,,primario
+,hombre,58,cu,Diez de Octubre,La Habana,2020/11/26,,primario
+,mujer,56,cu,Diez de Octubre,La Habana,2020/11/26,,primario
+,mujer,50,cu,Cárdenas,Matanzas,2020/11/26,,secundario
+,hombre,42,cu,Cienfuegos,Cienfuegos,2020/11/26,,primario
+,mujer,67,cu,Cienfuegos,Cienfuegos,2020/11/26,,primario
+,mujer,18,us,Caibarién,Villa Clara,2020/11/26,,primario
+,mujer,18,cu,Camajuaní,Villa Clara,2020/11/26,,desconocido
+,hombre,54,cu,Yaguajay,Sancti Spíritus,2020/11/26,,primario
+,hombre,52,cu,Yaguajay,Sancti Spíritus,2020/11/26,,primario
+,hombre,41,cu,Trinidad,Sancti Spíritus,2020/11/26,,primario
+,hombre,40,cu,Trinidad,Sancti Spíritus,2020/11/26,,primario
+,hombre,47,ru,Morón,Ciego de Ávila,2020/11/26,,primario
+,hombre,30,ru,Morón,Ciego de Ávila,2020/11/26,,primario
+,mujer,32,ru,Morón,Ciego de Ávila,2020/11/26,,primario
+,mujer,27,ru,Morón,Ciego de Ávila,2020/11/26,,primario
+,hombre,35,ru,Morón,Ciego de Ávila,2020/11/26,,primario
+,hombre,32,cu,Ciego de Ávila,Ciego de Ávila,2020/11/26,,secundario
+,hombre,42,cu,Camagüey,Camagüey,2020/11/26,,primario
+,mujer,31,cu,Florida,Camagüey,2020/11/26,,primario
+,hombre,56,nl,Mayarí,Holguín,2020/11/26,,primario
+,mujer,69,cu,Guisa,Granma,2020/11/26,,primario
+,hombre,25,cu,Songo La Maya,Santiago de Cuba,2020/11/26,,desconocido
+,hombre,5,cu,Songo La Maya,Santiago de Cuba,2020/11/26,,secundario
+,mujer,37,cu,Santiago de Cuba,Santiago de Cuba,2020/11/26,,primario
+,hombre,50,cu,Contramaestre,Santiago de Cuba,2020/11/26,,primario
