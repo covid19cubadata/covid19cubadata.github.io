@@ -8109,3 +8109,66 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,5,cu,Songo La Maya,Santiago de Cuba,2020/11/26,,secundario
 ,mujer,37,cu,Santiago de Cuba,Santiago de Cuba,2020/11/26,,primario
 ,hombre,50,cu,Contramaestre,Santiago de Cuba,2020/11/26,,primario
+,mujer,33,cu,Pinar del Río,Pinar del Río,2020/11/27,,secundario
+,hombre,26,cu,Pinar del Río,Pinar del Río,2020/11/27,,secundario
+,hombre,19,cu,Sandino,Pinar del Río,2020/11/27,,secundario
+,mujer,1,cu,Pinar del Río,Pinar del Río,2020/11/27,,secundario
+,mujer,57,cu,Sandino,Pinar del Río,2020/11/27,,secundario
+,mujer,48,cu,Sandino,Pinar del Río,2020/11/27,,secundario
+,mujer,23,cu,Sandino,Pinar del Río,2020/11/27,,secundario
+,hombre,74,cu,Pinar del Río,Pinar del Río,2020/11/27,,secundario
+,mujer,92,cu,Pinar del Río,pinar del Río,2020/11/27,,secundario
+,hombre,51,cu,Cerro,La Habana,2020/11/27,,primario
+,hombre,47,cu,Plaza de la Revolución,La Habana,2020/11/27,,primario
+,mujer,63,cu,Playa,La Habana,2020/11/27,,primario
+,mujer,45,cu,Arroyo Naranjo,La Habana,2020/11/27,,primario
+,hombre,49,cu,Arroyo Naranjo,La Habana,2020/11/27,,primario
+,hombre,69,cu,Arroyo Naranjo,La Habana,2020/11/27,,secundario
+,mujer,21,cu,Arroyo Naranjo,La Habana,2020/11/27,,secundario
+,mujer,66,cu,Centro Habana,La Habana,2020/11/27,,primario
+,mujer,20,cu,Arroyo Naranja,La Habana,2020/11/27,,primario
+,mujer,38,cu,Guanabacoa,La Habana,2020/11/27,,primario
+,hombre,33,us,La Habana Vieja,La Habana,2020/11/27,,primario
+,mujer,16,cu,Cerro,La Habana,2020/11/27,,primario
+,mujer,42,cu,Cerro,La Habana,2020/11/27,,primario
+,hombre,34,cu,Regla,La Habana,2020/11/27,,primario
+,hombre,48,cu,Playa,La Habana,2020/11/27,,primario
+,hombre,57,us,Habana del Este,La Habana,2020/11/27,,primario
+,hombre,50,cu,Cotorro,La Habana,2020/11/27,,primario
+,hombre,44,cu,Güines,Mayabeque,2020/11/27,,primario
+,hombre,44,cu,Güines,Mayabeque,2020/11/27,,primario
+,mujer,46,cu,San José de las Lajas,Mayabeque,2020/11/27,,primario
+,hombre,51,do,Cárdenas,Matanzas,2020/11/27,,primario
+,mujer,68,cu,Cárdenas,Matanzas,2020/11/27,,primario
+,mujer,35,cu,Jovellanos,Matanzas,2020/11/27,,secundario
+,hombre,60,cu,Jovellanos,Matanzas,2020/11/27,,secundario
+,hombre,56,cu,Jovellanos,Matanzas,2020/11/27,,secundario
+,hombre,48,cu,Jovellanos,Matanzas,2020/11/27,,primario
+,mujer,29,cu,Matanzas,Matanzas,2020/11/27,,secundario
+,hombre,35,cu,Matanzas,Matanzas,2020/11/27,,secundario
+,hombre,7,cu,Matanzas,Matanzas,2020/11/27,,secundario
+,mujer,11,cu,Martí,Matanzas,2020/11/27,,secundario
+,hombre,45,cu,Corralillo,Villa Clara,2020/11/27,,primario
+,hombre,64,cu,Manicaragua,Villa Clara,2020/11/27,,secundario
+,mujer,64,cu,Camajuaní,Villa Clara,2020/11/27,,secundario
+,mujer,56,cu,Santa Clara,Villa Clara,2020/11/27,,primario
+,hombre,10,cu,Santo Domingo,Villa Clara,2020/11/27,,secundario
+,mujer,56,cu,Manicaragua,Villa Clara,2020/11/27,,secundario
+,hombre,53,cu,Manicaragua,Villa Clara,2020/11/27,,secundario
+,hombre,45,cu,Cumanayagua,Cienfuegos,2020/11/27,,primario
+,hombre,30,cu,Palmira,Cienfuegos,2020/11/27,,primario
+,hombre,12,cu,Cienfuegos,Cienfuegos,2020/11/27,,secundario
+,mujer,23,cu,Aguada de Pasajeros,Cienfuegos,2020/11/27,,secundario
+,hombre,48,cu,Sancti Spíritus,Sancti Spíritus,2020/11/27,,primario
+,mujer,26,cu,Cabaiguán,Sancti Spíritus,2020/11/27,,primario
+,hombre,34,cu,Majagua,Ciego de Ávila,2020/11/27,,primario
+,hombre,38,cu,Ciego de Ávila,Ciego de Ávila,2020/11/27,,secundario
+,hombre,60,cu,Camagüey,Camagüey,2020/11/27,,secundario
+,hombre,57,cu,Camagüey,Camagüey,2020/11/27,,secundario
+,hombre,48,ca,Banes,Holguín,2020/11/27,,primario
+,mujer,38,cu,Songo la Maya,Santiago de Cuba,2020/11/27,,secundario
+,hombre,9,cu,Songo la Maya,Santiago de Cuba,2020/11/27,,secundario
+,mujer,16,cu,Songo la Maya,Santiago de Cuba,2020/11/27,,secundario
+,hombre,21,cu,Songo la Maya,Santiago de Cuba,2020/11/27,,secundario
+,mujer,47,cu,Songo la Maya,Santiago de Cuba,2020/11/27,,secundario
+,hombre,9,cu,Isla de la Juventud,Isla de la Juventud,2020/11/27,,primario
