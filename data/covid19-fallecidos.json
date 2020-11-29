@@ -3227,6 +3227,29 @@
             },
             "262": {
                 "fecha": "2020/11/27"
+            },
+            "263": {
+                "fecha": "2020/11/28",
+                "fallecidos": [
+                    {
+                        "id": "f-134",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "dv",
+                            "fc",
+                            "dn"
+                        ],
+                        "texto": "Falleció ciudadano cubano de 88 años de edad. Residía en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Demencia vascular, Fractura de cadera y Desnutrición crónica. Paciente que ingresa en un centro de aislamiento realizándole PCR ese mismo día y se confirma positivo a la COVID -19. Es trasladado e ingresado en el hospital, en sala de  Terapia Intensiva donde se recibe vigil, sin cooperar al interrogatorio, con rigidez generalizada y lesiones por presión en región sacra y calcáneos. El día 27 de noviembre muestra polipnea ligera por acidemia respiratoria, son realizadas correcciones del desajuste metabólico. El día 28 de noviembre en horas de la madrugada presenta parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Se realiza necropsia."
+                    }
+                ]
             }
         }
     }
