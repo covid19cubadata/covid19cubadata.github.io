@@ -8172,3 +8172,63 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,21,cu,Songo La Maya,Santiago de Cuba,2020/11/27,,secundario
 ,mujer,47,cu,Songo La Maya,Santiago de Cuba,2020/11/27,,secundario
 ,hombre,9,cu,Isla de la Juventud,Isla de la Juventud,2020/11/27,,primario
+,hombre,51,cu,Consolación del Sur,Pinar del Río,2020/11/28,,primario
+,mujer,46,cu,Consolación del Sur,Pinar del Río,2020/11/28,,desconocido
+,mujer,51,cu,Sandino,Pinar del Río,2020/11/28,,secundario
+,mujer,22,cu,Sandino,Pinar del Río,2020/11/28,,secundario
+,mujer,72,cu,Sandino,Pinar del Río,2020/11/28,,secundario
+,mujer,47,cu,Sandino,Pinar del Río,2020/11/28,,secundario
+,mujer,54,cu,Sandino,Pinar del Río,2020/11/28,,secundario
+,mujer,31,cu,Guane,Pinar del Río,2020/11/28,,primario
+,hombre,43,cu,Caimito,Artemisa,2020/11/28,,secundario
+,hombre,25,cu,San Cristóbal,Artemisa,2020/11/28,,primario
+,hombre,66,cu,Artemisa,Artemisa,2020/11/28,,primario
+,hombre,22,cu,Caimito,Artemisa,2020/11/28,,primario
+,hombre,43,cu,Regla,La Habana,2020/11/28,,desconocido
+,mujer,43,cu,Regla,La Habana,2020/11/28,,primario
+,hombre,45,cu,Cerro,La Habana,2020/11/28,,primario
+,mujer,20,cu,Regla,La Habana,2020/11/28,,primario
+,hombre,22,cu,Regla,La Habana,2020/11/28,,primario
+,hombre,47,cu,La Habana Vieja,La Habana,2020/11/28,,primario
+,hombre,42,cu,Cotorro,La Habana,2020/11/28,,primario
+,mujer,57,cu,Diez de Octubre,La Habana,2020/11/28,,primario
+,hombre,24,cu,La Habana Vieja,La Habana,2020/11/28,,primario
+,mujer,55,cu,La Habana Vieja,La Habana,2020/11/28,,primario
+,mujer,52,cu,Plaza de la Revolución,La Habana,2020/11/28,,primario
+,mujer,75,cu,Plaza de la Revolución,La Habana,2020/11/28,,primario
+,mujer,56,cu,Centro Habana,La Habana,2020/11/28,,primario
+,mujer,58,cu,Marianao,La Habana,2020/11/28,,primario
+,hombre,56,cu,San Miguel del Padrón,La Habana,2020/11/28,,primario
+,mujer,59,cu,San Miguel del Padrón,La Habana,2020/11/28,,primario
+,hombre,37,cu,Habana del Este,La Habana,2020/11/28,,primario
+,hombre,32,cu,Cerro,La Habana,2020/11/28,,primario
+,hombre,68,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,25,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,76,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,53,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,34,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,hombre,41,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,hombre,78,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,59,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,hombre,60,cu,Cienfuegos,Cienfuegos,2020/11/28,,primario
+,mujer,54,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,hombre,50,cu,Cienfuegos,Cienfuegos,2020/11/28,,primario
+,mujer,37,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,30,cu,Palmira,Cienfuegos,2020/11/28,,primario
+,hombre,50,cu,Palmira,Cienfuegos,2020/11/28,,secundario
+,mujer,32,bo,Santa Clara,Villa Clara,2020/11/28,,secundario
+,hombre,40,cu,Camajuaní,Villa Clara,2020/11/28,,primario
+,hombre,48,cu,Ranchuelo,Villa Clara,2020/11/28,,primario
+,mujer,67,cu,Manicaragua,Villa Clara,2020/11/28,,secundario
+,hombre,38,cu,Santo Domingo,Villa Clara,2020/11/28,,secundario
+,hombre,45,cu,Corralillo,Villa Clara,2020/11/28,,primario
+,hombre,12,cu,Morón,Ciego de Ávila,2020/11/28,,desconocido
+,mujer,49,ru,Morón,Ciego de Ávila,2020/11/28,,primario
+,mujer,26,cu,Morón,Ciego de Ávila,2020/11/28,,primario
+,mujer,33,ru,Morón,Ciego de Ávila,2020/11/28,,primario
+,mujer,30,cu,Camagüey,Camagüey,2020/11/28,,secundario
+,hombre,26,cu,Florida,Camagüey,2020/11/28,,desconocido
+,hombre,31,cu,Holguín,Holguín,2020/11/28,,primario
+,hombre,26,cu,Songo la Maya,Santiago de Cuba,2020/11/28,,secundario
+,mujer,13,cu,Songo la Maya,Santiago de Cuba,2020/11/28,,secundario
+,mujer,53,cu,Isla de la Juventud,Isla de la Juventud,2020/11/28,,primario
