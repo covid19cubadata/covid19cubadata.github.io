@@ -31,7 +31,8 @@ let domains = {
     "ch": "Suiza",
     "de": "Alemania",
     "pr": "Puerto Rico",
-    "ar": "Argentina"
+    "ar": "Argentina",
+    "nl": "Países Bajos"
 };
 
 $(function () {

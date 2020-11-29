@@ -31,7 +31,8 @@ var domains = {
     "ch": "Suiza",
     "de": "Alemania",
     "pr": "Puerto Rico",
-    "ar": "Argentina"
+    "ar": "Argentina",
+    "nl": "Países Bajos"
 };
 
 
@@ -1039,7 +1040,7 @@ function run_calculations() {
                             deadsSum.push(deads);
                             cuba.push(total);
                             importados.push(imported);
-                            if(cuba.length===16){
+                            if(cuba.length===16){ 
                                  let num = cuba[cuba.length-1] - importados[importados.length-1];
                                  tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
                              }
@@ -1097,6 +1098,7 @@ function run_calculations() {
 								percentImportedCuban.push(null);
 							}
 						}
+						
 						
                         // dayly imported and national cases
                         c3.generate({
@@ -1373,6 +1375,8 @@ function run_calculations() {
 								hosp_no_conf.push(null);
 							}
 						}
+						
+						console.log(dates);
 
 						//Hospitalización
                         c3.generate({
@@ -1650,6 +1654,8 @@ function run_calculations() {
                         $('#munscurve-select1').off('change').on('change', function () {
                             var val = $('#munscurve-select1').val();
                             municipalitylectd1 = val;
+                            
+                            console.log(dias,munscurves[municipalitylectd1]['data'],munscurves[municipalitylectd2]['data']);
 
                             comparison3 = c3.generate({
                                 bindto: "#municipalyties-curve",
@@ -1679,6 +1685,8 @@ function run_calculations() {
                         $('#munscurve-select2').off('change').on('change', function () {
                             var val = $('#munscurve-select2').val();
                             municipalitylectd2 = val;
+                            
+                            console.log(dias,munscurves[municipalitylectd1]['data'],munscurves[municipalitylectd2]['data']);
 
                             comparison3 = c3.generate({
                                 bindto: "#municipalyties-curve",
