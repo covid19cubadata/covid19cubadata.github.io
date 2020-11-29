@@ -8229,6 +8229,6 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,30,cu,Camagüey,Camagüey,2020/11/28,,secundario
 ,hombre,26,cu,Florida,Camagüey,2020/11/28,,desconocido
 ,hombre,31,cu,Holguín,Holguín,2020/11/28,,primario
-,hombre,26,cu,Songo la Maya,Santiago de Cuba,2020/11/28,,secundario
-,mujer,13,cu,Songo la Maya,Santiago de Cuba,2020/11/28,,secundario
+,hombre,26,cu,Songo La Maya,Santiago de Cuba,2020/11/28,,secundario
+,mujer,13,cu,Songo La Maya,Santiago de Cuba,2020/11/28,,secundario
 ,mujer,53,cu,Isla de la Juventud,Isla de la Juventud,2020/11/28,,primario
