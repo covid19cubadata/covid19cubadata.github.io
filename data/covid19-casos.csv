@@ -8232,3 +8232,54 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,26,cu,Songo La Maya,Santiago de Cuba,2020/11/28,,secundario
 ,mujer,13,cu,Songo La Maya,Santiago de Cuba,2020/11/28,,secundario
 ,mujer,53,cu,Isla de la Juventud,Isla de la Juventud,2020/11/28,,primario
+,mujer,74,cu,Pinar del Río,Pinar del Río,2020/11/29,,secundario
+,mujer,47,cu,Pinar del Río,Pinar del Río,2020/11/29,,secundario
+,mujer,59,cu,Pinar del Río,Pinar del Río,2020/11/29,,secundario
+,hombre,46,cu,Guane,Pinar del Río,2020/11/29,,secundario
+,mujer,73,cu,San Antonio de los Baños,Artemisa,2020/11/29,,primario
+,mujer,81,cu,Habana del Este,La Habana,2020/11/29,,primario
+,hombre,55,cu,Centro Habana,La Habana,2020/11/29,,desconocido
+,mujer,40,cu,Guanabacoa,La Habana,2020/11/29,,primario
+,mujer,70,cu,San Miguel del Padrón,La Habana,2020/11/29,,primario
+,mujer,38,cu,La Lisa,La Habana,2020/11/29,,primario
+,hombre,76,cu,Cotorro,La Habana,2020/11/29,,desconocido
+,mujer,39,cu,Cerro,La Habana,2020/11/29,,secundario
+,hombre,15,cu,Cerro,La Habana,2020/11/29,,secundario
+,mujer,53,ru,Boyeros,La Habana,2020/11/29,,primario
+,hombre,54,cu,La Lisa,La Habana,2020/11/29,,primario
+,hombre,29,cu,Cerro,La Habana,2020/11/29,,primario
+,mujer,67,cu,Plaza de la Revolución,La Habana,2020/11/29,,primario
+,mujer,67,cu,San Miguel del Padrón,La Habana,2020/11/29,,primario
+,mujer,18,cu,San José de Las Lajas,Mayabeque,2020/11/29,,primario
+,mujer,76,cu,Güines,Mayabeque,2020/11/29,,secundario
+,mujer,28,cu,Güines,Mayabeque,2020/11/29,,secundario
+,hombre,32,cu,Güines,Mayabeque,2020/11/29,,primario
+,hombre,50,cu,San José de las Lajas,Mayabeque,2020/11/29,,primario
+,mujer,70,cu,Martí,Matanzas,2020/11/29,,secundario
+,mujer,65,cu,Unión de Reyes,Matanzas,2020/11/29,,secundario
+,mujer,60,cu,Cárdenas,Matanzas,2020/11/29,,primario
+,hombre,42,cu,Cárdenas,Matanzas,2020/11/29,,primario
+,hombre,61,cu,Cumanayagua,Cienfuegos,2020/11/29,,primario
+,hombre,61,cu,Cruces,Cienfuegos,2020/11/29,,primario
+,hombre,44,cu,Cruces,Cienfuegos,2020/11/29,,secundario
+,hombre,20,cu,Cruces,Cienfuegos,2020/11/29,,secundario
+,hombre,46,cu,Cruces,Cienfuegos,2020/11/29,,secundario
+,mujer,39,cu,Cruces,Cienfuegos,2020/11/29,,secundario
+,hombre,53,cu,Cruces,Cienfuegos,2020/11/29,,secundario
+,mujer,61,cu,Manicaragua,Villa Clara,2020/11/29,,secundario
+,mujer,55,cu,Manicaragua,Villa Clara,2020/11/29,,secundario
+,hombre,57,cu,Manicaragua,Villa Clara,2020/11/29,,secundario
+,hombre,60,cu,Sancti Spíritus,Sancti Spíritus,2020/11/29,,primario
+,mujer,31,cu,Sancti Spíritus,Sancti Spíritus,2020/11/29,,secundario
+,mujer,49,cu,Sancti Spíritus,Sancti Spíritus,2020/11/29,,secundario
+,hombre,52,cu,Sancti Spíritus,Sancti Spíritus,2020/11/29,,secundario
+,hombre,53,ru,Morón,Ciego de Ávila,2020/11/29,,primario
+,hombre,50,ru,Morón,Ciego de Ávila,2020/11/29,,primario
+,hombre,51,cu,Morón,Ciego de Ávila,2020/11/29,,secundario
+,mujer,23,cu,Morón,Ciego de Ávila,2020/11/29,,primario
+,hombre,40,cu,Camagüey,Camagüey,2020/11/29,,primario
+,hombre,35,cu,Camagüey,Camagüey,2020/11/29,,desconocido
+,hombre,23,cu,Florida,Camagüey,2020/11/29,,primario
+,mujer,23,cu,Rafael Freyre,Holguín,2020/11/29,,primario
+,hombre,33,cu,Santiago de Cuba,Santiago de Cuba,2020/11/29,,secundario
+,hombre,21,cu,Songo La Maya,Santiago de Cuba,2020/11/29,,secundario
