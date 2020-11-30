@@ -3250,6 +3250,28 @@
                         "texto": "Falleció ciudadano cubano de 88 años de edad. Residía en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Demencia vascular, Fractura de cadera y Desnutrición crónica. Paciente que ingresa en un centro de aislamiento realizándole PCR ese mismo día y se confirma positivo a la COVID -19. Es trasladado e ingresado en el hospital, en sala de  Terapia Intensiva donde se recibe vigil, sin cooperar al interrogatorio, con rigidez generalizada y lesiones por presión en región sacra y calcáneos. El día 27 de noviembre muestra polipnea ligera por acidemia respiratoria, son realizadas correcciones del desajuste metabólico. El día 28 de noviembre en horas de la madrugada presenta parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Se realiza necropsia."
                     }
                 ]
+            },
+            "264": {
+                "fecha": "2020/11/29",
+                "fallecidos": [
+                    {
+                        "id": "f-135",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de75 años de edad, que residía en el municipio Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus. El 25 de noviembre en horas de la noche, presenta fiebre y falta de aire intensa, es llevado por los familiares al Hospital, donde fue ingresado en la Unidad de Cuidados Intensivos en agobio respiratorio con hipotensión arterial y cianosis, fue intubado y ventilado en modalidad controlada, apoyado con aminas a altas dosis, es tratado con Kaletra, esteroides, Heparina de Bajo Peso Molecular a dosis terapéutica, eritropoyetina y Jusvinza. Presenta parada cardio-respiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente fallece. Se toma muestra de tejido pulmonar. Resultado de PCR de tejido pulmonar: Positivo. 28 de noviembre de 2020."
+                    }
+                ]
             }
         }
     }
