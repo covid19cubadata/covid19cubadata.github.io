@@ -3272,6 +3272,26 @@
                         "texto": "Falleció el ciudadano cubano de75 años de edad, que residía en el municipio Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus. El 25 de noviembre en horas de la noche, presenta fiebre y falta de aire intensa, es llevado por los familiares al Hospital, donde fue ingresado en la Unidad de Cuidados Intensivos en agobio respiratorio con hipotensión arterial y cianosis, fue intubado y ventilado en modalidad controlada, apoyado con aminas a altas dosis, es tratado con Kaletra, esteroides, Heparina de Bajo Peso Molecular a dosis terapéutica, eritropoyetina y Jusvinza. Presenta parada cardio-respiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente fallece. Se toma muestra de tejido pulmonar. Resultado de PCR de tejido pulmonar: Positivo. 28 de noviembre de 2020."
                     }
                 ]
+            },
+            "265": {
+                "fecha": "2020/11/30",
+                "fallecidos": [
+                    {
+                        "id": "f-136",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 55 años de edad, residente en el municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Viajero procedente de España que arriba a Cuba el 15 de noviembre, es realizado PCR e indicado aislamiento domiciliario. El día 17 de noviembre se recibe resultado del primer PCR que fue negativo, mantiene aislamiento domiciliario, se encuentra asintomático, es controlado por el Consultorio y el Área de Salud. El 20 de noviembre es indicado PCR evolutivo, obteniéndose resultado negativo el 22 de noviembre, permanece asintomático en el hogar. Los días 22, 23, 24 y 25 de noviembre se mantiene asintomático. El día 26 de noviembre fue conducido por los familiares al hospital Calixto García, no presentaba sintomatología respiratoria, refiriendo coloración cianótica en las extremidades. Fue valorado y retornado al hogar. El día 27 de noviembre en horas de la madrugada es llevado nuevamente por los familiares al Hospital Calixto García por presentar falta de aire intensa, opresión torácica, hipotensión arterial y cianosis generalizada, muestra agobio respiratorio, fue intubado y ventilado. Es trasladado e ingresado a la Unidad de Cuidados Intensivos del IPK, se mantiene intubado y ventilado en modalidad controlada, fue apoyado con aminas a altas dosis. Presenta Distres respiratorio Severo, en el Rayos X lesiones inflamatorias en ambos campos pulmonares. Es iniciado tratamiento con esteroides, Heparina de Bajo Peso Molecular a dosis terapéutica, Eritropoyetina, antibióticos y Jusvinza. El día 28 de noviembre de 2020 muestra empeoramiento clínico, gasométrico y radiológico, hace parada cardiaca en actividad eléctrica sin pulsos, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Paciente fallece. Es realizada necropsia y es identificado COVID-19 en los resultados."
+                    }
+                ]
             }
         }
     }
