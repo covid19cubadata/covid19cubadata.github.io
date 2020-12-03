@@ -8458,7 +8458,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,48,cu,Guane,Pinar del Río,2020/12/02,,secundario
 ,hombre,48,mx,Guane,Pinar del Río,2020/12/02,,primario
 ,mujer,22,cu,Guane,Pinar del Río,2020/12/02,,secundario
-,,23,cu,Guane,Pinar del Río,2020/12/02,,secundario
+,hombre,23,cu,Guane,Pinar del Río,2020/12/02,,secundario
 ,hombre,63,cu,Guane,Pinar del Río,2020/12/02,,secundario
 ,hombre,82,cu,Guane,Pinar del Río,2020/12/02,,secundario
 ,hombre,44,cu,Pinar del Río,Pinar del Río,2020/12/02,,secundario
