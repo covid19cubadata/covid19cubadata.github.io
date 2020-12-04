@@ -8568,7 +8568,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,52,cu,Cotorro,La Habana,2020/12/03,,primario
 ,mujer,29,cu,Cotorro,La Habana,2020/12/03,,secundario
 ,mujer,48,cu,Regla,La Habana,2020/12/03,,primario
-,,1,ru,Habana del Este,La Habana,2020/12/03,,desconocido
+,hombre,1,ru,Habana del Este,La Habana,2020/12/03,,desconocido
 ,mujer,52,cu,Habana del Este,La Habana,2020/12/03,,secundario
 ,mujer,23,cu,Habana del Este,La Habana,2020/12/03,,secundario
 ,mujer,84,cu,Guanabacoa,La Habana,2020/12/03,,secundario
@@ -8592,7 +8592,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,55,cu,Santa Clara,Villa Clara,2020/12/03,,secundario
 ,mujer,69,cu,Santa Clara,Villa Clara,2020/12/03,,secundario
 ,mujer,23,cu,Santa Clara,Villa Clara,2020/12/03,,secundario
-,hombre,2,cu,Santi Spíritus,Sancti Spíritus,2020/12/03,,secundario
+,hombre,2,cu,Sancti Spíritus,Sancti Spíritus,2020/12/03,,secundario
 ,mujer,1,ru,Morón,Ciego de Ávila,2020/12/03,,primario
 ,hombre,50,ru,Morón,Ciego de Ávila,2020/12/03,,primario
 ,mujer,40,ru,Morón,Ciego de Ávila,2020/12/03,,primario
