@@ -924,6 +924,7 @@ function run_calculations() {
                         var dailyImported = ['Casos importados en el día'];
                         var dailyImportedForeing = ['Casos importados de extranjeros en el día'];
                         var tasas = ['Tasa (por 100 mil)']
+                        var tasasAll = ['Tasa (por 100 mil) con importdos']
                         var imported = 0;
                         var deadsSum = ['Total de fallecidos'];
                         var deadsSingle = ['Fallecidos en el día'];
@@ -1040,13 +1041,17 @@ function run_calculations() {
                             deadsSum.push(deads);
                             cuba.push(total);
                             importados.push(imported);
-                            if(cuba.length===16){ 
-                                 let num = cuba[cuba.length-1] - importados[importados.length-1];
-                                 tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                            if(cuba.length===16){
+                                let num = cuba[cuba.length-1];
+                                tasasAll.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                                num = cuba[cuba.length-1] - importados[importados.length-1];
+                                tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
                              }
                              if(cuba.length>16){
-                                 let num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
-                                 tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                                let num = (cuba[cuba.length-1]-cuba[cuba.length-16]);
+                                tasasAll.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                                num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
+                                tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
                              }
                         }
 
@@ -1069,10 +1074,10 @@ function run_calculations() {
 								}
 							}
                         });
-                        
+
                         dailyNotImported = ['Casos no importados en el día',...dailySingle.slice(1).map((day, index) => day-dailyImported[index+1])];
 						dailyImportedCuban = ['Casos importados de cubanos en el día', ...dailyImported.slice(1).map((day, index) => day-dailyImportedForeing[index+1])];
-						
+
 						percentImported = ['% de casos importados en el día'];
 						percentNotImported = ['% de casos no importados en el día'];
 						percentImportedForeing = ['% de casos importados de extranjeros en el día'];
@@ -1098,8 +1103,8 @@ function run_calculations() {
 								percentImportedCuban.push(null);
 							}
 						}
-						
-						
+
+
                         // dayly imported and national cases
                         c3.generate({
                             bindto: "#daily-acthome-info",
@@ -1159,7 +1164,7 @@ function run_calculations() {
                                 }
                             }
                         });
-                        
+
                         // percent dayly imported and national cases
                         c3.generate({
                             bindto: "#pdaily-acthome-info",
@@ -1375,7 +1380,7 @@ function run_calculations() {
 								hosp_no_conf.push(null);
 							}
 						}
-						
+
 						console.log(dates);
 
 						//Hospitalización
@@ -1654,7 +1659,7 @@ function run_calculations() {
                         $('#munscurve-select1').off('change').on('change', function () {
                             var val = $('#munscurve-select1').val();
                             municipalitylectd1 = val;
-                            
+
                             console.log(dias,munscurves[municipalitylectd1]['data'],munscurves[municipalitylectd2]['data']);
 
                             comparison3 = c3.generate({
@@ -1685,7 +1690,7 @@ function run_calculations() {
                         $('#munscurve-select2').off('change').on('change', function () {
                             var val = $('#munscurve-select2').val();
                             municipalitylectd2 = val;
-                            
+
                             console.log(dias,munscurves[municipalitylectd1]['data'],munscurves[municipalitylectd2]['data']);
 
                             comparison3 = c3.generate({
@@ -2051,17 +2056,22 @@ function run_calculations() {
 							} else {
 								alines = alines_nhab;
 							}
-						}
+                        }
+
+                        tasacolors = {};
+                        tasacolors[tasasAll[0]]='#FF7F0E';
+                        tasacolors[tasas[0]]='#00AEEF';
                         c3.generate({
                             bindto: "#tasas-info",
                             data: {
                                 x: dates15[0],
                                 columns: [
                                     dates15,
-                                    tasas
+                                    tasas,
+                                    tasasAll
                                 ],
                                 type: 'line',
-                                colors: colors
+                                colors: tasacolors
                             },
                             axis: {
                                 x: {
