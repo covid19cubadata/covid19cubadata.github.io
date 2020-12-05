@@ -32,7 +32,8 @@ var domains = {
     "de": "Alemania",
     "pr": "Puerto Rico",
     "ar": "Argentina",
-    "nl": "Países Bajos"
+    "nl": "Países Bajos",
+    "bg": "Bulgaria"
 };
 
 
@@ -923,7 +924,8 @@ function run_calculations() {
                         var importados = [];
                         var dailyImported = ['Casos importados en el día'];
                         var dailyImportedForeing = ['Casos importados de extranjeros en el día'];
-                        var tasas = ['Tasa (por 100 mil)']
+                        var tasas = ['Tasa (por 100 mil) sin importados']
+                        var tasasAll = ['Tasa (por 100 mil) con importados']
                         var imported = 0;
                         var deadsSum = ['Total de fallecidos'];
                         var deadsSingle = ['Fallecidos en el día'];
@@ -1041,11 +1043,15 @@ function run_calculations() {
                             cuba.push(total);
                             importados.push(imported);
                             if(cuba.length===16){ 
-                                 let num = cuba[cuba.length-1] - importados[importados.length-1];
+                                 let num = cuba[cuba.length-1];
+                                 tasasAll.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                                 num = cuba[cuba.length-1] - importados[importados.length-1];
                                  tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
                              }
                              if(cuba.length>16){
-                                 let num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
+                                 let num = (cuba[cuba.length-1]-cuba[cuba.length-16]);
+                                 tasasAll.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
+                                 num = (cuba[cuba.length-1]-cuba[cuba.length-16]) - (importados[importados.length-1]-importados[importados.length-16]);
                                  tasas.push((num / population[general_view? 'cuba' : provinces_codes[province_id]]*100000).toFixed(2));
                              }
                         }
@@ -2052,16 +2058,24 @@ function run_calculations() {
 								alines = alines_nhab;
 							}
 						}
+						
+                        tasacolors = {};
+                        tasacolors[tasasAll[0]]='#1C1340';
+                        tasacolors[tasas[0]]='#B01E22';
+						
+						 
+						
                         c3.generate({
                             bindto: "#tasas-info",
                             data: {
                                 x: dates15[0],
                                 columns: [
                                     dates15,
-                                    tasas
+                                    tasas,
+                                    tasasAll
                                 ],
                                 type: 'line',
-                                colors: colors
+                                colors: tasacolors
                             },
                             axis: {
                                 x: {
