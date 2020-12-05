@@ -8427,12 +8427,12 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,32,cu,Manicaragua,Villa Clara,2020/12/01,,secundario
 ,mujer,51,cu,Manicaragua,Villa Clara,2020/12/01,,secundario
 ,mujer,29,ru,Morón,Ciego de Ávila,2020/12/01,,primario
-,mujer,32,cu,Morón,Ciego de Ávila,2020/12/01,,primario
+,mujer,32,ru,Morón,Ciego de Ávila,2020/12/01,,primario
 ,mujer,28,ru,Morón,Ciego de Ávila,2020/12/01,,primario
 ,mujer,22,ru,Morón,Ciego de Ávila,2020/12/01,,primario
 ,hombre,48,ru,Morón,Ciego de Ávila,2020/12/01,,primario
 ,mujer,25,ru,Morón,Ciego de Ávila,2020/12/01,,primario
-,mujer,44,cu,Morón,Ciego de Ávila,2020/12/01,,primario
+,mujer,44,ru,Morón,Ciego de Ávila,2020/12/01,,primario
 ,mujer,60,ru,Morón,Ciego de Ávila,2020/12/01,,primario
 ,hombre,28,cu,Santiago de Cuba,Santiago de Cuba,2020/12/01,,primario
 ,hombre,57,cu,Songo La Maya,Santiago de Cuba,2020/12/01,,secundario
@@ -8514,7 +8514,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,71,cu,Yaguajay,Sancti Spíritus,2020/12/02,,secundario
 ,mujer,33,cu,Yaguajay,Sancti Spíritus,2020/12/02,,secundario
 ,mujer,30,ru,Morón,Ciego de Ávila,2020/12/02,,primario
-,hombre,8,cu,Morón,Ciego de Ávila,2020/12/02,,primario
+,hombre,8,ru,Morón,Ciego de Ávila,2020/12/02,,primario
 ,mujer,71,cu,Morón,Ciego de Ávila,2020/12/02,,primario
 ,hombre,51,cu,Ciego de Ávila,Ciego de Ávila,2020/12/02,,secundario
 ,hombre,54,cu,Camagüey,Camagüey,2020/12/02,,primario
@@ -8609,3 +8609,107 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,34,cu,Isla de la Juventud,Isla de la Juventud,2020/12/03,,secundario
 ,mujer,32,cu,Isla de la Juventud,Isla de la Juventud,2020/12/03,,secundario
 ,hombre,55,cu,Isla de la Juventud,Isla de la Juventud,2020/12/03,,desconocido
+,hombre,56,cu,Pinar del Río,Pinar del Río,2020/12/04,,secundario
+,hombre,23,cu,Pinar del Río,Pinar del Río,2020/12/04,,secundario
+,mujer,2,cu,Sandino,Pinar del Río,2020/12/04,,secundario
+,hombre,37,cu,Sandino,Pinar del Río,2020/12/04,,secundario
+,hombre,35,cu,Sandino,Pinar del Río,2020/12/04,,secundario
+,mujer,39,cu,San Juan y Martínez,Pinar del Río,2020/12/04,,secundario
+,hombre,35,cu,San Juan y Martínez,Pinar del Río,2020/12/04,,secundario
+,hombre,15,cu,San Juan y Martínez,Pinar del Río,2020/12/04,,secundario
+,hombre,61,cu,San Juan y Martínez,Pinar del Río,2020/12/04,,primario
+,mujer,47,cu,Guane,Pinar del Río,2020/12/04,,secundario
+,mujer,22,cu,San Cristóbal,Artemisa,2020/12/04,,secundario
+,hombre,70,cu,Alquízar,Artemisa,2020/12/04,,secundario
+,mujer,29,cu,Güira de Melena,Artemisa,2020/12/04,,secundario
+,mujer,59,cu,Güira de Melena,Artemisa,2020/12/04,,secundario
+,mujer,24,cu,Bauta,Artemisa,2020/12/04,,secundario
+,mujer,23,cu,Bauta,Artemisa,2020/12/04,,secundario
+,mujer,18,cu,Mariel,Artemisa,2020/12/04,,secundario
+,mujer,81,cu,Plaza de la Revolución,La Habana,2020/12/04,,primario
+,mujer,28,cu,San Miguel del Padrón,La Habana,2020/12/04,,secundario
+,hombre,41,cu,Centro Habana,La Habana,2020/12/04,,primario
+,mujer,66,cu,Diez de Octubre,La Habana,2020/12/04,,secundario
+,mujer,19,cu,Cotorro,La Habana,2020/12/04,,primario
+,mujer,30,cu,Centro Habana,La Habana,2020/12/04,,primario
+,hombre,36,cu,Centro Habana,La Habana,2020/12/04,,primario
+,hombre,47,cu,Diez de Octubre,La Habana,2020/12/04,,secundario
+,hombre,27,cu,San Miguel del Padrón,La Habana,2020/12/04,,secundario
+,mujer,49,cu,San Miguel del Padrón,La Habana,2020/12/04,,secundario
+,mujer,54,cu,La Lisa,La Habana,2020/12/04,,secundario
+,hombre,40,cu,La Lisa,La Habana,2020/12/04,,secundario
+,mujer,37,cu,La Lisa,La Habana,2020/12/04,,secundario
+,hombre,77,cu,Cotorro,La Habana,2020/12/04,,primario
+,hombre,54,cu,Arroyo Naranjo,La Habana,2020/12/04,,primario
+,hombre,8,cu,La Lisa,La Habana,2020/12/04,,secundario
+,mujer,35,cu,Playa,La Habana,2020/12/04,,primario
+,mujer,38,cu,La Lisa,La Habana,2020/12/04,,secundario
+,mujer,40,cu,Arroyo Naranjo,La Habana,2020/12/04,,primario
+,mujer,54,cu,Centro Habana,La Habana,2020/12/04,,secundario
+,mujer,74,cu,Plaza,La Habana,2020/12/04,,secundario
+,hombre,55,cu,Centro Habana,La Habana,2020/12/04,,primario
+,hombre,77,cu,Habana del Este,La Habana,2020/12/04,,desconocido
+,hombre,51,cu,San Miguel del Padrón,La Habana,2020/12/04,,secundario
+,mujer,71,cu,Cotorro,La Habana,2020/12/04,,secundario
+,hombre,41,cu,La Lisa,La Habana,2020/12/04,,secundario
+,hombre,31,cu,Regla,La Habana,2020/12/04,,secundario
+,hombre,31,cu,Centro Habana,La Habana,2020/12/04,,primario
+,mujer,15,cu,Guanabacoa,La Habana,2020/12/04,,secundario
+,mujer,43,cu,Guanabacoa,La Habana,2020/12/04,,secundario
+,hombre,48,cu,Guanabacoa,La Habana,2020/12/04,,secundario
+,mujer,21,cu,Guanabacoa,La Habana,2020/12/04,,secundario
+,mujer,57,cu,Guanabacoa,La Habana,2020/12/04,,secundario
+,mujer,21,cu,Cerro,La Habana,2020/12/04,,secundario
+,mujer,35,cu,Cerro,La Habana,2020/12/04,,secundario
+,mujer,45,cu,Boyeros,La Habana,2020/12/04,,secundario
+,mujer,54,cu,Boyeros,La Habana,2020/12/04,,secundario
+,mujer,20,cu,Boyeros,La Habana,2020/12/04,,secundario
+,hombre,28,cu,Boyeros,La Habana,2020/12/04,,secundario
+,hombre,35,cu,Boyeros,La Habana,2020/12/04,,primario
+,hombre,58,cu,Boyeros,La Habana,2020/12/04,,primario
+,mujer,54,cu,Madruga,Mayabeque,2020/12/04,,primario
+,mujer,76,cu,Nueva Paz,Mayabeque,2020/12/04,,primario
+,hombre,47,mx,Cárdenas,Matanzas,2020/12/04,,primario
+,mujer,47,cu,Cárdenas,Matanzas,2020/12/04,,primario
+,mujer,64,cu,Matanzas,Matanzas,2020/12/04,,primario
+,hombre,28,cu,Cienfuegos,Cienfuegos,2020/12/04,,secundario
+,mujer,57,cu,Cienfuegos,Cienfuegos,2020/12/04,,primario
+,mujer,72,us,Santa Clara,Villa Clara,2020/12/04,,primario
+,hombre,36,cu,Sagua La Grande,Villa Clara,2020/12/04,,primario
+,hombre,56,cu,Santa Clara,Villa Clara,2020/12/04,,primario
+,mujer,32,cu,Corralillo,Villa Clara,2020/12/04,,secundario
+,mujer,53,cu,Sagua La Grande,Villa Clara,2020/12/04,,primario
+,mujer,69,cu,Caibarién,Villa Clara,2020/12/04,,primario
+,hombre,50,cu,Caibarién,Villa Clara,2020/12/04,,primario
+,mujer,34,ru,Morón,Ciego de Ávila,2020/12/04,,primario
+,hombre,62,cu,Ciego de Ávila,Ciego de Ávila,2020/12/04,,primario
+,hombre,53,cu,Camagüey,Camagüey,2020/12/04,,primario
+,hombre,47,cu,Vertientes,Camagüey,2020/12/04,,primario
+,mujer,50,cu,Camagüey,Camagüey,2020/12/04,,secundario
+,mujer,60,cu,Camagüey,Camagüey,2020/12/04,,secundario
+,hombre,44,cu,Minas,Camagüey,2020/12/04,,primario
+,hombre,37,cu,Vertientes,Camagüey,2020/12/04,,primario
+,mujer,49,cu,Vertientes,Camagüey,2020/12/04,,primario
+,hombre,59,cu,Las Tunas,Las Tunas,2020/12/04,,primario
+,mujer,48,us,Puerto Padre,Las Tunas,2020/12/04,,primario
+,hombre,27,cu,Mayarí,Holguín,2020/12/04,,secundario
+,hombre,73,cu,Holguín,Holguín,2020/12/04,,primario
+,hombre,33,cu,Guisa,Granma,2020/12/04,,primario
+,hombre,81,cu,Guisa,Granma,2020/12/04,,secundario
+,hombre,42,cu,Bayamo,Granma,2020/12/04,,primario
+,hombre,25,cu,Manzanillo,Granma,2020/12/04,,primario
+,mujer,34,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,secundario
+,mujer,42,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,primario
+,hombre,61,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,desconocido
+,mujer,26,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,secundario
+,mujer,45,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,secundario
+,hombre,21,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,secundario
+,mujer,9,cu,Songo La Maya,Santiago de Cuba,2020/12/04,,secundario
+,hombre,19,cu,Santiago de Cuba,Santiago de Cuba,2020/12/04,,secundario
+,hombre,21,cu,Songo La Maya,Santiago de Cuba,2020/12/04,,secundario
+,hombre,40,cu,Songo La Maya,Santiago de Cuba,2020/12/04,,secundario
+,hombre,32,cu,Isla de Juventud,Isla de Juventud,2020/12/04,,primario
+,mujer,27,cu,Isla de Juventud,Isla de Juventud,2020/12/04,,primario
+,mujer,33,cu,Isla de Juventud,Isla de Juventud,2020/12/04,,secundario
+,hombre,58,cu,Isla de Juventud,Isla de Juventud,2020/12/04,,secundario
+,hombre,14,cu,Isla de Juventud,Isla de Juventud,2020/12/04,,secundario
