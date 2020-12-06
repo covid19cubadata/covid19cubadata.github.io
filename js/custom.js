@@ -33,7 +33,8 @@ var domains = {
     "pr": "Puerto Rico",
     "ar": "Argentina",
     "nl": "Países Bajos",
-    "bg": "Bulgaria"
+    "bg": "Bulgaria",
+    "ec": "Ecuador"
 };
 
 

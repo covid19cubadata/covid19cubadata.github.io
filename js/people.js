@@ -32,7 +32,9 @@ let domains = {
     "de": "Alemania",
     "pr": "Puerto Rico",
     "ar": "Argentina",
-    "nl": "Países Bajos"
+    "nl": "Países Bajos",
+    "bg": "Bulgaria",
+    "ec": "Ecuador"
 };
 
 $(function () {
