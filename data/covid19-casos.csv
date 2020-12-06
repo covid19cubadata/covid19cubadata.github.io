@@ -8713,3 +8713,71 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,33,cu,Isla de la Juventud,Isla de la Juventud,2020/12/04,,secundario
 ,hombre,58,cu,Isla de la Juventud,Isla de la Juventud,2020/12/04,,secundario
 ,hombre,14,cu,Isla de la Juventud,Isla de la Juventud,2020/12/04,,secundario
+,hombre,46,us,Bauta,Artemisa,2020/12/05,,primario
+,mujer,42,cu,Caimito,Artemisa,2020/12/05,,primario
+,hombre,64,cu,Artemisa,Artemisa,2020/12/05,,primario
+,hombre,54,cu,Mariel,Artemisa,2020/12/05,,primario
+,mujer,71,cu,Arroyo Naranjo,La Habana,2020/12/05,,primario
+,hombre,57,cu,Arroyo Naranjo,La Habana,2020/12/05,,secundario
+,mujer,76,cu,Diez de Octubre,La Habana,2020/12/05,,secundario
+,mujer,21,cu,Diez de Octubre,La Habana,2020/12/05,,desconocido
+,mujer,75,cu,Playa,La Habana,2020/12/05,,primario
+,mujer,19,ec,Marianao,La Habana,2020/12/05,,primario
+,mujer,27,cu,Diez de Octubre,La Habana,2020/12/05,,primario
+,hombre,73,cu,Regla,La Habana,2020/12/05,,primario
+,hombre,57,cu,Arroyo Naranjo,La Habana,2020/12/05,,primario
+,mujer,64,cu,Arroyo Naranjo,La Habana,2020/12/05,,primario
+,hombre,49,cu,Arroyo Naranjo,La Habana,2020/12/05,,primario
+,mujer,67,cu,Cerro,La Habana,2020/12/05,,primario
+,hombre,50,cu,Boyeros,La Habana,2020/12/05,,primario
+,hombre,71,co,Centro Habana,La Habana,2020/12/05,,primario
+,hombre,23,cu,Playa,La Habana,2020/12/05,,secundario
+,mujer,51,cu,Playa,La Habana,2020/12/05,,primario
+,mujer,21,cu,Playa,La Habana,2020/12/05,,secundario
+,mujer,69,cu,Cotorro,La Habana,2020/12/05,,primario
+,hombre,75,us,La Habana Vieja,La Habana,2020/12/05,,primario
+,mujer,19,cu,Playa,La Habana,2020/12/05,,primario
+,mujer,19,cu,Playa,La Habana,2020/12/05,,primario
+,mujer,28,cu,Centro Habana,La Habana,2020/12/05,,secundario
+,mujer,2,cu,Centro Habana,La Habana,2020/12/05,,secundario
+,mujer,23,cu,Marianao,La Habana,2020/12/05,,primario
+,mujer,19,cu,Playa,La Habana,2020/12/05,,primario
+,mujer,55,cu,Plaza de la Revolución,La Habana,2020/12/05,,primario
+,mujer,53,cu,Diez de Octubre,La Habana,2020/12/05,,secundario
+,hombre,51,co,Centro Habana,La Habana,2020/12/05,,primario
+,mujer,61,cu,San José de las Lajas,Mayabeque,2020/12/05,,secundario
+,mujer,56,cu,Güines,Mayabeque,2020/12/05,,secundario
+,hombre,4,cu,Güines,Mayabeque,2020/12/05,,secundario
+,hombre,71,cu,Santa Clara,Villa Clara,2020/12/05,,primario
+,hombre,28,cu,Remedios,Villa Clara,2020/12/05,,primario
+,mujer,30,cu,Remedios,Villa Clara,2020/12/05,,primario
+,hombre,55,cu,Santa Clara,Villa Clara,2020/12/05,,secundario
+,mujer,35,cu,Santa Clara,Villa Clara,2020/12/05,,secundario
+,hombre,39,cu,Camajaní,Villa Clara,2020/12/05,,primario
+,mujer,22,cu,Cruces,Cienfuegos,2020/12/05,,secundario
+,mujer,78,cu,Cruces,Cienfuegos,2020/12/05,,primario
+,mujer,53,cu,Palmira,Cienfuegos,2020/12/05,,secundario
+,hombre,27,cu,Cumanayagua,Cienfuegos,2020/12/05,,secundario
+,hombre,1,cu,Cienfuegos,Cienfuegos,2020/12/05,,secundario
+,mujer,35,cu,Cienfuegos,Cienfuegos,2020/12/05,,secundario
+,mujer,63,cu,Cienfuegos,Cienfuegos,2020/12/05,,primario
+,hombre,52,cu,Jatibonico,Sancti Spíritus,2020/12/05,,primario
+,hombre,26,cu,Cabaiguán,Sancti Spíritus,2020/12/05,,primario
+,mujer,49,cu,Ciego de Ávila,Ciego de Ávila,2020/12/05,,primario
+,mujer,37,cu,Florida,Camagüey,2020/12/05,,secundario
+,hombre,34,cu,Vertientes,Camagüey,2020/12/05,,secundario
+,hombre,46,cu,Camagüey,Camagüey,2020/12/05,,primario
+,mujer,71,cu,Camagüey,Camagüey,2020/12/05,,primario
+,hombre,62,cu,Camagüey,Camagüey,2020/12/05,,secundario
+,hombre,20,cu,Camagüey,Camagüey,2020/12/05,,primario
+,mujer,40,cu,Holguín,Holguín,2020/12/05,,primario
+,mujer,61,cu,Holguín,Holguín,2020/12/05,,primario
+,mujer,37,cu,Holguín,Holguín,2020/12/05,,secundario
+,mujer,44,cu,Holguín,Holguín,2020/12/05,,secundario
+,mujer,33,cu,Bayamo,Granma,2020/12/05,,secundario
+,hombre,69,cu,Bayamo,Granma,2020/12/05,,secundario
+,hombre,55,cu,Manzanillo,Granma,2020/12/05,,primario
+,mujer,45,cu,Manzanillo,Granma,2020/12/05,,primario
+,hombre,12,cu,San Luis,Santiago de Cuba,2020/12/05,,secundario
+,mujer,49,cu,Santiago de Cuba,Santiago de Cuba,2020/12/05,,secundario
+,mujer,60,cu,Caimanera,Guantánamo,2020/12/05,,primario
