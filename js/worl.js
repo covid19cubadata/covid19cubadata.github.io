@@ -771,7 +771,7 @@ function run_calculations() {
             }
 
             var tab_selected = 'confirmados';
-            var countryselected = 'Eslovaquia';
+            var countryselected = 'Uruguay';
             $('#countrycurve-select').val(countryselected);
             $('.countries-date').html(countriesdays['dia-actualizacion']);
 
