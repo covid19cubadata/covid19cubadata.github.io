@@ -34,7 +34,8 @@ let domains = {
     "ar": "Argentina",
     "nl": "Países Bajos",
     "bg": "Bulgaria",
-    "ec": "Ecuador"
+    "ec": "Ecuador",
+    "ht": "Haití"
 };
 
 $(function () {
