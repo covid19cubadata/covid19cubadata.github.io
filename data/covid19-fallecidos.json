@@ -3321,6 +3321,27 @@
             },
             "275": {
                 "fecha": "2020/12/10"
+            },
+            "276": {
+                "fecha": "2020/12/11",
+                "fallecidos": [
+                    {
+                        "id": "f-137",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 81,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guane",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.11",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Falleció ciudadano cubano de 81 años de edad. Residía en el municipio Guane, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Paciente que es identificado por la pesquisa al ser contacto de caso confirmado y se le realizó PCR que resultó positivo a la COVID-19. Es ingresado en hospital en sala de confirmados de alto riesgo. Fue tratado según protocolos para estos pacientes. Los cuatro días posteriores mantuvo evolución estable. Continuó con evolución sin síntomas respiratorios, con estabilidad hemodinámica tendencia a la Hipertensión Arterial, cumpliendo tratamiento según protocolo.  El día 10 de diciembre en la mañana presentó bronco espasmo severo, agobio respiratorio, hipotensión arterial, acidemia metabólica severa, por lo que es trasladado a la Unidad de Cuidados Intensivos, fue intubado y ventilado en modalidad controlada y apoyado con aminas a altas dosis. Fueron incorporados al tratamiento los esteroides, y Jusvinza y se hacen correcciones del desequilibrio acido básico. Presentó parada cardiorespiratoria en asistolia, son realizadas maniobras de reanimación que no fueron efectivas. Paciente fallece. Es realizada necropsia."
+                    }
+                ]
             }
         }
     }
