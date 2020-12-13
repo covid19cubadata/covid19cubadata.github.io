@@ -35,7 +35,9 @@ var domains = {
     "nl": "Países Bajos",
     "bg": "Bulgaria",
     "ec": "Ecuador",
-    "ht": "Haití"
+    "ht": "Haití",
+    "dk": "Dinamarca",
+    "za": "Sudáfrica"
 };
 
 
