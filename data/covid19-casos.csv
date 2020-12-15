@@ -9545,7 +9545,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,69,cu,Arroyo Naranjo,La Habana,2020/12/14,,primario
 ,hombre,58,cu,Arroyo Naranjo,La Habana,2020/12/14,,primario
 ,hombre,40,cu,Bejucal,Mayabeque,2020/12/14,,secundario
-,hombre,23,cu,Bejucal,La Habana,2020/12/14,,primario
+,hombre,23,cu,Bejucal,Mayabeque,2020/12/14,,primario
 ,mujer,36,cu,Bejucal,Mayabeque,2020/12/14,,secundario
 ,mujer,41,cu,Bejucal,Mayabeque,2020/12/14,,secundario
 ,hombre,36,cu,Güines,Mayabeque,2020/12/14,,secundario
@@ -9557,14 +9557,14 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,37,cu,Nueva Paz,Mayabeque,2020/12/14,,secundario
 ,hombre,37,cu,Nueva Paz,Mayabeque,2020/12/14,,secundario
 ,mujer,12,cu,Nueva Paz,Mayabeque,2020/12/14,,secundario
-,mujer,63,cu,San José de las lajas,Mayabeque,2020/12/14,,secundario
+,mujer,63,cu,San José de las Lajas,Mayabeque,2020/12/14,,secundario
 ,hombre,52,cu,San José de las Lajas,Mayabeque,2020/12/14,,primario
-,hombre,49,cu,San Nicolás de Bari,Mayabeque,2020/12/14,,secundario
+,hombre,49,cu,San Nicolás,Mayabeque,2020/12/14,,secundario
 ,hombre,71,cu,Matanzas,Matanzas,2020/12/14,,primario
 ,hombre,33,cu,Matanzas,Matanzas,2020/12/14,,primario
-,mujer,48,cu,Ciénaga de Zapata,Matanzas,2020/12/14,,primario
+,mujer,48,cu,Cienaga de Zapata,Matanzas,2020/12/14,,primario
 ,hombre,32,cu,Cárdenas,Matanzas,2020/12/14,,secundario
-,hombre,64,de,Ciénaga de Zapata,Matanzas,2020/12/14,,primario
+,hombre,64,de,Cienaga de Zapata,Matanzas,2020/12/14,,primario
 ,hombre,24,cu,Cárdenas,Matanzas,2020/12/14,,secundario
 ,mujer,29,cu,Cárdenas,Matanzas,2020/12/14,,secundario
 ,mujer,25,cu,Colón,Matanzas,2020/12/14,,secundario
