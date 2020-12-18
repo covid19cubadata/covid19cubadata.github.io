@@ -9670,3 +9670,103 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,27,cu,Baracoa,Guantánamo,2020/12/15,,secundario
 ,mujer,23,cu,Baracoa,Guantánamo,2020/12/15,,secundario
 ,hombre,46,cu,Baracoa,Guantánamo,2020/12/15,,primario
+,hombre,50,cu,San Luis,Pinar del Río,2020/12/16,,desconocido
+,hombre,11,cu,Artemisa,Artemisa,2020/12/16,,primario
+,hombre,23,cu,Bahía Honda,Artemisa,2020/12/16,,primario
+,hombre,51,cu,Bauta,Artemisa,2020/12/16,,primario
+,hombre,57,cu,Bauta,Artemisa,2020/12/16,,secundario
+,hombre,22,cu,Bauta,Artemisa,2020/12/16,,secundario
+,hombre,36,cu,Bauta,Artemisa,2020/12/16,,primario
+,mujer,51,cu,Artemisa,Artemisa,2020/12/16,,secundario
+,mujer,18,cu,Bauta,Artemisa,2020/12/16,,secundario
+,hombre,22,cu,Artemisa,Artemisa,2020/12/16,,secundario
+,mujer,13,cu,Artemisa,Artemisa,2020/12/16,,secundario
+,mujer,43,cu,Artemisa,Artemisa,2020/12/16,,secundario
+,mujer,32,cu,Artemisa,Artemisa,2020/12/16,,secundario
+,mujer,30,cu,Cerro,La Habana,2020/12/16,,primario
+,mujer,55,cu,Cerro,La Habana,2020/12/16,,primario
+,mujer,14,cu,Cerro,La Habana,2020/12/16,,secundario
+,hombre,40,cu,Cerro,La Habana,2020/12/16,,secundario
+,hombre,44,cu,Cerro,La Habana,2020/12/16,,secundario
+,hombre,54,cu,Arroyo Naranjo,La Habana,2020/12/16,,primario
+,hombre,51,cu,Marianao,La Habana,2020/12/16,,secundario
+,mujer,26,cu,Marianao,La Habana,2020/12/16,,secundario
+,hombre,65,it,Habana del Este,La Habana,2020/12/16,,primario
+,mujer,18,jm,Habana del Este,La Habana,2020/12/16,,desconocido
+,hombre,50,cu,Habana del Este,La Habana,2020/12/16,,primario
+,hombre,49,fr,Playa,La Habana,2020/12/16,,desconocido
+,hombre,26,cu,Guanabacoa,La Habana,2020/12/16,,secundario
+,hombre,36,cu,Diez de Octubre,La Habana,2020/12/16,,primario
+,hombre,53,cu,Boyeros,La Habana,2020/12/16,,primario
+,mujer,19,cu,Boyeros,La Habana,2020/12/16,,secundario
+,mujer,19,cu,Cotorro,La Habana,2020/12/16,,secundario
+,hombre,26,cu,Arroyo Naranjo,La Habana,2020/12/16,,desconocido
+,hombre,26,cu,La Habana Vieja,La Habana,2020/12/16,,secundario
+,hombre,28,cu,La Lisa,La Habana,2020/12/16,,secundario
+,hombre,28,cu,Playa,La Habana,2020/12/16,,secundario
+,hombre,57,cu,Regla,La Habana,2020/12/16,,primario
+,mujer,75,cu,Centro Habana,La Habana,2020/12/16,,secundario
+,mujer,76,cu,Cotorro,La Habana,2020/12/16,,secundario
+,mujer,49,cu,Cotorro,La Habana,2020/12/16,,secundario
+,hombre,54,cu,Guanabacoa,La Habana,2020/12/16,,primario
+,mujer,67,cu,Playa,La Habana,2020/12/16,,primario
+,mujer,35,es,Centro Habana,La Habana,2020/12/16,,primario
+,mujer,32,cu,La Lisa,La Habana,2020/12/16,,primario
+,mujer,9,cu,La Lisa,La Habana,2020/12/16,,secundario
+,mujer,33,cu,La Lisa,La Habana,2020/12/16,,desconocido
+,mujer,34,cu,Plaza de la Revolución,La Habana,2020/12/16,,primario
+,mujer,29,cu,Plaza de la Revolución,La Habana,2020/12/16,,secundario
+,hombre,69,cu,Nueva Paz,Mayabeque,2020/12/16,,secundario
+,hombre,46,cu,Santa Cruz del Norte,Mayabeque,2020/12/16,,primario
+,hombre,31,uk,Cárdenas,Matanzas,2020/12/16,,primario
+,mujer,20,uk,Cárdenas,Matanzas,2020/12/16,,primario
+,hombre,24,cu,Matanzas,Matanzas,2020/12/16,,primario
+,mujer,24,cu,Matanzas,Matanzas,2020/12/16,,primario
+,mujer,45,cu,Matanzas,Matanzas,2020/12/16,,primario
+,mujer,52,cu,Jovellanos,Matanzas,2020/12/16,,primario
+,hombre,35,cu,Perico,Matanzas,2020/12/16,,primario
+,",mujer",34,cu,Cárdenas,Matanzas,2020/12/16,,primario
+,mujer,31,cu,Matanzas,Matanzas,2020/12/16,,secundario
+,hombre,53,cu,Cárdenas,Matanzas,2020/12/16,,secundario
+,hombre,30,cu,Matanzas,Matanzas,2020/12/16,,secundario
+,hombre,80,cu,Jovellanos,Matanzas,2020/12/16,,secundario
+,mujer,85,cu,Jovellanos,Matanzas,2020/12/16,,secundario
+,mujer,49,cu,Jovellanos,Matanzas,2020/12/16,,secundario
+,mujer,40,cu,Perico,Matanzas,2020/12/16,,secundario
+,hombre,16,cu,Perico,Matanzas,2020/12/16,,secundario
+,hombre,80,cu,Santa Clara,Villa Clara,2020/12/16,,primario
+,mujer,78,cu,Santa Clara,Villa Clara,2020/12/16,,primario
+,hombre,53,cu,Jatibonico,Sancti Spíritus,2020/12/16,,primario
+,hombre,50,cu,Trinidad,Sancti Spíritus,2020/12/16,,primario
+,mujer,40,cu,Trinidad,Sancti Spíritus,2020/12/16,,primario
+,hombre,34,cu,Fomento,Sancti Spíritus,2020/12/16,,secundario
+,hombre,43,ru,Morón,Ciego de Ávila,2020/12/16,,primario
+,hombre,43,cu,Ciego de Ávila,Ciego de Ávila,2020/12/16,,primario
+,mujer,45,cu,Ciego de Ávila,Ciego de Ávila,2020/12/16,,primario
+,hombre,38,cu,Nuevitas,Camagüey,2020/12/16,,primario
+,mujer,38,cu,Florida,Camagüey,2020/12/16,,primario
+,mujer,38,us,Nuevitas,Camagüey,2020/12/16,,primario
+,mujer,65,cu,Florida,Camagüey,2020/12/16,,primario
+,mujer,77,cu,Florida,Camagüey,2020/12/16,,secundario
+,hombre,38,cu,Nuevitas,Camagüey,2020/12/16,,primario
+,mujer,44,cu,Camagüey,Camagüey,2020/12/16,,secundario
+,hombre,63,cu,Esmeralda,Camagüey,2020/12/16,,primario
+,hombre,28,cu,Camagüey,Camagüey,2020/12/16,,primario
+,hombre,22,cu,Camagüey,Camagüey,2020/12/16,,primario
+,hombre,36,cu,Jobabo,Las Tunas,2020/12/16,,primario
+,mujer,69,cu,Colombia,Las Tunas,2020/12/16,,primario
+,mujer,15,cu,Puerto Padre,Las Tunas,2020/12/16,,secundario
+,hombre,23,cu,Puerto Padre,Las Tunas,2020/12/16,,secundario
+,hombre,52,cu,Gibara,Holguín,2020/12/16,,primario
+,hombre,82,cu,Gibara,Holguín,2020/12/16,,primario
+,mujer,28,cu,Bayamo,Granma,2020/12/16,,primario
+,mujer,47,cu,Bayamo,Granma,2020/12/16,,primario
+,mujer,5,cu,Bayamo,Granma,2020/12/16,,secundario
+,hombre,16,cu,Palma Soriano,Santiago de Cuba,2020/12/16,,secundario
+,mujer,16,cu,Palma Soriano,Santiago de Cuba,2020/12/16,,secundario
+,mujer,66,cu,Palma Soriano,Santiago de Cuba,2020/12/16,,secundario
+,hombre,17,cu,Palma Soriano,Santiago de Cuba,2020/12/16,,secundario
+,mujer,57,cu,Santiago de Cuba,Santiago de Cuba,2020/12/16,,secundario
+,mujer,27,cu,Segundo Frente,Santiago de Cuba,2020/12/16,,primario
+,mujer,51,cu,Guantánamo,Guantánamo,2020/12/16,,primario
+,mujer,55,cu,Guantánamo,Guantánamo,2020/12/16,,secundario
