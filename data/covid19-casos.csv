@@ -9725,7 +9725,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,45,cu,Matanzas,Matanzas,2020/12/16,,primario
 ,mujer,52,cu,Jovellanos,Matanzas,2020/12/16,,primario
 ,hombre,35,cu,Perico,Matanzas,2020/12/16,,primario
-,",mujer",34,cu,Cárdenas,Matanzas,2020/12/16,,primario
+,mujer,34,cu,Cárdenas,Matanzas,2020/12/16,,primario
 ,mujer,31,cu,Matanzas,Matanzas,2020/12/16,,secundario
 ,hombre,53,cu,Cárdenas,Matanzas,2020/12/16,,secundario
 ,hombre,30,cu,Matanzas,Matanzas,2020/12/16,,secundario
