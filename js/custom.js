@@ -37,7 +37,8 @@ var domains = {
     "ec": "Ecuador",
     "ht": "Haití",
     "dk": "Dinamarca",
-    "za": "Sudáfrica"
+    "za": "Sudáfrica",
+    "se": "Suecia"
 };
 
 
@@ -1079,6 +1080,7 @@ function run_calculations() {
 								}
 							}
                         });
+
                         
                         dailyNotImported = ['Casos no importados en el día',...dailySingle.slice(1).map((day, index) => day-dailyImported[index+1])];
 						dailyImportedCuban = ['Casos importados de cubanos en el día', ...dailyImported.slice(1).map((day, index) => day-dailyImportedForeing[index+1])];
@@ -2068,7 +2070,7 @@ function run_calculations() {
                         tasacolors[tasas[0]]='#B01E22';
 						
 						 
-						
+						console.log(dates15[236]);
                         c3.generate({
                             bindto: "#tasas-info",
                             data: {
@@ -2085,7 +2087,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates15.length/2,dates15.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 2
+                                    },
                                 },
                                 y: {
                                     label: 'Tasa de Incidencia',
@@ -2095,7 +2103,7 @@ function run_calculations() {
 							    grid: {
 							        y: {
 							            lines: alines
-							        }
+                                    }
 							    }
                         });
 
