@@ -10073,8 +10073,8 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,mujer,1,cu,Boyeros,La Habana,2020/12/19,,secundario
 ,hombre,32,cu,Güines,Mayabeque,2020/12/19,,secundario
 ,mujer,5,cu,Nueva Paz,Mayabeque,2020/12/19,,secundario
-,hombre,70,cu,San José de Las Lajas,Mayabeque,2020/12/19,,desconocido
-,mujer,68,cu,San José de Las Lajas,Mayabeque,2020/12/19,,desconocido
+,hombre,70,cu,San José de las Lajas,Mayabeque,2020/12/19,,desconocido
+,mujer,68,cu,San José de las Lajas,Mayabeque,2020/12/19,,desconocido
 ,hombre,29,cu,Madruga,Mayabeque,2020/12/19,,secundario
 ,hombre,2,cu,Madruga,Mayabeque,2020/12/19,,secundario
 ,mujer,50,cu,Güines,Mayabeque,2020/12/19,,secundario
