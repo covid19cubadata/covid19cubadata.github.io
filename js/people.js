@@ -38,7 +38,8 @@ let domains = {
     "ht": "Haití",
     "dk": "Dinamarca",
     "za": "Sudáfrica",
-    "se": "Suecia"
+    "se": "Suecia",
+    "id": "Indonesia"
 };
 
 $(function () {

@@ -38,7 +38,8 @@ var domains = {
     "ht": "Haití",
     "dk": "Dinamarca",
     "za": "Sudáfrica",
-    "se": "Suecia"
+    "se": "Suecia",
+    "id": "Indonesia"
 };
 
 
@@ -2092,8 +2093,8 @@ function run_calculations() {
                                     },
                                     padding: {
                                         left: 2,
-                                        right: 2
-                                    },
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Tasa de Incidencia',
