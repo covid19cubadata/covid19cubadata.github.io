@@ -3369,6 +3369,44 @@
             },
             "285": {
                 "fecha": "2020/12/20"
+            },
+            "286": {
+                "fecha": "2020/12/21",
+                "fallecidos": [
+                    {
+                        "id": "f-138",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 90 años de edad, residía del municipio Cotorro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. El día 10 de diciembre fue ingresada en sala de confirmados e iniciado protocolo de tratamiento. El día 11 de diciembre fue trasladada a la Unidad de Cuidados Intensivos por edad avanzada y comorbilidades, clasificándose por esta causa de alto riesgo y realizar vigilancia intensiva. El día  13 de diciembre mantiene estabilidad hemodinámica, polipnea ligera, afebril. En la Gasometría Arterial presentó hipoxemia ligera y en el Rx fueron precisadas lesiones inflamatorias en ambos campos pulmonares. Fueron incorporados antibióticos, manteniendo tratamiento según protocolo. Los días siguientes mantuvo disnea ligera, fue administrado oxígeno suplementario y ventilación no invasiva, estable la hemodinamia. El día 16 de diciembre presentó empeoramiento clínico, gasométrico y radiológico por lo que fue intubada y ventilada en modalidad controlada. El día 17 de diciembre muestra inestabilidad hemodinámica, disminución de la diuresis, por lo que fue apoyada con aminas a altas dosis y fueron modificados parámetros ventilatorios. Los días 18,19 y 20 de diciembre mantuvo la inestabilidad hemodinámica en anuria, apoyada a altas dosis de aminas. El día 21 de diciembre presentó empeoramiento clínico. Hace parada cardiorespiratoria en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-139",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 51,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bauta",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.05",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 51 años de edad, residía en el municipio Bauta, provincia Artemisa. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus, Obesidad. El día 8 de diciembre arriba al país procedente de Estados Unidos, y le fue realizado el primer PCR con resultado negativo. El día 13 de diciembre le realizan el segundo PCR, con resultado positivo el 14 de Diciembre.  El día 15 de diciembre es remitido e ingresado en sala de confirmados, asintomático. En el  Rayos X  no  presenta lesiones pleuropulmonares, es iniciado protocolo de tratamiento. El día 20 de diciembre comienza con disnea intensa, sudoración profusa e hipotensión arterial, por lo que fue trasladado a la Unidad de Cuidados Intensivos. Hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Fue realizada necropsia, donde se dictaminó como causa directa de muerte Infarto Agudo del Miocardio. "
+                    }
+                ]
             }
         }
     }
