@@ -10366,7 +10366,7 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,28,cu,Holguín,Holguín,2020/12/21,,primario
 ,hombre,22,cu,Holguín,Holguín,2020/12/21,,primario
 ,hombre,,ca,Holguín,Holguín,2020/12/21,,primario
-,,34,cu,,Holguín,2020/12/21,,desconocido
+,mujer,34,cu,Cacocum,Holguín,2020/12/21,,desconocido
 ,mujer,34,cu,Manzanillo,Granma,2020/12/21,,primario
 ,hombre,38,cu,Palma Soriano,Santiago de Cuba,2020/12/21,,secundario
 ,mujer,38,cu,Palma Soriano,Santiago de Cuba,2020/12/21,,secundario
