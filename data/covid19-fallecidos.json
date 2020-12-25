@@ -3410,6 +3410,33 @@
             },
             "287": {
                 "fecha": "2020/12/22"
+            },
+            "288": {
+                "fecha": "2020/12/23"
+            },
+            "289": {
+                "fecha": "2020/12/24",
+                "fallecidos": [
+                    {
+                        "id": "f-140",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ab",
+                            "ob"
+                        ],
+                        "texto": "Falleció ciudadana cubana de  55 años de edad que residía en  Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus, Asma Bronquial y Obesidad.   Estadía hospitalaria: dos días.Comienza con tos y expectoración blanquecina. Es ingresada en sala de sospechosos, estable hemodinámicamente, sin demanda ventilatoria, se realiza PCR que resulta positivo a la COVID-19. Se inicia tratamiento sintomático. Presenta agobio respiratorio, cianosis generalizada, sudoración profusa, hipotensión arterial, hace parada cardiorespiratoria en   asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Es realizada necropsia.A pesar de no disponer de elementos epidemiológicos, consideramos que el cuadro clínico es sugestivo de la  COVID-19 y con  PCR de pulmones positivo, se decide reportar como fallecida por la enfermedad COVID-19."
+                    }
+                ]
             }
         }
     }
