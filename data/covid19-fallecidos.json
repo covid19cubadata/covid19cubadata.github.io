@@ -3437,6 +3437,29 @@
                         "texto": "Falleció ciudadana cubana de  55 años de edad que residía en  Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus, Asma Bronquial y Obesidad.   Estadía hospitalaria: dos días.Comienza con tos y expectoración blanquecina. Es ingresada en sala de sospechosos, estable hemodinámicamente, sin demanda ventilatoria, se realiza PCR que resulta positivo a la COVID-19. Se inicia tratamiento sintomático. Presenta agobio respiratorio, cianosis generalizada, sudoración profusa, hipotensión arterial, hace parada cardiorespiratoria en   asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. La paciente fallece. Es realizada necropsia.A pesar de no disponer de elementos epidemiológicos, consideramos que el cuadro clínico es sugestivo de la  COVID-19 y con  PCR de pulmones positivo, se decide reportar como fallecida por la enfermedad COVID-19."
                     }
                 ]
+            },
+            "290": {
+                "fecha": "2020/12/25",
+                "fallecidos": [
+                    {
+                        "id": "f-141",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": null,
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades": [
+                            "ha",
+                            "ic",
+                            "dm",
+                            "ht"
+                        ],
+                        "texto": "Falleció ciudadana cubana de 80 años de edad que residía en la provincia Cienfuegos. Antecedentes Patológicos Personales: Hipertensión Arterial, Insuficiencia Cardíaca, Diabetes Mellitus, Hipotiroidismo.  Comienza con primeros síntomas y se le realiza PCR que resulta positivo para COVID-19. Es ingresada en sala de confirmados de alto riesgo. Presenta disnea ligera, tos, al examen físico crepitantes en ambos campos pulmonares, en el Rayos X lesiones de aspecto inflamatorio en bases pulmonares.  Se le puso tratamiento según protocolos para estos pacientes.  Los tres días posteriores  mantiene la disnea ligera con oximetrías de pulso en valores aceptables, afebril y estabilidad hemodinámica. Al cuarto día presenta de forma súbita agobio respiratorio, hipoxemia severa, taquicardia e hipotensión arterial, es trasladada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada, apoyada con aminas a altas dosis, hace parada cardiorespiratoria en asistolia, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
