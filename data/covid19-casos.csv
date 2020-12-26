@@ -10499,3 +10499,403 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,hombre,58,cu,Guantánamo,Guantánamo,2020/12/22,,primario
 ,hombre,34,cu,Guantánamo,Guantánamo,2020/12/22,,primario
 ,hombre,40,cu,Guantánamo,Guantánamo,2020/12/22,,primario
+,,,cu,Sandino,Pinar del Río,2020/12/23,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2020/12/23,,primario
+,,,cu,Pinar del Río,Pinar del Río,2020/12/23,,primario
+,,,cu,Pinar del Río,Pinar del Río,2020/12/23,,primario
+,,,cu,Bauta,Artemisa,2020/12/23,,primario
+,,,cu,San Cristóbal,Artemisa,2020/12/23,,primario
+,,,cu,Alquízar,Artemisa,2020/12/23,,secundario
+,,,cu,Alquízar,Artemisa,2020/12/23,,primario
+,,,cu,,La Habana,2020/12/23,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/23,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/23,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/23,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/23,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/23,,primario
+,,,cu,Centro Habana,La Habana,2020/12/23,,primario
+,,,cu,Centro Habana,La Habana,2020/12/23,,primario
+,,,cu,Centro Habana,La Habana,2020/12/23,,primario
+,,,cu,Centro Habana,La Habana,2020/12/23,,desconocido
+,,,cu,Playa,La Habana,2020/12/23,,secundario
+,,,cu,Playa,La Habana,2020/12/23,,secundario
+,,,cu,Playa,La Habana,2020/12/23,,secundario
+,,,cu,Playa,La Habana,2020/12/23,,secundario
+,,,cu,Playa,La Habana,2020/12/23,,primario
+,,,cu,Playa,La Habana,2020/12/23,,primario
+,,,cu,Playa,La Habana,2020/12/23,,primario
+,,,cu,Playa,La Habana,2020/12/23,,primario
+,,,cu,Playa,La Habana,2020/12/23,,primario
+,,,cu,Playa,La Habana,2020/12/23,,desconocido
+,,,cu,La Lisa,La Habana,2020/12/23,,secundario
+,,,cu,La Lisa,La Habana,2020/12/23,,secundario
+,,,cu,La Lisa,La Habana,2020/12/23,,primario
+,,,cu,La Lisa,La Habana,2020/12/23,,primario
+,,,cu,La Lisa,La Habana,2020/12/23,,primario
+,,,cu,La Lisa,La Habana,2020/12/23,,primario
+,,,cu,La Lisa,La Habana,2020/12/23,,primario
+,,,cu,La Lisa,La Habana,2020/12/23,,primario
+,,,cu,La Lisa,La Habana,2020/12/23,,desconocido
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,primario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,primario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/23,,primario
+,,,cu,La Habana Vieja,La Habana,2020/12/23,,secundario
+,,,cu,La Habana Vieja,La Habana,2020/12/23,,secundario
+,,,cu,La Habana Vieja,La Habana,2020/12/23,,secundario
+,,,cu,La Habana Vieja,La Habana,2020/12/23,,desconocido
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/23,,primario
+,,,cu,Habana del Este,La Habana,2020/12/23,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/23,,secundario
+,,,cu,Guanabacoa,La Habana,2020/12/23,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/23,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/23,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/23,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/23,,desconocido
+,,,cu,San Miguel del Padrón,La Habana,2020/12/23,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/23,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/23,,primario
+,,,cu,Diez de Octubre,La Habana,2020/12/23,,secundario
+,,,cu,Diez de Octubre,La Habana,2020/12/23,,secundario
+,,,cu,Diez de Octubre,La Habana,2020/12/23,,secundario
+,,,cu,Diez de Octubre,La Habana,2020/12/23,,desconocido
+,,,cu,Diez de Octubre,La Habana,2020/12/23,,desconocido
+,,,cu,Cerro,La Habana,2020/12/23,,secundario
+,,,cu,Cerro,La Habana,2020/12/23,,secundario
+,,,cu,Cerro,La Habana,2020/12/23,,primario
+,,,cu,Marianao,La Habana,2020/12/23,,secundario
+,,,cu,Marianao,La Habana,2020/12/23,,secundario
+,,,cu,Marianao,La Habana,2020/12/23,,primario
+,,,cu,Marianao,La Habana,2020/12/23,,primario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,secundario
+,,,cu,Boyeros,La Habana,2020/12/23,,primario
+,,,cu,Boyeros,La Habana,2020/12/23,,primario
+,,,cu,Boyeros,La Habana,2020/12/23,,primario
+,,,cu,Boyeros,La Habana,2020/12/23,,primario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/23,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/23,,primario
+,,,cu,Regla,La Habana,2020/12/23,,primario
+,,,cu,Bejucal,Mayabeque,2020/12/23,,primario
+,,,cu,Quivicán,Mayabeque,2020/12/23,,primario
+,,,cu,Quivicán,Mayabeque,2020/12/23,,primario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Güines,Mayabeque,2020/12/23,,secundario
+,,,cu,Santa Cruz del Norte,Mayabeque,2020/12/23,,secundario
+,,,cu,Santa Cruz del Norte,Mayabeque,2020/12/23,,secundario
+,,,cu,Madruga,Mayabeque,2020/12/23,,secundario
+,,,cu,Cárdenas,Matanzas,2020/12/23,,secundario
+,,,cu,Cárdenas,Matanzas,2020/12/23,,secundario
+,,,cu,Cárdenas,Matanzas,2020/12/23,,primario
+,,,cu,Cárdenas,Matanzas,2020/12/23,,primario
+,,,cu,Cárdenas,Matanzas,2020/12/23,,primario
+,,,cu,Cárdenas,Matanzas,2020/12/23,,primario
+,,,cu,Los Arabos,Matanzas,2020/12/23,,secundario
+,,,cu,Jagüey Grande,Matanzas,2020/12/23,,primario
+,,,cu,Perico,Matanzas,2020/12/23,,primario
+,,,cu,Perico,Matanzas,2020/12/23,,primario
+,,,cu,Cienaga de Zapata,Matanzas,2020/12/23,,primario
+,,,cu,Matanzas,Matanzas,2020/12/23,,secundario
+,,,cu,Matanzas,Matanzas,2020/12/23,,primario
+,,,cu,Matanzas,Matanzas,2020/12/23,,primario
+,,,cu,Calimete,Matanzas,2020/12/23,,primario
+,,,cu,Jovellanos,Matanzas,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Caibarién,Villa Clara,2020/12/23,,primario
+,,,cu,Camajuaní,Villa Clara,2020/12/23,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/23,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/23,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/23,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/23,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/23,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/23,,primario
+,,,cu,Cifuentes,Villa Clara,2020/12/23,,primario
+,,,cu,Placetas,Villa Clara,2020/12/23,,primario
+,,,cu,Placetas,Villa Clara,2020/12/23,,primario
+,,,cu,Encrucijada,Villa Clara,2020/12/23,,primario
+,,,cu,Ranchuelo,Villa Clara,2020/12/23,,primario
+,,,cu,Manicaragua,Villa Clara,2020/12/23,,primario
+,,,cu,Cruces,Cienfuegos,2020/12/23,,primario
+,,,cu,Cienfuegos,Cienfuegos,2020/12/23,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2020/12/23,,primario
+,,,cu,Sancti Spíritus,Sancti Spíritus,2020/12/23,,primario
+,,,cu,Ciego de Ávila,Ciego de Ávila,2020/12/23,,primario
+,,,cu,Camagüey,Camagüey,2020/12/23,,primario
+,,,cu,Camagüey,Camagüey,2020/12/23,,primario
+,,,cu,Camagüey,Camagüey,2020/12/23,,primario
+,,,cu,Camagüey,Camagüey,2020/12/23,,primario
+,,,cu,Camagüey,Camagüey,2020/12/23,,primario
+,,,cu,Camagüey,Camagüey,2020/12/23,,primario
+,,,cu,Jesús Menéndez,Las Tunas,2020/12/23,,secundario
+,,,cu,Jesús Menéndez,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,secundario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/23,,primario
+,,,cu,Niquero,Granma,2020/12/23,,secundario
+,,,cu,Bayamo,Granma,2020/12/23,,secundario
+,,,cu,Bayamo,Granma,2020/12/23,,secundario
+,,,cu,Bayamo,Granma,2020/12/23,,secundario
+,,,cu,Jiguaní,Granma,2020/12/23,,primario
+,,,cu,Manzanillo,Granma,2020/12/23,,secundario
+,,,cu,Manzanillo,Granma,2020/12/23,,secundario
+,,,cu,Río Cauto,Granma,2020/12/23,,secundario
+,,,cu,Gibara,Holguín,2020/12/23,,primario
+,,,cu,Gibara,Holguín,2020/12/23,,primario
+,,,cu,Holguín,Holguín,2020/12/23,,desconocido
+,,,cu,Holguín,Holguín,2020/12/23,,desconocido
+,,,cu,Mella,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/23,,primario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/23,,primario
+,,,cu,Contramaestre,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Palma Soriano,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Palma Soriano,Santiago de Cuba,2020/12/23,,secundario
+,,,cu,Palma Soriano,Santiago de Cuba,2020/12/23,,primario
+,,,cu,Baracoa,Guantánamo,2020/12/23,,desconocido
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,secundario
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,secundario
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,primario
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,desconocido
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,desconocido
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,desconocido
+,,,cu,Guantánamo,Guantánamo,2020/12/23,,desconocido
+,,,cu,Manuel Tames,Guantánamo,2020/12/23,,primario
+,,,cu,Manuel Tames,Guantánamo,2020/12/23,,desconocido
+,,,cu,Sandino,Pinar del Río,2020/12/24,,secundario
+,,,cu,San Juan y Martínez,Pinar del Río,2020/12/24,,primario
+,,,cu,Pinar del Río,Pinar del Río,2020/12/24,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2020/12/24,,primario
+,,,cu,Pinar del Río,Pinar del Río,2020/12/24,,primario
+,,,cu,Güira de Melena,Artemisa,2020/12/24,,secundario
+,,,cu,Güira de Melena,Artemisa,2020/12/24,,primario
+,,,cu,Güira de Melena,Artemisa,2020/12/24,,primario
+,,,cu,San Antonio de los Baños,Artemisa,2020/12/24,,primario
+,,,cu,Diez de Octubre,La Habana,2020/12/24,,secundario
+,,,cu,Diez de Octubre,La Habana,2020/12/24,,primario
+,,,cu,Diez de Octubre,La Habana,2020/12/24,,primario
+,,,cu,Diez de Octubre,La Habana,2020/12/24,,primario
+,,,cu,Diez de Octubre,La Habana,2020/12/24,,primario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/24,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/24,,primario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/24,,primario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/24,,primario
+,,,cu,Arroyo Naranjo,La Habana,2020/12/24,,primario
+,,,cu,Boyeros,La Habana,2020/12/24,,secundario
+,,,cu,Boyeros,La Habana,2020/12/24,,secundario
+,,,cu,Boyeros,La Habana,2020/12/24,,secundario
+,,,cu,Boyeros,La Habana,2020/12/24,,secundario
+,,,cu,Boyeros,La Habana,2020/12/24,,secundario
+,,,cu,Boyeros,La Habana,2020/12/24,,secundario
+,,,cu,Boyeros,La Habana,2020/12/24,,primario
+,,,cu,Boyeros,La Habana,2020/12/24,,primario
+,,,cu,Boyeros,La Habana,2020/12/24,,primario
+,,,cu,Boyeros,La Habana,2020/12/24,,desconocido
+,,,cu,Centro Habana,La Habana,2020/12/24,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/24,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/24,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/24,,secundario
+,,,cu,Centro Habana,La Habana,2020/12/24,,primario
+,,,cu,Centro Habana,La Habana,2020/12/24,,primario
+,,,cu,Centro Habana,La Habana,2020/12/24,,primario
+,,,cu,Cerro,La Habana,2020/12/24,,secundario
+,,,cu,Cerro,La Habana,2020/12/24,,primario
+,,,cu,Cerro,La Habana,2020/12/24,,primario
+,,,cu,Cerro,La Habana,2020/12/24,,primario
+,,,cu,Cotorro,La Habana,2020/12/24,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/24,,secundario
+,,,cu,Guanabacoa,La Habana,2020/12/24,,secundario
+,,,cu,Guanabacoa,La Habana,2020/12/24,,secundario
+,,,cu,Guanabacoa,La Habana,2020/12/24,,secundario
+,,,cu,Guanabacoa,La Habana,2020/12/24,,primario
+,,,cu,Guanabacoa,La Habana,2020/12/24,,primario
+,,,cu,Habana del Este,La Habana,2020/12/24,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/24,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/24,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/24,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/24,,secundario
+,,,cu,Habana del Este,La Habana,2020/12/24,,primario
+,,,cu,Habana del Este,La Habana,2020/12/24,,primario
+,,,cu,Habana del Este,La Habana,2020/12/24,,primario
+,,,cu,Habana del Este,La Habana,2020/12/24,,primario
+,,,cu,Habana del Este,La Habana,2020/12/24,,primario
+,,,cu,La Habana Vieja,La Habana,2020/12/24,,secundario
+,,,cu,La Habana Vieja,La Habana,2020/12/24,,primario
+,,,cu,La Habana Vieja,La Habana,2020/12/24,,primario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,secundario
+,,,cu,La Lisa,La Habana,2020/12/24,,primario
+,,,cu,Marianao,La Habana,2020/12/24,,primario
+,,,cu,Playa,La Habana,2020/12/24,,secundario
+,,,cu,Playa,La Habana,2020/12/24,,secundario
+,,,cu,Playa,La Habana,2020/12/24,,primario
+,,,cu,Playa,La Habana,2020/12/24,,primario
+,,,cu,Playa,La Habana,2020/12/24,,primario
+,,,cu,Playa,La Habana,2020/12/24,,primario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,primario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,primario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,primario
+,,,cu,Plaza de la Revolución,La Habana,2020/12/24,,primario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/24,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/24,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/24,,primario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/24,,primario
+,,,cu,San Miguel del Padrón,La Habana,2020/12/24,,primario
+,,,cu,Regla,La Habana,2020/12/24,,secundario
+,,,cu,Bejucal,Mayabeque,2020/12/24,,secundario
+,,,cu,Bejucal,Mayabeque,2020/12/24,,secundario
+,,,cu,San José de las Lajas,Mayabeque,2020/12/24,,secundario
+,,,cu,Batabanó,Mayabeque,2020/12/24,,primario
+,,,cu,Madruga,Mayabeque,2020/12/24,,primario
+,,,cu,Madruga,Mayabeque,2020/12/24,,primario
+,,,cu,Güines,Mayabeque,2020/12/24,,primario
+,,,cu,Güines,Mayabeque,2020/12/24,,primario
+,,,cu,Jagüey Grande,Matanzas,2020/12/24,,secundario
+,,,cu,Colón,Matanzas,2020/12/24,,secundario
+,,,cu,Cárdenas,Matanzas,2020/12/24,,primario
+,,,cu,Cárdenas,Matanzas,2020/12/24,,primario
+,,,cu,Los Arabos,Matanzas,2020/12/24,,primario
+,,,cu,Limonar,Matanzas,2020/12/24,,primario
+,,,cu,Cienfuegos,Cienfuegos,2020/12/24,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2020/12/24,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2020/12/24,,primario
+,,,cu,Aguada de Pasajeros,Cienfuegos,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,secundario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Santa Clara,Villa Clara,2020/12/24,,primario
+,,,cu,Camajuaní,Villa Clara,2020/12/24,,secundario
+,,,cu,Sagua La Grande,Villa Clara,2020/12/24,,secundario
+,,,cu,Sagua La Grande,Villa Clara,2020/12/24,,secundario
+,,,cu,Fomento,Sancti Spíritus,2020/12/24,,secundario
+,,,cu,Bolivia,Ciego de Ávila,2020/12/24,,primario
+,,,cu,Ciego de Ávila,Ciego de Ávila,2020/12/24,,primario
+,,,cu,Nuevitas,Camagüey,2020/12/24,,primario
+,,,cu,Camagüey,Camagüey,2020/12/24,,secundario
+,,,cu,Camagüey,Camagüey,2020/12/24,,primario
+,,,cu,Camagüey,Camagüey,2020/12/24,,primario
+,,,cu,Camagüey,Camagüey,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,secundario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Puerto Padre,Las Tunas,2020/12/24,,primario
+,,,cu,Manatí,Las Tunas,2020/12/24,,primario
+,,,cu,Las Tunas,Las Tunas,2020/12/24,,primario
+,,,cu,Bayamo,Granma,2020/12/24,,primario
+,,,cu,Guisa,Granma,2020/12/24,,primario
+,,,cu,Guisa,Granma,2020/12/24,,primario
+,,,cu,Holguín,Holguín,2020/12/24,,secundario
+,,,cu,Holguín,Holguín,2020/12/24,,secundario
+,,,cu,Holguín,Holguín,2020/12/24,,secundario
+,,,cu,Holguín,Holguín,2020/12/24,,primario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Mella,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/24,,primario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/24,,primario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/24,,primario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/24,,primario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2020/12/24,,desconocido
+,,,cu,Songo La Maya,Santiago de Cuba,2020/12/24,,secundario
+,,,cu,Guantánamo,Guantánamo,2020/12/24,,secundario
+,,,cu,Guantánamo,Guantánamo,2020/12/24,,secundario
+,,,cu,Guantánamo,Guantánamo,2020/12/24,,primario
+,,,cu,San Antonio del Sur,Guantánamo,2020/12/24,,primario
