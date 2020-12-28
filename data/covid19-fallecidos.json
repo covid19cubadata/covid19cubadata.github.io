@@ -3460,6 +3460,28 @@
                         "texto": "Falleció ciudadana cubana de 80 años de edad que residía en la provincia Cienfuegos. Antecedentes Patológicos Personales: Hipertensión Arterial, Insuficiencia Cardíaca, Diabetes Mellitus, Hipotiroidismo.  Comienza con primeros síntomas y se le realiza PCR que resulta positivo para COVID-19. Es ingresada en sala de confirmados de alto riesgo. Presenta disnea ligera, tos, al examen físico crepitantes en ambos campos pulmonares, en el Rayos X lesiones de aspecto inflamatorio en bases pulmonares.  Se le puso tratamiento según protocolos para estos pacientes.  Los tres días posteriores  mantiene la disnea ligera con oximetrías de pulso en valores aceptables, afebril y estabilidad hemodinámica. Al cuarto día presenta de forma súbita agobio respiratorio, hipoxemia severa, taquicardia e hipotensión arterial, es trasladada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada, apoyada con aminas a altas dosis, hace parada cardiorespiratoria en asistolia, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
+            },
+            "291": {
+                "fecha": "2020/12/26",
+                "fallecidos": [
+                    {
+                        "id": "f-142",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "mujer",
+                        "municipio_detección": null,
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ir"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 68 años de edad, residente en La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Renal Crónica Terminal. Fue remitida al Hospital Salvador Allende al ser contacto de caso confirmado y presentar síntomas respiratorios. Se realiza PCR el cual resulto positivo. Posteriormente fue trasladada al Hospital Luis Díaz Soto para proceder hemodialítico por tratarse de una paciente con Insuficiencia Renal Crónica. Posteriormente comienza con dificultad respiratoria, por lo que es trasladada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada presentando acidemia metabólica y trastornos hidroelectrolíticos. En horas de la noche presenta parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Es realizada necropsia y enviadas piezas anatómicas para PCR postmortem, con resultados positivos. "
+                    }
+                ]
             }
         }
     }
