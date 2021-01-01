@@ -1501,7 +1501,6 @@ function run_calculations() {
 
                         for(var i in index_days){
                             var idx = '2020-'+index_days[i].replace('/','-');
-                            console.log(oxford_index.data[idx]);
                             if ((oxford_index.data[idx])&&('CUB' in oxford_index.data[idx])){
                                 var val = oxford_index.data[idx].CUB.stringency;
                                 index_values_cuba_all.push(val);
