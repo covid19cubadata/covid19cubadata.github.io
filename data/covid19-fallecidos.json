@@ -3548,6 +3548,27 @@
                         "texto": "Falleció el ciudadano cubano de 77 años de edad, residente permanente en los Estados Unidos que se encontraba en la provincia Las Tunas. Antecedentes Patológicos Personales: Enfermedad Obstructiva Crónica, Diabetes Mellitus, Neoplasia de Próstata. Presentó decaimiento marcado, fiebre, vómitos y tos con expectoración blanquecina, (realizándose segundo PCR – negativo), por lo fue ingresado como sospechoso. El día 17 de diciembre es realizado tercer PCR que resultó positivo. Los días siguientes mantuvo evolución estable, cumpliendo tratamiento indicado. Fue trasladado e ingresado en la Unidad de Cuidados Intensivos por presentar falta de aire intensa, decaimiento y palidez cutáneo mucosa. Los días posteriores permaneció con disnea ligera, tos y decaimiento, estable hemodinámicamente, y es tratado con oxígeno suplementario. El día 26 de diciembre presenta empeoramiento clínico, gasométrico y radiológico, por lo que fue intubado y ventilado en modalidad controlada, mantuvo estabilidad hemodinámica. El día 28 de diciembre en horas de la noche hace parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Es realizada necropsia."
                     }
                 ]
+            },
+            "295": {
+                "fecha": "2020/12/30",
+                "fallecidos": [
+                    {
+                        "id": "f-146",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ep",
+                            "fc"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 89 años de edad, residente en el municipio Santiago de Cuba, de la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Fractura de Cadera. Comenzó con falta de aire, tos y expectoración blanquecina. Es ingresado en sala de sospechosos de alto riesgo, por la sintomatología clínica y el antecedente epidemiológico de ser contacto de caso confirmado y es realizado PCR. En días posteriores se mantuvo clínicamente estable. El día 27 de diciembre se recibe PCR con resultado positivo. Presentó empeoramiento de la disnea y decaimiento marcado, por lo que fue trasladado a la unidad de Cuidados Intensivos. En el Rx lesiones inflamatorias en ambos campos pulmonares, por lo que fue ventilado en modalidad no invasiva. Mantuvo estabilidad clínica con hipoxemia moderada y permaneció en ventilación no invasiva. El día 29 de diciembre presentó empeoramiento clínico gasométrico y radiológico compatible con distres moderado, por lo que fue intubado y ventilado en modalidad controlada, apoyado con aminas a altas dosis. En horas de la noche hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Es realizada necropsia. "
+                    }
+                ]
             }
         }
     }
