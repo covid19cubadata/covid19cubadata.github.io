@@ -736,7 +736,8 @@ function run_calculations() {
                         index_values_cuba.push(index_values_cuba[index_values_cuba.length-1]);
                     }
                 }
-                if ('CUB' in countriesdays.indexes.data[idx]) {
+                console.log(countriesdays.indexes.data)
+                if ((countriesdays.indexes.data[idx])&&('CUB' in countriesdays.indexes.data[idx])) {
                     var val = countriesdays.indexes.data[idx].CUB.stringency;
                     index_values_cuba_all.push(val);
                 } else {
@@ -746,7 +747,7 @@ function run_calculations() {
                 for (var j = 0; j < stringency_countries.length; j++) {
                     let code = stringency_countries[j];
                     let name = trans_countries[countries_codes[code]];
-                    if (code in countriesdays.indexes.data[idx]) {
+                    if ((countriesdays.indexes.data[idx])&&(code in countriesdays.indexes.data[idx])) {
                         if (name in curves_stringency) {
                             curves_stringency[name]['data'].push(countriesdays.indexes.data[idx][code].stringency);
                         } else {
