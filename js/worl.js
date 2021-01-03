@@ -727,7 +727,7 @@ function run_calculations() {
                     verif = true;
                 }
                 if (verif && index_values_cuba.length <= (cuba.length - 1)) {
-                    if ('CUB' in countriesdays.indexes.data[idx]) {
+                    if ((countriesdays.indexes.data[idx])&&('CUB' in countriesdays.indexes.data[idx])) {
                         var val = countriesdays.indexes.data[idx].CUB.stringency;
                         index_values_cuba.push(val);
                         index_last_value = val;
