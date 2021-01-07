@@ -3603,6 +3603,29 @@
             },
             "300": {
                 "fecha": "2021/01/04"
+            },
+            "301": {
+                "fecha": "2021/01/02",
+                "fallecidos": [
+                    {
+                        "id": "f-148",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34.06",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ob",
+                            "iv"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 72 años de edad, residente en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Insuficiencia Venosa Periférica, Obesidad. Comenzó con falta de aire, tos, fiebre y decaimiento. Es valorada e ingresada por presentar empeoramiento de la disnea, en el Rayos X de Tórax  se apreciaron lesiones inflamatorias en ambos campos pulmonares. Es trasladada a la Unidad de Cuidados Intensivos, tratada con régimen de Ventilación No Invasiva, broncodilatadores y antibióticos. Se indica PCR que resultó positivo. Empeoró el cuadro clínico por lo que es intubada y ventilada en modalidad controlada. Los días posteriores presentó empeoramiento clínico, gasométrico y radiológico. El día 4 de enero presentó inestabilidad hemodinámica, empeoramiento de la oxigenación, fue necesario ventilar con parámetros elevados y elevar dosis de aminas. El 5 de enero en horas de la madrugada, hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas, y la paciente fallece. "
+                    }
+                ]
             }
         }
     }
