@@ -3616,7 +3616,7 @@
                         "municipio_detección": "Santiago de Cuba",
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
-                        "dpacode_provincia_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha",
                             "ci",
