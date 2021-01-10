@@ -3635,6 +3635,59 @@
             },
             "304": {
                 "fecha": "2021/01/08"
+            },
+            "305": {
+                "fecha": "2021/01/09",
+                "fallecidos": [
+                    {
+                        "id": "f-149",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 92,
+                        "sexo": "mujer",
+                        "municipio_detección": "Holguín",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.06",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 92 años. Municipio Holguín. Provincia Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica. Comenzó con tos, falta de aire y fiebre, es ingresada en sala de sospechosos al ser contacto de hijo (viajero) caso  confirmado. Fue tratada con broncodilatadores y antibióticos. Fue trasladada al Hospital Militar Fermín Valdés Domínguez con PCR positivo e ingresada en la Unidad de Cuidados Intensivos. Presentó empeoramiento del cuadro clínico presenta agobio respiratorio, hipotensión arterial, taquicardia, sudoración, es intubada y ventilada en modalidad controlada y apoyada con aminas. Posteriormente se mantiene intubada y ventilada con altos parámetros, fue necesario elevar dosis de aminas. Presentó empeoramiento clínico, gasométrico y radiológico, disminuye el ritmo diurético y se elevan las cifras de creatinina, diagnosticándose una Insuficiencia Renal Aguda. El día 9 de enero en horas de la mañana, hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas"
+                    },
+                    {
+                        "id": "f-150",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "mujer",
+                        "municipio_detección": "Jovellanos",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.06",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "md"
+                        ],
+                        "texto": "Ciudadana cubana de 83 años. Municipio Jovellanos. Provincia  Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Miocardiopatía Dilatada. Arribó al país procedente de Estados Unidos, es realizado PCR con resultado Negativo, se mantiene en aislamiento domiciliario, asintomática. El día 6 de enero se le realiza segundo PCR con resultado positivo, fue remitida para al hospital e iniciado tratamiento con Heberferón. Presentó  disnea ligera y vómitos, es ingresada en sala para pacientes de alto riesgo. Posteriormente presentó disnea intensa,  hipotensión arterial y sudoración, es trasladada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada y apoyada con aminas a altas dosis. En horas de la noche hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-151",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano de 76 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebrovascular. Comenzó con  tos seca, falta de aire y decaimiento. No acudió a los Servicios  de Salud. El 3 de enero fue valorado e ingresado en el Hospital Saturnino Lora, en sala de respiratorio, por presentar empeoramiento de la disnea, en el Rayos X de Tórax se aprecian lesiones inflamatorias en ambos campos pulmonares. Fue tratado con antibióticos y broncodilatadores. Presentó agobio respiratorio, inestabilidad hemodinámica, fue trasladado a la Unidad de Cuidados Intensivos, intubado y ventilado en modalidad controlada, fue apoyado con aminas a altas dosis. Se recibe resultado de PCR que fue positivo. El 6 de enero en horas de la madrugada hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    }
+                ]
             }
         }
     }
