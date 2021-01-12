@@ -3688,6 +3688,44 @@
                         "texto": "Ciudadano cubano de 76 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebrovascular. Comenzó con  tos seca, falta de aire y decaimiento. No acudió a los Servicios  de Salud. El 3 de enero fue valorado e ingresado en el Hospital Saturnino Lora, en sala de respiratorio, por presentar empeoramiento de la disnea, en el Rayos X de Tórax se aprecian lesiones inflamatorias en ambos campos pulmonares. Fue tratado con antibióticos y broncodilatadores. Presentó agobio respiratorio, inestabilidad hemodinámica, fue trasladado a la Unidad de Cuidados Intensivos, intubado y ventilado en modalidad controlada, fue apoyado con aminas a altas dosis. Se recibe resultado de PCR que fue positivo. El 6 de enero en horas de la madrugada hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
                     }
                 ]
+            },
+            "306": {
+                "fecha": "2021/01/09",
+                "fallecidos": [
+                    {
+                        "id": "f-152",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "hombre",
+                        "municipio_detección": "Gibara",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.01",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 53 años de edad  que se encontraba en el municipio Gibara, provincia Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial y Obesidad. Arribó al país, procedente de España, se le realiza primer PCR que resulta negativo a la COVID-19. Comienza con tos, fiebre y expectoración, no acude a los servicios de salud. Se le realiza el segundo PCR, con resultado Positivo. Es ingresado en sala de confirmados e iniciado tratamiento según protocolos. para estos pacientes. Los tres días posteriores mantiene, tos, expectoración escasa, en el Rayos X de tórax, se aprecian lesiones inflamatorias en ambos campos pulmonares, se mantiene con estabilidad hemodinámica, se cumple protocolo.Muestra polipnea moderada, fue trasladado a la Unidad de Cuidados Intensivos, es iniciada Ventilación No Invasiva, se mantiene hemodinámicamente estable. Presenta empeoramiento clínico, gasométrico y radiológico, polipnea intensa, hipotensión arterial, sudoración, cianosis, hasta el agobio respiratorio por lo que es intubado y ventilado en modalidad controlada, apoyado con aminas a altas dosis. En horas de la noche hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente Fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-153",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "np"
+                        ],
+                        "texto": "Ciudadana cubana de 56 años de edad, que residía en  municipio Santiago de Cuba, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Neoplasia de Pulmón con Metástasis. Es valorada e ingresada en hospital, en sala Neurología, por presentar cuadro convulsivo. Es realizado PCR. Mantiene estabilidad hemodinámica, presenta cuadro de obnubilación. Se recibe resultado positivo del PCR, es trasladada de hospital, fue ingresada en la Unidad de Cuidados Intensivos, presenta disnea moderada, inestable hemodinamicamente por lo que es tratada según protocolo para estos pacientes. Presenta empeoramiento clínico, gasométrico y radiológico, es intubada y ventilada en modalidad controlada,  apoyada con aminas a altas dosis. En horas de la noche hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente Fallece. Es realizada necropsia."
+                    }
+                ]
             }
         }
     }
