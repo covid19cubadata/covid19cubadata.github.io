@@ -3726,6 +3726,45 @@
                         "texto": "Ciudadana cubana de 56 años de edad, que residía en  municipio Santiago de Cuba, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Neoplasia de Pulmón con Metástasis. Es valorada e ingresada en hospital, en sala Neurología, por presentar cuadro convulsivo. Es realizado PCR. Mantiene estabilidad hemodinámica, presenta cuadro de obnubilación. Se recibe resultado positivo del PCR, es trasladada de hospital, fue ingresada en la Unidad de Cuidados Intensivos, presenta disnea moderada, inestable hemodinamicamente por lo que es tratada según protocolo para estos pacientes. Presenta empeoramiento clínico, gasométrico y radiológico, es intubada y ventilada en modalidad controlada,  apoyada con aminas a altas dosis. En horas de la noche hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente Fallece. Es realizada necropsia."
                     }
                 ]
+            },
+            "307": {
+                "fecha": "2021/01/11",
+                "fallecidos": [
+                    {
+                        "id": "f-154",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 57,
+                        "sexo": "mujer",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ab"
+                        ],
+                        "texto": "Ciudadana cubana de 57 años. Municipio Boyeros. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Asma Bronquial, Insuficiencia Cardiaca, Obesidad, Insuficiencia Renal Crónica. Presentó fiebre, perdida del gusto y del olfato, se recibe resultado de PCR Positivo, fue remitida e ingresada en sala de confirmados del Hospital. Mantuvo disnea ligera, estabilidad hemodinámica, cumpliendo tratamiento establecido.  Posteriormente presentó polipnea intensa e hipotensión arterial, fue trasladada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada. En hora de la tarde hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. "
+                    },
+                    {
+                        "id": "f-155",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano de 89 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebrovascular. Paciente con secuela de Accidente Vascular Encefálico que ingresó por presentar cuadro convulsivo en sala de Neurología, en el Rayos X de Tórax se aprecian lesiones inflamatorias en ambos campos pulmonares. Se recibe PCR positivo, fue trasladado al Hospital Ambrosio Grillo, fue ingresado en la Unidad de Cuidados Intensivos por disnea ligera y presencia de comorbilidades. Se mantuvo con estabilidad hemodinámica, con buena mecánica ventilatoria, con oxígeno suplementario. Posteriormente presentó de manera súbita, polipnea intensa, cianosis central, taquicardia, sudoración, hace fibrilación ventricular y parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    }
+                ]
             }
         }
     }
