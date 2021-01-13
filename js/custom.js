@@ -219,7 +219,7 @@ $.walker = {
             $('[data-content=nofallecd]').html('<i class="fa fa-spinner fa-spin"></i>');
 
             const general_view = $locator.val() === 'cuba';
-            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent, #asyminfo, #asymbar, #asymperday, #asympertot, #homehospday, #hospday');
+            let $generals = $('#recdist, #deadist, #tesmade-pcr, #tesacum, #topprov, #compari, #topn-n-countries, #evomade, #proscurves, #testspor, #stringencycub, #casinfo, #actalt, #gravesevol, #gravespercent, #asyminfo, #asymbar, #asymperday, #asympertot, #homehospday, #hospday, #avetests');
             if (general_view) {
                 $('#munscurves').css({'margin-left': ''});
                 $generals.show();
@@ -1134,7 +1134,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Casos',
@@ -1164,7 +1170,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Casos',
@@ -1194,7 +1206,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Porciento',
@@ -1224,7 +1242,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Porciento',
@@ -1276,7 +1300,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Casos en el día',
@@ -1307,7 +1337,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: '% casos en el día',
@@ -1337,7 +1373,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: '% casos acumulados',
@@ -1369,7 +1411,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Personas en vigilancia',
@@ -1389,7 +1437,6 @@ function run_calculations() {
 							}
 						}
 						
-						console.log(dates);
 
 						//Hospitalización
                         c3.generate({
@@ -1412,7 +1459,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Personas hospitalizadas',
@@ -1455,6 +1508,66 @@ function run_calculations() {
 
                         $('[data-content=update]').html(dates[dates.length - 1]);
 
+                        var ttest_days = ['Fecha'];
+                        var ttest_positive_percent = ['% de Tests Positivos (ventana de 3 días)'];
+                        var ttest_cases = ['Total de Tests en el día (ventana de 3 días)'];
+                        for (var i = 3;i<ntest_cases.length;i++){
+                            ttest_days.push(ntest_days[i]);
+                            var temp_cases = ntest_cases[i]+ntest_cases[i-1]+ntest_cases[i-2];
+                            var temp_positive = ntest_positive[i]+ntest_positive[i-1]+ntest_positive[i-2];
+                            ttest_cases.push(parseInt((temp_cases/3).toFixed(0)));
+                            ttest_positive_percent.push(parseFloat((temp_positive*100/temp_cases).toFixed(2)));
+                        }
+
+                        
+
+                        ttests = c3.generate({
+                            bindto: "#ave_tests-line-info",
+                            data: {
+                                x: ttest_days[0],
+                                columns: [
+                                    ttest_days,
+                                    //ntest_negative,
+                                    ttest_positive_percent,
+                                    ttest_cases
+                                ],
+                                type: 'line',
+                                axes: {
+                                    '% de Tests Positivos (ventana de 3 días)': 'y2',
+                                    'Total de Tests en el día': 'y'
+                                },
+                                //groups: [['Tests Negativos', 'Tests Positivos']],
+                                colors: {
+                                    //'Tests Negativos': '#1C1340',
+                                    '% de Tests Positivos (ventana de 3 días)': '#B01E22',
+                                    'Total de Tests en el día (ventana de 3 días)': '#1A8323'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Fecha',
+                                    type: 'categorical',
+                                    tick: {
+                                        values: [0,ttest_days.length/2,ttest_days.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
+                                },
+                                y: {
+                                    label: 'Tests en el día',
+                                    position: 'outer-middle'
+                                },
+                                y2: {
+                                    label: '% de Tests Positivos',
+                                    position: 'outer-middle',
+                                    show: true
+                                }
+                            }
+                        });
+
+
                         tests = c3.generate({
                             bindto: "#tests-line-info",
                             data: {
@@ -1471,17 +1584,31 @@ function run_calculations() {
                                     //'Tests Negativos': '#1C1340',
                                     'Tests Positivos': '#B01E22',
                                     'Total de Tests en el día': '#1A8323'
+                                },
+                                axes: {
+                                    'Tests Positivos': 'y2'
                                 }
                             },
                             axis: {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,ntest_days.length/2,ntest_days.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Tests en el día',
                                     position: 'outer-middle'
+                                },
+                                y2: {
+                                    label: 'Tests Positivos',
+                                    position: 'outer-middle',
+                                    show: true
                                 }
                             }
                         });
@@ -1548,7 +1675,13 @@ function run_calculations() {
 								    },
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,index_days.length/2,index_days.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: {
@@ -1668,7 +1801,6 @@ function run_calculations() {
                             var val = $('#munscurve-select1').val();
                             municipalitylectd1 = val;
                             
-                            console.log(dias,munscurves[municipalitylectd1]['data'],munscurves[municipalitylectd2]['data']);
 
                             comparison3 = c3.generate({
                                 bindto: "#municipalyties-curve",
@@ -1699,7 +1831,6 @@ function run_calculations() {
                             var val = $('#munscurve-select2').val();
                             municipalitylectd2 = val;
                             
-                            console.log(dias,munscurves[municipalitylectd1]['data'],munscurves[municipalitylectd2]['data']);
 
                             comparison3 = c3.generate({
                                 bindto: "#municipalyties-curve",
@@ -1748,18 +1879,33 @@ function run_calculations() {
                                 x: dates[0],
                                 columns: columns,
                                 type: 'line',
-                                colors: colors
+                                colors: colors,
+                                axes: {
+                                    "Casos en el día": "y2",   
+                                }
                             },
                             axis: {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Casos',
                                     position: 'outer-middle',
+                                },
+                                y2: {
+                                    label: 'Casos en el día',
+                                    position: 'outer-middle',
+                                    show: true
                                 }
+
                             }
                         });
 
@@ -1786,7 +1932,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Casos',
@@ -1819,7 +1971,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Por ciento (%)',
@@ -1850,7 +2008,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Por ciento (%)',
@@ -1872,17 +2036,31 @@ function run_calculations() {
                                 colors: {
                                     'Fallecidos en el día': '#00577B',
                                     'Total de fallecidos': '#1C1340'
+                                },
+                                axes : {
+                                    'Fallecidos en el día': 'y2',
                                 }
                             },
                             axis: {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Fallecidos',
                                     position: 'outer-middle',
+                                },
+                                y2: {
+                                    label: 'Fallecidos en el día',
+                                    position: 'outer-middle',
+                                    show: true
                                 }
                             }
                         });
@@ -1900,17 +2078,31 @@ function run_calculations() {
                                 colors: {
                                     'Altas en el día': '#00577B',
                                     'Altas acumuladas': '#00AEEF'
+                                },
+                                axes: {
+                                    'Altas en el día':  'y2'
                                 }
                             },
                             axis: {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Altas',
                                     position: 'outer-middle',
+                                },
+                                y2: {
+                                    label: 'Altas en el día',
+                                    position: 'outer-middle',
+                                    show: true
                                 }
                             }
                         });
@@ -1934,7 +2126,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Altas',
@@ -1962,7 +2160,13 @@ function run_calculations() {
                                 x: {
                                     label: 'Fecha',
                                     type: 'categorical',
-                                    show: false
+                                    tick: {
+                                        values: [0,dates.length/2,dates.length-2]
+                                    },
+                                    padding: {
+                                        left: 2,
+                                        right: 4
+                                    }
                                 },
                                 y: {
                                     label: 'Altas',
@@ -2071,7 +2275,7 @@ function run_calculations() {
                         tasacolors[tasas[0]]='#B01E22';
 						
 						 
-						console.log(dates15[236]);
+
                         c3.generate({
                             bindto: "#tasas-info",
                             data: {

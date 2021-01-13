@@ -12,7 +12,8 @@
     <meta http-equiv="pragma" content="no-cache" />
 
     <meta property="og:title" content="Covid19 - Dashboard Cuba" />
-    <meta property="og:description" content="Visualice los datos relacionados con Covid19 en Cuba a partir de la informaci&oacute;n oficial del MINSAP que es reportada al d&iacute;a siguiente." />
+    <meta property="og:description"
+        content="Visualice los datos relacionados con Covid19 en Cuba a partir de la informaci&oacute;n oficial del MINSAP que es reportada al d&iacute;a siguiente." />
     <meta property="og:image" content="http://www.acn.cu/images/2020/ABRIL/0-10-cubadata.jpg" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="website" />
@@ -201,13 +202,18 @@
                                     <span id="cases">#</span> casos
                                 </div>
                                 <div class="map-legend">
-                                    <span class="main-text">Eventos de transmisi&oacute;n local activos <img class="img-fluid" src="images/marker-icon-2x-gold.png" alt="" width="15px" height="30px"></span>
+                                    <span class="main-text">Eventos de transmisi&oacute;n local activos <img
+                                            class="img-fluid" src="images/marker-icon-2x-gold.png" alt="" width="15px"
+                                            height="30px"></span>
 
-                                    <span class="main-text">Eventos de transmisi&oacute;n local cerrados <img class="img-fluid" src="images/marker-icon-2x-green.png" alt="" width="15px" height="30px"></span>
+                                    <span class="main-text">Eventos de transmisi&oacute;n local cerrados <img
+                                            class="img-fluid" src="images/marker-icon-2x-green.png" alt="" width="15px"
+                                            height="30px"></span>
                                 </div>
                             </div>
                             <div class="map-quote">
-                                * el cuadrado representa a aquellos casos que por distintas razones no tengan localizaci&oacute;n
+                                * el cuadrado representa a aquellos casos que por distintas razones no tengan
+                                localizaci&oacute;n
                                 conocida <br>
                             </div>
                         </div>
@@ -234,21 +240,22 @@
             </div>
         </div>
     </div>
-    
-     <div class="container-fluid"></div>
-        <div class="card-deck">
-            <section id="tasas" class="card common-bg">
-                <div class="card-header">Evoluci&oacute;n por d&iacute;as de la Tasa de Incidencia (por 100 mil) en 15 días</div>
-                <div class="card-body">
-                    <div id="tasas-info"></div>
-                </div>
-            </section>
-        </div>
+
+    <div class="container-fluid"></div>
+    <div class="card-deck">
+        <section id="tasas" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n por d&iacute;as de la Tasa de Incidencia (por 100 mil) en 15 días
+            </div>
+            <div class="card-body">
+                <div id="tasas-info"></div>
+            </div>
+        </section>
+    </div>
     </div>
 
     <div id="line-charts" class="container-fluid">
-		<div class="card-deck card-deck-2">
-			<section id="casdist" class="card common-bg">
+        <div class="card-deck card-deck-2">
+            <section id="casdist" class="card common-bg">
                 <div class="card-header">Evoluci&oacute;n de casos por d&iacute;as</div>
                 <div class="card-body">
                     <div id="daily-single-info"></div>
@@ -291,8 +298,8 @@
                     <div id="daily-actalt-info"></div>
                 </div>
             </section>
-			<div class="w-100 d-none d-sm-block"></div>
-			<!-- <section id="agedist" class="card common-bg ">
+            <div class="w-100 d-none d-sm-block"></div>
+            <!-- <section id="agedist" class="card common-bg ">
                 <div class="card-header">Distribuci&oacute;n por rangos etarios</div>
                 <div class="card-body">
                     <div id="ages-info"></div>
@@ -313,7 +320,8 @@
                 </div>
             </section>
             <section id="pacthome" class="card common-bg ">
-                <div class="card-header">Evoluci&oacute;n por d&iacute;as del porciento de casos importados y no importados</div>
+                <div class="card-header">Evoluci&oacute;n por d&iacute;as del porciento de casos importados y no
+                    importados</div>
                 <div class="card-body">
                     <div id="pdaily-acthome-info"></div>
                 </div>
@@ -366,7 +374,21 @@
                 </div>
             </section>
 
-             <div class="w-100 d-none d-lg-block"></div>
+            <div class="w-100 d-none d-lg-block"></div>
+
+            <div class="container-fluid">
+                <div class="card-deck">
+                    <section id="avetests" class="card common-bg">
+                        <div class="card-header">Evoluci&oacute;n de los Test diarios y el porciento de test positivos con ventanas de 3 días</div>
+                        <div class="card-body">
+                            <div id="ave_tests-line-info"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="w-100 d-none d-lg-block"></div>
+
             <section id="homehospday" class="card common-bg">
                 <div class="card-header">Evolución de las personas en vigilancia </div>
                 <div class="card-body">
@@ -439,8 +461,12 @@
                 <div class="card-body">
                     <div id="repnumber-chart"></div>
                     <div class="map-quote">
-                        * el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico">Número Reproductivo Efectivo</a> se calcula en base al método propuesto por <a href="https://cran.r-project.org/package=EpiEstim">Anne Cori</a>.
-                        Es una colaboración del Investigador Waldemar Baldoquín del IPK y se actualizará periódicamente en base a sus cálculos.
+                        * el <a href="https://es.wikipedia.org/wiki/Ritmo_reproductivo_b%C3%A1sico">Número Reproductivo
+                            Efectivo</a> se calcula en base al método propuesto por <a
+                            href="https://cran.r-project.org/package=EpiEstim">Anne Cori</a>.
+                        Es una colaboración del Investigador Waldemar Baldoquín del IPK y se actualizará periódicamente
+                        en
+                        base a sus cálculos.
                         Los márgenes refieren al rango con 95% de confianza.
                     </div>
                 </div>
@@ -449,18 +475,21 @@
             <section id="stringencycub" class="card common-bg">
                 <div class="card-header">Evoluci&oacute;n del Oxford Stringency Index para Cuba</div>
                 <div class="card-body">
-					<div class="alert-text">
-                       El Índice fue revisado y actualizado por Oxford y se incorporaron nuevos criterios. Por tanto,
-                       en la gráfica se mostrarán los valores de la versión actual (v2) y de la versión previa (v1).
-                       y
+                    <div class="alert-text">
+                        El Índice fue revisado y actualizado por Oxford y se incorporaron nuevos criterios. Por tanto,
+                        en la gráfica se mostrarán los valores de la versión actual (v2) y de la versión previa (v1).
+                        y
                     </div>
                     <div id="stringencycub-value" class="text-block sub">
                         Evaluaci&oacute;n actual: <span id="stringencycub-idx"></span>/100
                     </div>
                     <div id="stringencycub-evol"></div>
                     <div class="map-quote">
-                        * el <a href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Oxford Stringency Index</a> eval&uacute;a las intervenciones del estado en la epidemia.
-                        Los valores se obtienen de un <a href="https://covidtracker.bsg.ox.ac.uk/about-api">API p&uacute;blico</a>.
+                        * el <a
+                            href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Oxford
+                            Stringency Index</a> eval&uacute;a las intervenciones del estado en la epidemia.
+                        Los valores se obtienen de un <a href="https://covidtracker.bsg.ox.ac.uk/about-api">API
+                            p&uacute;blico</a>.
 
                     </div>
                 </div>
@@ -505,7 +534,7 @@
             </section>
         </div>
     </div>
-   
+
 
     <div id="national-comparison" class="container-fluid">
         <div class="card-deck">
@@ -559,7 +588,7 @@
     <script type="text/javascript" src="js/c3.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript">
-        $("#navbar").load('navbar.html', function(){
+        $("#navbar").load('navbar.html', function () {
             $(".nav-item").removeClass("active");
             $("#inicio").addClass("active")
         })
