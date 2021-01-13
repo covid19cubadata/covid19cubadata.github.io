@@ -33,7 +33,7 @@
         "ei": "enfermedad cerebrovascular isquémica",
         "el": "epilepsia",
         "en": "encamado",
-        "eo": "enferemeda obstructiva crónica",
+        "eo": "enfermedad obstructiva crónica",
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
         "ev": "enfermedad cerebrovascular",
@@ -60,6 +60,7 @@
         "lc": "linfangitis crónica",
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
+        "lp": "lobectomía pulmonar",
         "md": "miocardiopatía dilatada",
         "mg": "miastenia grave",
         "mp": "metástasis pulmonar",
@@ -81,6 +82,7 @@
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
         "ti": "tuberculosis intestinal",
+        "tp": "tuberculosis pulmonar",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
         "vi": "vih",
@@ -3763,6 +3765,63 @@
                             "ev"
                         ],
                         "texto": "Ciudadano cubano de 89 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebrovascular. Paciente con secuela de Accidente Vascular Encefálico que ingresó por presentar cuadro convulsivo en sala de Neurología, en el Rayos X de Tórax se aprecian lesiones inflamatorias en ambos campos pulmonares. Se recibe PCR positivo, fue trasladado al Hospital Ambrosio Grillo, fue ingresado en la Unidad de Cuidados Intensivos por disnea ligera y presencia de comorbilidades. Se mantuvo con estabilidad hemodinámica, con buena mecánica ventilatoria, con oxígeno suplementario. Posteriormente presentó de manera súbita, polipnea intensa, cianosis central, taquicardia, sudoración, hace fibrilación ventricular y parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    }
+                ]
+            },
+            "308": {
+                "fecha": "2021/01/12",
+                "fallecidos": [
+                    {
+                        "id": "f-156",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 60 años de edad, residente en el municipio Habana del Este, provincia La Habana. Antecedentes de Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica, Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Arterial Periférica. Comenzó con tos seca, pérdida del apetito y decaimiento. No acudió a los servicios de salud.  Mantuvo la sintomatología, por lo que es valorada en el Área de Salud y remitida al Centro de Aislamiento de sospechosos, se le realiza PCR, resultando positivo. Presentó fiebre y disnea moderada, por lo que es trasladada e ingresada en la Unidad de Cuidados Intensivos. En el Rayos X de tórax, se apreciaban lesiones inflamatorias en ambos campos pulmonares. En los días posteriores mantuvo la disnea y aparecen elementos de Isquemia Arterial Aguda en miembros inferiores. El día 10 de enero mostró empeoramiento clínico, gasométrico y radiológico, polipnea intensa e hipotensión arterial, fue intubada y ventilada en modalidad controlada y apoyada con aminas. El día 11 de enero se mantiene intubada y ventilada, elevadas dosis de aminas. En horas de la tarde hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-157",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Juan y Martínez",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.10",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 72 años de edad, residente en el municipio San Juan y Martínez, provincia Pinar del Río. Antecedentes de Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebrovascular. Comenzó con fiebre y cuadro de desorientación, presentaba lesiones de úlceras por presión. En Rayos X de Tórax se aprecian lesiones inflamatorias en las bases pulmonares, por lo que fue ingresada en sala de sospechosos de alto riesgo. Los días siguientes evolucionó con estabilidad clínica. El día 8 de enero presenta disnea ligera, por lo que fue trasladada a la Unidad de Cuidados Intensivos. Los días posteriores evoluciona con estabilidad hemodinámica. El día 12 de enero en horas de la madrugada presenta de forma súbita, disnea intensa, cianosis generalizada, hipotensión arterial. Fue intubada y ventilada en modalidad controlada y apoyada con aminas a altas dosis, hace bradicardia extrema hasta la parada cardíaca en asistolia. Son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-158",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "tp",
+                            "lp"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años, residente en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes de Hipertensión Arterial, Tuberculosis Pulmonar, Lobectomía Pulmonar. Comienza con tos seca, diarreas y vómitos, no acude a los Servicios de Salud. Es evaluado y remitido del Área de Salud por la persistencia de la tos seca y la aparición de disnea ligera.  Es ingresado  en hospital, en sala de sospechosos de alto riesgo. Es tratado según protocolos para estos pacientes. Los tres días posteriores evoluciona sin demanda de oxígeno y con estabilidad hemodinámica. Se mantiene cumpliendo el protocolo de tratamiento. Presenta vómitos, sudoración y decaimiento por lo que es trasladado a la Unidad de Cuidados Intensivos. Hace episodio de Fibrilación Auricular con Respuesta Ventricular Rápida, fue tratado con infusión de antiarrítmicos. El día 11 de enero en horas de la noche, presenta polipnea intensa, deterioro del nivel de conciencia e hipotensión arterial, fue intubado, ventilado en modalidad controlada y apoyado con aminas a altas dosis. Hace parada cardíaca en asistolia, son realizadas maniobras, que no fueron efectivas. Paciente fallece. Es realizada necropsia."
                     }
                 ]
             }
