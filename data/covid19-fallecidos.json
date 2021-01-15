@@ -3824,6 +3824,45 @@
                         "texto": "Ciudadano cubano de 72 años, residente en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes de Hipertensión Arterial, Tuberculosis Pulmonar, Lobectomía Pulmonar. Comienza con tos seca, diarreas y vómitos, no acude a los Servicios de Salud. Es evaluado y remitido del Área de Salud por la persistencia de la tos seca y la aparición de disnea ligera.  Es ingresado  en hospital, en sala de sospechosos de alto riesgo. Es tratado según protocolos para estos pacientes. Los tres días posteriores evoluciona sin demanda de oxígeno y con estabilidad hemodinámica. Se mantiene cumpliendo el protocolo de tratamiento. Presenta vómitos, sudoración y decaimiento por lo que es trasladado a la Unidad de Cuidados Intensivos. Hace episodio de Fibrilación Auricular con Respuesta Ventricular Rápida, fue tratado con infusión de antiarrítmicos. El día 11 de enero en horas de la noche, presenta polipnea intensa, deterioro del nivel de conciencia e hipotensión arterial, fue intubado, ventilado en modalidad controlada y apoyado con aminas a altas dosis. Hace parada cardíaca en asistolia, son realizadas maniobras, que no fueron efectivas. Paciente fallece. Es realizada necropsia."
                     }
                 ]
+            },
+            "309": {
+                "fecha": "2021/01/13",
+                "fallecidos": [
+                    {
+                        "id": "f-159",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ht"
+                        ],
+                        "texto": "Ciudadana cubana de 83 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Hipotiroidismo. Comenzó con tos seca, fiebre y decaimiento. Dos días después fue evaluada en el Área de Salud por presentar falta de aire, fiebre, tos seca y decaimiento, fue remitida al Hospital e ingresada en sala de sospechosos de alto riesgo. Se mantuvo con disnea ligera y estabilidad hemodinámica. Fue tratada con aporte de oxígeno suplementario y medicamentos según protocolo. Posteriormente presentó polipnea intensa, cianosis, sudoración, hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-160",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "mujer",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "fc",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 87 años. Municipio Camagüey. Provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus, Fractura de Cadera, Demencia Senil. Comenzó con tos seca y disnea ligera, fue llevada por sus familiares al Servicio de Urgencias Hospital, en el exámen físico presentaba crepitantes en ambas bases pulmonares y en el Rayos X tórax se aprecian lesiones inflamatorias en base pulmonar izquierda. Posteriormente presentó empeoramiento clínico con polipnea intensa, hipotensión arterial, sudoración y taquicardia, hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    }
+                ]
             }
         }
     }
