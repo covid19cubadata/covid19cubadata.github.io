@@ -66,6 +66,7 @@
         "mp": "metástasis pulmonar",
         "nc": "neumopatía crónica",
         "ne": "neoplasia de esófago",
+        "nm": "neoplasia de mama",
         "no": "neoplasia de próstata",
         "np": "neoplasia del pulmón",
         "nr": "neuropatías a repetición",
@@ -3861,6 +3862,41 @@
                             "ds"
                         ],
                         "texto": "Ciudadana cubana de 87 años. Municipio Camagüey. Provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus, Fractura de Cadera, Demencia Senil. Comenzó con tos seca y disnea ligera, fue llevada por sus familiares al Servicio de Urgencias Hospital, en el exámen físico presentaba crepitantes en ambas bases pulmonares y en el Rayos X tórax se aprecian lesiones inflamatorias en base pulmonar izquierda. Posteriormente presentó empeoramiento clínico con polipnea intensa, hipotensión arterial, sudoración y taquicardia, hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    }
+                ]
+            },
+            "310": {
+                "fecha": "2021/01/14",
+                "fallecidos": [
+                    {
+                        "id": "f-161",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "nm"
+                        ],
+                        "texto": "Ciudadana cubana de 68 años de edad. Residente en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Neoplasia de Mama con metástasis. Comenzó con tos seca y falta de aire. Se realiza PCR como parte de un control de foco, resultando positivo, por lo que fue remitida e ingresada en sala de confirmados de alto riesgo. Presentó disnea ligera y en el Rayos X de Tórax, se apreciaron lesiones inflamatorias en ambos campos pulmonares. Los días posteriores mantiene disnea ligera, con estabilidad hemodinámica. Fue tratada con aporte de oxigeno suplementario. El día 13 de enero presenta empeoramiento clínico, gasométrico y radiológico, es trasladada a la Unidad de Cuidados Intensivos. Fue ventilada en modalidad controlada y es apoyada con aminas. Hace parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Es realizada necropsia"
+                    },
+                    {
+                        "id": "f-162",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 70 años de edad. Residente en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Diabetes Mellitus. Es ingresado en el por Infección Urinaria y Linfangitis Aguda. Comenzó a presentar tos seca y secreción nasal. Se realiza PCR resultando positivo y fue trasladado e ingresado en sala de confirmados. Los días posteriores persistió la tos y la secreción nasal. En el Rayos X de Tórax se apreciaron lesiones inflamatorias en hemitórax derecho y mantuvo estabilidad hemodinámica. El día 13 de enero presentó dolor torácico, falta de aire, sudoración, frialdad, cianosis e Hipotensión arterial. Hace parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Es realizada necropsia."
                     }
                 ]
             }
