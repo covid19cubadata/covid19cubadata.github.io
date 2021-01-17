@@ -3899,6 +3899,78 @@
                         "texto": "Ciudadano cubano de 70 años de edad. Residente en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Diabetes Mellitus. Es ingresado en el por Infección Urinaria y Linfangitis Aguda. Comenzó a presentar tos seca y secreción nasal. Se realiza PCR resultando positivo y fue trasladado e ingresado en sala de confirmados. Los días posteriores persistió la tos y la secreción nasal. En el Rayos X de Tórax se apreciaron lesiones inflamatorias en hemitórax derecho y mantuvo estabilidad hemodinámica. El día 13 de enero presentó dolor torácico, falta de aire, sudoración, frialdad, cianosis e Hipotensión arterial. Hace parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Es realizada necropsia."
                     }
                 ]
+            },
+            "311": {
+                "fecha": "2021/01/15",
+                "fallecidos": [
+                    {
+                        "id": "f-163",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 57,
+                        "sexo": "mujer",
+                        "municipio_detección": null,
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 57 años de edad. Provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con falta de aire, tos seca y fiebre y no acudió a los Servicios de Salud. Es evaluada por el Área de Salud y remitida e ingresada en sala de sospechosos.  Mantuvo la disnea ligera y la tos. Se recibe PCR con resultado positivo, por lo que fue trasladada a sala de confirmados. En el examen físico aparecieron crepitantes en hemitórax derecho, en    el Rayos X de Tórax se apreciaron lesiones inflamatorias en base pulmonar derecha. Persistió la disnea, con estabilidad hemodinámica. El día 11 de enero muestra disnea intensa, hasta el agobio respiratorio, por lo que fue trasladada a la Unidad de Cuidados Intensivos, es intubada y ventilada en modalidad controlada. El día 12 de enero presentó empeoramiento clínico gasométrico y radiológico, se mantuvo  ventilada, es apoyada con aminas. Los días posteriores presentó inestabilidad hemodinámica, ventilada, fue necesario modificar parámetros ventilatorios y elevar las dosis de aminas. El día 15 de enero hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-164",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 87 años de edad, del municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Demencia Senil. Comenzó con falta de aire y fiebre y no acudió a los Servicios de Salud. Es evaluada por el Área de Salud, y fue remitida e ingresada en la Unidad de Cuidados Intensivos. En el exámen físico aparecieron crepitantes en hemitórax izquierdo, en el Rayos X de Tórax se apreciaton lesiones inflamatorias en base pulmonar izquierda. Los días posteriores  mantiene disnea ligera, con estabilidad hemodinámica. Fue tratada con aporte de oxigeno suplementario. Evolucionó con empeoramiento clínico, gasométrico y radiológico. Presentó polipnea intensa, hipotensión arterial, cianosis, es intubada y ventilada en modalidad controlada y apoyada con aminas. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-165",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 92,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 92 años de edad,  del municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Secuelas de Enfermedad Cerebrovascular. Comenzó con falta de aire y fiebre y no acudió a los Servicios de Salud. Es evaluada en el Área de Salud, por presentar, falta de aire, hipotensión arterial y estupor, y fue remitida e ingresada en la Unidad de Cuidados Intensivos Emergentes. La paciente llegó con disnea intensa, cianosis, frialdad e hipotensión arterial, fue intubada y ventilada en modalidad controlada, apoyada con dosis elevadas de aminas. Evolucionó con empeoramiento clínico, gasométrico y radiológico. Hizo parada cardíaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-166",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años de edad, del  Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica. Comenzó con tos, falta de aire, fiebre y decaimiento. No acudió a los Servicios de Salud. En días posteriores es llevado por los familiares al Área de Salud,  donde fue evaluado y remitido al Hospital. Es valorado e ingresado en sala de medicina; en el examen  físico, se precisan crepitantes, en el Rayos X de Tórax, lesiones inflamatorias  en ambos campos pulmonares. Fue indicado PCR que resultó positivo. Los días posteriores mantuvo disnea ligera con hemodinámica  estable. Presentó polipnea intensa, hipotensión arterial, cianosis, por lo que se trasladó a la Unidad de Cuidados Intensivos. Fue intubado y ventilado en modalidad controlada y apoyado con aminas. Presentó empeoramiento clínico radiológico, y  gasométrico. Hizo evento de bradicardia extrema hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    }
+                ]
             }
         }
     }
