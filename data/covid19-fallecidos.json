@@ -3971,6 +3971,75 @@
                         "texto": "Ciudadano cubano de 83 años de edad, del  Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica. Comenzó con tos, falta de aire, fiebre y decaimiento. No acudió a los Servicios de Salud. En días posteriores es llevado por los familiares al Área de Salud,  donde fue evaluado y remitido al Hospital. Es valorado e ingresado en sala de medicina; en el examen  físico, se precisan crepitantes, en el Rayos X de Tórax, lesiones inflamatorias  en ambos campos pulmonares. Fue indicado PCR que resultó positivo. Los días posteriores mantuvo disnea ligera con hemodinámica  estable. Presentó polipnea intensa, hipotensión arterial, cianosis, por lo que se trasladó a la Unidad de Cuidados Intensivos. Fue intubado y ventilado en modalidad controlada y apoyado con aminas. Presentó empeoramiento clínico radiológico, y  gasométrico. Hizo evento de bradicardia extrema hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
                     }
                 ]
+            },
+            "312": {
+                "fecha": "2021/01/16",
+                "fallecidos": [
+                    {
+                        "id": "f-167",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 72 años de edad, del municipio y provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con tos y expectoración. No acude a los Servicios de Salud. Es evaluada en la Atención Primaria de Salud y remitida e ingresada en sala de confirmados de alto riesgo. Fue realizado Rayos X de Tórax, donde se aprecian lesiones en base derecha. Posteriormente la paciente se mantuvo clínicamente estable, cumpliendo tratamiento según protocolo. El día 14 de enero se traslada a la Unidad de Cuidados Intensivos, por presentar agobio respiratorio, frialdad, taquicardia e hipotensión arterial, fue intubada, ventilada y apoyada con aminas a altas dosis. El día 15 de enero presenta empeoramiento clínico, gasométrico y radiológico. Fue necesario elevar dosis de aminas. El 16 de enero en horas de la madrugada hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-168",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 103,
+                        "sexo": "mujer",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "fc"
+                        ],
+                        "texto": "Ciudadana cubana de 103 años de edad, del municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Secuelas de Fractura de Cadera. Comienza con tos, falta de aire y fiebre. No acudió a los Servicios de Salud. Es valorada en el Área de Salud, por presentar disnea intensa, fue remitida e ingresada en la Unidad de Cuidados Intensivos como sospechosa de alto riesgo, es realizado PCR. El día 8 de enero mantiene ligera disnea con estabilidad hemodinámica. Los días 9, 10, 11 y 12 de enero continúa presentando disnea ligera, con estabilidad hemodinámica. Fue tratada con aporte de oxígeno suplementario. El día 13 de enero es diagnosticada una trombosis venosa profunda en miembro superior izquierdo.El día 14 de enero existe empeoramiento del compromiso vascular del miembro superior izquierdo, es necesario realizar fasciotomiadescompresiva. El día 15 de enero presenta agobio respiratorio, hipotensión arterial, cianosis; es intubada y ventilada en modalidad controlada y apoyada con aminas, posteriormente hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-169",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cárdenas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 64 años de edad, del municipio Cárdenas, provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial. Comienza con tos seca y fiebre. No acude a los Servicios de Salud. Es evaluado e ingresado en Sala de sospechosos. Se realiza PCR.El día 12 de enero empeora la disnea, en el Rayos X de Tórax lesiones en ambos campos pulmonares. Se traslada a la Unidad de Cuidados Intensivos, fue iniciada ventilación no invasiva.El día 13 de enero presenta agobio respiratorio e hipotensión arterial, fue intubado, ventilado en modalidad controlada y apoyado con aminas.Los días 14 y 15 de enero presenta empeoramiento clínico, gasométrico y radiológico. Fue necesario elevar dosis de aminas. El día 16 de enero en horas de la mañana, presenta episodios de arritmias ventriculares, hace parada cardíaca en asistolia, fueron  realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia"
+                    },
+                    {
+                        "id": "f-170",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cárdenas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 78 años de edad, del municipio Cárdenas, provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica. Comienza con tos, falta de aire y fiebre, acude al Área de Salud, fue remitido e ingresado en sala de sospechosos. Fue realizado PCR. Se mantiene con estabilidad hemodinámica.El día 13 de enero presenta polipnea moderada, es trasladado a la Unidad de Cuidados Intensivos, fue iniciada ventilación no invasiva.El día 14 de enero empeora la disnea, en el rayos X de tórax se aprecian lesiones inflamatorias en ambos campos pulmonares, fue intubado y ventilado en modalidad controlada.El día 15 de enero presenta empeoramiento clínico, gasométrico y radiológico, con inestabilidad hemodinámica, fue necesario apoyo con aminas a altas dosis.El día 16 de enero hace episodio de fibrilación ventricular, parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    }
+                ]
             }
         }
     }
