@@ -3999,7 +3999,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Boyeros",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_municipio_deteccion": "23.13",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha",
@@ -4038,6 +4038,60 @@
                             "ci"
                         ],
                         "texto": "Ciudadano cubano de 78 años de edad, del municipio Cárdenas, provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica. Comienza con tos, falta de aire y fiebre, acude al Área de Salud, fue remitido e ingresado en sala de sospechosos. Fue realizado PCR. Se mantiene con estabilidad hemodinámica.El día 13 de enero presenta polipnea moderada, es trasladado a la Unidad de Cuidados Intensivos, fue iniciada ventilación no invasiva.El día 14 de enero empeora la disnea, en el rayos X de tórax se aprecian lesiones inflamatorias en ambos campos pulmonares, fue intubado y ventilado en modalidad controlada.El día 15 de enero presenta empeoramiento clínico, gasométrico y radiológico, con inestabilidad hemodinámica, fue necesario apoyo con aminas a altas dosis.El día 16 de enero hace episodio de fibrilación ventricular, parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    }
+                ]
+            },
+            "313": {
+                "fecha": "2021/01/17",
+                "fallecidos": [
+                    {
+                        "id": "f-171",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 76 años, residía en el municipio Santiago de Cuba, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica. Comenzó con fiebre, tos seca, y decaimiento. No acudió a los Servicios de Salud. Al cuarto día de haber iniciado con  síntomas es llevada por los familiares al hospital. Fue ingresada en sala de sospechosos. Se le realiza PCR que resultó positivo, por lo que es ingresada en sala de confirmados. En el Rayos X de Tórax, se apreciaban lesiones inflamatorias en ambos campos pulmonares. Recibió tratamiento según protocolo para estos pacientes. Presentó polipnea moderada y cianosis distal. Fue trasladada e ingresada en la Unidad de Cuidados Intensivos. Presentó agobio respiratorio, hipotensión arterial, fue intubada y ventilada en modalidad controlada y apoyada con aminas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectiva. Es realizada necropsia. "
+                    },
+                    {
+                        "id": "f-172",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ic"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años de edad, residía en el municipio Santiago de Cuba, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Insuficiencia Cardíaca. Se le realiza PCR por residir en área de riesgo, resultando positivo. Fue trasladado al hospital e ingresado en Sala de Confirmados de Alto Riesgo. Se inició tratamiento según protocolos para estos pacientes. Los cuatro días posteriores se mantiene con estabilidad hemodinámica. Al quinto día presenta disnea de forma súbita, taquicardia; en el exámen físico crepitantes en ambos campos pulmonares. Fue trasladado a la Unidad de Cuidados Intensivos, y es diagnosticada una Insuficiencia Ventricular Izquierda Aguda. En el Rayos X de Tórax se apreciaron lesiones de aspecto congestivo e inflamatorio.  Fue tratado con oxígeno, diuréticos y opiáceos.  Los días posteriores se mantiene con polipnea ligera, cumpliendo tratamiento para la Insuficiencia Cardíaca y el protocolo para estos pacientes.  El día 15 de enero presentó empeoramiento clínico, gasométrico y radiológico, fue iniciada Ventilación No Invasiva. Al día siguiente presenta agobio respiratorio, hipotensión arterial, es intubado y ventilado en modalidad controlada  y apoyado con aminas. Posteriormente hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-173",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 98,
+                        "sexo": "mujer",
+                        "municipio_detección": "Ciro Redondo",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.05",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 98 años de edad, residía en el municipio Ciro Redondo, provincia Ciego de Ávila. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Comenzó con tos, falta de aire y fiebre, es llevada al hospital e  ingresada como sospechosa. Fue indicado PCR que resultó positivo a la COVID-19. Presentó disnea y fiebre, es trasladada e ingresada en la Unidad de Cuidados Intensivos. Fue iniciado tratamiento según protocolo para estos pacientes. Presentó empeoramiento de la disnea, hipotensión arterial y fue iniciada Ventilación No Invasiva y apoyada con aminas. Evolucionó con empeoramiento clínico, gasométrico y radiológico, por lo que fue intubada y ventilada en modalidad controlada, con elevadas las dosis de aminas. Al día siguiente  presentó inestabilidad hemodinámica, fueron modificados parámetros ventilatorios. Hizo bradicardia extrema hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
                     }
                 ]
             }
