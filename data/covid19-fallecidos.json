@@ -20,7 +20,7 @@
         "cr": "carcinoma de próstata",
         "cs": "insuficiencia córtico suprarrenal",
         "ct": "cáncer de próstata",
-        "cu": "colitis ulcerativa idiopática",
+        "cu": "colitis ulcerativa",
         "cv": "comunicación interventricular",
         "dc": "enfermedad diverticular del colon",
         "dm": "diabetes mellitus",
@@ -4092,6 +4092,44 @@
                             "ep"
                         ],
                         "texto": "Ciudadana cubana de 98 años de edad, residía en el municipio Ciro Redondo, provincia Ciego de Ávila. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Comenzó con tos, falta de aire y fiebre, es llevada al hospital e  ingresada como sospechosa. Fue indicado PCR que resultó positivo a la COVID-19. Presentó disnea y fiebre, es trasladada e ingresada en la Unidad de Cuidados Intensivos. Fue iniciado tratamiento según protocolo para estos pacientes. Presentó empeoramiento de la disnea, hipotensión arterial y fue iniciada Ventilación No Invasiva y apoyada con aminas. Evolucionó con empeoramiento clínico, gasométrico y radiológico, por lo que fue intubada y ventilada en modalidad controlada, con elevadas las dosis de aminas. Al día siguiente  presentó inestabilidad hemodinámica, fueron modificados parámetros ventilatorios. Hizo bradicardia extrema hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    }
+                ]
+            },
+            "314": {
+                "fecha": "2021/01/18",
+                "fallecidos": [
+                    {
+                        "id": "f-174",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de  79 años de edad, residía en el  municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Comenzó con tos, fiebre y secreción nasal. No acudió a los Servicios de Salud. Dos días después  es valorada en el Área de Salud y  fue remitida al hospital e ingresada en sala de sospechosos. Fue tratada con Antibióticos y Broncodilatadores. Se le realizó PCR que resultó positivo a la COVID-19.  El tercer y cuarto día tiene una evolución clínica estable. Al quinto día presentó polipnea intensa, agobio respiratorio, hipotensión arterial, es trasladada a la Unidad de Cuidados Intensivos fue intubada y ventilada en modalidad controlada y apoyada con aminas. Hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-175",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ar",
+                            "cu"
+                        ],
+                        "texto": "Ciudadano cubano de 66 años, residía en el municipio Matanzas, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Artritis Reumatoide, Colitis Ulcerativa. Comenzó con tos seca y rinorrea. No acudió a los Servicios de Salud. Al segundo día de estar con síntomas  acudió al hospital, es evaluado en el Servicio de Urgencias, en el examen físico se auscultan estertores crepitantes en ambos campos pulmonares. En el Rayos X de Tórax se aprecian lesiones inflamatorias en bases pulmonares. Se le realiza PCR que resultó positivo a la CVID-19. Es remitido e ingresado en sala de confirmados de alto riesgo. Se inicia tratamiento según protocolos para estos pacientes. Se mantuvo con estabilidad hemodinámica. Cumple tratamiento según protocolo. Presentó empeoramiento de la disnea, es trasladado a la Unidad de Cuidados Intensivos, inicialmente es apoyado con Ventilación No Invasiva, la cual no fue efectiva, por lo que se decide intubar y ventilar en modalidad controlada. Posteriormente hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Es realizada necropsia."
                     }
                 ]
             }
