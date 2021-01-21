@@ -18772,3 +18772,352 @@ caso,sexo,edad,pais,municipio,provincia,fecha_confirmacion,fecha_ingreso,tipo_co
 ,,,cu,Niceto Pérez,Guantánamo,2021/01/18,,secundario
 ,,,cu,Niceto Pérez,Guantánamo,2021/01/18,,secundario
 ,,,cu,San Antonio del Sur,Guantánamo,2021/01/18,,secundario
+,,,cu,Consolación del Sur,Pinar del Río,2021/01/19,,secundario
+,,,cu,Consolación del Sur,Pinar del Río,2021/01/19,,desconocido
+,,,cu,La Palma,Pinar del Río,2021/01/19,,secundario
+,,,cu,La Palma,Pinar del Río,2021/01/19,,desconocido
+,,,cu,Los Palacios,Pinar del Río,2021/01/19,,desconocido
+,,,cu,Minas de Matahambre,Pinar del Río,2021/01/19,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2021/01/19,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2021/01/19,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2021/01/19,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2021/01/19,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2021/01/19,,secundario
+,,,cu,Pinar del Río,Pinar del Río,2021/01/19,,desconocido
+,,,cu,San Luis,Pinar del Río,2021/01/19,,desconocido
+,,,cu,San Luis,Pinar del Río,2021/01/19,,desconocido
+,,,cu,Artemisa,Artemisa,2021/01/19,,secundario
+,,,cu,Artemisa,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,Caimito,Artemisa,2021/01/19,,secundario
+,,,cu,San Antonio de los Baños,Artemisa,2021/01/19,,secundario
+,,,cu,San Antonio de los Baños,Artemisa,2021/01/19,,secundario
+,,,cu,San Cristóbal,Artemisa,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,secundario
+,,,cu,Diez de Octubre,La Habana,2021/01/19,,primario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,secundario
+,,,cu,Arroyo Naranjo,La Habana,2021/01/19,,primario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Boyeros,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,secundario
+,,,cu,Centro Habana,La Habana,2021/01/19,,primario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,secundario
+,,,cu,Cerro,La Habana,2021/01/19,,primario
+,,,cu,Cerro,La Habana,2021/01/19,,primario
+,,,cu,Cerro,La Habana,2021/01/19,,desconocido
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,secundario
+,,,cu,Cotorro,La Habana,2021/01/19,,primario
+,,,cu,Cotorro,La Habana,2021/01/19,,primario
+,,,cu,Guanabacoa,La Habana,2021/01/19,,secundario
+,,,cu,Guanabacoa,La Habana,2021/01/19,,secundario
+,,,cu,Guanabacoa,La Habana,2021/01/19,,secundario
+,,,cu,Guanabacoa,La Habana,2021/01/19,,secundario
+,,,cu,Habana del Este,La Habana,2021/01/19,,secundario
+,,,cu,Habana del Este,La Habana,2021/01/19,,secundario
+,,,cu,Habana del Este,La Habana,2021/01/19,,secundario
+,,,cu,Habana del Este,La Habana,2021/01/19,,secundario
+,,,cu,Habana del Este,La Habana,2021/01/19,,primario
+,,,cu,Habana del Este,La Habana,2021/01/19,,primario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,secundario
+,,,cu,La Habana Vieja,La Habana,2021/01/19,,primario
+,,,cu,La Lisa,La Habana,2021/01/19,,secundario
+,,,cu,La Lisa,La Habana,2021/01/19,,secundario
+,,,cu,La Lisa,La Habana,2021/01/19,,secundario
+,,,cu,La Lisa,La Habana,2021/01/19,,secundario
+,,,cu,La Lisa,La Habana,2021/01/19,,secundario
+,,,cu,Marianao,La Habana,2021/01/19,,secundario
+,,,cu,Marianao,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,secundario
+,,,cu,Playa,La Habana,2021/01/19,,primario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,secundario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,primario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,primario
+,,,cu,Plaza de la Revolución,La Habana,2021/01/19,,primario
+,,,cu,Regla,La Habana,2021/01/19,,secundario
+,,,cu,Regla,La Habana,2021/01/19,,secundario
+,,,cu,Regla,La Habana,2021/01/19,,secundario
+,,,cu,Regla,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,San Miguel del Padrón,La Habana,2021/01/19,,secundario
+,,,cu,Batabanó,Mayabeque,2021/01/19,,secundario
+,,,cu,Batabanó,Mayabeque,2021/01/19,,secundario
+,,,cu,Güines,Mayabeque,2021/01/19,,secundario
+,,,cu,Güines,Mayabeque,2021/01/19,,secundario
+,,,cu,Güines,Mayabeque,2021/01/19,,secundario
+,,,cu,Güines,Mayabeque,2021/01/19,,secundario
+,,,cu,Güines,Mayabeque,2021/01/19,,secundario
+,,,cu,Jaruco,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,Quivicán,Mayabeque,2021/01/19,,secundario
+,,,cu,San José de las Lajas,Mayabeque,2021/01/19,,secundario
+,,,cu,San José de las Lajas,Mayabeque,2021/01/19,,desconocido
+,,,cu,Matanzas,Matanzas,2021/01/19,,secundario
+,,,cu,Matanzas,Matanzas,2021/01/19,,secundario
+,,,cu,Matanzas,Matanzas,2021/01/19,,secundario
+,,,cu,Matanzas,Matanzas,2021/01/19,,secundario
+,,,cu,Matanzas,Matanzas,2021/01/19,,secundario
+,,,cu,Cárdenas,Matanzas,2021/01/19,,secundario
+,,,cu,Jovellanos,Matanzas,2021/01/19,,secundario
+,,,cu,Aguada de Pasajeros,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,secundario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,primario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,primario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,primario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,primario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,primario
+,,,cu,Cienfuegos,Cienfuegos,2021/01/19,,primario
+,,,cu,Cruces,Cienfuegos,2021/01/19,,secundario
+,,,cu,Lajas,Cienfuegos,2021/01/19,,secundario
+,,,cu,Lajas,Cienfuegos,2021/01/19,,secundario
+,,,cu,Rodas,Cienfuegos,2021/01/19,,secundario
+,,,cu,Rodas,Cienfuegos,2021/01/19,,secundario
+,,,cu,Camajuaní,Villa Clara,2021/01/19,,desconocido
+,,,cu,Santa Clara,Villa Clara,2021/01/19,,secundario
+,,,cu,Santa Clara,Villa Clara,2021/01/19,,secundario
+,,,cu,Santa Clara,Villa Clara,2021/01/19,,desconocido
+,,,cu,Sancti Spíritus,Sancti Spíritus,2021/01/19,,secundario
+,,,cu,Sancti Spíritus,Sancti Spíritus,2021/01/19,,secundario
+,,,cu,Ciego de Ávila,Ciego de Ávila,2021/01/19,,secundario
+,,,cu,Ciego de Ávila,Ciego de Ávila,2021/01/19,,desconocido
+,,,cu,Majagua,Ciego de Ávila,2021/01/19,,secundario
+,,,cu,Majagua,Ciego de Ávila,2021/01/19,,secundario
+,,,cu,Majagua,Ciego de Ávila,2021/01/19,,secundario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,secundario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,secundario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,primario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,primario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,primario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,primario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,primario
+,,,cu,Morón,Ciego de Ávila,2021/01/19,,desconocido
+,,,cu,Florida,Camagüey,2021/01/19,,primario
+,,,cu,Holguín,Holguín,2021/01/19,,secundario
+,,,cu,Holguín,Holguín,2021/01/19,,secundario
+,,,cu,Holguín,Holguín,2021/01/19,,desconocido
+,,,cu,Holguín,Holguín,2021/01/19,,desconocido
+,,,cu,Moa,Holguín,2021/01/19,,secundario
+,,,cu,Mella,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Mella,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,secundario
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,desconocido
+,,,cu,Santiago de Cuba,Santiago de Cuba,2021/01/19,,desconocido
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,El Salvador,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Guantánamo,Guantánamo,2021/01/19,,secundario
+,,,cu,Isla de la Juventud,Isla de la Juventud,2021/01/19,,desconocido
