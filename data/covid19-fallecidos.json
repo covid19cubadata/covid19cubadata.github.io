@@ -87,6 +87,7 @@
         "tp": "tuberculosis pulmonar",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
+        "va": "valvulopatia aortica",
         "vi": "vih",
         "vm": "valvulopatía mitral"
     },
@@ -4215,6 +4216,78 @@
                             "dm"
                         ],
                         "texto": "Ciudadano cubano de 60 años de edad, residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con tos seca, falta de aire y fiebre, y no acudió a los Servicios de Salud. En los días siguientes fue llevado por los familiares al Hospital y en el exámen físico se auscultaron crepitantes en ambos campos pulmonares. En el Rayos X de Tórax se apreciaron lesiones inflamatorias en ambos campos pulmonares. Presentó cifras de glicemia elevadas, fue tratado con Insulina e hidratación, lográndose  estabilización de la glicemia. Se le realizó test de antígeno que resultó positivo, por lo que fue trasladado al Hospital e ingresado como sospechoso en la Unidad de Cuidados Intensivos. Fue indicado PCR resultando positivo. Presentó polipnea moderada, fiebre; en los estudios complementarios realizados mantuvo cifras de glicemia elevada y acidemia metabólica. Los días siguientes presentó polipnea ligera, con mejor control metabólico. El día 19 de enero presentó agobio respiratorio, cianosis generalizada e hipotensión arterial, fue intubado y ventilado en modalidad controlada, y apoyado con aminas. Hizo bradicardia extrema hasta la parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Es realizada necropsia."
+                    }
+                ]
+            },
+            "316": {
+                "fecha": "2021/01/20",
+                "fallecidos": [
+                    {
+                        "id": "f-181",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 92,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades": [
+                            "ha",
+                            "ic",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 92 años de edad, residía en el municipio Guantánamo, provincia del mismo nombre.  Antecedentes patológicos personales: Hipertensión Arterial, Insuficiencia Cardiaca, Enfermedad Pulmonar Obstructiva Crónica. Es llevada al hospital,  por los familiares, por presentar tos y  falta de aire. En el examen físico se auscultan crepitantes en ambas bases pulmonares. En el Rayos X de Tórax se aprecian lesiones inflamatorias y congestivas en ambos hemitórax. Se realiza PCR que resultó positivo a la COVID-19. Es trasladada de hospital e ingresada en la Unidad de Cuidados Intensivos, se inicia tratamiento según protocolo para estos pacientes. Los días posteriores mantiene disnea ligera con estabilidad hemodinámica. Seguidamente presenta agobio respiratorio, cianosis, hipotensión arterial. Es intubada y ventilada en modalidad controlada y apoyada con  aminas. Días después se mantiene ventilada con estabilidad hemodinámica, apoyada con aminas, cumpliendo protocolo de tratamiento. Posteriormente presenta empeoramiento clínico, gasométrico y radiológico, son modificados parámetros ventilatorios, fueron elevadas las dosis de aminas. Hace parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-182",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 88 años de edad, residente  en el municipio Centro Habana, provincia de La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica.  Comenzó con tos seca, fiebre y diarreas. No acudió a los Servicios de Salud. Dos días después es llevada por los familiares al Área de Salud donde  fue valorada y remitida al hospital  y fue ingresada en sala de sospechosos. Se inicia tratamiento según protocolos para estos pacientes, mantiene evolución clínica estable. Posteriormente presenta agobio respiratorio, en el examen físico se auscultan estertores crepitantes en ambos campos pulmonares, hipotensión arterial, frialdad en miembros inferiores, es trasladada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada y apoyada con aminas. Al día siguiente presenta bradicardia extrema hace  parada cardíaca, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. La paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-183",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 96,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "va"
+                        ],
+                        "texto": "Ciudadano cubano de 96 años de edad, residía en el municipio Centro Habana, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica, Valvulopatia Aortica. Comenzó con tos seca y fiebre. No acudió a los Servicios de Salud. Cuatro días después fue llevado por los familiares al  Área de Salud, fue valorado  y remitido al hospital. En el examen físico se auscultan crepitantes en ambas bases pulmonares, en el Rayos X de Tórax, se aprecian lesiones inflamatorias en ambos hemitórax. Fue ingresado como sospechoso. Se realiza PCR  que resultó positivo. Se aplica tratamiento según protocolos para estos pacientes. Posteriormente presenta polipnea intensa y decaimiento marcado, es trasladado a la Unidad de Cuidados Intensivos. Mantuvo polipnea ligera, se le realiza Ecocardiograma diagnosticándose doble lesión aortica. Cumple protocolo de tratamiento. Los días siguientes se mantiene con evolución clínica estable. Presenta agobio respiratorio, sudoración, hipotensión arterial, es intubado y ventilado en modalidad controlada y se apoya con altas dosis de aminas, hace parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-184",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de  54 años de edad residía en el municipio Cerro, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con tos seca y secreción nasal. No acudió a los Servicios de Salud. Dos días después es llevado por los familiares al hospital  por presentar dolor torácico, que se intensificaba con el esfuerzo físico y disnea ligera, es evaluado en el Servicios de Urgencias, fue tratado con oxígeno y opiáceos.  Se le diagnóstica un Síndrome Coronario Agudo, compatible con cuadro de isquemia miocárdica. Es valorado  y se indica realizar de urgencia  revascularización coronaria. En el Servicio de Hemodinamía, de forma súbita, presenta  disnea intensa, hipotensión arterial, cianosis y bradicardia extrema, hace parada cardiaca en disociación electromecánica, es intubado y ventilado, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. Paciente fallece. Es realizada necropsia. "
                     }
                 ]
             }
