@@ -63,6 +63,7 @@
         "lp": "lobectomía pulmonar",
         "md": "miocardiopatía dilatada",
         "mg": "miastenia grave",
+        "mm": "mieloma múltiple",
         "mp": "metástasis pulmonar",
         "nc": "neumopatía crónica",
         "ne": "neoplasia de esófago",
@@ -4130,6 +4131,90 @@
                             "cu"
                         ],
                         "texto": "Ciudadano cubano de 66 años, residía en el municipio Matanzas, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Artritis Reumatoide, Colitis Ulcerativa. Comenzó con tos seca y rinorrea. No acudió a los Servicios de Salud. Al segundo día de estar con síntomas  acudió al hospital, es evaluado en el Servicio de Urgencias, en el examen físico se auscultan estertores crepitantes en ambos campos pulmonares. En el Rayos X de Tórax se aprecian lesiones inflamatorias en bases pulmonares. Se le realiza PCR que resultó positivo a la CVID-19. Es remitido e ingresado en sala de confirmados de alto riesgo. Se inicia tratamiento según protocolos para estos pacientes. Se mantuvo con estabilidad hemodinámica. Cumple tratamiento según protocolo. Presentó empeoramiento de la disnea, es trasladado a la Unidad de Cuidados Intensivos, inicialmente es apoyado con Ventilación No Invasiva, la cual no fue efectiva, por lo que se decide intubar y ventilar en modalidad controlada. Posteriormente hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Es realizada necropsia."
+                    }
+                ]
+            },
+            "315": {
+                "fecha": "2021/01/19",
+                "fallecidos": [
+                    {
+                        "id": "f-176",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 73 años de edad, residía en el municipio cabecera de la provincia Camagüey. Antecedentes patológicos personales: EPOC, Obesidad. Comenzó con tos, falta de aire y fiebre. No acudió a los Servicios de Salud. En días posteriores es llevado por los familiares al Hospital donde es evaluado en el Servicio de Urgencias. En el examen físico se auscultaron crepitantes en ambas bases pulmonares. En el Rayos X de Tórax se apreciaron lesiones inflamatorias en ambos hemitórax, por lo que fue ingresado en sala de respiratorio. Al ser confirmado el PCR fue remitido e ingresado en sala de confirmados. Los días siguientes, se manuvo con estabilidad hemodinámica. El día 12 de enero presentó polipnea moderada y decaimiento, es trasladado a la Unidad de Cuidados Intensivos, son adicionados al tratamiento oxígeno y diuréticos. Los días posteriores evolucionó con empeoramiento clínico, gasométrico y radiológico. Fue iniciada Ventilación No Invasiva. Presentó agobio respiratorio e hipotensión arterial, es intubado y ventilado en modalidad controlada y apoyado con aminas. En los siguientes días mantuvo inestabilidad hemodinámica, son modificados parámetros ventilatorios y elevadas las dosis de aminas. El día 19 de enero hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-177",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "vi"
+                        ],
+                        "texto": "Ciudadano cubano de 60 años de edad, residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, VIH. Fue evaluado en su Área de Salud, y es remitido al  Hospital como sospechoso, donde fue ingresado en sala  de sospechosos. Se le realizó PCR que resultó positivo, por lo que es trasladado a sala de confirmados. Mantuvo evolución clínica estable. Cumple tratamiento según protocolo. Presentó agobio respiratorio, hipotensión arterial por lo que fue  trasladado a la Unidad de Cuidados Intensivos, donde  fue  intubado, ventilado y apoyado con altas dosis de aminas. Presentó empeoramiento clínico gasométrico y radiológico. El 19 de enero hizo una parada cardíaca en asistolia, se realizan maniobras de reanimación que no son efectivas y fallece. Se realiza necropsia."
+                    },
+                    {
+                        "id": "f-178",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 46,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "vi"
+                        ],
+                        "texto": "Ciudadano cubano de 46 años de edad, residía en el municipio Plaza de la Revolución, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. HIV. Presentó tos húmeda, fiebre y decaimiento. Fue evaluado por el Área de Salud y remitido a Centro de Aislamiento. Fue remitido e ingresado en sala de confirmados. Los días sucesivos mantuvo evolución clínica estable, hemodinámia sin variación. Presentó disnea moderada, es trasladado e ingresado en la Unidad de Cuidados Intensivos. En el Rayos X de Tórax, se aprecian lesiones inflamatorias en ambos campos pulmonares, es tratado con Esteroides y oxigeno suplementario. En los días siguientes no se apreció deterioro clínico del paciente. Posteriormente presentó empeoramiento clínico, gasométrico y radiológico, por lo que fue intubado y ventilado en modalidad controlada y apoyado con aminas. Presentó bradicardia extrema hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-179",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "mm"
+                        ],
+                        "texto": "Ciudadano cubano de 71 años de edad, residía en el municipio Cerro, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Mieloma Múltiple. Paciente que se encontraba asintomático y se le realiza PCR por ser contacto de viajero, resultando positivo. Fue ingresado en sala de confirmados. Los días siguientes se mantuvo con estabilidad hemodinámica. Comenzó con falta de aire moderada y decaimiento. Fue trasladado e  ingresado en la Unidad de Cuidados Intensivos. Son incorporados antibióticos al tratamiento. En días posteriores presentó empeoramiento clínico, gasométrico y radiológico. Presentó agobio respiratorio e hipotensión arterial, fue intubado y ventilado en modalidad controlada y apoyado con aminas. El día 19 de enero presentó arritmia ventricular, hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-180",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 60 años de edad, residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con tos seca, falta de aire y fiebre, y no acudió a los Servicios de Salud. En los días siguientes fue llevado por los familiares al Hospital y en el exámen físico se auscultaron crepitantes en ambos campos pulmonares. En el Rayos X de Tórax se apreciaron lesiones inflamatorias en ambos campos pulmonares. Presentó cifras de glicemia elevadas, fue tratado con Insulina e hidratación, lográndose  estabilización de la glicemia. Se le realizó test de antígeno que resultó positivo, por lo que fue trasladado al Hospital e ingresado como sospechoso en la Unidad de Cuidados Intensivos. Fue indicado PCR resultando positivo. Presentó polipnea moderada, fiebre; en los estudios complementarios realizados mantuvo cifras de glicemia elevada y acidemia metabólica. Los días siguientes presentó polipnea ligera, con mejor control metabólico. El día 19 de enero presentó agobio respiratorio, cianosis generalizada e hipotensión arterial, fue intubado y ventilado en modalidad controlada, y apoyado con aminas. Hizo bradicardia extrema hasta la parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Es realizada necropsia."
                     }
                 ]
             }
