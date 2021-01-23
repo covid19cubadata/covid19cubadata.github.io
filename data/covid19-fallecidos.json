@@ -58,6 +58,7 @@
         "it": "insuficiencia arterial",
         "iv": "insuficiencia venosa",
         "lc": "linfangitis crónica",
+        "lh": "linfoma de hopkin"
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
         "lp": "lobectomía pulmonar",
@@ -4288,6 +4289,77 @@
                             "dm"
                         ],
                         "texto": "Ciudadano cubano de  54 años de edad residía en el municipio Cerro, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con tos seca y secreción nasal. No acudió a los Servicios de Salud. Dos días después es llevado por los familiares al hospital  por presentar dolor torácico, que se intensificaba con el esfuerzo físico y disnea ligera, es evaluado en el Servicios de Urgencias, fue tratado con oxígeno y opiáceos.  Se le diagnóstica un Síndrome Coronario Agudo, compatible con cuadro de isquemia miocárdica. Es valorado  y se indica realizar de urgencia  revascularización coronaria. En el Servicio de Hemodinamía, de forma súbita, presenta  disnea intensa, hipotensión arterial, cianosis y bradicardia extrema, hace parada cardiaca en disociación electromecánica, es intubado y ventilado, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas. Paciente fallece. Es realizada necropsia. "
+                    }
+                ]
+            },
+            "317": {
+                "fecha": "2021/01/21",
+                "fallecidos": [
+                    {
+                        "id": "f-185",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "mujer",
+                        "municipio_detección": "Colón",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.04",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "lh"
+                        ],
+                        "texto": "Ciudadana cubana de 86 años de edad, residía en el municipio Colón, provincia  Matanzas. Antecedentes patológicos personales: Hipertensión Arterial, Linfoma de Hodgkin. Presenta tos seca, falta de aire y fiebre, acude a su Área de Salud, donde es evaluada y remitida para el hospital ingresando en sala de respiratorio. Se inició tratamiento protocolos establecidos para estos pacientes. Se realizó PCR que resultó positivo.  Fue evaluada como paciente de alto riesgo  e ingresada en la Unidad de Cuidados Intensivos. Presentó disnea ligera, se administra oxígeno suplementario. Mantiene estabilidad hemodinámica que se intensifica, con hipotensión arterial, cianosis y sudoración. Hace bradicardia extrema, hasta la parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-186",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "mujer",
+                        "municipio_detección": "Camajuaní",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.05",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 49 años de edad, residía en el  municipio Camajuaní, provincia Villa Clara. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Obesidad. Es atendida en el Servicio de Urgencias por presentar pérdida del apetito, sed y toma de estado general, al examen físico presenta signos de deshidratación severa. Fue ingresada, se le realiza un PCR que resultó negativo. Los dos días siguientes muestra deterioro del estado de conciencia, polipnea, hipotensión arterial, cianosis generalizada, se traslada a la Unidad de Cuidados Intensivos, fue intubada y ventilada en modalidad controlada y apoyada con aminas. Se realiza segundo PCR que resultó positivo. Se traslada a la Unidad de Cuidados Intensivos por presentar empeoramiento clínico, gasométrico y radiológico. Es tratada según protocolos para estos pacientes. Presentó Insuficiencia Renal Aguda y se realiza hemodiálisis. Mantuvo inestabilidad hemodinámica, incrementándose las dosis de aminas. Mantuvo inestabilidad hemodinámica. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-187",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 61,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "25.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 61 años de edad, residía en el municipio Guanabacoa, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial. Comenzó con tos, expectoración y fiebre. No acudió a los Servicios de Salud. Tres días después es evaluado en su Área de Salud, se remite al Hospital. Fue ingresado en sala de confirmados, es iniciado tratamiento con Heparina de Bajo Peso molecular a dosis profiláctica, Eritropoyetina y Heberferón. Se realiza PCR que resultó positivo. Presentó agobio respiratorio por lo que es intubado y ventilado en modalidad controlada. Posteriormente presentó empeoramiento clínico, gasométrico y radiológico. Se encontró con inestabilidad hemodinámica, fue apoyado con aminas, fueron modificados parámetros ventilatorios y elevadas las dosis de aminas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas. Paciente Fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-188",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años de edad, residía en el municipio Cerro, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica (Enfermedad multivasos), Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. Comenzó con tos seca y falta de aire. No acudió a los Servicios de Salud. Tres días después fue llevado por los familiares al Área de Salud y remitido al hospital. Al examen físico se auscultan crepitantes en ambas bases pulmonares. En el Rayos X de Tórax se aprecian lesiones inflamatorias en ambos hemitórax. Ingresa como sospechoso. Fue indicado PCR que resultó positivo. Es trasladado a sala de confirmados. Los  días posteriores  evlucionó con estabilidad clínica. Fue tratado según protocolos para estos pacientes. Seguidamente presentó  disnea ligera, fue trasladado a la Unidad de Cuidados Intensivos. Empeoró la disnea y fue iniciada Ventilación No Invasiva. Presentó disnea intensa, dolor torácico, hipotensión arterial, frialdad y sudoración. Es realizado electrocardiograma, precisándose isquemia miocárdica aguda, fue intubado y ventilado en modalidad controlada y apoyado con aminas a dosis altas. Hace parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron fectivas. Paciente fallece. Es realizada necropsia."
                     }
                 ]
             }
