@@ -58,7 +58,7 @@
         "it": "insuficiencia arterial",
         "iv": "insuficiencia venosa",
         "lc": "linfangitis crónica",
-        "lh": "linfoma de hopkin"
+        "lh": "linfoma de hopkin",
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
         "lp": "lobectomía pulmonar",
@@ -4336,7 +4336,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Guanabacoa",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "25.07",
+                        "dpacode_municipio_deteccion": "23.07",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha"
