@@ -4419,6 +4419,61 @@
                         "texto": "Ciudadano cubano de 62 años. Municipio Cotorro. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus tipo 2, Hipertensión Arterial, Enfermedad Arterial Oclusiva (Amputación de Miembro inferior derecho). Comenzó con tos productiva, expectoración purulenta y decaimiento. No acudió a los servicios de Salud. Cinco días después se añade al cuadro respiratorio dolor abdominal difuso, perdida del gusto y del olfato, por lo que es llevado por sus familiares al policlínico por agudización de los síntomas, es valorado y se remite   para el Hospital. Fue realizado Rx de Tórax donde se observa lesiones inflamatorias en ambos campos pulmonares y se decide ingreso en la Unidad de Cuidados Intensivos. Posteriormente se agudizan los síntomas respiratorios asociado a hipotensión arterial, hace parada cardiorespiratoria, se realizan maniobras de resucitación que no resultaron efectiva."
                     }
                 ]
+            },
+            "319": {
+                "fecha": "2021/01/23",
+                "fallecidos": [
+                    {
+                        "id": "f-192",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ei"
+                        ],
+                        "texto": "Ciudadana cubana de  72 años de edad, residía en el  municipio Pinar del Río, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebrovascular Isquémica. Comenzó con  tos falta de aire, dos días después fue llevada por los familiares al hospital donde fue  valorada e ingresada. Se le realiza PCR que resultó positivo a la COVID-19. Se inició tratamiento según protocolo para estos pacientes. La evolución fue satisfactoria, con buena tolerancia al tratamiento. Se mantuvo hospitalizada, con seguimiento de paciente de alto riesgo, clínicamente estable por 13 días. Seguidamente hizo un cuadro agudo de disnea con hipoxemia, ansiedad, hipotensión arterial, la trasladan para la Unidad de Cuidados Intensivos, donde fue intubada y ventilada en la modalidad controlada,  apoyada con aminas. Posteriormente hizo una parada cardíaca se realizaron maniobras de reanimación que no fueron efectivas. La paciente fallece. Se realiza necropsia."
+                    },
+                    {
+                        "id": "f-193",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cienfuegos",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.07",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades": [
+                            "dm",
+                            "ci",
+                            "ei"
+                        ],
+                        "texto": "Ciudadano cubano de 89 años de edad, residía en el  municipio Cienfuegos, provincia del mismo nombre. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Diabetes Mellitus, Enfermedad Cerebro Vascular Isquémica. Comenzó con falta de aire y fiebre. Tres días después es llevado por los familiares al área de salud donde fue valorado y remitido al hospital, fue ingresado, le realizaron PCR que resultó positivo a la COVID-19. Se inicia tratamiento según protocolos para esos pacientes. Posteriormente empeora el cuadro clínico con polipnea, taquicardia, hipotensión y somnolencia. Se trasladó para la Unidad de Cuidados Intensivos se intubó  y ventiló, en modalidad controlada. Evoluciona desfavorablemente, con inestabilidad hemodinámica, siendo necesario apoyarlo con aminas vasoactivas, mantiene hipoxemia refractaria. Hizo una fibrilación ventricular, seguida de parada cardiaca en asistolia, fueron realizadas las maniobras de reanimación cardiopulmonar, que no fueron  efectivas. Paciente fallece. Es realizada necropsia."
+                    },
+                    {
+                        "id": "f-194",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años de edad, residía en el municipio Habana de Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica. Comenzó con   fiebre, tos seca, es remitido por ser contacto de confirmado. Se realiza PCR que resultó positivo a la COVID-19 por lo que es remitido al hospital donde se ingresa, mantiene sintomatología respiratoria. Se inicia según protocolo para estos pacientes. No evoluciona adecuadamente el cuadro respiratorio y lo trasladan para la Unidad de Cuidados progresivos por ser paciente de alto riesgo. Se mantienen tratamiento según protocolo. Posteriormente presentó  una disminución súbita de la saturación de oxígeno con caída de la hemodinamia, se traslada para la Unidad de Cuidados Intensivos, es necesario intubarlo y ventilarlo, posteriormente hace una parada en asistolia, realizaron maniobras de reanimación que no son efectiva y fallece. Se realiza necropsia."
+                    }
+                ]
             }
         }
     }
