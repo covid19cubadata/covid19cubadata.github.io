@@ -36,8 +36,9 @@
         "eo": "enfermedad obstructiva crónica",
         "ep": "enfermedad pulmonar",
         "es": "esquizofrenia paranoide",
-        "ev": "enfermedad cerebrovascular",
         "er": "enfermedad renal crónica",
+        "et": "enfermedad arterial oclusiva",
+        "ev": "enfermedad cerebrovascular",
         "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
         "fu": "fumador",
@@ -4360,6 +4361,62 @@
                             "ep"
                         ],
                         "texto": "Ciudadano cubano de 79 años de edad, residía en el municipio Cerro, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica (Enfermedad multivasos), Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. Comenzó con tos seca y falta de aire. No acudió a los Servicios de Salud. Tres días después fue llevado por los familiares al Área de Salud y remitido al hospital. Al examen físico se auscultan crepitantes en ambas bases pulmonares. En el Rayos X de Tórax se aprecian lesiones inflamatorias en ambos hemitórax. Ingresa como sospechoso. Fue indicado PCR que resultó positivo. Es trasladado a sala de confirmados. Los  días posteriores  evlucionó con estabilidad clínica. Fue tratado según protocolos para estos pacientes. Seguidamente presentó  disnea ligera, fue trasladado a la Unidad de Cuidados Intensivos. Empeoró la disnea y fue iniciada Ventilación No Invasiva. Presentó disnea intensa, dolor torácico, hipotensión arterial, frialdad y sudoración. Es realizado electrocardiograma, precisándose isquemia miocárdica aguda, fue intubado y ventilado en modalidad controlada y apoyado con aminas a dosis altas. Hace parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron fectivas. Paciente fallece. Es realizada necropsia."
+                    }
+                ]
+            },
+            "318": {
+                "fecha": "2021/01/22",
+                "fallecidos": [
+                    {
+                        "id": "f-189",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "fc"
+                        ],
+                        "texto": "Ciudadana cubana de 78 años de edad. Municipio Playa. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Fractura de Cadera. Paciente que es ingresada por re-intervención quirúrgica. Comenzó con falta de aire y secreciones bronquiales seguida de agobio respiratorio, por lo que es intubada y ventilada en modalidad controlada. Fue remitida e ingresada en la Unidad de Cuidados Intensivos como sospechosa. Se realiza PCR que resultó positivo. Mantuvo inestabilidad hemodinámica siendo necesario apoyarla con dosis altas de aminas. Posteriormente presentó Insuficiencia Renal Aguda siendo tratada con diuréticos. Hizo parada cardiaca en fibrilación ventricular, fueron realizadas las maniobras de reanimación cardiopulmonar, que no son efectivas. "
+                    },
+                    {
+                        "id": "f-190",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "iu"
+                        ],
+                        "texto": "Ciudadana cubana de 90 años. Municipio Habana Vieja. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Insuficiencia Vascular Periférica. Comenzó con tos, falta de aire y fiebre. No acudió a los Servicios de Salud. Cuatro días después fue llevada por los familiares al área de salud donde fue valorada y remitida al Hospital, ingresándose en la Unidad de Cuidados Intensivos. Se realiza PCR que resultó positivo. Posteriormente presentó agobio respiratorio, con hipoxemia severa, acompañada de hipotensión arterial, frialdad en miembros inferiores. Fue necesario intubarla y ventilarla en modalidad controlada y apoyarla con aminas. Hizo parada cardiaca en fibrilación ventricular, fueron realizadas las maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-191",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 62,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "et"
+                        ],
+                        "texto": "Ciudadano cubano de 62 años. Municipio Cotorro. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus tipo 2, Hipertensión Arterial, Enfermedad Arterial Oclusiva (Amputación de Miembro inferior derecho). Comenzó con tos productiva, expectoración purulenta y decaimiento. No acudió a los servicios de Salud. Cinco días después se añade al cuadro respiratorio dolor abdominal difuso, perdida del gusto y del olfato, por lo que es llevado por sus familiares al policlínico por agudización de los síntomas, es valorado y se remite   para el Hospital. Fue realizado Rx de Tórax donde se observa lesiones inflamatorias en ambos campos pulmonares y se decide ingreso en la Unidad de Cuidados Intensivos. Posteriormente se agudizan los síntomas respiratorios asociado a hipotensión arterial, hace parada cardiorespiratoria, se realizan maniobras de resucitación que no resultaron efectiva."
                     }
                 ]
             }
