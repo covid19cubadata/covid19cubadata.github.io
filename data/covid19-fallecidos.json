@@ -43,9 +43,11 @@
         "fc": "fractura de cadera",
         "fu": "fumador",
         "gc": "glaucoma",
+        "ge": "gastropatía erosiva",
         "ha": "hipertensión arterial",
         "hc": "hepatitis c",
         "he": "cirrosis hepática",
+        "hh": "hernia hiatal",
         "hm": "hipoacusia",
         "ht": "hipotiroidismo",
         "hp": "hiperplasia prostática",
@@ -68,6 +70,7 @@
         "mm": "mieloma múltiple",
         "mp": "metástasis pulmonar",
         "nc": "neumopatía crónica",
+        "ni": "mefritis intersticial crónica",
         "ne": "neoplasia de esófago",
         "nm": "neoplasia de mama",
         "no": "neoplasia de próstata",
@@ -4472,6 +4475,63 @@
                             "ci"
                         ],
                         "texto": "Ciudadano cubano de 72 años de edad, residía en el municipio Habana de Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica. Comenzó con   fiebre, tos seca, es remitido por ser contacto de confirmado. Se realiza PCR que resultó positivo a la COVID-19 por lo que es remitido al hospital donde se ingresa, mantiene sintomatología respiratoria. Se inicia según protocolo para estos pacientes. No evoluciona adecuadamente el cuadro respiratorio y lo trasladan para la Unidad de Cuidados progresivos por ser paciente de alto riesgo. Se mantienen tratamiento según protocolo. Posteriormente presentó  una disminución súbita de la saturación de oxígeno con caída de la hemodinamia, se traslada para la Unidad de Cuidados Intensivos, es necesario intubarlo y ventilarlo, posteriormente hace una parada en asistolia, realizaron maniobras de reanimación que no son efectiva y fallece. Se realiza necropsia."
+                    }
+                ]
+            },
+            "320": {
+                "fecha": "2021/01/24",
+                "fallecidos": [
+                    {
+                        "id": "f-195",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ei",
+                            "ge",
+                            "hh"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años de edad, residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía isquémica, Enfermedad Cerebrovascular, Gastropatía erosiva y Hernia Hiatal. Comenzó con falta de aire, acude a su área de salud y fue remitida e ingresada en el Hospital. Se mantuvo clínicamente estable, con seguimiento en sala de paciente de alto riesgo. Posteriormente comenzó con falta de aire, hipoxemia y se trasladó a la unidad de cuidados intensivos. Se inició ventilación no invasiva. El día 23 de enero hace un cuadro de disnea paroxística seguido de parada cardíaca, se realizan maniobras de resucitación que no son efectivas."
+                    },
+                    {
+                        "id": "f-196",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 32,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ab",
+                            "el",
+                            "ni"
+                        ],
+                        "texto": "Ciudadana cubana de 32 años de edad, residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Asma bronquial, Epilepsia y Nefritis intersticial crónica. Comenzó con fiebre y congestión nasal. Es valorado por el médico de familia y remitido e ingresado en Centro de atención a pacientes sospechosos. Se le realiza PCR que resultó positivo. Se remite para el Hospital. Posteriormente empeoró el cuadro respiratorio presentando falta de aire y tos. Fue trasladada para la sala de Cuidados Progresivos por la sintomatología y las comorbilidades. Se incrementó la falta de aire, asociada a hipotensión arterial y deterioro del nivel de conciencia. Se procede a intubar, ventilar y se traslada para la Unidad de Cuidados Intensivos. Se realiza Rx de Tórax existiendo empeoramiento radiológico y clinicamente se mantiene con marcada hipoxemia e hipotenso. Posteriormente hace parada cardíaca que no responde a las maniobras de resucitación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-197",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 67,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santa Clara",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.09",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 67 años de edad, residía en el municipio Santa Clara, provincia Villa Clara. Antecedentes Patológicos Personales: Diabetes Mellitus Tipo 2. Fue remitida por resultar PCR positiva en control de foco realizado. Se recibe en el Hospital, asintomática y se ingresa en sala de confirmado del alto riesgo. El día 24 de enero de forma súbita presenta cuadro agobio respiratorio, ansiedad, hipotensión, hace parada cardiorespiratoria en asistolia, procediéndose a realizar  maniobras de resucitación que no fueron efectivas."
                     }
                 ]
             }
