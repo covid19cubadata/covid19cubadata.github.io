@@ -4534,6 +4534,55 @@
                         "texto": "Ciudadana cubana de 67 años de edad, residía en el municipio Santa Clara, provincia Villa Clara. Antecedentes Patológicos Personales: Diabetes Mellitus Tipo 2. Fue remitida por resultar PCR positiva en control de foco realizado. Se recibe en el Hospital, asintomática y se ingresa en sala de confirmado del alto riesgo. El día 24 de enero de forma súbita presenta cuadro agobio respiratorio, ansiedad, hipotensión, hace parada cardiorespiratoria en asistolia, procediéndose a realizar  maniobras de resucitación que no fueron efectivas."
                     }
                 ]
+            },
+            "321": {
+                "fecha": "2021/01/25",
+                "fallecidos": [
+                    {
+                        "id": "f-198",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 54 años. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad. Comenzó con fiebre, tos seca, disnea y dolores musculares. Es atendido por el médico de familia y se remite para el Hospital. Presentó deterioro del cuadro respiratorio, hipoxemia, taquicardia y se decide ingresar en la Unidad de Cuidados Intensivos. Se inicia Ventilación No Invasiva, no se logran los resultados esperados y se procede a la ventilación invasiva. En días posteriores no respondió favorablemente al tratamiento, se agravan los síntomas respiratorios, aparece hipotensión y gradiente térmico, que requieren de apoyo con aminas vasoactivas. El día 25 empeora el cuadro respiratorio y la hemodinamia; hace  parada cardíaca en asistolia y no responde a las maniobras de resucitación."
+                    },
+                    {
+                        "id": "f-199",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 61,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades": [],
+                        "texto": "Ciudadano cubano de 61 años de edad. Residía en el municipio Guantánamo, provincia Guantánamo. Antecedentes Patológicos Personales: Sano. Comenzó con fiebre y tos húmeda. Nueve días después acude al Hospital  con deterioro marcado del estado general, empeoramiento de las manifestaciones respiratorias y se ingresa en la Unidad de Cuidados Intensivos. Se inicia Ventilación No Invasiva. Se realizó PCR que resultó positivo. Posteriormente empeora la función respiratoria y es necesario intubar y ventilar. Presentó deterioro de la hemodinamia que requiere del apoyo con doble aminas vasoactivas. Hace parada cardíaca, se realizan maniobras de resucitación que no son efectivas."
+                    },
+                    {
+                        "id": "f-200",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 50,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 50 años de edad. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial. Comenzó con falta de aire, tos seca y fiebre. En días posteriores presentó empeoramiento de las manifestaciones respiratorias, marcada toma del estado general y se decide ingresar en la sala de Cuidados Progresivos, con diagnóstico de Bronconeumonía. Se realiza PCR que resultó positivo. Tuvo deterioro del cuadro respiratorio y se trasladó para la Unidad de Cuidados Intensivos. Se inició Ventilación No Invasiva obteniéndose ligera mejoría. Se mantuvo Ventilación Invasiva, marcado deterioro hemodinámico. Hizo parada cardíaca, se realizó reanimación que resulta efectiva, sin tensión arterial por lo que se administraron drogas vasoactivas. Repitió parada cardíaca; se realizan nuevamente maniobras de reanimación que no resultaron efectivas."
+                    }
+                ]
             }
         }
     }
