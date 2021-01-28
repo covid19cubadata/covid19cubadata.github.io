@@ -41,6 +41,7 @@
         "ev": "enfermedad cerebrovascular",
         "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
+        "fp": "fibrosis pulmonar",
         "fu": "fumador",
         "gc": "glaucoma",
         "ge": "gastropatía erosiva",
@@ -4581,6 +4582,76 @@
                             "ha"
                         ],
                         "texto": "Ciudadana cubana de 50 años de edad. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial. Comenzó con falta de aire, tos seca y fiebre. En días posteriores presentó empeoramiento de las manifestaciones respiratorias, marcada toma del estado general y se decide ingresar en la sala de Cuidados Progresivos, con diagnóstico de Bronconeumonía. Se realiza PCR que resultó positivo. Tuvo deterioro del cuadro respiratorio y se trasladó para la Unidad de Cuidados Intensivos. Se inició Ventilación No Invasiva obteniéndose ligera mejoría. Se mantuvo Ventilación Invasiva, marcado deterioro hemodinámico. Hizo parada cardíaca, se realizó reanimación que resulta efectiva, sin tensión arterial por lo que se administraron drogas vasoactivas. Repitió parada cardíaca; se realizan nuevamente maniobras de reanimación que no resultaron efectivas."
+                    }
+                ]
+            },
+            "322": {
+                "fecha": "2021/01/26",
+                "fallecidos": [
+                    {
+                        "id": "f-201",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 88 años. Residía en el municipio Santiago de Cuba, provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial. Comenzó con tos húmeda sin expectoración y falta de aire. Dos días después fue atendido en los servicios de salud y remitido al Hospital, donde fue ingresado en sala de alto riesgo. Se realizó PCR que resultó positivo. Posteriormente empeoró el cuadro respiratorio y fue atendido por especialistas de la Unidad de Cuidados Intensivo. Hizo parada cardíaca, que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-202",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 81,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 81 años. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. Comenzó con tos y disnea. Al día siguiente lo detectan en la pesquisa y se remitió para el Hospital donde fue ingresado con una fibrilación auricular con respuesta ventricular rápida y neumonía adquirida en la comunidad. Fue ingresado en la Unidad de Cuidados Intensivos por  tratarse de un paciente de alto riesgo. Se agravó la disnea, hipoxemia severa, trastornos del ritmo cardíaco, inestabilidad hemodinámica y se decidió  intubar y ventilar. Reciben resultado del PCR positivo. Fue trasladado para la Unidad de Cuidados Intensivos del Hospital. La  evolución se caracterizó por  insuficiencia respiratoria severa de difícil manejo ventilatorio, asociado a inestabilidad hemodinámica, que requirió apoyo con doble aminas vasoactivas sin respuesta. Apareció Shock refractario, Insuficiencia Renal Aguda y Disfunción Múltiples de Órganos. Hizo una parada cardíaca en asistolia, se realizaron maniobras de resucitación que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-203",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 87 años de edad. Residía en el municipio y provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Enfermedad Pulmonar Obstructiva Crónica. Comenzó con tos seca, rinorrea y fiebre fue atendido en su área de salud, y remitido al Hospital, e ingresado en sala de sospechosos de alto riesgo por la edad y comorbilidad. Se le realizó el PCR que resultó positivo y comienza tratamiento con antibióticos. Se deteriora el cuadro clínico, comenzó con vómitos y diarreas, aumento de la tos, se trasladó para la Unidad de Cuidados Intensivos. Posteriormente  comienza con manifestaciones de insuficiencia respiratoria y congestión pulmonar que no resuelve con tratamiento médico y hay necesidad de intubar y ventilar. Presentó empeoramiento de la función renal siendo necesario aplicar métodos depurativos. Continuó inestable hemodinámicamente siendo necesario apoyo con aminas hipoxémico y mal control del medio interno. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-204",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santa Clara",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.09",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "fp"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años de edad. Residía en el municipio Santa Clara, provincia Villa Clara.Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Fibrosis pulmonar.Comenzó con fiebre, tos, falta de aire y toma de estado general. Acude al hospital, le diagnostican una bronconeumonía, le realiza PCR que resultó positivo.Fue remitida para el Hospital e ingresada en sala de alto riesgo. Empeora el cuadro respiratorio con broncoespasmo severo, hipoxemia, taquicardia y deciden trasladarla para la Unidad de Cuidados Intensivos.  Responde a la terapéutica y el día 26 hace parada cardíaca  en asistolia que no se recupera con las maniobras de resucitación."
                     }
                 ]
             }
