@@ -31,6 +31,7 @@
         "ec": "enfermedad cerebral crónica",
         "ed": "enfermedad diverticular del colon",
         "ei": "enfermedad cerebrovascular isquémica",
+        "eg": "enfermedad del colágeno", 
         "el": "epilepsia",
         "en": "encamado",
         "eo": "enfermedad obstructiva crónica",
@@ -4652,6 +4653,72 @@
                             "fp"
                         ],
                         "texto": "Ciudadana cubana de 80 años de edad. Residía en el municipio Santa Clara, provincia Villa Clara.Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Fibrosis pulmonar.Comenzó con fiebre, tos, falta de aire y toma de estado general. Acude al hospital, le diagnostican una bronconeumonía, le realiza PCR que resultó positivo.Fue remitida para el Hospital e ingresada en sala de alto riesgo. Empeora el cuadro respiratorio con broncoespasmo severo, hipoxemia, taquicardia y deciden trasladarla para la Unidad de Cuidados Intensivos.  Responde a la terapéutica y el día 26 hace parada cardíaca  en asistolia que no se recupera con las maniobras de resucitación."
+                    }
+                ]
+            },
+            "323": {
+                "fecha": "2021/01/27",
+                "fallecidos": [
+                    {
+                        "id": "f-205",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus. Comenzó con astenia, anorexia, y dificultad para caminar. En días posteriores es remitido para el Hospital con polipnea moderada, deshidratación e hiperglicemia, por lo que se decidió su ingreso en la Unidad de Cuidados Progresivos y le indican test de antígeno que resultó positivo. Fue realizado PCR. Que resultó positivo. Continuó con mal control metabólico, Rx de Tórax con lesiones inflamatorias en base del pulmón izquierdo. Durate los días siguientes no se modificó el estado de gravedad; se mantuvo con hidratación, suplemento de oxígeno, insulina. El paciente comenzó con bradicardia extrema y entró en parada cardíaca en asistolia, las maniobras de reanimación no fueron efectivas."
+                    },
+                    {
+                        "id": "f-206",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [],
+                        "texto": "Ciudadano cubano de 49 años. Residía en el municipio Habana del Este, provincia La Habana. Comenzó con cefalea, dolores musculares y fiebre. Seis días después obtiene resultado de PCR evolutivo negativo y es dado de alta. Posteriormente presentó empeoramiento de las manifestaciones clínicas y se decide remitir al Hospital nuevamente. Presentó dificultad respiratoria, con abundantes estertores crepitantes bibasales y marcada toma del estado general.  Le repiten el PCR evolutivo que resultó positivo. Empeoró el cuadro respiratorio y se traslada para la Unidad de Cuidados Intensivos, con polipnea, baja saturación de oxígeno, tos y toma del estado general. Se mantiene con oxígeno suplementario y agravamiento progresivo hasta requerir de Ventilación Invasiva. Presenta neumonía asociada a la ventilación que prolongó el tiempo de ventilación mecánica, requiriendo de traqueostomía. La infección respiratoria evoluciona desfavorablemente, presentando absceso pulmonar, neumotórax, Shock Séptico con fallo renal agudo que requirió de métodos depurativos, antibióticos de amplio espectro y drogas vasoactivas. Se mantiene en Disfunción Multiorgánica y hace una parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar"
+                    },
+                    {
+                        "id": "f-207",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 49 años de edad. Residía en la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad. Comenzó con fiebre, tos seca, por lo que fue ingresada en el Centro de  Aislamiento. Los días siguientes se mantuvo clínicamente estable. Posteriormente se intensificaron de manera aguda los síntomas respiratorios, presentando tos y falta de aire, por lo que fue evaluada y es trasladada hacia el Hospital con hipoxemia severa, hipotensión, marcada toma del estado general, por lo que fue ingresada en la Unidad de Cuidados Intensivos y se procedió a intubar y ventilar. Se mantuvo sin signos de mejoría, hipotensa, hipóxica, con acidosis metabólica. Hizo parada cardíaca en asistolia que no responde a las maniobras reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-208",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "mujer",
+                        "municipio_detección": null,
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "eg",
+                            "ar"
+                        ],
+                        "texto": "Ciudadana cubana de 58 años de edad. Residía en la provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad del Colágeno, Artritis Reumatoide. Presentó sintomatología respiratoria, por lo que acude a su área de salud y fue remitida a Centro de Salud para aislamiento. Fue realizado PCR que resultó positivo.  Fue remitida para el Hospital donde es ingresada en la sala de confirmados. En días siguientes se incrementó la falta de aire y se apreció un empeoramiento gasométrico y radiológico, por lo que se decide su traslado para la Unidad de Cuidados Intensivos; comienza Ventilación No Invasiva. Posteriormente hubo empeoramiento radiológico y gasométrico, y se reajustaron los parámetros de la ventilación no invasiva, continuó hipoxémica con trastornos hemodinámico. Se decidió intubar y ventilar, se mantiene hipoxémica, con episodios de bradicardia extrema con poca respuesta al tratamiento. Hizo parada cardíaca. Fueron realizadas maniobras de resucitación que no fueron efectivas."
                     }
                 ]
             }
