@@ -4721,6 +4721,43 @@
                         "texto": "Ciudadana cubana de 58 años de edad. Residía en la provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad del Colágeno, Artritis Reumatoide. Presentó sintomatología respiratoria, por lo que acude a su área de salud y fue remitida a Centro de Salud para aislamiento. Fue realizado PCR que resultó positivo.  Fue remitida para el Hospital donde es ingresada en la sala de confirmados. En días siguientes se incrementó la falta de aire y se apreció un empeoramiento gasométrico y radiológico, por lo que se decide su traslado para la Unidad de Cuidados Intensivos; comienza Ventilación No Invasiva. Posteriormente hubo empeoramiento radiológico y gasométrico, y se reajustaron los parámetros de la ventilación no invasiva, continuó hipoxémica con trastornos hemodinámico. Se decidió intubar y ventilar, se mantiene hipoxémica, con episodios de bradicardia extrema con poca respuesta al tratamiento. Hizo parada cardíaca. Fueron realizadas maniobras de resucitación que no fueron efectivas."
                     }
                 ]
+            },
+            "324": {
+                "fecha": "2021/01/28",
+                "fallecidos": [
+                    {
+                        "id": "f-209",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ir"
+                        ],
+                        "texto": "Ciudadano cubano de 71 años de edad, residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus e Insuficiencia Renal Crónica. Comenzó con tos y decaimiento, es valorado por el Médico de Familia y fue remitido para el centro de aislamiento como sospechoso, le realizan PCR que resultó negativo y se le da el alta.  Días posteriores presentó toma del estado general, pérdida del apetito, es atendido por el médico de familia, le realizó una glicemia con cifras de 29 mmol/l y lo remitió para el hospital. Por las enfermedades de base fue ingresado y se realiza PCR que resultó positivo, por lo que fue remitido para hospital donde se atienden a estos pacientes. Obnubilado, hipoxémico, es atendido en la Unidad de Cuidados Intensivos del Cuerpo de Guardia. Hizo parada cardiorespiratoria, son efectivas las maniobras de resucitación, se recupera el ritmo cardíaco. Presentó Fibrilación Auricular con respuesta ventricular rápida, se intubó y ventiló. Fue trasladado para la Unidad de Cuidados Intensivos, comenzó con tratamiento según protocolos para estos pacientes. Se mantuvo inestable hemodinámicamente e hipoxémico. Se le realizó una sesión de hemodiálisis como parte del tratamiento de su enfermedad de base, manteniéndose inestable. Hizo parada cardíaca y se recuperó con maniobras de resucitación cardiopulmonar, posteriormente repite la parada de la que no se recupera."
+                    },
+                    {
+                        "id": "f-210",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Martí",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.03",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "po"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad, residía en el municipio Martí, provincia Matanzas. Antecedentes Patológicos Personales: Postrado. Comenzó con tos y falta de aire, lo remitieron  para el hospital, se recibió con polipnea marcada e hipoxemia,  por lo que es trasladado para la Terapia Intensiva. Mejoró la oxigenación con suministro de oxígeno. Recibió tratamiento según protocolos para estos pacientes. Posteriormente mejoraron los parámetros ventilatorios, Rayos x de Tórax con lesiones inflamatorias en ambos campos pulmonares.  Se mantuvo con adecuada saturación con oxígeno suplementario y aceptable hemodinámica. Hizo una bradicardia extrema hasta llegar a la asistolia, se hacen maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
