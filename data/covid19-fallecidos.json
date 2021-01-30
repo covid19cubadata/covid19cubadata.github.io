@@ -4758,6 +4758,60 @@
                         "texto": "Ciudadano cubano de 82 años de edad, residía en el municipio Martí, provincia Matanzas. Antecedentes Patológicos Personales: Postrado. Comenzó con tos y falta de aire, lo remitieron  para el hospital, se recibió con polipnea marcada e hipoxemia,  por lo que es trasladado para la Terapia Intensiva. Mejoró la oxigenación con suministro de oxígeno. Recibió tratamiento según protocolos para estos pacientes. Posteriormente mejoraron los parámetros ventilatorios, Rayos x de Tórax con lesiones inflamatorias en ambos campos pulmonares.  Se mantuvo con adecuada saturación con oxígeno suplementario y aceptable hemodinámica. Hizo una bradicardia extrema hasta llegar a la asistolia, se hacen maniobras de reanimación cardiopulmonar, que no fueron efectivas."
                     }
                 ]
+            },
+            "325": {
+                "fecha": "2021/01/29",
+                "fallecidos": [
+                    {
+                        "id": "f-211",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades":[
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 64 años. Municipio y Provincia: Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus tipo II. Comenzó con fiebre, es atendida por el médico de familia y remitida como sospecha de arbovirosis un Centro de aislamiento, porque en la zona de residencia había un brote activo de dengue. La evolución fue satisfactoria, siete días después, le realizan IgM que resulta negativa y se egresa. Al día siguiente comenzó con falta de aire, toma del estado general, es valorada por el médico de la familia y la remite como Sospecha de COVID-19 a un Centro de atención a pacientes de alto riesgo. Le realizan PCR que resultó positivo. Fue remitida para el Hospital por agravamiento de los síntomas presentando tos, polipnea e hipoxemia. Posteriormente empeora la dificultad respiratoria, polipneica, cianosis distal, tiraje intercostal y agobio. Se traslada para la Unidad de Cuidados Intensivos donde se procede a intubar y ventilar. Hizo parada cardiorespiratoria, se reanima con éxito, aunque presenta hipotensión y se apoya con aminas vasoactivas. Al día siguiente repite parada cardíaca, no son efectivas las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-212",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ir"
+                        ],
+                        "texto": "Ciudadana cubana de 71 años. Municipio Guanabacoa. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus e Insuficiencia Renal Crónica. Comenzó con tos y falta de aire, es remitida e ingresada en el Hospital con evolución estable.Posteriormente presenta deterioro del cuadro clínico con disnea, hipoxemia moderada y se remite para la Unidad de Cuidados Intensivos. En los días siguientes empeoró progresivamente con trastornos del medio interno, creatinina elevada, hipoxemia refractaria, inestabilidad hemodinámica y fue necesario ventilación mecánica. El día 28 enero empeora clínicamente, inestable hemodinámicamente, con doble apoyo con aminas vasoactivas, mantiene baja saturación de oxígeno, en anuria y mala distribución de líquidos corporales. El 29 de enero hace parada cardíaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-213",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ir"
+                        ],
+                        "texto": "Ciudadano cubano de78 años. Municipio Diez de Octubre. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial e Insuficiencia Renal Crónica. Comenzó con fiebre, rinorrea y malestar general que no mejora con tratamiento ambulatorio.  Fue llevado al Hospital Salvador Allende y lo ingresan en sala para pacientes de alto riesgo, comienzan tratamiento con antibiótico y realizan PCR. En los días posteriores se incrementa la falta de aire, disminuye la saturación de oxígeno y con marcado decaimiento. Se intensifica la disnea con hipoxemia severa, cianosis distal e hipotensión que no responde a volumen, se intuba y ventila. Empeora la hemodinamia a pesar del apoyo con doble aminas y hace una parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no son efectivas. "
+                    }
+                ]
             }
         }
     }
