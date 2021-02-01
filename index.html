@@ -241,61 +241,19 @@
         </div>
     </div>
 
-    <div class="container-fluid"></div>
-    <div class="card-deck">
-        <section id="tasas" class="card common-bg">
-            <div class="card-header">Evoluci&oacute;n por d&iacute;as de la Tasa de Incidencia (por 100 mil) en 15 días
-            </div>
-            <div class="card-body">
-                <div id="tasas-info"></div>
-            </div>
-        </section>
-    </div>
-    </div>
-
-    <div id="line-charts" class="container-fluid">
+    <div class="container-fluid">
         <div class="card-deck card-deck-2">
-            <section id="casdist" class="card common-bg">
-                <div class="card-header">Evoluci&oacute;n de casos por d&iacute;as</div>
-                <div class="card-body">
-                    <div id="daily-single-info"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="recdist" class="card common-bg">
-                <div class="card-header">Evoluci&oacute;n de altas por d&iacute;as</div>
-                <div class="card-body">
-                    <div id="daily-recovers-info"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block"></div>
-            <section id="deadist" class="card common-bg">
-                <div class="card-header">Evoluci&oacute;n de fallecidos por d&iacute;as</div>
-                <div class="card-body">
-                    <div id="daily-deads-info"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-
+            
             <section id="casinfo" class="card common-bg">
                 <div class="card-header">Distribución de los casos</div>
                 <div class="card-body">
                     <div id="cases-pie-info"></div>
                 </div>
             </section>
-            <div class="w-100 d-none d-sm-block"></div>
-
-            <section id="actalt" class="card common-bg">
-                <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos y altas diarias</div>
+            <section id="asyminfo" class="card common-bg">
+                <div class="card-header">Casos sintomáticos/asintomáticos</div>
                 <div class="card-body">
-                    <div id="daily-actaltday-info"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="actalt" class="card common-bg">
-                <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos activos y altas acumuladas</div>
-                <div class="card-body">
-                    <div id="daily-actalt-info"></div>
+                    <div id="asym-info-pie"></div>
                 </div>
             </section>
             <div class="w-100 d-none d-sm-block"></div>
@@ -313,19 +271,6 @@
                 </div>
             </section>
             <div class="w-100 d-none d-sm-block"></div> -->
-            <section id="acthome" class="card common-bg ">
-                <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos importados y no importados</div>
-                <div class="card-body">
-                    <div id="daily-acthome-info"></div>
-                </div>
-            </section>
-            <section id="pacthome" class="card common-bg ">
-                <div class="card-header">Evoluci&oacute;n por d&iacute;as del porciento de casos importados y no
-                    importados</div>
-                <div class="card-body">
-                    <div id="pdaily-acthome-info"></div>
-                </div>
-            </section>
             <!-- <div class="w-100 d-none d-sm-block"></div>
             <section id="actimp" class="card common-bg ">
                 <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos importados cubanos y extranjeros</div>
@@ -353,108 +298,183 @@
                     <div id="tests-donut-info"></div>
                 </div>
             </section> -->
-            <div class="w-100 d-none d-lg-block"></div>
-            <section id="tesacum" class="card common-bg">
-                <div class="card-header">Tests (PCR) por d&iacute;as</div>
-                <div class="card-body">
-                    <div id="tests-line-info"></div>
-                    <div class="map-quote">
-                        * esta informaci&oacute;n se reporta desde 2020/03/22
-                    </div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="testspor" class="card common-bg">
-                <div class="card-header">% Tests Positivos con respecto a Total de Tests (PCR)</div>
-                <div class="card-body">
-                    <div id="daily-porciento-positivos"></div>
-                    <div class="map-quote">
-                        * esta informaci&oacute;n se reporta desde 2020/03/22
-                    </div>
-                </div>
-            </section>
+        </div>
+    </div>
+    <div class="card-deck">
+        <section id="tasas" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n por d&iacute;as de la Tasa de Incidencia (por 100 mil) en 15 días
+            </div>
+            <div class="card-body">
+                <div id="tasas-info"></div>
+            </div>
+        </section>
+    </div>
 
-            <div class="w-100 d-none d-lg-block"></div>
+    <div class="card-deck">
+        <section id="casdist" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n de casos por d&iacute;as</div>
+            <div class="card-body">
+                <div id="daily-single-info"></div>
+            </div>
+        </section>
+    </div>
 
-            <div class="container-fluid">
-                <div class="card-deck">
-                    <section id="avetests" class="card common-bg">
-                        <div class="card-header">Evoluci&oacute;n de los Test diarios y el porciento de test positivos con ventanas de 3 días</div>
-                        <div class="card-body">
-                            <div id="ave_tests-line-info"></div>
-                        </div>
-                    </section>
+    <div class="card-deck">
+        <section id="recdist" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n de altas por d&iacute;as</div>
+            <div class="card-body">
+                <div id="daily-recovers-info"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+        <section id="deadist" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n de fallecidos por d&iacute;as</div>
+            <div class="card-body">
+                <div id="daily-deads-info"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+        <section id="actalt" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos y altas diarias</div>
+            <div class="card-body">
+                <div id="daily-actaltday-info"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+        <section id="actalt" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos activos y altas acumuladas</div>
+            <div class="card-body">
+                <div id="daily-actalt-info"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+        <section id="acthome" class="card common-bg ">
+            <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos importados y no importados</div>
+            <div class="card-body">
+                <div id="daily-acthome-info"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+        <section id="pacthome" class="card common-bg ">
+            <div class="card-header">Evoluci&oacute;n por d&iacute;as del porciento de casos importados y no
+                importados</div>
+            <div class="card-body">
+                <div id="pdaily-acthome-info"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+        <section id="tesacum" class="card common-bg">
+            <div class="card-header">Tests (PCR) por d&iacute;as</div>
+            <div class="card-body">
+                <div id="tests-line-info"></div>
+                <div class="map-quote">
+                    * esta informaci&oacute;n se reporta desde 2020/03/22
                 </div>
             </div>
+        </section>
+    </div>
 
-            <div class="w-100 d-none d-lg-block"></div>
-
-            <section id="homehospday" class="card common-bg">
-                <div class="card-header">Evolución de las personas en vigilancia </div>
-                <div class="card-body">
-                    <div id="home-hosp-evol"></div>
+    <div class="card-deck">
+        <section id="testspor" class="card common-bg">
+            <div class="card-header">% Tests Positivos con respecto a Total de Tests (PCR)</div>
+            <div class="card-body">
+                <div id="daily-porciento-positivos"></div>
+                <div class="map-quote">
+                    * esta informaci&oacute;n se reporta desde 2020/03/22
                 </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="hospday" class="card common-bg">
-                <div class="card-header">Evolución las personas hospitalizadas</div>
+            </div>
+        </section>
+    </div>
+
+    <div class="card-deck">
+            <section id="avetests" class="card common-bg">
+                <div class="card-header">Evoluci&oacute;n de los Test diarios y el porciento de test positivos con ventanas de 3 días</div>
                 <div class="card-body">
-                    <div id="hosp-evol"></div>
+                    <div id="ave_tests-line-info"></div>
                 </div>
-            </section>
+            </section>        
+    </div>
 
-            <div class="w-100 d-none d-lg-block"></div>
-            <section id="asyminfo" class="card common-bg">
-                <div class="card-header">Casos sintomáticos/asintomáticos</div>
-                <div class="card-body">
-                    <div id="asym-info-pie"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="asymbar" class="card common-bg">
-                <div class="card-header">Evolución de casos sintomáticos/asintomáticos</div>
-                <div class="card-body">
-                    <div id="asymcases-bar-info"></div>
-                </div>
-            </section>
+    <div class="card-deck">
+        <section id="homehospday" class="card common-bg">
+            <div class="card-header">Evolución de las personas en vigilancia </div>
+            <div class="card-body">
+                <div id="home-hosp-evol"></div>
+            </div>
+        </section>
+    </div>
 
+    <!-- <div class="card-deck">
+        <section id="hospday" class="card common-bg">
+            <div class="card-header">Evolución las personas hospitalizadas</div>
+            <div class="card-body">
+                <div id="hosp-evol"></div>
+            </div>
+        </section>
+    </div> -->
 
+    <div class="card-deck">
+        <section id="asymbar" class="card common-bg">
+            <div class="card-header">Evolución de casos sintomáticos/asintomáticos</div>
+            <div class="card-body">
+                <div id="asymcases-bar-info"></div>
+            </div>
+        </section>
+    </div>
 
-            <div class="w-100 d-none d-lg-block"></div>
-            <section id="asymperday" class="card common-bg">
-                <div class="card-header">Evolución del porciento de casos sintomáticos/asintomáticos por día </div>
-                <div class="card-body">
-                    <div id="asymcases-day-percent"></div>
-                </div>
-            </section>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="asympertot" class="card common-bg">
-                <div class="card-header">Evolución del porciento de casos sintomáticos/asintomáticos acumulados</div>
-                <div class="card-body">
-                    <div id="asymcases-total-percent"></div>
-                </div>
-            </section>
+    <div class="card-deck">
+        <section id="asymperday" class="card common-bg">
+            <div class="card-header">Evolución del porciento de casos sintomáticos/asintomáticos por día </div>
+            <div class="card-body">
+                <div id="asymcases-day-percent"></div>
+            </div>
+        </section>
+    </div>
 
+    <div class="card-deck">
+        <section id="asympertot" class="card common-bg">
+            <div class="card-header">Evolución del porciento de casos sintomáticos/asintomáticos acumulados</div>
+            <div class="card-body">
+                <div id="asymcases-total-percent"></div>
+            </div>
+        </section>
+    </div>
 
-            <div class="w-100 d-none d-lg-block"></div>
-            <section id="gravesevol" class="card common-bg">
-                <div class="card-header">Evolución de casos graves y críticos</div>
-                <div class="card-body">
-                    <div id="graves-evol-info"></div>
-                </div>
-            </section>
+    <div class="card-deck">
+        <section id="gravesevol" class="card common-bg">
+            <div class="card-header">Evolución de casos graves y críticos</div>
+            <div class="card-body">
+                <div id="graves-evol-info"></div>
+            </div>
+        </section>
+    </div>
 
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <section id="gravespercent" class="card common-bg">
-                <div class="card-header">Evolución del % de casos graves y críticos respecto a casos activos</div>
-                <div class="card-body">
-                    <div id="graves-percent-evol"></div>
-                </div>
-            </section>
+    <div class="card-deck">
+        <section id="gravespercent" class="card common-bg">
+            <div class="card-header">Evolución del % de casos graves y críticos respecto a casos activos</div>
+            <div class="card-body">
+                <div id="graves-percent-evol"></div>
+            </div>
+        </section>
+    </div>
 
+    
 
+    </div>
 
-        </div>
+    <div id="line-charts" class="container-fluid">
         <div class="card-deck card-deck-2">
             <section id="repnum" class="card common-bg">
                 <div class="card-header">Número Reproductivo Efectivo (a partir de datos hasta el 2020/09/21)</div>

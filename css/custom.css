@@ -256,7 +256,7 @@ body > div {
   margin-top: 5px;
 }
 
-#daily-single-info,
+/* #daily-single-info,
 #countries-info,
 #ages-info,
 #countries-info-pie,
@@ -265,18 +265,19 @@ body > div {
 #tests-donut-info,
 #daily-porciento-positivos,
 #tests-line-info,
-#cases-pie-info,
 #daily-actalt-info,
 #daily-actaltday-info,
 #fsex-info,
 #graves-evol-info,
 #graves-percent-evol,
-#asym-info-pie,
 #asymcases-bar-info,
 #asymcases-day-percent,
-#asymcases-total-percent {
+#asymcases-total-percent, 
+*/
+#cases-pie-info,
+#asym-info-pie {
   height: 220px;
-}
+} 
 
 #sex-container,
 #contagio-container {
