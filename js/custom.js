@@ -1617,17 +1617,13 @@ function run_calculations() {
 
 
                         let index_days = [];
-                        for(var d in oxford_index.data){
-                            index_days.push(d.replace(/-/g,'/').replace('2020/',''));
-                        }
-                        index_days.sort();
                         let index_values_cuba_all = [];
                         let index_values_cuba_legacy_all = [];
                         let index_last_value = 0;
                         let index_last_value_legacy = 0;
 
-                        for(var i in index_days){
-                            var idx = '2020-'+index_days[i].replace('/','-');
+                        for(const index of Object.keys(oxford_index.data).sort()){
+                            let idx = index;
                             if ((oxford_index.data[idx])&&('CUB' in oxford_index.data[idx])){
                                 var val = oxford_index.data[idx].CUB.stringency;
                                 index_values_cuba_all.push(val);
@@ -1639,6 +1635,13 @@ function run_calculations() {
                                 index_values_cuba_all.push(null);
                                 index_values_cuba_legacy_all.push(null);
                             }
+                            if(index.includes('2020')){
+                                console.log(idx);
+                                idx = index.replace(/-/g,'/').replace('2020/','');
+                            }else if(index.includes('2021')){
+                                idx = index.replace(/-/g,'/').replace('2021/','');
+                            }
+                            index_days.push(idx);
                         }
                         $('#stringencycub-idx').html(index_last_value);
 
