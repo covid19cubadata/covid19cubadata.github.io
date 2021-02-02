@@ -4872,6 +4872,44 @@
                         "note-text": "El municipio del paciente se determinó a partir de la información en la conferencia de prensa diaria"
                     }
                 ]
+            },
+            "328": {
+                "fecha": "2021/02/01",
+                "fallecidos": [
+                    {
+                        "id": "f-217",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ds" 
+                        ],
+                        "texto": "Ciudadana cubana de 90 años de edad, residía en el  municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Demencia Senil. Comenzó con tos y decaimiento, fue remitida para al hospital e ingresada. Le realizaron Rayos X de Tórax, donde observaron lesiones de aspecto inflamatorio. Se realizó PCR que resultó positivo a la  COVID-19. Comenzó tratamiento según protocolos para estos pacientes. Posteriormente empeoran los síntomas respiratorios con hipoxemia que responde a la administración de oxígeno, episodios de hipotensión que responde a volumen. Los días siguientes presentó empeoramiento progresivo con disnea intensa, hipoxemia severa con poca respuesta al suministro de oxígeno,  hipotensión arterial a pesar del apoyo  con aminas vasoactivas, disminución del ritmo diurético y mala distribución de los líquidos corporales.  Se trasladó a la Unidad de Cuidados Intensivos, se intubó y ventiló. Hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar. La paciente fallece."
+                    },
+                    {
+                        "id": "f-218",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano  de 84 años de edad, residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Comenzó con fiebre y malestar general. Acudió al Médico de Familia que le indica un Test de Antígeno que resultó positivo y lo remitieron e ingresaron en hospital.  Se realizó PCR que resultó positivo a la COVID-19. En el Rayos X de Tórax se observaron lesiones de aspecto inflamatorio. Comienzó tratamiento según protocolos para estos pacientes. Continuó con malestar general, polipnea, con buena hemodinámica. Posteriormente empeoraron las manifestaciones respiratorias, presentando falta de aire intensa, disminución de la saturación de oxígeno y empeoramiento radiológico. Se decidió trasladarlo para la Unidad de Cuidados Intensivos, donde se procedió a intubar y ventilar. Continuó hipoxémico y con inestabilidad hemodinámica a pesar del apoyo con aminas vasoactivas. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiorrespiratoria que no fueron efectivas. El  paciente fallece."
+                    }
+                ]
             }
         }
     }
