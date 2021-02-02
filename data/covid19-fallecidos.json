@@ -4832,6 +4832,46 @@
                         "texto": "Falleció la ciudadana cubana de 90 años de edad. Residía en  el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Comenzó con tos seca y falta de aire. Fue atendida  por el médico de la familia de su área, y remitida al Hospital como sospechosa de alto riesgo, donde fue ingresada. Fue realizado Rayos x de Tórax donde se observaron lesiones de aspecto inflamatorio en ambas bases pulmonares. Comenzó tratamiento con antibiótico. Hubo un incremento de la disnea,  hipoxemia con cifras decrecientes de saturación de oxígeno e inestabilidad hemodinámica. Fue trasladada para la Unidad de Cuidados Intensivos, donde se procedió a intubar y ventilar y fue apoyada con doble aminas vasoactivas. En los días siguientes empeoró progresivamente, con Distress Respiratorio Severo y Shock Séptico refractario al tratamiento. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
+            },
+            "327": {
+                "fecha": "2021/01/31",
+                "fallecidos": [
+                    {
+                        "id": "f-215",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ir",
+                            "hc",
+                            "he" 
+                        ],
+                        "texto": "Ciudadana cubana de 68 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Renal Crónica, Hepatitis C, Cirrosis Hepática. Se lesionó la fístula arterio venosa para las hemodiálisis, la cual se trató en el Hospital, egresándose y se incorporó al servicio ambulatorio de hemodiálisis con sepsis de la fístula. En días posteriores fue trasladada para la atención a la fístula y hemodializar. La evolución fue estable. Le realizaron PCR que resultó positivo y continuó tratamiento con antibiótico. Fue trasladada con hipotensión arterial, falta de aire intensa y signos de sepsis de la fístula; y fue ingresada en la Unidad de Cuidados Intensivos. Presentó inestabilidad hemodinámica, apoyada con doble aminas vasoactivas, mala distribución de los líquidos corporales. Hizo una parada cardíaca en asistolia de la que no se recupera con las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-216",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "dv"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años de edad. Residía en la provincia La Habana. Antecedentes Patológicos Personales: Demencia Vascular. Comenzó con tos, expectoración y decaimiento. Al día siguiente es remitido para el Hospital donde se le realiza PCR que resultó positivo. Posteriormente se agudizó el cuadro respiratorio asociado a episodios de hipotensión arterial que resuelve con administración de volumen, se mantiene con toma del estado general. En los días siguientes hubo empeoramiento progresivo caracterizado por disnea e hipoxemia severa con poca respuesta al suministro de oxígeno, hipotensión arterial a pesar del apoyo  con aminas vasoactivas, disminución del ritmo diurético, mala distribución de los líquidos corporales.  Fue trasladado a la Unidad de Cuidados Intensivos donde prevalecieron las manifestaciones de Shock Séptico e Insuficiencia Respiratoria. Se mantuvo tratamiento según protocolo, se apoya con aminas vasoactivas y Ventilación No Invasiva. En la madrugada hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar.",
+                        "note-text": "El municipio del paciente se determinó a partir de la información en la conferencia de prensa diaria"
+                    }
+                ]
             }
         }
     }
