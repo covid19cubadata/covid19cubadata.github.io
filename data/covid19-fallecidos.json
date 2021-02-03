@@ -4910,6 +4910,45 @@
                         "texto": "Ciudadano cubano  de 84 años de edad, residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Comenzó con fiebre y malestar general. Acudió al Médico de Familia que le indica un Test de Antígeno que resultó positivo y lo remitieron e ingresaron en hospital.  Se realizó PCR que resultó positivo a la COVID-19. En el Rayos X de Tórax se observaron lesiones de aspecto inflamatorio. Comienzó tratamiento según protocolos para estos pacientes. Continuó con malestar general, polipnea, con buena hemodinámica. Posteriormente empeoraron las manifestaciones respiratorias, presentando falta de aire intensa, disminución de la saturación de oxígeno y empeoramiento radiológico. Se decidió trasladarlo para la Unidad de Cuidados Intensivos, donde se procedió a intubar y ventilar. Continuó hipoxémico y con inestabilidad hemodinámica a pesar del apoyo con aminas vasoactivas. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiorrespiratoria que no fueron efectivas. El  paciente fallece."
                     }
                 ]
+            },
+            "329": {
+                "fecha": "2021/02/02",
+                "fallecidos": [
+                    {
+                        "id": "f-219",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ci",
+                            "ob" 
+                        ],
+                        "texto": "Ciudadana cubana de 70 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana.  Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Obesidad y Diabetes Mellitus. Comenzó con tos seca, secreción nasal, pérdida del gusto, del olfato y anorexia, es valorada y remitida para el hospital como sospechosa de COVID-19. Es ingresada en sala de alto riesgo e iniciado tratamiento según protocolo para estos pacientes. Le realizan PCR que resulta positivo continúa con tratamiento. Mantuvo una evolución estable, con malestar general, discreta polipnea al esfuerzo y buena hemodinamia. Posteriormente  empeoran las manifestaciones respiratorias, con falta de aire intensa, disminución de la saturación de oxígeno y empeoramiento radiológico. Se decide trasladar para la Unidad de Cuidados Intensivos, donde se procedió a intubar y ventilar, en estado de Shock con hipotensión severa siendo necesario apoyar con doble aminas vasoactivas. Incrementó la hipoxemia y desaturación reajustándose parámetros ventilatorios, se exacerba el estado Shock. La paciente hizo un episodio de bradicardia extrema seguida de parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. La paciente fallece. Se realizó necropsia."
+                    },
+                    {
+                        "id": "f-220",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades":[
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 80 años de edad. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus. Comenzó con tos y falta de aire, es valorado e ingresado en el hospital con el diagnóstico de Edema Agudo de Pulmón y recibe tratamiento ajustado al protocolo. Se realiza PCR que resultó positivo a la COVID-19. Continuó polipneico, no toleró el decúbito. Comenzó tratamiento según protocolo para estos pacientes. Posteriormente empeoraron los síntomas respiratorios y cardiovasculares con disnea, hipoxemia severa, signos Shock, se intubó y ventoló. Se trasladó para la Unidad de Cuidados Intensivos. Mantiene el cuadro de Shock Cardiogénico, hizo parada cardíaca que responde a maniobras de reanimación cardiopulmonar. Al día siguiente continuó en Shock que no responde a la administración aminas vasoactivas, hipoxemia refractaria al suministro de altas concentraciones de oxígeno, posteriormente hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar. El paciente fallece. Se realizó necropsia."
+                    }
+                ]
             }
         }
     }
