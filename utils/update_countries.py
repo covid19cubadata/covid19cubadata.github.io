@@ -1,5 +1,6 @@
 import os
 import io
+from utils.compression import compress
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 import json
 import csv
@@ -75,22 +76,25 @@ def generate_csv():
         for case in day['diagnosticados']:
             row = []
             row.append('')
-            row.append(case['sexo'])
-            row.append(case['edad'])
-            row.append(case['pais'])
-            row.append(case['municipio_detección'])
-            row.append(case['provincia_detección'])
+            row.append(case.get('sexo', None))
+            row.append(case.get('edad', None))
+            row.append(case.get('pais', None))
+            row.append(case.get('municipio_detección', None))
+            row.append(case.get('provincia_detección', None))
             row.append(day['fecha'])
-            if case['consulta_medico'] != None:
-                row.append(case['consulta_medico'])
+            consulta_medico = case.get('consulta_medico', None)
+            if consulta_medico != None:
+                row.append(consulta_medico)
             else:
                 row.append('')
+            contagio = case.get('contagio', None)
             if case['contagio'] == 'importado':
                 row.append('primario')
             elif case['contagio'] == 'introducido':
                 row.append('secundario')
             else:
                 row.append('desconocido')
+
             rows.append(row)
     w = csv.writer(f)
     w.writerows(rows)
@@ -141,12 +145,13 @@ def main():
     path = os.path.join('data', 'paises-info-dias.json')
     json.dump(data, open(path, 'w'))
 
-    #print(json.dumps(data, indent=2))
+    # print(json.dumps(data, indent=2))
 
     generate_csv()
     print('CSV generated')
 
-
+    compress()
+    print('Zip generated')
 
 
 if __name__ == "__main__":
