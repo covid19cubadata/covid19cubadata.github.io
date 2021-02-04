@@ -4949,6 +4949,95 @@
                         "texto": "Ciudadano cubano de 80 años de edad. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus. Comenzó con tos y falta de aire, es valorado e ingresado en el hospital con el diagnóstico de Edema Agudo de Pulmón y recibe tratamiento ajustado al protocolo. Se realiza PCR que resultó positivo a la COVID-19. Continuó polipneico, no toleró el decúbito. Comenzó tratamiento según protocolo para estos pacientes. Posteriormente empeoraron los síntomas respiratorios y cardiovasculares con disnea, hipoxemia severa, signos Shock, se intubó y ventoló. Se trasladó para la Unidad de Cuidados Intensivos. Mantiene el cuadro de Shock Cardiogénico, hizo parada cardíaca que responde a maniobras de reanimación cardiopulmonar. Al día siguiente continuó en Shock que no responde a la administración aminas vasoactivas, hipoxemia refractaria al suministro de altas concentraciones de oxígeno, posteriormente hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar. El paciente fallece. Se realizó necropsia."
                     }
                 ]
+            },
+            "330": {
+                "fecha": "2021/02/03",
+                "fallecidos": [
+                    {
+                        "id": "f-221",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades":[
+                            "ha",
+                            "ci",
+                            "ob" 
+                        ],
+                        "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Obesidad. Comenzó con fiebre, tos seca y falta de aire. No mejoró los síntomas y acudió a su área de salud, le realizaron Test de Antígeno que resultó positivo y se remitió como sospechoso para el hospital. Se realizó PCR que resultó positivo a la COVID-19. Comenzó con tratamiento según protocolo para estos pacientes. Posteriormente  incrementó la polipnea con disminución de la saturación de oxígeno, hipotensión y ansiedad, por lo fue traslado para la Unidad de Cuidados Intensivos y comenzó con Ventilación No Invasiva. Tuvo empeoramiento clínico, radiológico y gasométrico, se procedió a Intubar y Ventilar. El paciente continuó empeorando con Distress Respiratorio Severo, Shock Séptico apoyado con doble aminas vasoactivas y Fallo Renal Agudo. Hizo parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. El paciente fallece. Se realiza Necropsia. "
+                    },
+                    {
+                        "id": "f-222",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad. Residía en el municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica e Hipertensión Arterial. Comenzó con disnea, tos húmeda expectoración y pérdida del gusto, fue valorado  por el Médico de Familia y se le realizó Test de Antígeno que resultó positivo. Fue remitido al Hospital como sospechoso de COVID-19. Se recibió con falta de aire intensa que empeoraba con el esfuerzo, decaimiento y edemas en miembros inferiores. Se realizó PCR que resultó positivo a la COVID-19. Posteriormente deteriora clínicamente y fue  trasladado para la Unidad de Cuidados Intensivos. Se mantuvo con tratamiento según protocolo para estos pacientes. Presentó empeoramiento progresivo con episodios de disnea, hipoxemia que resolvió con suministro de oxígeno suplementario, hipotensión que responde a infusión de volumen y mala distribución de líquidos corporales. Seguidamente empeoró el cuadro respiratorio con hipoxemia refractaria, fue necesario intubarlo y ventilarlo. Incrementaron las manifestaciones respiratorias a pesar de la ventilación mecánica y el Shock Mixto, apoyado con doble aminas y con fallo agudo de la función renal. Hizo parada cardíaca que no respondió a las maniobras de reanimación cardiopulmonar. El paciente fallece. Se realiza necropsia."
+                    },
+                    {
+                        "id": "f-223",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 92,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ds",
+                            "hp"
+                        ],
+                        "texto": "Ciudadano cubano de 92 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes patológicos personales: Demencia Senil e Hiperplasia Prostática. Comenzó con disnea de esfuerzo y edemas en miembros inferiores por lo que es llevado al Servicio de Urgencias del Policlínico, donde se plantea el diagnóstico de Insuficiencia Cardíaca Congestiva. Empeoró la disnea y el edema. Se le realizó Test de Antígeno que resultó positivo y se remite como caso sospechoso al Hospital. Se realizó PCR que resultó positivo a la COVID-19. Posteriormente se mantuvo con falta de aire y presentó cuadro de opresión torácica, sudoración profusa, se realizó electrocardiograma y ecocardiograma compatibles con Infarto Agudo del Miocardio. Se ingresó en la Unidad de Cuidados Intensivos, se procedió según protocolo para estos casos y se le mantuvo el tratamiento. Hizo parada cardiaca en fibrilación ventricular, se realizaron maniobras de reanimación cardiopulmonar que no fueron  efectivas. El paciente fallece. Se realizó necropsia."
+                    },
+                    {
+                        "id": "f-224",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 93,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades":[
+                            "ha",
+                            "ci",
+                            "ic"
+                        ],
+                        "texto": "Ciudadano cubano de  93 años de edad. Residía en la provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica e Insuficiencia Cardíaca. Comenzó con fiebre, tos y disnea, fue valorado por el Médico de la Familia y se indicó tratamiento. Empeoró la disnea, hipoxemia ligera, fue evaluado y remitido al Hospital. Fue recibido con tiraje costal, hipotensión arterial, confusión mental, se ingresó en la Unidad de Cuidados Intensivos, proceden a Intubar y Ventilar. Hizo parada cardíaca, se realizan maniobras de reanimación que no fueron efectivas. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos."
+                    },
+                    {
+                        "id": "f-225",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ci",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio Camagüey, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad, Cardiopatía Isquémica y Diabetes Mellitus. Comenzó con tos productiva, disnea y decaimiento. Fue valorado por su Médico de Familia remitido al hospital como sospechoso. Se realizó PCR que resultó positivo a la COVID-19. Comenzó tratamiento según protocolos para estos pacientes. Posteriormente  incrementó la falta de aire con necesidad de administrar oxígeno suplementario, malestar general, empeoramiento radiológico, se trasladó para la Unidad de Cuidados Intensivos y se inició Ventilación No Invasiva. Se diagnosticó Infarto Agudo del Miocardio de cara anterior extenso. Se mantuvo hipoxémico, hipotenso, intranquilo, se procede a intubar y ventilar. Se reajustó tratamiento según protocolos. Evolucionó con Distress Respiratorio Severo, Shock Mixto e Insuficiencia Renal, tratándose con doble aminas vasoactivas. Se realizó PCR evolutivo que resultó negativo. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Se realizó necropsia."
+                    }
+                ]
             }
         }
     }
