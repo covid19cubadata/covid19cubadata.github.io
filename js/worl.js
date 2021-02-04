@@ -705,10 +705,7 @@ function run_calculations() {
 
             countrysorted.sort();
 
-            let index_days = [];
-            for (var d in countriesdays.indexes.data) {
-                index_days.push(d.replace(/-/g, '/').replace('2020/', ''));
-            }
+            let index_days = Object.keys(countriesdays.indexes.data);
             index_days.sort();
             let index_values_cuba = [];
             let index_values_cuba_all = [];
@@ -721,9 +718,8 @@ function run_calculations() {
             }
             var curves_stringency = {};
             for (var i in index_days) {
-                var idx = '2020-' + index_days[i].replace('/', '-');
-                var idx2 = idx.replace(/-/g, '/');
-                if (!verif && idx2 === '2020/03/11') {
+                let idx = index_days[i];
+                if (!verif && idx === '2020-03-11') {
                     verif = true;
                 }
                 if (verif && index_values_cuba.length <= (cuba.length - 1)) {
@@ -736,7 +732,6 @@ function run_calculations() {
                         index_values_cuba.push(index_values_cuba[index_values_cuba.length-1]);
                     }
                 }
-                console.log(countriesdays.indexes.data)
                 if ((countriesdays.indexes.data[idx])&&('CUB' in countriesdays.indexes.data[idx])) {
                     var val = countriesdays.indexes.data[idx].CUB.stringency;
                     index_values_cuba_all.push(val);
