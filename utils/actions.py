@@ -1,6 +1,6 @@
 import os
 import io
-from utils.compression import compress
+from .compression import compress
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 import json
 import csv
