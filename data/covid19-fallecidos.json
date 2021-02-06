@@ -82,6 +82,7 @@
         "oc": "enfermedad pulmonar obstructiva crónica",
         "ob": "obesidad",
         "po": "postrado",
+        "ps": "psoriasis",
         "rd": "retinopatía diabética",
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
@@ -5036,6 +5037,81 @@
                             "ob"
                         ],
                         "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio Camagüey, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad, Cardiopatía Isquémica y Diabetes Mellitus. Comenzó con tos productiva, disnea y decaimiento. Fue valorado por su Médico de Familia remitido al hospital como sospechoso. Se realizó PCR que resultó positivo a la COVID-19. Comenzó tratamiento según protocolos para estos pacientes. Posteriormente  incrementó la falta de aire con necesidad de administrar oxígeno suplementario, malestar general, empeoramiento radiológico, se trasladó para la Unidad de Cuidados Intensivos y se inició Ventilación No Invasiva. Se diagnosticó Infarto Agudo del Miocardio de cara anterior extenso. Se mantuvo hipoxémico, hipotenso, intranquilo, se procede a intubar y ventilar. Se reajustó tratamiento según protocolos. Evolucionó con Distress Respiratorio Severo, Shock Mixto e Insuficiencia Renal, tratándose con doble aminas vasoactivas. Se realizó PCR evolutivo que resultó negativo. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Se realizó necropsia."
+                    }
+                ]
+            },
+            "331": {
+                "fecha": "2021/02/04",
+                "fallecidos": [
+                    {
+                        "id": "f-226",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "hombre",
+                        "municipio_detección": "Tercer Frente",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.08",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades":[
+                            "ha",
+                            "ev",
+                            "dm",
+                            "ir"
+                        ],
+                        "texto": "Ciudadano cubano de 60 años de edad. Residía en el Municipio Tercer Frente. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebrovascular Isquémica, Diabetes Mellitus e Insuficiencia Renal Crónica. Estadía hospitalaria: 13 días. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-227",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ep",
+                            "ir",
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Hipertensión Arterial e Insuficiencia Renal Crónica. Estadía hospitalaria: 56 días. Presentó estado de Shock resistente al tratamiento, hipoxemia refractaria, anuria, con trastornos metabólicos y del medio interno. Hizo parada cardíaca sin responder a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-228",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 91,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ci",
+                            "ir",
+                            "ir"
+                        ],
+                        "texto": "Ciudadano cubano de 91 años. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Insuficiencia Renal Crónica y Fibrilación Auricular Crónica. Estadía hospitalaria: 7 días. Presentó Distress Respiratorio Severo e inestabilidad hemodinámica. Hace parada cardíaca sin responder a maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-229",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ds",
+                            "ps"
+                        ],
+                        "texto": "Ciudadana cubana de 88 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Demencia senil, Psoriasis y Desnutrición. Estadía hospitalaria: 5 días. Hizo episodio súbito de parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
