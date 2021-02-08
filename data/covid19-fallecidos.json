@@ -64,6 +64,7 @@
         "it": "insuficiencia arterial",
         "iv": "insuficiencia venosa",
         "lc": "linfangitis crónica",
+        "le": "Lupus Eritematoso",
         "lh": "linfoma de hopkin",
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
@@ -75,6 +76,7 @@
         "nc": "neumopatía crónica",
         "ni": "mefritis intersticial crónica",
         "ne": "neoplasia de esófago",
+        "nl": "nefritis lúpica",
         "nm": "neoplasia de mama",
         "no": "neoplasia de próstata",
         "np": "neoplasia del pulmón",
@@ -96,7 +98,7 @@
         "tp": "tuberculosis pulmonar",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
-        "va": "valvulopatia aortica",
+        "va": "valvulopatia aórtica",
         "vi": "vih",
         "vm": "valvulopatía mitral"
     },
@@ -5187,6 +5189,97 @@
                             "md"
                         ],
                         "texto": "Ciudadano cubano de 78 años de edad. Residía en el  Municipio Santiago, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía isquémica y Miocardiopatía Dilatada Estadía hospitalaria: 10 días. Hizo parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Se realiza necropsia."
+                    }
+                ]
+            },
+            "333": {
+                "fecha": "2021/02/05",
+                "fallecidos": [
+                    {
+                        "id": "f-234",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ei"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años. Residía en el municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Cerebrovascular Isquémico.Estadía Hospitalaria: 7 días. Hizo parada cardiaca en asistolia que no responde a maniobras de reanimación cardiorespiratoria."
+                    },
+                    {
+                        "id": "f-235",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ab",
+                            "cu"
+                        ],
+                        "texto": "Ciudadano cubano, de 64 años de edad. Residía en el municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Asma bronquial y Colitis ulcerativa. Estadía Hospitalaria: 24 Horas. Presentó empeoramiento de la mecánica respiratoria con hipoxemia severa, deterioro hemodinámico que requiere apoyo con aminas es necesario intubar y ventilar. Posteriormente hizo parada cardiaca en asistolia que no responde a maniobras de reanimación."
+                    },
+                    {
+                        "id": "f-236",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "mujer",
+                        "municipio_detección": "Limonar",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.08",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "le",
+                            "ir",
+                            "nl"
+                        ],
+                        "texto": "Ciudadana cubana de 56 años de edad. Residía en el municipio Limonar, provincia Matanzas.  Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Lupus Eritematoso Sistémico, Nefritis Lúpica e Insuficiencia Renal Crónica. Estadía hospitalaria: 8 días. Hizo una parada cardíaca en asistolia se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-237",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades":[
+                            "ha",
+                            "ir"
+                        ],
+                        "texto": "Ciudadana cubana, 73 años. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial e Insuficiencia Renal Crónica. Estadía hospitalaria: 10 días. De forma súbita se agrava la hipoxemia, se deteriora la hemodinamía, presenta parada cardiorespiratoria, que no responde a maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-238",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades":[
+                            "ha",
+                            "va"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial y Valvulopatía Aortica. Estadía hospitalaria: 14 días. Se agravó la inestabilidad hemodinámica sin respuesta a las aminas vasoactivas, hipoxemia severa, acidosis metabólica, hiperpotasemia, hizo parada cardíaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
             }
