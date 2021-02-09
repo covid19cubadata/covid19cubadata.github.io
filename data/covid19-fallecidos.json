@@ -48,6 +48,7 @@
         "ge": "gastropatía erosiva",
         "ha": "hipertensión arterial",
         "hc": "hepatitis c",
+        "hd": "hipertiroidismo",
         "he": "cirrosis hepática",
         "hh": "hernia hiatal",
         "hm": "hipoacusia",
@@ -5193,7 +5194,7 @@
                 ]
             },
             "333": {
-                "fecha": "2021/02/05",
+                "fecha": "2021/02/06",
                 "fallecidos": [
                     {
                         "id": "f-234",
@@ -5203,7 +5204,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Guanabacoa",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_municipio_deteccion": "23.07",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades":[
                             "ha",
@@ -5280,6 +5281,44 @@
                             "va"
                         ],
                         "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Guantánamo, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial y Valvulopatía Aortica. Estadía hospitalaria: 14 días. Se agravó la inestabilidad hemodinámica sin respuesta a las aminas vasoactivas, hipoxemia severa, acidosis metabólica, hiperpotasemia, hizo parada cardíaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    }
+                ]
+            },
+            "334": {
+                "fecha": "2021/02/07",
+                "fallecidos": [
+                    {
+                        "id": "f-239",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ds",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 78 años, residía en el municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Demencia Senil y Enfermedad Pulmonar Obstructiva Crónica. Estadía Hospitalaria: 11 días. Hizo episodio súbito de disnea, hipoxemia, hipotensión arterial, bradicardia seguida de parada cardiorespiratoria, se realizan maniobras de reanimación cardiopulmonar que no son efectivas. "
+                    },
+                    {
+                        "id": "f-240",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 63,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ab",
+                            "hd"
+                        ],
+                        "texto": "Ciudadano cubano de 63 años, residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Asma Bronquial e Hipertiroidismo. Estadía hospitalaria: 20 días. Hizo parada cardíaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
             }
