@@ -58,6 +58,7 @@
         "ic": "insuficiencia cardiaca",
         "id": "inmunodeficiencia",
         "ie": "infarto cerebral",
+        "im": "infarto del miocardio",
         "ip": "infecciones respiratorias",
         "ir": "insuficiencia renal crónica",
         "iu": "insuficiencia vascular perférica",
@@ -5393,6 +5394,98 @@
                             "ta"
                         ],
                         "texto": "Ciudadana cubana de 79 años de edad. Residía en el Municipio Especial Isla de la Juventud. Antecedentes patológicos personales: Asma bronquial, Hipertensión Arterial, Tabaquismo y Enfermedad pulmonar obstructiva crónica. Estadía hospitalaria: 5 días. Hizo parada cardíaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "336": {
+                "fecha": "2021/02/09",
+                "fallecidos": [
+                    {
+                        "id": "f-245",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "ir",
+                            "it"
+                        ],
+                        "texto": "Ciudadano cubano de 49 años de edad. Residía en el municipio Guantánamo, provincia Guantánamo. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Arterial Crónica e Insuficiencia Renal Crónica. Estadía hospitalaria: 5 días. Realizó parada cardiorespiratoria en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-246",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 77,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ab",
+                            "ci",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 77 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Asma Bronquial Hipertensión arterial, Cardiopatía Isquémica y Diabetes Mellitus. Estadía Hospitalaria: 8 días. Estadía en UCI: 7 días. Hizo paro cardiaco y no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-247",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci",
+                            "ir"
+                        ],
+                        "texto": "Ciudadano cubano de 73 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica Insuficiencia Renal Crónica. Estadía Hospitalaria: 7 días. Hizo parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-248",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "im"
+                        ],
+                        "texto": "Ciudadano cubano de 68 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus e Infarto del Miocardio Antiguo. Estadía Hospitalaria: 12 días. Hizo parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-249",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Mayarí",
+                        "provincia_detección": "Isla de la Juventud",
+                        "dpacode_municipio_deteccion": "32.11",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades":[
+                            "ci",
+                            "ha",
+                            "fa"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años de edad. Residía en el municipio Mayarí, provincia de Holguín. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Hipertensión Arterial y Fibrilación Auricular. Estadía hospitalaria: 18 días. Presentó Bradicardia Extrema, seguido de paro cardíaco en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no son exitosas."
                     }
                 ]
             }
