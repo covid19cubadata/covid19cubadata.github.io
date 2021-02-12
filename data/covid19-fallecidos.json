@@ -36,6 +36,8 @@
         "en": "encamado",
         "eo": "enfermedad obstructiva crónica",
         "ep": "enfermedad pulmonar",
+        "eq": "enfermedad poliquística de riñón",
+        "eh": "enfermedad poliquística de hígado",
         "es": "esquizofrenia paranoide",
         "er": "enfermedad renal crónica",
         "et": "enfermedad arterial oclusiva",
@@ -61,7 +63,7 @@
         "im": "infarto del miocardio",
         "ip": "infecciones respiratorias",
         "ir": "insuficiencia renal crónica",
-        "iu": "insuficiencia vascular perférica",
+        "iu": "insuficiencia vascular periférica",
         "is": "insuficiencia córtico suprarrenal",
         "it": "insuficiencia arterial",
         "iv": "insuficiencia venosa",
@@ -5486,6 +5488,80 @@
                             "fa"
                         ],
                         "texto": "Ciudadana cubana de 80 años de edad. Residía en el municipio Mayarí, provincia de Holguín. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Hipertensión Arterial y Fibrilación Auricular. Estadía hospitalaria: 18 días. Presentó Bradicardia Extrema, seguido de paro cardíaco en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no son exitosas."
+                    }
+                ]
+            },
+            "337": {
+                "fecha": "2021/02/10",
+                "fallecidos": [
+                    {
+                        "id": "f-250",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 62,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guane",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.11",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades":[
+                            "ha",
+                            "ep",
+                            "ir",
+                            "eq",
+                            "eh",
+                            "iu"
+
+                        ],
+                        "texto": "Ciudadano cubano de 62 años. Residía en el municipio Guane, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Renal Crónica, Enfermedad Poliquística de Riñón e Hígado, Insuficiencia vascular periférica. Estadía hospitalaria: 1 día. Presentó bradicardia que no respondió a medicamentos, hizo parada cardiorespiratoria. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-251",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 90 años. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica e Hipertensión Arterial. Estadía Hospitalaria: 6 días. Evolucionó desfavorablemente. Presentó parada cardiorespiratoria en asistolia. Se realizaron maniobra de reanimación cardiopulmonar, que no fueron efectiva."
+                    },
+                    {
+                        "id": "f-252",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades":[
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años. Residía en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes Patológicos Personales: Diabetes Mellitus tipo II e Hipertensión Arterial. Estadía hospitalaria: 5 días. De forma súbita comenzó con mareos, sudoración profusa, disnea, hipoxemia que resuelve con oxigenoterapia. En la noche hizo parada cardiorespiratoria. Se realizaron maniobras de reanimación cardiopulmonar que no fueron exitosas."
+                    },
+                    {
+                        "id": "f-253",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades":[
+                            "ep",
+                            "ao"
+                        ],
+                        "texto": "Ciudadano cubano de 89 año Residía en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes: Enfermedad Pulmonar Obstructiva Crónica y Adenocarcinoma de próstata en estadío terminal. Estadía hospitalaria: 7 días. Presentó deterioro hemodinámico asociado a hipoxemia refractaria. Hizo parada cardiaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
