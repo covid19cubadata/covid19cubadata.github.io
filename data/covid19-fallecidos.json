@@ -91,6 +91,7 @@
         "pa": "parkinson",
         "po": "postrado",
         "ps": "psoriasis",
+        "pt": "púrpura trombocitopénica idiopática",
         "rd": "retinopatía diabética",
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
@@ -101,6 +102,7 @@
         "sl": "síndrome de leriche",
         "ta": "tabaquismo",
         "ti": "tuberculosis intestinal",
+        "tm": "trasplante de médula ósea",
         "tp": "tuberculosis pulmonar",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
@@ -5635,6 +5637,78 @@
                             "pa"
                         ],
                         "texto": "Ciudadana cubana de  85 años de edad. Residía en el municipio Santiago, provincia del mismo nombre. Antecedentes Patológicos personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad de Parkinson.  Estadía hospitalaria: 4 días. Hizo un cuadro de sudoración palidez cutánea, y falta de aire que es seguida de parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas. La paciente fallece."
+                    }
+                ]
+            },
+            "339": {
+                "fecha": "2021/02/12",
+                "fallecidos": [
+                    {
+                        "id": "f-258",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci",
+                            "ht",
+                            "ev",
+                            "iu"
+                        ],
+                        "texto": "Ciudadano cubano de 70 años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Hipotiroidismo, Enfermedad Cerebro Vascular, Cardiopatía Isquémica e Insuficiencia Vascular Periférica. Estadía hospitalaria: 7 días. Comenzó con cuadro súbito de disnea, sudoración y agitación que no mejoró con las medidas tomadas. Hizo parada cardiorespiratoria. Se comenzaron maniobras de resucitación cardiopulmonar avanzada que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-259",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "iv"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial e Insuficiencia Venosa Periférica. Estadía hospitalaria: 14 días. Hizo parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-260",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 80 años de edad. Residía en el municipio Plaza de la Revolución, provincia La Habana. Antecedentes patológicos personales: Cardiopatía Isquémica. Estadía hospitalaria: 4 días. Hizo parada cardiaca en asistolia, se realizan maniobras de reanimación cardiorespiratoria que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-261",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 39,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cienfuegos",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.07",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades":[
+                            "ha",
+                            "tm",
+                            "pt"
+                        ],
+                        "texto": "Ciudadana cubana de 39 años de edad. Residía en el municipio cabecera de la provincia Cienfuegos. Antecedentes patológicos personales: Linfoma de Hodgkin. Trasplante de Médula Ósea, Púrpura Trombocitopénica Idiopática. Estadía hospitalaria: 18 días. Presentó inestabilidad hemodinámica. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
                     }
                 ]
             }
