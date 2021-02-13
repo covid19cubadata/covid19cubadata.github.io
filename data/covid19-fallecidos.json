@@ -5564,6 +5564,79 @@
                         "texto": "Ciudadano cubano de 89 año Residía en el municipio cabecera de la provincia Santiago de Cuba. Antecedentes: Enfermedad Pulmonar Obstructiva Crónica y Adenocarcinoma de próstata en estadío terminal. Estadía hospitalaria: 7 días. Presentó deterioro hemodinámico asociado a hipoxemia refractaria. Hizo parada cardiaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
+            },
+            "338": {
+                "fecha": "2021/02/11",
+                "fallecidos": [
+                    {
+                        "id": "f-254",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci",
+                            "ep",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 76  años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía  isquémica, Enfermedad Pulmonar Obstructiva crónica, Diabetes Mellitus y Obesidad. Estadía Hospitalaria: 14 horas. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. La paciente fallece."
+                    },
+                    {
+                        "id": "f-255",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 54 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos personales: Hipertensión Arterial, Diabetes Mellitus. Estadía hospitalaria: Un día. Hizo parada cardíaca en asistolia, se realizaron maniobras de resucitación cardiopulmonar que no fueron efectivas. El paciente fallece. "
+                    },
+                    {
+                        "id": "f-256",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 88  años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus. Estadía Hospitalaria: 14 días. Repitió la parada cardíaca en asistolia, pero no respondió a las maniobras de reanimación cardiopulmonar. La paciente fallece. Se realiza necropsia. "
+                    },
+                    {
+                        "id": "f-257",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades":[
+                            "ha",
+                            "dm",
+                            "pa"
+                        ],
+                        "texto": "Ciudadana cubana de  85 años de edad. Residía en el municipio Santiago, provincia del mismo nombre. Antecedentes Patológicos personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad de Parkinson.  Estadía hospitalaria: 4 días. Hizo un cuadro de sudoración palidez cutánea, y falta de aire que es seguida de parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas. La paciente fallece."
+                    }
+                ]
             }
         }
     }
