@@ -23,6 +23,7 @@
         "cu": "colitis ulcerativa",
         "cv": "comunicación interventricular",
         "dc": "enfermedad diverticular del colon",
+        "de": "demencia",
         "dm": "diabetes mellitus",
         "dn": "desnutrición",
         "ds": "demencia senil",
@@ -5709,6 +5710,93 @@
                             "pt"
                         ],
                         "texto": "Ciudadana cubana de 39 años de edad. Residía en el municipio cabecera de la provincia Cienfuegos. Antecedentes patológicos personales: Linfoma de Hodgkin. Trasplante de Médula Ósea, Púrpura Trombocitopénica Idiopática. Estadía hospitalaria: 18 días. Presentó inestabilidad hemodinámica. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    }
+                ]
+            },
+            "340": {
+                "fecha": "2021/02/13",
+                "fallecidos": [
+                    {
+                        "id": "f-262",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ci",
+                            "ic"
+                        ],
+                        "texto": "Ciudadana cubana de 95 años de edad. Residía en municipio Habana del Este, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica e Insuficiencia Cardíaca. Estadía hospitalaria: 3 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas. La paciente fallece. "
+                    },
+                    {
+                        "id": "f-263",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 91,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 91 años de edad. Residía en el municipio San Miguel del Padrón, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial y Diabetes Mellitus. Estadía hospitalaria: 6 días. Hizo episodios de taquicardia ventricular, fueron administrados antiarrítmicos, posteriormente, hizo parada cardiorespiratoria, en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas. El paciente fallece."
+                    },
+                    {
+                        "id": "f-264",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "mujer",
+                        "municipio_detección": "Consolación del Sur",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.07",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades":[
+                            "ci",
+                            "ic",
+                            "ir",
+                            "ht"
+                        ],
+                        "texto": "Ciudadana cubana de  69 años de edad. Residía en el  municipio Consolación del Sur, provincia Pinar del Río. Antecedentes patológicos personales: Cardiopatía Isquémica, Insuficiencia Cardíaca, Hipotiroidismo e Insuficiencia Renal Crónica. Estadía hospitalaria: 6 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. La paciente fallece."
+                    },
+                    {
+                        "id": "f-265",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "de"
+                        ],
+                        "texto": "Ciudadano cubano de  85 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Demencia. Estadía hospitalaria: 12días.  Presentó cuadro súbito de hipotensión que responde al tratamiento con volumen, aunque se mantiene inestable. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. El paciente fallece. "
+                    },
+                    {
+                        "id": "f-266",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 39,
+                        "sexo": "mujer",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades":[
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de  71 años de edad. Residía en el municipio Camagüey, provincia del mismo nombre. Antecedentes Patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas. El paciente fallece."
                     }
                 ]
             }
