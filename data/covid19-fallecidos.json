@@ -93,6 +93,7 @@
         "po": "postrado",
         "ps": "psoriasis",
         "pt": "púrpura trombocitopénica idiopática",
+        "pv": "prolapso de la válvula mitral",
         "rd": "retinopatía diabética",
         "rf": "enfermedades respiratorias frecuentes",
         "rm": "retraso mental",
@@ -5797,6 +5798,59 @@
                             "ha"
                         ],
                         "texto": "Ciudadano cubano de  71 años de edad. Residía en el municipio Camagüey, provincia del mismo nombre. Antecedentes Patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas. El paciente fallece."
+                    }
+                ]
+            },
+            "341": {
+                "fecha": "2021/02/14",
+                "fallecidos": [
+                    {
+                        "id": "f-267",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 82 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo  fibrilación ventricular  y parada cardiaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-268",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades":[
+                            "dm",
+                            "mm",
+                            "pv"
+                        ],
+                        "texto": "Ciudadana cubana de 64 años de edad. Residía en la Provincia Santiago de Cuba. Antecedentes Patológicos personales: Diabetes Mellitus, Mieloma Múltiple y Prolapso de la Válvula Mitral. Estadía hospitalaria: 5 días. Tuvo empeoramiento progresivo al Distress respiratorio Severo asociado a Shock Séptico, hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-269",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 59,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades":[
+                            "ha",
+                            "ir"
+                        ],
+                        "texto": "Ciudadana cubana de 59 años. Municipio Centro Habana. Provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Insuficiencia Renal Crónica. Estadía hospitalaria: 6 días. Presentó pérdida súbita de la conciencia, polipnea intensa, hipotensión arterial y cianosis, hace parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
