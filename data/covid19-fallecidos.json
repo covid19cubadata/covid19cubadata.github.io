@@ -87,6 +87,7 @@
         "nl": "nefritis lúpica",
         "nm": "neoplasia de mama",
         "no": "neoplasia de próstata",
+        "nn": "neoplasia renal",
         "np": "neoplasia del pulmón",
         "nr": "neuropatías a repetición",
         "oa": "osteoartrosis",
@@ -2338,15 +2339,16 @@
                         "edad": 65,
                         "sexo": "hombre",
                         "municipio_detección": null,
-                        "provincia_detección": null,
+                        "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "00.00",
-                        "dpacode_provincia_deteccion": "00",
+                        "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "dm",
                             "sm",
                             "dn"
                         ],
-                        "texto": "Ciudadano cubano de 65 años de edad, deambulante. Antecedentes Patológicos Personales: Diabetes Mellitus, Etilismo, Secuelas motoras de Enfermedad Cerebrovascular, desnutrición proteico calórica. Fue ingresado por presentar fiebre, tos y decaimiento. Fue ingresado en el Servicio de Cuidados Intensivos por las comorbilidades luego de ser confirmado con COVID-19. Se impuso tratamiento según protocolo. El día 30 de agosto por mantener evolución favorable: estabilidad hemodinámica, afebril, examen físico, Rx y gasometrías normales, es reportado de Cuidado. El día 31 de agosto hizo de forma súbita parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos."
+                        "texto": "Ciudadano cubano de 65 años de edad, deambulante. Antecedentes Patológicos Personales: Diabetes Mellitus, Etilismo, Secuelas motoras de Enfermedad Cerebrovascular, desnutrición proteico calórica. Fue ingresado por presentar fiebre, tos y decaimiento. Fue ingresado en el Servicio de Cuidados Intensivos por las comorbilidades luego de ser confirmado con COVID-19. Se impuso tratamiento según protocolo. El día 30 de agosto por mantener evolución favorable: estabilidad hemodinámica, afebril, examen físico, Rx y gasometrías normales, es reportado de Cuidado. El día 31 de agosto hizo de forma súbita parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. El paciente fallece. Lamentamos profundamente lo ocurrido y transmitimos nuestras más sentidas condolencias a familiares y amigos.",
+                        "note-text": "Se determinó su provincia con información del MINSAP"
                     },
                     {
                         "id": "f-98",
@@ -5974,7 +5976,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Los Palacios",
                         "provincia_detección": "Pinar del Río",
-                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_municipio_deteccion": "21.06",
                         "dpacode_provincia_deteccion": "21",
                         "enfermedades": [
                             "ha",
@@ -5997,6 +5999,93 @@
                             "ep"
                         ],
                         "texto": "Ciudadano cubano de 63 años de edad. Residía en el municipio Habana de Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica.  Estadía hospitalaria: 7 días. Hizo parada cardiorespiratoria en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
+                    }
+                ]
+            },
+            "344": {
+                "fecha": "2021/02/17",
+                "fallecidos": [
+                    {
+                        "id": "f-278",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ic",
+                            "cr"
+                        ],
+                        "texto": "Ciudadano cubano de 89 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Insuficiencia Cardíaca y Carcinoma de Próstata. Estadía hospitalaria: 6 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-279",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "hombre",
+                        "municipio_detección": null,
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "nn"
+                        ],
+                        "texto": "Ciudadano cubano de  73 años de edad. Residía en la provincia Pinar del Río. Antecedentes Patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica y Neoplasia Renal. Estadía hospitalaria: 11 días. Empeoró la hipoxemia, cianosis distal, Shock Séptico, hizo parada cardíaca se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-280",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 87 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 5 días. Empeoró  Distress Respiratorio, con inestabilidad hemodinámica, apoyándose con aminas vasoactivas. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar sin lograr recuperar la circulación espontánea."
+                    },
+                    {
+                        "id": "f-281",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep",
+                            "fc"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes patológicos personales: EPOC y secuelas de Fractura de Cadera. Estadía hospitalaria: 2 días. Presentó dificultad respiratoria marcada, hipotensión arterial y cianosis, siendo necesario intubar, ventilar y apoyo con aminas. Presentó cuadro de bradicardia extrema, seguida de parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. "
+                    },
+                    {
+                        "id": "f-282",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 77,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 77 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial y Diabetes Mellitus. Estadía hospitalaria: 9 días. Presentó inestabilidad hemodinámica, fue necesario apoyo de aminas a altas dosis y modificar parámetros ventilatorios. Hizo bradicardia extrema, seguida de parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
             }
