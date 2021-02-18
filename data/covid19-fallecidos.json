@@ -33,7 +33,7 @@
         "ec": "enfermedad cerebral crónica",
         "ed": "enfermedad diverticular del colon",
         "ei": "enfermedad cerebrovascular isquémica",
-        "eg": "enfermedad del colágeno", 
+        "eg": "enfermedad del colágeno",
         "el": "epilepsia",
         "en": "encamado",
         "eo": "enfermedad obstructiva crónica",
@@ -4752,7 +4752,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.03",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ir"
@@ -4789,7 +4789,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -4843,7 +4843,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.13",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha"
                         ],
                         "texto": "Falleció la ciudadana cubana de 90 años de edad. Residía en  el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Comenzó con tos seca y falta de aire. Fue atendida  por el médico de la familia de su área, y remitida al Hospital como sospechosa de alto riesgo, donde fue ingresada. Fue realizado Rayos x de Tórax donde se observaron lesiones de aspecto inflamatorio en ambas bases pulmonares. Comenzó tratamiento con antibiótico. Hubo un incremento de la disnea,  hipoxemia con cifras decrecientes de saturación de oxígeno e inestabilidad hemodinámica. Fue trasladada para la Unidad de Cuidados Intensivos, donde se procedió a intubar y ventilar y fue apoyada con doble aminas vasoactivas. En los días siguientes empeoró progresivamente, con Distress Respiratorio Severo y Shock Séptico refractario al tratamiento. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
@@ -4863,12 +4863,12 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.01",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ir",
                             "hc",
-                            "he" 
+                            "he"
                         ],
                         "texto": "Ciudadana cubana de 68 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Renal Crónica, Hepatitis C, Cirrosis Hepática. Se lesionó la fístula arterio venosa para las hemodiálisis, la cual se trató en el Hospital, egresándose y se incorporó al servicio ambulatorio de hemodiálisis con sepsis de la fístula. En días posteriores fue trasladada para la atención a la fístula y hemodializar. La evolución fue estable. Le realizaron PCR que resultó positivo y continuó tratamiento con antibiótico. Fue trasladada con hipotensión arterial, falta de aire intensa y signos de sepsis de la fístula; y fue ingresada en la Unidad de Cuidados Intensivos. Presentó inestabilidad hemodinámica, apoyada con doble aminas vasoactivas, mala distribución de los líquidos corporales. Hizo una parada cardíaca en asistolia de la que no se recupera con las maniobras de reanimación cardiopulmonar."
                     },
@@ -4882,7 +4882,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "dv"
                         ],
                         "texto": "Ciudadano cubano de 72 años de edad. Residía en la provincia La Habana. Antecedentes Patológicos Personales: Demencia Vascular. Comenzó con tos, expectoración y decaimiento. Al día siguiente es remitido para el Hospital donde se le realiza PCR que resultó positivo. Posteriormente se agudizó el cuadro respiratorio asociado a episodios de hipotensión arterial que resuelve con administración de volumen, se mantiene con toma del estado general. En los días siguientes hubo empeoramiento progresivo caracterizado por disnea e hipoxemia severa con poca respuesta al suministro de oxígeno, hipotensión arterial a pesar del apoyo  con aminas vasoactivas, disminución del ritmo diurético, mala distribución de los líquidos corporales.  Fue trasladado a la Unidad de Cuidados Intensivos donde prevalecieron las manifestaciones de Shock Séptico e Insuficiencia Respiratoria. Se mantuvo tratamiento según protocolo, se apoya con aminas vasoactivas y Ventilación No Invasiva. En la madrugada hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar.",
@@ -4903,10 +4903,10 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
-                            "ds" 
+                            "ds"
                         ],
                         "texto": "Ciudadana cubana de 90 años de edad, residía en el  municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Demencia Senil. Comenzó con tos y decaimiento, fue remitida para al hospital e ingresada. Le realizaron Rayos X de Tórax, donde observaron lesiones de aspecto inflamatorio. Se realizó PCR que resultó positivo a la  COVID-19. Comenzó tratamiento según protocolos para estos pacientes. Posteriormente empeoran los síntomas respiratorios con hipoxemia que responde a la administración de oxígeno, episodios de hipotensión que responde a volumen. Los días siguientes presentó empeoramiento progresivo con disnea intensa, hipoxemia severa con poca respuesta al suministro de oxígeno,  hipotensión arterial a pesar del apoyo  con aminas vasoactivas, disminución del ritmo diurético y mala distribución de los líquidos corporales.  Se trasladó a la Unidad de Cuidados Intensivos, se intubó y ventiló. Hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar. La paciente fallece."
                     },
@@ -4920,7 +4920,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.03",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci"
                         ],
@@ -4941,11 +4941,11 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.14",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ci",
-                            "ob" 
+                            "ob"
                         ],
                         "texto": "Ciudadana cubana de 70 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana.  Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Obesidad y Diabetes Mellitus. Comenzó con tos seca, secreción nasal, pérdida del gusto, del olfato y anorexia, es valorada y remitida para el hospital como sospechosa de COVID-19. Es ingresada en sala de alto riesgo e iniciado tratamiento según protocolo para estos pacientes. Le realizan PCR que resulta positivo continúa con tratamiento. Mantuvo una evolución estable, con malestar general, discreta polipnea al esfuerzo y buena hemodinamia. Posteriormente  empeoran las manifestaciones respiratorias, con falta de aire intensa, disminución de la saturación de oxígeno y empeoramiento radiológico. Se decide trasladar para la Unidad de Cuidados Intensivos, donde se procedió a intubar y ventilar, en estado de Shock con hipotensión severa siendo necesario apoyar con doble aminas vasoactivas. Incrementó la hipoxemia y desaturación reajustándose parámetros ventilatorios, se exacerba el estado Shock. La paciente hizo un episodio de bradicardia extrema seguida de parada cardiaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. La paciente fallece. Se realizó necropsia."
                     },
@@ -4959,7 +4959,7 @@
                         "provincia_detección": "Guantánamo",
                         "dpacode_municipio_deteccion": "35.09",
                         "dpacode_provincia_deteccion": "35",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -4980,10 +4980,10 @@
                         "provincia_detección": "Pinar del Río",
                         "dpacode_municipio_deteccion": "21.08",
                         "dpacode_provincia_deteccion": "21",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
-                            "ob" 
+                            "ob"
                         ],
                         "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Obesidad. Comenzó con fiebre, tos seca y falta de aire. No mejoró los síntomas y acudió a su área de salud, le realizaron Test de Antígeno que resultó positivo y se remitió como sospechoso para el hospital. Se realizó PCR que resultó positivo a la COVID-19. Comenzó con tratamiento según protocolo para estos pacientes. Posteriormente  incrementó la polipnea con disminución de la saturación de oxígeno, hipotensión y ansiedad, por lo fue traslado para la Unidad de Cuidados Intensivos y comenzó con Ventilación No Invasiva. Tuvo empeoramiento clínico, radiológico y gasométrico, se procedió a Intubar y Ventilar. El paciente continuó empeorando con Distress Respiratorio Severo, Shock Séptico apoyado con doble aminas vasoactivas y Fallo Renal Agudo. Hizo parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. El paciente fallece. Se realiza Necropsia. "
                     },
@@ -4997,7 +4997,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci"
                         ],
@@ -5013,7 +5013,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.01",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ds",
                             "hp"
                         ],
@@ -5029,7 +5029,7 @@
                         "provincia_detección": "Camagüey",
                         "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "ic"
@@ -5046,7 +5046,7 @@
                         "provincia_detección": "Camagüey",
                         "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ci",
@@ -5069,7 +5069,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.08",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ec",
                             "dm",
@@ -5087,7 +5087,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ep",
                             "ir",
                             "ha"
@@ -5104,7 +5104,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.09",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ci",
                             "ir",
                             "ir"
@@ -5121,7 +5121,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.03",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ds",
@@ -5144,7 +5144,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ev",
                             "ci"
@@ -5161,7 +5161,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.04",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ie",
                             "po",
@@ -5179,7 +5179,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ir"
@@ -5196,7 +5196,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "md"
@@ -5218,7 +5218,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.07",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ei"
@@ -5235,7 +5235,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.07",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ab",
@@ -5253,7 +5253,7 @@
                         "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.08",
                         "dpacode_provincia_deteccion": "25",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "le",
@@ -5272,7 +5272,7 @@
                         "provincia_detección": "Guantánamo",
                         "dpacode_municipio_deteccion": "35.09",
                         "dpacode_provincia_deteccion": "35",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ir"
                         ],
@@ -5288,7 +5288,7 @@
                         "provincia_detección": "Guantánamo",
                         "dpacode_municipio_deteccion": "35.09",
                         "dpacode_provincia_deteccion": "35",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "va"
                         ],
@@ -5309,7 +5309,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ds",
                             "ep"
                         ],
@@ -5325,7 +5325,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.14",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ab",
                             "hd"
@@ -5347,7 +5347,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "pa"
@@ -5364,7 +5364,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ob"
@@ -5381,7 +5381,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.07",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "cr",
                             "ha"
                         ],
@@ -5397,7 +5397,7 @@
                         "provincia_detección": "Isla de la Juventud",
                         "dpacode_municipio_deteccion": "40.01",
                         "dpacode_provincia_deteccion": "40.01",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ep",
                             "ta"
@@ -5419,7 +5419,7 @@
                         "provincia_detección": "Guantánamo",
                         "dpacode_municipio_deteccion": "35.09",
                         "dpacode_provincia_deteccion": "35",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ir",
@@ -5437,7 +5437,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.09",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ab",
                             "ci",
@@ -5455,7 +5455,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.13",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "ir"
@@ -5472,7 +5472,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.03",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "im"
@@ -5489,7 +5489,7 @@
                         "provincia_detección": "Holguín",
                         "dpacode_municipio_deteccion": "32.11",
                         "dpacode_provincia_deteccion": "32",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ci",
                             "ha",
                             "fa"
@@ -5511,14 +5511,13 @@
                         "provincia_detección": "Pinar del Río",
                         "dpacode_municipio_deteccion": "21.11",
                         "dpacode_provincia_deteccion": "21",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ep",
                             "ir",
                             "eq",
                             "eh",
                             "iu"
-
                         ],
                         "texto": "Ciudadano cubano de 62 años. Residía en el municipio Guane, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Renal Crónica, Enfermedad Poliquística de Riñón e Hígado, Insuficiencia vascular periférica. Estadía hospitalaria: 1 día. Presentó bradicardia que no respondió a medicamentos, hizo parada cardiorespiratoria. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     },
@@ -5532,7 +5531,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci"
                         ],
@@ -5548,7 +5547,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -5564,7 +5563,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ep",
                             "ao"
                         ],
@@ -5585,7 +5584,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "ep",
@@ -5604,7 +5603,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -5620,7 +5619,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -5636,7 +5635,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "pa"
@@ -5658,7 +5657,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "ht",
@@ -5677,7 +5676,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.01",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "iv"
                         ],
@@ -5693,7 +5692,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.02",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ci"
                         ],
                         "texto": "Ciudadano cubano de 80 años de edad. Residía en el municipio Plaza de la Revolución, provincia La Habana. Antecedentes patológicos personales: Cardiopatía Isquémica. Estadía hospitalaria: 4 días. Hizo parada cardiaca en asistolia, se realizan maniobras de reanimación cardiorespiratoria que no fueron efectivas."
@@ -5708,7 +5707,7 @@
                         "provincia_detección": "Cienfuegos",
                         "dpacode_municipio_deteccion": "27.07",
                         "dpacode_provincia_deteccion": "27",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "tm",
                             "pt"
@@ -5730,7 +5729,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.06",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "ic"
@@ -5747,7 +5746,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.08",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -5763,7 +5762,7 @@
                         "provincia_detección": "Pinar del Río",
                         "dpacode_municipio_deteccion": "21.07",
                         "dpacode_provincia_deteccion": "21",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ci",
                             "ic",
                             "ir",
@@ -5781,7 +5780,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.14",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "de"
                         ],
@@ -5797,7 +5796,7 @@
                         "provincia_detección": "Camagüey",
                         "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha"
                         ],
                         "texto": "Ciudadano cubano de  71 años de edad. Residía en el municipio Camagüey, provincia del mismo nombre. Antecedentes Patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas. El paciente fallece."
@@ -5817,7 +5816,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.14",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha"
                         ],
                         "texto": "Ciudadana cubana de 82 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo  fibrilación ventricular  y parada cardiaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
@@ -5832,7 +5831,7 @@
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "34.06",
                         "dpacode_provincia_deteccion": "34",
-                        "enfermedades":[
+                        "enfermedades": [
                             "dm",
                             "mm",
                             "pv"
@@ -5849,7 +5848,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.03",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ir"
                         ],
@@ -5870,7 +5869,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.10",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ci",
                             "cg"
@@ -5887,7 +5886,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.12",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm"
                         ],
@@ -5903,7 +5902,7 @@
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.12",
                         "dpacode_provincia_deteccion": "23",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "dm",
                             "ep"
@@ -5920,7 +5919,7 @@
                         "provincia_detección": "Camagüey",
                         "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ir",
                             "ev"
@@ -5937,13 +5936,67 @@
                         "provincia_detección": "Camagüey",
                         "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
-                        "enfermedades":[
+                        "enfermedades": [
                             "ha",
                             "ep",
                             "mo",
                             "ez"
                         ],
                         "texto": "Ciudadano cubano de 84 años. Residía en el municipio Camagüey, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Monorreno y Esplenectomizado.  Estadía hospitalaria: 19 días. Se mantuvo inestable hemodinámicamente a pesar del apoyo con aminas vasoactivas, hipoxémico, con empeoramiento radiológico y gasométrico. Hizo parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "343": {
+                "fecha": "2021/02/16",
+                "fallecidos": [
+                    {
+                        "id": "f-275",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "gc"
+                        ],
+                        "texto": "Ciudadano cubano de  76 años de edad. Residía en el Municipio Centro Habana, provincia La Habana. Información de valor epidemiológico: Sin nexo epidemiológico. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Glaucoma. Estadía hospitalaria: 4  días. Presentó cuadro de bradicardia extrema, seguida de parada cardiorespiratoria, se realizaron maniobras de reanimación que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-276",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Los Palacios",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ir"
+                        ],
+                        "texto": "Ciudadano cubano 72 años de edad. Residía en el municipio Los Palacios, provincia  Pinar del Río. Antecedentes patológicos personales: Hipertensión Arterial e Insuficiencia Renal Crónica. Estadía hospitalaria: 7 días. Hizo parada cardíaca en fibrilación ventricular, se realizaron maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-277",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 63,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 63 años de edad. Residía en el municipio Habana de Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica.  Estadía hospitalaria: 7 días. Hizo parada cardiorespiratoria en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
                     }
                 ]
             }
