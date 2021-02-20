@@ -26,6 +26,7 @@
         "cv": "comunicación interventricular",
         "dc": "enfermedad diverticular del colon",
         "de": "demencia",
+        "di": "disfunción válvula mitral",
         "dm": "diabetes mellitus",
         "dn": "desnutrición",
         "ds": "demencia senil",
@@ -73,7 +74,8 @@
         "iv": "insuficiencia venosa",
         "lc": "linfangitis crónica",
         "le": "Lupus Eritematoso",
-        "lh": "linfoma de hopkin",
+        "lh": "linfoma de hopgkin",
+        "ln": "linfoma no hodgkin",
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
         "lp": "lobectomía pulmonar",
@@ -6177,6 +6179,76 @@
                             "er"
                         ],
                         "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Contramaestre, provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Renal Crónica. Estadía hospitalaria: 15 días. Presentó Shock refractario a la administración de aminas y posteriormente hizo parada cardiorespiratoria en asistolia."
+                    }
+                ]
+            },
+            "346": {
+                "fecha": "2021/02/19",
+                "fallecidos": [
+                    {
+                        "id": "f-288",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ln",
+                            "di",
+                            "ev",
+                            "ep",
+                            "it"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Linfoma No Hodgkin, Disfunción Válvula Mitral Protésica, Enfermedad Cerebrovascular, Epilepsia e Insuficiencia Arterial Periférica. Estadía hospitalaria: 6 días. Incrementó la dificultad respiratoria, presentó sudoración, hipotensión arterial y taquicardia; fue intubado, ventilado y apoyado con aminas. Continuó con empeoramiento clínico, gasométrico y radiológico, por lo que fueron modificados parámetros ventilatorios y elevadas las dosis de aminas. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-289",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 59,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 59 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes patológicos personales: Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 5 días. Presentó agobio respiratorio, taquicardia, intranquilidad e hizo parada cardiorespiratoria. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-290",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "San José de las Lajas",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.02",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio San José de Las Lajas, provincia Mayabeque. Antecedentes patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 12 días. Presentó empeoramiento clínico, gasométrico y radiológico, fue necesario intubar y ventilar en modalidad controlada. Hizo parada cardiaca en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-291",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bahía Honda",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.01",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años de edad. Residía en el municipio Bahía Honda, provincia Artemisa. Antecedentes patológicos personales: Hipertensión Arterial y Miastenia Gravis. Estadía hospitalaria: 5 días. Presentó empeoramiento clínico, gasométrico, radiológico y fue necesario elevar dosis de aminas. Hizo parada cardiaca en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
