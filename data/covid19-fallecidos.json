@@ -6417,6 +6417,75 @@
                         "texto": "Ciudadana cubana de 96 años de edad. Residía en el Municipio Habana del Este, provincia La Habana.  Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Enfermedad Renal Crónica. Estadía hospitalaria: 8 días. Presentó episodio súbito de parada cardíaca en asistolia, no respondió a las maniobras de reanimación cardiopulmonar."
                     }
                 ]
+            },
+            "349": {
+                "fecha": "2021/02/22",
+                "fallecidos": [
+                    {
+                        "id": "f-301",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 86 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 6 días. Presentó agobio respiratorio, hipotensión arterial y cianosis. Fue intubada, ventilada  y apoyada con aminas a altas dosis. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-302",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años de edad. Residía en el municipio Guanabacoa, provincia La Habana. Antecedentes patológicos personales: Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 2 días. Presentó empeoramiento clínico, gasométrico, radiológico y se procede a la ventilación mecánica. Hizo bradicardia extrema, seguido de parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-303",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 88 años. Residía en el municipio Playa, provincia La Habana. Antecedentes patológicos personales: Cardiopatía Isquémica y Enfermedad Renal Crónica. Estadía hospitalaria: 2 días. Se incrementó la disnea, hipotensión arterial, acidemia metabólica. Hizo parada cardiaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-304",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bejucal",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.01",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha",
+                            "er",
+                            "dn"
+                        ],
+                        "texto": "Ciudadano cubano de 72 años de edad. Residía en el municipio Bejucal, provincia Mayabeque. Antecedentes patológicos personales: Hipertensión Arterial, Enfermedad Renal Crónica y Desnutrición Proteico Calórica. Estadía hospitalaria: 8 horas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    }
+                ]
             }
         }
     }
