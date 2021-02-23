@@ -6342,6 +6342,81 @@
                         "texto": "Ciudadana cubana de 54 años de edad, residía en el municipio Santiago de Cuba, provincia del mismo nombre. Antecedentes patológicos personales: Hipertensión arterial, Diabetes Mellitus e Insuficiencia Venosa Periférica. Estadía hospitalaria: 1 día. Presentó incremento de la falta de aire e hipotensión arterial. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas. "
                     }
                 ]
+            },
+            "348": {
+                "fecha": "2021/02/21",
+                "fallecidos": [
+                    {
+                        "id": "f-297",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ei",
+                            "ir"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Residía en el municipio y provincia de Guantánamo. Antecedentes Patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebro Vascular Isquémica e Insuficiencia Renal Crónica. Estadía hospitalaria: 1 día. Se incrementó la disnea, presentó hipoxemia e hipotensión arterial. Hizo parada cardíaca en asistolia; se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-298",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 87 años. Residía en el municipio Santiago de Cuba, provincia del mismo nombre.  Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía isquémica, Diabetes Mellitus y Demencia Senil. Estadía hospitalaria: 2 días. Empeoró el cuadro respiratorio, presentó hipotensión arterial, bradicardia sin respuesta a medicamentos; hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-299",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "nm"
+                        ],
+                        "texto": "Ciudadana cubana de 74 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Neoplasia de Mama con Metástasis Pulmonar. Estadía hospitalaria: 8 días. Hizo bradicardia extrema, posteriormente parada cardiaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-300",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 96,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "er"
+                        ],
+                        "texto": "Ciudadana cubana de 96 años de edad. Residía en el Municipio Habana del Este, provincia La Habana.  Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Enfermedad Renal Crónica. Estadía hospitalaria: 8 días. Presentó episodio súbito de parada cardíaca en asistolia, no respondió a las maniobras de reanimación cardiopulmonar."
+                    }
+                ]
             }
         }
     }
