@@ -3,12 +3,14 @@
         "aa": "aneurisma de la aorta",
         "ab": "asma bronquial",
         "ac": "alcoholismo",
+        "am": "amputación del miembro inferior",
         "ap": "absceso perianal",
         "al": "alzheimer",
         "ao": "adenocarcinoma de próstata",
         "ar": "artritis reumatoide",
         "at": "aneurisma trombosado de la aorta abdominal",
         "ba": "bloqueo aurículo-ventricular",
+        "br": "bronquiectasia",
         "ca": "cáncer",
         "cb": "carcinoma basocelular",
         "cc": "cirrosis hepática",
@@ -59,6 +61,7 @@
         "he": "cirrosis hepática",
         "hh": "hernia hiatal",
         "hm": "hipoacusia",
+        "hr": "hepatopatía crónica",
         "ht": "hipotiroidismo",
         "hp": "hiperplasia prostática",
         "ia": "infarto anterior",
@@ -79,6 +82,7 @@
         "lm": "leucemia mielodide",
         "ll": "leucemia linfoide",
         "lp": "lobectomía pulmonar",
+        "lr": "litiasis renal",
         "md": "miocardiopatía dilatada",
         "mg": "miastenia grave",
         "mm": "mieloma múltiple",
@@ -113,6 +117,7 @@
         "ta": "tabaquismo",
         "ti": "tuberculosis intestinal",
         "tm": "trasplante de médula ósea",
+        "to": "toxoplasmosis",
         "tp": "tuberculosis pulmonar",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
@@ -4442,7 +4447,8 @@
                         "enfermedades": [
                             "ha",
                             "dm",
-                            "et"
+                            "et",
+                            "am"
                         ],
                         "texto": "Ciudadano cubano de 62 años. Municipio Cotorro. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus tipo 2, Hipertensión Arterial, Enfermedad Arterial Oclusiva (Amputación de Miembro inferior derecho). Comenzó con tos productiva, expectoración purulenta y decaimiento. No acudió a los servicios de Salud. Cinco días después se añade al cuadro respiratorio dolor abdominal difuso, perdida del gusto y del olfato, por lo que es llevado por sus familiares al policlínico por agudización de los síntomas, es valorado y se remite   para el Hospital. Fue realizado Rx de Tórax donde se observa lesiones inflamatorias en ambos campos pulmonares y se decide ingreso en la Unidad de Cuidados Intensivos. Posteriormente se agudizan los síntomas respiratorios asociado a hipotensión arterial, hace parada cardiorespiratoria, se realizan maniobras de resucitación que no resultaron efectiva."
                     }
@@ -6484,6 +6490,80 @@
                             "dn"
                         ],
                         "texto": "Ciudadano cubano de 72 años de edad. Residía en el municipio Bejucal, provincia Mayabeque. Antecedentes patológicos personales: Hipertensión Arterial, Enfermedad Renal Crónica y Desnutrición Proteico Calórica. Estadía hospitalaria: 8 horas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    }
+                ]
+            },
+            "350": {
+                "fecha": "2021/02/23",
+                "fallecidos": [
+                    {
+                        "id": "f-305",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 51,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep",
+                            "ar",
+                            "br"
+                        ],
+                        "texto": "Ciudadana cubana de 51 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Bronquiectasia y Artritis Reumatoide. Estadía hospitalaria: 4 días. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-306",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 51,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "to",
+                            "lr",
+                            "hr"
+                        ],
+                        "texto": "Ciudadana cubana de  51 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Toxoplasmosis, Hepatopatía crónica y Litiasis Renal. Estadía Hospitalaria: 16 días. Hizo parada cardiaca en asistolia y no respondió a maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-307",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 89 añosde edad. Residía en el Municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Estadía Hospitalaria: 5 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-308",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "er",
+                            "ic",
+                            "va",
+                            "am"
+                        ],
+                        "texto": "Ciudadano cubano de  65 años de edad. Residía en el municipio y provincia de Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Renal Crónica, Insuficiencia Cardiaca, Valvulopatia Aórtica y Amputación del Miembro Inferior Izquierdo. Estadía hospitalaria: 19 días. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     }
                 ]
             }
