@@ -56,6 +56,7 @@
         "gc": "glaucoma",
         "ge": "gastropatía erosiva",
         "ha": "hipertensión arterial",
+        "hb": "hipoacusia bilateral",
         "hc": "hepatitis c",
         "hd": "hipertiroidismo",
         "he": "cirrosis hepática",
@@ -6641,6 +6642,46 @@
                             "ev"
                         ],
                         "texto": "Ciudadana cubana de 85 años de edad. Residía en el municipio cabecera de la provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica, Insuficiencia Cardíaca y Secuelas de Enfermedad Cerebro Vascular. Estadía hospitalaria: 6 días. Presentó hipotensión arterial, fue intubada, ventilada y apoyada con aminas a altas dosis. Hizo bradicardia extrema, parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
+            },
+            "352": {
+                "fecha": "2021/02/25",
+                "fallecidos": [
+                    {
+                        "id": "f-313",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "mujer",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ds",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 88 años de edad. Residía en el municipio Pinar del Río, provincia del mismo nombre. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica, Demencia Senil y Enfermedad Cerebrovascular. Estadía hospitalaria: 7 días. Presentó empeoramiento clínico, gasométrico y radiológico. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-314",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "hb"
+                        ],
+                        "texto": "Ciudadano cubano de 70 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica e Hipoacusia bilateral. Estadía hospitalaria: 7 días. Comenzó con deterioro de la función respiratoria con distress respiratorio moderado e inestabilidad hemodinámica. Hizo episodio de bradicardia extrema que evolucionó a la asistolia, se realizaron maniobras y medidas de reanimación cardiopulmonar."
                     }
                 ]
             }
