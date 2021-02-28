@@ -47,6 +47,7 @@
         "es": "esquizofrenia paranoide",
         "er": "enfermedad renal crónica",
         "et": "enfermedad arterial oclusiva",
+        "eu": "enferemeda vascular",
         "ev": "enfermedad cerebrovascular",
         "ez": "esplenectomizado",
         "fa": "fibrilación auricular crónica",
@@ -6757,6 +6758,78 @@
                             "it"
                         ],
                         "texto": "Ciudadano cubano de  78 años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Enfermedad Cerebrovascular e Insuficiencia Arterial Periférica. Estadía hospitalaria: 8 días. Presentó de forma súbita episodio parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
+            },
+            "354": {
+                "fecha": "2021/02/27",
+                "fallecidos": [
+                    {
+                        "id": "f-319",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep",
+                            "ie"
+                        ],
+                        "texto": "Ciudadana cubana de 74 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica e Infarto Cerebral. Estadía hospitalaria: 2 días. Presentó evolución tórpida, con inestabilidad hemodinámica, gradiente térmico, reducción marcada del volumen de orina, que traducen un cuadro de Shock. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-320",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Güines",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.08",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ds"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años de edad. Residía en el municipio Güines, provincia Mayabeque. Antecedentes Patológicos Personales: Demencia senil. Estadía hospitalaria: 12 días. Presentó parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-321",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ic",
+                            "ep",
+                            "eu"
+                        ],
+                        "texto": "Ciudadano cubano de 86 años de edad. Residía en el municipio Pinar del Río, provincia Pinar del Río. Antecedentes patológicos personales: Hipertensión Arterial, Insuficiencia Cardíaca, Cardiopatía Isquémica, Enfermedad Pulmonar Obstructiva Crónica y Secuelas de Enfermedad Vascular. Estadía hospitalaria: 12 días. Presentó empeoramiento clínico, gasométrico y radiológico. Hizo parada cardiorespiratoria en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-322",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Viñales",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.04",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años de edad. Residía en el municipio Viñales, provincia de Pinar del Río. Antecedentes patológicos personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 17 días. Presentó empeoramiento, clínico, gasométrico y radiológico, con compromiso de la función renal. Se realizó traqueostomia sin complicaciones, manteniéndose la ventilación mecánica y las aminas. Presentó bradicardia extrema, parada cardiaca en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     }
                 ]
             }
