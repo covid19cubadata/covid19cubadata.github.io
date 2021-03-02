@@ -6832,6 +6832,46 @@
                         "texto": "Ciudadano cubano de 83 años de edad. Residía en el municipio Viñales, provincia de Pinar del Río. Antecedentes patológicos personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 17 días. Presentó empeoramiento, clínico, gasométrico y radiológico, con compromiso de la función renal. Se realizó traqueostomia sin complicaciones, manteniéndose la ventilación mecánica y las aminas. Presentó bradicardia extrema, parada cardiaca en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     }
                 ]
+            },
+            "355": {
+                "fecha": "2021/02/28",
+                "fallecidos": [
+                    {
+                        "id": "f-323",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus y Cardiopatía Isquémica. Estadía hospitalaria: 10 días. Comenzó con polipnea, desorientación, deshidratado y cifras elevadas de glucemia que se corrigen con insulina e hidratación. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-324",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 81,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "pa",
+                            "ha",
+                            "aa",
+                            "ch"
+                        ],
+                        "texto": "Ciudadano cubano de 81 años de edad. Residía en el municipio Plaza de la Revolución. La Habana. Antecedentes patológicos personales: Enfermedad de Parkinson, Aneurisma de la Aorta abdominal, Hipertensión Arterial y Cardiopatía Hipertensiva. Estadía hospitalaria: 25 días. Hizo parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    }
+                ]
             }
         }
     }
