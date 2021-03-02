@@ -8,6 +8,7 @@
         "al": "alzheimer",
         "ao": "adenocarcinoma de próstata",
         "ar": "artritis reumatoide",
+        "av": "accidente vascular encefálico",
         "at": "aneurisma trombosado de la aorta abdominal",
         "ba": "bloqueo aurículo-ventricular",
         "br": "bronquiectasia",
@@ -6870,6 +6871,78 @@
                             "ch"
                         ],
                         "texto": "Ciudadano cubano de 81 años de edad. Residía en el municipio Plaza de la Revolución. La Habana. Antecedentes patológicos personales: Enfermedad de Parkinson, Aneurisma de la Aorta abdominal, Hipertensión Arterial y Cardiopatía Hipertensiva. Estadía hospitalaria: 25 días. Hizo parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    }
+                ]
+            },
+            "356": {
+                "fecha": "2021/03/01",
+                "fallecidos": [
+                    {
+                        "id": "f-325",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ei"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes patológicos personales: Enfermedad Cerebrovascular isquémica, Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 6 días. Hizo parada cardiaca, se reanimó y se obtuvo circulación espontánea, fue intubada, ventilada y por la inestabilidad hemodinámica apoyada con aminas. Repitió parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-326",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er",
+                            "md"
+                        ],
+                        "texto": "Ciudadana cubana de  56 años de edad. Residía en el municipio Habana Vieja, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Miocardiopatía dilatada, Diabetes Mellitus tipo 2 y Enfermedad Renal Crónica. Estadía hospitalaria: 5 días. Repitió parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-327",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 50,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                        ],
+                        "texto": "Ciudadano cubano de 50 años de edad. Residía en el municipio Bayamo. Provincia de Granma. Antecedentes patológicos personales: No se refirieron. Estadía hospitalaria: 1 día. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-328",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Cristóbal",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.11",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er",
+                            "av"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Residía en el Municipio San Cristóbal, provincia Artemisa. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Renal Crónica y Accidente Vascular Encefálico. Estadía hospitalaria: 8 días .Hizo  parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     }
                 ]
             }
