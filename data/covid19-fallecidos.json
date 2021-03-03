@@ -118,6 +118,7 @@
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
         "ta": "tabaquismo",
+        "tc": "tumor cerebral",
         "ti": "tuberculosis intestinal",
         "tm": "trasplante de médula ósea",
         "to": "toxoplasmosis",
@@ -6943,6 +6944,93 @@
                             "av"
                         ],
                         "texto": "Ciudadana cubana de 79 años de edad. Residía en el Municipio San Cristóbal, provincia Artemisa. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Renal Crónica y Accidente Vascular Encefálico. Estadía hospitalaria: 8 días .Hizo  parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    }
+                ]
+            },
+            "357": {
+                "fecha": "2021/03/02",
+                "fallecidos": [
+                    {
+                        "id": "f-329",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 76 años de edad. Residía en el municipio Plaza de la Revolución, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 7 días. Presentó cuadro de hipotensión arterial que necesitó de apoyo con aminas. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-330",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "tc"
+                        ],
+                        "texto": "Ciudadana cubana de 72 años de edad. Residía en el municipio Cerro, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica, Tumor Cerebral con metástasis en Pulmón, Hígado y Tiroides. Estadía hospitalaria: 9 días. Hizo parada cardiaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-331",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Regla",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.05",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "am"
+                        ],
+                        "texto": "Ciudadano cubano de 80 años de edad. Residía en el municipio Regla, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica y Amputado del miembro inferior derecho. Estadía hospitalaria: 8 días. Presentó taquicardia ventricular que no respondió al tratamiento con medicamentos, ni a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-332",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 76 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 16 días. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-333",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Sancti Spíritus",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.07",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "ch"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio y provincia Sancti Spíritus. Antecedentes patológicos personales: Hipertensión Arterial y Cardiopatía Hipertensiva. Estadía hospitalaria: 2 días. Hizo parada cardiaca que no respondió a las maniobras de reanimación cardiopulmonar. "
                     }
                 ]
             }
