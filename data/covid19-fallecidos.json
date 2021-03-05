@@ -3,6 +3,7 @@
         "aa": "aneurisma de la aorta",
         "ab": "asma bronquial",
         "ac": "alcoholismo",
+        "an": "anemia multifactorial",
         "am": "amputación del miembro inferior",
         "ap": "absceso perianal",
         "al": "alzheimer",
@@ -7086,6 +7087,93 @@
                             "hc"
                         ],
                         "texto": "Ciudadano cubano de 69 años de edad. Residía en el municipio Viñales, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Renal Crónica y Hepatitis C. Estadía hospitalaria: 15 días. Presentó pérdida de la conciencia, hipotensión arterial, bradicardia. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "359": {
+                "fecha": "2021/03/04",
+                "fallecidos": [
+                    {
+                        "id": "f-337",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 92,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 92 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 3 días. Hizo parada cardíaca en asistolia, que no respondió a las maniobras de reanimación cardiopulmonar. "
+                    },
+                    {
+                        "id": "f-338",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Cristóbal",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.11",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ha",
+                            "cl"
+                        ],
+                        "texto": "Ciudadano cubano de 74 años de edad. Residía en el municipio San Cristóbal, provincia Artemisa. Antecedentes Patológicos Personales: Hipertensión Arterial y Carcinoma de Laringe. Estadía hospitalaria: 3 días. Inestable hemodinámicamente, hizo parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-339",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 92,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 92 años de edad. Residía en el municipio Habana Vieja, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus y Demencia Senil. Estadía hospitalaria: 5 días. Deterioro de la función respiratoria, hipotensión arterial, bradicardia extrema, fue intubado, ventilado y apoyado con aminas. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-340",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 96,
+                        "sexo": "hombre",
+                        "municipio_detección": "Yaguajay",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.01",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano de 96 años de edad. Residía en el municipio Yaguajay, provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Cerebrovascular. Estadía hospitalaria: 5 días. Hizo bradicardia que no respondió a medicamentos, seguida de parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-341",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "hombre",
+                        "municipio_detección": "Placetas",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.08",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "am"
+                        ],
+                        "texto": "Ciudadano cubano de 90 años de edad. Residía en el municipio Placetas, provincia Villa Clara. Antecedentes Patológicos Personales: Anemia multifactorial. Estadía hospitalaria: 3 días. Presentó disnea intensa, hipotensión arterial y alteraciones hemogasométricas, fue intubado, ventilado y apoyado con aminas. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
