@@ -7033,6 +7033,61 @@
                         "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio y provincia Sancti Spíritus. Antecedentes patológicos personales: Hipertensión Arterial y Cardiopatía Hipertensiva. Estadía hospitalaria: 2 días. Hizo parada cardiaca que no respondió a las maniobras de reanimación cardiopulmonar. "
                     }
                 ]
+            },
+            "358": {
+                "fecha": "2021/03/03",
+                "fallecidos": [
+                    {
+                        "id": "f-334",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 70 años de edad. Residía en el municipio y provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-335",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ir",
+                            "ci",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Insuficiencia Renal Crónica, Hipertensión Arterial, Cardiopatía Isquémica y Diabetes Mellitus. Estadía hospitalaria: 6 días. Hizo parada cardiaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-336",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Viñales",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.04",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "er",
+                            "hc"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años de edad. Residía en el municipio Viñales, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Renal Crónica y Hepatitis C. Estadía hospitalaria: 15 días. Presentó pérdida de la conciencia, hipotensión arterial, bradicardia. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
