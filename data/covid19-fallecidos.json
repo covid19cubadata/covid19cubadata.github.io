@@ -51,6 +51,7 @@
         "et": "enfermedad arterial oclusiva",
         "eu": "enferemeda vascular",
         "ev": "enfermedad cerebrovascular",
+        "ew": "enfermedad oncológica",
         "ez": "esplenectomizado",
         "fa": "fibrilación auricular crónica",
         "fc": "fractura de cadera",
@@ -7174,6 +7175,133 @@
                             "am"
                         ],
                         "texto": "Ciudadano cubano de 90 años de edad. Residía en el municipio Placetas, provincia Villa Clara. Antecedentes Patológicos Personales: Anemia multifactorial. Estadía hospitalaria: 3 días. Presentó disnea intensa, hipotensión arterial y alteraciones hemogasométricas, fue intubado, ventilado y apoyado con aminas. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "360": {
+                "fecha": "2021/03/05",
+                "fallecidos": [
+                    {
+                        "id": "f-342",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 62,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ep",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 62 años de edad. Residía en el municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Enfermedad Pulmonar Obstructiva Crónica y Obesidad. Estadía hospitalaria: 2 días. Hizo parada cardiaca con actividad eléctrica sin pulso, seguida de fibrilación ventricular, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-343",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ar",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad. Residía en el municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Artritis Reumatoide y Obesidad. Estadía hospitalaria: 3 días. Presentó bradicardia extrema, hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-344",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ci",
+                            "en"
+                        ],
+                        "texto": "Ciudadano cubano de 87 años de edad. Residía en el municipio Bayamo, provincia Granma. Antecedentes Patológicos Personales: Cardiopatía Isquémica y encamamiento prolongado. Estadía hospitalaria: 2 días. Hizo parada cardiaca, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "361": {
+                "fecha": "2021/03/06",
+                "fallecidos": [
+                    {
+                        "id": "f-345",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 75 años de edad. Residía en el municipio San Miguel del Padrón, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 7 días. Comenzó a empeorar la hemodinamia, siendo necesario  apoyar con aminas. Posteriormente hace parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-346",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 98,
+                        "sexo": "hombre",
+                        "municipio_detección": "Artemisa",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.09",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ic",
+                            "ep",
+                            "en",
+                            "ew"
+                        ],
+                        "texto": "Ciudadano cubano de 98 años de edad. Residía en el  municipio Artemisa, provincia Artemisa. Antecedentes Patológicos Personales: Insuficiencia cardiaca congestiva, Enfermedad Pulmonar Obstructiva Crónica, Encamado y enfermedad oncológica.Estadía hospitalaria: 2 días.Presentó empeoramiento del cuadro respiratorio, baja saturación de oxígeno, tiraje intercostal, siendo necesario intubar y ventilar; se mantiene hemodinámicamente inestable. Posteriormente hizo parada cardiorespiratoria. Fueron realizadas maniobras de reanimación que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-347",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "mujer",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 49 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Obesidad. Estadía hospitalaria: 22 días. Empeoró el distress respiratorio, asociado con shock séptico, alteración del medio interno, empeoramiento gasométrico y radiológico. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-348",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ab",
+                            "hd"
+                        ],
+                        "texto": "Ciudadana cubana de 66 años de edad. Residía en el municipio y provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión arterial, asma bronquial e hipertiroidismo primario. Estadía hospitalaria: 22 días. Evolucionó inestablemente con distress respiratorio moderado, hipotensión que no responde a volumen y trastornos del medio interno. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación que no resultaron efectivas. "
                     }
                 ]
             }
