@@ -53,7 +53,7 @@
         "ev": "enfermedad cerebrovascular",
         "ew": "enfermedad oncológica",
         "ez": "esplenectomizado",
-        "fa": "fibrilación auricular crónica",
+        "fa": "fibrilación auricular",
         "fc": "fractura de cadera",
         "fp": "fibrosis pulmonar",
         "fu": "fumador",
@@ -7302,6 +7302,45 @@
                             "hd"
                         ],
                         "texto": "Ciudadana cubana de 66 años de edad. Residía en el municipio y provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión arterial, asma bronquial e hipertiroidismo primario. Estadía hospitalaria: 22 días. Evolucionó inestablemente con distress respiratorio moderado, hipotensión que no responde a volumen y trastornos del medio interno. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación que no resultaron efectivas. "
+                    }
+                ]
+            },
+            "362": {
+                "fecha": "2021/03/07",
+                "fallecidos": [
+                    {
+                        "id": "f-349",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dv"
+                        ],
+                        "texto": "Ciudadano cubano de 88 años de edad. Residía en el municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Demencia vascular. Estadía hospitalaria: 15 días. Presentó falta de aire intensa, hipoxemia y aumento del trabajo respiratorio, inestabilidad hemodinámica y se decidió intubar, ventilar. Hizo parada cardíaca que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-350",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci",
+                            "er",
+                            "fa"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica, Fibrilación Auricular y Enfermedad Renal Crónica. Estadía hospitalaria: 6 días. Empeoró el cuadro de distress respiratorio, shock séptico, hizo fallo renal agudo. Hizo parada cardiaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
                     }
                 ]
             }
