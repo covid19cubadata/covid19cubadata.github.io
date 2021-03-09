@@ -7343,6 +7343,44 @@
                         "texto": "Ciudadano cubano de 79 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica, Fibrilación Auricular y Enfermedad Renal Crónica. Estadía hospitalaria: 6 días. Empeoró el cuadro de distress respiratorio, shock séptico, hizo fallo renal agudo. Hizo parada cardiaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
                     }
                 ]
+            },
+            "363": {
+                "fecha": "2021/03/08",
+                "fallecidos": [
+                    {
+                        "id": "f-351",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Luis",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.09",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 86 años de edad. Residía en el municipio San Luis, provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 14 días. Presentó agobio respiratorio, hipotensión Arterial y cianosis distal, fue intubado ventilado y apoyado con aminas. Posteriormente tuvo empeoramiento, clínico, gasométrico y radiológico, fue necesario modificar parámetros ventilatorios y elevar dosis de aminas. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-352",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 72 años de edad. Residía en el municipio Habana Vieja, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Obesidad. Estadía hospitalaria: 7 días. Mantuvo evolución clínica desfavorable, con elementos de distrés respiratorio y caída de la saturación de oxígeno, inestabilidad hemodinámica que requiere apoyo con aminas vasoactivas. Presentó parada cardiaca en asistolia y se realizaron maniobras reanimación que no resultaron efectivas. "
+                    }
+                ]
             }
         }
     }
