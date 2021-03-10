@@ -31,6 +31,7 @@
         "dc": "enfermedad diverticular del colon",
         "de": "demencia",
         "di": "disfunción válvula mitral",
+        "dl": "dislipidemia",
         "dm": "diabetes mellitus",
         "dn": "desnutrición",
         "ds": "demencia senil",
@@ -41,6 +42,7 @@
         "ei": "enfermedad cerebrovascular isquémica",
         "eg": "enfermedad del colágeno",
         "el": "epilepsia",
+        "em": "etilismo crónico",
         "en": "encamado",
         "eo": "enfermedad obstructiva crónica",
         "ep": "enfermedad pulmonar",
@@ -7379,6 +7381,99 @@
                             "ob"
                         ],
                         "texto": "Ciudadana cubana de 72 años de edad. Residía en el municipio Habana Vieja, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Obesidad. Estadía hospitalaria: 7 días. Mantuvo evolución clínica desfavorable, con elementos de distrés respiratorio y caída de la saturación de oxígeno, inestabilidad hemodinámica que requiere apoyo con aminas vasoactivas. Presentó parada cardiaca en asistolia y se realizaron maniobras reanimación que no resultaron efectivas. "
+                    }
+                ]
+            },
+            "364": {
+                "fecha": "2021/03/09",
+                "fallecidos": [
+                    {
+                        "id": "f-353",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "hombre",
+                        "municipio_detección": "Regla",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.05",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "er",
+                            "ob",
+                            "dl"
+                        ],
+                        "texto": "Ciudadano cubano de 65 años de edad. Residía en el municipio Regla, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus, Enfermedad Renal crónica, Obesidad y  Dislipidemia. Estadía hospitalaria: 3 días. Presentó evolución inestable, mal control metabólico y del medio interno, distress respiratorio, disfunción renal aguda. Presentó bradicardia que no responde a medicamentos cronotropos, hizo parada cardíaca se realizaron maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-354",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 57,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 57 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus. Estadía hospitalaria: 12 días. Mantuvo mal control metabólico, hipoxemia que no resuelve con oxigenoterapia, empeoramiento radiológico, se procede a intubar ventilar y por el deterioro hemodinámico se apoya con aminas vasoactivas. Presentó episodio de bradicardia extrema sin respuesta a medicamentos cronotropos, hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-355",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 63,
+                        "sexo": "hombre",
+                        "municipio_detección": "Florida",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.09",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "md",
+                            "er",
+                            "em"
+                        ],
+                        "texto": "Ciudadano cubano de 63 años de edad. Residía en el municipio Florida, provincia Camagüey. Antecedentes patológicos personales: Hipertensión Arterial, Miocardiopatía Dilatada, Enfermedad Renal Crónica y Etilismo crónico. Estadía hospitalaria: 5 días. Presentó disminución importante del ritmo diurético y trastornos del equilibrio acido básico e hidroelectrolítico, hipoxemia dependiente de oxigenoterapia fueron realizados reajustes en el tratamiento. Hizo parada cardíaca en asistolia, son realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas.    "
+                    },
+                    {
+                        "id": "f-356",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 96,
+                        "sexo": "mujer",
+                        "municipio_detección": "Jiguani",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.03",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ev",
+                            "fc"
+                        ],
+                        "texto": "Ciudadana cubana de 96 años de edad.  Residía en el municipio Jiguaní, provincia de Granma. Antecedentes Patológicos personales: Hipertensión arterial, Diabetes Mellitus, Enfermedad Cerebro vascular, Fractura de cadera no operada hace 11 años. Estadía hospitalaria: 3 días. Presentó un incremento de la falta de aire, hipoxemia, deterioro de la hemodinamia, hizo parada cardíaca se realizaron maniobras de reanimación que no son efectivas."
+                    },
+                    {
+                        "id": "f-357",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 40,
+                        "sexo": "mujer",
+                        "municipio_detección": "Mella",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.03",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "er"
+                        ],
+                        "texto": "Ciudadana cubana de 40 años de edad. Residía en el municipio Mella, provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Renal Crónica. Estadía hospitalaria: 3 días. Presentó empeoramiento clínico, gasométrico y radiológico, se modifican parámetros ventilatorios y se apoya con aminas a altas dosis. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
             }
