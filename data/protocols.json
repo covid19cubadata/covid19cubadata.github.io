@@ -16,8 +16,8 @@
         },
         "cigb258": {
             "id": "cigb258",
-            "nombre": "CIGB-258",
-            "nombre-corto": "CIGB-258",
+            "nombre": "Jusvinza",
+            "nombre-corto": "Jusvinza",
             "categoría": "nacional",
             "descripción": ""
         },
@@ -65,8 +65,8 @@
         },
         "interferon": {
             "id": "interferon",
-            "nombre": "Interferón alfa 2b",
-            "nombre-corto": "Interferón alfa 2b",
+            "nombre": "Heberon",
+            "nombre-corto": "Heberon",
             "categoría": "nacional",
             "descripción": ""
         },
@@ -135,9 +135,16 @@
         },
         "heberferon": {
             "id": "heberferon",
-            "nombre": "Heberferón",
-            "nombre-corto": "heberferon",
+            "nombre": "Heberferon",
+            "nombre-corto": "Heberferon",
             "categoría": "nacional",
+            "descripción": ""
+        },
+        "dexametasona": {
+            "id": "dexametasona",
+            "nombre": "Dexametasona",
+            "nombre-corto": "Dexametasona",
+            "categoría": "producido",
             "descripción": ""
         }
     },
@@ -149,7 +156,6 @@
             "nombre-corto": "Población",
             "categoria": "comunidad",
             "abreviatura": "Pob."
-
         },
         "instituciones": {
             "id": "instituciones",
@@ -190,7 +196,6 @@
             "nombre-corto": "Confirmados",
             "categoria": "hospital",
             "abreviatura": "Con."
-
         },
         "graves": {
             "id": "graves",
@@ -858,12 +863,11 @@
                         "escenarios": {
                             "confirmados": [
                                 "paciente sintomático",
-                                 "paciente con PCR positivo luego de 14 días"
+                                "paciente con PCR positivo luego de 14 días"
                             ],
                             "graves": [
                                 "tratamiento regular"
                             ]
-
                         }
                     },
                     "surfacen": {
@@ -913,6 +917,194 @@
                         "escenarios": {
                             "graves": [
                                 "fase hiperinflamatoria"
+                            ]
+                        }
+                    },
+                    "hidrocortisona": {
+                        "orden": 17,
+                        "escenarios": {
+                            "graves": [
+                                "fase hiperinflamatoria e hiperglicemia"
+                            ]
+                        }
+                    },
+                    "eritropoyetina": {
+                        "orden": 18,
+                        "escenarios": {
+                            "graves": [
+                                "profiláxis de los eventos trombóticos"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "6": {
+            "id": "6",
+            "file": "protocolo-version-6.pdf",
+            "nombre": "Protocolo de Actuación Nacional para la COVID-19",
+            "fecha": "2021/01/31",
+            "version": 6,
+            "indicaciones": {
+                "general": {
+                    "prevenghovir": {
+                        "orden": 1,
+                        "escenarios": {
+                            "poblacion": [
+                                "tratamiento regular"
+                            ],
+                            "contactos": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "factor":{
+                        "orden": 2,
+                        "escenarios":{
+                            "poblacion": [
+                                "población vulnerable en la zona donde hay declarados eventos"
+                            ],
+                            "instituciones": [
+                                "centros médicos psicopedagógicos a pacientes menores de 40 años"
+                            ]
+
+                        }
+                    },
+                    "biomodulina": {
+                        "orden": 3,
+                        "escenarios": {
+                            "poblacion": [
+                                "población vulnerable en la zona donde hay declarados eventos"
+                            ],
+                            "instituciones": [
+                                "hogar de ancianos",
+                                "centros Médicos Psicopedagógicos a pacientes mayores de 40 años",
+                                "centros de protección social"
+                            ]
+                        }
+                    },
+                    "heberferon": {
+                        "orden": 8,
+                        "escenarios": {
+                            "sospechosos": [
+                                "sospechosos de bajo riesgo",
+                                "sospechoso de sintomatología moderada"
+                            ],
+                            "confirmados": [
+                                "tratamiento regular",
+                                "paciente con PCR positivo luego de 10 días"
+                            ]
+                        }
+                    },
+                    "kaletra": {
+                        "orden": 6,
+                        "escenarios": {
+                            "confirmados": [
+                                "paciente sintomático"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "cloroquina": {
+                        "orden": 7,
+                        "escenarios": {
+                            "confirmados": [
+                                "paciente sintomático"
+                            ],
+                            "graves": [
+                                "tratamiento regular"
+                            ]
+                        }
+                    },
+                    "interferon": {
+                        "orden": 8,
+                        "escenarios": {
+                            "sospechosos": [
+                                "alternativa al heberferón en sospechosos de alto riesgo"
+                            ],
+                            "confirmados": [
+                                "alternativa al heberferón"
+                            ]
+                        }
+                    },
+                    "plasma": {
+                        "orden": 9,
+                        "escenarios": {
+                            "confirmados": [
+                                "opción terapeutica",
+                                "paciente con PCR positivo luego de 14 días"
+                            ],
+                            "graves": [
+                                "tratamiento regular donde sea posible"
+                            ]
+                        }
+                    },
+                    "surfacen": {
+                        "orden": 10,
+                        "escenarios": {
+                            "graves": [
+                                "síndrome de distrés respiratorio agudo"
+                            ]
+                        }
+                    },
+                    "ceftriaxona": {
+                        "orden": 11,
+                        "escenarios": {
+                            "graves": [
+                                "infección bacteriana"
+                            ]
+                        }
+                    },
+                    "itolizumab": {
+                        "orden": 12,
+                        "escenarios": {
+                            "graves": [
+                                "empeoramiento de la actividad pulmonar",
+                                "sospecha de síndrome de activación de macrófagos"
+                            ],
+                            "sospechosos": [
+                                "grave en cuidados intensivos"
+                            ]
+                        }
+                    },
+                    "cigb258": {
+                        "orden": 13,
+                        "escenarios": {
+                            "graves": [
+                                "estado previo a la hiperinflamatoria",
+                                "fase hiperinflamatoria"
+                            ],
+                            "sospechosos": [
+                                "grave en cuidados intensivos"
+                            ]
+                        }
+                    },
+                    "heparina": {
+                        "orden": 14,
+                        "escenarios": {
+                            "graves": [
+                                "tratamiento regular"
+                            ],
+                            "confirmados" : [
+                                "dosis profiláctica en sala de vigilancia intensiva"
+                            ]
+                        }
+                    },
+                    "dexametasona": {
+                        "orden": 15,
+                        "escenarios": {
+                            "graves": [
+                                "fase hiperinflamatoria"
+                            ]
+                        }
+                    },
+                    "metilprednisolona": {
+                        "orden": 16,
+                        "escenarios": {
+                            "graves": [
+                                "alternativa en fase hiperinflamatoria"
                             ]
                         }
                     },
