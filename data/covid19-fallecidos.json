@@ -7449,7 +7449,7 @@
                         "pais": "cu",
                         "edad": 96,
                         "sexo": "mujer",
-                        "municipio_detección": "Jiguani",
+                        "municipio_detección": "Jiguaní",
                         "provincia_detección": "Granma",
                         "dpacode_municipio_deteccion": "33.03",
                         "dpacode_provincia_deteccion": "33",
@@ -7469,7 +7469,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Mella",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "34.03",
+                        "dpacode_municipio_deteccion": "34.02",
                         "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha",
@@ -7561,7 +7561,7 @@
                 "fecha": "2021/03/11",
                 "fallecidos": [
                     {
-                        "id": "f-358",
+                        "id": "f-362",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 72,
@@ -7578,7 +7578,7 @@
                         "texto": "Ciudadano cubano de 72 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Melanoma de la piel e Hiperuricemia. Estadía hospitalaria: 1 día. Hizo un cuadro agudo de falta de aire, sudoración, taquicardia, seguido de paro cardíaco que no respondió a las maniobras de reanimación cardiopulmonar."
                     },
                     {
-                        "id": "f-359",
+                        "id": "f-363",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 74,
@@ -7591,7 +7591,7 @@
                         "texto": "Ciudadano cubano de 74 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Estadía hospitalaria: 6 días. Hizo evento súbito de parada cardiaca en asistolia, por lo que se iniciaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     },
                     {
-                        "id": "f-360",
+                        "id": "f-364",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 77,
@@ -7608,7 +7608,7 @@
                         "texto": "Ciudadana cubana de 77 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica e Hipertensión Arterial. Estadía hospitalaria: 4 días. Presentó empeoramiento clínico, gasométrico y radiológico con hipoxemia refractaria e hipotensión que no respondió al tratamiento con aminas. Posteriormente hizo parada cardíaca que no responde a maniobras de reanimación cardiopulmonar."
                     },
                     {
-                        "id": "f-361",
+                        "id": "f-365",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 77,
@@ -7616,7 +7616,7 @@
                         "municipio_detección": "Sancti Spíritus",
                         "provincia_detección": "Sancti Spíritus",
                         "dpacode_municipio_deteccion": "28.07",
-                        "dpacode_provincia_deteccion": "27",
+                        "dpacode_provincia_deteccion": "28",
                         "enfermedades": [
                             "ha",
                             "dm",
