@@ -7625,6 +7625,26 @@
                         "texto": "Ciudadano cubano de 77 años de edad. Residía en el municipio y provincia de Sancti Spíritus. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Cerebrovascular. Estadía hospitalaria: 7 días. Presentó empeoramiento clínico, gasométrico y radiológico, se modificaron parámetros ventilatorios y son elevadas las dosis de aminas. Hizo bradicardia extrema, parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
+            },
+            "367": {
+                "fecha": "2021/03/12",
+                "fallecidos": [
+                    {
+                        "id": "f-366",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Falleció ciudadana cubana de 70 años de edad. Residía en el municipio Habana Vieja, provincia  La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 6 días. Hizo parada cardíaca, se realizaron maniobras de reanimación que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
