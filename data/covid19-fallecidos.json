@@ -7724,6 +7724,59 @@
                         "texto": "Ciudadano cubano de 93 años de edad. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes patológicos personales: Hipertensión Arterial, Adenoma de Próstata, Gota. Estadía hospitalaria: 8 días. Presentó empeoramiento clínico, gasométrico y radiológico, fueron modificados parámetros ventilatorios y elevadas las dosis de aminas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar   que no fueron efectivas."
                     }
                 ]
+            },
+            "369": {
+                "fecha": "2021/03/14",
+                "fallecidos": [
+                    {
+                        "id": "f-371",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica e Hipertensión Arterial. Estadía hospitalaria: 1 día. Presentó empeoramiento clínico, gasométrico y radiológico, fue necesario modificar parámetros ventilatorios y apoyar con aminas a altas dosis. Posteriormente presentó inestabilidad hemodinámica, hizo parada cardíaca en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-372",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": null,
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años de edad. Residía en la provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía. Isquémica e Hipertensión Arterial. Estadía hospitalaria: 6 días. Presentó hipotensión arterial, sudoración y cianosis. Mostró fibrilación ventricular y parada cardiaca, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-373",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ln"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Información de valor epidemiológico: Contacto de caso positivo. Antecedentes Patológicos Personales: Hipertensión Arterial y Linfoma no Hodgkin. Estadía hospitalaria: 7 días. Empeoró la disnea súbita. Es iniciada Ventilación No Invasiva. Posteriormente hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
             }
         }
     }
