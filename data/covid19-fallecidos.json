@@ -3,6 +3,7 @@
         "aa": "aneurisma de la aorta",
         "ab": "asma bronquial",
         "ac": "alcoholismo",
+        "ae": "adenoma de próstata",
         "an": "anemia multifactorial",
         "am": "amputación del miembro inferior",
         "ap": "absceso perianal",
@@ -11,6 +12,7 @@
         "ar": "artritis reumatoide",
         "av": "accidente vascular encefálico",
         "at": "aneurisma trombosado de la aorta abdominal",
+        "aw": "anemia crónica",
         "ba": "bloqueo aurículo-ventricular",
         "br": "bronquiectasia",
         "ca": "cáncer",
@@ -35,6 +37,7 @@
         "dm": "diabetes mellitus",
         "dn": "desnutrición",
         "ds": "demencia senil",
+        "dt": "dialítico",
         "dv": "demencia vascular",
         "ea": "estenosis aórtica severa",
         "ec": "enfermedad cerebral crónica",
@@ -61,6 +64,7 @@
         "fu": "fumador",
         "gc": "glaucoma",
         "ge": "gastropatía erosiva",
+        "go": "gota",
         "gr": "gastritis crónica",
         "ha": "hipertensión arterial",
         "hb": "hipoacusia bilateral",
@@ -84,6 +88,7 @@
         "is": "insuficiencia córtico suprarrenal",
         "it": "insuficiencia arterial",
         "iv": "insuficiencia venosa",
+        "iw": "insuficiencia mitral y tricúspidea",
         "lc": "linfangitis crónica",
         "le": "Lupus Eritematoso",
         "lh": "linfoma de hopgkin",
@@ -7643,6 +7648,80 @@
                             "ep"
                         ],
                         "texto": "Falleció ciudadana cubana de 70 años de edad. Residía en el municipio Habana Vieja, provincia  La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 6 días. Hizo parada cardíaca, se realizaron maniobras de reanimación que no fueron efectivas."
+                    }
+                ]
+            },
+            "368": {
+                "fecha": "2021/03/13",
+                "fallecidos": [
+                    {
+                        "id": "f-367",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "aw",
+                            "up"
+                        ],
+                        "texto": "Ciudadana cubana de  76 años de edad. Municipio Cerro. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Ulcera péptica y Anemia Crónica. Estadía Hospitalaria: 7 día. Presentó disnea intensa, hipotensión arterial, cianosis, fue intubada, ventilada y apoyada con aminas. Posteriormente hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-368",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "ha",
+                            "er",
+                            "dt",
+                            "iw"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años. Municipio Centro Habana. Provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Hipertensión Arterial, Enfermedad Renal Crónica en tratamiento dialítico, Insuficiencia Mitral y Tricúspidea. Estadía Hospitalaria: 9 días. Presentó disnea súbita intensa, sudoración, hipotensión arterial y cianosis. Hace una parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. "
+                    },
+                    {
+                        "id": "f-369",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 47,
+                        "sexo": "hombre",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 47 años de edad. Municipio Arroyo Naranjo. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus. Estadía Hospitalaria: 7 días. Presentó empeoramiento clínico, gasométrico y radiológico. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, las cuales no fueron efectivas."
+                    },
+                    {
+                        "id": "f-370",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 93,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ae",
+                            "go"
+                        ],
+                        "texto": "Ciudadano cubano de 93 años de edad. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes patológicos personales: Hipertensión Arterial, Adenoma de Próstata, Gota. Estadía hospitalaria: 8 días. Presentó empeoramiento clínico, gasométrico y radiológico, fueron modificados parámetros ventilatorios y elevadas las dosis de aminas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar   que no fueron efectivas."
                     }
                 ]
             }
