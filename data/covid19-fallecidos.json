@@ -36,6 +36,7 @@
         "dl": "dislipidemia",
         "dm": "diabetes mellitus",
         "dn": "desnutrición",
+        "do": "diverticulitis de colon",
         "ds": "demencia senil",
         "dt": "dialítico",
         "dv": "demencia vascular",
@@ -135,6 +136,7 @@
         "tm": "trasplante de médula ósea",
         "to": "toxoplasmosis",
         "tp": "tuberculosis pulmonar",
+        "tr": "tumor renal",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
         "va": "valvulopatia aórtica",
@@ -7775,6 +7777,62 @@
                             "ln"
                         ],
                         "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Información de valor epidemiológico: Contacto de caso positivo. Antecedentes Patológicos Personales: Hipertensión Arterial y Linfoma no Hodgkin. Estadía hospitalaria: 7 días. Empeoró la disnea súbita. Es iniciada Ventilación No Invasiva. Posteriormente hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
+            },
+            "370": {
+                "fecha": "2021/03/15",
+                "fallecidos": [
+                    {
+                        "id": "f-374",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 69 años de edad. Municipio Cerro. La Habana. Antecedentes Patológicos Personales: Obesidad e Hipertensión Arterial. Estadía hospitalaria: 20 días. Se mantuvo inestable hemodinámicamente, con episodios de taquicardia que alternan con bradicardia. Hizo bradicardia extrema seguida de asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-375",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ci",
+                            "ha",
+                            "ei",
+                            "tr"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años. Municipio Bayamo. Provincia de Granma. Antecedentes Patológicos personales: Hipertensión Arterial, Cardiopatía isquémica, Enfermedad Cerebrovascular Isquémico y Tumor Renal. Estadía hospitalaria: 5 días.  Presentó disnea intensa, sudoración, cianosis distal, hizo parada cardíaca en asistolia, se realizaron maniobras de reanimación que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-376",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "do",
+                            "gr"
+                        ],
+                        "texto": "Ciudadana cubana de 75 años. Municipio y Provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión arterial, Diverticulitis de Colon y Gastritis Crónica. Estadía hospitalaria: 11 días. Empeoró el cuadro respiratorio y cardiovascular con episodios de taquicardia ventricular que responde a la desfibrilación. Hizo parada que no responde a las maniobras de reanimación cardiopulmonar."
                     }
                 ]
             }
