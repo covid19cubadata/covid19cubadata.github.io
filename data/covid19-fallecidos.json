@@ -131,6 +131,7 @@
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
         "ta": "tabaquismo",
+        "tb": "trombopatía",
         "tc": "tumor cerebral",
         "ti": "tuberculosis intestinal",
         "tm": "trasplante de médula ósea",
@@ -7833,6 +7834,73 @@
                             "gr"
                         ],
                         "texto": "Ciudadana cubana de 75 años. Municipio y Provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión arterial, Diverticulitis de Colon y Gastritis Crónica. Estadía hospitalaria: 11 días. Empeoró el cuadro respiratorio y cardiovascular con episodios de taquicardia ventricular que responde a la desfibrilación. Hizo parada que no responde a las maniobras de reanimación cardiopulmonar."
+                    }
+                ]
+            },
+            "371": {
+                "fecha": "2021/03/15",
+                "fallecidos": [
+                    {
+                        "id": "f-377",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Diez de Octubre. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Cerebrovascular.Estadía hospitalaria : 6 días. Hizo parada cardíaca en asistolia, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-378",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad. Residía en el municipio Centro Habana. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 6 días. Presentó episodio de disnea, sudoración, frialdad, cianosis ehizo parada cardíaca, se realizaron maniobras de reanimación que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-379",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 75 años de edad. Residía en el municipio Centro Habana. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 13 días. Hizo fibrilación ventricular, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-380",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "fp",
+                            "tb"
+                        ],
+                        "texto": "Ciudadano cubano de 56 años de edad. Residía en el municipio Plaza de la Revolución. Provincia La Habana. Antecedentes Patológicos Personales: Fibrosis Pulmonar Idiopática y Trombopatía. Estadía hospitalaria: 6 días. Presentó parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
                     }
                 ]
             }
