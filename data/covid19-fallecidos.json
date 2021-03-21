@@ -8088,8 +8088,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Cárdenas",
                         "provincia_detección": "Matanzas",
-                        "dpacode_municipio_deteccion": "23.02",
-                        "dpacode_provincia_deteccion": "23",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ha",
                             "dm",
@@ -8112,6 +8112,42 @@
                             "dm"
                         ],
                         "texto": "Ciudadano cubano de 69 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Hipertensión Arterial. Estadía hospitalaria: 5 días. Presentó parada cardiaca en asistolia se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "375": {
+                "fecha": "2021/03/20",
+                "fallecidos": [
+                    {
+                        "id": "f-393",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años de edad. Municipio Marianao. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus tipo II. Estadía hospitalaria: 2 días. Hizo un evento súbito de parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-394",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 71 años de edad. Municipio Diez de Octubre. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Hipertensión Arterial y Obesidad. Estadía hospitalaria: 14 días. Presentó fiebre,  abundantes secreciones bronquiales, empeoramiento radiológico, descontrol metabólico. Hizo bradicardia extrema que no responde a medicamentos,  llega a la asistolia, se realizan maniobras de reanimación cardiopulmonar."
                     }
                 ]
             }
