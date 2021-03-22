@@ -4,6 +4,7 @@
         "ab": "asma bronquial",
         "ac": "alcoholismo",
         "ae": "adenoma de próstata",
+        "ag": "artrosis generalizada",
         "an": "anemia multifactorial",
         "am": "amputación del miembro inferior",
         "ap": "absceso perianal",
@@ -8148,6 +8149,60 @@
                             "ob"
                         ],
                         "texto": "Ciudadano cubano de 71 años de edad. Municipio Diez de Octubre. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Hipertensión Arterial y Obesidad. Estadía hospitalaria: 14 días. Presentó fiebre,  abundantes secreciones bronquiales, empeoramiento radiológico, descontrol metabólico. Hizo bradicardia extrema que no responde a medicamentos,  llega a la asistolia, se realizan maniobras de reanimación cardiopulmonar."
+                    }
+                ]
+            },
+            "376": {
+                "fecha": "2021/03/21",
+                "fallecidos": [
+                    {
+                        "id": "f-395",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 62,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ag"
+                        ],
+                        "texto": "Ciudadana cubana de 62 años de edad. Residía en el municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Artrosis Generalizada. Estadía hospitalaria: 2 días. Presentó hipotensión arterial. No respondió a la administración de volumen y fue necesario apoyar con aminas. Mantuvo  hipoxemia a pesar de los altos parámetros ventilatorios, posteriormente, presentó bradicardia que no respondió a medicamentos, seguida de asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-396",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "im"
+                        ],
+                        "texto": "Ciudadana cubana de 73 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Infarto Miocardio anterior. Estadía hospitalaria: 9 días. Mantuvo un empeoramiento progresivo, con manifestaciones de Distress Respiratorio Severo y Shock Séptico refractarios al tratamiento. Hizo parada cardiaca en asistolia."
+                    },
+                    {
+                        "id": "f-397",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 84 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 8 días. Presentó edema agudo pulmonar asociado a fibrilación auricular con respuesta rápida durante el tratamiento. Hizo parada cardíaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
