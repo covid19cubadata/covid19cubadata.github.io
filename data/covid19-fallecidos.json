@@ -8205,6 +8205,74 @@
                         "texto": "Ciudadano cubano de 84 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 8 días. Presentó edema agudo pulmonar asociado a fibrilación auricular con respuesta rápida durante el tratamiento. Hizo parada cardíaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
+            },
+            "377": {
+                "fecha": "2021/03/22",
+                "fallecidos": [
+                    {
+                        "id": "f-398",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "mujer",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "hp"
+                        ],
+                        "texto": "Ciudadano cubano de 85 años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica e Hiperplasia de Próstata. Estadía hospitalaria: 1 día. Presentó bradicardia extrema seguida de parada en asistolia, se iniciaron maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-399",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 64 años de edad. Residía en el municipio San Miguel del Padrón, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Renal Crónica. Estadía hospitalaria: 11 días. Fue tratado con Ventilación No Invasiva, no mejoró y se procedió a intubar y ventilar. Posteriormente hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-400",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 53 años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Renal Crónica con tratamiento dialítico, Trasplantado Renal, Diabetes Mellitus y Ceguera Total. Estadía hospitalaria: 3 días. Presentó disnea súbita, sudoración y fue trasladado para la Unidad de Cuidados Intensivos donde hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-401",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años de edad. Residía en el municipio y provincia Pinar del Río. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Desnutrición Proteico Calórica y Demencia Senil. Estadía hospitalaria: 8 días. Presentó hipotensión arterial que no respondió a la administración de volumen, siendo necesario apoyar con drogas vasoactivas. Hizo parada cardiaca que no respondió a las maniobras de reanimación."
+                    }
+                ]
             }
         }
     }
