@@ -11,6 +11,7 @@
         "al": "alzheimer",
         "ao": "adenocarcinoma de próstata",
         "ar": "artritis reumatoide",
+        "as": "artritis gotosa",
         "av": "accidente vascular encefálico",
         "at": "aneurisma trombosado de la aorta abdominal",
         "aw": "anemia crónica",
@@ -8339,6 +8340,64 @@
                             "ha"
                         ],
                         "texto": "Ciudadano cubano de 90 años de edad. Residía en el municipio Marianao, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Cardiopatía Isquémica y Encamamiento. Estadía hospitalaria: 14 días. Presentó episodio de fibrilación ventricular, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    }
+                ]
+            },
+            "379": {
+                "fecha": "2021/03/24",
+                "fallecidos": [
+                    {
+                        "id": "f-406",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er",
+                            "as"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años. Municipio Habana del Este. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Renal Crónica y Artritis Gotosa. Estadía hospitalaria: 4 días. Mantuvo evolución tórpida a pesar del rigor terapéutico, evolucionó al distress respiratorio severo y shock séptico, posteriormente hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-407",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "gc"
+                        ],
+                        "texto": "Ciudadana cubana de 60 años. Municipio Guanabacoa. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Glaucoma. Estadía hospitalaria: 7 días. Presentó episodio súbito de polipnea marcada, disminución del nivel de conciencia y taquicardia por lo que se decide intubar y ventilar. Hizo parada cardíaca en asistolia, se inician maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-408",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er",
+                            "md"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Renal Crónica, Miocardiopatía Dilatada, Demencia Vascular. Estadía hospitalaria: 11 días. Presentó empeoramiento clínico, gasométrico y radiológico.  Hizo parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
