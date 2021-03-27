@@ -8477,7 +8477,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 87,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "La Lisa",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.12",
@@ -8488,6 +8488,27 @@
                             "ev"
                         ],
                         "texto": "Ciudadana cubana de 87 años de edad. Residía en el municipio La Lisa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Cardiopatía Isquémica y Enfermedad Cerebrovascular. Estadía hospitalaria: 15 días.Presentó fibrilación auricular con respuesta ventricular rápida, seguida de parada cardíaca. Fueron realizadas maniobras de reanimación que no resultaron efectivas."
+                    }
+                ]
+            },
+            "381": {
+                "fecha": "2021/03/26",
+                "fallecidos": [
+                    {
+                        "id": "f-409",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "mujer",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ci",
+                            "ha"
+                        ],
+                        "texto": "Falleció un ciudadano de 89 años de edad. Residía en el municipio cabecera de la provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 6 días. Hizo episodio de taquicardia ventricular sin pulso y posteriormente fibrilación ventricular. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
