@@ -116,11 +116,13 @@
         "nn": "neoplasia renal",
         "np": "neoplasia del pulmón",
         "nr": "neuropatías a repetición",
+        "nt": "neuralgia del trigémino",
         "oa": "osteoartrosis",
         "oc": "enfermedad pulmonar obstructiva crónica",
         "ob": "obesidad",
         "pa": "parkinson",
         "po": "postrado",
+        "pr": "psicosis orgánica",
         "ps": "psoriasis",
         "pt": "púrpura trombocitopénica idiopática",
         "pv": "prolapso de la válvula mitral",
@@ -8398,6 +8400,94 @@
                             "md"
                         ],
                         "texto": "Ciudadano cubano de 69 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Renal Crónica, Miocardiopatía Dilatada, Demencia Vascular. Estadía hospitalaria: 11 días. Presentó empeoramiento clínico, gasométrico y radiológico.  Hizo parada cardíaca, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "380": {
+                "fecha": "2021/03/25",
+                "fallecidos": [
+                    {
+                        "id": "f-409",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 50,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cienfuegos",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.07",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades": [
+                            "ci",
+                            "ic",
+                            "ht",
+                            "el"
+                        ],
+                        "texto": "Ciudadana cubana de 50 años de edad. Residía en el municipio Cienfuegos, provincia del mismo nombre. Antecedentes patológicos personales: Cardiopatía Isquémica, Insuficiencia Cardíaca,  Hipotiroidismo y Epilepsia. Estadía hospitalaria: 12 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-410",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 46,
+                        "sexo": "mujer",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ha",
+                            "nt"
+                        ],
+                        "texto": "Ciudadana cubana de 46 años de edad. Residía en el municipio Bayamo, provincia Granma. Antecedentes Patológicos personales: Diabetes Mellitus, Hipertensión arterial y Neuralgia del trigémino. Estadía hospitalaria: 6 días. Hizo parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-411",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "rm",
+                            "pr"
+                        ],
+                        "texto": "Ciudadana cubana de 56 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Retraso Mental Severo y Psicosis Orgánica. Estadía hospitalaria: 1 día. Hizo parada cardíaca en asistolia y no respondió a las maniobras de reanimación."
+                    },
+                    {
+                        "id": "f-412",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "municipio_detección": "Regla",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.05",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 66 años de edad. Residía en el Municipio Regla, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus. Estadía hospitalaria: 16 días. Presentó parada cardíaca en asistolia y no respondió a maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-413",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 87,
+                        "sexo": "hombre",
+                        "municipio_detección": "La Lisa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.12",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 87 años de edad. Residía en el municipio La Lisa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Cardiopatía Isquémica y Enfermedad Cerebrovascular. Estadía hospitalaria: 15 días.Presentó fibrilación auricular con respuesta ventricular rápida, seguida de parada cardíaca. Fueron realizadas maniobras de reanimación que no resultaron efectivas."
                     }
                 ]
             }
