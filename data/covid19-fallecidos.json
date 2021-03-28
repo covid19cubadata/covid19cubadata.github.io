@@ -8511,6 +8511,29 @@
                         "texto": "Falleció un ciudadano de 89 años de edad. Residía en el municipio cabecera de la provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 6 días. Hizo episodio de taquicardia ventricular sin pulso y posteriormente fibrilación ventricular. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
+            },
+            "382": {
+                "fecha": "2021/03/27",
+                "fallecidos": [
+                    {
+                        "id": "f-410",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 61,
+                        "sexo": "mujer",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "ha",
+                            "dm",
+                            "ep"
+                        ],
+                        "texto": "Falleció una ciudadana cubana de 61 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Cardiopatía Isquémica, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica y Cardiopatía Isquémica. Estadía hospitalaria: 8 días. Presentó hipotensión arterial que no respondió a la administración de volumen, por lo que se apoyó con aminas. Hizo episodio de Distrés Respiratorio Severo y Shock Séptico refractarios al tratamiento. Presentó parada cardiaca en asistolia, se realizaron maniobras de reanimación que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
