@@ -137,6 +137,7 @@
         "ta": "tabaquismo",
         "tb": "trombopatía",
         "tc": "tumor cerebral",
+        "th": "tumor de hipófisis operado",
         "ti": "tuberculosis intestinal",
         "tm": "trasplante de médula ósea",
         "to": "toxoplasmosis",
@@ -8495,7 +8496,7 @@
                 "fecha": "2021/03/26",
                 "fallecidos": [
                     {
-                        "id": "f-409",
+                        "id": "f-414",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 89,
@@ -8516,7 +8517,7 @@
                 "fecha": "2021/03/27",
                 "fallecidos": [
                     {
-                        "id": "f-410",
+                        "id": "f-415",
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 61,
@@ -8532,6 +8533,48 @@
                             "ep"
                         ],
                         "texto": "Falleció una ciudadana cubana de 61 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Cardiopatía Isquémica, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica y Cardiopatía Isquémica. Estadía hospitalaria: 8 días. Presentó hipotensión arterial que no respondió a la administración de volumen, por lo que se apoyó con aminas. Hizo episodio de Distrés Respiratorio Severo y Shock Séptico refractarios al tratamiento. Presentó parada cardiaca en asistolia, se realizaron maniobras de reanimación que no fueron efectivas."
+                    }
+                ]
+            },
+            "383": {
+                "fecha": "2021/03/28",
+                "fallecidos": [
+                    {
+                        "id": "f-416",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ir",
+                            "ha",
+                            "dm",
+                            "ct",
+                            "aw"
+                        ],
+                        "texto": "Ciudadano cubano de 66 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Insuficiencia Renal Crónica Cáncer de Próstata, Anemia Crónica. Estadía hospitalaria: 8 días. Presentó parada cardiaca en asistolia, se realizaron maniobras de reanimación que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-417",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ht",
+                            "er",
+                            "th"
+                        ],
+                        "texto": "Ciudadano cubano de 71 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Hipotiroidismo, Enfermedad Renal Crónica y Tumor de Hipófisis Operado. Estadía hospitalaria: 2 días. Presentó hipotensión arterial que no respondió a volumen, se apoyó con aminas. Continuó con hipoxemia refractaria que requirió de altos parámetros ventilatorios. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
