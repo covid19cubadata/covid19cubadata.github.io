@@ -108,7 +108,8 @@
         "mp": "metástasis pulmonar",
         "nc": "neumopatía crónica",
         "nd": "nefropatía diabética",
-        "ni": "mefritis intersticial crónica",
+        "nf": "neuropatía periférica",
+        "ni": "nefritis intersticial crónica",
         "ne": "neoplasia de esófago",
         "nl": "nefritis lúpica",
         "nm": "neoplasia de mama",
@@ -8575,6 +8576,82 @@
                             "th"
                         ],
                         "texto": "Ciudadano cubano de 71 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Hipotiroidismo, Enfermedad Renal Crónica y Tumor de Hipófisis Operado. Estadía hospitalaria: 2 días. Presentó hipotensión arterial que no respondió a volumen, se apoyó con aminas. Continuó con hipoxemia refractaria que requirió de altos parámetros ventilatorios. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "384": {
+                "fecha": "2021/03/29",
+                "fallecidos": [
+                    {
+                        "id": "f-418",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ds",
+                            "ag",
+                            "nf"
+                        ],
+                        "texto": "Ciudadana cubana de 76 años de edad. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Demencia Senil,  Artrosis Generalizada, Neuropatía Periférica. Estadía Hospitalaria: 8 días. Presentó  bradicardia extrema hasta la asistolia. Hizo parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-419",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad. Residía en el municipio Plaza de la Revolución, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica. Estadía Hospitalaria: 13 días. Presentó empeoramiento clínico, gasométrico y radiológico. Se evidenciaron criterios clínicos y de estudios de laboratorio de Disfunción Múltiple de Órganos, (disfunciones respiratoria, cardiovascular, renal y hepática). Fueron modificados parámetros ventilatorios y elevadas las dosis de aminas. Hizo parada cardíaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-420",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 90 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Hipertensión Arterial y Cardiopatía Isquémica. Estadía Hospitalaria: 6 días. Presentó episodio súbito de disnea, cianosis e hipotensión arterial. Fue intubado, ventilado  y apoyado con aminas. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-421",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "hombre",
+                        "municipio_detección": "Holguín",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.06",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "md",
+                            "it",
+                            "am"
+                        ],
+                        "texto": "Ciudadano cubano de 86 años de edad. Residía en el municipio cabecera de la provincia Holguín. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica, Miocardiopatía Dilatada e Insuficiencia Arterial Periférica con amputación de miembro inferior izquierdo Estadía Hospitalaria: 16 días. Presentó disnea intensa, sudoración, hipotensión arterial, fue intubado, ventilado y apoyado con aminas a altas dosis. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     }
                 ]
             }
