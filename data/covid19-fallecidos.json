@@ -8654,6 +8654,63 @@
                         "texto": "Ciudadano cubano de 86 años de edad. Residía en el municipio cabecera de la provincia Holguín. Antecedentes patológicos personales: Hipertensión Arterial, Cardiopatía Isquémica, Miocardiopatía Dilatada e Insuficiencia Arterial Periférica con amputación de miembro inferior izquierdo Estadía Hospitalaria: 16 días. Presentó disnea intensa, sudoración, hipotensión arterial, fue intubado, ventilado y apoyado con aminas a altas dosis. Hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     }
                 ]
+            },
+            "385": {
+                "fecha": "2021/03/30",
+                "fallecidos": [
+                    {
+                        "id": "f-422",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 63,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ab",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 63 años de edad. Residía en el  Municipio San Miguel del Padrón. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Asma Bronquial, Diabetes Mellitus y Obesidad. Estadía hospitalaria: 4 días. Hizo  parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-423",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Contramaestre",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ei"
+                        ],
+                        "texto": "Ciudadano cubano de 89 años de edad. Residía en el municipio Contramaestre, provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Cerebrovascular Isquémica. Estadía hospitalaria: 22 días. Hizo parada cardíaca, se realizaron maniobras de reanimación que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-424",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "fc",
+                            "ci",
+                            "ao"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años de edad. Residía en el Municipio y provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Adenocarcinoma de Próstata y Secuelas de Fractura de Cadera. Estadía hospitalaria: 12 días.  Hizo fibrilación ventricular, parada cardiaca, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron  efectivas."
+                    }
+                ]
             }
         }
     }
