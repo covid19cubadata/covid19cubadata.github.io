@@ -144,6 +144,7 @@
         "to": "toxoplasmosis",
         "tp": "tuberculosis pulmonar",
         "tr": "tumor renal",
+        "tv": "trombosis venosa periférica",
         "up": "ulcera péptica",
         "ur": "úlceras por presión",
         "va": "valvulopatia aórtica",
@@ -8684,8 +8685,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Contramaestre",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "23.02",
-                        "dpacode_provincia_deteccion": "23",
+                        "dpacode_municipio_deteccion": "34.01",
+                        "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha",
                             "ei"
@@ -8709,6 +8710,28 @@
                             "ao"
                         ],
                         "texto": "Ciudadano cubano de 83 años de edad. Residía en el Municipio y provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Adenocarcinoma de Próstata y Secuelas de Fractura de Cadera. Estadía hospitalaria: 12 días.  Hizo fibrilación ventricular, parada cardiaca, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron  efectivas."
+                    }
+                ]
+            },
+            "386": {
+                "fecha": "2021/03/31",
+                "fallecidos": [
+                    {
+                        "id": "f-425",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 81,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santa Clara",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.09",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "ha",
+                            "ep",
+                            "tv"
+                        ],
+                        "texto": "Falleció la ciudadana cubana de 81 años de edad, del municipio Santa Clara, provincia de Villa Clara. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Trombosis Venosa Periférica de Miembro Inferior Izquierdo, Insuficiencia Venosa Periférica, Operada Oclusión Intestinal, Encamada y úlcera por presión. Estadía hospitalaria: 5 días. Presentó empeoramiento clínico, radiológico y gasométrico, se hacen reajustes terapéuticos. Hizo arritmia cardíaca seguida de asistolia, se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
