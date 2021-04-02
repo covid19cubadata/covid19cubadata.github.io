@@ -145,7 +145,8 @@
         "tp": "tuberculosis pulmonar",
         "tr": "tumor renal",
         "tv": "trombosis venosa periférica",
-        "up": "ulcera péptica",
+        "ud": "úlceras de decúbito",
+        "up": "úlcera péptica",
         "ur": "úlceras por presión",
         "va": "valvulopatia aórtica",
         "vi": "vih",
@@ -8732,6 +8733,84 @@
                             "tv"
                         ],
                         "texto": "Falleció la ciudadana cubana de 81 años de edad, del municipio Santa Clara, provincia de Villa Clara. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica, Trombosis Venosa Periférica de Miembro Inferior Izquierdo, Insuficiencia Venosa Periférica, Operada Oclusión Intestinal, Encamada y úlcera por presión. Estadía hospitalaria: 5 días. Presentó empeoramiento clínico, radiológico y gasométrico, se hacen reajustes terapéuticos. Hizo arritmia cardíaca seguida de asistolia, se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
+            },
+            "387": {
+                "fecha": "2021/04/01",
+                "fallecidos": [
+                    {
+                        "id": "f-426",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ev",
+                            "po",
+                            "rm",
+                            "dn"
+                        ],
+                        "texto": "Ciudadana cubana de 64 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Retraso mental severo, Hipertensión Arterial, Diabetes Mellitus, Enfermedad Cerebrovascular, Postrada Crónica, Desnutrición proteico-energética. Estadía hospitalaria: 9 días. Incrementó la polipnea con hipoxemia, hipotensión arterial por lo que se decide intubar, ventilar y apoyar con aminas. Posteriormente hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-427",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 95,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ci",
+                            "ht",
+                            "ds",
+                            "po",
+                            "ud"
+                        ],
+                        "texto": "Ciudadana cubana de 95 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Hipotiroidismo, Demencia Senil, Postrada, Úlceras de decúbito. Estadía hospitalaria: 18 días. Súbitamente hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-428",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cárdenas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 64 años de edad. Residía en el municipio Cárdenas, provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Obesidad. Estadía hospitalaria: 7 días. Se intensificó la disnea, cianosis generalizada e hipotensión arterial, fue intubado, ventilado y apoyado con aminas a altas dosis. Hizo parada cardiorespiratoria. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-429",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 88,
+                        "sexo": "hombre",
+                        "municipio_detección": "Contramaestre",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.01",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "nd"
+                        ],
+                        "texto": "Ciudadano cubano de 88 años de edad. Residía en el municipio Contramaestre, provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Nefropatía Diabética. Estadía hospitalaria: 9 días. Empeoró el cuadro metabólico con hiperglucemia, trastornos hidroelectrolíticos, dificultad respiratoria, hipoxemia moderada, siendo necesario intubar y ventilar. Posteriormente hizo parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
