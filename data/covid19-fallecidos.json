@@ -135,6 +135,7 @@
         "so": "síndrome de down",
         "sr": "sepsis respiratoria",
         "sl": "síndrome de leriche",
+        "sw": "síndrome de down",
         "ta": "tabaquismo",
         "tb": "trombopatía",
         "tc": "tumor cerebral",
@@ -8811,6 +8812,43 @@
                             "nd"
                         ],
                         "texto": "Ciudadano cubano de 88 años de edad. Residía en el municipio Contramaestre, provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Nefropatía Diabética. Estadía hospitalaria: 9 días. Empeoró el cuadro metabólico con hiperglucemia, trastornos hidroelectrolíticos, dificultad respiratoria, hipoxemia moderada, siendo necesario intubar y ventilar. Posteriormente hizo parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
+            },
+            "388": {
+                "fecha": "2021/04/02",
+                "fallecidos": [
+                    {
+                        "id": "f-430",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "rm",
+                            "sd"
+                        ],
+                        "texto": "Ciudadana cubana de 58 años de edad. Residía en el municipio Playa, provincia La Habana. Antecedentes Patológicos Personales: Retraso Mental Severo y Síndrome Down. Estadía hospitalaria: 6 días. Hizo cuadro de bradicardia extrema, que evolucionó a parada cardíaca. Fueron realizadas maniobras de reanimación que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-431",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 96,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ch"
+                        ],
+                        "texto": "Ciudadano cubano de 96 años de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Hipertensiva. Estadía hospitalaria: 7 días. Presentó episodio súbito de disnea y taquicardia, cuadro compatible con Tromboembolismo Pulmonar, que evolucionó a una parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación que no resultaron efectivas."
                     }
                 ]
             }
