@@ -8911,7 +8911,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 83,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "municipio_detección": "Bayamo",
                         "provincia_detección": "Granma",
                         "dpacode_municipio_deteccion": "33.04",
@@ -8939,6 +8939,10 @@
                         "texto": "Ciudadana cubana de 81 años. Municipio Camagüey. Provincia Camagüey. Antecedentes Patológicos Personales: Diabetes Mellitus Hipertensión Arterial y Enfermedad Renal Crónica. Estadía hospitalaria 13 días. Presentó polipnea, hipoxemia e inestabilidad hemodinámica, se inicia ventilación no invasiva y apoyo con altas dosis de aminas. Hizo parada cardíaca, se realizaron maniobras de reanimación que no fueron efectiva."
                     }
                 ]
+            },
+            "390": {
+                "fecha": "2021/04/04",
+                "fallecidos": []
             }
         }
     }
