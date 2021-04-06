@@ -8943,6 +8943,84 @@
             "390": {
                 "fecha": "2021/04/04",
                 "fallecidos": []
+            },
+            "391": {
+                "fecha": "2021/04/05",
+                "fallecidos": [
+                    {
+                        "id": "f-437",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "hombre",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ep",
+                            "ha",
+                            "ic",
+                            "fa"
+                        ],
+                        "texto": "Ciudadano cubano de 73 años de edad. Residía en el municipio Bayamo, provincia Granma. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Hipertensión Arterial, Insuficiencia Cardíaca y Fibrilación Auricular Crónica. Estadía hospitalaria: 7 días. Hizo taquicardia ventricular, seguida de parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-438",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob",
+                            "ep",
+                            "fu"
+                        ],
+                        "texto": "Ciudadana cubana de 71 años de edad. Residía en el municipio Habana del Este, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad, Fumadora y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 10 días. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-439",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "mujer",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ob",
+                            "ci",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 55 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Obesidad, Cardiopatía Isquémica y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 7 días. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-440",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cueto",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.10",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha",
+                            "eo",
+                            "ds",
+                            "dn"
+                        ],
+                        "texto": "Ciudadano cubano de 89 años de edad. Residía en el municipio Cueto, provincia Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Obstructiva Crónica, Desnutrición Proteico calórica y Demencia Senil. Estadía hospitalaria: 3 días. Hizo bradicardia extrema de forma súbita, seguida de parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
             }
         }
     }
