@@ -9021,6 +9021,45 @@
                         "texto": "Ciudadano cubano de 89 años de edad. Residía en el municipio Cueto, provincia Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Obstructiva Crónica, Desnutrición Proteico calórica y Demencia Senil. Estadía hospitalaria: 3 días. Hizo bradicardia extrema de forma súbita, seguida de parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
+            },
+            "392": {
+                "fecha": "2021/04/06",
+                "fallecidos": [
+                    {
+                        "id": "f-441",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob",
+                            "fu",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 89 años  de edad. Residía en el municipio Habana Vieja, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad, Fumadora y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 10 días. Hizo parada cardíaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-442",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cienfuegos",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.07",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 70 años de edad. Residía en el municipio Cienfuegos, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 10 días. Hizo taquicardia ventricular sin pulso, seguido de parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
