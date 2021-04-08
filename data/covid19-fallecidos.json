@@ -6,7 +6,7 @@
         "ae": "adenoma de próstata",
         "ag": "artrosis generalizada",
         "an": "anemia multifactorial",
-        "am": "amputación del miembro inferior",
+        "am": "amputación de miembro inferior",
         "ap": "absceso perianal",
         "al": "alzheimer",
         "ao": "adenocarcinoma de próstata",
@@ -9058,6 +9058,29 @@
                             "ci"
                         ],
                         "texto": "Ciudadano cubano de 70 años de edad. Residía en el municipio Cienfuegos, provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 10 días. Hizo taquicardia ventricular sin pulso, seguido de parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    }
+                ]
+            },
+            "393": {
+                "fecha": "2021/04/07",
+                "fallecidos": [
+                    {
+                        "id": "f-443",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 81,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "am",
+                            "ci"
+                        ],
+                        "texto": "Falleció el ciudadano cubano de 81 años de edad. Residía en el municipio Boyeros, provincia  La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Amputación de ambos miembros inferiores y Cardiopatía Isquémica. Estadía hospitalaria: 4 días. Presentó cuadro de agitación psicomotriz con polipnea de instalación brusca, cianosis y caída de la saturación de oxígeno, seguido de parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
