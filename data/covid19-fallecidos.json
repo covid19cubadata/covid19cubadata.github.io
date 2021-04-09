@@ -9083,6 +9083,95 @@
                         "texto": "Falleció el ciudadano cubano de 81 años de edad. Residía en el municipio Boyeros, provincia  La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Amputación de ambos miembros inferiores y Cardiopatía Isquémica. Estadía hospitalaria: 4 días. Presentó cuadro de agitación psicomotriz con polipnea de instalación brusca, cianosis y caída de la saturación de oxígeno, seguido de parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
+            },
+            "394": {
+                "fecha": "2021/04/08",
+                "fallecidos": [
+                    {
+                        "id": "f-444",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guantánamo",
+                        "provincia_detección": "Guantánamo",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 72 años de edad. Residía en el municipio y provincia Guantánamo. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Obesidad. Estadía hospitalaria: 3 días. Presentó bradicardia extrema hasta parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas"
+                    },
+                    {
+                        "id": "f-445",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 73 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 8 días. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-446",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 78 años de edad. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 13 días. Presentó cuadro súbito de taquicardia ventricular seguido de parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-447",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 44,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er",
+                            "dt"
+                        ],
+                        "texto": "Ciudadano cubano de 44 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Renal Crónica (en régimen dialítico). Estadía hospitalaria: 11 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-448",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pinar del Río",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ci",
+                            "ic",
+                            "md",
+                            "er",
+                            "vm"
+                        ],
+                        "texto": "Ciudadano cubano de 75 años de edad. Residía en el municipio y provincia Pinar del Río. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Insuficiencia Cardíaca, Miocardiopatía Dilatada, Enfermedad Renal Crónica y Valvulopatía Mitral (operada). Estadía hospitalaria: 15 días. Hizo parada cardiaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
