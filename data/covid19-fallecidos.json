@@ -60,6 +60,7 @@
         "eu": "enferemeda vascular",
         "ev": "enfermedad cerebrovascular",
         "ew": "enfermedad oncológica",
+        "ey": "enfisema pulmonar",
         "ez": "esplenectomizado",
         "fa": "fibrilación auricular",
         "fc": "fractura de cadera",
@@ -80,6 +81,7 @@
         "ht": "hipotiroidismo",
         "hp": "hiperplasia prostática",
         "hu": "hiperuricemia",
+        "hw": "hipertensión pulmonar",
         "ia": "infarto anterior",
         "ic": "insuficiencia cardiaca",
         "id": "inmunodeficiencia",
@@ -121,6 +123,7 @@
         "oa": "osteoartrosis",
         "oc": "enfermedad pulmonar obstructiva crónica",
         "ob": "obesidad",
+        "op": "operada de tumor de páncreas",
         "pa": "parkinson",
         "po": "postrado",
         "pr": "psicosis orgánica",
@@ -134,6 +137,7 @@
         "sm": "secuelas motoras de enfermedad cerebrovascular",
         "so": "síndrome de down",
         "sr": "sepsis respiratoria",
+        "su": "sepsis urinaria",
         "sl": "síndrome de leriche",
         "sw": "síndrome de down",
         "ta": "tabaquismo",
@@ -9180,16 +9184,14 @@
                         "id": "f-449",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 72,
-                        "sexo": "mujer",
-                        "municipio_detección": "Guantánamo",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pedro Betancourt",
                         "provincia_detección": "Guantánamo",
-                        "dpacode_municipio_deteccion": "35.09",
-                        "dpacode_provincia_deteccion": "35",
+                        "dpacode_municipio_deteccion": "25.07",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
-                            "ha",
-                            "dm",
-                            "ob"
+                            "dm"
                         ],
                         "texto": "Ciudadano cubano de 66 años de edad. Residía en el municipio Pedro Betancourt,provincia Matanzas. Antecedentes Patológicos Personales: Diabetes Mellitus. Estadía hospitalaria: 4 días. Hizo parada cardiorespiratoria en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas"
                     },
@@ -9197,12 +9199,12 @@
                         "id": "f-450",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 73,
-                        "sexo": "mujer",
-                        "municipio_detección": "Centro Habana",
-                        "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.03",
-                        "dpacode_provincia_deteccion": "23",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Los Arabos",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.13",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ha"
                         ],
@@ -9212,14 +9214,16 @@
                         "id": "f-451",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 78,
-                        "sexo": "mujer",
-                        "municipio_detección": "Centro Habana",
-                        "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.03",
-                        "dpacode_provincia_deteccion": "23",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cárdenas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.02",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
-                            "ha"
+                            "ha",
+                            "dm",
+                            "ci"
                         ],
                         "texto": "Ciudadano cubano de 75 años de edad. Residía en el municipio Cárdenas,provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Cardiopatía Isquémica. Estadía hospitalaria: 8 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
                     },
@@ -9227,17 +9231,16 @@
                         "id": "f-452",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 44,
+                        "edad": 43,
                         "sexo": "hombre",
-                        "municipio_detección": "Boyeros",
-                        "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.13",
-                        "dpacode_provincia_deteccion": "23",
+                        "municipio_detección": "Colón",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.04",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ha",
                             "dm",
-                            "er",
-                            "dt"
+                            "ob"
                         ],
                         "texto": "Ciudadano cubano de 43 años de edad. Residía en el municipio Colón,provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Obesidad. Estadía hospitalaria: 9 días. Hizo parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     },
@@ -9245,20 +9248,124 @@
                         "id": "f-453",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 75,
-                        "sexo": "hombre",
-                        "municipio_detección": "Pinar del Río",
-                        "provincia_detección": "Pinar del Río",
-                        "dpacode_municipio_deteccion": "21.08",
-                        "dpacode_provincia_deteccion": "21",
+                        "edad": 83,
+                        "sexo": "mujer",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
                         "enfermedades": [
+                            "ha",
                             "ci",
-                            "ic",
-                            "md",
-                            "er",
-                            "vm"
+                            "ds",
+                            "po"
                         ],
                         "texto": "Ciudadana cubana de 83 años de edad. Residía en el municipio Bayamo,provincia Granma. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Demencia senil y Postrada Crónica. Estadía hospitalaria: 5 días. Presentó taquicardia ventricular, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "396": {
+                "fecha": "2021/04/10",
+                "fallecidos": [
+                    {
+                        "id": "f-454",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 84 años de edad. Residía en el municipio Cerro, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 4 días.  Comenzó con bradicardia que no respondió a medicamentos, posteriormente hizo parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-455",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ie"
+                        ],
+                        "texto": "Ciudadana cubana  de 74 años de edad. Residía en el  Municipio San Miguel del Padrón, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica e Infarto Cerebral. Estadía hospitalaria: 2 días. Presentó parada cardiaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-456",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 73,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de  73 años  de edad. Residía en el municipio Diez de Octubre, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 3 días. Hizo parada cardiaca, que respondió a las maniobras de reanimación, se logra circulación espontánea es necesario intubar, ventilar y apoyar con altas dosis de aminas.  Posteriormente repite parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-457",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pedro Betancourt",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.07",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "md",
+                            "hw",
+                            "ey",
+                            "su"
+                        ],
+                        "texto": "Ciudadano cubano de  82 años de edad. Residía en el municipio Pedro Betancourt, provincia de Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Miocardiopatía Dilatada, Hipertensión Pulmonar y Enfisema Pulmonar, Sepsis Urinaria a repetición.Estadía hospitalaria: 1 día. Presentó un cuadro súbito de ansiedad, cianosis, polipnea, hizo parada cardíaca se comenzaron  maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-458",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "mujer",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "ei",
+                            "el",
+                            "op"
+                        ],
+                        "texto": "Ciudadana cubana de 75 años de edad. Residía en el municipio y provincia de Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebro Vascular Isquémica, Operada de tumor de páncreas y Epilepsia. Estadía hospitalaria: 4 días. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-459",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 4,
+                        "sexo": "mujer",
+                        "municipio_detección": null,
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "00.00",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ln"
+                        ],
+                        "texto": "Ciudadana cubana de 4 años de edad que ingresó el 5 de marzo en el Hospital Pediátrico “Juan Manuel Márquez” por tumor abdominal para estudio. Al examen físico se detectó gran distención abdominal, ascitis (líquido en cavidad abdominal), masa tumoral palpable, hepatomegalia (aumento de tamaño del hígado) de 6 cm, inflamación en miembros inferiores y piel pálida de color terroso. Se realizó Rayos X de tórax donde se observó un derrame pleural moderado. Fue llevada al salón de operaciones para realizar laparatomía exploradora y toma de biopsia del tumor abdominal con la sospecha de Linfoma no Hodgkin tipo Burkitt. Evolucionó en sala con progresión de su enfermedad. En días posteriores fue necesario trasladar al servicio de Terapia Intensiva para evacuación del derrame pleural.Presentó complicaciones propias de la enfermedad oncológica y de la progresión tumoral, con distensión abdominal y disminución de la cifra de hemoglobina. Se le realizaron dos test de antígeno en la institución, al ingreso y el día 31 de marzo, antes de realizar la toma de la biopsia, ambos resultaron negativos. El día 6 de abril se realizó PCR como parte de la vigilancia en servicios asistenciales cerrados (Terapia Intensiva) y ese mismo día se inició tratamiento del Síndrome de Lisis Tumoral y tratamiento específico de la enfermedad oncológica. Fue necesario intubar y ventilar. Presentó parada cardiorespiratoria. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas, falleciendo con el diagnóstico de Linfoma no Hodgkin tipo Burkitt. Después de fallecida se conoce del resultado positivo del estudio de PCR realizado. Se realizó investigación epidemiológica en la institución para la búsqueda de los contactos; fueron tomadas muestras de PCR a los pacientes de la sala de terapia, a trabajadores del servicio y familiares, recibiéndose todos los resultados negativos.Los resultados de la autopsia evidenciaron en cavidad abdominal múltiples nodulaciones de color blanco grisáceas, correspondientes a masa tumoral en hígado, con metástasis a mesenterio, bordes del intestino y diafragma, corazón, riñones, bazo, cola del páncreas, vesícula biliar y estómago. En el segundo estudio de PCR para confirmar  el diagnóstico de COVID-19 el resultado fue positivo. Teniendo en cuenta la clínica de la paciente, los resultados de la biopsia y el estudio macroscópico de la necropsia realizada, se concluye que la paciente fallece con el diagnóstico de Linfoma no Hodgkin tipo Burkitt y con COVID-19."
                     }
                 ]
             }
