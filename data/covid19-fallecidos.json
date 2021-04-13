@@ -76,6 +76,7 @@
         "hd": "hipertiroidismo",
         "he": "cirrosis hepática",
         "hh": "hernia hiatal",
+        "hi": "hernia inguinal",
         "hm": "hipoacusia",
         "hr": "hepatopatía crónica",
         "ht": "hipotiroidismo",
@@ -9187,7 +9188,7 @@
                         "edad": 66,
                         "sexo": "hombre",
                         "municipio_detección": "Pedro Betancourt",
-                        "provincia_detección": "Guantánamo",
+                        "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.07",
                         "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
@@ -9366,6 +9367,151 @@
                             "ln"
                         ],
                         "texto": "Ciudadana cubana de 4 años de edad que ingresó el 5 de marzo en el Hospital Pediátrico “Juan Manuel Márquez” por tumor abdominal para estudio. Al examen físico se detectó gran distención abdominal, ascitis (líquido en cavidad abdominal), masa tumoral palpable, hepatomegalia (aumento de tamaño del hígado) de 6 cm, inflamación en miembros inferiores y piel pálida de color terroso. Se realizó Rayos X de tórax donde se observó un derrame pleural moderado. Fue llevada al salón de operaciones para realizar laparatomía exploradora y toma de biopsia del tumor abdominal con la sospecha de Linfoma no Hodgkin tipo Burkitt. Evolucionó en sala con progresión de su enfermedad. En días posteriores fue necesario trasladar al servicio de Terapia Intensiva para evacuación del derrame pleural.Presentó complicaciones propias de la enfermedad oncológica y de la progresión tumoral, con distensión abdominal y disminución de la cifra de hemoglobina. Se le realizaron dos test de antígeno en la institución, al ingreso y el día 31 de marzo, antes de realizar la toma de la biopsia, ambos resultaron negativos. El día 6 de abril se realizó PCR como parte de la vigilancia en servicios asistenciales cerrados (Terapia Intensiva) y ese mismo día se inició tratamiento del Síndrome de Lisis Tumoral y tratamiento específico de la enfermedad oncológica. Fue necesario intubar y ventilar. Presentó parada cardiorespiratoria. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas, falleciendo con el diagnóstico de Linfoma no Hodgkin tipo Burkitt. Después de fallecida se conoce del resultado positivo del estudio de PCR realizado. Se realizó investigación epidemiológica en la institución para la búsqueda de los contactos; fueron tomadas muestras de PCR a los pacientes de la sala de terapia, a trabajadores del servicio y familiares, recibiéndose todos los resultados negativos.Los resultados de la autopsia evidenciaron en cavidad abdominal múltiples nodulaciones de color blanco grisáceas, correspondientes a masa tumoral en hígado, con metástasis a mesenterio, bordes del intestino y diafragma, corazón, riñones, bazo, cola del páncreas, vesícula biliar y estómago. En el segundo estudio de PCR para confirmar  el diagnóstico de COVID-19 el resultado fue positivo. Teniendo en cuenta la clínica de la paciente, los resultados de la biopsia y el estudio macroscópico de la necropsia realizada, se concluye que la paciente fallece con el diagnóstico de Linfoma no Hodgkin tipo Burkitt y con COVID-19."
+                    }
+                ]
+            },
+            "397": {
+                "fecha": "2021/04/11",
+                "fallecidos": [
+                    {
+                        "id": "f-460",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "mujer",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ha",
+                            "ic",
+                            "hi"
+                        ],
+                        "texto": "Ciudadana cubana de 90 años. Residía en el municipio Bayamo, provincia de Granma. Antecedentes Patológicos Personales: Hipertensión Arterial, Insuficiencia cardíaca y Hernia inguinal. Estadía hospitalaria: 15 días. Presentó empeoramiento clínico con hipoxemia severa, inestabilidad hemodinámica, siendo necesario intubar, ventilar y apoyar con aminas vasoactivas. Hizo parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-461",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "mujer",
+                        "municipio_detección": "Encrucijada",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.04",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci",
+                            "am",
+                            "it"
+                        ],
+                        "texto": "Ciudadana cubana de 68 años de edad. Residía en el municipio Encrucijada, provincia de Villa Clara. Antecedentes Patológicos Personales: Diabetes Mellitus, Hipertensión Arterial, Cardiopatía Isquémica, Insuficiencia Arteria Periférica y amputación de Miembro inferior izquierdo. Estadía hospitalaria: 13 días. No presentó mejoras del cuadro respiratorio, empeoró la hemodinamia, fue necesario intubar, ventilar y apoyar con aminas. Hizo bradicardia extrema seguida de parada cardíaca. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-462",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "hombre",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.03",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 65 años. Residía en el municipio Centro Habana, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 3 días. Presentó hipotensión arterial que no respondió a volumen y fue necesario apoyar con aminas. Hizo parada cardíaca, se reanima y se logró circulación espontánea a expensa de altas dosis de aminas. Repitió parada cardiaca que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-463",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 48,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ab",
+                            "ep",
+                            "er",
+                            "hc"
+                        ],
+                        "texto": "Ciudadana cubana de 48 años de edad. Residía en el municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Asma Bronquial, Enfermedad Pulmonar Obstructiva Crónica, Enfermedad Renal Crónica, Hepatitis C. Estadía hospitalaria: 14 días. Presentó episodio de disnea y desaturación por lo que se decide intubar y ventilar, posteriormente  presenta  bradicardia sinusal extrema que no respondió a medicamentos, progresa a la asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-464",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 89,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Juan y Martínez",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.10",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ci",
+                            "fa",
+                            "ev",
+                            "dm",
+                            "er"
+                        ],
+                        "texto": "Ciudadana cubana de 89 años. Residía en el municipio San Juan y Martínez, provincia Pinar del Río. Antecedentes Patológicos Personales: Cardiopatía Isquémica, Fibrilación Auricular, Enfermedad Cerebro Vascular, Diabetes Mellitus tipo II, y Enfermedad Renal Crónica. Estadía hospitalaria: 11 días. Se mantuvo inestable hemodinámicamente y con demanda variable de oxigenoterapia. Empeoró el cuadro respiratorio con hipoxemia severa, cianosis distal, hizo bradicardia sinusal que no respondió a medicamentos seguida de parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-465",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Jovellanos",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.06",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ic"
+                        ],
+                        "texto": "Ciudadana cubana de 76 años. Residía en el municipio Jovellanos, provincia Matanzas.Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Insuficiencia Cardíaca.Estadía hospitalaria: 14 días. Presentó disnea intensa, cianosis, hipotensión arterial, fue intubada, ventilada y apoyada con aminas a altas dosis. Hizo parada cardiorespiratoria. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-466",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Cardiopatía Isquémica. Estadía Hospitalaria: 11 días. Presentó cuadro súbito de disnea y caída de la saturación de oxígeno por lo que se traslada para la Unidad de Cuidados Intensivos donde se intuba y ventila. La evolución posterior fue desfavorable con descontrol metabólico e inestabilidad hemodinámica por lo que es apoyado con aminas. Presentó episodio de parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-467",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 70,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 70 años. Residía en el municipio Arroyo Naranjo, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 3 días. Presentó disnea moderada, acompañada de broncoespasmo por lo que se traslada para la Unidad de Cuidados Intensivos donde fue intubada y ventilada, con compromiso hemodinámico que requirió apoyo con aminas. Posteriormente presentó fibrilación ventricular, parada cardiaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
