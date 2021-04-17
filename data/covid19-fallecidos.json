@@ -113,6 +113,7 @@
         "mm": "mieloma múltiple",
         "mo": "monorreno",
         "mp": "metástasis pulmonar",
+        "mr": "marcapaso",
         "nc": "neumopatía crónica",
         "nd": "nefropatía diabética",
         "nf": "neuropatía periférica",
@@ -120,8 +121,8 @@
         "ne": "neoplasia de esófago",
         "nl": "nefritis lúpica",
         "nm": "neoplasia de mama",
-        "no": "neoplasia de próstata",
         "nn": "neoplasia renal",
+        "no": "neoplasia de próstata",
         "np": "neoplasia del pulmón",
         "nr": "neuropatías a repetición",
         "nt": "neuralgia del trigémino",
@@ -9927,7 +9928,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Plaza de la Revolución",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_municipio_deteccion": "23.02",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha",
@@ -9951,6 +9952,159 @@
                             "ci"
                         ],
                         "texto": "Ciudadana cubana de 54 años de edad. Municipio Jovellanos.  Provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 9 días. Presentó empeoramiento clínico, radiológico y gasométrico, por lo que se decide intubar y ventilar. Posteriormente hizo un cuadro súbito de cianosis, hipoxemia, hipotensión arterial, bradicardia, seguido de paro cardíaco, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "401": {
+                "fecha": "2021/04/15",
+                "fallecidos": [
+                    {
+                        "id": "f-493",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep",
+                            "ht"
+                        ],
+                        "texto": "Ciudadana cubana de 76 años de edad. Municipio Cerro.  La Habana. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica e Hipotiroidismo. Estadía hospitalaria: 5 días. Mantuvo evolución inestable hemodinámicamente, con hipoxemia refractaria a la terapéutica emplead. Presentó bradicardia que no responde a medicamentos, seguida de parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-494",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "mujer",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "mr",
+                            "nm"
+                        ],
+                        "texto": "Ciudadana cubana de 58 años de edad. Municipio Plaza de la Revolución. La Habana. Antecedentes Patológicos Personales: Marcapaso permanente y Neoplasia de mama operada en el año 2014. Estadía hospitalaria: 24 días. Mantuvo empeoramiento progresivo,  clínico, gasométrico, humoral y radiológico que la llevó a una ventilación prolongada, con necesidad de traqueostomía, se presentaron varias complicaciones, tratadas oportunamente, pero la sepsis severa sobreañadida la condujo a la disfunción múltiple de órganos. Presentó un cuadro de bradicardia extrema seguida de parada cardiorespiratoria donde se realizan las maniobras de reanimación cardiopulmonar no siendo efectivas."
+                    },
+                    {
+                        "id": "f-495",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 85,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "fa",
+                            "tv"
+                        ],
+                        "texto": "Ciudadana cubana de 77 años. Municipio Jagüey Grande. Provincia de Matanzas. Antecedentes Patológicos Personales: Epilepsia. Estadía hospitalaria: 10 días. Presentó empeoramiento clínico. Comenzó con bradicardia extrema seguida de parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-496",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "hombre",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "dv",
+                            "hp"
+                        ],
+                        "texto": "Ciudadano cubano de 80 años de edad. Municipio Habana del Este.  Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Hiperplasia Prostática y Demencia Vascular Senil. Estadía hospitalaria: 5 días. Presentó empeoramiento de la disnea, hipotensión arterial y cianosis, fue intubado, ventilado y apoyado con aminas a altas dosis. Mantiene elementos clínicos gasométricos y radiológicos de distrés respiratorio severo. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-497",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ep",
+                            "fp"
+                        ],
+                        "texto": "Ciudadano cubano de 60 años. Municipio Diez de Octubre. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica y Fibrosis Pulmonar. Estadía hospitalaria: 6 días. Mantuvo evolución clínica desfavorable con elementos de distress respiratorio severo e inestabilidad hemodinámica que requiere apoyo con aminas Vasoactivas. Presentó caída de la saturación de oxígeno, cianosis, taquicardia. Posteriormente hizo bradicardia sinusal, seguido de parada cardíaca, se realizaron maniobras de reanimación cardiorespiratoria que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-498",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 75 años de edad. Municipio y Provincia de Matanzas. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 6 días. Presentó polipnea, hipoxemia, hipotensión arterial, cianosis distal. Posteriormente hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-499",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pedro Betancourt",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.07",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "ep",
+                            "ci",
+                            "no"
+                        ],
+                        "texto": "Ciudadano cubano de 82 años de edad. Municipio Pedro Betancourt. Provincia de Matanzas. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Neoplasia de Próstata, Hipertensión Arterial y Cardiopatía Isquémica. Estadía hospitalaria: 7 días. Mantuvo falta de aire, dependiente de oxigenoterapia. Comenzó con dificultad para de respirar, cianosis y sin respuesta al llamado, se detecta parada cardiorespiratoria, se realizaron maniobras de resucitación sin obtener resultados. "
+                    },
+                    {
+                        "id": "f-500",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años de edad. Municipio y  Provincia de Santiago de Cuba.  Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 19 días. Presentó empeoramiento clínico, gasométrico y radiológico. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-501",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "hombre",
+                        "municipio_detección": "Marianao",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.11",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 78 años  de edad. Municipio Marianao.  La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Diabetes Mellitus. Estadía hospitalaria: 10 días. Mantuvo empeoramiento de la hemodinamia, sin diuresis, con elevación de los indicadores de fallo renal. Posteriormente hizo parada cardiaca en asistolia que no responde a las maniobras de reanimación cardiorespiratoria."
                     }
                 ]
             }
