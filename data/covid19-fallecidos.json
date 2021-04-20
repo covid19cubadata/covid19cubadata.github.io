@@ -10640,6 +10640,128 @@
                         "texto": "Ciudadana cubana, de 76 años de edad. Residía en el municipio y provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Diabetes Mellitus tipo 2 Hipertensión Arterial y EPOC. Estadía hospitalaria: 10 días. Hizo parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
+            },
+            "405": {
+                "fecha": "2021/04/19",
+                "fallecidos": [
+                    {
+                        "id": "f-533",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "mujer",
+                        "municipio_detección": "Colón",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.04",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "as",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 56 años de edad. Residía en el municipio Colón, provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión arterial, Diabetes Mellitus, Artritis Gotosa y Obesidad. Estadía hospitalaria: 4 días. Presentó bradicardia extrema, hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-534",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "mujer",
+                        "municipio_detección": "Perico",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.05",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ei"
+                        ],
+                        "texto": "Ciudadana cubana de 75 años edad. Residía en el municipio Perico, provincia de Matanzas. Antecedentes Patológicos Personales: Diabetes Mellitus, hipertensión arterial, Enfermedad Cerebro Vascular isquémico. Estadía hospitalaria: 8 días. Hizo bradicardia extrema seguida de parada cardíaca, se realizaron maniobras de reanimación que no fueron efectivas."
+                    },
+                    {
+                        "id": "cn-535",
+                        "id_caso": null,
+                        "pais": "cn",
+                        "edad": 56,
+                        "sexo": "mujer",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 56 años de edad. Residía en el municipio y provincia Matanzas. Antecedentes Patológicos Personales: Cardiopatía isquémica. Estadía hospitalaria: 11 días. Presentó bradicardia extrema, hizo parada cardiorespiratoria en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-536",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "mujer",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "pc",
+                            "po"
+                        ],
+                        "texto": "Ciudadana cubana de 54 años de edad. Residía en el municipio Bayamo, provincia de Granma. Antecedentes Patológicos personales: Parálisis cerebral infantil, Postrada crónica. Estadía hospitalaria: 6 días. Presentó un cuadro de hipoxemia severa, cianosis, seguida de bradicardia sinusal que no respondió a medicamentos, que evolucionó a parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-537",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 79 años de edad. Residía en el municipio Boyeros, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Diabetes Mellitus y Enfermedad Renal Crónica. Estadía hospitalaria: 9 días. Repitió parada cardiaca que se logró revertir. Mantuvo evolución tórpida. Presentó otra parada cardiaca sin respuesta a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-538",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "ha",
+                            "ci",
+                            "er",
+                            "th"
+                        ],
+                        "texto": "Ciudadano cubano de 55 años de edad. Residía en el municipio San Miguel del Padrón, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía, Isquémica, Diabetes Mellitus, Operado de Tumor de Hipófisis y Enfermedad Renal Crónica. Estadía hospitalaria: 13 días. Presentó parada cardiaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-539",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "Colón",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.04",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 74 años de edad. Residía en el municipio Colón, provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión arterial. Estadía hospitalaria: 13 días. Presentó parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
