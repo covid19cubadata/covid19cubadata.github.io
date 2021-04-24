@@ -11245,9 +11245,9 @@
                         "edad": 90,
                         "sexo": "mujer",
                         "municipio_detección": "Perico",
-                        "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.05",
-                        "dpacode_provincia_deteccion": "23",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.05",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ha",
                             "ci",
