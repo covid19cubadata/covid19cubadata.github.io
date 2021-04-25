@@ -8,94 +8,94 @@ body > div {
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .escenario {
-	text-align: center;
-	font-weight: bold;
-	padding-left: 0px;
-	padding-right: 0px;
-	font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 15px;
 }
 
 .comunidad {
-	color: #00AFFF;
+  color: #00afff;
 }
 
 .aislamiento {
-	color: #005778;
+  color: #005778;
 }
 
 .hospital {
-	color: #1C1340;
+  color: #1c1340;
 }
 .med {
-	background-color: silver;
-	color: #FFFFFF;
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	font-size: 15px;
+  background-color: silver;
+  color: #ffffff;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 15px;
 }
 
 #protocolos-legend {
-	margin-top: 15px;
-	text-align: center;
+  margin-top: 15px;
+  text-align: center;
 }
 
-.new  {
+.new {
   border-bottom-style: solid;
-  border-color: #B11116;
+  border-color: #b11116;
   border-left-style: solid;
   border-right-style: solid;
   border-top-style: solid;
   border-width: 2px;
 }
 .nacional {
-	background-color: #D0797C;
+  background-color: #d0797c;
 }
 
 .producido {
-	background-color: #1A8323;
+  background-color: #1a8323;
 }
 
 .importado {
-	background-color: #CA9F31;
+  background-color: #ca9f31;
 }
 
 .tnacional {
-	color: #D0797C;
+  color: #d0797c;
 }
 
 .tproducido {
-	color: #1A8323;
+  color: #1a8323;
 }
 
 .timportado {
-	color: #CA9F31;
+  color: #ca9f31;
 }
 
 .tnone {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 
 .selection {
-	color: silver;
+  color: silver;
 }
 
 .protocol-text {
-	font-size: 17px;
+  font-size: 17px;
 }
 
 #protocolos-resp-cont {
-	margin-left: -15px;
+  margin-left: -15px;
 }
 
 #protocolos-resp {
-   margin: 0 auto;
-   width: 310px; 
+  margin: 0 auto;
+  width: 310px;
 }
 
 .navbar {
@@ -174,9 +174,9 @@ body > div {
 }
 
 #boletin-container {
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
 }
 
 #apks-info {
@@ -213,8 +213,8 @@ body > div {
 }
 
 #country_selector_3 {
-	font-weight: normal;
-	width: 200px;
+  font-weight: normal;
+  width: 200px;
 }
 
 .rounded {
@@ -277,7 +277,7 @@ body > div {
 #cases-pie-info,
 #asym-info-pie {
   height: 220px;
-} 
+}
 
 #sex-container,
 #contagio-container {
@@ -414,9 +414,8 @@ body > div {
 }
 
 .buttons-container {
-	margin-top: 5px;
-	text-align: center;
-	
+  margin-top: 5px;
+  text-align: center;
 }
 
 #countries-comparison,
@@ -476,7 +475,8 @@ body > div {
   margin-left: 5px;
 }
 
-#curves-evolution, #scatter-plot {
+#curves-evolution,
+#scatter-plot {
   min-height: 500px;
 }
 
@@ -582,7 +582,7 @@ body > div {
   font-size: 0.75em;
 }
 
-[data-view="province"] {
+[data-view='province'] {
   display: none !important;
 }
 
@@ -591,7 +591,7 @@ body > div {
   margin-bottom: -0.5rem;
 }
 
-#compari > .card-header > ul.nav > li > a:not([class*="active"]) {
+#compari > .card-header > ul.nav > li > a:not([class*='active']) {
   color: white;
 }
 
@@ -618,9 +618,15 @@ body > div {
   white-space: normal !important;
 }
 
-table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
-table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
-  content: "" !important;
+table.dataTable.table-external.dtr-inline.collapsed
+  > tbody
+  > tr[role='row']
+  > td:first-child:before,
+table.dataTable.table-external.dtr-inline.collapsed
+  > tbody
+  > tr[role='row']
+  > th:first-child:before {
+  content: '' !important;
   display: none !important;
 }
 
@@ -680,7 +686,6 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
 }
 
 @media (min-width: 768px) {
-  
   #stats-cards > .row > div:nth-child(3n + 1) {
     padding-left: 15px;
     padding-right: 7px;
@@ -729,8 +734,6 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
 }
 
 @media (min-width: 992px) {
-	
-
   #stats-cards .card,
   #stats-cards > .card-deck > .card:nth-of-type(3),
   #stats-cards > .card-deck > .card:nth-of-type(4) {
@@ -763,11 +766,50 @@ table.dataTable.table-external.dtr-inline.collapsed > tbody > tr[role="row"] > t
 
 @media (max-width: 768px) {
   #boletin-container {
-	margin-left: 2%;
-	margin-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 
 div.dataTables_wrapper div.dataTables_filter input {
   width: 80% !important;
+}
+
+/* arregle el opacity de los circulos en los scatter del grafico de predicciones */
+.predictions .c3-circle {
+  opacity: 1 !important;
+}
+
+/* cambia el grosor de las lineas en los scatter del grafico de predicciones */
+.predictions .c3-line {
+  stroke-width: 2px;
+}
+
+/*
+Estos style son para ocultar los circulos de los spline en la grafica de predicciones
+cambiar los sufijos c3-circles-{suffix} por los correctos definidos 
+  en la variable mods en cv19_01.py en caso de que cambien
+*/
+.predictions .c3-chart-lines .c3-circles-mcl .c3-circle {
+  display: none;
+}
+
+.predictions .c3-chart-lines .c3-circles-mcr .c3-circle {
+  display: none;
+}
+
+.predictions .c3-chart-lines .c3-circles-mcg .c3-circle {
+  display: none;
+}
+
+.predictions .c3-chart-lines .c3-circles-mcgg .c3-circle {
+  display: none;
+}
+
+.predictions .c3-chart-lines .c3-circles-mcs .c3-circle {
+  display: none;
+}
+
+.predictions .c3-chart-lines .c3-circles-mcls .c3-circle {
+  display: none;
 }
