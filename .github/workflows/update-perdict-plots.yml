@@ -3,9 +3,9 @@ on:
   schedule:
     - cron: '55 23 * * 0' # Sunday 23:55 -- 11:55PM
 
-  push:
-    branches:
-      - master
+  #push:
+  #  branches:
+  #    - master
 jobs:
   PredictUpgrades:
     runs-on: ubuntu-latest
