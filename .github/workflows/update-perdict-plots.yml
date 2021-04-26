@@ -1,0 +1,31 @@
+on:
+
+  schedule:
+    - cron: '55 23 * * 0' # Sunday 23:55 -- 11:55PM
+
+  #push:
+  #  branches:
+  #    - master
+jobs:
+  PredictUpgrades:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r utils/requirements-predict.txt
+
+      - name: Get countries Json
+        run: |
+          python utils/cv19_01.py
+          git config --global user.name 'yudivian'
+          git config --global user.email 'yudivian@gmail.com'
+          git add .
+          git commit --allow-empty -am "Update countries data"
+          git push
