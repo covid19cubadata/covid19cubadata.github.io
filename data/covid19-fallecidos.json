@@ -11705,7 +11705,7 @@
                         "municipio_detección": "Marianao",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
-                        "dpacode_provincia_deteccion": "33",
+                        "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ep",
                             "dm",
