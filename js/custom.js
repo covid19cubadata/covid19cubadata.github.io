@@ -302,6 +302,7 @@ $.walker = {
           return 0;
         else return 1;
       });
+
       for (var j = 0; j < sorteddata.length; j++) {
         const province2 = sorteddata[j];
         $.walker.view.addOptionToSelect(
@@ -336,9 +337,10 @@ $.walker = {
   municipality: {
     list: { features: [] },
     filterByProvince: function (province_id) {
-      let features = [],
-        remaining = {};
-      let sorteddata = [];
+      const features = [];
+      const remaining = {};
+      const sorteddata = [];
+      //const provinces_muns = {};
       $('#munscurve-select1').find('option').remove();
       $('#munscurve-select2').find('option').remove();
       let set_mun = {};
@@ -354,6 +356,27 @@ $.walker = {
             total: 0,
             importados: 0,
           };
+          /*if (!!provinces_muns[municipality.province_id]) {
+            provinces_muns[municipality.province_id].muns[
+              municipality.DPA_municipality_code
+            ] = {
+              DPA_municipality_code: municipality.DPA_municipality_code,
+              municipality: municipality.municipality,
+            };
+          } else {
+            provinces_muns[municipality.province_id] = {
+              province: municipality.province,
+              province_id: municipality.province_id,
+              DPA_province_code: municipality.DPA_province_code,
+              muns: {},
+            };
+            provinces_muns[municipality.province_id].muns[
+              municipality.DPA_municipality_code
+            ] = {
+              DPA_municipality_code: municipality.DPA_municipality_code,
+              municipality: municipality.municipality,
+            };
+          }*/
           if (
             !(municipality.DPA_municipality_code in set_mun) &&
             municipality.municipality !== 'Desconocido'
@@ -363,6 +386,8 @@ $.walker = {
           }
         }
       }
+      //delete provinces_muns.unk;
+      //console.log(provinces_muns);
       $('#munscurve-select1').find('option').remove();
       sorteddata.sort(function (a, b) {
         if (province_order[a.province_id] < province_order[b.province_id])
@@ -440,12 +465,6 @@ function run_calculations() {
         start_selection = false;
         $.walker.view.update();
         general_view = $locator.val() === 'cuba';
-
-        const url = `data/predictions/${
-          general_view ? 'cuba' : provinces_codes[province_id]
-        }.json`;
-        const selector = '#predict-cuba';
-        $.predict.plot(url, selector);
 
         let nre_id = 'cu';
         if (!general_view) {
