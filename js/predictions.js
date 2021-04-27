@@ -905,7 +905,6 @@ for (const pr of sorted_provinces) {
 function run() {
   const province_id = $locator.val();
   const general_view = $locator.val() === 'cuba';
-  console.log(province_id, general_view);
   let url = `data/predictions/${
     general_view ? 'cuba' : pros_muns[province_id].DPA_province_code
   }.json`;
@@ -934,6 +933,9 @@ function run() {
       counter += 1;
     }
   } else {
+    if (province_id === 'ijv') {
+      return;
+    }
     let counter = 1;
     muns = Object.keys(pros_muns[province_id].muns).sort();
     for (const mn of muns) {
