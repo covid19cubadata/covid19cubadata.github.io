@@ -908,7 +908,11 @@ function run() {
   let url = `data/predictions/${
     general_view ? 'cuba' : pros_muns[province_id].DPA_province_code
   }.json`;
-  const header = general_view ? 'Cuba' : pros_muns[province_id].province;
+  const header = general_view
+    ? 'Cuba'
+    : province_id !== 'ijv'
+    ? `Provincia - ${pros_muns[province_id].province}`
+    : `Municipio especial - ${pros_muns[province_id].province}`;
   $('#predict-header').text(header);
   $.predict.plot(url, '#predict-cuba');
   const container$ = $('#other-predictions');
@@ -919,7 +923,7 @@ function run() {
       const el = `
       <div class="card-deck">
         <section class="card common-bg">
-          <div class="card-header">${pros_muns[pr].province}</div>
+          <div class="card-header">Provincia - ${pros_muns[pr].province}</div>
           <div class="card-body">
             <div class="predictions" id="predict-cuba-${counter}"></div>
           </div>
@@ -943,7 +947,7 @@ function run() {
       const el = `
       <div class="card-deck">
         <section class="card common-bg">
-          <div class="card-header">${mun.municipality}</div>
+          <div class="card-header">Municipio - ${mun.municipality}</div>
           <div class="card-body">
             <div class="predictions" id="predict-cuba-${counter}"></div>
           </div>
