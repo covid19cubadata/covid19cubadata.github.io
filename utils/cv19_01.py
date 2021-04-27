@@ -14,6 +14,9 @@ from scipy.optimize import least_squares, basinhopping
 import datetime as dt
 import warnings
 import math
+import fire
+import multiprocessing
+import time
 
 warnings.filterwarnings('ignore')
 
@@ -197,13 +200,18 @@ def residuals(x, t, y, model):
 
 def fitrobustlsq(t, y, model):
 
-    def objfun(x, t, y, model): return residuals(x, t, y, model)
+    lb, ub = bounds(y, model)
+
+    def objfun(x, t, y, model):
+        res = residuals(x, t, y, model)
+        np.nan_to_num(res, copy=False)
+        return res
 
     def objlsq(x, t, y, model): return 0.5 * \
         np.sum(residuals(x, t, y, model)**2)
     def objlar(x, t, y, model): return np.sum(
         np.abs(residuals(x, t, y, model)))
-    lb, ub = bounds(y, model)
+
     lbub = [(lb[i], ub[i]) for i in range(lb.size)]
     x0 = 0.5 * (lb + ub)
     loss = ['linear', 'soft_l1']
@@ -287,26 +295,6 @@ def predict(ydata, name):
         yfit_cum[:, i] = growthmodels(brfit[i], tfit, mods[i])
         yfit_inc[:, i] = gmodelsder(brfit[i], tfit, yfit_cum[:, i], mods[i])
     lwdate = dt.datetime(2020, 3, 11) + dt.timedelta(int(lwini))
-    # datesticks = []
-    # for i in range(0, tfit[-1], 7):
-    #     cdate = lwdate + dt.timedelta(i)
-    #     datesticks.append(cdate.strftime("%d-%m-%y"))
-    # layout = dict(title="Confirmados Diarios Cuba",
-    #               yaxis=dict(title="Casos Confirmados", ticklen=5,
-    #                          zeroline=False, gridwidth=2),
-    #               xaxis=dict(title="Día", ticklen=5, zeroline=False, gridwidth=2,
-    #                          tickvals=[i for i in range(0, tfit[-1], 7)],
-    #                          ticktext=datesticks
-    #                          ))
-    # trace0 = go.Scatter(x=tcum, y=yinc, mode='markers', name='Datos Cuba')
-    # trace1 = go.Scatter(x=tcum, y=smooth(yinc, 13),
-    #                     mode='markers', name='Datos Cuba Suavizados')
-    # dataplot = [trace0, trace1]
-    # for i in range(len(mods)):
-    #     trace1 = go.Scatter(x=tfit, y=yfit_inc[:, i], mode='lines', name=mods[i])
-    #     dataplot.append(trace1)
-    # fig = go.Figure(data=dataplot, layout=layout)
-    # plotly.offline.plot(fig, filename='cv19-Cuba-1.html')
 
     datesticks = []
     for i in range(0, tfit[-1]):
@@ -337,26 +325,77 @@ def predict(ydata, name):
     return {'data': data, 'days': datesticks}
 
 
+def compute_specific(ydata, name, code, BASE_PATH):
+    print(f'Computing {name}')
+    tt = time.time()
+    pr = predict(ydata, name)
+    json.dump(pr, open(os.path.join(
+        BASE_PATH, f'{code}.json'), 'w'))
+    duration = time.time() - tt
+    print(f'Finish computing {name}: {duration}s , {duration / 60}m')
+
+
 def compute():
+    tt = time.time()
     BASE_PATH = 'data/predictions'
     os.makedirs(BASE_PATH, exist_ok=True)
     jsonfile = 'data/covid19-cuba.json'
     cv19_cuba, cv19_prov, pr_map, cv19_mun, mun_map = parsejson(jsonfile)
 
-    print('Computing Cuba')
-    ydata = cv19_cuba[:, 0]
-    cuba = predict(ydata, 'Cuba')
-    json.dump(cuba, open(os.path.join(BASE_PATH, 'cuba.json'), 'w'), indent=1)
+    compute_specific(cv19_cuba[:, 0], 'Cuba', 'cuba', BASE_PATH)
 
     for i in range(cv19_prov.shape[1]):
         if(pr_map[i]['code'] == '00'):
             continue
-        print(f'Computing {pr_map[i]["name"]}')
-        ydata = cv19_prov[:, i]
-        pr = predict(ydata, pr_map[i]['name'])
-        json.dump(pr, open(os.path.join(
-            BASE_PATH, f'{pr_map[i]["code"]}.json'), 'w'))
+        compute_specific(cv19_prov[:, i], pr_map[i]
+                         ['name'], pr_map[i]["code"], BASE_PATH)
+
+    for i in range(cv19_mun.shape[1]):
+        if(mun_map[i]['code'] == '00'):
+            continue
+
+        compute_specific(cv19_mun[:, i], mun_map[i]
+                         ['name'], mun_map[i]["code"], BASE_PATH)
+
+
+class Menu:
+
+    def compute(self):
+        compute()
+
+    def compute_parallel(self):
+        BASE_PATH = 'data/predictions'
+        jsonfile = 'data/covid19-cuba.json'
+        print('parallel')
+        cv19_cuba, cv19_prov, pr_map, cv19_mun, mun_map = parsejson(jsonfile)
+        cpu = multiprocessing.cpu_count() // 2
+        if cpu == 0:
+            cpu = 1
+        with multiprocessing.Pool(cpu) as pp:
+            res = []
+
+            res.append(pp.apply_async(compute_specific,
+                                      (cv19_cuba[:, 0], 'Cuba', 'cuba', BASE_PATH,)))
+
+            for i in range(cv19_prov.shape[1]):
+                if(pr_map[i]['code'] == '00'):
+                    continue
+                res.append(pp.apply_async(compute_specific, (cv19_prov[:, i], pr_map[i]
+                                                             ['name'], pr_map[i]["code"], BASE_PATH,)))
+
+            for i in range(cv19_mun.shape[1]):
+                if(mun_map[i]['code'] == '00'):
+                    continue
+                res.append(pp.apply_async(compute_specific, (cv19_mun[:, i], mun_map[i]
+                                                             ['name'], mun_map[i]["code"], BASE_PATH,)))
+
+            for i in res:
+                i.wait()
 
 
 if __name__ == '__main__':
-    compute()
+    fire.Fire(Menu)
+
+
+# if __name__ == '__main__':
+#     compute()

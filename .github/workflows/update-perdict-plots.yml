@@ -23,7 +23,7 @@ jobs:
 
       - name: Get countries Json
         run: |
-          python utils/cv19_01.py
+          python utils/cv19_01.py compute
           git config --global user.name 'yudivian'
           git config --global user.email 'yudivian@gmail.com'
           git add .
