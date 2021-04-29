@@ -27,6 +27,7 @@
         "ci": "cardiopatía isquémica",
         "ce": "carcinoma epidermoide de esófago",
         "cl": "carcinoma epidermoide de laringe",
+        "cn": "cáncer de cólon",
         "co": "carcinoma epidermoide de la boca",
         "cp": "cáncer de pulmón",
         "cr": "carcinoma de próstata",
@@ -11905,6 +11906,171 @@
                             "po"
                         ],
                         "texto": "Ciudadano cubano de 86 años de edad.  Municipio Rafael de Freyre. Provincia Holguín. Antecedentes Patológicos Personales: Hipertensión arterial, Cardiopatía Isquémica, Insuficiencia Cardiaca y Postrado Crónico. Se encontraba aislado en su domicilio por ser contacto de caso confirmado. Se realiza PCR que resulta negativo. Se mantuvo asintomático. Nueve días después es identificado por el equipo de salud con síntomas, que habían comenzado ese mismo día. Se realiza test de antígeno que resulta positivo y se remite al hospital. Al llegar la tripulación del SIUM y examinar al paciente no constatan presión arterial ni pulso, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
+            },
+            "413": {
+                "fecha": "2021/04/27",
+                "fallecidos": [
+                    {
+                        "id": "f-606",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 56,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 56 años. Municipio Guanabacoa, provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 7 días. Presentó episodio súbito de sangramiento difuso por mucosas y sitios de puntura interpretado como una Coagulación Intravascular Diseminada, posteriormente presenta bradicardia extrema, cae en asistolia, se le realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-607",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 62,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 62 años. Municipio Boyeros. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 2 días. Evolucionó con distress respiratorio severo e inestabilidad hemodinámica que requiere apoyo con aminas vasoactivas, hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-608",
+                        "id_caso": null,
+                        "pais": "cn",
+                        "edad": 60,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 60 años. Municipio Boyeros. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 3 días. Presentó empeoramiento clínico gasométrico y radiológico compatible con distrés respiratorio severo e inestabilidad hemodinámica, son incorporadas aminas a alta dosis.  Hizo bradicardia extrema, parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-609",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años. Municipio Guanabacoa. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial   y Enfermedad Renal Crónica. Estadía hospitalaria: 6 días. Comenzó con hipotensión arterial que no responde a la administración de volumen por lo que se apoya con aminas. Hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-610",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Jovellanos",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.06",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 54 años. Municipio Jovellanos. Provincia de Matanzas. Antecedentes patológicos personales: Hipertensión Arterial y Diabetes Mellitus tipo II. Estadía hospitalaria: 22 días. Hizo disfunción múltiple de órganos, sin respuesta al tratamiento. Hizo parada cardíaca, se realizan maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-611",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ea"
+                        ],
+                        "texto": "Ciudadano cubano de 66 años. Municipio Boyeros. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Estenosis Aórtica Severa. Estadía hospitalaria: 6 días. Mantuvo elementos de distress respiratorio moderado, y hemodinámicamente estable. Posteriormente presentó inestabilidad hemodinámica que requiere apoyo con aminas, con evolución desfavorable, presenta bradicardia extrema, cae en asistolia  se le realizan maniobras de reanimación no siendo satisfactorias."
+                    },
+                    {
+                        "id": "f-612",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "er",
+                            "cn "
+                        ],
+                        "texto": "Ciudadano cubano de 65 años. Municipio Boyeros. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Renal Crónica y Cáncer de Colon. Estadía Hospitalaria: 17 días. Presentó empeoramiento del cuadro sin respuesta al tratamiento médico, posteriormente cae en parada cardiaca en asistolia se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-613",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 91,
+                        "sexo": "hombre",
+                        "municipio_detección": "Primero de Enero",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.04",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ha",
+                            "ei",
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 91 años. Municipio: Primero de Enero. Provincia de Ciego de Ávila.  Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebrovascular Isquémica. Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 25 días. Presentó evolución tórpida, con mala mecánica ventilatoria, hipoxémico, polipneico, taquicárdico, con ventilación no invasiva, en la Radiografía de Tórax se observa, Infiltrado reticular diseminado en ambos campos pulmonares, opacidad en vértice pulmonar derecho (lesión antigua). Comenzó con hipotensión arterial, hipoperfusión periférica, empeora la dificultad respiratoria, hace bradicardia y parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-614",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad.  Municipio Boyeros. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Obesidad.Estadía hospitalaria: 14 días.Presentó parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-615",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "hombre",
+                        "municipio_detección": "Rodas",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.02",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 86 años de edad.  Municipio Rodas. Provincia Cienfuegos. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 10 días. Presentó parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     }
                 ]
             }
