@@ -841,9 +841,32 @@ function plotPredict(plots, days, selector) {
       less_size = plot.y.length;
     }
   }
+  const pred = ["Predicción"];
+  for (var i = 1; i < columns[2].length; i++) {
+    pred.push(0);
+  }
+
+  var totalMethods = 0;
+  for (var i = 2; i < columns.length; i++) {
+    if (columns[i][1] != null) {
+      totalMethods++;
+      for (var y = 1; y < columns[i].length; y++) {
+        pred[y] = pred[y] + columns[i][y];
+      }
+    }
+  }
+
+  for (var i = 1; i < pred.length; i++) {
+    pred[i] = pred[i] / totalMethods;
+  }
+
+  types[pred[0]] = "spline";
+
+  columns.push(pred);
+
   columns.push(['Fecha', ...days]);
 
-  c3.generate({
+  var graph = c3.generate({
     bindto: selector,
     data: {
       x: 'Fecha',
@@ -889,7 +912,13 @@ function plotPredict(plots, days, selector) {
       },
     },
   });
+
+  for (var i = 2; i < (columns.length - 2); i++) {
+    graph.hide(columns[i][0]);
+  }
 }
+
+
 
 $locator = $('#location-select');
 const sorted_provinces = Object.keys(province_order).sort(
@@ -905,14 +934,13 @@ for (const pr of sorted_provinces) {
 function run() {
   const province_id = $locator.val();
   const general_view = $locator.val() === 'cuba';
-  let url = `data/predictions/${
-    general_view ? 'cuba' : pros_muns[province_id].DPA_province_code
-  }.json`;
+  let url = `data/predictions/${general_view ? 'cuba' : pros_muns[province_id].DPA_province_code
+    }.json`;
   const header = general_view
     ? 'Cuba'
     : province_id !== 'ijv'
-    ? `Provincia - ${pros_muns[province_id].province}`
-    : `Municipio especial - ${pros_muns[province_id].province}`;
+      ? `Provincia - ${pros_muns[province_id].province}`
+      : `Municipio especial - ${pros_muns[province_id].province}`;
   $('#predict-header').text(header);
   $.predict.plot(url, '#predict-cuba');
   const container$ = $('#other-predictions');
