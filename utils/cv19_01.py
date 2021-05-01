@@ -20,12 +20,13 @@ import time
 
 warnings.filterwarnings('ignore')
 
-
-def parsejson(jsonfile):
+def loadjson(jsonfile):
     with open(jsonfile, 'r', encoding='utf8') as json_file:
         data = json.load(json_file)
-    cpd = data['casos']['dias']
+    return data['casos']['dias']
 
+def parsejson(jsonfile):
+    cpd = loadjson(jsonfile)
     cv19_cuba = np.zeros((len(cpd), 4))
     cv19_prov = np.zeros((len(cpd), 17))
     cv19_mun = np.zeros((len(cpd), 169))
@@ -252,7 +253,7 @@ def metrics14(x, t, y, model):
 
 def getlastwave(y):
     ydcum = np.cumsum(y)
-    waves_ini = find_waves(smooth(ydcum, 15), 14, 7)
+    waves_ini = find_waves(smooth(ydcum, 7), 14, 7)
     lwave_ini = find_lastwave(y, waves_ini)
     ywaves = np.split(ydcum, [lwave_ini])
     ycum = ywaves[-1] - ywaves[-2][-1]
@@ -280,7 +281,7 @@ def predict(ydata, name):
     yinc, ycum, lwini = getlastwave(ydata)
     ndays = ycum.size
     tcum = np.arange(ndays)
-    mods = ['mcl', 'mcr', 'mcg', 'mcgg', 'mcs', 'mcls']
+    mods = ['mceg', 'mcgg', 'mcs', 'mcls']
     brfit = []
     for i in range(len(mods)):
         rfit = fitrobustlsq(tcum, ycum, mods[i])
@@ -308,7 +309,7 @@ def predict(ydata, name):
         'y': removeNaN(yinc.tolist()),
         'c3-plot': 'scatter'
     })
-    smooth_r = smooth(yinc, 13)
+    smooth_r = smooth(yinc, 7)
     smooth_r[smooth_r == np.infty] = None
     data.append({
         'name': f'Datos {name} Suavizados',
@@ -397,5 +398,5 @@ if __name__ == '__main__':
     fire.Fire(Menu)
 
 
-# if __name__ == '__main__':
+#if __name__ == '__main__':
 #     compute()
