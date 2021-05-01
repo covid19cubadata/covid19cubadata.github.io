@@ -813,3 +813,7 @@ cambiar los sufijos c3-circles-{suffix} por los correctos definidos
 .predictions .c3-chart-lines .c3-circles-mcls .c3-circle {
   display: none;
 }
+
+.predictions .c3-chart-lines .c3-circles-Predicción .c3-circle {
+  display: none;
+}
