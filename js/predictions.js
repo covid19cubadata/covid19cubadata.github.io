@@ -808,9 +808,26 @@ const province_order = {
 
 $.predict = {
   loaded: {},
+  load_promise: function (url) {
+    let result;
+    if (url in $.predict.loaded) {
+      result = Object.assign({}, $.predict.loaded[url]);
+    } else {
+      result = $.ajax({
+        url: url,
+        dataType: 'json',
+        cache: false,
+        success: function (data) {
+          $.predict.loaded[url] = Object.assign({}, data);
+        },
+      });
+    }
+    return result;
+  },
   load: function (url, callback) {
-    if (url in $.predict.loaded)
+    if (url in $.predict.loaded) {
       return callback(Object.assign({}, $.predict.loaded[url]));
+    }
     cache = false;
     $.ajax({
       url: url,
@@ -827,6 +844,75 @@ $.predict = {
       plotPredict(data.data, data.days, selector);
     });
   },
+  plot_promises: (promises, selectors) => {
+    $.when(...promises).done(function () {
+      let counter = 0;
+      let smaller_length = Number.MAX_SAFE_INTEGER;
+
+      // find smaller lenght of over the gropu we are plotting
+      for (let key of Object.keys(arguments)) {
+        let data;
+        if (!arguments[key].data) {
+          data = arguments[key][0];
+        } else {
+          data = arguments[key];
+        }
+        smaller_length = Math.min(smaller_length, data.data[2].y.length);
+      }
+      // slice and plot
+      for (let key of Object.keys(arguments)) {
+        let data;
+        if (!arguments[key].data) {
+          data = arguments[key][0];
+        } else {
+          data = arguments[key];
+        }
+
+        // cumpte lenght of the real data
+        const non_predic_length =
+          smaller_length - (data.data[2].y.length - data.data[0].y.length);
+
+        // slice all plots to fit with the smallest lenght
+        let datad = [];
+        for (let i = 0; i < data.data.length; i++) {
+          plot_data_cp = Object.assign({}, data.data[i]);
+          if (i === 0 || i === 1) {
+            plot_data_cp.y = plot_data_cp.y.slice(
+              plot_data_cp.y.length - non_predic_length >= 0
+                ? plot_data_cp.y.length - non_predic_length
+                : 0
+            );
+          } else {
+            plot_data_cp.y = plot_data_cp.y.slice(
+              plot_data_cp.y.length - smaller_length >= 0
+                ? plot_data_cp.y.length - smaller_length
+                : 0
+            );
+          }
+          datad.push(plot_data_cp);
+        }
+
+        let data_days = data.days.slice(
+          data.days.length - smaller_length >= 0
+            ? data.days.length - smaller_length
+            : 0
+        );
+
+        // plot in prallel
+        setTimeout(
+          (datay, days, selector) => {
+            plotPredict(datay, days, selector);
+          },
+          0,
+          datad,
+          data_days,
+          selectors[counter]
+        );
+
+        counter++;
+      }
+    });
+  },
 };
 
 function plotPredict(plots, days, selector) {
@@ -841,26 +927,27 @@ function plotPredict(plots, days, selector) {
       less_size = plot.y.length;
     }
   }
-  const pred = ["Predicción"];
-  for (var i = 1; i < columns[2].length; i++) {
+
+  const pred = ['Predicción'];
+  for (let i = 1; i < columns[2].length; i++) {
     pred.push(0);
   }
 
-  var totalMethods = 0;
-  for (var i = 2; i < columns.length; i++) {
-    if (columns[i][1] != null) {
+  let totalMethods = 0;
+  for (let i = 2; i < columns.length; i++) {
+    if (columns[i][1] !== null) {
       totalMethods++;
-      for (var y = 1; y < columns[i].length; y++) {
+      for (let y = 1; y < columns[i].length; y++) {
         pred[y] = pred[y] + columns[i][y];
       }
     }
   }
 
-  for (var i = 1; i < pred.length; i++) {
+  for (let i = 1; i < pred.length; i++) {
     pred[i] = pred[i] / totalMethods;
   }
 
-  types[pred[0]] = "spline";
+  types[pred[0]] = 'spline';
 
   columns.push(pred);
 
@@ -913,12 +1000,10 @@ function plotPredict(plots, days, selector) {
     },
   });
 
-  for (var i = 2; i < (columns.length - 2); i++) {
+  for (var i = 2; i < columns.length - 2; i++) {
     graph.hide(columns[i][0]);
   }
 }
-
-
 
 $locator = $('#location-select');
 const sorted_provinces = Object.keys(province_order).sort(
@@ -934,15 +1019,23 @@ for (const pr of sorted_provinces) {
 function run() {
   const province_id = $locator.val();
   const general_view = $locator.val() === 'cuba';
-  let url = `data/predictions/${general_view ? 'cuba' : pros_muns[province_id].DPA_province_code
-    }.json`;
+  let url = `data/predictions/${
+    general_view ? 'cuba' : pros_muns[province_id].DPA_province_code
+  }.json`;
   const header = general_view
     ? 'Cuba'
     : province_id !== 'ijv'
-      ? `Provincia - ${pros_muns[province_id].province}`
-      : `Municipio especial - ${pros_muns[province_id].province}`;
+    ? `Provincia - ${pros_muns[province_id].province}`
+    : `Municipio especial - ${pros_muns[province_id].province}`;
   $('#predict-header').text(header);
-  $.predict.plot(url, '#predict-cuba');
+
+  const load_data = [];
+  const selectors = [];
+
+  //$.predict.plot(url, '#predict-cuba');
+  load_data.push($.predict.load_promise(url));
+  selectors.push('#predict-cuba');
+
   const container$ = $('#other-predictions');
   container$.empty();
   if (general_view) {
@@ -961,7 +1054,9 @@ function run() {
       container$.append(el);
       url = `data/predictions/${pros_muns[pr].DPA_province_code}.json`;
       const sel = `#predict-cuba-${counter}`;
-      $.predict.plot(url, sel);
+      //$.predict.plot(url, sel);
+      load_data.push($.predict.load_promise(url));
+      selectors.push(sel);
       counter += 1;
     }
   } else {
@@ -985,10 +1080,13 @@ function run() {
       container$.append(el);
       url = `data/predictions/${mun.DPA_municipality_code}.json`;
       const sel = `#predict-cuba-${counter}`;
-      $.predict.plot(url, sel);
+      //$.predict.plot(url, sel);
+      load_data.push($.predict.load_promise(url));
+      selectors.push(sel);
       counter += 1;
     }
   }
+  $.predict.plot_promises(load_data, selectors);
 }
 
 $locator.on('change', function (e) {
