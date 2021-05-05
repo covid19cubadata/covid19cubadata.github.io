@@ -12218,7 +12218,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Playa",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_municipio_deteccion": "23.01",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha"
@@ -12503,7 +12503,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 71,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "municipio_detección": "Abreus",
                         "provincia_detección": "Cienfuegos",
                         "dpacode_municipio_deteccion": "27.08",
@@ -12728,8 +12728,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Santiago de Cuba",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "30.06",
-                        "dpacode_provincia_deteccion": "30",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ir",
                             "pa"
@@ -12940,8 +12940,8 @@
                         "sexo": "mujer",
                         "municipio_detección": "Ciénaga de Zapata",
                         "provincia_detección": "Matanzas",
-                        "dpacode_municipio_deteccion": "23.10",
-                        "dpacode_provincia_deteccion": "23",
+                        "dpacode_municipio_deteccion": "25.10",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ep",
                             "tn"
@@ -13130,8 +13130,8 @@
                         "sexo": "mujer",
                         "municipio_detección": "Camagüey",
                         "provincia_detección": "Camagüey",
-                        "dpacode_municipio_deteccion": "25.10",
-                        "dpacode_provincia_deteccion": "25",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
                         "enfermedades": [
                             "ei",
                             "ha",
