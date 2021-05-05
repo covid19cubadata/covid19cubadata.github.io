@@ -13331,6 +13331,150 @@
                         "texto": "Ciudadana cubana de 58 años. Municipio Cabaiguán, Provincia de Sancti Spíritus. Antecedentes Patológicos Personales: Retraso Mental Leve, Esquizofrenia e Hipertensión Arterial. Estadía hospitalaria: 6 días. Comenzó con falta de aire intensa de forma brusca, taquicardia, cianosis seguida de parada cardíaca se realizan maniobras de reanimación cardiopulmonar que no son efectiva"
                     }
                 ]
+            },
+            "420": {
+                "fecha": "2021/05/04",
+                "fallecidos": [
+                    {
+                        "id": "f-688",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 65,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Palma",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.05",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ep",
+                            "ci",
+                            "md",
+                            "fa"
+                        ],
+                        "texto": "Ciudadana cubana de 65 años. Municipio La Palma. Provincia de Pinar del Río. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Cardiopatía Isquémica, Miocardiopatía Dilatada, Fibrilación Auricular Crónica. Estadía hospitalaria: 8 días. Presentó fibrilación ventricular, parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-689",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 49,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "ha",
+                            "ep"
+                        ],
+                        "texto": "Ciudadana cubana de 49 años. Municipio San Miguel del Padrón. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Pulmonar Obstructiva Crónica. Estadía Hospitalaria: 3 días. Presentó distrés respiratorio severo, inestable hemodinámicamente y presentó arritmia ventricular que culmina en asistolia, se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-690",
+                        "id_caso": null,
+                        "pais": "cn",
+                        "edad": 68,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ev",
+                            "de"
+                        ],
+                        "texto": "Ciudadana cubana de 68 años. Municipio Playa. La Habana. Antecedentes Patológicos Personales Hipertensión Arterial,  Cardiopatía Isquémica. Diabetes Mellitus. Enfermedad Cerebrovascular y Demencia. Estadía hospitalaria: 27 días. Mantuvo evolución tórpida, distrés respiratorio severo, inestable hemodinámicamente a pesar del apoyo con aminas y con caída del ritmo diurético, posteriormente presentó parada cardiaca en asistolia, no siendo efectivas las medidas de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-691",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 55,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 55 años. Municipio Plaza de la Revolución. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 3 días. Presentó evolución tórpida, hipoxemia refractaria a estrategias ventilatorias e inestabilidad hemodinámica, posteriormente presenta cambios agudos isquémicos en electrocardiograma y aparece bloqueo auriculoventricular de tercer grado que culmina en asistolia, no siendo efectivas las maniobras de reanimación cardiopulmonar. "
+                    },
+                    {
+                        "id": "f-692",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano de 75 años. Municipio San Miguel del Padrón. La Habana. Antecedentes Patológicos Personales Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus y Enfermedad Cerebrovascular. Estadía hospitalaria: 7 días. Presentó evolución tórpida con hipoxemia mantenida e inestabilidad hemodinámica, hace parada cardiaca en asistolia fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas"
+                    },
+                    {
+                        "id": "f-693",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "mujer",
+                        "municipio_detección": "San Miguel del Padrón",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.08",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "er",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 71 años. Municipio San Miguel del Padrón. Provincia La Habana. Antecedentes Patológicos Personales Hipertensión Arterial,  Diabetes Mellitus. Enfermedad Renal Crónica y Enfermedad Cerebrovascular. Estadía hospitalaria: 6 días. Presentó evolución desfavorable, hipotensa, con pobre respuesta a aminas, con grados variables de hipoxemia, a pesar de las maniobras ventilatorias para mejorar la oxigenación, y posteriormente hace parada en asistolia, se comienzan las medidas de reanimación cardiopulmonar, siendo estas infructuosas."
+                    },
+                    {
+                        "id": "f-694",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 77,
+                        "sexo": "hombre",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ep",
+                            "np"
+                        ],
+                        "texto": "Ciudadano cubano de 77 años. Municipio Plaza de la Revolución. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Enfermedad Pulmonar Obstructiva Crónica y Neoplasia de Pulmón en estudio. Estadía hospitalaria: 20 días. Mantuvo evolución desfavorable del cuadro respiratorio, cardíaco y metabólico. Hizo parada cardiaca que no responde a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-695",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 75 años. Municipio de Matanzas, provincia del mismo nombre. Antecedentes patológicos personales: Diabetes Mellitus e Hipertensión Arterial. Estadía hospitalaria: 9 días. Presentó cuadro radiológico desfavorable y disminución de la diuresis. Hizo parada cardiaca se realizan  maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    }
+                ]
             }
         }
     }
