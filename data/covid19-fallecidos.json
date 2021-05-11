@@ -29,6 +29,7 @@
         "ci": "cardiopatía isquémica",
         "ce": "carcinoma epidermoide de esófago",
         "cl": "carcinoma epidermoide de laringe",
+        "cm": "carcinóma de mama",
         "cn": "cáncer de cólon",
         "co": "carcinoma epidermoide de la boca",
         "cp": "cáncer de pulmón",
@@ -106,6 +107,7 @@
         "hu": "hiperuricemia",
         "hw": "hipertensión pulmonar",
         "hy": "hiperlipidemia",
+        "hz": "hiperlipoproteinemia primaria",
         "ia": "infarto anterior",
         "ic": "insuficiencia cardiaca",
         "id": "inmunodeficiencia",
@@ -10615,7 +10617,7 @@
                     {
                         "id": "f-529",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 77,
                         "sexo": "hombre",
                         "municipio_detección": "Plaza de la Revolución",
@@ -10719,7 +10721,7 @@
                     {
                         "id": "f-535",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 56,
                         "sexo": "mujer",
                         "municipio_detección": "Matanzas",
@@ -10838,7 +10840,7 @@
                     {
                         "id": "f-542",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 84,
                         "sexo": "hombre",
                         "municipio_detección": "Habana del Este",
@@ -10986,7 +10988,7 @@
                     {
                         "id": "f-551",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 89,
                         "sexo": "mujer",
                         "municipio_detección": "Unión de Reyes",
@@ -11190,7 +11192,7 @@
                     {
                         "id": "f-563",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 82,
                         "sexo": "mujer",
                         "municipio_detección": "Bayamo",
@@ -11364,7 +11366,7 @@
                     {
                         "id": "f-573",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 78,
                         "sexo": "mujer",
                         "municipio_detección": "Santiago de Cuba",
@@ -11567,7 +11569,7 @@
                     {
                         "id": "f-585",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 88,
                         "sexo": "hombre",
                         "municipio_detección": "Arroyo Naranjo",
@@ -11744,7 +11746,7 @@
                     {
                         "id": "f-595",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 75,
                         "sexo": "hombre",
                         "municipio_detección": "Diez de Octubre",
@@ -11851,7 +11853,7 @@
                     {
                         "id": "f-601",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 88,
                         "sexo": "hombre",
                         "municipio_detección": "San Miguel del Padrón",
@@ -11972,7 +11974,7 @@
                     {
                         "id": "f-608",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 60,
                         "sexo": "hombre",
                         "municipio_detección": "Boyeros",
@@ -12140,7 +12142,7 @@
                     {
                         "id": "f-618",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 74,
                         "sexo": "mujer",
                         "municipio_detección": "Camagüey",
@@ -12276,7 +12278,7 @@
                     {
                         "id": "f-626",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 56,
                         "sexo": "mujer",
                         "municipio_detección": "Boyeros",
@@ -12448,7 +12450,7 @@
                     {
                         "id": "f-636",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 85,
                         "sexo": "hombre",
                         "municipio_detección": "La Habana Vieja",
@@ -12583,7 +12585,7 @@
                     {
                         "id": "f-644",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 67,
                         "sexo": "mujer",
                         "municipio_detección": "Diez de Octubre",
@@ -12654,7 +12656,7 @@
                     {
                         "id": "f-648",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 90,
                         "sexo": "mujer",
                         "municipio_detección": "Florida",
@@ -12828,7 +12830,7 @@
                     {
                         "id": "f-658",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 82,
                         "sexo": "mujer",
                         "municipio_detección": "Habana del Este",
@@ -13006,7 +13008,7 @@
                     {
                         "id": "f-668",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 84,
                         "sexo": "hombre",
                         "municipio_detección": "Boyeros",
@@ -13199,7 +13201,7 @@
                     {
                         "id": "f-679",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 68,
                         "sexo": "mujer",
                         "municipio_detección": "Playa",
@@ -13389,7 +13391,7 @@
                     {
                         "id": "f-690",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 68,
                         "sexo": "mujer",
                         "municipio_detección": "Playa",
@@ -13532,7 +13534,7 @@
                     {
                         "id": "f-698",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 57,
                         "sexo": "mujer",
                         "municipio_detección": "Perico",
@@ -13662,7 +13664,7 @@
                     {
                         "id": "f-705",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 68,
                         "sexo": "mujer",
                         "municipio_detección": "Güines",
@@ -13749,7 +13751,7 @@
                     {
                         "id": "f-710",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 66,
                         "sexo": "hombre",
                         "municipio_detección": "Cerro",
@@ -13870,7 +13872,7 @@
                     {
                         "id": "f-717",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 63,
                         "sexo": "hombre",
                         "municipio_detección": "Cerro",
@@ -13954,7 +13956,7 @@
                     {
                         "id": "f-722",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 56,
                         "sexo": "hombre",
                         "municipio_detección": "Guáimaro",
@@ -14032,7 +14034,7 @@
                     {
                         "id": "f-726",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 58,
                         "sexo": "hombre",
                         "municipio_detección": "Boyeros",
@@ -14117,7 +14119,7 @@
                     {
                         "id": "f-731",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 76,
                         "sexo": "hombre",
                         "municipio_detección": "Plaza de la Revolución",
@@ -14208,7 +14210,7 @@
                     {
                         "id": "f-726",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 58,
                         "sexo": "hombre",
                         "municipio_detección": "Boyeros",
@@ -14293,7 +14295,7 @@
                     {
                         "id": "f-731",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 76,
                         "sexo": "hombre",
                         "municipio_detección": "Plaza de la Revolución",
@@ -14383,7 +14385,7 @@
                     {
                         "id": "f-736",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 80,
                         "sexo": "mujer",
                         "municipio_detección": "Boyeros",
@@ -14470,7 +14472,7 @@
                     {
                         "id": "f-741",
                         "id_caso": null,
-                        "pais": "cn",
+                        "pais": "cu",
                         "edad": 66,
                         "sexo": "hombre",
                         "municipio_detección": "Camagüey",
@@ -14500,6 +14502,242 @@
                             "am"
                         ],
                         "texto": "Ciudadano cubano de 60 años de edad. Municipio y provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica, Amputación supracondilia de ambos Miembros Inferiores. Estadía hospitalaria: 6 días. Presentó empeoramiento clínico, gasométrico y radiológico. Fueron modificados parámetros ventilatorios y aumentadas las dosis de aminas. Posteriormente hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas. "
+                    }
+                ]
+            },
+            "426": {
+                "fecha": "2021/05/10",
+                "fallecidos": [
+                    {
+                        "id": "f-743",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Bejucal",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.01",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Municipio Bejucal. Provincia Mayabeque. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 7 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-744",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 100,
+                        "sexo": "mujer",
+                        "municipio_detección": "Melena del Sur",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.09",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 100 años de edad. Municipio Melena del Sur. Provincia Mayabeque. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus. Estadía hospitalaria: 12 días. Presentó empeoramiento de la disnea, cianosis generalizada, hipotensión arterial, sudoración intensa, fue intubada ventilada y apoyada con aminas. Posteriormente hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-745",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 60,
+                        "sexo": "mujer",
+                        "municipio_detección": "Matanzas",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadana cubana de 60 años de edad. Municipio Matanzas, de la provincia del mismo nombre. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 6 días. Presentó inestabilidad hemodinámica, acidemia metabólica, disminución del ritmo diurético, por lo que fue necesario utilizar aminas vasoactivas a altas dosis y corregir el desequilibrio acido básico e hidroelectrolítico. Se mantuvo con empeoramiento clínico, gasométrico y radiológico. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-746",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 82,
+                        "sexo": "mujer",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "cm",
+                            "oi"
+                        ],
+                        "texto": "Ciudadana cubana de 82 años de edad. Municipio cabecera de la provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial, Operada de Oclusión Intestinal, Carcinoma Mama. Estadía hospitalaria: 26 días. Presentó disnea intensa, cianosis, hipotensión arterial, desaturación, fue intubada, ventilada y apoyada con aminas. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-747",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanajay",
+                        "provincia_detección": "Artemisa",
+                        "dpacode_municipio_deteccion": "22.03",
+                        "dpacode_provincia_deteccion": "22",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "as",
+                            "hz"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años de edad. Municipio Guanajay. Provincia de Artemisa. Antecedentes Patológicos personales: Hipertensión arterial, cardiopatía isquémica, hiperlipoproteinemia primaria y artritis gotosa. Estadía hospitalaria: 8 días. Presentó empeoramiento de cuadro clínico con polipnea intensa, tiraje, aleteo nasal hipoxemia moderada, taquicardia por lo que se procede a intubar y ventilar, posteriormente hace parada cardíaca, se realizaron maniobras de reanimación, que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-748",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 78,
+                        "sexo": "mujer",
+                        "municipio_detección": "Plaza de la Revolución",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.02",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ar"
+                        ],
+                        "texto": "Ciudadana cubana de 78 años de edad. Municipio Plaza de la Revolución. La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Artritis Reumatoidea. Estadía hospitalaria: 6 días. Presentó empeoramiento del estado clínico, desaturación, cianosis, polipnea intensa y se decide intubar y ventilar. Posteriormente hizo parada cardíaca en asistolia; se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-749",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad. Municipio Diez de Octubre. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus y Enfermedad Renal Crónica. Estadía hospitalaria: 12 días. Presentó empeoramiento del cuadro respiratorio con hipoxemia severa, e hipotensión arterial es necesario intubar, ventilar y apoyar con aminas. Posteriormente mantuvo evolución clínica desfavorable, distresado e inestable hemodinámicamente, y cayó en parada cardiorespiratoria. Se iniciaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-750",
+                        "id_caso": null,
+                        "pais": "id",
+                        "edad": 48,
+                        "sexo": "hombre",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano indonesio de 48 años de edad. Municipio Playa. Provincia La Habana. Antecedentes patológicos personales: Hipertensión Arterial. Estadía hospitalaria: 10 días. Presentó empeoramiento clínico, gasométrico y radiológico, con hipoxemia refractaria, compatible con distress respiratorio severo, se realizaron maniobras ventilatorias con escasos resultados. Fue ventilado con parámetros altos, inestable hemodinámicamente, y fueron elevadas dosis de aminas. Posteriormente hizo parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-751",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "Santa Cruz del Norte",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.04",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 54 años de edad. Municipio Santa Cruz del Norte. Provincia Mayabeque. Antecedentes patológicos personales: Hipertensión Arterial y Diabetes Mellitus. Estadía hospitalaria: 12 días. Se evidenció empeoramiento clínico, gasométrico y radiológico compatible con distres respiratorio severo. Fueron modificados parámetros ventilatorios. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-752",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 90,
+                        "sexo": "hombre",
+                        "municipio_detección": "La Palma",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.05",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "dv"
+                        ],
+                        "texto": "Ciudadano cubano de 90 años de edad. Municipio La Palma. Provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial y Demencia Vascular. Estadía hospitalaria: 7 días. Presentó inestabilidad hemodinámica, desaturación. Se modificaron parámetros ventilatorios y se elevaron dosis de aminas. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-753",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 81,
+                        "sexo": "mujer",
+                        "municipio_detección": "Sancti Spíritus",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.07",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ht"
+                        ],
+                        "texto": "Ciudadana cubana de 81 años de edad. Municipio y provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión Arterial e Hipotiroidismo. Estadía hospitalaria: 7 días. Presentó deterioro de la hemodinamia siendo necesario apoyar con aminas vasoactivas. Hizo parada cardíaca se realizan maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-754",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "mujer",
+                        "municipio_detección": "Centro Habana",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 83 años de edad. Municipio Centro Habana. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Diabetes Mellitus. Estadía hospitalaria: 13 días. Presentó evolución clínica desfavorable, hipoxemia refractaria a estrategias ventilatorias e inestabilidad hemodinámica. Hizo parada cardíaca en asistolia que no respondió a las maniobras de reanimación. "
+                    },
+                    {
+                        "id": "f-755",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 62,
+                        "sexo": "mujer",
+                        "municipio_detección": "Los Arabos",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.13",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 62 años de edad. Municipio de Los Arabos. Provincia de Matanzas. Antecedentes Patológicos Personales: Hipertensión arterial y Diabetes Mellitus. Estadía hospitalaria: 6 días. Hizo dos eventos de desaturación por oximetría, que se asocian a cianosis e hipotensión, en el segundo hizo parada cardiorrespiratoria en asistolia, se realizan maniobras de reanimación cardiopulmonar sin lograr recuperar la circulación espontánea y fallece."
+                    },
+                    {
+                        "id": "f-756",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 77,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci",
+                            "hp"
+                        ],
+                        "texto": "Ciudadano cubano de 77 años de edad. Provincia Camagüey. Antecedentes patológicos personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica e Hiperplasia Prostática. Estadía hospitalaria: 11 días. Presentó cuadro súbito de intensificación de la disnea, cianosis, hipotensión arterial y gradiente térmico. Fue intubado, ventilado y apoyado con aminas. Hizo parada cardiaca en asistolia; fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
                     }
                 ]
             }
