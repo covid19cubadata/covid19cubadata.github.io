@@ -147,6 +147,7 @@
         "nc": "neumopatía crónica",
         "nd": "nefropatía diabética",
         "nf": "neuropatía periférica",
+        "ng": "neoplasia laríngea",
         "ni": "nefritis intersticial crónica",
         "ne": "neoplasia de esófago",
         "nl": "nefritis lúpica",
@@ -14960,6 +14961,177 @@
                             "er"
                         ],
                         "texto": "Ciudadano cubano de 66 años de edad. Municipio y provincia Las Tunas. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus y Enfermedad Renal Crónica. Estadía hospitalaria: 6 días. Mantuvo la disnea ligera, estabilidad hemodinámica, fue evaluado por Nefrología, se le realiza hemodiálisis, en el Rayos X de Tórax se observaron lesiones intersticiales inflamatorias en ambos campos pulmonares y en la gasometría acidemia metabólica ligera. Se hacen correcciones del desequilibrio ácido básico. Posteriormente hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas. "
+                    }
+                ]
+            },
+            "428": {
+                "fecha": "2021/05/12",
+                "fallecidos": [
+                    {
+                        "id": "f-770",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 64,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cotorro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.15",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "ob",
+                            "ep",
+                            "ht"
+                        ],
+                        "texto": "Ciudadana cubana de 64 años de edad. Residía en el municipio Cotorro. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión arterial, Cardiopatía Isquémica, Diabetes Mellitus, Obesidad, Enfermedad Pulmonar Obstructiva Crónica, Hipotiroidismo. Estadía Hospitalaria: 10 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-771",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 71,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ag"
+                        ],
+                        "texto": "Ciudadana cubana de 71 años de edad. Residía en el  municipio Habana Vieja. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión arterial, Cardiopatía Isquémica y Artritis Gotasa. Estadía hospitalaria: 9 días. Hizo parada cardíaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-772",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Bayamo",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci",
+                            "de",
+                            "ps"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Residía en el  municipio Bayamo. Provincia Granma.  Antecedentes Patológicos Personales: Hipertensión arterial, Diabetes Mellitus, Cardiopatía Isquémica, Demencia y Psoriasis. Estadía hospiatalaria: 5 días. Presentó parada cardíaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar. "
+                    },
+                    {
+                        "id": "f-773",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [],
+                        "texto": "Ciudadano cubano de 76 años de edad. Residía  en el municipio Cerro. Provincia La Habana. Antecedentes Patológicos Personales: Sano. Estadía Hospitalaria: 23 días. Hizo parada cardiorespiratoria se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-774",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 47,
+                        "sexo": "hombre",
+                        "municipio_detección": "Boyeros",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 47 años  de edad. Residía en el municipio Boyeros. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Obesidad. Estadía hospitalaria: 13 días. Hizo parada cardíaca, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-775",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 72,
+                        "sexo": "mujer",
+                        "municipio_detección": "Playa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.01",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "er",
+                            "ep",
+                            "ao"
+                        ],
+                        "texto": "Ciudadana cubana de 72 años de edad. Residía en el municipio Playa. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Renal Crónica, Enfermedad Pulmonar Obstructiva Crónica, Adenocarcinoma de próstata con metástasis múltiples. Estadía hospitalaria: 7 días. Hizo episodio  bradicardia extrema, asistolia y parada cardiorespiratoria, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-776",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ep"
+                        ],
+                        "texto": "Ciudadano cubano de 75 años de edad. Residía en el municipio Camagüey. Provincia Camagüey. Antecedentes patológicos personales: Enfermedad Pulmonar Obstructiva Crónica, Desnutrición Proteico energética. Estadía hospitalaria: 13 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-777",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "hombre",
+                        "municipio_detección": "Manatí",
+                        "provincia_detección": "Las Tunas",
+                        "dpacode_municipio_deteccion": "31.01",
+                        "dpacode_provincia_deteccion": "31",
+                        "enfermedades": [
+                            "ha",
+                            "ng"
+                        ],
+                        "texto": "Ciudadano cubano de 69 años  de edad Residía en el municipio Manatí. Provincia de Las Tunas. Antecedentes Patológicos Personales: Neoplasia laríngea e Hipertensión Arterial. Estadía hospitalaria: 5 días. Hizo parada cardíaca, se realizan maniobras de reanimación cardiopulmonar que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-778",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 58,
+                        "sexo": "hombre",
+                        "municipio_detección": "Pedro Betancourt",
+                        "provincia_detección": "Matanzas",
+                        "dpacode_municipio_deteccion": "25.07",
+                        "dpacode_provincia_deteccion": "25",
+                        "enfermedades": [
+                            "ha"
+                        ],
+                        "texto": "Ciudadano cubano de 58 años de edad. Residía en el municipio Pedro Betancourt. Provincia de Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía hospitalaria: 11 días.  Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-779",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 54,
+                        "sexo": "hombre",
+                        "municipio_detección": "San José de las Lajas",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.02",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 54 años de edad. Residía en el  municipio San José de las Lajas. Provincia de Mayabeque. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus. Estadía Hospitalaria: 11 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
                     }
                 ]
             }
