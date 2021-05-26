@@ -893,8 +893,8 @@ $.predict = {
         }
 
         let data_days = data.days.slice(
-          data.days.length - smaller_length >= 0
-            ? data.days.length - smaller_length
+          data.days.length - smaller_length +1>= 0
+            ? data.days.length - smaller_length + 1
             : 0
         );
 
