@@ -67,6 +67,7 @@
         "ei": "enfermedad cerebrovascular isquémica",
         "eg": "enfermedad del colágeno",
         "ej": "enfermedad de cushing",
+        "ee": "enfermedad vascular encefálica hemorrágica",
         "el": "epilepsia",
         "em": "etilismo crónico",
         "en": "encamado",
@@ -17697,7 +17698,7 @@
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "dm",
-                            "if",
+                            "it",
                             "ck",
                             "mt"
                         ],
@@ -17785,6 +17786,128 @@
                             "ep"
                         ],
                         "texto": "Ciudadano cubano, de 76 años de edad. Municipio Nueva Paz. Provincia  Mayabeque. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Enfermedad Pulmonar Obstructiva Crónica. Estadía hospitalaria: 8 días. Presentó bradicardia extrema, parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    }
+                ]
+            },
+            "445": {
+                "fecha": "2021/05/29",
+                "fallecidos": [
+                    {
+                        "id": "f-945",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 32,
+                        "sexo": "mujer",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "sw"
+                        ],
+                        "texto": "Ciudadana cubana de 32 años de edad. Municipio Guanabacoa. Provincia La Habana. Antecedentes Patológicos Personales: Síndrome de Down. Estadía hospitalaria: 5 días. Presentó evolución desfavorable con poca respuesta a la terapéutica empleada y bradicardia, hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-946",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 91,
+                        "sexo": "hombre",
+                        "municipio_detección": "Guanabacoa",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.07",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ch",
+                            "dm"
+                        ],
+                        "texto": "Ciudadano cubano de 91 años de edad. Municipio Guanabacoa. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Hipertensiva y Diabetes Mellitus. Estadía hospitalaria: 19 días. Se mantuvo con evolución tórpida, hipoxemia mantenida a pesar de las estrategias ventilatorias, inestabilidad hemodinámica, hizo episodio de fibrilación ventricular, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas. "
+                    },
+                    {
+                        "id": "f-947",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 68,
+                        "sexo": "hombre",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "as"
+                        ],
+                        "texto": "Ciudadano cubano de 68 años de edad. Municipio Diez de Octubre. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Artritis Gotosa. Estadía hospitalaria: 10 días. Presentó evolución desfavorable, desaturación e hipoxemia mantenida, inestabilidad hemodinámica a pesar del apoyo con aminas, oligoanuria, posteriormente presentó parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-948",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 80,
+                        "sexo": "mujer",
+                        "municipio_detección": "Holguín",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.06",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 80 años de edad. Municipio Holguín. Provincia Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Cardiopatía Isquémica. Estadía hospitalaria: 9 días. Presentó inestabilidad hemodinámica, se mantuvo intubada y ventilada, fueron incorporadas aminas vasoactivas al tratamiento. Posteriormente hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-949",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "mujer",
+                        "municipio_detección": "Holguín",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.06",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ha",
+                            "ci",
+                            "dm",
+                            "am"
+                        ],
+                        "texto": "Ciudadana cubana de 66 años de edad. Municipio y Provincia Holguín. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica, Diabetes Mellitus. Amputación Miembro Inferior Izquierdo. Estadía hospitalaria: 2 horas. Fue llevada por los familiares alos Servicios de Salud, presentaba disnea intensa, al examen físico se auscultan estertores crepitantes, en el Rayos X de Tórax se apreciaron   opacidades heterogéneas, de aspecto inflamatorio, diseminadas en ambos campos pulmonares, fue tratada con oxígeno suplementario, antibióticos y broncodilatadores. Se traslada para la Unidad de Cuidados Intensivos, donde hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas.Se recibe resultado de PCR posmortem Positivo."
+                    },
+                    {
+                        "id": "f-950",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 39,
+                        "sexo": "mujer",
+                        "municipio_detección": "Sandino",
+                        "provincia_detección": "Pinar del Río",
+                        "dpacode_municipio_deteccion": "21.01",
+                        "dpacode_provincia_deteccion": "21",
+                        "enfermedades": [
+                            "ha",
+                            "ht",
+                            "ob",
+                            "dm"
+                        ],
+                        "texto": "Ciudadana cubana de 39 años de edad. Municipio Sandino. Provincia Pinar del Río. Antecedentes Patológicos Personales: Hipertensión Arterial, Hipotiroidismo, Obesidad y Diabetes Mellitus. Estadía hospitalaria: 10 días. Presentó frialdad, sudoración, taquicardia, se interpretó el cuadro como hipoglucemia, posteriormente hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-951",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 52,
+                        "sexo": "hombre",
+                        "municipio_detección": "Palma Soriano",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.07",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "tc",
+                            "ee"
+                        ],
+                        "texto": "Ciudadano cubano de 52 años de edad. Municipio Palma Soriano. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Tumor Cerebral, Enfermedad Vascular Encefálica Hemorrágica. Estadía hospitalaria: 53 días. Presentó falta de aire intensa, ansiedad y cifras de tensionales bajas, todo de manera súbita ante la movilización en el lecho con posible diagnóstico de Tromboembolismo Pulmonar. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no resultaron efectivas. "
                     }
                 ]
             }
