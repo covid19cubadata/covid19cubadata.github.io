@@ -18160,8 +18160,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Boyeros",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "28.13",
-                        "dpacode_provincia_deteccion": "28",
+                        "dpacode_municipio_deteccion": "23.13",
+                        "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha",
                             "ob"
