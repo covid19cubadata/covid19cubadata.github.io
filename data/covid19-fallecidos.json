@@ -18,6 +18,7 @@
         "av": "accidente vascular encefálico",
         "at": "aneurisma trombosado de la aorta abdominal",
         "aw": "anemia crónica",
+        "ax": "alergia bronquial",
         "ay": "ataxia cerebelosa",
         "ba": "bloqueo aurículo-ventricular",
         "br": "bronquiectasia",
@@ -146,6 +147,7 @@
         "me": "mielopatía espondilitica cervical",
         "md": "miocardiopatía dilatada",
         "mg": "miastenia grave",
+        "mi": "migraña",
         "ml": "melanoma de la piel",
         "mm": "mieloma múltiple",
         "mo": "monorreno",
@@ -18370,6 +18372,149 @@
                             "dm"
                         ],
                         "texto": "Ciudadano cubano, 58 años de edad. Municipio Ciego de Ávila. Provincia Ciego de Ávila. Antecedentes patológicos personales: Hipertensión Arterial y Diabetes Mellitus. Estadía Hospitalaria: 14 días. Hizo  parada cardíaca en asistolia, se realizaron maniobras de reanimación, que no fueron."
+                    }
+                ]
+            },
+            "449": {
+                "fecha": "2021/06/02",
+                "fallecidos": [
+                    {
+                        "id": "f-979",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 94,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ev",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 94 años de edad. Municipio Habana del Este. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebrovascular y Demencia senil. Estadía hospitalaria: 5 días. Presentó evolución desfavorable, hipoxemia mantenida, shock, sin respuesta la terapéutica empleada. Posteriormente hizo parada cardiaca en asistolia sin respuesta las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-980",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 79,
+                        "sexo": "mujer",
+                        "municipio_detección": "Habana del Este",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ob",
+                            "nm",
+                            "mp"
+                        ],
+                        "texto": "Ciudadana cubana de 79 años de edad. Municipio Habana del Este. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad y Neoplasia de Mama con metástasis pulmonar. Estadía hospitalaria: 8. Presentó cuadro súbito de disnea intensa y seguida de parada cardíaca en asistolia que no respondió a las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-981",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 52,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "ha",
+                            "ev"
+                        ],
+                        "texto": "Ciudadana cubana de 52 años de edad. Municipio Habana Vieja. Provincia La Habana. Antecedentes Patológicos Personales: Diabetes Mellitus, Hipertensión Arterial y Enfermedad Cerebrovascular. Estadía hospitalaria: 8 días. Hizo parada cardíaca en asistolia. Se realizaron maniobras de reanimación cardiopulmonar, sin obtener retorno a la circulación espontánea."
+                    },
+                    {
+                        "id": "f-982",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 66,
+                        "sexo": "hombre",
+                        "municipio_detección": "Rodas",
+                        "provincia_detección": "Cienfuegos",
+                        "dpacode_municipio_deteccion": "27.02",
+                        "dpacode_provincia_deteccion": "27",
+                        "enfermedades": [
+                            "ha",
+                            "io",
+                            "md",
+                            "er"
+                        ],
+                        "texto": "Ciudadano cubano de 66 años de edad. Municipio Rodas. Provincia de Cienfuegos. Antecedentes Patológicos Personales: Hipertensión Arterial, Infarto cardíaco, Miocardiopatía Dilatada, Enfermedad Renal Crónica. Estadía hospitalaria: 5 días. Presentó disnea de aparición súbita, con tiraje intercostal, cianosis, crepitantes en marea montante, que se interpretó como Edema agudo del pulmón y se trata como tal, requiriendo de entubación y ventilación mecánica. Posteriormente hizo parada cardíaca. Se realizaron maniobras de reanimación cardiopulmonar que no resultaron efectivas."
+                    },
+                    {
+                        "id": "f-983",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 57,
+                        "sexo": "hombre",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadano cubano de 57 años de edad. Provincia Camagüey. Antecedentes patológicos personales: Hipertensión Arterial Esencial y Obesidad. Estadía hospitalaria: 13 días. Presentó disfunción múltiple de órganos. Posteriormente hizo parada cardíaca.  Se realizaron maniobras de reanimación que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-984",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 52,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santa Clara",
+                        "provincia_detección": "Villa Clara",
+                        "dpacode_municipio_deteccion": "26.09",
+                        "dpacode_provincia_deteccion": "26",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 52 años de edad. Municipio Santa Clara. Provincia Villa Clara. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus, Obesidad mórbida. Presentó parada cardiaca; se realizaron maniobras de reanimación cardiopulmonar, no se logró circulación espontánea."
+                    },
+                    {
+                        "id": "f-985",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "mujer",
+                        "municipio_detección": "Media Luna",
+                        "provincia_detección": "Granma",
+                        "dpacode_municipio_deteccion": "33.08",
+                        "dpacode_provincia_deteccion": "33",
+                        "enfermedades": [
+                            "ha",
+                            "ob",
+                            "ax",
+                            "mi"
+                        ],
+                        "texto": "Ciudadana cubana de 69 años de edad. Municipio Media Luna. Provincia Granma. Antecedentes Patológicos personales: Hipertensión arterial, Alergia bronquial,  Migraña. Estadía hospitalaria: 5 días. Presentó empeoramiento de la hipoxemia y hemodinamia sin respuesta al tratamiento. Posteriormente hizo parada cardiaca. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
+                    },
+                    {
+                        "id": "f-986",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 98,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 98 años de edad. Municipio y provincia de Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión arterial, Diabetes Mellitus y Cardiopatía Isquémica. Estadía hospitalaria: 2 días. Presentó aumento en el número y cantidad de diarreas, con deshidratación, signos de hipoperfusión periférica, hipoxemia que no mejoró con oxigenoterapia y se inició Ventilación No Invasiva. No se logró la saturación deseada y la hemodinamia con la administración de volumen y se decide intubar, ventilar y apoyar con aminas. Posteriormente hizo parada cardiorespiratoria en asistolia. Se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas. "
                     }
                 ]
             }
