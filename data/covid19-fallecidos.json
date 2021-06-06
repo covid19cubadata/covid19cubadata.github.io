@@ -18929,7 +18929,7 @@
                         "edad": 51,
                         "sexo": "mujer",
                         "municipio_detección": "Camagüey",
-                        "provincia_detección": "CamagUey",
+                        "provincia_detección": "Camagüey",
                         "dpacode_municipio_deteccion": "30.08",
                         "dpacode_provincia_deteccion": "30",
                         "enfermedades": [
@@ -18945,7 +18945,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Centro Habana",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_municipio_deteccion": "23.03",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha"
