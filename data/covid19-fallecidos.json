@@ -55,6 +55,7 @@
         "dm": "diabetes mellitus",
         "dn": "desnutrición",
         "do": "diverticulitis de colon",
+        "dp": "derrame pleural",
         "ds": "demencia senil",
         "dt": "dialítico",
         "du": "distrofia muscular",
@@ -153,7 +154,7 @@
         "ml": "melanoma de la piel",
         "mm": "mieloma múltiple",
         "mo": "monorreno",
-        "mp": "metástasis pulmonar",
+        "mp": "metástasis",
         "mr": "marcapaso",
         "mt": "macro-agiopatía",
         "na": "neurosis ansiosa",
@@ -19181,6 +19182,148 @@
                             "dm"
                         ],
                         "texto": "Ciudadana cubana  de 50 años. Municipio Caimito. Provincia de Artemisa. Antecedentes Patológicos Personales: Diabetes Mellitus. Estadía hospitalaria: 4 días. Se mantuvo crítica inestable repite parada cardiaca de la cual no se logra recuperar a pesar de las maniobras de reanimación cardiopulmonar."
+                    }
+                ]
+            },
+            "454": {
+                "fecha": "2021/06/07",
+                "fallecidos": [
+                    {
+                        "id": "f-1027",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 69,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "cm",
+                            "cc",
+                            "nm"
+                        ],
+                        "texto": "Ciudadana cubana de 69 años. Municipio Cerro. La Habana. Estadía hospitalaria: 11 días. Antecedentes Patológicos Personales: Diabetes Mellitus, Cirrosis Hepática por Hepatitis C y Neoplasia de Mama. Se mantuvo evolución clínica desfavorable, en shock, con hipoxemia mantenida y posteriormente presenta parada cardíaca en asistolia sin respuesta a las maniobras de reanimación cardiopulmonar. "
+                    },
+                    {
+                        "id": "f-1028",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 93,
+                        "sexo": "mujer",
+                        "municipio_detección": "Cerro",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.10",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "ev",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 93 años. Municipio Cerro. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Enfermedad Cerebrovascular y Demencia senil. Estadía hospitalaria: 10 días. Presentó empeoramiento clínico con hipoxemia mantenida, signos de shock, hizo parada en asistolia, se realizan maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-1029",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 61,
+                        "sexo": "mujer",
+                        "municipio_detección": "Diez de Octubre",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.09",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "nm",
+                            "mp",
+                            "dp"
+                        ],
+                        "texto": "Ciudadana cubana de 61 años. Municipio Diez de Octubre.  La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial Neoplasia de Mama operada con Derrame Pleural bilateral por metástasis. Estadía: 16 días. Presentó evolución clínica desfavorable, hipoxemia sin respuesta las estrategias ventilatorias e inestabilidad hemodinámica, en horas de la noche presenta bradicardia extrema y parada cardíaca en asistolia no respondiendo a las maniobras de reanimación cardiopulmonar. "
+                    },
+                    {
+                        "id": "f-1030",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 53,
+                        "sexo": "mujer",
+                        "municipio_detección": "La Habana Vieja",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "ha",
+                            "dm",
+                            "ci"
+                        ],
+                        "texto": "Ciudadana cubana de 53 años. Municipio Habana Vieja.  La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Diabetes Mellitus. Estadía hospitalaria: 3 días. Presentó evolución clínica desfavorable, hipoxemia mantenida, hipotensión arterial a pesar del apoyo con aminas y hace parada cardíaca en asistolia de la que no se logra recuperar a pesar de las maniobras de reanimación cardiopulmonar."
+                    },
+                    {
+                        "id": "f-1031",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 47,
+                        "sexo": "mujer",
+                        "municipio_detección": "Ciro Redondo",
+                        "provincia_detección": "Ciego de Ávila",
+                        "dpacode_municipio_deteccion": "29.05",
+                        "dpacode_provincia_deteccion": "29",
+                        "enfermedades": [
+                            "ab",
+                            "dm",
+                            "er",
+                            "ht"
+                        ],
+                        "texto": "Ciudadana cubana de 47 años. Municipio Ciro Redondo. Provincia Ciego de Ávila. Antecedentes patológicos personales: Asma Bronquial, Diabetes Mellitus, hipotiroidismo Enfermedad Renal Crónica. Estadía: 4 días. Presentó disnea intensa, cianosis generalizada, taquicardia, hipotensión arterial, es intubada y ventilada, hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-1032",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 83,
+                        "sexo": "mujer",
+                        "municipio_detección": "Santiago de Cuba",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ha",
+                            "ds",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana de 83 años. Municipio Santiago de Cuba. Provincia Santiago de Cuba. Antecedentes patológicos personales: Hipertensión Arterial, Demencia senil, Obesidad.  Estadía: 10 días. Mantuvo disnea ligera, con estabilidad hemodinámica, con Ventilación No Invasiva cumpliendo protocolo de tratamiento. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-1033",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 84,
+                        "sexo": "mujer",
+                        "municipio_detección": "Sancti Spíritus",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "28.07",
+                        "dpacode_provincia_deteccion": "28",
+                        "enfermedades": [
+                            "ha",
+                            "ab",
+                            "ds"
+                        ],
+                        "texto": "Ciudadana cubana de 84 años. Municipio Sancti Spíritus. Provincia Sancti Spíritus. Antecedentes patológicos personales: Hipertensión Arterial, Asma Bronquial, Demencia Senil. Estadía hospitalaria: 4 días. Presentó empeoramiento clínico gasométrico y radiológico, con inestabilidad hemodinámica, es trasladada a la Unidad de Cuidados Intensivos. Hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no son efectivas."
+                    },
+                    {
+                        "id": "f-1034",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 86,
+                        "sexo": "hombre",
+                        "municipio_detección": "Cabaiguán",
+                        "provincia_detección": "Sancti Spíritus",
+                        "dpacode_municipio_deteccion": "24.02",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ao",
+                            "ds"
+                        ],
+                        "texto": "Ciudadano cubano de 83 años. Municipio Cabaiguan. Provincia Sancti Spíritus. Antecedentes patológicos personales: Adenocarcinoma de próstata, Demencia Senil. Estadía: 4 días. Presentó empeoramiento clínico, con hipotensión arterial, acidemia metabólica e hipoxemia. Fueron modificados los parámetros ventilatorios y apoyado con aminas. Hizo parada cardiorespiratoria, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
             }
