@@ -525,7 +525,7 @@ function run_calculations() {
           );
         }
 
-        $.walker.map.gen_markers(data);
+        //$.walker.map.gen_markers(data);
 
         $.walker.load('data/municipios.geojson', function (municipios) {
           $.walker.municipality.list = municipios;
@@ -2487,6 +2487,8 @@ function run_calculations() {
             tasacolors = {};
             tasacolors[tasasAll[0]] = '#1C1340';
             tasacolors[tasas[0]] = '#B01E22';
+
+            //console.log(dates15,tasas,tasasAll);
 
             c3.generate({
               bindto: '#tasas-info',
