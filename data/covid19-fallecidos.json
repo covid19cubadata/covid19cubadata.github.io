@@ -19354,8 +19354,8 @@
                         "id": "f-1036",
                         "id_caso": null,
                         "pais": "cu",
-                        "edad": 93,
-                        "sexo": "90",
+                        "edad": 90,
+                        "sexo": "mujer",
                         "municipio_detección": "Bayamo",
                         "provincia_detección": "Granma",
                         "dpacode_municipio_deteccion": "33.04",
@@ -19460,7 +19460,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Boyeros",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.06",
+                        "dpacode_municipio_deteccion": "23.13",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "it",
@@ -19524,7 +19524,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Palma Soriano",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_municipio_deteccion": "34.07",
                         "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha",
