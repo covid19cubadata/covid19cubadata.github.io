@@ -20224,8 +20224,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Santiago de Cuba",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "30.06",
-                        "dpacode_provincia_deteccion": "30",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
                         "enfermedades": [],
                         "texto": "Ciudadano cubano, de 66 años de edad. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Sano. Estadía Hospitalaria: 11 días. Presentó inestabilidad hemodinámica con cifras de hipotensión, sufrió parada cardíaca en asistolia, se realizaron maniobras de reanimación cardiopulmonar que no fueron efectivas."
                     },
@@ -20237,8 +20237,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Santiago de Cuba",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "33.06",
-                        "dpacode_provincia_deteccion": "33",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "fc",
                             "dn"
