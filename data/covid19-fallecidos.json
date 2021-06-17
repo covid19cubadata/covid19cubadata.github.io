@@ -191,6 +191,7 @@
         "ot": "osteomiosarcoma",
         "ov": "operado de válvula aórtica con prótesis valvular",
         "ox": "osteoporosis",
+        "oy": "osteoatritis deformante",
         "pa": "parkinson",
         "pc": "parálisis cerebral",
         "pd": "pie diabético",
@@ -20767,6 +20768,92 @@
                             "av"
                         ],
                         "texto": "Ciudadana cubana de 80 años. Municipio Güines. Provincia Mayabeque. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y Accidente Vascular Encefálico. Estadía hospitalaria: 20 días. Presentó disnea intensa, hipotensión arterial y bradicardia extrema, hizo parada cardiaca en asistolia, fueron realizadas maniobras de reanimación Cardiopulmonar, que no fueron efectivas."
+                    }
+                ]
+            },
+            "463": {
+                "fecha": "2021/06/16",
+                "fallecidos": [
+                    {
+                        "id": "f-1120",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 67,
+                        "sexo": "mujer",
+                        "municipio_detección": "Camagüey",
+                        "provincia_detección": "Camagüey",
+                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_provincia_deteccion": "30",
+                        "enfermedades": [
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana, de  67 años de edad. Municipio Camagüey. Provincia Camagüey. Antecedentes patológicos personales: Hipertensión Arterial y Obesidad. Estadía hospitalaria: 2 días. Hizo parada cardíaca en asistolia fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-1121",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 74,
+                        "sexo": "mujer",
+                        "municipio_detección": "Arroyo Naranjo",
+                        "provincia_detección": "La Habana",
+                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_provincia_deteccion": "23",
+                        "enfermedades": [
+                            "dm",
+                            "ha",
+                            "ob"
+                        ],
+                        "texto": "Ciudadana cubana, de 74 años de edad. Municipio Arroyo Naranjo. Provincia La Habana.  Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Obesidad Mórbida.  Estadía hospitalaria: 8 días. Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que fueron efectivas."
+                    },
+                    {
+                        "id": "f-1122",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 75,
+                        "sexo": "hombre",
+                        "municipio_detección": "Songo La Maya",
+                        "provincia_detección": "Santiago de Cuba",
+                        "dpacode_municipio_deteccion": "34.05",
+                        "dpacode_provincia_deteccion": "34",
+                        "enfermedades": [
+                            "ep",
+                            "dv",
+                            "oy"
+                        ],
+                        "texto": "Ciudadano cubano, de 75 años de edad. Municipio  Songo La Maya, provincia Santiago de Cuba. Antecedentes Patológicos Personales: Enfermedad Pulmonar Obstructiva Crónica, Demencia Vascular y Osteoartritis deformante. Hizo bradicardia extrema, parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar, que no fueron efectivas."
+                    },
+                    {
+                        "id": "f-1123",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Güines",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.08",
+                        "dpacode_provincia_deteccion": "24",
+                        "enfermedades": [
+                            "ha",
+                            "ev"
+                        ],
+                        "texto": "Ciudadano cubano, de 76 años de edad. Municipio Güines. Provincia Mayabeque. Antecedentes patológicos personales: Hipertensión Arterial, Enfermedad Cerebrovascular. Estadía hospitalaria: 27 días.  Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
+                    },
+                    {
+                        "id": "f-1124",
+                        "id_caso": null,
+                        "pais": "cu",
+                        "edad": 76,
+                        "sexo": "hombre",
+                        "municipio_detección": "Calixto García",
+                        "provincia_detección": "Holguín",
+                        "dpacode_municipio_deteccion": "32.07",
+                        "dpacode_provincia_deteccion": "32",
+                        "enfermedades": [
+                            "ci"
+                        ],
+                        "texto": "Ciudadano cubano, de 76 años de edad. Municipio Calixto García. Provincia Holguín. Antecedentes patológicos personales: cardiopatía Isquémica. Estadía hospitalaria: 4 días.  Hizo parada cardíaca en asistolia, fueron realizadas maniobras de reanimación cardiopulmonar que no son efectivas."
                     }
                 ]
             }
