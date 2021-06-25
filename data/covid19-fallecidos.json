@@ -22399,7 +22399,7 @@
                         "municipio_detección": "Morón",
                         "provincia_detección": "Ciego de Ávila",
                         "dpacode_municipio_deteccion": "29.02",
-                        "dpacode_provincia_deteccion": "20",
+                        "dpacode_provincia_deteccion": "29",
                         "enfermedades": [],
                         "texto": "Ciudadano cubano de 53 años de edad. Municipio Morón. Provincia Ciego de Ávila. Antecedentes patológicos personales: Sano. Estadía hospitalaria: 14 días. Hizo parada cardíaca en asistolia. Fueron realizadas maniobras de reanimación cardiopulmonar, que no resultaron efectivas."
                     },
@@ -22411,7 +22411,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Nuevitas",
                         "provincia_detección": "Camagüey",
-                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_municipio_deteccion": "30.05",
                         "dpacode_provincia_deteccion": "30",
                         "enfermedades": [
                             "ob"
@@ -22426,7 +22426,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Nuevitas",
                         "provincia_detección": "Camagüey",
-                        "dpacode_municipio_deteccion": "30.08",
+                        "dpacode_municipio_deteccion": "30.05",
                         "dpacode_provincia_deteccion": "30",
                         "enfermedades": [
                             "ci",
