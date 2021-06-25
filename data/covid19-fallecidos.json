@@ -22211,8 +22211,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Guantánamo",
                         "provincia_detección": "Guantánamo",
-                        "dpacode_municipio_deteccion": "34.09",
-                        "dpacode_provincia_deteccion": "34",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
                         "enfermedades": [
                             "ha"
                         ],
