@@ -22722,7 +22722,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "La Habana Vieja",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "23.14",
+                        "dpacode_municipio_deteccion": "23.04",
                         "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ci",
@@ -22783,7 +22783,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 65,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "Artemisa",
                         "provincia_detección": "Artemisa",
                         "dpacode_municipio_deteccion": "22.09",
