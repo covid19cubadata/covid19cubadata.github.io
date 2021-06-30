@@ -23145,8 +23145,8 @@
                         "sexo": "mujer",
                         "municipio_detección": "Guantánamo",
                         "provincia_detección": "Guantánamo",
-                        "dpacode_municipio_deteccion": "31.05",
-                        "dpacode_provincia_deteccion": "31",
+                        "dpacode_municipio_deteccion": "35.09",
+                        "dpacode_provincia_deteccion": "35",
                         "enfermedades": [
                             "ha",
                             "dv",
@@ -23266,7 +23266,7 @@
                         "municipio_detección": "Diez de Octubre",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.09",
-                        "dpacode_provincia_deteccion": "29",
+                        "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ha",
                             "dm",
@@ -23301,7 +23301,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Mantua",
                         "provincia_detección": "Pinar del Río",
-                        "dpacode_municipio_deteccion": "21.08",
+                        "dpacode_municipio_deteccion": "21.02",
                         "dpacode_provincia_deteccion": "21",
                         "enfermedades": [
                             "ha",
