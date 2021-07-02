@@ -24066,7 +24066,7 @@
                         "municipio_detección": "Güines",
                         "provincia_detección": "Mayabeque",
                         "dpacode_municipio_deteccion": "24.08",
-                        "dpacode_provincia_deteccion": "25",
+                        "dpacode_provincia_deteccion": "24",
                         "enfermedades": [
                             "dm",
                             "ar"
@@ -24113,7 +24113,7 @@
                         "pais": "cu",
                         "edad": 58,
                         "sexo": "hombre",
-                        "municipio_detección": "Matanzas",
+                        "municipio_detección": "Cárdenas",
                         "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.02",
                         "dpacode_provincia_deteccion": "25",
@@ -24162,7 +24162,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Artemisa",
                         "provincia_detección": "Artemisa",
-                        "dpacode_municipio_deteccion": "22.08",
+                        "dpacode_municipio_deteccion": "22.09",
                         "dpacode_provincia_deteccion": "22",
                         "enfermedades": [
                             "ha",
@@ -24179,8 +24179,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Santiago de Cuba",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "33.06",
-                        "dpacode_provincia_deteccion": "33",
+                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha"
                         ],
