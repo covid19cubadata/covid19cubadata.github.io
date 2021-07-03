@@ -1,0 +1,425 @@
+[
+% de Tests Positivos en el Día
+Parte de cierre del día 2 de julio a las 12 de la noche
+POR REDACCIÓN MINSAP · PUBLICADA 3 JULIO 2021 · ACTUALIZADO 3 JULIO 2021
+
+
+Al cierre del día de ayer, 2 de julio, se encuentran ingresados 44 mil 972 pacientes, sospechosos 11 mil 513, en vigilancia 15 mil 011 y confirmados activos 18 mil 448.
+
+Para COVID-19 se estudiaron 34 mil 849 muestras, resultando 3 mil 475 muestras positivas. El país acumula 5 millones 220 mil 135 muestras realizadas y 200 mil 728 positivas.
+
+Del total de casos (3 mil 475): 3 mil 289 fueron contactos de casos confirmados; 90 con fuente de infección en el extranjero; 96 sin fuente de infección precisada. De los 3 mil 475 casos diagnosticados, fueron del sexo femenino 1 796 y del sexo masculino 1 679.
+
+El 25.5% (887) de los 3475 casos positivos fueron asintomáticos, acumulándose un total de 88 mil 839 que representa el 44, 3% de los confirmados hasta la fecha.
+
+Los 3475 casos diagnosticados pertenecen a los grupos de edad: menores de 20 años (637), de 20 a 39 años, (1078), de 40 a 59 años (1170) y más de 60 (590).
+
+
+Residencia por provincia y municipios de los casos confirmados:
+
+Pinar del Río: 225 casos
+
+Consolación del Sur: 34 (33 contactos de casos confirmados y 1 importado).
+Guane: 11 (contactos de casos confirmados).
+La Palma: 7 (contactos de casos confirmados).
+Los Palacios: 13 (contactos de casos confirmados).
+Mantua: 21 (contactos de casos confirmados).
+Minas de Matahambre: 3 (contactos de casos confirmados).
+Pinar del Río: 85 (contactos de casos confirmados).
+San Juan y Martínez: 11 (10 contactos de casos confirmados y 1 sin fuente de infección precisada).
+San Luis: 10 (9 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Sandino: 20 (contactos de casos confirmados).
+Viñales: 10 (contactos de casos confirmados).
+Artemisa: 96 casos
+
+Alquízar: 4 (contactos de casos confirmados).
+Artemisa: 16 (13 contactos de casos confirmados, 1 importado y 2 sin fuente de infección precisada).
+Bauta: 8 (contactos de casos confirmados).
+Caimito: 14 (contactos de casos confirmados).
+Candelaria: 1 (contacto de caso confirmado).
+Guanajay: 9 (contactos de casos confirmados).
+Güira de Melena: 10 (9 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Mariel: 16 (contactos de casos confirmados).
+San Antonio de los Baños: 8 (contactos de casos confirmados).
+San Cristóbal: 10 (contactos de casos confirmados).
+La Habana: 426 casos
+
+Diez de Octubre: 65 (63 contactos de casos confirmados y 2 importados).
+Arroyo Naranjo: 39 (37 contactos de casos confirmados y 2 importados).
+Boyeros: 35 (31 contactos de casos confirmados y 4 importados).
+Centro Habana: 35 (32 contactos de casos confirmados y 3 importados).
+Cerro: 31 (28 contactos de casos confirmados y 3 importados).
+Cotorro: 21 (contactos de casos confirmados).
+Guanabacoa: 6 (4 contactos de casos confirmados y 2 importados).
+Habana Vieja: 19 (16 contactos de casos confirmados y 3 importados).
+Habana del Este: 17 (contactos de casos confirmados).
+La Lisa: 32 (31 contactos de casos confirmados y 1 importado).
+Marianao: 39 (38 contactos de casos confirmados y 1 importado).
+Playa: 37 (36 contactos de casos confirmados y 1 importado).
+Plaza de la Revolución: 25 (22 contactos de casos confirmados y 3 importados).
+Regla: 5 (contactos de casos confirmados).
+San Miguel del Padrón: 20 (15 contactos de casos confirmados y 5 importados).
+Mayabeque: 164 casos
+
+Batabanó: 14 (13 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Bejucal: 4 (contactos de casos confirmados).
+Güines: 43 (29 contactos de casos confirmados y 14 sin fuente de infección precisada).
+Jaruco: 12 (11 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Madruga: 5 (contactos de casos confirmados).
+Melena del Sur: 11 (10 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Nueva Paz: 4 (3 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Quivicán: 6 (contactos de casos confirmados).
+San José de Las Lajas: 47 (34 contactos de casos confirmados y 13 sin fuente de infección precisada).
+San Nicolás de Bari: 4 (contactos de casos confirmados).
+Santa Cruz del Norte: 14 (contactos de casos confirmados).
+Matanzas: 971 casos
+
+Calimete: 18 (contactos de casos confirmados).
+Cárdenas: 308 (306 contactos de casos confirmados y 2 importados).
+Colón: 129 (contactos de casos confirmados).
+Jagüey Grande: 6 (contactos de casos confirmados).
+Jovellanos: 78 (75 contactos de casos confirmados y 3 importados).
+Limonar: 123 (contactos de casos confirmados).
+Los Arabos: 5 (contactos de casos confirmados).
+Martí: 6 (contactos de casos confirmados).
+Matanzas: 244 (contactos de casos confirmados).
+Pedro Betancourt: 5 (contactos de casos confirmados).
+Perico: 5 (contactos de casos confirmados).
+Unión De Reyes: 44 (contactos de casos confirmados).
+Cienfuegos: 87 casos
+
+Abreus: 4 (contactos de casos confirmados).
+Aguada de Pasajeros: 3 (contactos de casos confirmados).
+Cienfuegos: 31 (30 contactos de casos confirmados y 1 importado).
+Cruces: 9 (7 contactos de casos confirmados y 2 sin fuente de infección precisada).
+Cumanayagua: 8 (6 contactos de casos confirmados y 2 importados).
+Lajas: 21 (20 contactos de casos confirmados y 1 importado).
+Palmira: 10 (contactos de casos confirmados).
+Rodas: 1 (contacto de caso confirmado).
+Villa Clara: 101 casos
+
+Caibarién: 3 (2 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Camajuaní: 6 (contactos de casos confirmados).
+Cifuentes: 4 (contactos de casos confirmados).
+Corralillo: 7 (contactos de casos confirmados).
+Encrucijada: 4 (3 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Manicaragua: 8 (7 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Placetas: 3 (contactos de casos confirmados).
+Quemado de Güines: 4 (contactos de casos confirmados).
+Ranchuelo: 8 (7 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Remedios: 1 (contacto de caso confirmado).
+Sagua La Grande: 31 (contactos de casos confirmados).
+Santa Clara: 19 (contactos de casos confirmados).
+Santo Domingo: 3 (contactos de casos confirmados).
+Sancti Spíritus: 321 casos
+
+Cabaiguán: 24 (23 contactos de casos confirmados y 1 importado).
+Fomento: 12 (11 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Jatibonico: 8 (4 contactos de casos confirmados, 3 importados y 1 sin fuente de infección precisada).
+La Sierpe: 4 (contactos de casos confirmados).
+Sancti Spíritus: 242 (237 contactos de casos confirmados, 2 importados y 3 sin fuente de infección precisada).
+Taguasco: 6 (contactos de casos confirmados).
+Trinidad: 21 (18 contactos de casos confirmados y 3 sin fuente de infección precisada).
+Yaguajay: 4 (contactos de casos confirmados).
+Ciego de Ávila: 130 casos
+
+Bolivia: 6 (5 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Ciego de Ávila: 54 (contactos de casos confirmados).
+Ciro Redondo: 6 (contactos de casos confirmados).
+Majagua: 3 (contactos de casos confirmados).
+Morón: 52 (contactos de casos confirmados).
+Primero de Enero: 1 (contacto de caso confirmado).
+Venezuela: 8 (contactos de casos confirmados).
+Camagüey: 347 casos
+
+Camagüey: 138 (129 contactos de casos confirmados y 9 importados).
+Céspedes: 68 (contactos de casos confirmados).
+Esmeralda: 5 (contactos de casos confirmados).
+Florida: 62 (61 contactos de casos confirmados y 1 importado).
+Guáimaro: 7 (5 contactos de casos confirmados y 2 sin fuente de infección precisada).
+Jimaguayú: 20 (contactos de casos confirmados).
+Minas: 5 (4 contactos de casos confirmados y 1 sin fuente de infección precisada).
+Nuevitas: 13 (contactos de casos confirmados).
+Sibanicú: 7 (contactos de casos confirmados).
+Sierra de Cubitas: 9 (contactos de casos confirmados).
+Santa Cruz del Sur: 2 (contactos de casos confirmados).
+Vertientes: 11 (8 contactos de casos confirmados y 3 importados).
+Las Tunas: 65 casos
+
+Amancio: 1 (contacto de caso confirmado).
+Colombia: 18 (contactos de casos confirmados).
+Jobabo: 3 (contactos de casos confirmados).
+Majibacoa: 1 (contacto de caso confirmado).
+Manatí: 1 (contacto de caso confirmado).
+Las Tunas: 41 (39 contactos de casos confirmados y 2 sin fuente de infección precisada).
+Granma: 81 casos
+
+Bartolomé Masó: 2 (contactos de casos confirmados).
+Bayamo: 30 (contactos de casos confirmados).
+Buey Arriba: 5 (contactos de casos confirmados).
+Cauto Cristo: 2 (contactos de casos confirmados).
+Guisa: 6 (contactos de casos confirmados).
+Jiguaní: 4 (contactos de casos confirmados).
+Manzanillo: 17 (16 contactos de casos confirmados y 1 importado).
+Media Luna: 1 (contacto de caso confirmado).
+Niquero: 10 (contactos de casos confirmados).
+Río Cauto: 3 (contactos de casos confirmados).
+Yara: 1 (contacto de caso confirmado).
+Holguín: 141 casos
+
+Banes: 2 (contactos de casos confirmados).
+Cacocum: 3 (importados).
+Calixto García: 1 (sin fuente de infección precisada).
+Frank País: 1 (sin fuente de infección precisada).
+Gibara: 13 (11 contactos de casos confirmados, 1 importado y 1 sin fuente de infección precisada).
+Holguín: 86 (48 contactos de casos confirmados, 16 importados y 22 sin fuente de infección precisada).
+Mayarí: 6 (5 contactos de casos confirmados y 1 importado).
+Moa: 25 (contactos de casos confirmados).
+Sagua de Tánamo: 4 (contactos de casos confirmados).
+Santiago de Cuba: 273 casos
+
+Contramaestre: 33 (contactos de casos confirmados).
+Guamá: 33 (contactos de casos confirmados).
+Mella: 4 (contactos de casos confirmados).
+Palma Soriano: 47 (38 contactos de casos confirmados y 9 sin fuente de infección precisada).
+San Luis: 1 (contacto de caso confirmado).
+Santiago de Cuba: 124 (119 contactos de casos confirmados y 5 sin fuente de infección precisada).
+Segundo Frente: 1 (contacto de caso confirmado).
+Songo La Maya: 30 (contactos de casos confirmados).
+Guantánamo: 46 casos
+
+Baracoa: 2 (contactos de casos confirmados).
+El Salvador: 2 (contactos de casos confirmados).
+Guantánamo: 35 (29 contactos de casos confirmados y 6 importados).
+Maisí: 1 (sin fuente de infección precisada).
+Manuel Tames: 2 (1 contacto de caso confirmado y 1 importado).
+Niceto Pérez: 4 (contactos de casos confirmados).
+Municipio Especial Isla de La Juventud: 1 (importado).
+
+
+De los 200 mil 728 pacientes diagnosticados con la enfermedad, se mantienen ingresados 18 mil 448, de ellos 18 mil 248 con evolución clínica estable. Se acumulan mil 337 fallecidos (15 en el día), dos evacuados, 54 retornados a sus países, en el día hubo 2 mil 446 altas, se acumulan 180 mil 887 pacientes recuperados (90,1%). Se atienden en las terapias intensivas 200 pacientes confirmados de ellos 72 críticos y 128 graves.
+
+Pacientes en estado crítico:
+
+Ciudadano cubano, de 51 años de edad. Municipio Caimito. Provincia Artemisa. Reporte de crítico estable.
+Ciudadano cubano, de 54 años de edad. Municipio   Marianao. Provincia La Habana. PCR evolutivo, negativo. Reporte de   crítico inestable.
+Ciudadano cubano, de 53 años de edad. Municipio Playa. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítico estable.
+Ciudadana cubana, de 69 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítica inestable.
+Ciudadana cubana, de 51 años de edad. Municipio Cotorro. Provincia La Habana. PCR evolutivo, negativo.Reporte de crítica estable.
+Ciudadana cubana, de 74 años de edad. Municipio Guanabacoa. Provincia La Habana. Reporte de crítica estable.
+Ciudadano cubano, de 76 años de edad.Municipio Plaza de la Revolución. Provincia La Habana. Reporte de crítico inestable.
+Ciudadano cubano y, de 48 años de edad. Municipio Luyanó.  Provincia La Habana. Reporte de crítico inestable.
+Ciudadana cubana, de 75 años de edad. Municipio San Miguel del Padrón.  Provincia La Habana. Reporte de crítica estable.
+Ciudadana cubana, de 46 años de edad. Municipio Habana del Este. Provincia La Habana. Reporte de crítica estable.
+Ciudadano cubano, de 75 años de edad.Municipio Playa. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítica estable.
+Ciudadana cubana, de 79 años de edad. Municipio San Miguel del Padrón. Provincia La Habana. Reporte de crítica estable
+Ciudadana cubana, de 77 años de edad. Municipio Guanabacoa Provincia La Habana. PCR evolutivo, negativo. Reporte de crítica estable.
+Ciudadana cubana, de 80 años de edad. Municipio Güines. Provincia Mayabeque. Reporte de crítica estable.
+Ciudadano cubano, de 55 años de edad. Municipio Caimito. Provincia Artemisa. Reporte de crítico estable.
+Ciudadano cubano, de 57 años de edad. Municipio Habana Vieja. Provincia La Habana. Reporte de crítica inestable.
+, de 78 años de edad. Municipio San Cristóbal Provincia Artemisa.Reporte de crítico estable.
+Ciudadano cubano, de 78 años de edad. Municipio Guanabacoa. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítico inestable.
+, de 67 años de edad. Municipio Cotorro. Provincia La Habana. Reporte de crítica inestable.
+Ciudadano cubano, de 83 años de edad. Municipio Caimito. Provincia Artemisa. Reporte de crítico estable.
+Ciudadano cubano, de 62 años de edad. Municipio Playa.   Provincia La Habana. PCR evolutivo, negativo. Reporte de crítico inestable.  
+Ciudadano cubano, de 57 años de edad. Municipio La Lisa.   Provincia La Habana. Reporte de crítico estable.
+Ciudadano cubano, de 53 años de edad. Municipio Guanabacoa. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítico inestable.
+Ciudadana cubana, de 65 años de edad. Provincia La Habana. Reporte de crítica estable.
+Ciudadana cubana, de 72 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. Reporte de crítica inestable.
+Ciudadano cubano, de 78 años de edad. Municipio Centro Habana. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítico inestable.    
+Ciudadano cubano, de 56 años de edad. Municipio Arrollo Naranjo. Provincia La Habana.       PCR evolutivo, negativo. Reporte de crítico estable.
+Ciudadano cubano, de 63 años de edad. Municipio Diez de Octubre. Provincia La Habana.    Reporte de crítico inestable.
+Ciudadana cubana, de 60 años de edad. Municipio Cerro. Provincia La Habana. Reporte de crítica estable.
+Ciudadano cubano, de 86 años de edad. Municipio Cerro. Provincia La Habana. Reporte de crítico inestable.
+Ciudadana cubana, de 70 años de edad. Municipio Habana del Este. Provincia La Habana. Reporte de crítica inestable.
+Ciudadano cubano, de 53 años de edad. Municipio Cerro. Provincia La Habana. PCR evolutivo, negativo. Reporte de crítico inestable.
+Ciudadana cubana, de 63 años de edad. Municipio Centro Habana. Provincia La Habana. Reporte de crítica inestable.
+Ciudadano cubano, de 56 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. Reporte de crítico estable.
+Ciudadana cubana, de 56 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. Reporte de crítica estable.
+Ciudadana cubana, de 85 años de edad. Municipio Centro Habana. Provincia La Habana. Reporte de crítica estable. 
+Ciudadano guatemalteco, de 60 años de edad. PCR evolutivo, negativo. Reporte de crítico estable.
+Ciudadano cubano, de 81 de edad. Municipio Bahía Honda.  Provincia Artemisa.. Reporte de crítico estable.
+Ciudadana cubana, de 4 años de edad. Provincia Artemisa. Reporte crítica estable.
+Ciudadano cubano, de 58 años de edad. Municipio San José de las Lajas. Provincia Mayabeque. PCR evolutivo, negativo.    Reporte de crítico estable.
+Ciudadano cubano, de 76 años de edad. Municipio Madruga.  Provincia Mayabeque. Reporte de crítico inestable.
+Ciudadano cubano, de 56 años de edad. Municipio Los Arabos. Provincia Matanzas. Reporte de crítico inestable.
+Ciudadana cubana, de 74 años de edad. Provincia Matanzas. Reporte de crítica inestable.
+Ciudadano cubano, de 54 años de edad.Municipio Cárdenas.  Provincia Matanzas. Reporte de crítico inestable.
+Ciudadana cubana, de 47 años de edad. Municipio  y  Provincia Matanzas. Reporte de crítica inestable.
+Ciudadana cubana, de 69 años de edad. Municipio y Provincia Matanzas. Reporte de crítica inestable.
+Ciudadana cubana, de 45  años de edad. Municipio Santa Clara.  Provincia  Villa Clara. Reporte de crítica estable.
+Ciudadano cubano, de 66 años de edad. Municipio Santo Domingo.  Provincia Villa Clara. Reporte de crítico inestable.
+Ciudadano cubano, de 74 años de edad. Municipio Santa Clara.  Provincia Villa Clara. Reporte de crítico estable.
+Ciudadano cubano, de 75 años de edad. Municipio Santa Clara.  Provincia Villa Clara. Reporte de crítico estable.
+Ciudadana cubana, de 66 años de edad.Municipio Sagua La Grande.  Provincia Villa Clara.     Reporte de crítico estable.
+Ciudadana cubana, de 51 años de edad.Municipio Cumanayagua.  Provincia   Cienfuegos. Reporte de  crítica inestable.
+Ciudadano cubano, de 55 años de edad. Municipio  y Provincia   Sancti Spíritus. Reporte de  crítica estable.
+Ciudadano cubano, de 58 años de edad. Municipio  y Provincia   Sancti Spíritus. Reporte de  crítico estable.
+Ciudadano cubano, de 87 años de edad.Municipio  y Provincia   Sancti Spíritus. Reporte de  crítico inestable.
+Ciudadano cubano, de 78 años de edad. Municipio  y Provincia   Sancti Spíritus. Reporte de  crítico estable.
+Ciudadana cubana, 56 años de edad. Municipio Morón. Provincia  Ciego de Ávila. Reporte de crítica estable.
+Ciudadana cubana, 67 años de edad. Municipio y Provincia  Ciego de Ávila. Reporte de crítica estable.
+Ciudadana cubana, de 54 años de edad. Municipio y Provincia Ciego de Ávila. Reporte de crítica estable.
+Ciudadano cubano tos, de 51 años de edad.Municipio y Provincia Camagüey. PCR evolutivo, negativo. Reporte de crítico estable. 
+Ciudadana cubana, de 26 años de edad. Municipio y Provincia Camagüey.Reporte de crítica inestable.
+Ciudadano cubano, de 72 años de edad. Municipio y Provincia Camagüey. Reporte de crítico estable.
+Ciudadano cubano, de 56 años de edad. Municipio y Provincia Camagüey. Reporte de crítico estable.    
+Ciudadana cubana, de 30 de  años de edad.Municipio Florida. Provincia Camagüey. Reporte de crítica inestable.
+Ciudadano cubano, de 62 años de edad. Municipio y Provincia Holguín.PCR evolutivo. 26 de junio, negativo. Reporte de crítico estable.
+Ciudadana cubana, de 65 años de edad. Municipio y Provincia Holguín. PCR evolutivo, negativo. Reporte de crítica estable.
+Ciudadana cubana, de 45 años de edad. Municipio y Provincia Santiago de Cuba. PCR evolutivos, negativos. Reporte de crítica estable.
+Ciudadano cubano, de 69 años de edad. Municipio Palma Soriano. Provincia Santiago de Cuba. Reporte de crítico estable.
+Ciudadana cubana, de 53 años de edad. Municipio y Provincia Santiago de Cuba. Reporte de crítica estable.
+Ciudadano cubano, de 54 años de edad. Municipio Palma Soriano. Provincia Santiago de Cuba. PCR evolutivo, negativo.Reporte de crítica estable.
+Ciudadano cubano, de 48 años de edad. Municipio y Provincia Santiago de Cuba. PCR evolutivo, negativo. Reporte de crítico inestable.
+Ciudadana cubana, de 39 años de edad. Municipio y Provincia Guantánamo. Reporte de crítica inestable.
+Pacientes en estado grave:
+
+Ciudadano cubano, de 48 años de edad. Municipio y Provincia Pinar del Río. Reporte de grave.
+Ciudadana cubana, de 80 años de edad. Municipio y Provincia Pinar del Río. Reporte de grave.
+Ciudadano cubano, de 48 años de edad. Municipio y Provincia Pinar del Río. Reporte de grave.
+Ciudadana cubana, de 59 años de edad. Municipio y Provincia Pinar del Río. Reporte de grave.
+Ciudadana cubana, de 57 años de edad. Provincia Artemisa. Reporte de grave.
+Ciudadana cubana, de 86 años de edad. Provincia Artemisa. Reporte de grave.
+Ciudadana cubana, de 65 años de edad. Provincia Artemisa. Reporte de grave.
+Ciudadano cubano, de 65 años de edad. Municipio y Provincia Artemisa. Reporte de grave.
+Ciudadano cubano, de 56 años de edad. Municipio Diez de Octubre. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 65 años de edad. Municipio  Diez  de Octubre.   Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 40 años de edad. Municipio Habana del Este. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 79 años de edad. Provincia Artemisa. Reporte de grave.
+Ciudadana cubana, de 56 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. PCR evolutivo, negativo.Reporte de grave.
+Ciudadana cubana, de 84 años de edad.  Municipio Marianao. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 60 años de edad. Municipio Centro Habana. Provincia La Habana Reporte de grave.
+Ciudadano cubano, de 55 años de edad. Municipio Playa.  Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 46 años de edad. Municipio Diez de Octubre. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 35 años de edad. Municipio Cotorro. Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 51 años de edad. Municipio  San Miguel del Padrón. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 91 años de edad.  Municipio La Lisa. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 85  años de edad. Municipio La Lisa. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 52 años de edad. Municipio Arroyo Naranjo. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 53 años de edad. Municipio Arroyo Naranjo. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 84 años de edad. Municipio Plaza de la Revolución Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 34 años de edad.  Municipio San José de las Lajas Provincia Mayabeque. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 63 años de edad. Municipio Diez  de Octubre.  Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 68 años de edad. Municipio Cárdenas. Provincia Matanzas. Reporte de grave.
+Ciudadana cubana, de 31 años de edad. Municipio y Provincia Pinar del Río. Reporte de grave.
+Ciudadano cubano, de 81 años de edad. Municipio Playa. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 85 años de edad. Municipio Boyeros. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 92 años de edad. Municipio Boyeros. Provincia La Habana.Reporte de grave.
+Ciudadano cubano, de 19 años de edad. Municipio La Lisa. Provincia La Habana.PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 55 años de edad.Municipio Madruga Provincia Mayabeque. Reporte de grave.
+Ciudadano cubano, de 77 años de edad. Municipio Diez de Octubre.  Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 84 años de edad. Municipio Playa Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 78 años de edad. Municipio Bauta.  Provincia Artemisa.  PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 72 años de edad. Municipio Playa.  Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 76 años de edad.Municipio Diez de Octubre. Provincia La Habana.PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 71 años de edad. Municipio San Cristóbal. Provincia Artemisa. Reporte de grave.
+Ciudadano cubano, de 53 años de edad. Municipio Arroyo Naranjo. Provincia La Habana. PCR evolutivos, negativos. Reporte de grave.
+Ciudadano cubano, de 68 años de edad. Municipio Regla. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 69 años de edad. Municipio y Provincia Artemisa. Reporte de grave.
+Ciudadano cubano. Municipio Caimito Provincia Artemisa. Reporte de grave.
+Ciudadana cubana, de 64 años de edad. Municipio Diez de octubre.  Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 58 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 83 años de edad. Municipio Cotorro. Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 67 años de edad. Municipio Habana del Este. Provincia La Habana.       Reporte de grave.
+Ciudadano cubano, de 79 años de edad. Municipio Cotorro. Provincia La Habana.       Reporte de grave.
+Ciudadana cubana, de 73 años de edad. Municipio Cotorro. Provincia La Habana. Reporte de  grave.
+Ciudadano cubano, de 72 años de edad. Municipio Centro Habana. Provincia La Habana.       Reporte de grave.
+Ciudadana cubana, de 55 años de edad. Municipio Plaza de la Revolución. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 55 años de edad. Municipio Boyeros. Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 78 años de edad. Municipio Playa. Provincia La Habana. PCR evolutivo, negativo.  Reporte de grave.
+Ciudadano cubano, de 51 años de edad. Municipio Cerro. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 47 años de edad. Municipio Playa. Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 65 años de edad. Municipio Centro Habana. Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 80 años de edad. Municipio Marianao. Provincia La Habana. Reporte de grave.
+Ciudadana cubana, de 70 años de edad. Municipio Regla. Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 52 años de edad. Municipio Diez  de Octubre. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 75 años de edad. Municipio Cotorro. Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 74 años de edad.Municipio Marianao. Provincia La Habana.Reporte de grave.
+Ciudadano cubano, de 56 años de edad. Municipio San José de las Lajas. Provincia Mayabeque. Reporte de grave.
+Ciudadana cubana, de 43 años de edad. Municipio San Miguel del Padrón. Provincia   La Habana. Reporte de grave.
+Ciudadano cubano, de 74 años de edad. Municipio Centro Habana. Provincia   La Habana. PCR evolutivo, negativo.Reporte de grave.
+Ciudadano cubano, de 83 años de edad. Municipio  La Lisa. Provincia   La Habana. Reporte de grave.
+Ciudadano cubano, de 2 meses de edad. Municipio Mariel. Provincia Artemisa. Reporte de grave.
+Ciudadano cubano, de 1 año de edad. Municipio Arroyo Naranjo. Provincia La Habana. Reporte grave.
+Ciudadano cubano, de 15 años de edad. Municipio Cerro.  Provincia La Habana. Reporte de grave.
+Ciudadano cubano, de 29 días de edad. Municipio Diez de Octubre.   Provincia La Habana. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 75 años de edad. Municipio  Güines. Provincia   La Habana. Reporte de grave.
+Ciudadana cubana, de 49 años de edad. Municipio  y  Provincia Matanzas. Reporte de grave.
+Ciudadana cubana, de 57 años de edad. Municipio Limonar.  Provincia Matanzas. Reporte de grave.
+Ciudadano cubano, de 88 años de edad. Municipio Bolondrón.  Provincia Matanzas. Reporte de grave.
+Ciudadana cubana de 60 años de edad. Municipio Arabos.  Provincia Matanzas. Reporte de grave.
+Ciudadano cubano. Municipio Colón.  Provincia Matanzas. Reporte de grave.
+Ciudadano cubano, de 51 años de edad. Municipio Cárdenas. Provincia Matanzas. Reporte de grave.
+Ciudadano cubano, de 72 años de edad. Municipio Cárdenas. Provincia Matanzas. Reporte de grave.
+Ciudadano cubano, de68 años de edad.Municipio Perico. Provincia Matanzas. Reporte de grave.
+Ciudadana cubana, de 73 años de edad. Municipio Sagua La Grande.  Provincia  Villa Clara. Reporte de  grave.
+Ciudadana cubana,  de 55 de edad. Provincia Cienfuegos. Reporte de  grave.
+Ciudadana cubana, de 31 años de edad. Municipio y Provincia   Cienfuegos. Reporte de  grave.
+Ciudadana cubana, de 66 años de edad. Municipio  y Provincia Cienfuegos. Reporte de  grave.
+Ciudadana cubana, de 44 años de edad. Municipio y Provincia Cienfuegos. Reporte de  grave.
+Ciudadana cubana, de 49 años de edad. Municipio y Provincia Cienfuegos. Reporte de grave.
+Ciudadana cubana, de 54 años de edad. Municipio y Provincia Cienfuegos. Reporte de  grave.
+Ciudadana cubana, de38 años de edad. Municipio y Provincia Ciego de Ávila. Reporte de grave.
+Ciudadano cubano, 45 años de edad. Municipio y Provincia Ciego de Ávila. Reporte de grave.
+Ciudadana cubana, de 34 años de edad. Municipio y Provincia Ciego de Ávila. Reporte de grave.
+Ciudadano cubano, de 50 años de edad. Municipio y Provincia Camagüey. Reporte de grave.
+Ciudadano cubano, de 55 años de edad. Municipio Nuevitas. Provincia Camagüey. Reporte de grave.
+Ciudadana cubana, de 83 años de edad. Municipio y Provincia Camagüey. Reporte de grave.
+Ciudadano cubano, de 79 años de edad. Municipio y Provincia Camagüey. Reporte de grave.
+Ciudadano cubano, de 81 años de edad.Municipio y Provincia Camagüey. Reporte de grave.
+Ciudadana cubana, de 52 de  años de edad.Municipio  y Provincia Camagüey.Reporte de grave.
+Ciudadana cubana, de 43 de años de edad. Municipio Florida  y Provincia Camagüey. Reporte de grave.
+Ciudadano cubano, de 60 años de edad. Municipio Florida y Provincia Camagüey. Reporte de grave.
+Ciudadano cubano, de44 de años de  edad.Provincia Camagüey. Reporte de grave.
+Ciudadano cubano, de 65 de   años de  edad. Provincia Camagüey. Reporte de grave.
+Ciudadana cubana, de 68 años de edad.Municipio Manzanillo.  Provincia Granma. Reporte de grave.
+Ciudadano cubano, de 74 años de edad.Municipio Bayamo.  Provincia Granma. Reporte de grave.
+Ciudadano cubano, de 35 años de edad.Municipio Manzanillo. Provincia Granma. Reporte de grave.
+Ciudadana cubana, de 92 años de edad. Municipio y Provincia Holguín.Reporte de grave.
+Ciudadano cubano, de 64 años de edad. Municipio y Provincia Holguín. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 71 años de edad. Municipio y Provincia Holguín. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 52 años de edad. Municipio y Provincia Holguín. PCR evolutivo, negativo. Reporte de grave.
+Ciudadana cubana, de 53 años de edad.Municipio y Provincia Holguín.PCR evolutivo, negativo.Reporte de grave.
+Ciudadana cubana, de 59 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadana cubana, de 58 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadano cubano, de 44 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadana cubana, de 53 años de edad.  Municipio y Provincia Holguín. Reporte de grave.
+Ciudadano cubano, de 39 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadana cubana rez, de 69 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadana cubana, de 60 años de edad. Municipio Cueto Provincia Holguín. Reporte de grave.
+Ciudadano cubano, de 50 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadana cubana, de 83 años de edad. Municipio y Provincia Holguín. Reporte de grave.
+Ciudadano cubano, de 76 años de edad. Municipio y Provincia Santiago de Cuba.       Reporte de grave.
+Ciudadana cubana, de 44 años de edad. Municipio Songo La Maya. Provincia Santiago de Cuba. PCR evolutivo, negativo. Reporte de grave
+Ciudadano cubano, de 70 años de edad. Municipio y Provincia Santiago de Cuba. Reporte de grave.
+Ciudadana cubana, de 79 años de edad. Municipio Palma Soriano.  Provincia Santiago de Cuba. Reporte de grave.
+Ciudadano cubano, de 53 años de edad. Municipio y Provincia Santiago de Cuba. Reporte de grave.
+Ciudadana cubana, de 48 años de edad. Municipio y Provincia Santiago de Cuba. Reporte de grave.
+Ciudadano cubano, 21 años de edad. Municipio y Provincia Santiago de Cuba. PCR evolutivo, negativo. Reporte de grave.
+Ciudadano cubano, de 72 años de edad. Municipio y Provincia Santiago de Cuba. Reporte de grave.
+Ciudadano cubano, de 63 años de edad. Municipio y Provincia Santiago de Cuba. Reporte de grave.
+Ciudadana cubana, de 93 años de edad. Municipio y Provincia Guantánamo. Reporte de grave.
+Ciudadano cubano, de 61 años de edad. Municipio  y Provincia Guantánamo. Reporte de grave.
+Ciudadano cubano, de 61 años de edad.Municipio Baracoa.Provincia Guantánamo. Reporte de grave.
+Ciudadano cubano, de 32 años de edad. Municipio y Provincia Guantánamo. Reporte de grave.
+Pacientes fallecidos:
+
+Ciudadana cubana de 91 años. Municipio Batabanó. Provincia Mayabeque. Antecedentes Patológicos Personales: Diabetes Mellitus tipo 1, Hipertensión arterial, Cardiopatía Isquémica, postrada  y  Miembro inferior izquierdo amputado. Estadía Hospitalaria: 3 días. Presentó parada cardiorrespiratoria que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 80 años. Municipio San José de Las Lajas. Provincia Mayabeque. Antecedentes Patológicos Personales: Hipertensión arterial y Artrosis. Estadía Hospitalaria: 8 días. Hizo parada cardiorrespiratoria que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 55 años. Municipio Limonar. Provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Obesidad Mórbida. Estadía Hospitalaria: 2 días. Hizo evento súbito de asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadano cubano de 81 años. Municipio Jagüey Grande. Provincia Matanzas. Antecedentes Patológicos Personales: Hipertensión Arterial y Cardiopatía Isquémica. Estadía Hospitalaria: 3 días. Presentó disnea súbita, frialdad y cianosis distal, hizo parada cardiaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadano cubano de 57 años. Municipio Cárdenas. Provincia Matanzas. Antecedentes Patológicos Personales: Sano. Estadía Hospitalaria: 12 días. Presentó evento de bradicardia extrema que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadano cubano de 80 años. Municipio Cerro. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía Hospitalaria: 10 días. Presentó evolución desfavorable, hipoxémica, en shock y posteriormente hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadano cubano de 76 años. Municipio y Provincia Guantánamo. Antecedentes Patológicos Personales: Hipertensión Arterial, Cardiopatía Isquémica y obesidad. Estadía Hospitalaria: 4 días. Presentó inestabilidad hemodinámica. Hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadano cubano de 91 años. Provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía Hospitalaria: 11 días. Presentó agravamiento clínico, radiológico y gasométrico, con caída de la presión arterial que no responde a minas vasoactivas, posteriormente hizo parada cardiaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadano cubano de 53 años. Municipio Vertientes. Provincia Camagüey. Antecedentes Patológicos Personales: Hipertensión Arterial. Estadía Hospitalaria: 10 días. Presentó inestabilidad hemodinámica, con hipoxemia refractaria a las estrategias de ventilación, posteriormente hizo parada cardíaca que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 100 años. Municipio y Provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión arterial, Diabetes Mellitus. Estadía Hospitalaria: 8 días. Presentó inestabilidad hemodinámica. Hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 83 años. Municipio y Provincia Sancti Spíritus. Antecedentes Patológicos Personales: Hipertensión Arterial, Obesidad. Estadía Hospitalaria: 5 días. Fue intubada, ventilada y apoyada con aminas. Posteriormente hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 66 años. Municipio Contramaestre. Provincia Santiago de Cuba. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Enfermedad Renal Crónica. Estadía Hospitalaria: 5 días. Hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 81 años. Municipio Marianao. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial y Enfermedad Cerebro Vascular. Estadía Hospitalaria: 5 días. Presentó inestabilidad hemodinámica. Hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 86 años. Municipio La Lisa. Provincia La Habana. Antecedentes Patológicos Personales: Hipertensión Arterial, Diabetes Mellitus y Cardiopatía Isquémica, Enfermedad cerebro Vascular. Estadía Hospitalaria: 13 días. Presentó hipoxemia mantenida, en shock anuria, sin respuesta la terapéutica empleada, posteriormente hizo parada cardíaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Ciudadana cubana de 54 años. Provincia Camagüey. Antecedentes Patológicos Personales: Obesidad, Insuficiencia Venosa Periférica. Estadía Hospitalaria: 11 días. Presentó desaturación importante, taquicardia e hipotensión arterial, hizo parada cardiaca en asistolia que no responde a las maniobras de reanimación cardiopulmonar. Lamentamos profundamente lo ocurrido y transmitimos nuestras condolencias a familiares y amigos.
+Hasta el 2 de julio se reportan 190 países y 30 territorios con casos de COVID-19, asciende a 183 millones 679 mil 739 los casos confirmados (+ 455 mil 102) con 11 millones 585 mil 331 casos activos y 3 millones 975 mil 536 fallecidos (+ 8 mil 932) para una letalidad de 2,16 (=).
+
+En la región de las Américas se reportan 73 millones 640 mil 429 casos confirmados (+ 169 mil 775), el 40,09 % del total de casos reportados en el mundo, con 7 millones 414 mil 864 casos activos y un millón 927 mil 812 fallecidos (+ 4 mil 663) para una letalidad de 2,62 (=).
