@@ -25110,8 +25110,8 @@
                         "sexo": "mujer",
                         "municipio_detección": "Los Arabos",
                         "provincia_detección": "Matanzas",
-                        "dpacode_municipio_deteccion": "23.13",
-                        "dpacode_provincia_deteccion": "23",
+                        "dpacode_municipio_deteccion": "25.13",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ob",
                             "ha"
