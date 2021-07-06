@@ -25095,8 +25095,8 @@
                         "sexo": "mujer",
                         "municipio_detección": "La Habana Vieja",
                         "provincia_detección": "La Habana",
-                        "dpacode_municipio_deteccion": "30.08",
-                        "dpacode_provincia_deteccion": "30",
+                        "dpacode_municipio_deteccion": "23.04",
+                        "dpacode_provincia_deteccion": "23",
                         "enfermedades": [
                             "ep"
                         ],
