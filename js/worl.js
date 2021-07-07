@@ -558,7 +558,11 @@ function run_calculations() {
     var countrysorted2 = [];
 
     load("data/paises-info-dias.json", function (countriesdays) {
-        load("data/covid19-cuba.json", function (data) {
+        load("data/covid19-cuba.json", function (data1) {
+        load("data/covid19-cuba-1.json", function (data2) {
+            _days = Object.assign({},data1.casos.dias,data2.casos.dias);
+            data1.casos.dias = _days;
+            data = data1;
 
             var dias = ['Días'];
             var cuba = ['Cuba'];
@@ -1323,6 +1327,7 @@ function run_calculations() {
             $datatable.row.add(rowdat);
             $datatable.order([2, 'desc']).draw();
         });
+    });
     });
 }
 

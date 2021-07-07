@@ -450,7 +450,11 @@ function run_calculations() {
   };
 
   $.walker.load('data/oxford-indexes.json', function (oxford_index) {
-    $.walker.load('data/covid19-cuba.json', function (data) {
+    $.walker.load('data/covid19-cuba.json', function (data1) {
+    $.walker.load('data/covid19-cuba-1.json', function (data2) {
+      _days = Object.assign({},data1.casos.dias,data2.casos.dias);
+      data1.casos.dias = _days;
+      data = data1;
       $.walker.load('data/provincias.geojson', function (provincias) {
         $.walker.province.list = provincias;
         pros = $.walker.province.prepare('#location-select');
@@ -1862,8 +1866,14 @@ function run_calculations() {
             }
             $('#stringencycub-idx').html(index_last_value);
 
+
             let index_slice2 = index_days.length - cuba.length - 1;
             index_slice2 = Math.max(index_slice2, 0);
+
+            console.log(['Stringency actual (v2)'].concat(
+              index_values_cuba_all.slice(index_slice2)
+            ));
+
             stringency = c3.generate({
               bindto: '#stringencycub-evol',
               data: {
@@ -2105,6 +2115,8 @@ function run_calculations() {
               columns.push(dailyActive);
             }
 
+            console.log(columns);
+
             c3.generate({
               bindto: '#daily-single-info',
               data: {
@@ -2214,6 +2226,8 @@ function run_calculations() {
               dailyPorcientoPositivoAcumulado,
               dailyPorcientoPositivo,
             ];
+
+            console.log(porciento);
 
             c3.generate({
               bindto: '#daily-porciento-positivos',
@@ -2488,7 +2502,7 @@ function run_calculations() {
             tasacolors[tasasAll[0]] = '#1C1340';
             tasacolors[tasas[0]] = '#B01E22';
 
-            //console.log(dates15,tasas,tasasAll);
+            console.log(dates15,tasas,tasasAll);
 
             c3.generate({
               bindto: '#tasas-info',
@@ -2841,6 +2855,7 @@ function run_calculations() {
           }
         });
       });
+    });
     });
   });
 }
