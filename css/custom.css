@@ -817,3 +817,14 @@ cambiar los sufijos c3-circles-{suffix} por los correctos definidos
 .predictions .c3-chart-lines .c3-circles-Predicción .c3-circle {
   display: none;
 }
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
