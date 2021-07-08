@@ -25798,7 +25798,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 71,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "San José de las Lajas",
                         "provincia_detección": "Mayabeque",
                         "dpacode_municipio_deteccion": "24.02",
@@ -25864,7 +25864,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Palma Soriano",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_municipio_deteccion": "34.07",
                         "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha",
