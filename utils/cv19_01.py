@@ -20,13 +20,19 @@ import time
 
 warnings.filterwarnings('ignore')
 
-def loadjson(jsonfile):
+
+def loadjson(jsonfile, jsonfile2=None):
     with open(jsonfile, 'r', encoding='utf8') as json_file:
         data = json.load(json_file)
+    if jsonfile2:
+        with open(jsonfile2, 'r', encoding='utf8') as json_file:
+            data2 = json.load(json_file)
+        data['casos']['dias'].update(data2['casos']['dias'])
     return data['casos']['dias']
 
-def parsejson(jsonfile):
-    cpd = loadjson(jsonfile)
+
+def parsejson(jsonfile, jsonfile2=None):
+    cpd = loadjson(jsonfile, jsonfile2)
     cv19_cuba = np.zeros((len(cpd), 4))
     cv19_prov = np.zeros((len(cpd), 17))
     cv19_mun = np.zeros((len(cpd), 169))
@@ -341,7 +347,9 @@ def compute():
     BASE_PATH = 'data/predictions'
     os.makedirs(BASE_PATH, exist_ok=True)
     jsonfile = 'data/covid19-cuba.json'
-    cv19_cuba, cv19_prov, pr_map, cv19_mun, mun_map = parsejson(jsonfile)
+    jsonfile2 = 'data/covid19-cuba-1.json'
+    cv19_cuba, cv19_prov, pr_map, cv19_mun, mun_map = parsejson(
+        jsonfile, jsonfile2)
 
     compute_specific(cv19_cuba[:, 0], 'Cuba', 'cuba', BASE_PATH)
 
@@ -367,8 +375,10 @@ class Menu:
     def compute_parallel(self):
         BASE_PATH = 'data/predictions'
         jsonfile = 'data/covid19-cuba.json'
+        jsonfile2 = 'data/covid19-cuba-1.json'
         print('parallel')
-        cv19_cuba, cv19_prov, pr_map, cv19_mun, mun_map = parsejson(jsonfile)
+        cv19_cuba, cv19_prov, pr_map, cv19_mun, mun_map = parsejson(
+            jsonfile, jsonfile2)
         cpu = multiprocessing.cpu_count() // 2
         if cpu == 0:
             cpu = 1
@@ -398,5 +408,5 @@ if __name__ == '__main__':
     fire.Fire(Menu)
 
 
-#if __name__ == '__main__':
+# if __name__ == '__main__':
 #     compute()
