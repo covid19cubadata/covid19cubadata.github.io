@@ -27845,7 +27845,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 70,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "Marianao",
                         "provincia_detección": "La Habana",
                         "dpacode_municipio_deteccion": "23.11",
@@ -28148,8 +28148,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Sancti Spíritus",
                         "provincia_detección": "Sancti Spíritus",
-                        "dpacode_municipio_deteccion": "25.13",
-                        "dpacode_provincia_deteccion": "25",
+                        "dpacode_municipio_deteccion": "28.07",
+                        "dpacode_provincia_deteccion": "28",
                         "enfermedades": [
                             "ha",
                             "rm",
@@ -28245,7 +28245,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Colón",
                         "provincia_detección": "Matanzas",
-                        "dpacode_municipio_deteccion": "25.05",
+                        "dpacode_municipio_deteccion": "25.04",
                         "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ha",
