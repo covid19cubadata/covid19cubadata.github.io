@@ -28381,7 +28381,7 @@
                         "municipio_detección": null,
                         "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "00.00",
-                        "dpacode_provincia_deteccion": "25.01",
+                        "dpacode_provincia_deteccion": "25",
                         "enfermedades": [
                             "ha",
                             "ci",
@@ -28445,7 +28445,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Morón",
                         "provincia_detección": "Ciego de Ávila",
-                        "dpacode_municipio_deteccion": "29.08",
+                        "dpacode_municipio_deteccion": "29.02",
                         "dpacode_provincia_deteccion": "29",
                         "enfermedades": [],
                         "texto": "Ciudadano cubano de 55 años. Municipio Morón. Provincia Ciego de Ávila. Antecedentes Patológicos Personales: Sano. Estadía Hospitalaria: 20 días. Presentó deterioro de la mecánica respiratoria, caída de la saturación de oxígeno, inestabilidad hemodinámica, hace bradicardia extrema, parada cardiaca en asistolia, que no responde a las maniobras de reanimación cardiopulmonar."
@@ -28458,8 +28458,8 @@
                         "sexo": "hombre",
                         "municipio_detección": "Morón",
                         "provincia_detección": "Ciego de Ávila",
-                        "dpacode_municipio_deteccion": "30.02",
-                        "dpacode_provincia_deteccion": "30",
+                        "dpacode_municipio_deteccion": "29.02",
+                        "dpacode_provincia_deteccion": "29",
                         "enfermedades": [
                             "ha"
                         ],
@@ -28549,7 +28549,7 @@
                         "sexo": "hombre",
                         "municipio_detección": "Contramaestre",
                         "provincia_detección": "Santiago de Cuba",
-                        "dpacode_municipio_deteccion": "34.06",
+                        "dpacode_municipio_deteccion": "34.01",
                         "dpacode_provincia_deteccion": "34",
                         "enfermedades": [
                             "ha",
@@ -28563,7 +28563,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 53,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": null,
                         "provincia_detección": "Santiago de Cuba",
                         "dpacode_municipio_deteccion": "00.00",
@@ -28707,7 +28707,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 59,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "municipio_detección": "Limonar",
                         "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.08",
