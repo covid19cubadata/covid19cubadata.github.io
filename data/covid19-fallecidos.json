@@ -29721,7 +29721,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Río Cauto",
                         "provincia_detección": "Granma",
-                        "dpacode_municipio_deteccion": "33.04",
+                        "dpacode_municipio_deteccion": "33.01",
                         "dpacode_provincia_deteccion": "33",
                         "enfermedades": [
                             "ha",
@@ -30013,7 +30013,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Bauta",
                         "provincia_detección": "Artemisa",
-                        "dpacode_municipio_deteccion": "22.07",
+                        "dpacode_municipio_deteccion": "22.05",
                         "dpacode_provincia_deteccion": "22",
                         "enfermedades": [
                             "ha",
