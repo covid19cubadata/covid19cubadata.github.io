@@ -31850,7 +31850,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 84,
-                        "sexo": "mujer",
+                        "sexo": "hombre",
                         "municipio_detección": "Matanzas",
                         "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.01",
@@ -32100,8 +32100,8 @@
                         "sexo": "mujer",
                         "municipio_detección": "Sagua La Grande",
                         "provincia_detección": "Villa Clara",
-                        "dpacode_municipio_deteccion": "27.03",
-                        "dpacode_provincia_deteccion": "27",
+                        "dpacode_municipio_deteccion": "26.03",
+                        "dpacode_provincia_deteccion": "26",
                         "enfermedades": [
                             "ha",
                             "ci"
