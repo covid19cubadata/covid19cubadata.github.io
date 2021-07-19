@@ -32569,7 +32569,7 @@
                         "sexo": "mujer",
                         "municipio_detección": "Ciego de Ávila",
                         "provincia_detección": "Ciego de Ávila",
-                        "dpacode_municipio_deteccion": "29.01",
+                        "dpacode_municipio_deteccion": "29.08",
                         "dpacode_provincia_deteccion": "29",
                         "enfermedades": [
                             "ha",
@@ -33146,7 +33146,7 @@
                         "id_caso": null,
                         "pais": "cu",
                         "edad": 94,
-                        "sexo": "hombre",
+                        "sexo": "mujer",
                         "municipio_detección": "Lajas",
                         "provincia_detección": "Cienfuegos",
                         "dpacode_municipio_deteccion": "27.04",
@@ -33238,7 +33238,7 @@
                         "municipio_detección": null,
                         "provincia_detección": "Holguín",
                         "dpacode_municipio_deteccion": "00.00",
-                        "dpacode_provincia_deteccion": "34",
+                        "dpacode_provincia_deteccion": "32",
                         "enfermedades": [
                             "ha",
                             "gr"
@@ -33503,9 +33503,9 @@
                         "edad": 57,
                         "sexo": "mujer",
                         "municipio_detección": "San José de las Lajas",
-                        "provincia_detección": "Artemisa",
-                        "dpacode_municipio_deteccion": "22.02",
-                        "dpacode_provincia_deteccion": "22",
+                        "provincia_detección": "Mayabeque",
+                        "dpacode_municipio_deteccion": "24.02",
+                        "dpacode_provincia_deteccion": "24",
                         "enfermedades": [
                             "ha",
                             "dm"
