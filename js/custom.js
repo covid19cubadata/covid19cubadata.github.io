@@ -2534,7 +2534,7 @@ function run_calculations() {
               },
               grid: {
                 y: {
-                  lines: alines,
+                  //lines: alines,
                 },
               },
             });
