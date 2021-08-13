@@ -452,7 +452,10 @@ function run_calculations() {
   $.walker.load('data/oxford-indexes.json', function (oxford_index) {
     $.walker.load('data/covid19-cuba.json', function (data1) {
     $.walker.load('data/covid19-cuba-1.json', function (data2) {
+    $.walker.load('data/covid19-cuba-2.json', function (data3) {
       _days = Object.assign({},data1.casos.dias,data2.casos.dias);
+      data1.casos.dias = _days;
+      _days = Object.assign({},data1.casos.dias,data3.casos.dias);
       data1.casos.dias = _days;
       data = data1;
       $.walker.load('data/provincias.geojson', function (provincias) {
@@ -2858,6 +2861,7 @@ function run_calculations() {
     });
     });
   });
+});
 }
 
 $('[data-class]').each(function () {
