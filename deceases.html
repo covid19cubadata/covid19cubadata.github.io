@@ -12,7 +12,8 @@
     <meta http-equiv="pragma" content="no-cache" />
 
     <meta property="og:title" content="Covid19 - Dashboard Cuba" />
-    <meta property="og:description" content="Visualice los datos relacionados con Covid19 en Cuba a partir de la informaci&oacute;n oficial del MINSAP que es reportada al d&iacute;a siguiente." />
+    <meta property="og:description"
+        content="Visualice los datos relacionados con Covid19 en Cuba a partir de la informaci&oacute;n oficial del MINSAP que es reportada al d&iacute;a siguiente." />
     <meta property="og:image" content="http://www.acn.cu/images/2020/ABRIL/0-10-cubadata.jpg" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="website" />
@@ -122,7 +123,8 @@
                                 </div>
                             </div>
                             <div class="map-quote">
-                                * el cuadrado representa a aquellos casos que por distintas razones no tengan localizaci&oacute;n
+                                * el cuadrado representa a aquellos casos que por distintas razones no tengan
+                                localizaci&oacute;n
                                 conocida <br>
                             </div>
                         </div>
@@ -130,27 +132,34 @@
                     </div>
                 </div>
             </div>
-            </div>
         </div>
+    </div>
 
-
+    <div class="card-deck">
+        <section id="casdist" class="card common-bg">
+            <div class="card-header">Evoluci&oacute;n de fallecidos por d&iacute;as</div>
+            <div class="card-body">
+                <div id="daily-single-info"></div>
+            </div>
+        </section>
+    </div>
 
     <div id="line-charts" class="container-fluid">
-		<div class="card-deck card-deck-2">
-			 <section id="casdist" class="card common-bg">
+        <div class="card-deck card-deck-2">
+         <!--    <section id="casdist" class="card common-bg">
                 <div class="card-header">Evoluci&oacute;n de fallecidos por d&iacute;as</div>
                 <div class="card-body">
                     <div id="daily-single-info"></div>
                 </div>
             </section>
 
-			<div class="w-100 d-none d-sm-block d-lg-none"></div>
-			<section id="sexdist" class="card common-bg">
-                        <div class="card-header">Fallecidos por Sexo</div>
-                        <div class="card-body">
-                            <div id="fsex-info"></div>
-                        </div>
-			</section>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <section id="sexdist" class="card common-bg">
+                <div class="card-header">Fallecidos por Sexo</div>
+                <div class="card-body">
+                    <div id="fsex-info"></div>
+                </div>
+            </section>
             <div class="w-100 d-none d-sm-block"></div>
             <section id="agedist" class="card common-bg ">
                 <div class="card-header">Distribuci&oacute;n de fallecidos por rangos etarios</div>
@@ -158,15 +167,15 @@
                     <div id="ages-info"></div>
                 </div>
             </section>
-             <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
             <section id="homdist" class="card common-bg ">
                 <div class="card-header">Fallecidos por nacionalidad</div>
                 <div class="card-body">
                     <div id="countries-info-pie"></div>
                 </div>
             </section>
-			<div class="w-100 d-none d-sm-block"></div>
-			<section id="disdist" class="card common-bg ">
+            <div class="w-100 d-none d-sm-block"></div>
+            <section id="disdist" class="card common-bg ">
                 <div class="card-header">Distribución de la cantidad de antecedentes de enfermedad por fallecido</div>
                 <div class="card-body">
                     <div id="dis-quantity-pie"></div>
@@ -178,7 +187,8 @@
                 <div class="card-body">
                     <div id="dis-bar"></div>
                 </div>
-            </section>
+            </section> -->
+
             <div class="w-100 d-none d-sm-block"></div>
             <section id="topprov" class="card common-bg ">
                 <div class="card-header">Provincias Afectadas</div>
@@ -258,14 +268,14 @@
                 <div class="card-body">
                     <div id="municipalyties-curve"></div>
                 </div>
-         </section>
-           </div>
+            </section>
+        </div>
 
-     <!--  -->
+        <!--  -->
 
     </div>
 
-</div>
+    </div>
     <div id="footer"></div>
 
 
@@ -279,7 +289,7 @@
     <script type="text/javascript" src="js/c3.js"></script>
     <script type="text/javascript" src="js/deceases.js"></script>
     <script type="text/javascript">
-        $("#navbar").load('navbar.html', function(){
+        $("#navbar").load('navbar.html', function () {
             $(".nav-item").removeClass("active");
             $("#fallecidos").addClass("active")
         })
