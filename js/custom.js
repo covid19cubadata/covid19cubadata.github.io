@@ -2871,6 +2871,18 @@ $('[data-class]').each(function () {
 let $cards = $(
   '[data-content=activo],[data-content=fallec],[data-content=evacua],[data-content=recupe],[data-content=nofallecd]'
 ).parent();
+
+function updateCasesLegendCSS(factor, max) {  
+  [0.2, 0.4, 0.6, 0.8, 1].forEach(function (mult, index) {
+    var opacity = logx(factor, (max * factor * mult) / max);
+    $('#cases' + (index + 1)).css(
+      'color',
+      'rgba(176,30,34,' + opacity + ')'
+    );
+  });
+  $('#cases').html(max);
+}
+
 $locator
   .change(function () {
     $.walker.view.update();
@@ -2909,76 +2921,20 @@ $selector.on('change', function (e) {
     0.05;
 
   if (this.value === 'map-pro') {
+
     map_mun.addLayer(geojsonP);
     map_mun.fitBounds(geojsonP.getBounds());
     map_mun.setMaxBounds(geojsonP.getBounds().pad(ratio));
 
-    $('#cases1').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_pros * factor * 0.2) / genInfo.max_pros) +
-        ')'
-    );
-    $('#cases2').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_pros * factor * 0.4) / genInfo.max_pros) +
-        ')'
-    );
-    $('#cases3').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_pros * factor * 0.6) / genInfo.max_pros) +
-        ')'
-    );
-    $('#cases4').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_pros * factor * 0.8) / genInfo.max_pros) +
-        ')'
-    );
-    $('#cases5').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_pros * factor) / genInfo.max_pros) +
-        ')'
-    );
-    $('#cases').html(genInfo.max_pros);
+    updateCasesLegendCSS(factor, genInfo.max_pros);
+
   } else {
+
     map_mun.addLayer(geojsonM);
     map_mun.fitBounds(geojsonM.getBounds());
     map_mun.setMaxBounds(geojsonM.getBounds().pad(ratio));
 
-    $('#cases1').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_muns * factor * 0.2) / genInfo.max_muns) +
-        ')'
-    );
-    $('#cases2').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_muns * factor * 0.4) / genInfo.max_muns) +
-        ')'
-    );
-    $('#cases3').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_muns * factor * 0.6) / genInfo.max_muns) +
-        ')'
-    );
-    $('#cases4').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_muns * factor * 0.8) / genInfo.max_muns) +
-        ')'
-    );
-    $('#cases5').css(
-      'color',
-      'rgba(176,30,34,' +
-        logx(factor, (genInfo.max_muns * factor) / genInfo.max_muns) +
-        ')'
-    );
-    $('#cases').html(genInfo.max_muns);
+    updateCasesLegendCSS(factor, genInfo.max_muns);
+    
   }
 });
