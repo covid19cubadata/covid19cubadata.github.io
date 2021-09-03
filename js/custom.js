@@ -453,9 +453,12 @@ function run_calculations() {
     $.walker.load('data/covid19-cuba.json', function (data1) {
     $.walker.load('data/covid19-cuba-1.json', function (data2) {
     $.walker.load('data/covid19-cuba-2.json', function (data3) {
+    $.walker.load('data/covid19-cuba-3.json', function (data4) {
       _days = Object.assign({},data1.casos.dias,data2.casos.dias);
       data1.casos.dias = _days;
       _days = Object.assign({},data1.casos.dias,data3.casos.dias);
+      data1.casos.dias = _days;
+      _days = Object.assign({},data1.casos.dias,data4.casos.dias);
       data1.casos.dias = _days;
       data = data1;
       $.walker.load('data/provincias.geojson', function (provincias) {
@@ -2261,7 +2264,7 @@ function run_calculations() {
                 },
               },
             });
-
+            console.log(deadsSingle);
             c3.generate({
               bindto: '#daily-deads-info',
               data: {
@@ -2299,7 +2302,7 @@ function run_calculations() {
                 },
               },
             });
-
+            console.log(recoversSingle);
             c3.generate({
               bindto: '#daily-recovers-info',
               data: {
@@ -2860,6 +2863,7 @@ function run_calculations() {
       });
     });
     });
+  });
   });
 });
 }
