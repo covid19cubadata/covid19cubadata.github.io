@@ -488,6 +488,10 @@ body > div {
   height: 25px;
 }
 
+#curves-deaths-normalized {
+  height: 550px;
+}
+
 #replicas {
   text-align: center;
   margin-top: 10px;
